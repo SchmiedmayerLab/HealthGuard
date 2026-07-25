@@ -1,0 +1,23 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+.env
+*serviceAccountKey*.json
+*service-account*.json
+*credentials*.json
+
+.DS_Store
+.idea/
+.vscode/
+*.swp
+
+# Datasets are obtained from their original sources (see README); not redistributed here.
+/testdata/
+
+# Harness outputs, not source.
+/evaluation/runs/
+/pipeline_state/
+/figures/
