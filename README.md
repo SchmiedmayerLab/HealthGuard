@@ -8,9 +8,8 @@ prognosis. From these checks it produces either an autonomously revised answer t
 complete and safer, or a set of flags (unsound or unsafe claims and coverage gaps) that route a
 case to a clinician, or both.
 
-This repository contains the verifier, the evaluation harness used in the accompanying paper,
-the figure-generation code, and the clinician rating form. It does not contain any patient data
-or benchmark corpora; those are obtained from their original sources (see Datasets).
+This repository contains the verifier itself, the evaluation harness used in the accompanying (wip) paper,
+the figure-generation code, and the clinician rating form. The benchmarking data is not included and can be obtained from their original sources (see Datasets).
 
 ## Repository layout
 
@@ -158,13 +157,27 @@ python -m evaluation.livemedbench.paper_figures
 
 `docs/index.html` is a self-contained rating instrument for the blinded clinician validation. It
 uses only in-browser storage and exports each rater's responses as a local JSON download; it makes
-no network requests and needs no backend. To publish it with GitHub Pages, enable Pages for this
-repository and serve from the `docs/` directory. Regenerate it with:
+no network requests and needs no backend. They are served using Github pages.
+
+Regenerate the html using:
 
 ```
 python -m evaluation.livemedbench.make_clinician_form
 ```
 
+## Contributing
+
+Contributions to this project are welcome. Please make sure to read the [contribution guide](https://github.com/SchmiedmayerLab/.github/blob/main/CONTRIBUTING.md) and the [Contributor Covenant Code of Conduct](https://github.com/SchmiedmayerLab/.github/blob/main/CODE_OF_CONDUCT.md) first.
+
+
 ## License
 
-Released under the MIT License. See [LICENSE.md](LICENSE.md).
+This project is licensed under the MIT License. See [Licenses](LICENSES) and [Contributors](CONTRIBUTORS.md) for more information.
+
+
+## Our Research
+
+For more information, visit the [Schmiedmayer Lab GitHub organization](https://github.com/SchmiedmayerLab).
+
+![Stanford and Stanford Medicine logos](https://raw.githubusercontent.com/SchmiedmayerLab/.github/main/assets/stanford-footer-light.png#gh-light-mode-only)
+![Stanford and Stanford Medicine logos](https://raw.githubusercontent.com/SchmiedmayerLab/.github/main/assets/stanford-footer-dark.png#gh-dark-mode-only)
