@@ -211,7 +211,7 @@ footer{position:sticky;bottom:0;background:#fff;border-top:1px solid var(--bd);p
     quality and safety, as you would a trainee's note. Part&nbsp;2 (after the cases) shows single
     statements the system flagged as problematic and asks whether you agree.</p>
     <ul>
-      <li>Plan for roughly <b>2&ndash;4 minutes per case</b>, about 60&ndash;90 minutes in total. Your responses save automatically in this browser, so you can stop and resume at any time.</li>
+      <li>Plan for roughly <b>2 minutes per case</b>, about 60 minutes in total. Your responses save automatically in this browser, so you can stop and resume at any time.</li>
       <li>Please rate each case independently: the cases are unrelated to one another. If you are unsure, use your best clinical judgment and add a note.</li>
       <li>When finished, click <b>Download results</b> and <a href="mailto:goldschmidt@stanford.edu?subject=HealthGuard%20clinician%20review%20results">email us</a> the file.</li>
     </ul>
