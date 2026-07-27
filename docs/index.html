@@ -48,33 +48,32 @@ footer{position:sticky;bottom:0;background:#fff;border-top:1px solid var(--bd);p
 </header>
 <main>
   <div class="intro">
-    <h2>HealthGuard &mdash; blinded clinician review</h2>
-    <p><b>What this is about.</b> AI language models now answer patients' medical questions at a
-    surprisingly high level &mdash; but roughly one answer in four still contains an incorrect or
+    <h2>HealthGuard: clinician review</h2>
+    <p><b>What is this about?</b> AI language models now answer patients' medical questions at a
+    surprisingly high level, but roughly one answer in four still contains an incorrect or
     unsafe statement, and in a real clinic there is no answer key against which to catch that.
     <b>HealthGuard</b> is a research system that tries to close this gap: it takes an AI-drafted
-    answer and audits it against the patient's case &mdash; checking each claim, and checking whether
-    essential management, work-up, and prognosis points are covered &mdash; then either revises the
+    answer and audits it against the patient's case, checking each claim, and checking whether
+    essential management, work-up, and prognosis points are covered. Then HealthGuard either revises the
     answer automatically or flags questionable statements for review by a clinician. Our research
     question is when such a system is safe to act on its own, and when it must defer to a human.</p>
-    <p><b>Why we need your judgment.</b> So far the system has been evaluated at scale by automated
+    <p><b>Why do we need your judgment?</b> So far the system has been evaluated at scale by automated
     graders (other AI models scoring against expert-written rubrics). Those numbers only mean
-    something if they agree with practising clinicians &mdash; in this study, <i>you</i> are the
+    something if they agree with practising clinicians. In this study, <i>you</i> are the
     reference standard. Your blinded ratings tell us whether the automated results reflect genuine
     clinical quality, and they will be reported in aggregate (never individually) in a scientific
     publication.</p>
-    <p><b>Your task.</b> Each case below shows a short patient scenario, the patient's question, and
+    <p><b>Your task:</b> Each case below shows a short patient scenario, the patient's question, and
     <b>two candidate answers</b> (Answer&nbsp;A and Answer&nbsp;B). One is an AI model's original
     draft; the other went through HealthGuard's automatic revision. The revision can make an answer
     better <i>or worse</i>, the A/B order is re-randomised for every case, and neither answer is
-    labelled &mdash; so please don't try to guess which is which: simply judge both on clinical
+    labelled, so please don't try to guess which is which: simply judge both on clinical
     quality and safety, as you would a trainee's note. Part&nbsp;2 (after the cases) shows single
     statements the system flagged as problematic and asks whether you agree.</p>
     <ul>
-      <li>These are de-identified cases from a public benchmark &mdash; <b>no PHI</b>, and no real patient's care depends on your ratings.</li>
       <li>Plan for roughly <b>2&ndash;4 minutes per case</b>, about 60&ndash;90 minutes in total. Your responses save automatically in this browser, so you can stop and resume at any time.</li>
-      <li>Please rate each case independently &mdash; the cases are unrelated to one another. If you are unsure, use your best clinical judgment and add a note.</li>
-      <li>When finished, click <b>Download results</b> and email us the file.</li>
+      <li>Please rate each case independently: the cases are unrelated to one another. If you are unsure, use your best clinical judgment and add a note.</li>
+      <li>When finished, click <b>Download results</b> and <a href="mailto:goldschmidt@stanford.edu?subject=HealthGuard%20clinician%20review%20results">email us</a> the file.</li>
     </ul>
     <div class="meta">
       <div><label>Your initials / ID</label><input id="rater_id" oninput="save()"></div>
@@ -85,7 +84,7 @@ footer{position:sticky;bottom:0;background:#fff;border-top:1px solid var(--bd);p
   <div class="card" style="text-align:center">
     <h2 style="margin-top:0">Thank you!</h2>
     <p>That's every case, thank you for lending your clinical expertise. Please click
-    <b>Download results</b> and email us the file. We're very grateful for your time!</p>
+    <b>Download results</b> and <a href="mailto:goldschmidt@stanford.edu?subject=HealthGuard%20clinician%20review%20results">email us</a> the file. We're very grateful for your time!</p>
     <button class="btn" onclick="exportJSON()">Download results</button>
   </div>
 </main>
