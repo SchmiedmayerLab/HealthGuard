@@ -1,14 +1,19 @@
 """Generate a self-contained clinician-rating web form (single HTML file, no server) for the
 blind clinical validation of HealthGuard.
 
+Cardiovascular study: cases are the cardiology subset (select_cardio.py) so our cardiologist
+raters are the right reference standard. All three arms draw from the same 21 contamination-free
+cardiovascular cases run through the frontier + two local models.
+
 Design: blind pairwise. For each case the rater sees the patient narrative + question and two
 answers (baseline vs HealthGuard, order randomised and blinded) and rates (a) which is clinically
 better and (b) whether either contains an unsafe/incorrect statement. Sampling mixes:
   - EFFICACY cases  : frontier model (gpt-5.4) where HealthGuard raised the rubric score
                       -> tests "do clinicians agree HealthGuard's answer is better?"
-  - SAFETY cases    : local small-model regressions (the harm envelope, including the most
-                      severe regressions) -> tests "do clinicians catch the harm the rubric flagged?"
-Part 2 shows HealthGuard-flagged claims from cases outside the pairwise set -> flag precision.
+  - SAFETY cases    : local small-model regressions (the harm envelope, incl. the catastrophic
+                      negatives) -> tests "do clinicians catch the harm the rubric flagged?"
+Part 2 shows HealthGuard-flagged claims (excluded only when the exact (case_id, model) draft was a
+Part-1 answer, so no flag can unblind Part 1) -> flag precision.
 
 Instrument and sample-size rationale:
   - Pairwise comparative judgment, not per-answer Likert: the estimand is a *difference*
@@ -17,15 +22,17 @@ Instrument and sample-size rationale:
     better/equal/worse for an exact sign test) plus magnitude (secondary, ordinal).
   - Safety is per-answer binary + free-text quote: the reported quantity is a *rate* of answers
     containing an incorrect/unsafe statement (adverse-event annotation, not a severity scale).
-  - 14 efficacy cases = smallest n giving >=80% power (85% at an assumed .85 true preference
-    rate) for the one-sided exact sign test (needs >=11/14, alpha=.05). 6 safety cases and
-    12 flags are descriptive (Wilson CIs), bounded by rater burden (~60-90 min total).
+  - 8 efficacy cases = every positive-delta mover the contamination-free cardiology pool yields
+    (many cardiac cases sit at rubric ceiling/floor). At n=8 the one-sided exact sign test needs
+    7/8 wins (alpha=.05); with one rater this is descriptive (preference rate + Wilson CI), and
+    reaches significance on a 7/8 result or via a 3-rater majority. Safety (6) and flags (12) are
+    descriptive (Wilson CIs), bounded by rater burden.
 
 The A/B->{baseline,healthguard} key + model + rubric delta are embedded for un-blinding on export
 (hidden from the rater in the UI). Rubric items and the reference answer are NOT shown (no biasing).
 
-    ./venv/bin/python -m evaluation.livemedbench.make_clinician_form \
-        --efficacy 14 --safety 6 --out evaluation/runs/clinician_form.html
+    ./venv/bin/python -m evaluation.livemedbench.select_cardio        # build the cardio manifests
+    ./venv/bin/python -m evaluation.livemedbench.make_clinician_form  # cardio defaults
 """
 from __future__ import annotations
 
@@ -74,16 +81,30 @@ def _select_by_delta(run_id, model, n, sign):
     return [cid for _, cid in deltas[:n]]
 
 
-def build(efficacy, safety, seed):
+# Source runs feeding the form. Cardiovascular study defaults (specialty-matched raters);
+# override with --frontier/--local9b/--local3b to reproduce the original mixed-topic form
+# (lmb_50f / lmb_local / lmb_local3b).
+FRONTIER = ("lmb_cardio_f", "gpt-5.4")
+LOCAL9B = ("lmb_cardio_9b", "ollama/gemma2:9b-instruct-q4_K_M")
+LOCAL3B = ("lmb_cardio_3b", "ollama/llama3.2:3b")
+
+
+def build(efficacy, safety, seed, frontier=FRONTIER, local9b=LOCAL9B, local3b=LOCAL3B):
+    fr_run, fr_model = frontier
     recs = []
-    # EFFICACY: frontier gpt-5.4 where HealthGuard clearly helped
-    recs += _records("lmb_50f", "gpt-5.4", _select_by_delta("lmb_50f", "gpt-5.4", efficacy, +1), "efficacy")
-    # SAFETY: worst local-model regressions (9B first, then 3B) up to `safety` total
+    # EFFICACY — frontier model where HealthGuard clearly helped
+    eff_ids = _select_by_delta(fr_run, fr_model, efficacy, +1)
+    recs += _records(fr_run, fr_model, eff_ids, "efficacy")
+    # SAFETY — worst local-model regressions (9B first, then 3B) up to `safety` total. When all
+    # runs share one case pool (specialty study) skip case_ids already shown as an efficacy pair,
+    # so no patient narrative appears twice in Part 1.
+    used = set(eff_ids)
     harm = []
-    harm += [("lmb_local", "ollama/gemma2:9b-instruct-q4_K_M", c)
-             for c in _select_by_delta("lmb_local", "ollama/gemma2:9b-instruct-q4_K_M", safety, -1)]
-    harm += [("lmb_local3b", "ollama/llama3.2:3b", c)
-             for c in _select_by_delta("lmb_local3b", "ollama/llama3.2:3b", safety, -1)]
+    for run_id, model in (local9b, local3b):                 # over-fetch, then filter + cap
+        for c in _select_by_delta(run_id, model, 10_000, -1):
+            if c in used:
+                continue
+            harm.append((run_id, model, c)); used.add(c)
     harm = harm[:safety]
     for run_id, model, cid in harm:
         recs += _records(run_id, model, [cid], "safety")
@@ -104,20 +125,23 @@ def build(efficacy, safety, seed):
     return items
 
 
-def build_flags(pairwise_ids, seed, per=(4, 2, 6)):
-    """HealthGuard-flagged draft claims from cases NOT in the blind pairwise set (so the A/B
-    comparison stays blinded), across frontier/9B/3B, for independent clinician judgement.
-    If a source has too few eligible cases the shortfall is topped up from the other sources,
-    so the total stays at sum(per)."""
-    srcs = [("lmb_50f", "gpt-5.4", per[0]),
-            ("lmb_local", "ollama/gemma2:9b-instruct-q4_K_M", per[1]),
-            ("lmb_local3b", "ollama/llama3.2:3b", per[2])]
+def build_flags(pairwise_pairs, seed, per=(4, 2, 6), runs=(FRONTIER, LOCAL9B, LOCAL3B)):
+    """HealthGuard-flagged draft claims for independent clinician judgement (Part 2), across
+    frontier/9B/3B. A flag is excluded only when its exact (case_id, model) draft was shown as an
+    A/B answer in Part 1 — so no flagged statement the rater sees can reveal which Part-1 answer
+    was HealthGuard's. (A flag may reuse a Part-1 *narrative* via a different model's draft; with
+    the small specialty-restricted pool this is the cost of enough flags, and Part 1 is rated
+    before Part 2.) If a source is short, the shortfall tops up from the others, capped at sum(per).
+    pairwise_pairs: set of (case_id, model) used in Part 1."""
+    srcs = [(runs[0][0], runs[0][1], per[0]),
+            (runs[1][0], runs[1][1], per[1]),
+            (runs[2][0], runs[2][1], per[2])]
     pools = []
     for run_id, model, n in srcs:
         cases, _, p1 = _load(run_id)
         pool = []
         for cid, m in sorted(p1.keys()):
-            if m != model or cid in pairwise_ids:
+            if m != model or (cid, m) in pairwise_pairs:
                 continue
             fc = [f for f in (p1[(cid, m)]["healthguard"]["audit"].get("flagged_claims") or [])
                   if isinstance(f, dict) and f.get("text")]
@@ -234,7 +258,7 @@ footer{position:sticky;bottom:0;background:#fff;border-top:1px solid var(--bd);p
 </footer>
 <script>
 const DATA = __DATA__;
-const KEY = "healthguard_clinrev_v2";
+const KEY = "healthguard_clinrev_v3";
 const OVERALL = [["A_much","A markedly better"],["A_some","A somewhat better"],["equal","About equal"],
                  ["B_some","B somewhat better"],["B_much","B markedly better"]];
 const CC = [["complete","More complete / thorough"],["correct","More correct"],["both","Both"],["na","About equal / N/A"]];
@@ -412,14 +436,23 @@ window.onload=()=>{
 
 def main() -> int:
     ap = argparse.ArgumentParser()
-    ap.add_argument("--efficacy", type=int, default=14)  # >=11/14 wins rejects chance (one-sided sign test, alpha=.05)
+    # Cardiovascular study: the contamination-free cardiology pool yields ~8 positive-delta
+    # efficacy movers (many cases sit at rubric ceiling/floor).
+    ap.add_argument("--efficacy", type=int, default=8)
     ap.add_argument("--safety", type=int, default=6)
+    ap.add_argument("--flags", type=int, nargs=3, default=(4, 2, 6),
+                    metavar=("FRONTIER", "N9B", "N3B"), help="flagged-claim quota per source")
+    ap.add_argument("--frontier", nargs=2, default=list(FRONTIER), metavar=("RUN", "MODEL"))
+    ap.add_argument("--local9b", nargs=2, default=list(LOCAL9B), metavar=("RUN", "MODEL"))
+    ap.add_argument("--local3b", nargs=2, default=list(LOCAL3B), metavar=("RUN", "MODEL"))
     ap.add_argument("--seed", type=int, default=7)
     ap.add_argument("--out", default="evaluation/runs/clinician_form.html")
     args = ap.parse_args()
 
-    items = build(args.efficacy, args.safety, args.seed)
-    flags = build_flags({it["case_id"] for it in items}, args.seed)
+    frontier, local9b, local3b = tuple(args.frontier), tuple(args.local9b), tuple(args.local3b)
+    items = build(args.efficacy, args.safety, args.seed, frontier, local9b, local3b)
+    pairwise_pairs = {(it["case_id"], it["model"]) for it in items}
+    flags = build_flags(pairwise_pairs, args.seed, tuple(args.flags), (frontier, local9b, local3b))
     blob = json.dumps(items, ensure_ascii=False).replace("</", "<\\/")
     fblob = json.dumps(flags, ensure_ascii=False).replace("</", "<\\/")
     out = Path(args.out)
