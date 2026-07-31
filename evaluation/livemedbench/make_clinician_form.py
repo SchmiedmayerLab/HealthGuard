@@ -89,7 +89,8 @@ LOCAL9B = ("lmb_cardio_9b", "ollama/gemma2:9b-instruct-q4_K_M")
 LOCAL3B = ("lmb_cardio_3b", "ollama/llama3.2:3b")
 
 
-def build(efficacy, safety, seed, frontier=FRONTIER, local9b=LOCAL9B, local3b=LOCAL3B):
+def build(efficacy, safety, seed, frontier=FRONTIER, local9b=LOCAL9B, local3b=LOCAL3B,
+          rater=None, num_raters=1):
     fr_run, fr_model = frontier
     recs = []
     # EFFICACY — frontier model where HealthGuard clearly helped
@@ -109,11 +110,18 @@ def build(efficacy, safety, seed, frontier=FRONTIER, local9b=LOCAL9B, local3b=LO
     for run_id, model, cid in harm:
         recs += _records(run_id, model, [cid], "safety")
 
-    rng = random.Random(seed)
+    # Rater-independent canonical index per case, so A/B can be counterbalanced across raters:
+    # over `num_raters` raters each case is shown HealthGuard-as-A to exactly half (num_raters even),
+    # cancelling A/B position bias at the case level. Order is still shuffled per rater.
+    cb_index = {cid: i for i, cid in enumerate(sorted(r["case_id"] for r in recs))}
+    rng = random.Random(seed + (rater or 0))   # per-rater display order (averages out fatigue)
     rng.shuffle(recs)
     items = []
     for i, r in enumerate(recs):
-        flip = rng.random() < 0.5             # randomise which system is "A"
+        if rater is None:
+            flip = rng.random() < 0.5           # single-form mode: random A/B
+        else:                                    # counterbalanced: deterministic 2/2-per-case split
+            flip = ((rater + cb_index[r["case_id"]]) % num_raters) < (num_raters // 2 or 1)
         A_is, B_is = ("baseline", "healthguard") if not flip else ("healthguard", "baseline")
         items.append({
             "idx": i, "case_id": r["case_id"], "model": r["model"], "run": r["run"], "kind": r["kind"],
@@ -227,7 +235,7 @@ footer{position:sticky;bottom:0;background:#fff;border-top:1px solid var(--bd);p
     reference standard. Your blinded ratings tell us whether the automated results reflect genuine
     clinical quality, and they will be reported in aggregate (never individually) in a scientific
     publication.</p>
-    <p><b>Your task:</b> Each case below shows a short patient scenario, the patient's question, and
+    <p><b>Your task:</b> Each case below shows a short patient scenario with a focus on cardiology, the patient's question, and
     <b>two candidate answers</b> (Answer&nbsp;A and Answer&nbsp;B). One is an AI model's original
     draft; the other went through HealthGuard's automatic revision. The revision can make an answer
     better <i>or worse</i>, the A/B order is re-randomised for every case, and neither answer is
@@ -235,7 +243,7 @@ footer{position:sticky;bottom:0;background:#fff;border-top:1px solid var(--bd);p
     quality and safety, as you would a trainee's note. Part&nbsp;2 (after the cases) shows single
     statements the system flagged as problematic and asks whether you agree.</p>
     <ul>
-      <li>Plan for roughly <b>2 minutes per case</b>, about 60 minutes in total. Your responses save automatically in this browser, so you can stop and resume at any time.</li>
+      <li>Plan for roughly <b>2 minutes per case</b>, about 45 minutes in total. Your responses save automatically in this browser, so you can stop and resume at any time.</li>
       <li>Please rate each case independently: the cases are unrelated to one another. If you are unsure, use your best clinical judgment and add a note.</li>
       <li>When finished, click <b>Download results</b> and <a href="mailto:goldschmidt@stanford.edu?subject=HealthGuard%20clinician%20review%20results">email us</a> the file.</li>
     </ul>
@@ -434,6 +442,24 @@ window.onload=()=>{
 </script></body></html>"""
 
 
+def _emit(out, args, frontier, local9b, local3b, rater, num_raters, key_suffix):
+    """Build one form (rater=None -> single mixed form; else counterbalanced rater slot) and write it.
+    key_suffix isolates each rater's localStorage so forms served from one origin can't collide."""
+    items = build(args.efficacy, args.safety, args.seed, frontier, local9b, local3b, rater, num_raters)
+    pairwise_pairs = {(it["case_id"], it["model"]) for it in items}
+    flags = build_flags(pairwise_pairs, args.seed + (rater or 0), tuple(args.flags),
+                        (frontier, local9b, local3b))
+    blob = json.dumps(items, ensure_ascii=False).replace("</", "<\\/")
+    fblob = json.dumps(flags, ensure_ascii=False).replace("</", "<\\/")
+    page = PAGE.replace("__DATA__", blob).replace("__FLAGS__", fblob)
+    if key_suffix:
+        page = page.replace('"healthguard_clinrev_v3"', f'"healthguard_clinrev_v3{key_suffix}"')
+    out.write_text(page, encoding="utf-8")
+    ne = sum(1 for it in items if it["kind"] == "efficacy"); ns = len(items) - ne
+    print(f"wrote {out}  ({len(items)} cases: {ne} efficacy, {ns} safety; {len(flags)} flagged statements)")
+    return items
+
+
 def main() -> int:
     ap = argparse.ArgumentParser()
     # Cardiovascular study: the contamination-free cardiology pool yields ~8 positive-delta
@@ -442,6 +468,9 @@ def main() -> int:
     ap.add_argument("--safety", type=int, default=6)
     ap.add_argument("--flags", type=int, nargs=3, default=(4, 2, 6),
                     metavar=("FRONTIER", "N9B", "N3B"), help="flagged-claim quota per source")
+    ap.add_argument("--raters", type=int, default=1,
+                    help="emit N counterbalanced per-rater forms (same cases + flags, A/B balanced "
+                         "2-of-N-per-case, order varied per rater). 1 = single mixed form.")
     ap.add_argument("--frontier", nargs=2, default=list(FRONTIER), metavar=("RUN", "MODEL"))
     ap.add_argument("--local9b", nargs=2, default=list(LOCAL9B), metavar=("RUN", "MODEL"))
     ap.add_argument("--local3b", nargs=2, default=list(LOCAL3B), metavar=("RUN", "MODEL"))
@@ -450,15 +479,20 @@ def main() -> int:
     args = ap.parse_args()
 
     frontier, local9b, local3b = tuple(args.frontier), tuple(args.local9b), tuple(args.local3b)
-    items = build(args.efficacy, args.safety, args.seed, frontier, local9b, local3b)
-    pairwise_pairs = {(it["case_id"], it["model"]) for it in items}
-    flags = build_flags(pairwise_pairs, args.seed, tuple(args.flags), (frontier, local9b, local3b))
-    blob = json.dumps(items, ensure_ascii=False).replace("</", "<\\/")
-    fblob = json.dumps(flags, ensure_ascii=False).replace("</", "<\\/")
     out = Path(args.out)
-    out.write_text(PAGE.replace("__DATA__", blob).replace("__FLAGS__", fblob), encoding="utf-8")
-    ne = sum(1 for it in items if it["kind"] == "efficacy"); ns = len(items) - ne
-    print(f"wrote {out}  ({len(items)} cases: {ne} efficacy, {ns} safety; {len(flags)} flagged statements)")
+    if args.raters <= 1:
+        _emit(out, args, frontier, local9b, local3b, None, 1, "")
+    else:
+        bal = {}
+        for r in range(args.raters):
+            rout = out.with_name(f"{out.stem}_rater{r+1}{out.suffix}")
+            items = _emit(rout, args, frontier, local9b, local3b, r, args.raters, f"_r{r+1}")
+            for it in items:
+                if it["kind"] == "efficacy":
+                    bal.setdefault(it["case_id"], []).append(it["A_is"] == "healthguard")
+        print(f"\nA/B counterbalance across {args.raters} raters (HealthGuard-as-A count per case):")
+        for cid, v in sorted(bal.items()):
+            print(f"  case {cid}: {sum(v)}/{len(v)}")
     print("blinding key is embedded in each item (A_is/B_is) and included in the export.")
     return 0
 
