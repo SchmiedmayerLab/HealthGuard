@@ -81,25 +81,44 @@ def _select_by_delta(run_id, model, n, sign):
     return [cid for _, cid in deltas[:n]]
 
 
-# Source runs feeding the form. Cardiovascular study defaults (specialty-matched raters);
-# override with --frontier/--local9b/--local3b to reproduce the original mixed-topic form
-# (lmb_50f / lmb_local / lmb_local3b).
+def _select_neutral(run_id, model, n, exclude):
+    """Cases where HealthGuard changed the rubric score by ~0 (|delta|<=0.01) yet the answers still
+    differ — a calibration/specificity check: does the clinician also see rough parity where the
+    grader did? Balances the 'we only showed wins' critique. Skips rubric ceiling/floor cases
+    (trivial ties) and anything in `exclude`; deterministic by case_id (content-blind)."""
+    _, base, p1 = _load(run_id)
+    out = []
+    for cid, m in sorted(p1.keys()):
+        if m != model or cid in exclude:
+            continue
+        b = base[(cid, model)]["score"]; h = p1[(cid, m)]["healthguard"]["score"]
+        if abs(h - b) > 0.01 or b >= 0.9 or b <= 0.05:
+            continue
+        out.append(cid)
+    return out[:n]
+
+
+# Source runs feeding the form. gpt-5.4-only study: raters see only frontier-model answers, so the
+# safety + flag arms also come from gpt-5.4 (the local models produced low-quality/garbled text not
+# fit to show clinicians). This leaves only ~1 frontier regression + ~3 frontier flags — the
+# local-model harm-envelope arms are intentionally dropped. To restore them, override
+# --local9b lmb_cardio_9b ollama/gemma2:9b-instruct-q4_K_M --local3b lmb_cardio_3b ollama/llama3.2:3b.
 FRONTIER = ("lmb_cardio_f", "gpt-5.4")
-LOCAL9B = ("lmb_cardio_9b", "ollama/gemma2:9b-instruct-q4_K_M")
-LOCAL3B = ("lmb_cardio_3b", "ollama/llama3.2:3b")
+LOCAL9B = FRONTIER
+LOCAL3B = FRONTIER
 
 
 def build(efficacy, safety, seed, frontier=FRONTIER, local9b=LOCAL9B, local3b=LOCAL3B,
-          rater=None, num_raters=1):
+          rater=None, num_raters=1, neutral=0):
     fr_run, fr_model = frontier
     recs = []
-    # EFFICACY — frontier model where HealthGuard clearly helped
+    # EFFICACY — frontier model where HealthGuard clearly helped (grader saw a gain)
     eff_ids = _select_by_delta(fr_run, fr_model, efficacy, +1)
     recs += _records(fr_run, fr_model, eff_ids, "efficacy")
-    # SAFETY — worst local-model regressions (9B first, then 3B) up to `safety` total. When all
-    # runs share one case pool (specialty study) skip case_ids already shown as an efficacy pair,
-    # so no patient narrative appears twice in Part 1.
     used = set(eff_ids)
+    # SAFETY — worst local-model regressions (9B first, then 3B) up to `safety` total. 0 in the
+    # gpt-5.4-only study. When runs share one case pool, skip case_ids already shown, so no patient
+    # narrative appears twice in Part 1.
     harm = []
     for run_id, model in (local9b, local3b):                 # over-fetch, then filter + cap
         for c in _select_by_delta(run_id, model, 10_000, -1):
@@ -109,6 +128,9 @@ def build(efficacy, safety, seed, frontier=FRONTIER, local9b=LOCAL9B, local3b=LO
     harm = harm[:safety]
     for run_id, model, cid in harm:
         recs += _records(run_id, model, [cid], "safety")
+    # NEUTRAL — calibration cases where the grader saw ~no change (does the clinician agree it's a tie?)
+    neu_ids = _select_neutral(fr_run, fr_model, neutral, used)
+    recs += _records(fr_run, fr_model, neu_ids, "neutral")
 
     # Rater-independent canonical index per case, so A/B can be counterbalanced across raters:
     # over `num_raters` raters each case is shown HealthGuard-as-A to exactly half (num_raters even),
@@ -163,6 +185,12 @@ def build_flags(pairwise_pairs, seed, per=(4, 2, 6), runs=(FRONTIER, LOCAL9B, LO
     want = sum(per)
     for pool, n in pools:                          # top up any shortfall beyond the per-source quota
         out += pool[n:][:max(0, want - len(out))]
+    seen, uniq = set(), []                          # sources may coincide (gpt-5.4-only study) -> dedup
+    for o in out:
+        k = (o["run"], o["model"], o["case_id"])
+        if k not in seen:
+            seen.add(k); uniq.append(o)
+    out = uniq
     rng = random.Random(seed + 1)
     rng.shuffle(out)
     for i, o in enumerate(out):
@@ -447,29 +475,36 @@ window.onload=()=>{
 def _emit(out, args, frontier, local9b, local3b, rater, num_raters, key_suffix):
     """Build one form (rater=None -> single mixed form; else counterbalanced rater slot) and write it.
     key_suffix isolates each rater's localStorage so forms served from one origin can't collide."""
-    items = build(args.efficacy, args.safety, args.seed, frontier, local9b, local3b, rater, num_raters)
+    items = build(args.efficacy, args.safety, args.seed, frontier, local9b, local3b,
+                  rater, num_raters, args.neutral)
     pairwise_pairs = {(it["case_id"], it["model"]) for it in items}
-    flags = build_flags(pairwise_pairs, args.seed + (rater or 0), tuple(args.flags),
-                        (frontier, local9b, local3b))
+    flags = ([] if sum(args.flags) == 0                       # Part 2 omitted when no flag quota
+             else build_flags(pairwise_pairs, args.seed + (rater or 0), tuple(args.flags),
+                              (frontier, local9b, local3b)))
     blob = json.dumps(items, ensure_ascii=False).replace("</", "<\\/")
     fblob = json.dumps(flags, ensure_ascii=False).replace("</", "<\\/")
     page = PAGE.replace("__DATA__", blob).replace("__FLAGS__", fblob)
     if key_suffix:
         page = page.replace('"healthguard_clinrev_v3"', f'"healthguard_clinrev_v3{key_suffix}"')
     out.write_text(page, encoding="utf-8")
-    ne = sum(1 for it in items if it["kind"] == "efficacy"); ns = len(items) - ne
-    print(f"wrote {out}  ({len(items)} cases: {ne} efficacy, {ns} safety; {len(flags)} flagged statements)")
+    n = lambda k: sum(1 for it in items if it["kind"] == k)
+    print(f"wrote {out}  ({len(items)} cases: {n('efficacy')} efficacy, {n('neutral')} neutral, "
+          f"{n('safety')} safety; {len(flags)} flagged statements)")
     return items
 
 
 def main() -> int:
     ap = argparse.ArgumentParser()
-    # Cardiovascular study: the contamination-free cardiology pool yields ~8 positive-delta
-    # efficacy movers (many cases sit at rubric ceiling/floor).
+    # gpt-5.4-only efficacy validation: 8 positive-delta movers (the pool's cap) + calibration
+    # (neutral) cases to reach ~10-14 items. Safety-regression arm and Part 2 (flags) dropped —
+    # a lone frontier regression can't validate the local-model harm envelope (Sec 7), and 3 flags
+    # can't validate flag precision (Sec 6); both stay automated-only. Restore via --safety/--flags.
     ap.add_argument("--efficacy", type=int, default=8)
-    ap.add_argument("--safety", type=int, default=6)
-    ap.add_argument("--flags", type=int, nargs=3, default=(4, 2, 6),
-                    metavar=("FRONTIER", "N9B", "N3B"), help="flagged-claim quota per source")
+    ap.add_argument("--neutral", type=int, default=4,
+                    help="calibration cases where the grader saw ~no change (0 to omit)")
+    ap.add_argument("--safety", type=int, default=0)
+    ap.add_argument("--flags", type=int, nargs=3, default=(0, 0, 0),
+                    metavar=("FRONTIER", "N9B", "N3B"), help="flagged-claim quota per source (0 0 0 = no Part 2)")
     ap.add_argument("--raters", type=int, default=1,
                     help="emit N counterbalanced per-rater forms (same cases + flags, A/B balanced "
                          "2-of-N-per-case, order varied per rater). 1 = single mixed form.")
@@ -490,8 +525,7 @@ def main() -> int:
             rout = out.with_name(f"{out.stem}_rater{r+1}{out.suffix}")
             items = _emit(rout, args, frontier, local9b, local3b, r, args.raters, f"_r{r+1}")
             for it in items:
-                if it["kind"] == "efficacy":
-                    bal.setdefault(it["case_id"], []).append(it["A_is"] == "healthguard")
+                bal.setdefault(it["case_id"], []).append(it["A_is"] == "healthguard")
         print(f"\nA/B counterbalance across {args.raters} raters (HealthGuard-as-A count per case):")
         for cid, v in sorted(bal.items()):
             print(f"  case {cid}: {sum(v)}/{len(v)}")
