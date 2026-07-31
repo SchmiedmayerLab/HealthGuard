@@ -221,6 +221,7 @@ footer{position:sticky;bottom:0;background:#fff;border-top:1px solid var(--bd);p
 <main>
   <div class="intro">
     <h2>HealthGuard: clinician review</h2>
+    <p>Hi! Thanks for taking the time to review these cases! 🚀</p>
     <p><b>What is this about?</b> AI language models now answer patients' medical questions at a
     surprisingly high level, but roughly one answer in four still contains an incorrect or
     unsafe statement, and in a real clinic there is no answer key against which to catch that.
@@ -250,6 +251,7 @@ footer{position:sticky;bottom:0;background:#fff;border-top:1px solid var(--bd);p
     <div class="meta">
       <div><label>Your initials / ID</label><input id="rater_id" oninput="save()"></div>
     </div>
+    <p>Once again, thanks for taking the time and I'll be reaching out to you shortly.</p>
   </div>
   <div id="cases"></div>
   <div id="flags"></div>
