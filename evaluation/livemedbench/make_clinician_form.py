@@ -107,6 +107,11 @@ FRONTIER = ("lmb_cardio_f", "gpt-5.4")
 LOCAL9B = FRONTIER
 LOCAL3B = FRONTIER
 
+# Cases kept out of the calibration (neutral) pool as not-clearly-cardiology — thrombosis/hematology
+# rather than cardiology proper: recurrent PE (4919) and DVT/factor-V-Leiden anticoagulation (4963).
+# The efficacy 'wins' are untouched (4922, severe hypertriglyceridemia, is kept as a lipid case).
+EXCLUDE_NEUTRAL = {4919, 4963}
+
 
 def build(efficacy, safety, seed, frontier=FRONTIER, local9b=LOCAL9B, local3b=LOCAL3B,
           rater=None, num_raters=1, neutral=0):
@@ -129,7 +134,7 @@ def build(efficacy, safety, seed, frontier=FRONTIER, local9b=LOCAL9B, local3b=LO
     for run_id, model, cid in harm:
         recs += _records(run_id, model, [cid], "safety")
     # NEUTRAL — calibration cases where the grader saw ~no change (does the clinician agree it's a tie?)
-    neu_ids = _select_neutral(fr_run, fr_model, neutral, used)
+    neu_ids = _select_neutral(fr_run, fr_model, neutral, used | EXCLUDE_NEUTRAL)
     recs += _records(fr_run, fr_model, neu_ids, "neutral")
 
     # Rater-independent canonical index per case, so A/B can be counterbalanced across raters:
