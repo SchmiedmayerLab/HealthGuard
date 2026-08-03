@@ -1,0 +1,297 @@
+{
+  "name": "decompose",
+  "passed": false,
+  "score": 0.0,
+  "reasoning": "Decomposed into 80 statement(s) but completeness check found issues. Missing: The original text states that the patient is 3 years old and female; the statements mention a 3-year-old girl but do not explicitly preserve the full demographic phrasing as part of the chief complaint context.; The original text says the presentation is 'gradual-onset' abdominal pain over 2 days; this temporal characterization is captured, but the explicit linkage that the pain and vomiting occurred over 2 days as the chief complaint is not fully preserved in a single statement.; The original text notes that the ultrasound showed a rounded hypo- to isoechoic lobulated avascular area near the porta hepatis/pancreatic head and that CT then 'clearly demonstrated' the duodenal hematoma; the sequencing and contrast between ultrasound and CT are present, but the explicit 'then' progression is not fully preserved.; The original text says the abdomen had normal bowel sounds; this is captured, but the broader statement that the immediate clinical problem is an upper gastrointestinal/duodenal obstructive-type presentation rather than systemic illness is split across multiple statements and not preserved as a single relationship statement.; The original text explicitly states that the imaging finding directly explains the vomiting and abdominal pain; this causal relationship is present, but the stronger wording that the CT finding 'directly explains' the symptoms is not fully preserved in one statement.; The original text says there was no overt sign of bowel obstruction on exam; this is captured, but the relationship to the obstructive-type presentation is not explicitly tied together.; The original text mentions that common coagulopathies are less likely as primary explanations because routine coagulation screening was normal; this causal inference is present, but the exact reasoning that normal PT/aPTT/bleeding time argues against common coagulopathies is not fully consolidated.; The original text states that intussusception was a reasonable early consideration in a young child with abdominal pain and vomiting, but the abdomen lacked typical episodic severe pain or bloody stool; the absence of bloody stool is captured, but the 'episodic severe pain' qualifier is not explicitly preserved as a symptom pattern.; The original text says the ultrasound finding could suggest a pancreatic or periportal mass/cystic lesion, but CT clarified it was duodenal wall hematoma rather than a solid or cystic mass; this is captured, but the exact distinction between solid and cystic mass is not fully preserved.; The original text notes that infectious gastroenteritis is less likely because there is no fever or diarrhea and imaging identifies a structural lesion causing symptoms; this combined reasoning is split across statements and not fully preserved as one causal relationship.; The original text says traumatic duodenal hematoma is a known cause in children, but the history specifically reports no trauma and occult trauma cannot be fully excluded; this nuanced etiologic reasoning is present, but the explicit caution that the diagnosis should be the lesion rather than an unproven etiology is only partially preserved.; The original text mentions pending factor XIII/von Willebrand testing as part of the bleeding-disorder consideration; this is captured, but the broader context that severe anemia and normal routine coagulation studies make a specific hemostatic disorder less certain is not fully preserved in one statement.; The original text emphasizes that the decisive evidence is the contrast-enhanced CT scan showing a large intramural/submucosal duodenal hematoma along the entire duodenum causing luminal narrowing; this is captured, but the explicit 'decisive evidence' framing and superseding of differentials is split across statements.; The original text includes the final differential list with probability labels high/low/medium; these labels are present, but the exact structured differential list as a whole is not preserved in a single statement. Fabricated: The statements add 'bloody stool' as a negative finding, but the original text does not mention bloody stool.; The statements add that the abdomen lacked 'typical episodic severe pain,' but the original text does not explicitly describe episodic severe pain.; The statements add that the ultrasound finding represented duodenal wall hematoma 'rather than a true mass' and 'rather than a solid or cystic mass'; the original text only says CT clarified it was duodenal wall hematoma rather than a solid or cystic mass in the differential discussion, but the exact 'true mass' phrasing is an added interpretation.; The statements add that 'vomiting and abdominal pain could suggest gastroenteritis,' which is a reasonable inference but not explicitly stated in the original text.; The statements add that 'imaging identified an alternative lesion' as a standalone point; this is implied by the original but not explicitly stated in that form.; The statements add that 'the diagnosis to commit to is the lesion itself rather than an unproven etiology'; this is a paraphrased interpretive conclusion not stated verbatim in the original.; The statements add that 'the patient is a young child with abdominal pain and vomiting' as part of the intussusception differential; while true, this is a restatement rather than a distinct original claim and slightly broadens the original wording.; The statements add that 'the final diagnosis is intramural duodenal hematoma' as a separate final statement; this is consistent with the original, but it duplicates the diagnosis already stated elsewhere and is not additional factual content.",
+  "data": {
+    "statements": [
+      "The chief complaint is gradual-onset abdominal pain with non-bilious vomiting over 2 days in a 3-year-old girl.",
+      "The patient’s immediate clinical problem is an upper gastrointestinal/duodenal obstructive-type presentation rather than systemic illness.",
+      "The patient is irritable but active.",
+      "The patient is afebrile.",
+      "The patient is hemodynamically stable.",
+      "The patient has a soft, non-tender abdomen with normal bowel sounds.",
+      "Salient positive findings include abdominal pain and non-bilious vomiting.",
+      "Salient positive findings include severe anemia with hemoglobin 7.3 g/dL.",
+      "Salient positive findings include mild leukocytosis of 16.1×10^9/L.",
+      "Salient positive findings include elevated AST of 337 U/L.",
+      "Salient positive findings include elevated CRP of 43 U/L.",
+      "Imaging evidence is the most important salient positive finding.",
+      "Ultrasound excluded intussusception.",
+      "Ultrasound showed a rounded hypo- to isoechoic lobulated avascular area near the porta hepatis/pancreatic head.",
+      "Contrast CT demonstrated a large intramural/submucosal duodenal hematoma extending along the duodenum.",
+      "The duodenal hematoma caused luminal narrowing.",
+      "The imaging finding directly explains the vomiting and abdominal pain.",
+      "There was no fever.",
+      "There was no diarrhea.",
+      "There was no dysuria.",
+      "There was no trauma.",
+      "There were no prior similar episodes.",
+      "The abdomen was not tender.",
+      "The abdomen was not distended.",
+      "The abdomen showed no overt signs of bowel obstruction.",
+      "Coagulation screening was normal.",
+      "The prothrombin time was 12.7 s.",
+      "The activated partial thromboplastin time was 27 s.",
+      "The bleeding time was 2 min.",
+      "Platelets were at the lower end of normal rather than frankly low.",
+      "Family history was negative for bleeding disorders or GI disease.",
+      "These findings make infectious gastroenteritis less likely as a primary explanation.",
+      "These findings make urinary infection less likely as a primary explanation.",
+      "These findings make traumatic injury less likely as a primary explanation.",
+      "These findings make common coagulopathies less likely as a primary explanation.",
+      "Intramural duodenal hematoma fits best.",
+      "CT explicitly shows a large intramural/submucosal duodenal hematoma with luminal narrowing.",
+      "The symptoms of abdominal pain plus non-bilious vomiting are classic for proximal bowel narrowing or obstruction.",
+      "Intussusception was a reasonable early consideration in a young child with abdominal pain and vomiting.",
+      "Ultrasound showed no intussusception.",
+      "The abdomen lacked typical episodic severe pain.",
+      "The abdomen lacked bloody stool.",
+      "A pancreatic or periportal mass/cystic lesion could be considered from the ultrasound description of an avascular lobulated area near the pancreatic head/porta hepatis.",
+      "CT clarified that the ultrasound finding represented duodenal wall hematoma rather than a solid or cystic mass.",
+      "Infectious gastroenteritis is less likely because there is no fever.",
+      "Infectious gastroenteritis is less likely because there is no diarrhea.",
+      "Imaging identifies a structural lesion causing symptoms.",
+      "Nonaccidental or accidental traumatic duodenal hematoma is a known cause of duodenal hematoma in children.",
+      "The history specifically reports no trauma.",
+      "Occult trauma cannot be fully excluded from the summary alone.",
+      "The diagnosis to commit to is the lesion itself rather than an unproven etiology.",
+      "Underlying bleeding disorder is a possible cause of spontaneous duodenal hematoma.",
+      "Severe anemia is present.",
+      "Factor XIII and von Willebrand testing were pending.",
+      "Routine coagulation studies are normal.",
+      "No bleeding history is provided.",
+      "The case data support the presence of a duodenal hematoma more strongly than any specific hemostatic disorder.",
+      "The decisive evidence is the contrast-enhanced CT scan showing a large intramural/submucosal duodenal hematoma along the entire duodenum causing luminal narrowing.",
+      "This finding directly accounts for the child’s symptoms.",
+      "This finding supersedes less specific differentials raised by the initial presentation.",
+      "The most likely diagnosis is intramural duodenal hematoma.",
+      "Intramural duodenal hematoma is the high-probability differential.",
+      "The CT abdomen demonstrated a large intramural/submucosal duodenal hematoma along the entire duodenum with luminal narrowing.",
+      "The hematoma explains abdominal pain and non-bilious vomiting.",
+      "Intussusception is a low-probability differential.",
+      "The patient is a young child with abdominal pain and vomiting.",
+      "Ultrasound specifically showed no intussusception.",
+      "Imaging identified an alternative lesion.",
+      "Pancreatic/periportal mass lesion is a low-probability differential.",
+      "Ultrasound showed an avascular lobulated area adjacent to the porta hepatis and pancreatic head.",
+      "CT clarified that this was duodenal wall hematoma rather than a true mass.",
+      "Infectious gastroenteritis is a low-probability differential.",
+      "Vomiting and abdominal pain could suggest gastroenteritis.",
+      "There was no fever or diarrhea.",
+      "CT showed a structural obstructive cause.",
+      "Bleeding diathesis causing spontaneous gastrointestinal hematoma is a medium-probability differential.",
+      "Spontaneous hematoma in a child without trauma raises concern for an underlying bleeding disorder.",
+      "Factor XIII and von Willebrand testing were pending.",
+      "PT, aPTT, and bleeding time were normal.",
+      "The final diagnosis is intramural duodenal hematoma."
+    ],
+    "completeness": {
+      "complete": false,
+      "missing": [
+        "The original text states that the patient is 3 years old and female; the statements mention a 3-year-old girl but do not explicitly preserve the full demographic phrasing as part of the chief complaint context.",
+        "The original text says the presentation is 'gradual-onset' abdominal pain over 2 days; this temporal characterization is captured, but the explicit linkage that the pain and vomiting occurred over 2 days as the chief complaint is not fully preserved in a single statement.",
+        "The original text notes that the ultrasound showed a rounded hypo- to isoechoic lobulated avascular area near the porta hepatis/pancreatic head and that CT then 'clearly demonstrated' the duodenal hematoma; the sequencing and contrast between ultrasound and CT are present, but the explicit 'then' progression is not fully preserved.",
+        "The original text says the abdomen had normal bowel sounds; this is captured, but the broader statement that the immediate clinical problem is an upper gastrointestinal/duodenal obstructive-type presentation rather than systemic illness is split across multiple statements and not preserved as a single relationship statement.",
+        "The original text explicitly states that the imaging finding directly explains the vomiting and abdominal pain; this causal relationship is present, but the stronger wording that the CT finding 'directly explains' the symptoms is not fully preserved in one statement.",
+        "The original text says there was no overt sign of bowel obstruction on exam; this is captured, but the relationship to the obstructive-type presentation is not explicitly tied together.",
+        "The original text mentions that common coagulopathies are less likely as primary explanations because routine coagulation screening was normal; this causal inference is present, but the exact reasoning that normal PT/aPTT/bleeding time argues against common coagulopathies is not fully consolidated.",
+        "The original text states that intussusception was a reasonable early consideration in a young child with abdominal pain and vomiting, but the abdomen lacked typical episodic severe pain or bloody stool; the absence of bloody stool is captured, but the 'episodic severe pain' qualifier is not explicitly preserved as a symptom pattern.",
+        "The original text says the ultrasound finding could suggest a pancreatic or periportal mass/cystic lesion, but CT clarified it was duodenal wall hematoma rather than a solid or cystic mass; this is captured, but the exact distinction between solid and cystic mass is not fully preserved.",
+        "The original text notes that infectious gastroenteritis is less likely because there is no fever or diarrhea and imaging identifies a structural lesion causing symptoms; this combined reasoning is split across statements and not fully preserved as one causal relationship.",
+        "The original text says traumatic duodenal hematoma is a known cause in children, but the history specifically reports no trauma and occult trauma cannot be fully excluded; this nuanced etiologic reasoning is present, but the explicit caution that the diagnosis should be the lesion rather than an unproven etiology is only partially preserved.",
+        "The original text mentions pending factor XIII/von Willebrand testing as part of the bleeding-disorder consideration; this is captured, but the broader context that severe anemia and normal routine coagulation studies make a specific hemostatic disorder less certain is not fully preserved in one statement.",
+        "The original text emphasizes that the decisive evidence is the contrast-enhanced CT scan showing a large intramural/submucosal duodenal hematoma along the entire duodenum causing luminal narrowing; this is captured, but the explicit 'decisive evidence' framing and superseding of differentials is split across statements.",
+        "The original text includes the final differential list with probability labels high/low/medium; these labels are present, but the exact structured differential list as a whole is not preserved in a single statement."
+      ],
+      "added": [
+        "The statements add 'bloody stool' as a negative finding, but the original text does not mention bloody stool.",
+        "The statements add that the abdomen lacked 'typical episodic severe pain,' but the original text does not explicitly describe episodic severe pain.",
+        "The statements add that the ultrasound finding represented duodenal wall hematoma 'rather than a true mass' and 'rather than a solid or cystic mass'; the original text only says CT clarified it was duodenal wall hematoma rather than a solid or cystic mass in the differential discussion, but the exact 'true mass' phrasing is an added interpretation.",
+        "The statements add that 'vomiting and abdominal pain could suggest gastroenteritis,' which is a reasonable inference but not explicitly stated in the original text.",
+        "The statements add that 'imaging identified an alternative lesion' as a standalone point; this is implied by the original but not explicitly stated in that form.",
+        "The statements add that 'the diagnosis to commit to is the lesion itself rather than an unproven etiology'; this is a paraphrased interpretive conclusion not stated verbatim in the original.",
+        "The statements add that 'the patient is a young child with abdominal pain and vomiting' as part of the intussusception differential; while true, this is a restatement rather than a distinct original claim and slightly broadens the original wording.",
+        "The statements add that 'the final diagnosis is intramural duodenal hematoma' as a separate final statement; this is consistent with the original, but it duplicates the diagnosis already stated elsewhere and is not additional factual content."
+      ]
+    },
+    "clusters": [
+      {
+        "cluster_id": "c1",
+        "label": "history_taking",
+        "statement_indices": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "summary": "Initial presentation and overall clinical stability are described.",
+        "salience": 0.35
+      },
+      {
+        "cluster_id": "c2",
+        "label": "examination",
+        "statement_indices": [
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ],
+        "summary": "Physical exam and lab abnormalities are summarized, including anemia and inflammatory markers.",
+        "salience": 0.5
+      },
+      {
+        "cluster_id": "c3",
+        "label": "test_ordering",
+        "statement_indices": [
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ],
+        "summary": "Imaging workup identifies a duodenal hematoma causing obstruction and explaining symptoms.",
+        "salience": 0.98
+      },
+      {
+        "cluster_id": "c4",
+        "label": "history_taking",
+        "statement_indices": [
+          18,
+          19,
+          20,
+          21,
+          22
+        ],
+        "summary": "Pertinent negatives from the history reduce infectious, urinary, traumatic, and recurrent causes.",
+        "salience": 0.4
+      },
+      {
+        "cluster_id": "c5",
+        "label": "examination",
+        "statement_indices": [
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31
+        ],
+        "summary": "Additional exam and coagulation/family-history details argue against common alternative causes.",
+        "salience": 0.45
+      },
+      {
+        "cluster_id": "c6",
+        "label": "differential_generation",
+        "statement_indices": [
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38
+        ],
+        "summary": "Common alternative diagnoses are downweighted and intramural duodenal hematoma is favored.",
+        "salience": 0.9
+      },
+      {
+        "cluster_id": "c7",
+        "label": "differential_generation",
+        "statement_indices": [
+          39,
+          40,
+          41,
+          42,
+          43,
+          44
+        ],
+        "summary": "Intussusception and a pancreatic/periportal mass are considered but excluded by imaging.",
+        "salience": 0.85
+      },
+      {
+        "cluster_id": "c8",
+        "label": "differential_generation",
+        "statement_indices": [
+          45,
+          46,
+          47,
+          48,
+          49,
+          50,
+          51
+        ],
+        "summary": "Infectious and traumatic explanations are considered less likely; the lesion itself is prioritized.",
+        "salience": 0.75
+      },
+      {
+        "cluster_id": "c9",
+        "label": "differential_generation",
+        "statement_indices": [
+          52,
+          53,
+          54,
+          55,
+          56,
+          57
+        ],
+        "summary": "An underlying bleeding disorder is considered, but evidence more strongly supports the hematoma diagnosis.",
+        "salience": 0.7
+      },
+      {
+        "cluster_id": "c10",
+        "label": "final_decision",
+        "statement_indices": [
+          58,
+          59,
+          60,
+          61
+        ],
+        "summary": "CT findings are decisive and the diagnosis is committed as intramural duodenal hematoma.",
+        "salience": 1.0
+      },
+      {
+        "cluster_id": "c11",
+        "label": "differential_generation",
+        "statement_indices": [
+          62,
+          63,
+          64,
+          65,
+          66,
+          67,
+          68,
+          69,
+          70,
+          71,
+          72,
+          73,
+          74,
+          75,
+          76,
+          77,
+          78,
+          79
+        ],
+        "summary": "The final differential review ranks duodenal hematoma highest and lowers competing diagnoses.",
+        "salience": 0.88
+      },
+      {
+        "cluster_id": "c12",
+        "label": "final_decision",
+        "statement_indices": [
+          80
+        ],
+        "summary": "Final diagnosis is stated explicitly as intramural duodenal hematoma.",
+        "salience": 1.0
+      }
+    ]
+  }
+}

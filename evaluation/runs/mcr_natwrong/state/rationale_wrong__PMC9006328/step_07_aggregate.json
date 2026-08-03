@@ -1,0 +1,42 @@
+{
+  "name": "aggregate",
+  "passed": false,
+  "score": 0.9971,
+  "reasoning": "Failed overall, despite a very high weighted aggregate score of 0.9971. The verification found no internal contradictions and the diagnostic reasoning was largely coherent, but the build_graph step failed because of four disconnected nodes, indicating incomplete linkage in the evidence structure. The main conclusion of chronic postoperative anterior uveitis secondary to a retained intraocular foreign body remained well supported.",
+  "data": {
+    "weighted_score": 0.9971,
+    "all_passed": false,
+    "step_scores": {
+      "static_rules": {
+        "score": 1.0,
+        "passed": true,
+        "weight": 0.1
+      },
+      "decompose": {
+        "score": 1.0,
+        "passed": true,
+        "weight": 0.05
+      },
+      "chain_verify": {
+        "score": 1.0,
+        "passed": true,
+        "weight": 0.1
+      },
+      "classify": {
+        "score": 1.0,
+        "passed": true,
+        "weight": 0.0
+      },
+      "expert_verify": {
+        "score": 1.0,
+        "passed": true,
+        "weight": 0.65
+      },
+      "build_graph": {
+        "score": 0.9714,
+        "passed": false,
+        "weight": 0.1
+      }
+    }
+  }
+}

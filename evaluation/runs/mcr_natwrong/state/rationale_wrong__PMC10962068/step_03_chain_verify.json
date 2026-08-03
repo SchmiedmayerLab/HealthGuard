@@ -1,0 +1,10 @@
+{
+  "name": "chain_verify",
+  "passed": true,
+  "score": 1.0,
+  "reasoning": "All logical chains are internally consistent. The statements form a coherent diagnostic chain: normal secondary sexual development plus primary amenorrhea and cyclic pain support an outflow obstruction, and the imaging findings (blind upper vagina, single cervix, bicornuate uterus, blood in the uterine horn) consistently support a müllerian obstructive anomaly, most specifically transverse vaginal septum/upper vaginal obstruction with cryptomenorrhea and hematometra. The differential exclusions are also logically consistent with the provided findings.",
+  "data": {
+    "has_chain_dependencies": true,
+    "issues": []
+  }
+}

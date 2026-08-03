@@ -1,0 +1,1555 @@
+{
+  "name": "build_graph",
+  "passed": false,
+  "score": 0.8608,
+  "reasoning": "Graph built with 97 node(s) and 51 edge(s). 27 disconnected node(s): n1, n10, n11, n12, n17, n18, n19, n2, n20, n21, n3, n5, n6, n7, n75, n76, n77, n78, n8, n81, n82, n84, n85, n86, n87, n88, n9. The graph centers on thyrotoxicosis and a competing diagnostic explanation. Key thyroid findings support Graves disease initially, but negative antibodies, absent ophthalmopathy/goiter, and the diffuse uptake pattern argue against Graves, toxic nodular disease, and thyroiditis. In parallel, PET-CT evidence of disseminated malignancy plus hot flashes and right-sided heart disease support a metastatic gastric neuroendocrine tumor with carcinoid syndrome, which also offers a mechanism for the unusual hyperthyroidism. The final diagnosis is supported by the unifying carcinoid/neuroendocrine tumor explanation.",
+  "data": {
+    "nodes": [
+      {
+        "id": "n1",
+        "text": "The chief complaint is a 3-week history of progressive dyspnea.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Presentation states a 3-week history of progressive dyspnea.",
+        "cluster_idx": 0,
+        "cluster_label": "history_taking"
+      },
+      {
+        "id": "n2",
+        "text": "The chief complaint is a 3-week history of palpitations.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Presentation explicitly includes palpitations for 3 weeks.",
+        "cluster_idx": 0,
+        "cluster_label": "history_taking"
+      },
+      {
+        "id": "n3",
+        "text": "The chief complaint is a 3-week history of profound weakness.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Presentation explicitly includes profound weakness for 3 weeks.",
+        "cluster_idx": 0,
+        "cluster_label": "history_taking"
+      },
+      {
+        "id": "n4",
+        "text": "The chief complaint is a 3-week history of hot flashes.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Presentation explicitly includes new hot flashes for 3 weeks.",
+        "cluster_idx": 0,
+        "cluster_label": "history_taking"
+      },
+      {
+        "id": "n5",
+        "text": "The chief complaint is a 3-week history of right flank pain.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Presentation explicitly includes right flank pain for 3 weeks.",
+        "cluster_idx": 0,
+        "cluster_label": "history_taking"
+      },
+      {
+        "id": "n6",
+        "text": "The patient’s immediate symptomatic syndrome includes palpitations.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Palpitations are directly listed in the presentation and exam summary.",
+        "cluster_idx": 1,
+        "cluster_label": "examination"
+      },
+      {
+        "id": "n7",
+        "text": "The patient’s immediate symptomatic syndrome includes tremor.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Neurologic exam demonstrated tremor.",
+        "cluster_idx": 1,
+        "cluster_label": "examination"
+      },
+      {
+        "id": "n8",
+        "text": "The patient’s immediate symptomatic syndrome includes hyperreflexia.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Neurologic exam demonstrated hyperreflexia.",
+        "cluster_idx": 1,
+        "cluster_label": "examination"
+      },
+      {
+        "id": "n9",
+        "text": "The patient’s immediate symptomatic syndrome includes weakness.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Profound weakness is part of the presenting syndrome.",
+        "cluster_idx": 1,
+        "cluster_label": "examination"
+      },
+      {
+        "id": "n10",
+        "text": "The patient’s immediate symptomatic syndrome includes elevated total thyroxine.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Reference data states elevated total thyroxine levels.",
+        "cluster_idx": 1,
+        "cluster_label": "examination"
+      },
+      {
+        "id": "n11",
+        "text": "The patient’s immediate symptomatic syndrome includes elevated free thyroxine.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Reference data states elevated free thyroxine levels.",
+        "cluster_idx": 1,
+        "cluster_label": "examination"
+      },
+      {
+        "id": "n12",
+        "text": "The patient’s immediate symptomatic syndrome includes suppressed TSH.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Reference data states suppressed TSH.",
+        "cluster_idx": 1,
+        "cluster_label": "examination"
+      },
+      {
+        "id": "n13",
+        "text": "The case contains severe anemia.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Hemoglobin 8.1 g/dL is severe anemia in this clinical context.",
+        "cluster_idx": 1,
+        "cluster_label": "examination"
+      },
+      {
+        "id": "n14",
+        "text": "The hemoglobin is 8.1 g/dL.",
+        "category": "statistical",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Hemoglobin is explicitly 8.1 g/dL.",
+        "cluster_idx": 1,
+        "cluster_label": "examination"
+      },
+      {
+        "id": "n15",
+        "text": "The case contains markedly elevated LDH.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "LDH 3054 U/L is markedly elevated versus reference range 122–222.",
+        "cluster_idx": 1,
+        "cluster_label": "examination"
+      },
+      {
+        "id": "n16",
+        "text": "The LDH is 3054 U/L.",
+        "category": "statistical",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "LDH is explicitly 3054 U/L.",
+        "cluster_idx": 1,
+        "cluster_label": "examination"
+      },
+      {
+        "id": "n17",
+        "text": "The case contains elevated alkaline phosphatase.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Alkaline phosphatase is explicitly elevated at 434 U/L (40–129).",
+        "cluster_idx": 1,
+        "cluster_label": "examination"
+      },
+      {
+        "id": "n18",
+        "text": "The case contains tender hepatomegaly.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Exam notes tender hepatomegaly extending 5 cm below the right costal margin.",
+        "cluster_idx": 1,
+        "cluster_label": "examination"
+      },
+      {
+        "id": "n19",
+        "text": "The case contains multiple large FDG-avid liver masses.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "PET-CT showed multiple FDG-avid liver masses up to 12 cm.",
+        "cluster_idx": 1,
+        "cluster_label": "examination"
+      },
+      {
+        "id": "n20",
+        "text": "The case contains mesenteric lymphadenopathy.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "PET-CT demonstrated mesenteric lymphadenopathy.",
+        "cluster_idx": 1,
+        "cluster_label": "examination"
+      },
+      {
+        "id": "n21",
+        "text": "The case contains FDG uptake in the gastric antrum.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "PET-CT demonstrated FDG uptake in the gastric antrum without wall thickening.",
+        "cluster_idx": 1,
+        "cluster_label": "examination"
+      },
+      {
+        "id": "n22",
+        "text": "Salient positive findings supporting thyrotoxicosis are the suppressed TSH.",
+        "category": "causal",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Suppressed TSH is present and is a standard supportive finding for thyrotoxicosis.",
+        "cluster_idx": 2,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n23",
+        "text": "Salient positive findings supporting thyrotoxicosis are elevated T4.",
+        "category": "causal",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Elevated total/free thyroxine is documented and supports thyrotoxicosis.",
+        "cluster_idx": 2,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n24",
+        "text": "Salient positive findings supporting thyrotoxicosis are tremor.",
+        "category": "causal",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Tremor is documented and is a classic thyrotoxic feature.",
+        "cluster_idx": 2,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n25",
+        "text": "Salient positive findings supporting thyrotoxicosis are hyperreflexia.",
+        "category": "causal",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Hyperreflexia is documented and supports thyrotoxicosis.",
+        "cluster_idx": 2,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n26",
+        "text": "Salient positive findings supporting thyrotoxicosis are palpitations.",
+        "category": "causal",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Palpitations are documented and support thyrotoxicosis.",
+        "cluster_idx": 2,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n27",
+        "text": "Salient positive findings supporting thyrotoxicosis are diffuse increased uptake on technetium thyroid scan.",
+        "category": "causal",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Technetium thyroid scan showed diffusely increased uptake.",
+        "cluster_idx": 2,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n28",
+        "text": "The scan pattern indicates increased thyroid hormone synthesis rather than destructive thyroiditis.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Diffuse increased uptake on thyroid scan is consistent with increased hormone synthesis and argues against destructive thyroiditis.",
+        "cluster_idx": 2,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n29",
+        "text": "She has pulmonary hypertension.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Echocardiography revealed pulmonary hypertension of 65 mmHg.",
+        "cluster_idx": 2,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n30",
+        "text": "She has right-sided chamber dilation.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Echocardiography showed right atrial and ventricular dilation.",
+        "cluster_idx": 2,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n31",
+        "text": "She has tricuspid regurgitation.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Echocardiography revealed tricuspid regurgitation.",
+        "cluster_idx": 2,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n32",
+        "text": "She has dyspnea.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Dyspnea is part of the presenting complaint.",
+        "cluster_idx": 2,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n33",
+        "text": "Thyrotoxicosis can exacerbate pulmonary hypertension.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Thyrotoxicosis can worsen pulmonary hypertension via increased cardiac output and hemodynamic stress; this is a reasonable clinical inference.",
+        "cluster_idx": 2,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n34",
+        "text": "Thyrotoxicosis can exacerbate right-sided chamber dilation.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.6,
+        "reasoning": "Thyrotoxicosis may worsen right-heart strain, but the data do not directly establish exacerbation of chamber dilation.",
+        "cluster_idx": 2,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n35",
+        "text": "Thyrotoxicosis can exacerbate tricuspid regurgitation.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.6,
+        "reasoning": "Thyrotoxicosis can aggravate hemodynamics, but direct worsening of tricuspid regurgitation is not established by the case data.",
+        "cluster_idx": 2,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n36",
+        "text": "Thyrotoxicosis can exacerbate dyspnea.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Thyrotoxicosis commonly contributes to dyspnea through tachycardia and high-output physiology.",
+        "cluster_idx": 2,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n37",
+        "text": "The hot flashes suggest episodic vasoactive mediator release.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Hot flashes/flushing in the setting of metastatic liver disease and right-sided heart findings reasonably suggest vasoactive mediator release (carcinoid syndrome).",
+        "cluster_idx": 2,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n38",
+        "text": "The hot flashes do not suggest classic Graves-specific symptoms.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Flushing/hot flashes are not classic Graves-specific features; this is a differential-pruning inference rather than a direct fact.",
+        "cluster_idx": 2,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n39",
+        "text": "There is no goiter of significance.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Exam states the thyroid gland was of normal size without significant enlargement.",
+        "cluster_idx": 2,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n40",
+        "text": "There are no nodules.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Exam states the thyroid gland was without nodules.",
+        "cluster_idx": 2,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n41",
+        "text": "There is no ophthalmopathy.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Reference says examination showed pale conjunctivae without erythema or exophthalmos.",
+        "cluster_idx": 2,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n42",
+        "text": "Thyroid-stimulating immunoglobulin is negative.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "TSI was reported negative.",
+        "cluster_idx": 2,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n43",
+        "text": "TRAb is negative.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "TSH receptor antibodies were reported negative.",
+        "cluster_idx": 2,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n44",
+        "text": "Negative thyroid-stimulating immunoglobulin argues against classic Graves disease.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Negative TSI reasonably argues against classic Graves disease in context.",
+        "cluster_idx": 2,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n45",
+        "text": "Negative TSH receptor antibodies argue against classic Graves disease.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Negative TRAb reasonably argues against classic Graves disease.",
+        "cluster_idx": 2,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n46",
+        "text": "Lack of exophthalmos makes Graves less convincing.",
+        "category": "causal",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Reference explicitly notes no exophthalmos.",
+        "cluster_idx": 2,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n47",
+        "text": "Absence of thyroid enlargement makes Graves less convincing.",
+        "category": "causal",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Thyroid gland was normal size without nodules, so absence of enlargement is supported.",
+        "cluster_idx": 2,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n48",
+        "text": "Diffusely increased uptake makes thyroiditis unlikely.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Diffuse increased uptake on thyroid scan makes thyroiditis less likely because thyroiditis typically has low uptake.",
+        "cluster_idx": 2,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n49",
+        "text": "Thyroiditis usually causes low uptake.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Standard thyroiditis physiology: uptake is usually low, matching the inference.",
+        "cluster_idx": 2,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n50",
+        "text": "Toxic multinodular goiter is less likely because the gland had no nodules.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "No nodules on exam makes toxic multinodular goiter less likely.",
+        "cluster_idx": 2,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n51",
+        "text": "Toxic adenoma is less likely because the gland had no nodules.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "No nodules also makes toxic adenoma less likely.",
+        "cluster_idx": 2,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n52",
+        "text": "Toxic multinodular goiter is less likely because the scan was diffuse rather than focal or patchy.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Diffuse rather than focal/patchy uptake argues against toxic multinodular goiter.",
+        "cluster_idx": 2,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n53",
+        "text": "Toxic adenoma is less likely because the scan was diffuse rather than focal or patchy.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Diffuse uptake argues against toxic adenoma, which is typically focal.",
+        "cluster_idx": 2,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n54",
+        "text": "Exogenous thyroid hormone use is not supported.",
+        "category": "factual",
+        "verified": true,
+        "score": 0.6,
+        "reasoning": "The record says exogenous thyroid hormone use is not supported, but does not directly document exposure history.",
+        "cluster_idx": 2,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n55",
+        "text": "Exogenous thyroid hormone use would be expected to produce low uptake.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Exogenous thyroid hormone classically suppresses uptake, so low uptake is expected.",
+        "cluster_idx": 2,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n56",
+        "text": "The major alternative explanation is a paraneoplastic or ectopic stimulus to the thyroid.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Given metastatic malignancy and atypical thyrotoxicosis, a paraneoplastic/ectopic thyroid stimulus is a reasonable alternative explanation.",
+        "cluster_idx": 2,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n57",
+        "text": "The PET-CT shows disseminated malignancy with dominant liver masses and gastric antral uptake.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "PET-CT showed multiple FDG-avid liver masses and FDG uptake in the gastric antrum.",
+        "cluster_idx": 2,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n58",
+        "text": "The PET-CT suggests metastatic gastric neuroendocrine tumor.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "The PET-CT pattern is compatible with, but does not prove, metastatic gastric neuroendocrine tumor.",
+        "cluster_idx": 2,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n59",
+        "text": "The combination of hot flashes, liver metastases, pulmonary/right-sided valvular disease, and hyperthyroidism strongly raises carcinoid syndrome from a metastatic neuroendocrine tumor.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Hot flashes, liver metastases, right-sided heart findings, and hyperthyroidism together reasonably raise carcinoid syndrome from metastatic NET.",
+        "cluster_idx": 2,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n60",
+        "text": "Carcinoid syndrome classically causes flushing.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Flushing/hot flashes are a classic manifestation of carcinoid syndrome.",
+        "cluster_idx": 2,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n61",
+        "text": "When metastatic to the liver, carcinoid syndrome can produce carcinoid heart disease with tricuspid involvement and pulmonary hypertension.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Carcinoid heart disease with tricuspid involvement and pulmonary hypertension is a standard complication of metastatic carcinoid syndrome.",
+        "cluster_idx": 2,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n62",
+        "text": "There is a systolic tricuspid murmur.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Exam explicitly noted a systolic tricuspid murmur.",
+        "cluster_idx": 2,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n63",
+        "text": "There is tricuspid regurgitation.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Echocardiography showed tricuspid regurgitation.",
+        "cluster_idx": 2,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n64",
+        "text": "There is right atrial dilation.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Echocardiography showed right atrial dilation.",
+        "cluster_idx": 2,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n65",
+        "text": "There is right ventricular dilation.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Echocardiography showed right ventricular dilation.",
+        "cluster_idx": 2,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n66",
+        "text": "There is pulmonary hypertension.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Echocardiography reported pulmonary hypertension of 65 mmHg.",
+        "cluster_idx": 2,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n67",
+        "text": "These findings fit the carcinoid heart disease pattern.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "The combination of TR, right-sided dilation, and pulmonary hypertension fits carcinoid heart disease.",
+        "cluster_idx": 2,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n68",
+        "text": "Neuroendocrine tumors can rarely produce ectopic TSH.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Rare ectopic TSH production by neuroendocrine tumors is a known phenomenon, though not directly shown here.",
+        "cluster_idx": 2,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n69",
+        "text": "Neuroendocrine tumors can otherwise stimulate the thyroid axis.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Other thyroid-axis stimulation by neuroendocrine tumors is a plausible mechanistic inference, but not directly documented.",
+        "cluster_idx": 2,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n70",
+        "text": "These effects can cause hyperthyroidism with diffuse radionuclide uptake and negative Graves antibodies.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "This is a mechanistic synthesis consistent with the case: hyperthyroidism, diffuse uptake, and negative Graves antibodies.",
+        "cluster_idx": 2,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n71",
+        "text": "The gastric antral FDG uptake without wall thickening is compatible with an occult gastric primary neuroendocrine tumor.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Gastric antral FDG uptake without wall thickening is compatible with an occult gastric primary NET, but not diagnostic.",
+        "cluster_idx": 2,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n72",
+        "text": "Bulky liver metastases are compatible with an occult gastric primary neuroendocrine tumor.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Bulky liver metastases can be compatible with a gastric primary NET, but this is inferential rather than directly proven.",
+        "cluster_idx": 2,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n73",
+        "text": "Graves disease fits the biochemical thyrotoxicosis.",
+        "category": "causal",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Elevated total/free thyroxine and suppressed TSH support biochemical thyrotoxicosis consistent with Graves physiology.",
+        "cluster_idx": 3,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n74",
+        "text": "Graves disease fits the diffuse thyroid uptake.",
+        "category": "causal",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "The technetium thyroid scan showed diffusely increased uptake.",
+        "cluster_idx": 3,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n75",
+        "text": "Graves disease is weakened by negative TSI/TRAb.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Negative TSI/TRAb weakens Graves disease as an explanation.",
+        "cluster_idx": 3,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n76",
+        "text": "Graves disease is weakened by absence of ophthalmopathy.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Absence of ophthalmopathy weakens Graves disease.",
+        "cluster_idx": 3,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n77",
+        "text": "Graves disease is weakened by a normal-sized nonnodular thyroid.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "A normal-sized, nonnodular thyroid makes Graves less typical.",
+        "cluster_idx": 3,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n78",
+        "text": "Graves disease is weakened by the overwhelming concurrent evidence of metastatic malignancy with carcinoid-type systemic manifestations.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Concurrent metastatic malignancy with carcinoid-type manifestations is a strong competing explanation, so it weakens Graves.",
+        "cluster_idx": 3,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n79",
+        "text": "Toxic multinodular goiter does not fit the diffuse uptake pattern.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Diffuse uptake is not the usual pattern for toxic multinodular goiter, which is typically patchy/nodular.",
+        "cluster_idx": 3,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n80",
+        "text": "Toxic adenoma does not fit the diffuse uptake pattern.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Diffuse uptake does not fit toxic adenoma, which is usually focal.",
+        "cluster_idx": 3,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n81",
+        "text": "Toxic multinodular goiter does not fit the normal thyroid exam without nodules.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Normal thyroid size and no nodules are documented; toxic multinodular goiter typically requires nodules, so this is a sound exclusion.",
+        "cluster_idx": 3,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n82",
+        "text": "Toxic adenoma does not fit the normal thyroid exam without nodules.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "A toxic adenoma would usually present as a nodule; the exam explicitly says thyroid normal size without nodules.",
+        "cluster_idx": 3,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n83",
+        "text": "Thyroiditis is unlikely because uptake is increased rather than decreased.",
+        "category": "causal",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "The thyroid scan showed diffusely increased uptake; thyroiditis usually has low uptake.",
+        "cluster_idx": 3,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n84",
+        "text": "Metastatic gastric adenocarcinoma with unrelated hyperthyroidism could explain anemia.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Severe anemia is present (hemoglobin 8.1 g/dL), so gastric adenocarcinoma with unrelated hyperthyroidism could plausibly explain it, though this is inferential.",
+        "cluster_idx": 3,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n85",
+        "text": "Metastatic gastric adenocarcinoma with unrelated hyperthyroidism could explain liver masses.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Multiple large FDG-avid liver masses are documented, so a metastatic gastric malignancy could explain the liver masses.",
+        "cluster_idx": 3,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n86",
+        "text": "Metastatic gastric adenocarcinoma with unrelated hyperthyroidism could explain gastric uptake.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "FDG uptake in the gastric antrum is documented, so a gastric primary malignancy could explain that finding.",
+        "cluster_idx": 3,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n87",
+        "text": "Metastatic gastric adenocarcinoma with unrelated hyperthyroidism does not explain the hot flashes as well as a neuroendocrine tumor does.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Hot flashes are documented and are more characteristic of carcinoid syndrome than gastric adenocarcinoma; this is a differential-pruning inference.",
+        "cluster_idx": 3,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n88",
+        "text": "Metastatic gastric adenocarcinoma with unrelated hyperthyroidism does not explain the right-sided valvular findings as well as a neuroendocrine tumor does.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Tricuspid regurgitation, right atrial/ventricular dilation, and pulmonary hypertension are documented and fit carcinoid heart disease better than gastric adenocarcinoma.",
+        "cluster_idx": 3,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n89",
+        "text": "Metastatic gastric neuroendocrine tumor with carcinoid syndrome best unifies the hot flashes, liver metastases, mesenteric nodes, tricuspid regurgitation, right heart changes, pulmonary hypertension, and the unusual hyperthyroidism as a paraneoplastic or ectopic phenomenon.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "This is a synthesis of documented hot flashes, liver metastases, mesenteric lymphadenopathy, right-sided heart disease, pulmonary hypertension, and thyrotoxicosis into a unifying neuroendocrine/carcinoid explanation.",
+        "cluster_idx": 4,
+        "cluster_label": "final_decision"
+      },
+      {
+        "id": "n90",
+        "text": "The most coherent unifying diagnosis is metastatic gastric neuroendocrine tumor causing carcinoid syndrome.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "This is the trace’s diagnostic conclusion, which follows from the combined findings and differential reasoning.",
+        "cluster_idx": 4,
+        "cluster_label": "final_decision"
+      },
+      {
+        "id": "n91",
+        "text": "The patient has associated thyrotoxicosis.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "The reference data explicitly shows elevated total and free thyroxine with suppressed TSH, i.e., thyrotoxicosis.",
+        "cluster_idx": 4,
+        "cluster_label": "final_decision"
+      },
+      {
+        "id": "n92",
+        "text": "The thyroid findings alone could suggest Graves disease.",
+        "category": "causal",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "The trace notes that the thyroid findings alone could suggest Graves disease; diffuse increased uptake with suppressed TSH and elevated T4 is compatible with Graves.",
+        "cluster_idx": 4,
+        "cluster_label": "final_decision"
+      },
+      {
+        "id": "n93",
+        "text": "Antibody negativity makes Graves disease less likely.",
+        "category": "causal",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "TSI and TSH receptor antibodies were negative, which makes Graves disease less likely.",
+        "cluster_idx": 4,
+        "cluster_label": "final_decision"
+      },
+      {
+        "id": "n94",
+        "text": "Lack of classic Graves stigmata makes Graves disease less likely.",
+        "category": "causal",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "No exophthalmos and a normal-sized thyroid without nodules are documented, so lack of classic Graves stigmata is supported.",
+        "cluster_idx": 4,
+        "cluster_label": "final_decision"
+      },
+      {
+        "id": "n95",
+        "text": "The systemic malignant picture provides a stronger overall explanation for the presentation.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Given the documented metastatic-appearing liver masses, lymphadenopathy, anemia, and hepatomegaly, the malignant picture is a stronger unifying explanation than isolated thyroid disease.",
+        "cluster_idx": 4,
+        "cluster_label": "final_decision"
+      },
+      {
+        "id": "n96",
+        "text": "The carcinoid-type manifestations provide a stronger overall explanation for the presentation.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Hot flashes plus right-sided valvular disease and pulmonary hypertension are classic carcinoid-type manifestations, so this is a reasonable explanatory inference.",
+        "cluster_idx": 4,
+        "cluster_label": "final_decision"
+      },
+      {
+        "id": "n97",
+        "text": "The final diagnosis is metastatic gastric neuroendocrine tumor with carcinoid syndrome.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "The reference data and trace both state the final diagnosis as metastatic gastric neuroendocrine tumor with carcinoid syndrome.",
+        "cluster_idx": 4,
+        "cluster_label": "final_decision"
+      }
+    ],
+    "edges": [
+      {
+        "source": "n14",
+        "target": "n13",
+        "kind": "supports",
+        "explanation": "Hemoglobin 8.1 g/dL supports the statement that the case contains severe anemia."
+      },
+      {
+        "source": "n16",
+        "target": "n15",
+        "kind": "supports",
+        "explanation": "LDH 3054 U/L supports the statement that LDH is markedly elevated."
+      },
+      {
+        "source": "n22",
+        "target": "n73",
+        "kind": "supports",
+        "explanation": "Suppressed TSH is a key biochemical feature that supports Graves disease as a cause of thyrotoxicosis."
+      },
+      {
+        "source": "n23",
+        "target": "n73",
+        "kind": "supports",
+        "explanation": "Elevated T4 supports Graves disease as a cause of thyrotoxicosis."
+      },
+      {
+        "source": "n24",
+        "target": "n73",
+        "kind": "supports",
+        "explanation": "Tremor supports Graves disease as a clinical explanation for thyrotoxicosis."
+      },
+      {
+        "source": "n25",
+        "target": "n73",
+        "kind": "supports",
+        "explanation": "Hyperreflexia supports Graves disease as a clinical explanation for thyrotoxicosis."
+      },
+      {
+        "source": "n26",
+        "target": "n73",
+        "kind": "supports",
+        "explanation": "Palpitations support Graves disease as a clinical explanation for thyrotoxicosis."
+      },
+      {
+        "source": "n27",
+        "target": "n28",
+        "kind": "supports",
+        "explanation": "Diffuse increased uptake on thyroid scan supports the interpretation of increased hormone synthesis rather than destructive thyroiditis."
+      },
+      {
+        "source": "n28",
+        "target": "n83",
+        "kind": "supports",
+        "explanation": "If the scan indicates hormone synthesis rather than destructive thyroiditis, that supports thyroiditis being unlikely."
+      },
+      {
+        "source": "n33",
+        "target": "n29",
+        "kind": "supports",
+        "explanation": "Thyrotoxicosis can worsen pulmonary hypertension, supporting the coexistence of pulmonary hypertension in this case."
+      },
+      {
+        "source": "n34",
+        "target": "n30",
+        "kind": "supports",
+        "explanation": "Thyrotoxicosis can exacerbate right-sided chamber dilation, supporting the observed right-sided dilation."
+      },
+      {
+        "source": "n35",
+        "target": "n31",
+        "kind": "supports",
+        "explanation": "Thyrotoxicosis can exacerbate tricuspid regurgitation, supporting the observed valvular disease."
+      },
+      {
+        "source": "n36",
+        "target": "n32",
+        "kind": "supports",
+        "explanation": "Thyrotoxicosis can exacerbate dyspnea, supporting the symptom."
+      },
+      {
+        "source": "n37",
+        "target": "n4",
+        "kind": "supports",
+        "explanation": "Episodic vasoactive mediator release supports the hot flashes complaint."
+      },
+      {
+        "source": "n38",
+        "target": "n73",
+        "kind": "supports",
+        "explanation": "Hot flashes not fitting classic Graves-specific symptoms weakens Graves as the explanation for the thyrotoxicosis picture."
+      },
+      {
+        "source": "n39",
+        "target": "n47",
+        "kind": "supports",
+        "explanation": "Absence of significant goiter supports the statement that Graves disease is less convincing."
+      },
+      {
+        "source": "n40",
+        "target": "n50",
+        "kind": "supports",
+        "explanation": "No nodules supports toxic multinodular goiter being less likely."
+      },
+      {
+        "source": "n40",
+        "target": "n51",
+        "kind": "supports",
+        "explanation": "No nodules supports toxic adenoma being less likely."
+      },
+      {
+        "source": "n41",
+        "target": "n46",
+        "kind": "supports",
+        "explanation": "Absence of ophthalmopathy supports Graves disease being less convincing."
+      },
+      {
+        "source": "n42",
+        "target": "n44",
+        "kind": "supports",
+        "explanation": "Negative thyroid-stimulating immunoglobulin argues against classic Graves disease."
+      },
+      {
+        "source": "n43",
+        "target": "n45",
+        "kind": "supports",
+        "explanation": "Negative TRAb argues against classic Graves disease."
+      },
+      {
+        "source": "n48",
+        "target": "n49",
+        "kind": "supports",
+        "explanation": "Diffuse increased uptake makes thyroiditis unlikely because thyroiditis usually has low uptake."
+      },
+      {
+        "source": "n49",
+        "target": "n83",
+        "kind": "supports",
+        "explanation": "If thyroiditis usually causes low uptake, increased uptake supports thyroiditis being unlikely."
+      },
+      {
+        "source": "n52",
+        "target": "n79",
+        "kind": "supports",
+        "explanation": "A diffuse rather than focal or patchy scan pattern supports toxic multinodular goiter not fitting."
+      },
+      {
+        "source": "n53",
+        "target": "n80",
+        "kind": "supports",
+        "explanation": "A diffuse rather than focal or patchy scan pattern supports toxic adenoma not fitting."
+      },
+      {
+        "source": "n54",
+        "target": "n55",
+        "kind": "supports",
+        "explanation": "The absence of evidence for exogenous thyroid hormone use is interpreted in light of the expectation that exogenous hormone would produce low uptake."
+      },
+      {
+        "source": "n57",
+        "target": "n58",
+        "kind": "supports",
+        "explanation": "Disseminated malignancy with dominant liver masses and gastric antral uptake supports a metastatic gastric neuroendocrine tumor."
+      },
+      {
+        "source": "n57",
+        "target": "n56",
+        "kind": "supports",
+        "explanation": "The PET-CT evidence of disseminated malignancy supports considering a paraneoplastic or ectopic thyroid stimulus."
+      },
+      {
+        "source": "n58",
+        "target": "n59",
+        "kind": "supports",
+        "explanation": "A metastatic gastric neuroendocrine tumor supports the combined carcinoid-syndrome explanation."
+      },
+      {
+        "source": "n60",
+        "target": "n37",
+        "kind": "supports",
+        "explanation": "Carcinoid syndrome classically causes flushing, supporting the hot flashes as vasoactive flushing."
+      },
+      {
+        "source": "n61",
+        "target": "n67",
+        "kind": "supports",
+        "explanation": "Carcinoid heart disease with tricuspid involvement and pulmonary hypertension supports the carcinoid heart disease pattern."
+      },
+      {
+        "source": "n62",
+        "target": "n67",
+        "kind": "supports",
+        "explanation": "A systolic tricuspid murmur supports the carcinoid heart disease pattern."
+      },
+      {
+        "source": "n63",
+        "target": "n67",
+        "kind": "supports",
+        "explanation": "Tricuspid regurgitation supports the carcinoid heart disease pattern."
+      },
+      {
+        "source": "n64",
+        "target": "n67",
+        "kind": "supports",
+        "explanation": "Right atrial dilation supports the carcinoid heart disease pattern."
+      },
+      {
+        "source": "n65",
+        "target": "n67",
+        "kind": "supports",
+        "explanation": "Right ventricular dilation supports the carcinoid heart disease pattern."
+      },
+      {
+        "source": "n66",
+        "target": "n67",
+        "kind": "supports",
+        "explanation": "Pulmonary hypertension supports the carcinoid heart disease pattern."
+      },
+      {
+        "source": "n67",
+        "target": "n59",
+        "kind": "supports",
+        "explanation": "The carcinoid heart disease pattern supports the broader carcinoid syndrome / metastatic neuroendocrine tumor explanation."
+      },
+      {
+        "source": "n68",
+        "target": "n70",
+        "kind": "supports",
+        "explanation": "Ectopic TSH production by neuroendocrine tumors supports the mechanism for hyperthyroidism with diffuse uptake and negative Graves antibodies."
+      },
+      {
+        "source": "n69",
+        "target": "n70",
+        "kind": "supports",
+        "explanation": "Other thyroid-axis stimulation by neuroendocrine tumors supports the same hyperthyroid mechanism."
+      },
+      {
+        "source": "n70",
+        "target": "n91",
+        "kind": "supports",
+        "explanation": "This mechanism supports the presence of associated thyrotoxicosis."
+      },
+      {
+        "source": "n71",
+        "target": "n58",
+        "kind": "supports",
+        "explanation": "Gastric antral FDG uptake without wall thickening supports an occult gastric primary neuroendocrine tumor."
+      },
+      {
+        "source": "n72",
+        "target": "n58",
+        "kind": "supports",
+        "explanation": "Bulky liver metastases support an occult gastric primary neuroendocrine tumor."
+      },
+      {
+        "source": "n73",
+        "target": "n92",
+        "kind": "supports",
+        "explanation": "Biochemical thyrotoxicosis supports that Graves disease could be considered from the thyroid findings alone."
+      },
+      {
+        "source": "n74",
+        "target": "n92",
+        "kind": "supports",
+        "explanation": "Diffuse thyroid uptake supports that Graves disease could be considered from the thyroid findings alone."
+      },
+      {
+        "source": "n42",
+        "target": "n93",
+        "kind": "supports",
+        "explanation": "Negative TSI supports Graves disease being less likely."
+      },
+      {
+        "source": "n43",
+        "target": "n93",
+        "kind": "supports",
+        "explanation": "Negative TRAb supports Graves disease being less likely."
+      },
+      {
+        "source": "n41",
+        "target": "n94",
+        "kind": "supports",
+        "explanation": "Lack of classic Graves stigmata supports Graves disease being less likely."
+      },
+      {
+        "source": "n57",
+        "target": "n95",
+        "kind": "supports",
+        "explanation": "The systemic malignant picture supports the idea that it provides a stronger overall explanation."
+      },
+      {
+        "source": "n59",
+        "target": "n96",
+        "kind": "supports",
+        "explanation": "The carcinoid-type manifestations support the idea that they provide a stronger overall explanation."
+      },
+      {
+        "source": "n89",
+        "target": "n90",
+        "kind": "supports",
+        "explanation": "The unifying metastatic gastric neuroendocrine tumor with carcinoid syndrome explanation supports the most coherent unifying diagnosis."
+      },
+      {
+        "source": "n90",
+        "target": "n97",
+        "kind": "supports",
+        "explanation": "The most coherent unifying diagnosis supports the final diagnosis."
+      }
+    ],
+    "disconnected": [
+      "n1",
+      "n10",
+      "n11",
+      "n12",
+      "n17",
+      "n18",
+      "n19",
+      "n2",
+      "n20",
+      "n21",
+      "n3",
+      "n5",
+      "n6",
+      "n7",
+      "n75",
+      "n76",
+      "n77",
+      "n78",
+      "n8",
+      "n81",
+      "n82",
+      "n84",
+      "n85",
+      "n86",
+      "n87",
+      "n88",
+      "n9"
+    ],
+    "clusters": [
+      {
+        "cluster_id": "c1",
+        "label": "history_taking",
+        "statement_indices": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "summary": "Initial 3-week symptom history including dyspnea, palpitations, weakness, hot flashes, and flank pain.",
+        "salience": 0.72
+      },
+      {
+        "cluster_id": "c2",
+        "label": "examination",
+        "statement_indices": [
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21
+        ],
+        "summary": "Key clinical and laboratory findings showing thyrotoxicosis, severe anemia, marked LDH elevation, hepatomegaly, and FDG-avid liver/gastric/mesenteric disease.",
+        "salience": 0.9
+      },
+      {
+        "cluster_id": "c3",
+        "label": "differential_generation",
+        "statement_indices": [
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40,
+          41,
+          42,
+          43,
+          44,
+          45,
+          46,
+          47,
+          48,
+          49,
+          50,
+          51,
+          52,
+          53,
+          54,
+          55,
+          56,
+          57,
+          58,
+          59,
+          60,
+          61,
+          62,
+          63,
+          64,
+          65,
+          66,
+          67,
+          68,
+          69,
+          70,
+          71,
+          72
+        ],
+        "summary": "Reasoning through thyrotoxicosis and competing etiologies, favoring carcinoid syndrome/neuroendocrine tumor over Graves, thyroiditis, toxic nodular disease, or exogenous hormone.",
+        "salience": 0.95
+      },
+      {
+        "cluster_id": "c4",
+        "label": "differential_generation",
+        "statement_indices": [
+          73,
+          74,
+          75,
+          76,
+          77,
+          78,
+          79,
+          80,
+          81,
+          82,
+          83,
+          84,
+          85,
+          86,
+          87,
+          88
+        ],
+        "summary": "Further comparison of Graves, toxic nodular disease, thyroiditis, and metastatic gastric adenocarcinoma against the overall malignant carcinoid-like picture.",
+        "salience": 0.82
+      },
+      {
+        "cluster_id": "c5",
+        "label": "final_decision",
+        "statement_indices": [
+          89,
+          90,
+          91,
+          92,
+          93,
+          94,
+          95,
+          96,
+          97
+        ],
+        "summary": "Concludes that metastatic gastric neuroendocrine tumor with carcinoid syndrome best explains the presentation, with associated thyrotoxicosis.",
+        "salience": 1.0
+      }
+    ],
+    "node_ranks": {
+      "n1": 0.29,
+      "n2": 0.29,
+      "n3": 0.29,
+      "n4": 0.44,
+      "n5": 0.29,
+      "n6": 0.43,
+      "n7": 0.43,
+      "n8": 0.43,
+      "n9": 0.43,
+      "n10": 0.43,
+      "n11": 0.43,
+      "n12": 0.43,
+      "n13": 0.58,
+      "n14": 0.48,
+      "n15": 0.58,
+      "n16": 0.48,
+      "n17": 0.43,
+      "n18": 0.43,
+      "n19": 0.43,
+      "n20": 0.43,
+      "n21": 0.43,
+      "n22": 0.52,
+      "n23": 0.52,
+      "n24": 0.52,
+      "n25": 0.52,
+      "n26": 0.52,
+      "n27": 0.52,
+      "n28": 0.62,
+      "n29": 0.72,
+      "n30": 0.72,
+      "n31": 0.72,
+      "n32": 0.72,
+      "n33": 0.62,
+      "n34": 0.62,
+      "n35": 0.62,
+      "n36": 0.62,
+      "n37": 0.62,
+      "n38": 0.52,
+      "n39": 0.62,
+      "n40": 0.62,
+      "n41": 0.62,
+      "n42": 0.62,
+      "n43": 0.62,
+      "n44": 0.72,
+      "n45": 0.72,
+      "n46": 0.72,
+      "n47": 0.72,
+      "n48": 0.52,
+      "n49": 0.62,
+      "n50": 0.72,
+      "n51": 0.72,
+      "n52": 0.62,
+      "n53": 0.62,
+      "n54": 0.62,
+      "n55": 0.72,
+      "n56": 0.72,
+      "n57": 0.42,
+      "n58": 0.52,
+      "n59": 0.62,
+      "n60": 0.52,
+      "n61": 0.42,
+      "n62": 0.42,
+      "n63": 0.42,
+      "n64": 0.42,
+      "n65": 0.42,
+      "n66": 0.42,
+      "n67": 0.52,
+      "n68": 0.52,
+      "n69": 0.52,
+      "n70": 0.62,
+      "n71": 0.42,
+      "n72": 0.42,
+      "n73": 0.76,
+      "n74": 0.76,
+      "n75": 0.71,
+      "n76": 0.71,
+      "n77": 0.71,
+      "n78": 0.71,
+      "n79": 0.86,
+      "n80": 0.86,
+      "n81": 0.71,
+      "n82": 0.71,
+      "n83": 0.86,
+      "n84": 0.71,
+      "n85": 0.71,
+      "n86": 0.71,
+      "n87": 0.71,
+      "n88": 0.71,
+      "n89": 0.8,
+      "n90": 0.9,
+      "n91": 1.0,
+      "n92": 1.0,
+      "n93": 1.0,
+      "n94": 1.0,
+      "n95": 1.0,
+      "n96": 1.0,
+      "n97": 1.0
+    }
+  }
+}

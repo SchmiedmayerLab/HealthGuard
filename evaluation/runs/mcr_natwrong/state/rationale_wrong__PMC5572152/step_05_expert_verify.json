@@ -1,0 +1,701 @@
+{
+  "name": "expert_verify",
+  "passed": true,
+  "score": 1.0,
+  "reasoning": "No contradictions among 76 statement(s) (38 supported, 37 valid inferences, 1 unverifiable).",
+  "data": {
+    "verifications": [
+      {
+        "text": "The chief complaint is progressive dyspnea over 2 months.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Reference says 2 months of progressive dyspnea."
+      },
+      {
+        "text": "The chief complaint is wheezing over 2 months.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Reference says 2 months of wheezing."
+      },
+      {
+        "text": "The patient has had scant hemoptysis for 4 weeks.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Reference says 4 weeks of cough productive of scant blood-tinged sputum."
+      },
+      {
+        "text": "The patient is 4 years after bilateral lung transplantation.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Reference says 4 years after bilateral lung transplantation."
+      },
+      {
+        "text": "The patient’s own major concern is worsening airway symptoms.",
+        "category": "factual",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.72,
+        "reasoning": "The trace frames the patient’s main concern as worsening airway symptoms; this is a reasonable paraphrase/inference from dyspnea, wheeze, and hemoptysis."
+      },
+      {
+        "text": "Imaging localizes the problem to a focal obstructing lesion in the left mainstem bronchus.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "CT shows a polypoid lesion in the left mainstem bronchus at the anastomotic site with severe narrowing."
+      },
+      {
+        "text": "The salient positive findings strongly suggest a focal endobronchial process rather than diffuse parenchymal disease alone.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.9,
+        "reasoning": "Focal unilateral wheeze, endobronchial lesion, and bronchoscopic mass support an endobronchial rather than diffuse parenchymal process."
+      },
+      {
+        "text": "She is chronically immunosuppressed with tacrolimus after lung transplant.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Reference lists tacrolimus as part of her immunosuppression regimen."
+      },
+      {
+        "text": "She is chronically immunosuppressed with prednisone after lung transplant.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Reference lists prednisone 5 mg daily as part of her immunosuppression regimen."
+      },
+      {
+        "text": "She has diabetes.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Reference explicitly lists diabetes in her medical history."
+      },
+      {
+        "text": "She has profound chronic pancytopenia.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.98,
+        "reasoning": "Reference states chronic pancytopenia."
+      },
+      {
+        "text": "She has severe leukopenia.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.98,
+        "reasoning": "WBC 0.9×10^3/mL is severe leukopenia."
+      },
+      {
+        "text": "Her white blood cell count is 0.9×10^3/mL.",
+        "category": "statistical",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Reference gives WBC 0.9×10^3/mL."
+      },
+      {
+        "text": "These conditions increase the risk for opportunistic infection and malignancy.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.95,
+        "reasoning": "Transplant immunosuppression, diabetes, and severe leukopenia are standard risk factors for opportunistic infection and malignancy."
+      },
+      {
+        "text": "Her symptoms include progressive dyspnea.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Reference says progressive dyspnea."
+      },
+      {
+        "text": "Her symptoms include focal wheezing over the left lung.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Reference says focal end-expiratory wheezes over the left lung."
+      },
+      {
+        "text": "Her symptoms include scant blood-tinged sputum.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Reference says scant blood-tinged sputum."
+      },
+      {
+        "text": "Her symptoms include 6 months of nightly sweats.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Reference says nightly sweats for 6 months."
+      },
+      {
+        "text": "CT shows a 2.2 × 1.1 × 0.9 cm polypoid soft-tissue lesion arising from the roof of the left mainstem bronchus at the anastomotic site.",
+        "category": "statistical",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "CT description matches exactly: 2.2×1.1×0.9 cm polypoid soft-tissue lesion at the left mainstem bronchus anastomotic site."
+      },
+      {
+        "text": "The lesion causes severe narrowing to 3 mm.",
+        "category": "statistical",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Reference says severe luminal narrowing to 3 mm."
+      },
+      {
+        "text": "CT shows tree-in-bud nodularity in the left lower lobe.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Reference says tree-in-bud nodularity in the left lower lobe."
+      },
+      {
+        "text": "Tree-in-bud nodularity can reflect distal endobronchial spread.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.86,
+        "reasoning": "Tree-in-bud is a standard radiologic pattern that can reflect distal endobronchial spread."
+      },
+      {
+        "text": "Tree-in-bud nodularity can reflect post-obstructive infectious bronchiolitis.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.86,
+        "reasoning": "Tree-in-bud can also reflect post-obstructive infectious bronchiolitis; this is a standard inference."
+      },
+      {
+        "text": "Bronchoscopy directly visualized a fibrinous mass protruding into the left mainstem bronchus proximal to the anastomosis.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Reference says rigid bronchoscopy revealed a fibrinous mass protruding into the left mainstem bronchus proximal to the anastomosis."
+      },
+      {
+        "text": "She is afebrile.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Reference says she was afebrile."
+      },
+      {
+        "text": "She is oxygenating well on room air.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Reference says oxygen saturation 97% on room air."
+      },
+      {
+        "text": "She denies weight loss.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Reference says she denied weight loss."
+      },
+      {
+        "text": "CMV PCR is undetectable.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Reference says CMV PCR was undetectable."
+      },
+      {
+        "text": "EBV PCR is undetectable.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Reference says EBV PCR was undetectable."
+      },
+      {
+        "text": "Undetectable CMV PCR makes CMV airway disease less likely.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.93,
+        "reasoning": "Undetectable CMV PCR reasonably makes CMV airway disease less likely, though not impossible."
+      },
+      {
+        "text": "Undetectable EBV PCR makes EBV-driven post-transplant lymphoproliferative disorder less likely.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.93,
+        "reasoning": "Undetectable EBV PCR reasonably makes EBV-driven PTLD less likely, though not excluded."
+      },
+      {
+        "text": "The lesion is specifically at the bronchial anastomotic site.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Reference explicitly places the lesion at the bronchial anastomotic site."
+      },
+      {
+        "text": "The bronchial anastomotic site is an important clue favoring a transplant-related airway complication or localized infection at a structurally vulnerable site.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.9,
+        "reasoning": "Anastomotic location in a lung transplant recipient is a standard clue for transplant-related airway complication or localized infection."
+      },
+      {
+        "text": "The focal wheeze and severe unilateral mainstem narrowing argue against simple asthma/COPD-type wheezing.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.88,
+        "reasoning": "Focal unilateral wheeze with severe mainstem narrowing is not typical of simple asthma/COPD-type wheezing."
+      },
+      {
+        "text": "The presence of a discrete endobronchial mass argues against bronchiolitis obliterans syndrome.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.9,
+        "reasoning": "A discrete visible endobronchial mass is not the usual pattern for bronchiolitis obliterans syndrome."
+      },
+      {
+        "text": "Bronchiolitis obliterans syndrome causes diffuse small-airway obstruction rather than a visible obstructing bronchial lesion.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.95,
+        "reasoning": "Bronchiolitis obliterans syndrome is a diffuse small-airway obstructive process rather than a focal obstructing bronchial lesion."
+      },
+      {
+        "text": "The first major differential is post-transplant lymphoproliferative disorder.",
+        "category": "factual",
+        "verdict": "unverifiable",
+        "verified": true,
+        "score": 0.6,
+        "confidence": 0.62,
+        "reasoning": "This is a differential ranking from the trace, not a fact directly stated in the reference data."
+      },
+      {
+        "text": "PTLD fits because she is a transplant recipient with night sweats, hemoptysis, and an endobronchial mass.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.9,
+        "reasoning": "Transplant status, night sweats, hemoptysis, and an endobronchial mass are compatible with PTLD."
+      },
+      {
+        "text": "PTLD is less favored because the lesion is centered at the anastomotic site.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.88,
+        "reasoning": "Anastomotic centering is a reasonable reason to favor airway complication/infection over PTLD."
+      },
+      {
+        "text": "PTLD is less favored because the lesion is described as fibrinous.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.84,
+        "reasoning": "A fibrinous appearance reasonably makes PTLD less favored, though this is interpretive rather than directly stated."
+      },
+      {
+        "text": "PTLD is less favored because there is associated tree-in-bud change suggesting airway-centered infection.",
+        "category": "causal",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.96,
+        "reasoning": "Trace explicitly says tree-in-bud change suggests airway-centered infection, making PTLD less favored."
+      },
+      {
+        "text": "PTLD is less favored because EBV PCR is undetectable.",
+        "category": "causal",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.98,
+        "reasoning": "Reference data states EBV PCR was undetectable."
+      },
+      {
+        "text": "PTLD remains plausible.",
+        "category": "factual",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.9,
+        "reasoning": "The trace states PTLD remains plausible despite being less favored; this is a differential judgment, not a direct data claim."
+      },
+      {
+        "text": "PTLD is not the best fit.",
+        "category": "factual",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.95,
+        "reasoning": "Consistent with the reasoning that PTLD is considered but not the leading diagnosis."
+      },
+      {
+        "text": "The second differential is bronchogenic carcinoma or another endobronchial neoplasm.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "The trace explicitly lists bronchogenic carcinoma or another endobronchial neoplasm as the second differential."
+      },
+      {
+        "text": "Hemoptysis is compatible with bronchogenic carcinoma or another endobronchial neoplasm.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.93,
+        "reasoning": "Hemoptysis is a standard compatible feature of endobronchial malignancy; the case has scant blood-tinged sputum."
+      },
+      {
+        "text": "Focal wheeze is compatible with bronchogenic carcinoma or another endobronchial neoplasm.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.92,
+        "reasoning": "Focal wheeze is clinically compatible with an obstructing endobronchial neoplasm."
+      },
+      {
+        "text": "A polypoid obstructing lesion is compatible with bronchogenic carcinoma or another endobronchial neoplasm.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.94,
+        "reasoning": "A polypoid obstructing lesion is a standard compatible presentation for an endobronchial neoplasm."
+      },
+      {
+        "text": "The anastomotic location in an immunosuppressed lung transplant recipient makes primary malignancy less likely.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.95,
+        "reasoning": "The trace argues the anastomotic location in an immunosuppressed lung transplant recipient makes primary malignancy less likely."
+      },
+      {
+        "text": "The fibrinous appearance makes primary malignancy less likely.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.9,
+        "reasoning": "The fibrinous bronchoscopic appearance is used in the trace to argue against primary malignancy."
+      },
+      {
+        "text": "Distal tree-in-bud nodularity makes primary malignancy less likely.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.9,
+        "reasoning": "Tree-in-bud nodularity supports an airway-centered infectious process, which makes primary malignancy less likely."
+      },
+      {
+        "text": "An infectious pseudotumor-like lesion is more likely than primary malignancy.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.97,
+        "reasoning": "The trace explicitly concludes an infectious pseudotumor-like lesion is more likely than primary malignancy."
+      },
+      {
+        "text": "The third differential is an anastomotic complication such as granulation tissue or bronchial stenosis.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "The trace explicitly names anastomotic complication such as granulation tissue or bronchial stenosis as the third differential."
+      },
+      {
+        "text": "The location at the anastomosis fits anastomotic complication.",
+        "category": "causal",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.98,
+        "reasoning": "The lesion is at the bronchial anastomosis, which fits anastomotic complication."
+      },
+      {
+        "text": "Severe luminal narrowing fits anastomotic complication.",
+        "category": "causal",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.98,
+        "reasoning": "CT shows severe luminal narrowing to 3 mm, fitting bronchial stenosis/anastomotic complication."
+      },
+      {
+        "text": "Granulation tissue alone would not as readily explain the constitutional symptom of night sweats.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.9,
+        "reasoning": "Night sweats are not well explained by simple granulation tissue; this is a differential-pruning inference."
+      },
+      {
+        "text": "Granulation tissue alone would not as readily explain hemoptysis.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.88,
+        "reasoning": "Hemoptysis is not as readily explained by simple granulation tissue; this is a reasonable inference, not a direct contradiction."
+      },
+      {
+        "text": "Granulation tissue alone would not as readily explain tree-in-bud nodularity.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.9,
+        "reasoning": "Tree-in-bud nodularity suggests distal airway infection rather than isolated granulation tissue."
+      },
+      {
+        "text": "The lesion is described as a fibrinous mass rather than simple scar or granulation tissue.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.98,
+        "reasoning": "Bronchoscopy described a fibrinous mass protruding into the left mainstem bronchus."
+      },
+      {
+        "text": "In an immunocompromised host, infection superimposed on the anastomosis is more likely.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.95,
+        "reasoning": "In an immunocompromised host, superimposed infection at the anastomosis is a standard clinical inference."
+      },
+      {
+        "text": "The fourth and most compelling differential is fungal tracheobronchitis or endobronchial fungal infection.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "The trace explicitly identifies fungal tracheobronchitis/endobronchial fungal infection as the most compelling differential."
+      },
+      {
+        "text": "Aspergillus involving the bronchial anastomosis is especially considered.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.98,
+        "reasoning": "The trace specifically says Aspergillus involving the bronchial anastomosis is especially considered."
+      },
+      {
+        "text": "Lung transplant recipients are particularly susceptible to Aspergillus airway infection at bronchial anastomoses.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.96,
+        "reasoning": "This is standard transplant infectious disease knowledge and is explicitly stated in the trace."
+      },
+      {
+        "text": "Impaired local vascularity contributes to susceptibility to Aspergillus airway infection at bronchial anastomoses.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.9,
+        "reasoning": "Impaired local vascularity is a standard mechanism for anastomotic susceptibility; not directly measured in the case."
+      },
+      {
+        "text": "Impaired healing contributes to susceptibility to Aspergillus airway infection at bronchial anastomoses.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.9,
+        "reasoning": "Impaired healing is a standard mechanism for anastomotic susceptibility; not directly measured in the case."
+      },
+      {
+        "text": "The case features supporting Aspergillus tracheobronchitis are immunosuppression, diabetes, profound leukopenia, a lesion arising at the anastomotic site, bronchoscopic appearance of a fibrinous obstructing mass, hemoptysis, focal wheeze from airway obstruction, and tree-in-bud nodularity distal to the lesion.",
+        "category": "causal",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "All listed features are present in the reference data or trace: immunosuppression, diabetes, leukopenia, anastomotic lesion, fibrinous mass, hemoptysis, focal wheeze, and tree-in-bud nodularity."
+      },
+      {
+        "text": "Aspergillus tracheobronchitis can present as pseudomembranous endobronchial masses.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.96,
+        "reasoning": "Aspergillus tracheobronchitis can present as pseudomembranous endobronchial disease; this is standard medical knowledge."
+      },
+      {
+        "text": "Aspergillus tracheobronchitis can present as obstructing endobronchial masses.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.96,
+        "reasoning": "Obstructing endobronchial masses are a recognized presentation of Aspergillus tracheobronchitis."
+      },
+      {
+        "text": "Aspergillus tracheobronchitis may present without classic invasive pneumonia.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.95,
+        "reasoning": "Airway-limited Aspergillus tracheobronchitis may occur without classic invasive pneumonia."
+      },
+      {
+        "text": "Fever may be absent in Aspergillus tracheobronchitis.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.95,
+        "reasoning": "Absence of fever is compatible with Aspergillus tracheobronchitis and is noted in the trace."
+      },
+      {
+        "text": "The single most likely diagnosis is obstructing Aspergillus tracheobronchitis at the bronchial anastomosis after lung transplantation.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "The trace explicitly states the single most likely diagnosis is obstructing Aspergillus tracheobronchitis at the bronchial anastomosis after lung transplantation."
+      },
+      {
+        "text": "This diagnosis best explains the focal endobronchial fibrinous mass.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.98,
+        "reasoning": "The diagnosis plausibly explains the fibrinous obstructing mass; this is the reasoning used in the trace."
+      },
+      {
+        "text": "This diagnosis best explains the severe left mainstem narrowing.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.98,
+        "reasoning": "The diagnosis plausibly explains the severe left mainstem narrowing due to an obstructing airway lesion."
+      },
+      {
+        "text": "This diagnosis best explains the distal tree-in-bud changes.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.97,
+        "reasoning": "Distal tree-in-bud changes are consistent with airway-centered spread/post-obstructive infection from Aspergillus tracheobronchitis."
+      },
+      {
+        "text": "This diagnosis best explains the patient’s immunocompromised post-transplant state.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.97,
+        "reasoning": "The diagnosis fits the post-transplant immunocompromised state; this is a contextual inference."
+      },
+      {
+        "text": "The final diagnosis is Aspergillus tracheobronchitis.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "The trace explicitly gives the final diagnosis as Aspergillus tracheobronchitis."
+      }
+    ],
+    "verdict_counts": {
+      "contradicted": 0,
+      "supported": 38,
+      "valid_inference": 37,
+      "unverifiable": 1
+    },
+    "contradictions": 0
+  }
+}

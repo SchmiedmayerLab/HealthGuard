@@ -1,0 +1,20 @@
+{
+  "gpt-5.4": {
+    "n": 50,
+    "baseline_pct": 58.04,
+    "self_refine_pct": 59.42,
+    "healthguard_pct": 64.25,
+    "delta_selfrefine": 1.38,
+    "delta_healthguard": 6.21,
+    "delta_hg_vs_sr": 4.83
+  },
+  "gpt-5.4-mini": {
+    "n": 50,
+    "baseline_pct": 52.24,
+    "self_refine_pct": 53.92,
+    "healthguard_pct": 59.64,
+    "delta_selfrefine": 1.68,
+    "delta_healthguard": 7.4,
+    "delta_hg_vs_sr": 5.72
+  }
+}

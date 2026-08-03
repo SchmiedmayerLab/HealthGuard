@@ -1,0 +1,630 @@
+{
+  "name": "classify",
+  "passed": true,
+  "score": 1.0,
+  "reasoning": "Classified 124 statement(s): 48 causal, 74 factual, 2 statistical.",
+  "data": {
+    "classified": [
+      {
+        "text": "The chief concern is an acute neuropsychiatric syndrome in a 21-year-old man.",
+        "category": "factual",
+        "rationale": "This states a patient attribute and presenting syndrome without making a numerical or causal claim."
+      },
+      {
+        "text": "The syndrome began abruptly with intense fear.",
+        "category": "factual",
+        "rationale": "This describes the onset characteristic of the syndrome as a clinical fact."
+      },
+      {
+        "text": "The syndrome began abruptly with a sense that he was dying.",
+        "category": "factual",
+        "rationale": "This reports a symptom experienced at onset."
+      },
+      {
+        "text": "The syndrome rapidly evolved over hours to agitation.",
+        "category": "factual",
+        "rationale": "This is a factual description of symptom progression."
+      },
+      {
+        "text": "The syndrome rapidly evolved over hours to pacing.",
+        "category": "factual",
+        "rationale": "This is a factual description of symptom progression."
+      },
+      {
+        "text": "The syndrome rapidly evolved over hours to mutism/nonverbal behavior.",
+        "category": "factual",
+        "rationale": "This reports a clinical change in behavior."
+      },
+      {
+        "text": "Over days, the syndrome evolved to severe disorientation.",
+        "category": "factual",
+        "rationale": "This describes a clinical course finding."
+      },
+      {
+        "text": "Over days, the syndrome evolved to thought blocking.",
+        "category": "factual",
+        "rationale": "This describes a clinical course finding."
+      },
+      {
+        "text": "Over days, the syndrome evolved to bizarre disorganized speech.",
+        "category": "factual",
+        "rationale": "This describes a clinical course finding."
+      },
+      {
+        "text": "Over days, the syndrome evolved to staring.",
+        "category": "factual",
+        "rationale": "This describes a clinical course finding."
+      },
+      {
+        "text": "Over days, the syndrome evolved to increased tone.",
+        "category": "factual",
+        "rationale": "This describes a physical exam finding."
+      },
+      {
+        "text": "Over days, the syndrome evolved to spastic movements.",
+        "category": "factual",
+        "rationale": "This describes a motor finding."
+      },
+      {
+        "text": "The patient’s own initial complaint was panic-like.",
+        "category": "factual",
+        "rationale": "This reports the patient's initial symptom description."
+      },
+      {
+        "text": "The subsequent course shows a broader encephalopathic/catatonic picture.",
+        "category": "factual",
+        "rationale": "This is a descriptive clinical assessment of the observed course."
+      },
+      {
+        "text": "The onset was very acute.",
+        "category": "factual",
+        "rationale": "This is a factual characterization of timing."
+      },
+      {
+        "text": "The behavioral disturbance fluctuated.",
+        "category": "factual",
+        "rationale": "This describes the observed course."
+      },
+      {
+        "text": "The patient was in a nonverbal state.",
+        "category": "factual",
+        "rationale": "This states an observed mental status finding."
+      },
+      {
+        "text": "The patient was severely disoriented to time.",
+        "category": "factual",
+        "rationale": "This states an observed orientation deficit."
+      },
+      {
+        "text": "The patient was severely disoriented to place.",
+        "category": "factual",
+        "rationale": "This states an observed orientation deficit."
+      },
+      {
+        "text": "The patient was severely disoriented to person.",
+        "category": "factual",
+        "rationale": "This states an observed orientation deficit."
+      },
+      {
+        "text": "The patient had marked thought block.",
+        "category": "factual",
+        "rationale": "This states a mental status finding."
+      },
+      {
+        "text": "The patient had limited stilted speech.",
+        "category": "factual",
+        "rationale": "This states a speech finding."
+      },
+      {
+        "text": "The patient had a dazed appearance.",
+        "category": "factual",
+        "rationale": "This states an observed appearance."
+      },
+      {
+        "text": "The patient had an intense stare.",
+        "category": "factual",
+        "rationale": "This states an observed behavior."
+      },
+      {
+        "text": "The patient had increased muscle tone.",
+        "category": "factual",
+        "rationale": "This states a physical exam finding."
+      },
+      {
+        "text": "The patient had abnormal movements.",
+        "category": "factual",
+        "rationale": "This states a motor finding."
+      },
+      {
+        "text": "The patient made bizarre statements.",
+        "category": "factual",
+        "rationale": "This reports observed speech content."
+      },
+      {
+        "text": "The statement \"this is not the original\" was reported.",
+        "category": "factual",
+        "rationale": "This reports a specific utterance made by the patient."
+      },
+      {
+        "text": "The statement \"two people joined in the middle, different timelines\" was reported.",
+        "category": "factual",
+        "rationale": "This reports a specific utterance made by the patient."
+      },
+      {
+        "text": "The bizarre statements indicate psychosis/disorganized thought.",
+        "category": "causal",
+        "rationale": "This interprets the statements as evidence of a mental state, linking the utterances to psychosis/disorganization."
+      },
+      {
+        "text": "Preserved withdrawal to pain suggests reduced responsiveness without coma.",
+        "category": "causal",
+        "rationale": "This infers a clinical implication from the exam finding."
+      },
+      {
+        "text": "CBC was normal.",
+        "category": "factual",
+        "rationale": "This reports a laboratory result."
+      },
+      {
+        "text": "Liver profile was normal.",
+        "category": "factual",
+        "rationale": "This reports a laboratory result."
+      },
+      {
+        "text": "Renal profile was normal.",
+        "category": "factual",
+        "rationale": "This reports a laboratory result."
+      },
+      {
+        "text": "Inflammatory markers were normal.",
+        "category": "factual",
+        "rationale": "This reports a laboratory result."
+      },
+      {
+        "text": "MRI brain was normal.",
+        "category": "factual",
+        "rationale": "This reports an imaging result."
+      },
+      {
+        "text": "CSF studies were normal.",
+        "category": "factual",
+        "rationale": "This reports a diagnostic test result."
+      },
+      {
+        "text": "Toxicology screen was negative.",
+        "category": "factual",
+        "rationale": "This reports a test result."
+      },
+      {
+        "text": "Phosphate was markedly low at 0.35 mmol/L.",
+        "category": "statistical",
+        "rationale": "This contains a specific numeric laboratory value."
+      },
+      {
+        "text": "Low phosphate can occur after hyperventilation.",
+        "category": "causal",
+        "rationale": "This states a relationship between hyperventilation and hypophosphatemia."
+      },
+      {
+        "text": "Low phosphate can occur after agitation.",
+        "category": "causal",
+        "rationale": "This states a relationship between agitation and hypophosphatemia."
+      },
+      {
+        "text": "Low phosphate can occur after seizure.",
+        "category": "causal",
+        "rationale": "This states a relationship between seizure and hypophosphatemia."
+      },
+      {
+        "text": "Prolactin was elevated at 737 mu/L.",
+        "category": "statistical",
+        "rationale": "This contains a specific numeric laboratory value."
+      },
+      {
+        "text": "Prolactin can rise after a recent seizure.",
+        "category": "causal",
+        "rationale": "This states a relationship between seizure activity and prolactin elevation."
+      },
+      {
+        "text": "Family history was noncontributory except for autism/OCD in the patient.",
+        "category": "factual",
+        "rationale": "This reports a history finding."
+      },
+      {
+        "text": "Normal vitals initially argue against a systemic infectious or toxic-metabolic delirium.",
+        "category": "causal",
+        "rationale": "This links normal vital signs to reduced likelihood of a delirium cause."
+      },
+      {
+        "text": "An unremarkable physical exam initially argues against a systemic infectious or toxic-metabolic delirium.",
+        "category": "causal",
+        "rationale": "This links the exam finding to a diagnostic inference."
+      },
+      {
+        "text": "Normal inflammatory markers make meningitis less likely.",
+        "category": "causal",
+        "rationale": "This states a diagnostic inference based on test results."
+      },
+      {
+        "text": "Normal inflammatory markers make encephalitis less likely.",
+        "category": "causal",
+        "rationale": "This states a diagnostic inference based on test results."
+      },
+      {
+        "text": "Normal CSF protein and glucose make meningitis less likely.",
+        "category": "causal",
+        "rationale": "This links CSF findings to diagnostic probability."
+      },
+      {
+        "text": "Normal CSF protein and glucose make encephalitis less likely.",
+        "category": "causal",
+        "rationale": "This links CSF findings to diagnostic probability."
+      },
+      {
+        "text": "Negative bacterial studies make meningitis less likely.",
+        "category": "causal",
+        "rationale": "This links microbiology results to diagnostic probability."
+      },
+      {
+        "text": "Negative viral studies make encephalitis less likely.",
+        "category": "causal",
+        "rationale": "This links virology results to diagnostic probability."
+      },
+      {
+        "text": "MRI head was unremarkable.",
+        "category": "factual",
+        "rationale": "This reports an imaging result."
+      },
+      {
+        "text": "An unremarkable MRI head argues against structural lesions.",
+        "category": "causal",
+        "rationale": "This infers diagnostic implications from imaging."
+      },
+      {
+        "text": "Negative urine toxicology reduces the likelihood of stimulant intoxication causing the syndrome.",
+        "category": "causal",
+        "rationale": "This links a negative test to reduced likelihood of a cause."
+      },
+      {
+        "text": "Collateral denial of cocaine reduces the likelihood of stimulant intoxication causing the syndrome.",
+        "category": "causal",
+        "rationale": "This links collateral history to reduced likelihood of intoxication."
+      },
+      {
+        "text": "There is no reported fever.",
+        "category": "factual",
+        "rationale": "This states the absence of a reported symptom."
+      },
+      {
+        "text": "There is no reported autonomic instability.",
+        "category": "factual",
+        "rationale": "This states the absence of a reported sign."
+      },
+      {
+        "text": "The absence of fever or autonomic instability does not strongly support neuroleptic malignant syndrome.",
+        "category": "causal",
+        "rationale": "This links absent findings to reduced support for a diagnosis."
+      },
+      {
+        "text": "There is no medication exposure suggesting neuroleptic malignant syndrome.",
+        "category": "factual",
+        "rationale": "This states the absence of a relevant exposure history."
+      },
+      {
+        "text": "There is no prior psychiatric family history provided.",
+        "category": "factual",
+        "rationale": "This reports a missing history element."
+      },
+      {
+        "text": "There is no chronic prodrome provided.",
+        "category": "factual",
+        "rationale": "This reports a missing history element."
+      },
+      {
+        "text": "First-episode psychosis remains possible.",
+        "category": "factual",
+        "rationale": "This states a diagnostic possibility without a directive or mechanism."
+      },
+      {
+        "text": "The leading candidates are anti-NMDA receptor encephalitis or another autoimmune encephalitis.",
+        "category": "factual",
+        "rationale": "This states the leading differential diagnoses."
+      },
+      {
+        "text": "The leading candidates are primary psychotic disorder/catatonia.",
+        "category": "factual",
+        "rationale": "This states the leading differential diagnoses."
+      },
+      {
+        "text": "The leading candidates are substance-induced psychosis.",
+        "category": "factual",
+        "rationale": "This states the leading differential diagnoses."
+      },
+      {
+        "text": "The leading candidates are nonconvulsive seizure/postictal state.",
+        "category": "factual",
+        "rationale": "This states the leading differential diagnoses."
+      },
+      {
+        "text": "Anti-NMDA receptor encephalitis often presents in young patients with abrupt psychiatric symptoms.",
+        "category": "factual",
+        "rationale": "This is a general clinical statement about typical presentation."
+      },
+      {
+        "text": "Anti-NMDA receptor encephalitis often presents with disorientation.",
+        "category": "factual",
+        "rationale": "This is a general clinical statement about typical presentation."
+      },
+      {
+        "text": "Anti-NMDA receptor encephalitis often presents with mutism.",
+        "category": "factual",
+        "rationale": "This is a general clinical statement about typical presentation."
+      },
+      {
+        "text": "Anti-NMDA receptor encephalitis often presents with bizarre behavior.",
+        "category": "factual",
+        "rationale": "This is a general clinical statement about typical presentation."
+      },
+      {
+        "text": "Anti-NMDA receptor encephalitis often presents with psychosis.",
+        "category": "factual",
+        "rationale": "This is a general clinical statement about typical presentation."
+      },
+      {
+        "text": "Anti-NMDA receptor encephalitis often presents with catatonic features.",
+        "category": "factual",
+        "rationale": "This is a general clinical statement about typical presentation."
+      },
+      {
+        "text": "Anti-NMDA receptor encephalitis often presents with staring.",
+        "category": "factual",
+        "rationale": "This is a general clinical statement about typical presentation."
+      },
+      {
+        "text": "Anti-NMDA receptor encephalitis often presents with abnormal movements.",
+        "category": "factual",
+        "rationale": "This is a general clinical statement about typical presentation."
+      },
+      {
+        "text": "Routine MRI can be normal early in anti-NMDA receptor encephalitis.",
+        "category": "factual",
+        "rationale": "This is a general clinical statement about test sensitivity early in disease."
+      },
+      {
+        "text": "Routine CSF can be normal early in anti-NMDA receptor encephalitis.",
+        "category": "factual",
+        "rationale": "This is a general clinical statement about test sensitivity early in disease."
+      },
+      {
+        "text": "The negative initial investigations do not exclude anti-NMDA receptor encephalitis.",
+        "category": "causal",
+        "rationale": "This links negative tests to the diagnostic conclusion that the disease remains possible."
+      },
+      {
+        "text": "The elevated prolactin could reflect seizure activity.",
+        "category": "causal",
+        "rationale": "This proposes a possible mechanism for the lab abnormality."
+      },
+      {
+        "text": "The hypophosphatemia could reflect seizure activity.",
+        "category": "causal",
+        "rationale": "This proposes a possible mechanism for the lab abnormality."
+      },
+      {
+        "text": "Seizure activity is common in anti-NMDA receptor encephalitis.",
+        "category": "factual",
+        "rationale": "This is a general clinical statement about disease features."
+      },
+      {
+        "text": "The combination of psychosis plus catatonic/motor signs and cognitive disorientation is more suggestive of an organic encephalitic process than a pure primary psychiatric disorder.",
+        "category": "causal",
+        "rationale": "This compares findings and infers a more likely underlying cause."
+      },
+      {
+        "text": "Primary psychosis such as schizophreniform disorder is plausible because of the age.",
+        "category": "causal",
+        "rationale": "This links age to the plausibility of a diagnosis."
+      },
+      {
+        "text": "Primary psychosis such as schizophreniform disorder is plausible because of bizarre disorganized speech.",
+        "category": "causal",
+        "rationale": "This links a symptom to diagnostic plausibility."
+      },
+      {
+        "text": "Primary psychosis such as schizophreniform disorder is plausible because of poor insight.",
+        "category": "causal",
+        "rationale": "This links a clinical feature to diagnostic plausibility."
+      },
+      {
+        "text": "Primary psychosis such as schizophreniform disorder is plausible because of acute behavioral change.",
+        "category": "causal",
+        "rationale": "This links the course to diagnostic plausibility."
+      },
+      {
+        "text": "Profound disorientation to person/place/time is atypical for uncomplicated first-episode psychosis.",
+        "category": "causal",
+        "rationale": "This compares a finding with a diagnosis and implies mismatch."
+      },
+      {
+        "text": "Mutism/nonverbal periods are atypical for uncomplicated first-episode psychosis.",
+        "category": "causal",
+        "rationale": "This compares a finding with a diagnosis and implies mismatch."
+      },
+      {
+        "text": "A dazed state is atypical for uncomplicated first-episode psychosis.",
+        "category": "causal",
+        "rationale": "This compares a finding with a diagnosis and implies mismatch."
+      },
+      {
+        "text": "Increased tone is atypical for uncomplicated first-episode psychosis.",
+        "category": "causal",
+        "rationale": "This compares a finding with a diagnosis and implies mismatch."
+      },
+      {
+        "text": "Spastic movements are atypical for uncomplicated first-episode psychosis.",
+        "category": "causal",
+        "rationale": "This compares a finding with a diagnosis and implies mismatch."
+      },
+      {
+        "text": "Catatonia is strongly suggested by mutism.",
+        "category": "causal",
+        "rationale": "This links a sign to a syndrome."
+      },
+      {
+        "text": "Catatonia is strongly suggested by staring.",
+        "category": "causal",
+        "rationale": "This links a sign to a syndrome."
+      },
+      {
+        "text": "Catatonia is strongly suggested by increased tone.",
+        "category": "causal",
+        "rationale": "This links a sign to a syndrome."
+      },
+      {
+        "text": "Catatonia is strongly suggested by limited speech.",
+        "category": "causal",
+        "rationale": "This links a sign to a syndrome."
+      },
+      {
+        "text": "Catatonia is a syndrome rather than the underlying diagnosis.",
+        "category": "factual",
+        "rationale": "This is a definitional clinical statement."
+      },
+      {
+        "text": "The question is what is causing the catatonia.",
+        "category": "factual",
+        "rationale": "This states the diagnostic issue being considered."
+      },
+      {
+        "text": "Given the neurologic features and abrupt onset, an organic cause is more likely than a primary psychiatric one.",
+        "category": "causal",
+        "rationale": "This infers etiology from clinical features."
+      },
+      {
+        "text": "Substance-induced psychosis was considered because he initially reported cocaine use.",
+        "category": "causal",
+        "rationale": "This links the reported cocaine use to consideration of a diagnosis."
+      },
+      {
+        "text": "Substance-induced psychosis was considered because he presented with anxiety/agitation.",
+        "category": "causal",
+        "rationale": "This links presenting symptoms to diagnostic consideration."
+      },
+      {
+        "text": "Urine toxicology was negative.",
+        "category": "factual",
+        "rationale": "This reports a test result."
+      },
+      {
+        "text": "Collateral history denied cocaine use.",
+        "category": "factual",
+        "rationale": "This reports collateral history."
+      },
+      {
+        "text": "There is no direct evidence supporting intoxication.",
+        "category": "factual",
+        "rationale": "This states the absence of supporting evidence."
+      },
+      {
+        "text": "The prolonged 9-day evolution is less typical of a transient stimulant reaction.",
+        "category": "causal",
+        "rationale": "This compares the time course to a diagnosis and infers reduced likelihood."
+      },
+      {
+        "text": "Elevated prolactin can follow seizures.",
+        "category": "causal",
+        "rationale": "This states a relationship between seizures and prolactin elevation."
+      },
+      {
+        "text": "Severe hypophosphatemia can follow seizures.",
+        "category": "causal",
+        "rationale": "This states a relationship between seizures and hypophosphatemia."
+      },
+      {
+        "text": "The patient had altered responsiveness.",
+        "category": "factual",
+        "rationale": "This states an observed clinical finding."
+      },
+      {
+        "text": "The patient had bizarre behavior.",
+        "category": "factual",
+        "rationale": "This states an observed behavioral finding."
+      },
+      {
+        "text": "No EEG evidence is provided.",
+        "category": "factual",
+        "rationale": "This reports the absence of a provided test result."
+      },
+      {
+        "text": "The sustained psychotic/catatonic syndrome over days with normal MRI/CSF is more consistent with autoimmune encephalitis.",
+        "category": "causal",
+        "rationale": "This infers a diagnosis from the pattern of findings."
+      },
+      {
+        "text": "Autoimmune encephalitis can include seizures.",
+        "category": "factual",
+        "rationale": "This is a general clinical statement about disease features."
+      },
+      {
+        "text": "The syndrome is best unified as anti-NMDA receptor encephalitis presenting with prominent psychiatric and catatonic features.",
+        "category": "factual",
+        "rationale": "This states a diagnostic conclusion."
+      },
+      {
+        "text": "Anti-NMDA receptor encephalitis explains the abrupt onset.",
+        "category": "causal",
+        "rationale": "This links the diagnosis to the onset pattern."
+      },
+      {
+        "text": "Anti-NMDA receptor encephalitis explains the progression from panic-like symptoms to agitation and mutism.",
+        "category": "causal",
+        "rationale": "This links the diagnosis to the symptom evolution."
+      },
+      {
+        "text": "Anti-NMDA receptor encephalitis explains severe disorientation.",
+        "category": "causal",
+        "rationale": "This links the diagnosis to a clinical feature."
+      },
+      {
+        "text": "Anti-NMDA receptor encephalitis explains bizarre psychosis.",
+        "category": "causal",
+        "rationale": "This links the diagnosis to a clinical feature."
+      },
+      {
+        "text": "Anti-NMDA receptor encephalitis explains increased tone and abnormal movements.",
+        "category": "causal",
+        "rationale": "This links the diagnosis to motor findings."
+      },
+      {
+        "text": "Anti-NMDA receptor encephalitis explains the otherwise negative standard medical workup.",
+        "category": "causal",
+        "rationale": "This links the diagnosis to the pattern of unrevealing tests."
+      },
+      {
+        "text": "The differential diagnosis includes anti-NMDA receptor encephalitis.",
+        "category": "factual",
+        "rationale": "This states a differential diagnosis item."
+      },
+      {
+        "text": "The differential diagnosis includes first-episode psychosis with catatonia.",
+        "category": "factual",
+        "rationale": "This states a differential diagnosis item."
+      },
+      {
+        "text": "The differential diagnosis includes substance-induced psychotic disorder.",
+        "category": "factual",
+        "rationale": "This states a differential diagnosis item."
+      },
+      {
+        "text": "The differential diagnosis includes nonconvulsive status epilepticus or prolonged postictal state.",
+        "category": "factual",
+        "rationale": "This states a differential diagnosis item."
+      },
+      {
+        "text": "The final diagnosis is anti-NMDA receptor encephalitis.",
+        "category": "factual",
+        "rationale": "This states the final diagnosis."
+      }
+    ]
+  }
+}

@@ -1,0 +1,425 @@
+{
+  "name": "classify",
+  "passed": true,
+  "score": 1.0,
+  "reasoning": "Classified 83 statement(s): 29 causal, 49 factual, 1 recommendation, 4 statistical.",
+  "data": {
+    "classified": [
+      {
+        "text": "The chief complaint is a 6-week history of dull right upper-quadrant abdominal pain in a 26-year-old woman.",
+        "category": "factual",
+        "rationale": "It states a patient symptom, duration, and demographic detail as a clinical fact."
+      },
+      {
+        "text": "The woman has a known childhood diagnosis of mesenchymal hamartoma of the liver.",
+        "category": "factual",
+        "rationale": "It asserts a documented prior diagnosis."
+      },
+      {
+        "text": "Her major clinical concern is a previously documented hepatic lesion that has enlarged and is now symptomatic in adulthood.",
+        "category": "factual",
+        "rationale": "It describes the current status of a known lesion."
+      },
+      {
+        "text": "She had a 9 × 8 cm multiseptated cystic mass in the right hepatic lobe at 16 months of age.",
+        "category": "statistical",
+        "rationale": "It includes a specific measured size and age-based timing."
+      },
+      {
+        "text": "The 9 × 8 cm multiseptated cystic mass was interpreted as mesenchymal hamartoma of the liver.",
+        "category": "factual",
+        "rationale": "It reports an interpretation of a prior imaging finding."
+      },
+      {
+        "text": "The lesion was never resected.",
+        "category": "factual",
+        "rationale": "It states a procedural history detail."
+      },
+      {
+        "text": "CT shows interval growth of the lesion to 12.9 × 8.3 cm.",
+        "category": "statistical",
+        "rationale": "It reports a specific imaging measurement."
+      },
+      {
+        "text": "The interval growth indicates persistence and enlargement over many years.",
+        "category": "causal",
+        "rationale": "It infers a relationship between interval growth and long-term persistence/enlargement."
+      },
+      {
+        "text": "There is a new 6 cm peripheral enhancing region within the posterior aspect of the lesion.",
+        "category": "statistical",
+        "rationale": "It gives a specific measured enhancing component."
+      },
+      {
+        "text": "MRI shows heterogeneous internal signal intensity.",
+        "category": "factual",
+        "rationale": "It describes an imaging characteristic."
+      },
+      {
+        "text": "FDG-PET shows focal hypermetabolism.",
+        "category": "factual",
+        "rationale": "It reports an imaging finding."
+      },
+      {
+        "text": "A benign mesenchymal hamartoma is typically predominantly cystic.",
+        "category": "factual",
+        "rationale": "It states a general characteristic of the lesion type."
+      },
+      {
+        "text": "Development of a new enhancing solid component raises concern for malignant transformation.",
+        "category": "causal",
+        "rationale": "It links a new imaging change to concern for malignant transformation."
+      },
+      {
+        "text": "Focal metabolic activity raises concern for malignant transformation.",
+        "category": "causal",
+        "rationale": "It connects PET activity with concern for malignancy."
+      },
+      {
+        "text": "Enlarged hepatoduodenal lymph nodes are present.",
+        "category": "factual",
+        "rationale": "It states a present imaging/clinical finding."
+      },
+      {
+        "text": "Enlarged portocaval lymph nodes are present.",
+        "category": "factual",
+        "rationale": "It states a present imaging/clinical finding."
+      },
+      {
+        "text": "The enlarged hepatoduodenal and portocaval lymph nodes support a neoplastic process rather than a stable benign hamartoma.",
+        "category": "causal",
+        "rationale": "It interprets lymphadenopathy as supporting one process over another."
+      },
+      {
+        "text": "She now has right upper-quadrant pain.",
+        "category": "factual",
+        "rationale": "It states a current symptom."
+      },
+      {
+        "text": "She has mild right upper-quadrant tenderness.",
+        "category": "factual",
+        "rationale": "It states a physical exam finding."
+      },
+      {
+        "text": "CA 19-9 is markedly elevated at 1075 U/mL.",
+        "category": "statistical",
+        "rationale": "It provides a specific laboratory value."
+      },
+      {
+        "text": "AFP is normal.",
+        "category": "factual",
+        "rationale": "It states a laboratory result."
+      },
+      {
+        "text": "CEA is normal.",
+        "category": "factual",
+        "rationale": "It states a laboratory result."
+      },
+      {
+        "text": "Liver enzymes are essentially normal.",
+        "category": "factual",
+        "rationale": "It states a laboratory assessment."
+      },
+      {
+        "text": "GGT is minimally elevated.",
+        "category": "factual",
+        "rationale": "It states a laboratory abnormality."
+      },
+      {
+        "text": "Normal AFP argues against hepatoblastoma.",
+        "category": "causal",
+        "rationale": "It uses a lab result to infer reduced likelihood of a diagnosis."
+      },
+      {
+        "text": "Normal AFP argues against conventional hepatocellular malignancy.",
+        "category": "causal",
+        "rationale": "It links a normal marker to lower support for a malignancy."
+      },
+      {
+        "text": "Normal CEA makes metastatic gastrointestinal adenocarcinoma less supported.",
+        "category": "causal",
+        "rationale": "It interprets a normal marker as reducing support for a diagnosis."
+      },
+      {
+        "text": "There is no mention of fever.",
+        "category": "factual",
+        "rationale": "It states the absence of a documented symptom in the narrative."
+      },
+      {
+        "text": "There is no mention of leukocytosis.",
+        "category": "factual",
+        "rationale": "It states the absence of a documented lab finding."
+      },
+      {
+        "text": "There is no mention of systemic inflammatory signs.",
+        "category": "factual",
+        "rationale": "It states the absence of documented inflammatory signs."
+      },
+      {
+        "text": "There is no mention of rebound.",
+        "category": "factual",
+        "rationale": "It states the absence of a documented exam finding."
+      },
+      {
+        "text": "There is no mention of guarding.",
+        "category": "factual",
+        "rationale": "It states the absence of a documented exam finding."
+      },
+      {
+        "text": "The absence of rebound or guarding makes an acute surgical abdomen unlikely.",
+        "category": "causal",
+        "rationale": "It infers diagnostic likelihood from exam absence."
+      },
+      {
+        "text": "The lesion was known since infancy.",
+        "category": "factual",
+        "rationale": "It states a historical fact about the lesion."
+      },
+      {
+        "text": "The lesion being known since infancy makes a de novo adult primary cystic liver lesion less likely than evolution of the preexisting mesenchymal hamartoma of the liver.",
+        "category": "causal",
+        "rationale": "It compares etiologic likelihood based on lesion history."
+      },
+      {
+        "text": "The first candidate differential is persistent benign mesenchymal hamartoma of the liver.",
+        "category": "factual",
+        "rationale": "It names a diagnostic possibility."
+      },
+      {
+        "text": "This diagnosis fits the childhood diagnosis.",
+        "category": "causal",
+        "rationale": "It explains why the diagnosis is compatible with prior history."
+      },
+      {
+        "text": "This diagnosis fits the long history of a multiseptated cystic right-lobe lesion.",
+        "category": "causal",
+        "rationale": "It relates the diagnosis to the lesion's imaging history."
+      },
+      {
+        "text": "Persistent benign mesenchymal hamartoma does not adequately explain the new 6 cm enhancing component.",
+        "category": "causal",
+        "rationale": "It argues that a finding is not well explained by the benign diagnosis."
+      },
+      {
+        "text": "Persistent benign mesenchymal hamartoma does not adequately explain focal FDG uptake.",
+        "category": "causal",
+        "rationale": "It links a finding to poor fit with the benign diagnosis."
+      },
+      {
+        "text": "Persistent benign mesenchymal hamartoma does not adequately explain enlarged regional lymph nodes.",
+        "category": "causal",
+        "rationale": "It links lymphadenopathy to poor fit with the benign diagnosis."
+      },
+      {
+        "text": "Persistent benign mesenchymal hamartoma does not adequately explain marked CA 19-9 elevation.",
+        "category": "causal",
+        "rationale": "It links the lab abnormality to poor fit with the benign diagnosis."
+      },
+      {
+        "text": "These changes suggest that the lesion is no longer behaving as a purely benign hamartoma.",
+        "category": "causal",
+        "rationale": "It interprets the combined changes as indicating a different biological behavior."
+      },
+      {
+        "text": "The next major differential is undifferentiated embryonal sarcoma of the liver arising in association with or transformation from mesenchymal hamartoma.",
+        "category": "factual",
+        "rationale": "It identifies another diagnostic possibility."
+      },
+      {
+        "text": "This diagnosis fits particularly well because mesenchymal hamartoma is a recognized precursor or associated lesion for undifferentiated embryonal sarcoma of the liver.",
+        "category": "causal",
+        "rationale": "It states a precursor/association relationship supporting the diagnosis."
+      },
+      {
+        "text": "A longstanding cystic hepatic lesion that develops new solid enhancing areas in a young patient supports this diagnosis.",
+        "category": "causal",
+        "rationale": "It connects the lesion evolution pattern to the diagnosis."
+      },
+      {
+        "text": "The heterogeneous MRI appearance supports this diagnosis.",
+        "category": "causal",
+        "rationale": "It uses imaging appearance to support the diagnosis."
+      },
+      {
+        "text": "Focal hypermetabolism on PET supports this diagnosis.",
+        "category": "causal",
+        "rationale": "It uses PET activity to support the diagnosis."
+      },
+      {
+        "text": "Interval growth supports this diagnosis.",
+        "category": "causal",
+        "rationale": "It links lesion enlargement to diagnostic support."
+      },
+      {
+        "text": "Symptoms support this diagnosis.",
+        "category": "causal",
+        "rationale": "It links the presence of symptoms to diagnostic support."
+      },
+      {
+        "text": "Nodal enlargement supports this diagnosis.",
+        "category": "causal",
+        "rationale": "It links lymph node enlargement to diagnostic support."
+      },
+      {
+        "text": "Normal AFP is compatible with undifferentiated embryonal sarcoma of the liver.",
+        "category": "factual",
+        "rationale": "It states compatibility between a lab result and a diagnosis."
+      },
+      {
+        "text": "Undifferentiated embryonal sarcoma of the liver typically does not elevate AFP.",
+        "category": "factual",
+        "rationale": "It states a general characteristic of the disease."
+      },
+      {
+        "text": "Undifferentiated embryonal sarcoma of the liver is more common in children.",
+        "category": "factual",
+        "rationale": "It states an epidemiologic fact."
+      },
+      {
+        "text": "Undifferentiated embryonal sarcoma of the liver can occur in young adults.",
+        "category": "factual",
+        "rationale": "It states an epidemiologic possibility."
+      },
+      {
+        "text": "Undifferentiated embryonal sarcoma of the liver is the classic malignant counterpart linked to mesenchymal hamartoma.",
+        "category": "factual",
+        "rationale": "It states a recognized disease association."
+      },
+      {
+        "text": "Another differential is intrahepatic cholangiocarcinoma arising within a cystic hepatic lesion.",
+        "category": "factual",
+        "rationale": "It names a diagnostic possibility."
+      },
+      {
+        "text": "Another differential is cystadenocarcinoma arising within a cystic hepatic lesion.",
+        "category": "factual",
+        "rationale": "It names a diagnostic possibility."
+      },
+      {
+        "text": "Markedly elevated CA 19-9 could suggest biliary malignancy.",
+        "category": "causal",
+        "rationale": "It links a lab abnormality to suspicion for a malignancy."
+      },
+      {
+        "text": "An enhancing component within a cystic liver mass could suggest biliary malignancy.",
+        "category": "causal",
+        "rationale": "It links an imaging feature to suspicion for malignancy."
+      },
+      {
+        "text": "The lesion’s origin in infancy as a mesenchymal hamartoma makes biliary malignancy less likely than sarcomatous transformation of the known mesenchymal hamartoma.",
+        "category": "causal",
+        "rationale": "It compares diagnostic likelihood based on lesion origin and evolution."
+      },
+      {
+        "text": "The patient is quite young for cholangiocarcinoma.",
+        "category": "factual",
+        "rationale": "It states an age-related clinical observation."
+      },
+      {
+        "text": "The overall clinical narrative is more consistent with malignant change in a congenital or childhood lesion.",
+        "category": "causal",
+        "rationale": "It synthesizes findings into a diagnostic interpretation."
+      },
+      {
+        "text": "Biliary cystadenoma could present as a multiloculated cystic hepatic mass.",
+        "category": "factual",
+        "rationale": "It states a typical presentation of the condition."
+      },
+      {
+        "text": "Biliary cystadenocarcinoma could present as a multiloculated cystic hepatic mass.",
+        "category": "factual",
+        "rationale": "It states a typical presentation of the condition."
+      },
+      {
+        "text": "Biliary cystadenoma or cystadenocarcinoma could present with elevated CA 19-9.",
+        "category": "factual",
+        "rationale": "It states a possible associated laboratory finding."
+      },
+      {
+        "text": "Biliary cystadenoma or cystadenocarcinoma could present with mural enhancement.",
+        "category": "factual",
+        "rationale": "It states a possible imaging feature."
+      },
+      {
+        "text": "The documented diagnosis since infancy of mesenchymal hamartoma makes biliary cystadenoma or cystadenocarcinoma a less favored explanation.",
+        "category": "causal",
+        "rationale": "It explains why the prior diagnosis lowers the likelihood of an alternative."
+      },
+      {
+        "text": "The known association between mesenchymal hamartoma and undifferentiated embryonal sarcoma makes biliary cystadenoma or cystadenocarcinoma a less favored explanation.",
+        "category": "causal",
+        "rationale": "It uses a disease association to reduce support for another diagnosis."
+      },
+      {
+        "text": "The most likely diagnosis is malignant transformation of mesenchymal hamartoma of the liver into undifferentiated embryonal sarcoma.",
+        "category": "factual",
+        "rationale": "It states the leading diagnostic conclusion."
+      },
+      {
+        "text": "The preexisting childhood mesenchymal hamartoma is a decisive feature.",
+        "category": "factual",
+        "rationale": "It identifies a key clinical feature."
+      },
+      {
+        "text": "Interval enlargement is a decisive feature.",
+        "category": "factual",
+        "rationale": "It identifies a key imaging feature."
+      },
+      {
+        "text": "Development of a new enhancing solid component is a decisive feature.",
+        "category": "factual",
+        "rationale": "It identifies a key imaging feature."
+      },
+      {
+        "text": "Heterogeneous MRI signal is a decisive feature.",
+        "category": "factual",
+        "rationale": "It identifies a key imaging feature."
+      },
+      {
+        "text": "Focal FDG uptake is a decisive feature.",
+        "category": "factual",
+        "rationale": "It identifies a key imaging feature."
+      },
+      {
+        "text": "Regional lymphadenopathy is a decisive feature.",
+        "category": "factual",
+        "rationale": "It identifies a key clinical/imaging feature."
+      },
+      {
+        "text": "New symptoms are a decisive feature.",
+        "category": "factual",
+        "rationale": "It identifies a key clinical feature."
+      },
+      {
+        "text": "Pathology would be required for definitive confirmation.",
+        "category": "recommendation",
+        "rationale": "It recommends the needed confirmatory step for diagnosis."
+      },
+      {
+        "text": "Among the diagnostic possibilities, malignant transformation of mesenchymal hamartoma of the liver into undifferentiated embryonal sarcoma is the single best fit to the provided data.",
+        "category": "factual",
+        "rationale": "It states the most likely diagnosis based on the provided information."
+      },
+      {
+        "text": "The differential diagnosis includes undifferentiated embryonal sarcoma of the liver arising in mesenchymal hamartoma.",
+        "category": "factual",
+        "rationale": "It lists a diagnostic possibility."
+      },
+      {
+        "text": "The differential diagnosis includes persistent benign mesenchymal hamartoma of the liver.",
+        "category": "factual",
+        "rationale": "It lists a diagnostic possibility."
+      },
+      {
+        "text": "The differential diagnosis includes biliary cystadenocarcinoma or intrahepatic cholangiocarcinoma arising in a cystic hepatic lesion.",
+        "category": "factual",
+        "rationale": "It lists diagnostic possibilities."
+      },
+      {
+        "text": "The final diagnosis is undifferentiated embryonal sarcoma of the liver arising in mesenchymal hamartoma.",
+        "category": "factual",
+        "rationale": "It states a final diagnostic conclusion."
+      }
+    ]
+  }
+}

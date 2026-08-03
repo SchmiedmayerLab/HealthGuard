@@ -1,0 +1,480 @@
+{
+  "name": "classify",
+  "passed": true,
+  "score": 1.0,
+  "reasoning": "Classified 94 statement(s): 29 causal, 58 factual, 7 statistical.",
+  "data": {
+    "classified": [
+      {
+        "text": "The chief problem is recurrent acute tetraparesis in a previously healthy 22-year-old man.",
+        "category": "factual",
+        "rationale": "It states a patient condition and background as a clinical fact."
+      },
+      {
+        "text": "Both episodes occurred in the setting of hyperventilation and marked biochemical hypophosphatemia.",
+        "category": "factual",
+        "rationale": "It reports observed circumstances and lab abnormalities."
+      },
+      {
+        "text": "The patient’s own acute concern in the second episode was a panic attack with hyperventilation, anxiety, paresthesia, tetany, and weakness.",
+        "category": "factual",
+        "rationale": "It describes the patient's reported symptoms and concern."
+      },
+      {
+        "text": "Salient positive findings strongly point toward a metabolic/functional cause of weakness rather than a structural neurologic disorder.",
+        "category": "causal",
+        "rationale": "It infers a relationship between the findings and the likely cause of weakness."
+      },
+      {
+        "text": "In both episodes he had acute hyperventilation with hypocapnia/respiratory alkalosis.",
+        "category": "factual",
+        "rationale": "It states documented physiologic findings in both episodes."
+      },
+      {
+        "text": "In the second episode, ABG showed pH 7.57.",
+        "category": "statistical",
+        "rationale": "It gives a specific numeric laboratory value."
+      },
+      {
+        "text": "In the second episode, ABG showed PaCO2 19.2 mmHg.",
+        "category": "statistical",
+        "rationale": "It gives a specific numeric laboratory value."
+      },
+      {
+        "text": "He had severe hypophosphatemia during the second episode, down to 0.2 mmol/L.",
+        "category": "statistical",
+        "rationale": "It includes a specific measured phosphate value."
+      },
+      {
+        "text": "He also had severe hypophosphatemia during the first episode.",
+        "category": "factual",
+        "rationale": "It reports a clinical/laboratory finding without a numeric value."
+      },
+      {
+        "text": "Clinically he had tetraparesis with 4/5 strength.",
+        "category": "statistical",
+        "rationale": "It includes a quantified strength grade."
+      },
+      {
+        "text": "Clinically he had paresthesia.",
+        "category": "factual",
+        "rationale": "It states a symptom present on exam/history."
+      },
+      {
+        "text": "Clinically he had tetany.",
+        "category": "factual",
+        "rationale": "It states a clinical finding."
+      },
+      {
+        "text": "He had a positive Trousseau’s sign.",
+        "category": "factual",
+        "rationale": "It reports a specific exam finding."
+      },
+      {
+        "text": "These findings are compatible with alkalosis-related electrolyte shifts.",
+        "category": "causal",
+        "rationale": "It links the findings to a proposed mechanism."
+      },
+      {
+        "text": "The first episode occurred during intense physical exercise and a stringent diet.",
+        "category": "factual",
+        "rationale": "It states the circumstances of the first episode."
+      },
+      {
+        "text": "Intense physical exercise and a stringent diet could predispose to phosphate depletion or redistribution.",
+        "category": "causal",
+        "rationale": "It proposes a mechanism by which those factors affect phosphate."
+      },
+      {
+        "text": "The second episode occurred during a panic attack with acute hyperventilation.",
+        "category": "factual",
+        "rationale": "It states the trigger and context of the episode."
+      },
+      {
+        "text": "Acute hyperventilation is a classic trigger for intracellular phosphate shift.",
+        "category": "causal",
+        "rationale": "It describes a mechanistic relationship between hyperventilation and phosphate shift."
+      },
+      {
+        "text": "The second episode also had marked rhabdomyolysis.",
+        "category": "factual",
+        "rationale": "It reports an associated clinical/laboratory finding."
+      },
+      {
+        "text": "In the second episode, CK was 44,913 U/L.",
+        "category": "statistical",
+        "rationale": "It provides a specific numeric CK value."
+      },
+      {
+        "text": "Severe hypophosphatemia is a known complication of rhabdomyolysis.",
+        "category": "causal",
+        "rationale": "It states a relationship between rhabdomyolysis and hypophosphatemia."
+      },
+      {
+        "text": "MRI brain and spine were unremarkable.",
+        "category": "factual",
+        "rationale": "It reports imaging results."
+      },
+      {
+        "text": "The MRI findings argue against central structural lesions.",
+        "category": "causal",
+        "rationale": "It interprets the imaging as evidence against a cause."
+      },
+      {
+        "text": "Cranial nerves were normal.",
+        "category": "factual",
+        "rationale": "It states an exam finding."
+      },
+      {
+        "text": "There was no sensory deficit.",
+        "category": "factual",
+        "rationale": "It states a negative neurologic finding."
+      },
+      {
+        "text": "Reflexes were normal.",
+        "category": "factual",
+        "rationale": "It states an exam finding."
+      },
+      {
+        "text": "These findings are less consistent with Guillain-Barré syndrome, spinal cord disease, or stroke.",
+        "category": "causal",
+        "rationale": "It links the exam pattern to reduced likelihood of those diagnoses."
+      },
+      {
+        "text": "Myasthenia gravis workup was negative.",
+        "category": "factual",
+        "rationale": "It reports a diagnostic workup result."
+      },
+      {
+        "text": "Nerve conduction studies were normal.",
+        "category": "factual",
+        "rationale": "It reports an electrophysiologic result."
+      },
+      {
+        "text": "Acetylcholine receptor antibodies were absent.",
+        "category": "factual",
+        "rationale": "It reports a lab result."
+      },
+      {
+        "text": "Hypokalemic periodic paralysis was specifically ruled out.",
+        "category": "factual",
+        "rationale": "It states a diagnostic conclusion from the workup."
+      },
+      {
+        "text": "Short and long exercise tests were normal.",
+        "category": "factual",
+        "rationale": "It reports test results."
+      },
+      {
+        "text": "Genetic testing for SCN4A was negative.",
+        "category": "factual",
+        "rationale": "It reports a genetic test result."
+      },
+      {
+        "text": "Genetic testing for KCNJ18 was negative.",
+        "category": "factual",
+        "rationale": "It reports a genetic test result."
+      },
+      {
+        "text": "Genetic testing for KCNJ2 was negative.",
+        "category": "factual",
+        "rationale": "It reports a genetic test result."
+      },
+      {
+        "text": "Genetic testing for CACNA1S was negative.",
+        "category": "factual",
+        "rationale": "It reports a genetic test result."
+      },
+      {
+        "text": "Potassium was normal during the second episode.",
+        "category": "factual",
+        "rationale": "It states a laboratory finding."
+      },
+      {
+        "text": "Sodium was normal.",
+        "category": "factual",
+        "rationale": "It states a laboratory finding."
+      },
+      {
+        "text": "Magnesium was normal.",
+        "category": "factual",
+        "rationale": "It states a laboratory finding."
+      },
+      {
+        "text": "Calcium was normal.",
+        "category": "factual",
+        "rationale": "It states a laboratory finding."
+      },
+      {
+        "text": "TSH was normal.",
+        "category": "factual",
+        "rationale": "It states a laboratory finding."
+      },
+      {
+        "text": "Vitamins were normal.",
+        "category": "factual",
+        "rationale": "It states a laboratory finding."
+      },
+      {
+        "text": "Amino acids were normal.",
+        "category": "factual",
+        "rationale": "It states a laboratory finding."
+      },
+      {
+        "text": "Urinalysis showed no renal phosphate loss.",
+        "category": "factual",
+        "rationale": "It reports a urine study result."
+      },
+      {
+        "text": "The urinalysis findings argue against a renal phosphate-wasting disorder as the primary explanation.",
+        "category": "causal",
+        "rationale": "It interprets the urinalysis as evidence against a cause."
+      },
+      {
+        "text": "The leading differential is hyperventilation-induced hypophosphatemic paralysis.",
+        "category": "factual",
+        "rationale": "It states the leading diagnostic consideration."
+      },
+      {
+        "text": "This diagnosis fits the recurrent temporal association with hyperventilation or panic.",
+        "category": "causal",
+        "rationale": "It explains why the diagnosis matches the pattern."
+      },
+      {
+        "text": "This diagnosis fits the documented respiratory alkalosis.",
+        "category": "causal",
+        "rationale": "It links the diagnosis to the alkalosis finding."
+      },
+      {
+        "text": "This diagnosis fits the severe hypophosphatemia.",
+        "category": "causal",
+        "rationale": "It links the diagnosis to the phosphate abnormality."
+      },
+      {
+        "text": "This diagnosis fits the normal potassium.",
+        "category": "causal",
+        "rationale": "It explains why normal potassium supports the diagnosis."
+      },
+      {
+        "text": "This diagnosis fits the reversible generalized weakness.",
+        "category": "causal",
+        "rationale": "It links the diagnosis to the clinical course."
+      },
+      {
+        "text": "Respiratory alkalosis causes intracellular phosphate shifting.",
+        "category": "causal",
+        "rationale": "It states a mechanism."
+      },
+      {
+        "text": "Respiratory alkalosis can acutely lower serum phosphate enough to produce weakness.",
+        "category": "causal",
+        "rationale": "It describes a mechanistic effect leading to weakness."
+      },
+      {
+        "text": "Respiratory alkalosis can acutely lower serum phosphate enough to produce rhabdomyolysis.",
+        "category": "causal",
+        "rationale": "It describes a mechanistic effect leading to rhabdomyolysis."
+      },
+      {
+        "text": "A second consideration is hypokalemic periodic paralysis.",
+        "category": "factual",
+        "rationale": "It states another diagnostic consideration."
+      },
+      {
+        "text": "Hypokalemic periodic paralysis can present with episodic weakness in a young man.",
+        "category": "causal",
+        "rationale": "It describes a typical clinical relationship."
+      },
+      {
+        "text": "Hypokalemic periodic paralysis can sometimes occur after exercise.",
+        "category": "causal",
+        "rationale": "It describes a trigger relationship."
+      },
+      {
+        "text": "Hypokalemic periodic paralysis does not fit well here because potassium was normal.",
+        "category": "causal",
+        "rationale": "It explains why the diagnosis is less likely based on potassium."
+      },
+      {
+        "text": "Hypokalemic periodic paralysis does not fit well here because the diagnostic exercise tests were negative.",
+        "category": "causal",
+        "rationale": "It explains why the diagnosis is less likely based on testing."
+      },
+      {
+        "text": "Hypokalemic periodic paralysis does not fit well here because genetic testing for major causative genes was negative.",
+        "category": "causal",
+        "rationale": "It explains why the diagnosis is less likely based on genetics."
+      },
+      {
+        "text": "Another consideration is myasthenia gravis or another neuromuscular junction disorder.",
+        "category": "factual",
+        "rationale": "It states another diagnostic consideration."
+      },
+      {
+        "text": "The pattern is wrong for myasthenia gravis or another neuromuscular junction disorder.",
+        "category": "causal",
+        "rationale": "It interprets the pattern as arguing against that diagnosis."
+      },
+      {
+        "text": "There were no ocular or bulbar findings.",
+        "category": "factual",
+        "rationale": "It states negative exam findings."
+      },
+      {
+        "text": "Nerve conduction studies were normal.",
+        "category": "factual",
+        "rationale": "It reports a test result."
+      },
+      {
+        "text": "Acetylcholine receptor antibodies were negative.",
+        "category": "factual",
+        "rationale": "It reports a lab result."
+      },
+      {
+        "text": "The episodes correlate tightly with severe hypophosphatemia and alkalosis.",
+        "category": "causal",
+        "rationale": "It describes an association between episodes and biochemical abnormalities."
+      },
+      {
+        "text": "Guillain-Barré syndrome or acute inflammatory neuropathy is also unlikely.",
+        "category": "factual",
+        "rationale": "It states a diagnostic assessment."
+      },
+      {
+        "text": "The episodes were recurrent and triggered.",
+        "category": "factual",
+        "rationale": "It describes the episode pattern."
+      },
+      {
+        "text": "Reflexes remained normal.",
+        "category": "factual",
+        "rationale": "It states an exam finding."
+      },
+      {
+        "text": "The sensory exam was normal.",
+        "category": "factual",
+        "rationale": "It states an exam finding."
+      },
+      {
+        "text": "Electrophysiology was normal.",
+        "category": "factual",
+        "rationale": "It reports a test result."
+      },
+      {
+        "text": "The case narrows to a single most likely diagnosis because the same biochemical pattern recurred with the same clinical syndrome.",
+        "category": "causal",
+        "rationale": "It explains why the differential is narrowed."
+      },
+      {
+        "text": "The same biochemical pattern was acute hyperventilation leading to respiratory alkalosis, severe hypophosphatemia, tetany, and tetraparesis.",
+        "category": "factual",
+        "rationale": "It summarizes the recurring pattern as a factual description."
+      },
+      {
+        "text": "There was no evidence for structural neurologic disease, channelopathy, renal phosphate wasting, or neuromuscular junction disease.",
+        "category": "factual",
+        "rationale": "It states the absence of evidence for alternative diagnoses."
+      },
+      {
+        "text": "The rhabdomyolysis in the second episode further supports severe phosphate depletion or redistribution as the mechanism.",
+        "category": "causal",
+        "rationale": "It links rhabdomyolysis to the proposed mechanism."
+      },
+      {
+        "text": "The most likely diagnosis is hyperventilation-induced hypophosphatemic tetraparesis.",
+        "category": "factual",
+        "rationale": "It states the final diagnostic conclusion."
+      },
+      {
+        "text": "Both episodes occurred with hyperventilation and hypocapnia.",
+        "category": "factual",
+        "rationale": "It reports the recurring clinical context."
+      },
+      {
+        "text": "The second episode showed respiratory alkalosis with pH 7.57 and PaCO2 19.2 mmHg.",
+        "category": "statistical",
+        "rationale": "It includes specific numeric ABG values."
+      },
+      {
+        "text": "The second episode showed severe hypophosphatemia of 0.2 mmol/L with tetraparesis, paresthesia, tetany, positive Trousseau’s sign, and rhabdomyolysis.",
+        "category": "statistical",
+        "rationale": "It includes a specific numeric phosphate value alongside associated findings."
+      },
+      {
+        "text": "Young athletic man with episodic weakness after exertion could suggest hypokalemic periodic paralysis.",
+        "category": "causal",
+        "rationale": "It suggests a diagnostic possibility based on the clinical scenario."
+      },
+      {
+        "text": "Potassium was normal.",
+        "category": "factual",
+        "rationale": "It states a laboratory finding."
+      },
+      {
+        "text": "Short and long exercise tests were negative.",
+        "category": "factual",
+        "rationale": "It reports test results."
+      },
+      {
+        "text": "Genetic testing for SCN4A, KCNJ18, KCNJ2, and CACNA1S was negative.",
+        "category": "factual",
+        "rationale": "It reports genetic test results."
+      },
+      {
+        "text": "Episodic weakness was considered for myasthenia gravis.",
+        "category": "factual",
+        "rationale": "It states a diagnostic consideration."
+      },
+      {
+        "text": "There were no cranial nerve findings.",
+        "category": "factual",
+        "rationale": "It states a negative exam finding."
+      },
+      {
+        "text": "Acetylcholine receptor antibodies were negative.",
+        "category": "factual",
+        "rationale": "It reports a lab result."
+      },
+      {
+        "text": "Nerve conduction studies were normal.",
+        "category": "factual",
+        "rationale": "It reports a test result."
+      },
+      {
+        "text": "The episodes correlated instead with severe hypophosphatemia and alkalosis.",
+        "category": "causal",
+        "rationale": "It links the episodes to the biochemical abnormalities as the more likely explanation."
+      },
+      {
+        "text": "Tetraparesis could raise concern for Guillain-Barré syndrome or other acute polyneuropathy.",
+        "category": "causal",
+        "rationale": "It explains why the symptom pattern prompts those concerns."
+      },
+      {
+        "text": "Reflexes were normal.",
+        "category": "factual",
+        "rationale": "It states an exam finding."
+      },
+      {
+        "text": "There was no sensory loss.",
+        "category": "factual",
+        "rationale": "It states a negative neurologic finding."
+      },
+      {
+        "text": "Nerve conduction studies were normal.",
+        "category": "factual",
+        "rationale": "It reports a test result."
+      },
+      {
+        "text": "The recurrent trigger-associated pattern with rapid metabolic abnormalities argues against Guillain-Barré syndrome or other acute polyneuropathy.",
+        "category": "causal",
+        "rationale": "It interprets the pattern as evidence against those diagnoses."
+      },
+      {
+        "text": "The final diagnosis is hyperventilation-induced hypophosphatemic tetraparesis.",
+        "category": "factual",
+        "rationale": "It states the final diagnosis."
+      }
+    ]
+  }
+}

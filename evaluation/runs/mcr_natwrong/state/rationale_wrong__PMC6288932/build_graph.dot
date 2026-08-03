@@ -1,0 +1,148 @@
+digraph ReasoningGraph {
+  rankdir="LR";
+  compound=true;
+  node [shape=box, style="rounded,filled"];
+  subgraph cluster_0 {
+    label="history_taking (c1)";
+    style="rounded,dashed";
+    color="#9e9e9e";
+    n1 [label="n1: The chief problem is recurrent symptomatic hypoglycemia in a 19-year-old woman.\\n[factual]", fillcolor="#c8e6c9"];
+    n2 [label="n2: Her symptoms progressed from lightheadedness and weakness to repeated episodes of unresponsiveness.\\n[factual]", fillcolor="#c8e6c9"];
+    n3 [label="n3: Her symptom pattern is classic for neuroglycopenia and adrenergic activation.\\n[causal]", fillcolor="#c8e6c9"];
+    n4 [label="n4: Her symptoms included diaphoresis, palpitations, confusion, weakness, and altered mental status.\\n[factual]", fillcolor="#c8e6c9"];
+    n5 [label="n5: Her documented glucose values were 53 mg/dL at home, 60 mg/dL in the ED, 46 mg/dL prehospital, and as low as 23 mg/dL on the third visit.\\n[statistical]", fillcolor="#c8e6c9"];
+    n6 [label="n6: This fulfills Whipple-type concern.\\n[factual]", fillcolor="#c8e6c9"];
+    n7 [label="n7: The Whipple-type concern includes symptoms consistent with hypoglycemia.\\n[factual]", fillcolor="#c8e6c9"];
+    n8 [label="n8: The Whipple-type concern includes low measured glucose.\\n[factual]", fillcolor="#c8e6c9"];
+    n9 [label="n9: The Whipple-type concern includes improvement after dextrose or food.\\n[factual]", fillcolor="#c8e6c9"];
+  }
+  subgraph cluster_1 {
+    label="examination (c2)";
+    style="rounded,dashed";
+    color="#9e9e9e";
+    n10 [label="n10: Salient positive findings strongly indicate endogenous hyperinsulinemic hypoglycemia.\\n[causal]", fillcolor="#c8e6c9"];
+    n11 [label="n11: During recurrent hypoglycemia she had markedly elevated insulin levels.\\n[factual]", fillcolor="#c8e6c9"];
+    n12 [label="n12: Her free insulin level was 370 mIU/L.\\n[statistical]", fillcolor="#c8e6c9"];
+    n13 [label="n13: Her total insulin level was 377 mIU/L.\\n[statistical]", fillcolor="#c8e6c9"];
+    n14 [label="n14: She had elevated C-peptide.\\n[factual]", fillcolor="#c8e6c9"];
+    n15 [label="n15: Her C-peptide level was 9.9 ng/mL.\\n[statistical]", fillcolor="#c8e6c9"];
+    n16 [label="n16: Elevated C-peptide means the insulin is being secreted endogenously or stimulated endogenously rather than being purely injected exogenous insulin.\\n[causal]", fillcolor="#c8e6c9"];
+    n17 [label="n17: The hypoglycemia was persistent and severe enough to recur despite repeated D50W boluses and escalating dextrose infusions.\\n[factual]", fillcolor="#c8e6c9"];
+    n18 [label="n18: This is compatible with ongoing insulin effect.\\n[causal]", fillcolor="#c8e6c9"];
+    n19 [label="n19: Hemoglobin A1C was 5.1%.\\n[statistical]", fillcolor="#c8e6c9"];
+    n20 [label="n20: There is no evidence of chronic hyperglycemia or known diabetes.\\n[factual]", fillcolor="#c8e6c9"];
+    n21 [label="n21: Routine labs were otherwise normal.\\n[factual]", fillcolor="#c8e6c9"];
+    n22 [label="n22: Routine hematologic panels were normal.\\n[factual]", fillcolor="#c8e6c9"];
+    n23 [label="n23: Routine renal panels were normal.\\n[factual]", fillcolor="#c8e6c9"];
+    n24 [label="n24: Routine electrolyte panels were normal.\\n[factual]", fillcolor="#c8e6c9"];
+    n25 [label="n25: These normal routine labs argue against organ failure as the cause.\\n[causal]", fillcolor="#c8e6c9"];
+  }
+  subgraph cluster_2 {
+    label="test_ordering (c3)";
+    style="rounded,dashed";
+    color="#9e9e9e";
+    n26 [label="n26: The drug screen was negative.\\n[factual]", fillcolor="#c8e6c9"];
+    n27 [label="n27: Standard drug screens do not typically detect sulfonylureas.\\n[factual]", fillcolor="#c8e6c9"];
+    n28 [label="n28: Abdominal CT showed no pancreatic mass.\\n[factual]", fillcolor="#c8e6c9"];
+    n29 [label="n29: CT can miss small insulinomas.\\n[factual]", fillcolor="#c8e6c9"];
+    n30 [label="n30: There is no evidence provided for sepsis.\\n[factual]", fillcolor="#c8e6c9"];
+    n31 [label="n31: There is no evidence provided for liver failure.\\n[factual]", fillcolor="#c8e6c9"];
+    n32 [label="n32: There is no evidence provided for renal failure.\\n[factual]", fillcolor="#c8e6c9"];
+    n33 [label="n33: There is no evidence provided for adrenal crisis.\\n[factual]", fillcolor="#c8e6c9"];
+    n34 [label="n34: There is no evidence provided for malnutrition.\\n[factual]", fillcolor="#c8e6c9"];
+    n35 [label="n35: There is no evidence provided for pregnancy-related illness.\\n[factual]", fillcolor="#c8e6c9"];
+    n36 [label="n36: There is no evidence provided for alcohol intoxication.\\n[factual]", fillcolor="#c8e6c9"];
+    n37 [label="n37: There is no evidence provided for drug intoxication.\\n[factual]", fillcolor="#c8e6c9"];
+    n38 [label="n38: Vitals were not suggestive of shock.\\n[factual]", fillcolor="#c8e6c9"];
+    n39 [label="n39: Vitals were not suggestive of severe infection.\\n[factual]", fillcolor="#c8e6c9"];
+    n40 [label="n40: Temperature was normal.\\n[statistical]", fillcolor="#c8e6c9"];
+    n41 [label="n41: Chemistry panels were otherwise unremarkable.\\n[factual]", fillcolor="#c8e6c9"];
+    n42 [label="n42: Head CT was normal.\\n[factual]", fillcolor="#c8e6c9"];
+    n43 [label="n43: Normal head CT makes intracranial pathology an unlikely explanation for the altered mental status.\\n[causal]", fillcolor="#c8e6c9"];
+  }
+  subgraph cluster_3 {
+    label="differential_generation (c4)";
+    style="rounded,dashed";
+    color="#9e9e9e";
+    n44 [label="n44: The combination of high insulin plus high C-peptide essentially rules out non-insulin-mediated causes of hypoglycemia.\\n[causal]", fillcolor="#c8e6c9"];
+    n45 [label="n45: The combination of high insulin plus high C-peptide argues against exogenous insulin administration.\\n[causal]", fillcolor="#c8e6c9"];
+    n46 [label="n46: Exogenous insulin would suppress C-peptide.\\n[causal]", fillcolor="#c8e6c9"];
+    n47 [label="n47: The main candidate differentials are sulfonylurea or meglitinide ingestion causing factitious or endogenous hyperinsulinemic hypoglycemia, insulinoma, and less likely surreptitious exogenous insulin use.\\n[factual]", fillcolor="#c8e6c9"];
+    n48 [label="n48: Sulfonylurea ingestion fits very well.\\n[causal]", fillcolor="#c8e6c9"];
+    n49 [label="n49: Sulfonylurea ingestion causes profound recurrent hypoglycemia with both elevated insulin and elevated C-peptide.\\n[causal]", fillcolor="#c8e6c9"];
+    n50 [label="n50: Sulfonylurea ingestion often occurs with normal routine labs and no pancreatic lesion on imaging.\\n[factual]", fillcolor="#c8e6c9"];
+    n51 [label="n51: The patient is young.\\n[factual]", fillcolor="#c8e6c9"];
+    n52 [label="n52: The patient has psychosocial distress.\\n[factual]", fillcolor="#c8e6c9"];
+    n53 [label="n53: These features raise concern for possible factitious or accidental ingestion.\\n[causal]", fillcolor="#c8e6c9"];
+    n54 [label="n54: The diagnosis should rest on the biochemical pattern rather than speculation.\\n[recommendation]", fillcolor="#c8e6c9"];
+    n55 [label="n55: Insulinoma is also plausible.\\n[factual]", fillcolor="#c8e6c9"];
+    n56 [label="n56: Insulinoma causes endogenous hyperinsulinemic hypoglycemia with elevated insulin and C-peptide.\\n[causal]", fillcolor="#c8e6c9"];
+    n57 [label="n57: Her age is young for insulinoma.\\n[factual]", fillcolor="#c8e6c9"];
+    n58 [label="n58: Abdominal CT showed no pancreatic mass.\\n[factual]", fillcolor="#c8e6c9"];
+    n59 [label="n59: The dramatic recurrent episodes over multiple ED visits without a visible lesion make medication-induced hypoglycemia at least more immediately compelling.\\n[causal]", fillcolor="#c8e6c9"];
+    n60 [label="n60: Exogenous insulin use is less likely.\\n[factual]", fillcolor="#c8e6c9"];
+  }
+  subgraph cluster_4 {
+    label="differential_generation (c5)";
+    style="rounded,dashed";
+    color="#9e9e9e";
+    n61 [label="n61: The decisive feature is severe hypoglycemia with simultaneously very high insulin and high C-peptide.\\n[factual]", fillcolor="#c8e6c9"];
+    n62 [label="n62: This occurred in the setting of otherwise normal labs and a negative standard drug screen.\\n[factual]", fillcolor="#c8e6c9"];
+    n63 [label="n63: This biochemical profile is most characteristic of sulfonylurea-induced hypoglycemia.\\n[causal]", fillcolor="#c8e6c9"];
+    n64 [label="n64: Sulfonylurea-induced hypoglycemia can mimic insulinoma.\\n[causal]", fillcolor="#c8e6c9"];
+    n65 [label="n65: Sulfonylurea-induced hypoglycemia would not be detected on a routine drug screen.\\n[factual]", fillcolor="#c8e6c9"];
+    n66 [label="n66: Although insulinoma remains an important alternative, the most likely diagnosis from the provided data is factitious sulfonylurea ingestion causing endogenous hyperinsulinemic hypoglycemia.\\n[factual]", fillcolor="#c8e6c9"];
+    n67 [label="n67: The differential diagnosis includes sulfonylurea-induced hypoglycemia.\\n[factual]", fillcolor="#c8e6c9"];
+    n68 [label="n68: Sulfonylurea-induced hypoglycemia is high on the differential.\\n[factual]", fillcolor="#c8e6c9"];
+    n69 [label="n69: Sulfonylurea-induced hypoglycemia is associated with recurrent severe hypoglycemia.\\n[causal]", fillcolor="#c8e6c9"];
+    n70 [label="n70: Sulfonylurea-induced hypoglycemia is associated with markedly elevated insulin.\\n[causal]", fillcolor="#c8e6c9"];
+    n71 [label="n71: Sulfonylurea-induced hypoglycemia is associated with elevated C-peptide.\\n[causal]", fillcolor="#c8e6c9"];
+    n72 [label="n72: Sulfonylurea-induced hypoglycemia is associated with normal routine labs.\\n[causal]", fillcolor="#c8e6c9"];
+    n73 [label="n73: Sulfonylurea-induced hypoglycemia is associated with a negative standard drug screen.\\n[causal]", fillcolor="#c8e6c9"];
+    n74 [label="n74: Sulfonylurea-induced hypoglycemia is associated with no pancreatic mass on CT.\\n[causal]", fillcolor="#c8e6c9"];
+    n75 [label="n75: The differential diagnosis includes insulinoma.\\n[factual]", fillcolor="#c8e6c9"];
+    n76 [label="n76: Insulinoma is medium on the differential.\\n[factual]", fillcolor="#c8e6c9"];
+    n77 [label="n77: The differential diagnosis includes exogenous insulin administration.\\n[factual]", fillcolor="#c8e6c9"];
+    n78 [label="n78: Exogenous insulin administration is low on the differential.\\n[factual]", fillcolor="#c8e6c9"];
+  }
+  subgraph cluster_5 {
+    label="final_decision (c6)";
+    style="rounded,dashed";
+    color="#9e9e9e";
+    n79 [label="n79: The final diagnosis is sulfonylurea-induced hypoglycemia.\\n[factual]", fillcolor="#c8e6c9"];
+  }
+  n2 -> n3 [label="supports: Progression to unresponsiveness supports a neuroglycopenic hypoglycemia pattern."];
+  n4 -> n3 [label="supports: Diaphoresis, palpitations, confusion, weakness, and altered mental status fit adrenergic and neuroglycopenic symptoms."];
+  n5 -> n6 [label="supports: Repeated low glucose measurements support Whipple-type concern."];
+  n3 -> n7 [label="supports: A classic hypoglycemic symptom pattern satisfies the symptom component of Whipple-type concern."];
+  n5 -> n8 [label="supports: Documented low glucose values satisfy the low-glucose component."];
+  n11 -> n10 [label="supports: Markedly elevated insulin during hypoglycemia supports endogenous hyperinsulinemic hypoglycemia."];
+  n14 -> n10 [label="supports: Elevated C-peptide supports endogenous hyperinsulinemic hypoglycemia."];
+  n16 -> n45 [label="supports: Endogenous C-peptide production argues against exogenous insulin administration."];
+  n17 -> n18 [label="supports: Recurrent hypoglycemia despite dextrose is compatible with ongoing insulin effect."];
+  n21 -> n25 [label="supports: Otherwise normal routine labs support arguing against organ failure as the cause."];
+  n26 -> n65 [label="supports: A negative standard drug screen is consistent with sulfonylurea exposure being missed."];
+  n28 -> n29 [label="supports: A negative CT does not exclude a small insulinoma."];
+  n42 -> n43 [label="supports: Normal head CT makes intracranial pathology less likely as the explanation for altered mental status."];
+  n11 -> n44 [label="supports: High insulin is part of the biochemical combination that rules out non-insulin-mediated causes."];
+  n14 -> n44 [label="supports: High C-peptide is part of the biochemical combination that rules out non-insulin-mediated causes."];
+  n11 -> n45 [label="supports: High insulin with high C-peptide argues against exogenous insulin administration."];
+  n46 -> n45 [label="supports: If exogenous insulin suppresses C-peptide, then elevated C-peptide argues against exogenous insulin."];
+  n49 -> n63 [label="supports: The described sulfonylurea biochemical pattern matches the case profile."];
+  n51 -> n53 [label="supports: Young age raises concern for factitious or accidental ingestion."];
+  n52 -> n53 [label="supports: Psychosocial distress raises concern for factitious or accidental ingestion."];
+  n61 -> n63 [label="supports: Severe hypoglycemia with very high insulin and high C-peptide is most characteristic of sulfonylurea-induced hypoglycemia."];
+  n62 -> n63 [label="supports: The biochemical profile in the setting of normal labs and a negative standard drug screen supports sulfonylurea-induced hypoglycemia."];
+  n63 -> n66 [label="supports: The characteristic biochemical profile supports the final favored diagnosis."];
+  n55 -> n66 [label="supports: Insulinoma remains an alternative diagnosis, but not the most likely one."];
+  n63 -> n79 [label="supports: The most characteristic biochemical pattern supports the final diagnosis."];
+  n67 -> n68 [label="supports: If sulfonylurea-induced hypoglycemia is in the differential, the case data place it high on the differential."];
+  n69 -> n68 [label="supports: Recurrent severe hypoglycemia is a key feature making sulfonylurea-induced hypoglycemia high on the differential."];
+  n70 -> n68 [label="supports: Markedly elevated insulin supports sulfonylurea-induced hypoglycemia being high on the differential."];
+  n71 -> n68 [label="supports: Elevated C-peptide supports sulfonylurea-induced hypoglycemia being high on the differential."];
+  n72 -> n68 [label="supports: Normal routine labs support sulfonylurea-induced hypoglycemia being high on the differential."];
+  n73 -> n68 [label="supports: A negative standard drug screen is compatible with sulfonylurea-induced hypoglycemia and supports it being high on the differential."];
+  n74 -> n68 [label="supports: No pancreatic mass on CT supports sulfonylurea-induced hypoglycemia being high on the differential."];
+  n75 -> n76 [label="supports: Insulinoma is present on the differential but not favored as the leading diagnosis."];
+  n77 -> n78 [label="supports: Exogenous insulin administration is considered but is low on the differential."];
+}

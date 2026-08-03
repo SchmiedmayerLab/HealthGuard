@@ -1,0 +1,40 @@
+{
+  "input": {
+    "resourceType": "clinicalCaseDiagnosis",
+    "id": "PMC8544292",
+    "origin": "testdata/streamlined/clinical-cases-cot/extracted/PMC8544292.json",
+    "groundTruthDiagnosis": "Oculomotor nerve schwannoma",
+    "rawInput": {
+      "complaint": "A 32-year-old man presented with excessive tearing of the left eye and mild ocular pain. Over the previous 4–5 months he had noticed progressive left-eyelid drooping and intermittent diplopia. He reported a mild left-sided head trauma 1.5 years earlier but had no other medical history or family history of neurological or autoimmune disease.\n\nOn ophthalmologic examination, visual acuity, intraocular pressure, and funduscopy were normal. The left eyelid was ptotic, and there was limitation of adduction, elevation, and depression of the left eye, with a dilated left pupil. No other neurological deficits were found. Fluorescein angiography, indocyanine green chorioangiography, and optical coherence tomography were unremarkable. The patient noted that his ptosis fluctuated during the day, with marked improvement when washing his face with cold water.\n\nTo evaluate for myasthenia gravis, an ice pack was applied to the left eyelid for 2 minutes, after which his ptosis improved significantly, with near-complete eyelid opening; the improvement lasted only a few minutes.",
+      "metadata": {
+        "presentation": "A 32-year-old man presented with excessive tearing of the left eye and mild ocular pain. Over the previous 4–5 months he had noticed progressive left-eyelid drooping and intermittent diplopia. He reported a mild left-sided head trauma 1.5 years earlier but had no other medical history or family history of neurological or autoimmune disease.\n\nOn ophthalmologic examination, visual acuity, intraocular pressure, and funduscopy were normal. The left eyelid was ptotic, and there was limitation of adduction, elevation, and depression of the left eye, with a dilated left pupil. No other neurological deficits were found. Fluorescein angiography, indocyanine green chorioangiography, and optical coherence tomography were unremarkable. The patient noted that his ptosis fluctuated during the day, with marked improvement when washing his face with cold water.\n\nTo evaluate for myasthenia gravis, an ice pack was applied to the left eyelid for 2 minutes, after which his ptosis improved significantly, with near-complete eyelid opening; the improvement lasted only a few minutes."
+      }
+    },
+    "cotDiagnosis": {
+      "reasoning": "The chief complaint is progressive left eyelid drooping with intermittent diplopia over 4–5 months, accompanied by excessive tearing and mild ocular pain. The patient’s own notable observation is fluctuation of the ptosis during the day and marked improvement with cold water, which is highly relevant because fatigable ptosis and cold-induced improvement are classic clues for myasthenia gravis.\n\nSalient positive findings include unilateral ptosis, intermittent diplopia, and ophthalmoplegia affecting adduction, elevation, and depression of the left eye. The ptosis fluctuates during the day, suggesting fatigability. The ice pack test produced significant temporary improvement with near-complete eyelid opening after 2 minutes, which strongly supports myasthenia gravis. Visual acuity, intraocular pressure, funduscopy, fluorescein angiography, indocyanine green chorioangiography, and OCT were all normal, arguing against primary retinal or intraocular pathology. No other neurological deficits were found, which is compatible with ocular myasthenia gravis.\n\nPertinent negatives and conflicting features are also important. The left pupil was dilated, which is not typical for myasthenia gravis because MG does not affect the pupil. Limitation of adduction, elevation, and depression with ptosis and mydriasis is a classic pattern for left oculomotor nerve palsy. Mild ocular pain also fits a compressive or inflammatory third nerve process more than MG. However, the fluctuation of ptosis and the strongly positive ice pack response are difficult to explain by a fixed structural third nerve palsy alone. There were no other neurological deficits to suggest a broader brainstem lesion. The remote mild head trauma 1.5 years earlier is temporally weak support for traumatic cranial neuropathy given symptom onset only 4–5 months ago.\n\nCandidate differentials:\n1. Ocular myasthenia gravis fits the fluctuating ptosis, intermittent diplopia, and dramatic transient improvement with cold water and ice pack testing. These are the strongest diagnostic clues in the case.\n2. Left oculomotor nerve palsy fits the pattern of extraocular movement limitation and ptosis, and especially the dilated pupil. Pain also supports a third nerve lesion. However, isolated third nerve palsy would not usually show clear fatigability or a positive ice pack test.\n3. Compressive aneurysmal third nerve palsy is an important subtype because pupil involvement and pain raise concern, but the case summary emphasizes the bedside findings pointing toward MG rather than an acute painful aneurysmal presentation.\n4. Traumatic third nerve palsy is possible given prior left-sided head trauma, but the trauma was mild and remote, making this less convincing.\n\nTo narrow to a single diagnosis, the most specific dynamic feature in the case is the fluctuating ptosis with marked improvement after cold exposure and a positive ice pack test. Those findings strongly indicate myasthenia gravis, specifically ocular myasthenia gravis. Although the dilated pupil is atypical and suggests a concurrent or alternative third nerve process, based strictly on the presented bedside diagnostic response and symptom fluctuation, the single most likely diagnosis is ocular myasthenia gravis.",
+      "differentialDiagnoses": [
+        {
+          "condition": "Ocular myasthenia gravis",
+          "likelihood": "high",
+          "supportingEvidence": "Progressive ptosis and intermittent diplopia with diurnal fluctuation, marked improvement with cold water, and a strongly positive ice pack test causing near-complete temporary eyelid opening."
+        },
+        {
+          "condition": "Left oculomotor nerve palsy",
+          "likelihood": "medium",
+          "supportingEvidence": "Ptosis with limitation of adduction, elevation, and depression plus a dilated left pupil is a classic third nerve pattern; mild ocular pain also supports this, but fluctuation and ice-pack responsiveness argue against a purely structural palsy."
+        },
+        {
+          "condition": "Compressive third nerve palsy (e.g., posterior communicating artery aneurysm)",
+          "likelihood": "low",
+          "supportingEvidence": "Painful pupil-involving third nerve dysfunction is concerning for compression, but the chronic 4–5 month course and positive ice pack test make this less likely as the primary explanation in the presented case."
+        },
+        {
+          "condition": "Traumatic third nerve palsy",
+          "likelihood": "low",
+          "supportingEvidence": "History of mild left-sided head trauma exists, but it occurred 1.5 years earlier and does not align well with symptom onset only 4–5 months ago; also does not explain cold-induced improvement."
+        }
+      ],
+      "finalDiagnosis": "Ocular myasthenia gravis"
+    }
+  }
+}

@@ -1,0 +1,360 @@
+{
+  "name": "classify",
+  "passed": true,
+  "score": 1.0,
+  "reasoning": "Classified 70 statement(s): 12 causal, 55 factual, 1 recommendation, 2 statistical.",
+  "data": {
+    "classified": [
+      {
+        "text": "The chief issue is persistent/recurrent postoperative inflammation in the right eye after otherwise uneventful cataract surgery.",
+        "category": "factual",
+        "rationale": "It states a clinical condition and context as a direct assertion."
+      },
+      {
+        "text": "A visible anterior chamber foreign body was noted on postoperative day 1.",
+        "category": "factual",
+        "rationale": "It reports an observed finding in the eye."
+      },
+      {
+        "text": "The patient declined removal because his vision remained relatively good and his symptoms were minimal.",
+        "category": "factual",
+        "rationale": "It describes the patient's decision and stated reasons as facts."
+      },
+      {
+        "text": "Clinically, the important problem is inflammation that repeatedly recurs when topical steroids are tapered.",
+        "category": "causal",
+        "rationale": "It links steroid tapering with recurrence of inflammation."
+      },
+      {
+        "text": "The patient underwent uncomplicated phacoemulsification with in-the-bag IOL implantation.",
+        "category": "factual",
+        "rationale": "It asserts a performed procedure and operative outcome."
+      },
+      {
+        "text": "On postoperative day 1, diffuse conjunctival hyperemia was present.",
+        "category": "factual",
+        "rationale": "It describes a postoperative exam finding."
+      },
+      {
+        "text": "On postoperative day 1, anterior chamber cells were present.",
+        "category": "factual",
+        "rationale": "It describes a postoperative exam finding."
+      },
+      {
+        "text": "On postoperative day 1, mild Descemet folds were present.",
+        "category": "factual",
+        "rationale": "It describes a postoperative exam finding."
+      },
+      {
+        "text": "On postoperative day 1, medium keratic precipitates were present.",
+        "category": "factual",
+        "rationale": "It describes a postoperative exam finding."
+      },
+      {
+        "text": "On postoperative day 1, a poorly defined intraocular foreign body was present at 12 o’clock.",
+        "category": "factual",
+        "rationale": "It reports a directly observed ocular finding."
+      },
+      {
+        "text": "On postoperative day 1, the cornea was otherwise clear.",
+        "category": "factual",
+        "rationale": "It states an exam finding about corneal status."
+      },
+      {
+        "text": "On postoperative day 1, the intraocular pressure was 10 mmHg.",
+        "category": "statistical",
+        "rationale": "It gives a specific numerical measurement."
+      },
+      {
+        "text": "Vision improved from 20/40 on day 1 to 20/25 at one week.",
+        "category": "statistical",
+        "rationale": "It provides numerical visual acuity values over time."
+      },
+      {
+        "text": "Inflammation decreased with intensive topical dexamethasone.",
+        "category": "causal",
+        "rationale": "It indicates treatment led to improvement in inflammation."
+      },
+      {
+        "text": "Inflammation repeatedly recurred whenever steroids were tapered over the following 6 months.",
+        "category": "causal",
+        "rationale": "It describes a recurring relationship between steroid tapering and inflammation."
+      },
+      {
+        "text": "Improvement occurred again when steroids were restarted.",
+        "category": "causal",
+        "rationale": "It links restarting steroids with clinical improvement."
+      },
+      {
+        "text": "Laboratory workup for systemic inflammatory/rheumatologic disease was unrevealing aside from mildly elevated ESR.",
+        "category": "factual",
+        "rationale": "It reports the result of diagnostic testing."
+      },
+      {
+        "text": "CRP was normal.",
+        "category": "factual",
+        "rationale": "It states a laboratory result."
+      },
+      {
+        "text": "ANA was normal.",
+        "category": "factual",
+        "rationale": "It states a laboratory result."
+      },
+      {
+        "text": "Rheumatologic disease was excluded clinically.",
+        "category": "factual",
+        "rationale": "It asserts a clinical conclusion about the absence of rheumatologic disease."
+      },
+      {
+        "text": "There is no mention of severe pain.",
+        "category": "factual",
+        "rationale": "It states the absence of a documented symptom."
+      },
+      {
+        "text": "There is no mention of hypopyon.",
+        "category": "factual",
+        "rationale": "It states the absence of a documented finding."
+      },
+      {
+        "text": "There is no mention of marked vision loss.",
+        "category": "factual",
+        "rationale": "It states the absence of a documented finding."
+      },
+      {
+        "text": "There is no mention of vitritis.",
+        "category": "factual",
+        "rationale": "It states the absence of a documented finding."
+      },
+      {
+        "text": "There is no mention of corneal infiltrate.",
+        "category": "factual",
+        "rationale": "It states the absence of a documented finding."
+      },
+      {
+        "text": "There is no mention of wound leak.",
+        "category": "factual",
+        "rationale": "It states the absence of a documented finding."
+      },
+      {
+        "text": "There is no mention of progressive deterioration that would strongly suggest acute postoperative infectious endophthalmitis.",
+        "category": "factual",
+        "rationale": "It states the absence of a documented clinical pattern."
+      },
+      {
+        "text": "The cornea was otherwise clear.",
+        "category": "factual",
+        "rationale": "It repeats a direct exam finding."
+      },
+      {
+        "text": "Vision improved rather than worsened.",
+        "category": "factual",
+        "rationale": "It asserts the direction of visual change."
+      },
+      {
+        "text": "There is no evidence supporting a systemic autoimmune uveitis syndrome.",
+        "category": "factual",
+        "rationale": "It states a clinical assessment about lack of evidence."
+      },
+      {
+        "text": "There was no prior ocular inflammation.",
+        "category": "factual",
+        "rationale": "It asserts absence of prior ocular history."
+      },
+      {
+        "text": "There was no systemic disease.",
+        "category": "factual",
+        "rationale": "It asserts absence of systemic disease."
+      },
+      {
+        "text": "Rheumatologic evaluation was negative.",
+        "category": "factual",
+        "rationale": "It reports a negative diagnostic evaluation."
+      },
+      {
+        "text": "Postoperative nongranulomatous anterior uveitis is possible.",
+        "category": "factual",
+        "rationale": "It expresses a diagnostic possibility rather than a recommendation."
+      },
+      {
+        "text": "The striking finding is the visible intraocular foreign body present from day 1.",
+        "category": "factual",
+        "rationale": "It emphasizes an observed finding as a fact."
+      },
+      {
+        "text": "The inflammation showed a steroid-dependent recurrence pattern.",
+        "category": "causal",
+        "rationale": "It describes recurrence in relation to steroid use."
+      },
+      {
+        "text": "Retained intraocular foreign material after cataract surgery causing chronic postoperative anterior uveitis fits best.",
+        "category": "causal",
+        "rationale": "It proposes a cause-and-effect explanation for the uveitis."
+      },
+      {
+        "text": "The foreign body was directly seen at 12 o’clock in the anterior chamber.",
+        "category": "factual",
+        "rationale": "It reports a directly observed location of the foreign body."
+      },
+      {
+        "text": "Inflammation began immediately after surgery.",
+        "category": "factual",
+        "rationale": "It states the timing of symptom onset."
+      },
+      {
+        "text": "Inflammation persisted or recurred whenever steroids were tapered.",
+        "category": "causal",
+        "rationale": "It links steroid tapering with persistence/recurrence of inflammation."
+      },
+      {
+        "text": "This pattern strongly supports a mechanical or toxic inflammatory nidus such as retained lens fragment or retained surgical material.",
+        "category": "causal",
+        "rationale": "It explains the inflammation by a proposed mechanism or source."
+      },
+      {
+        "text": "Idiopathic/persistent postoperative nongranulomatous anterior uveitis is plausible.",
+        "category": "factual",
+        "rationale": "It states a diagnostic possibility."
+      },
+      {
+        "text": "The inflammation was anterior.",
+        "category": "factual",
+        "rationale": "It describes the anatomic location of inflammation."
+      },
+      {
+        "text": "The inflammation was steroid-responsive.",
+        "category": "factual",
+        "rationale": "It states a treatment response characteristic."
+      },
+      {
+        "text": "The systemic workup was negative.",
+        "category": "factual",
+        "rationale": "It reports a negative workup result."
+      },
+      {
+        "text": "Idiopathic/persistent postoperative nongranulomatous anterior uveitis does not explain the observed intraocular foreign body.",
+        "category": "causal",
+        "rationale": "It asserts that one diagnosis fails to account for another finding."
+      },
+      {
+        "text": "Delayed-onset postoperative endophthalmitis is less likely.",
+        "category": "factual",
+        "rationale": "It expresses a diagnostic likelihood assessment."
+      },
+      {
+        "text": "Chronic low-grade inflammation after surgery can occur.",
+        "category": "factual",
+        "rationale": "It states a general clinical fact."
+      },
+      {
+        "text": "This case lacks classic clues such as worsening vision.",
+        "category": "factual",
+        "rationale": "It states absence of a typical feature."
+      },
+      {
+        "text": "This case lacks classic clues such as pain.",
+        "category": "factual",
+        "rationale": "It states absence of a typical feature."
+      },
+      {
+        "text": "This case lacks classic clues such as vitritis.",
+        "category": "factual",
+        "rationale": "It states absence of a typical feature."
+      },
+      {
+        "text": "This case lacks classic clues such as plaque on the capsule.",
+        "category": "factual",
+        "rationale": "It states absence of a typical feature."
+      },
+      {
+        "text": "This case lacks classic clues such as poor steroid response.",
+        "category": "factual",
+        "rationale": "It states absence of a typical feature."
+      },
+      {
+        "text": "Vision remained good.",
+        "category": "factual",
+        "rationale": "It states the visual status as a fact."
+      },
+      {
+        "text": "Inflammation improved substantially with steroids.",
+        "category": "causal",
+        "rationale": "It links steroid treatment with improvement in inflammation."
+      },
+      {
+        "text": "Retained lens material is another specific postoperative cause of recurrent inflammation.",
+        "category": "factual",
+        "rationale": "It states a known cause of postoperative inflammation."
+      },
+      {
+        "text": "Retained lens material could present as an anterior chamber fragment.",
+        "category": "causal",
+        "rationale": "It describes a possible relationship between retained lens material and its appearance."
+      },
+      {
+        "text": "Retained lens material could cause recurrent uveitis.",
+        "category": "causal",
+        "rationale": "It states a possible causal relationship."
+      },
+      {
+        "text": "The case describes a poorly defined foreign body rather than clearly identified lens matter.",
+        "category": "factual",
+        "rationale": "It compares the observed object's description as a fact."
+      },
+      {
+        "text": "The broader retained foreign body explanation is safer.",
+        "category": "recommendation",
+        "rationale": "It advises which explanatory framing is preferable."
+      },
+      {
+        "text": "The most compelling feature is the visible anterior chamber foreign body noted immediately after surgery.",
+        "category": "factual",
+        "rationale": "It identifies a key observed finding."
+      },
+      {
+        "text": "The case also had chronic steroid-dependent recurrent anterior chamber inflammation over 6 months.",
+        "category": "factual",
+        "rationale": "It reports the duration and pattern of inflammation."
+      },
+      {
+        "text": "Systemic inflammatory causes were excluded.",
+        "category": "factual",
+        "rationale": "It states a diagnostic exclusion."
+      },
+      {
+        "text": "The most likely diagnosis is chronic postoperative anterior uveitis secondary to a retained intraocular foreign body.",
+        "category": "factual",
+        "rationale": "It presents a diagnostic conclusion as a factual assertion."
+      },
+      {
+        "text": "The retained intraocular foreign body was most likely retained surgical material in the anterior chamber.",
+        "category": "factual",
+        "rationale": "It states a likely identification of the foreign body."
+      },
+      {
+        "text": "Chronic postoperative anterior uveitis due to retained intraocular foreign body is a high-probability differential.",
+        "category": "factual",
+        "rationale": "It gives a probability assessment of a diagnosis."
+      },
+      {
+        "text": "Persistent/nongranulomatous postoperative anterior uveitis is a medium-probability differential.",
+        "category": "factual",
+        "rationale": "It gives a probability assessment of a diagnosis."
+      },
+      {
+        "text": "Chronic postoperative endophthalmitis is a low-probability differential.",
+        "category": "factual",
+        "rationale": "It gives a probability assessment of a diagnosis."
+      },
+      {
+        "text": "Retained lens fragment is a low-probability differential.",
+        "category": "factual",
+        "rationale": "It gives a probability assessment of a diagnosis."
+      },
+      {
+        "text": "The final diagnosis is chronic postoperative anterior uveitis secondary to a retained intraocular foreign body.",
+        "category": "factual",
+        "rationale": "It states the final diagnosis as a factual conclusion."
+      }
+    ]
+  }
+}

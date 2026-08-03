@@ -1,0 +1,445 @@
+{
+  "name": "classify",
+  "passed": true,
+  "score": 1.0,
+  "reasoning": "Classified 87 statement(s): 39 causal, 40 factual, 8 statistical.",
+  "data": {
+    "classified": [
+      {
+        "text": "The chief concern is primary amenorrhea with cyclic pelvic pain that acutely worsened.",
+        "category": "factual",
+        "rationale": "This states the presenting clinical problem and symptom pattern as an observable patient attribute."
+      },
+      {
+        "text": "The patient is 25 years old.",
+        "category": "statistical",
+        "rationale": "This is a numerical age claim that can be directly verified."
+      },
+      {
+        "text": "The patient has never menstruated.",
+        "category": "factual",
+        "rationale": "This is a factual statement about the patient's menstrual history."
+      },
+      {
+        "text": "The patient has normal secondary sexual development.",
+        "category": "factual",
+        "rationale": "This describes a patient characteristic that can be assessed clinically."
+      },
+      {
+        "text": "Breast development occurred at age 11.",
+        "category": "statistical",
+        "rationale": "This gives a specific age and is therefore a numerical claim."
+      },
+      {
+        "text": "Pubic hair development occurred at age 12.",
+        "category": "statistical",
+        "rationale": "This gives a specific age and is therefore a numerical claim."
+      },
+      {
+        "text": "The patient is Tanner stage 4 for breasts and pubic hair.",
+        "category": "statistical",
+        "rationale": "Tanner stage is a numeric clinical staging value."
+      },
+      {
+        "text": "Normal secondary sexual development indicates functioning ovaries and estrogen exposure.",
+        "category": "causal",
+        "rationale": "This links a clinical finding to an inferred physiologic implication."
+      },
+      {
+        "text": "The long history of dull cramping abdominal pain began at age 13.",
+        "category": "statistical",
+        "rationale": "This includes a specific age of onset, making it a numerical claim."
+      },
+      {
+        "text": "The abdominal pain became cyclic every 45–50 days by age 16.",
+        "category": "statistical",
+        "rationale": "This contains specific timing and interval values."
+      },
+      {
+        "text": "The pain pattern strongly suggests occult menstruation with outflow obstruction rather than endocrine failure.",
+        "category": "causal",
+        "rationale": "This asserts a mechanistic interpretation of the symptom pattern."
+      },
+      {
+        "text": "The current 2-day episode involved sudden severe lower abdominal pain.",
+        "category": "statistical",
+        "rationale": "This includes a specific duration and severity description tied to the episode."
+      },
+      {
+        "text": "The current pain episode is likely an acute exacerbation related to retained menstrual blood in an obstructed reproductive tract.",
+        "category": "causal",
+        "rationale": "This proposes a cause-and-effect explanation for the acute pain."
+      },
+      {
+        "text": "Salient positive findings include primary amenorrhea despite normal pubertal development.",
+        "category": "factual",
+        "rationale": "This summarizes observed positive clinical findings."
+      },
+      {
+        "text": "Salient positive findings include cyclic abdominal pain for years.",
+        "category": "factual",
+        "rationale": "This is a factual summary of the symptom history."
+      },
+      {
+        "text": "Salient positive findings include mild right lower quadrant tenderness.",
+        "category": "factual",
+        "rationale": "This reports an exam finding."
+      },
+      {
+        "text": "Salient positive findings include ultrasound showing blood within the right uterine horn.",
+        "category": "factual",
+        "rationale": "This reports an imaging finding."
+      },
+      {
+        "text": "Salient positive findings include MRI showing a bicornuate likely unicollis uterus.",
+        "category": "factual",
+        "rationale": "This reports an imaging interpretation."
+      },
+      {
+        "text": "Salient positive findings include MRI showing a single angulated cervix.",
+        "category": "factual",
+        "rationale": "This reports an imaging finding."
+      },
+      {
+        "text": "Salient positive findings include MRI showing a blind upper half of the vagina.",
+        "category": "factual",
+        "rationale": "This reports an imaging finding."
+      },
+      {
+        "text": "These imaging findings point to a müllerian anomaly with distal obstruction.",
+        "category": "causal",
+        "rationale": "This interprets the imaging findings as indicating a specific anatomic mechanism."
+      },
+      {
+        "text": "Blood in the uterine horn indicates hematometra from retained menses.",
+        "category": "causal",
+        "rationale": "This explains the meaning of the imaging finding in causal/pathophysiologic terms."
+      },
+      {
+        "text": "A blind upper vagina suggests a transverse vaginal septum or segmental vaginal agenesis causing obstruction.",
+        "category": "causal",
+        "rationale": "This links the anatomic finding to a likely obstructive cause."
+      },
+      {
+        "text": "The single cervix and bicornuate uterus support a complex obstructive müllerian malformation rather than isolated imperforate hymen.",
+        "category": "causal",
+        "rationale": "This compares findings and infers a more likely underlying mechanism."
+      },
+      {
+        "text": "MRI also noted adenomyosis-like myometrial changes.",
+        "category": "factual",
+        "rationale": "This reports an imaging observation."
+      },
+      {
+        "text": "MRI also noted polycystic-appearing ovaries.",
+        "category": "factual",
+        "rationale": "This reports an imaging observation."
+      },
+      {
+        "text": "The adenomyosis-like myometrial changes and polycystic-appearing ovaries do not explain the lifelong primary amenorrhea with cyclic pain and obstructed blood collection.",
+        "category": "causal",
+        "rationale": "This states why those findings are not the cause of the main syndrome."
+      },
+      {
+        "text": "She denied fever.",
+        "category": "factual",
+        "rationale": "This is a factual symptom denial."
+      },
+      {
+        "text": "She denied vomiting.",
+        "category": "factual",
+        "rationale": "This is a factual symptom denial."
+      },
+      {
+        "text": "She denied bowel symptoms.",
+        "category": "factual",
+        "rationale": "This is a factual symptom denial."
+      },
+      {
+        "text": "She denied urinary symptoms.",
+        "category": "factual",
+        "rationale": "This is a factual symptom denial."
+      },
+      {
+        "text": "These denials make appendicitis, urinary tract pathology, or gastrointestinal causes less likely.",
+        "category": "causal",
+        "rationale": "This infers diagnostic likelihood from the absence of symptoms."
+      },
+      {
+        "text": "She is sexually inactive.",
+        "category": "factual",
+        "rationale": "This is a factual patient attribute."
+      },
+      {
+        "text": "Sexual inactivity makes pregnancy-related causes very unlikely.",
+        "category": "causal",
+        "rationale": "This links sexual history to reduced likelihood of pregnancy."
+      },
+      {
+        "text": "Sexual inactivity makes pelvic inflammatory disease very unlikely.",
+        "category": "causal",
+        "rationale": "This links sexual history to reduced likelihood of PID."
+      },
+      {
+        "text": "Normal body habitus argues against gonadal dysgenesis.",
+        "category": "causal",
+        "rationale": "This uses a clinical feature to argue against a diagnosis."
+      },
+      {
+        "text": "Normal secondary sexual characteristics argue against hypothalamic amenorrhea.",
+        "category": "causal",
+        "rationale": "This links pubertal development to diagnostic reasoning."
+      },
+      {
+        "text": "Normal secondary sexual characteristics argue against androgen insensitivity.",
+        "category": "causal",
+        "rationale": "This links pubertal development to diagnostic reasoning."
+      },
+      {
+        "text": "The presence of a uterus on imaging excludes Mayer-Rokitansky-Küster-Hauser syndrome.",
+        "category": "causal",
+        "rationale": "This uses an anatomic finding to rule out a diagnosis."
+      },
+      {
+        "text": "The cyclic pain and hematometra argue against PCOS as the primary explanation for amenorrhea.",
+        "category": "causal",
+        "rationale": "This explains why the symptom pattern is inconsistent with PCOS as the main cause."
+      },
+      {
+        "text": "The ovaries appear polycystic.",
+        "category": "factual",
+        "rationale": "This reports an imaging observation."
+      },
+      {
+        "text": "Obstructive müllerian anomaly causing cryptomenorrhea is a candidate differential.",
+        "category": "factual",
+        "rationale": "This states a diagnostic possibility rather than a recommendation or mechanism."
+      },
+      {
+        "text": "A transverse vaginal septum or upper vaginal obstruction with bicornuate unicollis uterus fits best.",
+        "category": "causal",
+        "rationale": "This asserts the best-fitting anatomic explanation for the findings."
+      },
+      {
+        "text": "This fit is supported by primary amenorrhea, normal pubertal development, cyclic pain, blind upper vagina, single cervix, and blood in the uterine horn.",
+        "category": "causal",
+        "rationale": "This explains why the listed findings support the diagnosis."
+      },
+      {
+        "text": "Cervical agenesis or dysgenesis with a functioning uterus is a candidate differential.",
+        "category": "factual",
+        "rationale": "This names a possible diagnosis."
+      },
+      {
+        "text": "Cervical agenesis or dysgenesis can cause primary amenorrhea and cyclic pain with hematometra.",
+        "category": "causal",
+        "rationale": "This describes the mechanism by which the condition produces symptoms."
+      },
+      {
+        "text": "MRI noted suboptimal visualization of the uterocervical junction.",
+        "category": "factual",
+        "rationale": "This reports an imaging limitation/finding."
+      },
+      {
+        "text": "A cervix was seen as a single angulated cervix.",
+        "category": "factual",
+        "rationale": "This reports an imaging finding."
+      },
+      {
+        "text": "The blind upper vagina more directly supports vaginal-level obstruction rather than complete cervical agenesis.",
+        "category": "causal",
+        "rationale": "This compares findings and infers the more likely level of obstruction."
+      },
+      {
+        "text": "Imperforate hymen is a candidate differential.",
+        "category": "factual",
+        "rationale": "This states a possible diagnosis."
+      },
+      {
+        "text": "Imperforate hymen causes primary amenorrhea and cyclic pain from outflow obstruction.",
+        "category": "causal",
+        "rationale": "This describes the pathophysiologic relationship between the condition and symptoms."
+      },
+      {
+        "text": "Imperforate hymen usually presents with a bulging hymen and distended vagina.",
+        "category": "factual",
+        "rationale": "This describes typical clinical features of the condition."
+      },
+      {
+        "text": "Imperforate hymen usually presents with hematocolpos.",
+        "category": "factual",
+        "rationale": "This describes a typical associated finding."
+      },
+      {
+        "text": "The imaging findings do not match a bulging hymen and distended vagina.",
+        "category": "causal",
+        "rationale": "This uses imaging to argue against the diagnosis."
+      },
+      {
+        "text": "PCOS is a candidate differential.",
+        "category": "factual",
+        "rationale": "This states a possible diagnosis."
+      },
+      {
+        "text": "The ovaries are polycystic-appearing.",
+        "category": "factual",
+        "rationale": "This reports an imaging observation."
+      },
+      {
+        "text": "The pain became cyclic at 45–50-day intervals.",
+        "category": "statistical",
+        "rationale": "This gives a specific interval frequency."
+      },
+      {
+        "text": "PCOS does not explain complete lifelong amenorrhea in the presence of retained blood in a uterine horn and an anatomic vaginal obstruction.",
+        "category": "causal",
+        "rationale": "This explains why PCOS is not the primary cause given the anatomic findings."
+      },
+      {
+        "text": "Endometriosis is a candidate differential.",
+        "category": "factual",
+        "rationale": "This states a possible diagnosis."
+      },
+      {
+        "text": "Adenomyosis is a candidate differential.",
+        "category": "factual",
+        "rationale": "This states a possible diagnosis."
+      },
+      {
+        "text": "MRI suggested adenomyosis.",
+        "category": "factual",
+        "rationale": "This reports an imaging impression."
+      },
+      {
+        "text": "Chronic outflow obstruction can lead to endometriosis-related pain.",
+        "category": "causal",
+        "rationale": "This states a mechanistic relationship between obstruction and pain."
+      },
+      {
+        "text": "Endometriosis and adenomyosis are more likely consequences or associated findings rather than the primary diagnosis causing primary amenorrhea.",
+        "category": "causal",
+        "rationale": "This interprets their role relative to the main syndrome."
+      },
+      {
+        "text": "The single most likely diagnosis is an obstructive genital tract müllerian anomaly causing cryptomenorrhea.",
+        "category": "causal",
+        "rationale": "This identifies the diagnosis and its causal mechanism."
+      },
+      {
+        "text": "The strongest specific fit among obstructive lesions is a transverse vaginal septum or upper vaginal agenesis or atresia.",
+        "category": "causal",
+        "rationale": "This selects the most likely obstructive lesion based on the findings."
+      },
+      {
+        "text": "MRI explicitly describes a blind upper half of the vagina.",
+        "category": "factual",
+        "rationale": "This reports a direct imaging description."
+      },
+      {
+        "text": "The uterus is present.",
+        "category": "factual",
+        "rationale": "This is a factual anatomic statement."
+      },
+      {
+        "text": "The uterus is bicornuate with a single cervix.",
+        "category": "factual",
+        "rationale": "This reports an anatomic/imaging finding."
+      },
+      {
+        "text": "The retained blood in the right uterine horn explains the acute severe pain.",
+        "category": "causal",
+        "rationale": "This links retained blood to the acute pain episode."
+      },
+      {
+        "text": "The best final diagnosis is transverse vaginal septum causing cryptomenorrhea and hematometra in the setting of a bicornuate unicollis uterus.",
+        "category": "causal",
+        "rationale": "This states the final diagnosis and the causal relationship to the symptoms."
+      },
+      {
+        "text": "Transverse vaginal septum with obstructed menstrual outflow in a bicornuate unicollis uterus is listed as a high-probability differential.",
+        "category": "factual",
+        "rationale": "This states a diagnostic probability assessment."
+      },
+      {
+        "text": "Primary amenorrhea despite normal secondary sexual characteristics supports that differential.",
+        "category": "causal",
+        "rationale": "This explains why the differential is supported."
+      },
+      {
+        "text": "Longstanding cyclic abdominal pain supports that differential.",
+        "category": "causal",
+        "rationale": "This explains why the differential is supported."
+      },
+      {
+        "text": "MRI showing a blind upper half of the vagina and single cervix supports that differential.",
+        "category": "causal",
+        "rationale": "This explains why the imaging supports the differential."
+      },
+      {
+        "text": "Ultrasound showing blood within the right uterine horn supports that differential.",
+        "category": "causal",
+        "rationale": "This explains why the ultrasound supports the differential."
+      },
+      {
+        "text": "Cervical dysgenesis or partial cervical atresia with functioning uterus is listed as a medium-probability differential.",
+        "category": "factual",
+        "rationale": "This states a diagnostic probability assessment."
+      },
+      {
+        "text": "Cervical dysgenesis or partial cervical atresia can cause primary amenorrhea, cyclic pain, and hematometra.",
+        "category": "causal",
+        "rationale": "This describes the mechanism by which the condition produces symptoms."
+      },
+      {
+        "text": "MRI noted suboptimal visualization of the uterocervical junction.",
+        "category": "factual",
+        "rationale": "This reports an imaging limitation/finding."
+      },
+      {
+        "text": "A cervix was present.",
+        "category": "factual",
+        "rationale": "This is a factual anatomic statement."
+      },
+      {
+        "text": "Vaginal obstruction is more directly demonstrated.",
+        "category": "causal",
+        "rationale": "This interprets the findings as indicating a specific level of obstruction."
+      },
+      {
+        "text": "Imperforate hymen is listed as a low-probability differential.",
+        "category": "factual",
+        "rationale": "This states a diagnostic probability assessment."
+      },
+      {
+        "text": "Imperforate hymen would also cause primary amenorrhea and cyclic pain from outflow obstruction.",
+        "category": "causal",
+        "rationale": "This describes the mechanism by which the condition causes symptoms."
+      },
+      {
+        "text": "The imaging showed a blind upper vagina and bicornuate uterus rather than a distal hymenal obstruction with hematocolpos.",
+        "category": "causal",
+        "rationale": "This explains why the imaging argues against imperforate hymen."
+      },
+      {
+        "text": "Polycystic ovary syndrome is listed as a low-probability differential.",
+        "category": "factual",
+        "rationale": "This states a diagnostic probability assessment."
+      },
+      {
+        "text": "Polycystic-appearing ovaries were seen on MRI.",
+        "category": "factual",
+        "rationale": "This reports an imaging observation."
+      },
+      {
+        "text": "PCOS does not explain lifelong primary amenorrhea with cyclic pain and retained blood in the uterine horn from an anatomic obstruction.",
+        "category": "causal",
+        "rationale": "This explains why PCOS is not the primary cause."
+      },
+      {
+        "text": "The final diagnosis is transverse vaginal septum causing cryptomenorrhea with hematometra in a bicornuate unicollis uterus.",
+        "category": "causal",
+        "rationale": "This states the final diagnosis and its causal anatomic basis."
+      }
+    ]
+  }
+}

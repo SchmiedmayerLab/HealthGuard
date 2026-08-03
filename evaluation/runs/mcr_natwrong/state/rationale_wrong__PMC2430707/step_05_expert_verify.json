@@ -1,0 +1,638 @@
+{
+  "name": "expert_verify",
+  "passed": true,
+  "score": 1.0,
+  "reasoning": "No contradictions among 69 statement(s) (38 supported, 31 valid inferences, 0 unverifiable).",
+  "data": {
+    "verifications": [
+      {
+        "text": "The patient’s presenting complaint is lower urinary tract symptoms.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Presentation explicitly states lower urinary tract symptoms."
+      },
+      {
+        "text": "The lower urinary tract symptoms are hesitancy, poor stream, and urgency.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Symptoms listed in the case are hesitancy, poor stream, and urgency."
+      },
+      {
+        "text": "The key diagnostic issue in this case is the incidentally discovered right renal mass.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.98,
+        "reasoning": "The trace identifies the incidental right renal mass as the key diagnostic issue."
+      },
+      {
+        "text": "The right renal mass was found during evaluation of the urinary symptoms.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.98,
+        "reasoning": "The mass was found during evaluation of lower urinary tract symptoms."
+      },
+      {
+        "text": "The patient’s urinary symptoms are explained by the prostate workup.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.86,
+        "reasoning": "BPH on prostate biopsy plus LUTS makes the urinary symptoms plausibly explained by the prostate workup, though this is an inference."
+      },
+      {
+        "text": "The prostate-specific antigen level is 5.1 ng/ml.",
+        "category": "statistical",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 1.0,
+        "reasoning": "PSA is given as 5.1 ng/ml."
+      },
+      {
+        "text": "Transrectal ultrasound-guided biopsies showed benign prostatic hyperplasia.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 1.0,
+        "reasoning": "TRUS-guided biopsies revealed benign prostatic hyperplasia."
+      },
+      {
+        "text": "The renal lesion must be assessed as a separate incidental finding.",
+        "category": "recommendation",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.9,
+        "reasoning": "Given the incidental renal lesion discovered during LUTS evaluation, treating it as a separate incidental finding is a sound clinical conclusion."
+      },
+      {
+        "text": "The renal lesion is a right-sided exophytic renal mass.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 1.0,
+        "reasoning": "Ultrasound described an exophytic lesion in the right kidney."
+      },
+      {
+        "text": "The renal mass is homogeneous on ultrasound.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 1.0,
+        "reasoning": "The lesion was described as homogeneous on ultrasound."
+      },
+      {
+        "text": "The renal mass is hypoechoic on ultrasound.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 1.0,
+        "reasoning": "The lesion was described as hypoechoic on ultrasound."
+      },
+      {
+        "text": "The renal mass is well circumscribed.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 1.0,
+        "reasoning": "The lesion had a well-defined margin, i.e. well circumscribed."
+      },
+      {
+        "text": "The renal mass is located at the lateral border of the ventral mid-zone.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 1.0,
+        "reasoning": "The lesion was located at the lateral border of the ventral mid-zone."
+      },
+      {
+        "text": "The renal mass is away from the renal hilum.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 1.0,
+        "reasoning": "CT described the lesion as situated away from the renal hilum."
+      },
+      {
+        "text": "CT confirmed a small soft-tissue renal mass.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 1.0,
+        "reasoning": "CT confirmed a soft-tissue mass in the same location."
+      },
+      {
+        "text": "CT showed a small area of calcification in the renal mass.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 1.0,
+        "reasoning": "CT showed a small area of calcification."
+      },
+      {
+        "text": "The lesion appears solid rather than a simple cyst.",
+        "category": "factual",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.88,
+        "reasoning": "A soft-tissue mass with calcification is reasonably inferred to be solid rather than a simple cyst."
+      },
+      {
+        "text": "The patient is 55 years old.",
+        "category": "statistical",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 1.0,
+        "reasoning": "The patient is explicitly 55 years old."
+      },
+      {
+        "text": "Incidental renal neoplasms become more common in this age range.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.72,
+        "reasoning": "This is a general epidemiologic statement, not directly stated in the data, but clinically reasonable."
+      },
+      {
+        "text": "He had no flank pain.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 1.0,
+        "reasoning": "He denied flank pain."
+      },
+      {
+        "text": "He had no colicky pain.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 1.0,
+        "reasoning": "He denied colicky pain."
+      },
+      {
+        "text": "He had no haematuria.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 1.0,
+        "reasoning": "He denied haematuria."
+      },
+      {
+        "text": "He had no weight loss.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 1.0,
+        "reasoning": "He denied weight loss."
+      },
+      {
+        "text": "He had no constitutional symptoms.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 1.0,
+        "reasoning": "He denied constitutional symptoms."
+      },
+      {
+        "text": "Urine microscopy showed no haematuria.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 1.0,
+        "reasoning": "Urine microscopy showed no haematuria."
+      },
+      {
+        "text": "Urine microscopy showed no atypical cells.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 1.0,
+        "reasoning": "Urine microscopy showed no atypical cells."
+      },
+      {
+        "text": "Creatinine was normal at 86 μmol/l.",
+        "category": "statistical",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 1.0,
+        "reasoning": "Creatinine was 86 μmol/l, described as normal."
+      },
+      {
+        "text": "Examination was normal.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 1.0,
+        "reasoning": "Physical examination was normal."
+      },
+      {
+        "text": "There is no prior genitourinary disease.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 1.0,
+        "reasoning": "History states no prior genitourinary disease."
+      },
+      {
+        "text": "Many small renal tumors are asymptomatic.",
+        "category": "factual",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.84,
+        "reasoning": "The trace correctly notes that many small renal tumors are asymptomatic; this is standard clinical knowledge consistent with the case."
+      },
+      {
+        "text": "Many small renal tumors are incidentally detected.",
+        "category": "factual",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.84,
+        "reasoning": "Incidental detection of small renal tumors is a standard and case-consistent inference."
+      },
+      {
+        "text": "The main differential for a small incidental solid renal mass includes renal cell carcinoma.",
+        "category": "factual",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.95,
+        "reasoning": "RCC is appropriately included in the differential for a small incidental solid renal mass."
+      },
+      {
+        "text": "The main differential for a small incidental solid renal mass includes angiomyolipoma.",
+        "category": "factual",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.95,
+        "reasoning": "Angiomyolipoma is a standard differential for an incidental renal mass."
+      },
+      {
+        "text": "The main differential for a small incidental solid renal mass includes oncocytoma.",
+        "category": "factual",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.95,
+        "reasoning": "Oncocytoma is a standard differential for an incidental renal mass."
+      },
+      {
+        "text": "The main differential for a small incidental solid renal mass includes other benign mesenchymal tumors such as renal leiomyoma.",
+        "category": "factual",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.93,
+        "reasoning": "Other benign mesenchymal tumors such as renal leiomyoma are legitimate, though less common, differentials."
+      },
+      {
+        "text": "Renal cell carcinoma is the default and most important consideration.",
+        "category": "factual",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.96,
+        "reasoning": "Calling RCC the default and most important consideration is a reasonable diagnostic inference from the imaging and age."
+      },
+      {
+        "text": "A solid enhancing renal mass with calcification in a 55-year-old man is malignant until proven otherwise.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.9,
+        "reasoning": "This is a clinical inference about malignancy risk from a solid renal mass with calcification in a 55-year-old man."
+      },
+      {
+        "text": "Calcification within a renal mass particularly supports RCC over many benign lesions.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.88,
+        "reasoning": "Calcification can support RCC over many benign lesions; this is an inference, not a directly stated fact."
+      },
+      {
+        "text": "The exophytic peripheral location is compatible with RCC.",
+        "category": "factual",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.9,
+        "reasoning": "A peripheral exophytic renal mass is compatible with RCC; this is a reasonable inference."
+      },
+      {
+        "text": "Angiomyolipoma is less convincing.",
+        "category": "factual",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.97,
+        "reasoning": "The trace's assessment that AML is less convincing follows from absence of macroscopic fat on imaging."
+      },
+      {
+        "text": "The imaging description does not mention macroscopic fat.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.98,
+        "reasoning": "Reference CT description mentions soft-tissue mass with calcification, but no macroscopic fat is described."
+      },
+      {
+        "text": "Macroscopic fat is the classic CT feature of angiomyolipoma.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "AML classically contains macroscopic fat on CT; this is standard medical knowledge."
+      },
+      {
+        "text": "A homogeneous hypoechoic soft-tissue lesion without fat is not typical for classic AML.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.96,
+        "reasoning": "A homogeneous hypoechoic lesion without fat is not the classic imaging pattern for angiomyolipoma."
+      },
+      {
+        "text": "Oncocytoma is plausible.",
+        "category": "factual",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.95,
+        "reasoning": "Oncocytoma is a reasonable differential for a well-circumscribed incidental renal mass."
+      },
+      {
+        "text": "Oncocytoma can present as a well-circumscribed incidental renal mass.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.98,
+        "reasoning": "The trace explicitly states oncocytoma can present as a well-circumscribed incidental renal mass."
+      },
+      {
+        "text": "The case does not describe a central stellate scar.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.97,
+        "reasoning": "No central stellate scar is described in the reference imaging data."
+      },
+      {
+        "text": "Imaging generally cannot reliably distinguish oncocytoma from RCC.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.97,
+        "reasoning": "The trace explicitly states imaging generally cannot reliably distinguish oncocytoma from RCC."
+      },
+      {
+        "text": "Calcification is less characteristic of oncocytoma.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.95,
+        "reasoning": "The trace states calcification is less characteristic of oncocytoma."
+      },
+      {
+        "text": "Renal leiomyoma is also a consideration.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.96,
+        "reasoning": "Renal leiomyoma is explicitly included as a consideration in the trace."
+      },
+      {
+        "text": "Renal leiomyomas are often peripheral.",
+        "category": "factual",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.93,
+        "reasoning": "The trace describes leiomyomas as often peripheral; this is part of the stated differential reasoning."
+      },
+      {
+        "text": "Renal leiomyomas are often well circumscribed.",
+        "category": "factual",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.93,
+        "reasoning": "Well-circumscribed is presented as fitting the leiomyoma pattern in the trace."
+      },
+      {
+        "text": "Renal leiomyomas are often exophytic.",
+        "category": "factual",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.93,
+        "reasoning": "The trace states renal leiomyomas are often exophytic."
+      },
+      {
+        "text": "Renal leiomyomas are often asymptomatic.",
+        "category": "factual",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.93,
+        "reasoning": "The trace states renal leiomyomas are often asymptomatic."
+      },
+      {
+        "text": "Renal leiomyomas may be discovered incidentally.",
+        "category": "factual",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.93,
+        "reasoning": "The trace states renal leiomyomas may be discovered incidentally."
+      },
+      {
+        "text": "The homogeneous appearance and location away from the hilum fit the renal leiomyoma pattern.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.95,
+        "reasoning": "This is a synthesis from the described homogeneous, peripheral, exophytic, hilar-away lesion pattern fitting leiomyoma."
+      },
+      {
+        "text": "Renal leiomyoma is rare.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.98,
+        "reasoning": "The trace explicitly says renal leiomyoma is rare."
+      },
+      {
+        "text": "Preoperative imaging usually cannot confidently distinguish renal leiomyoma from RCC.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.98,
+        "reasoning": "The trace explicitly states preoperative imaging usually cannot confidently distinguish renal leiomyoma from RCC."
+      },
+      {
+        "text": "Given only the clinical and imaging data provided, the most likely working diagnosis remains RCC rather than a rare benign mesenchymal tumor.",
+        "category": "recommendation",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.97,
+        "reasoning": "This is the trace’s clinical conclusion/working diagnosis based on the provided imaging and clinical data."
+      },
+      {
+        "text": "The lesion is a small, solid, exophytic renal cortical mass with calcification in a middle-aged man.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Reference data: exophytic right renal lesion, soft-tissue mass with calcification, in a 55-year-old man."
+      },
+      {
+        "text": "The lesion was incidentally found.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "The lesion was found incidentally on ultrasound done for LUTS."
+      },
+      {
+        "text": "The patient is otherwise asymptomatic.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.98,
+        "reasoning": "He denied flank pain, colicky pain, haematuria, weight loss, and constitutional symptoms."
+      },
+      {
+        "text": "Among candidate diagnoses, renal cell carcinoma best fits the available evidence.",
+        "category": "factual",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.97,
+        "reasoning": "This is the trace’s comparative conclusion that RCC best fits the evidence."
+      },
+      {
+        "text": "Renal cell carcinoma is the most likely diagnosis clinically.",
+        "category": "factual",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.97,
+        "reasoning": "A restatement of the final clinical conclusion that RCC is most likely."
+      },
+      {
+        "text": "Some benign entities remain possible on imaging alone.",
+        "category": "factual",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.96,
+        "reasoning": "The trace explicitly notes benign entities remain possible on imaging alone."
+      },
+      {
+        "text": "Renal cell carcinoma is a high-probability differential diagnosis.",
+        "category": "factual",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.96,
+        "reasoning": "RCC is presented as the high-priority differential/most likely diagnosis."
+      },
+      {
+        "text": "Renal leiomyoma is a medium-probability differential diagnosis.",
+        "category": "factual",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.95,
+        "reasoning": "Renal leiomyoma is listed as a medium-probability differential in the trace."
+      },
+      {
+        "text": "Renal oncocytoma is a medium-probability differential diagnosis.",
+        "category": "factual",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.95,
+        "reasoning": "Renal oncocytoma is listed as a medium-probability differential in the trace."
+      },
+      {
+        "text": "Angiomyolipoma is a low-probability differential diagnosis.",
+        "category": "factual",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.95,
+        "reasoning": "Angiomyolipoma is listed as a low-probability differential in the trace."
+      },
+      {
+        "text": "The final diagnosis is renal cell carcinoma.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "The trace explicitly states the final diagnosis is renal cell carcinoma."
+      }
+    ],
+    "verdict_counts": {
+      "contradicted": 0,
+      "supported": 38,
+      "valid_inference": 31,
+      "unverifiable": 0
+    },
+    "contradictions": 0
+  }
+}

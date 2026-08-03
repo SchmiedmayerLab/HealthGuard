@@ -1,0 +1,942 @@
+[
+  {
+    "trace_id": "PMC11097741",
+    "y": 0,
+    "coverage": 0.9167,
+    "dx": "Isolated falciform ligament necrosis",
+    "linked": false,
+    "node": null,
+    "kg": null,
+    "elicit": 0.6666666666666666
+  },
+  {
+    "trace_id": "PMC10873692",
+    "y": 0,
+    "coverage": 0.7273,
+    "dx": "Rheumatoid meningitis",
+    "linked": false,
+    "node": null,
+    "kg": null,
+    "elicit": 0.6923076923076923
+  },
+  {
+    "trace_id": "PMC10406452",
+    "y": 0,
+    "coverage": 0.8571,
+    "dx": "Cardiac paraganglioma",
+    "linked": false,
+    "node": null,
+    "kg": null,
+    "elicit": 0.26666666666666666
+  },
+  {
+    "trace_id": "PMC10481824",
+    "y": 0,
+    "coverage": 0.6,
+    "dx": "Dedifferentiated retroperitoneal liposarcoma",
+    "linked": false,
+    "node": null,
+    "kg": null,
+    "elicit": 0.5333333333333333
+  },
+  {
+    "trace_id": "PMC11133391",
+    "y": 0,
+    "coverage": 0.9091,
+    "dx": "IgG4-related constrictive pericarditis",
+    "linked": false,
+    "node": null,
+    "kg": null,
+    "elicit": 0.5294117647058824
+  },
+  {
+    "trace_id": "PMC10113930",
+    "y": 0,
+    "coverage": 0.4,
+    "dx": "Infective endocarditis with septic embolic right renal infarction",
+    "linked": false,
+    "node": null,
+    "kg": null,
+    "elicit": 0.3
+  },
+  {
+    "trace_id": "PMC10602372",
+    "y": 0,
+    "coverage": 0.8,
+    "dx": "Acute severe aortic regurgitation from iatrogenic non-coronary cusp avulsion during PCI",
+    "linked": false,
+    "node": null,
+    "kg": null,
+    "elicit": 0.4666666666666667
+  },
+  {
+    "trace_id": "PMC10971827",
+    "y": 0,
+    "coverage": 0.8667,
+    "dx": "Macrophage activation syndrome secondary to systemic lupus erythematosus",
+    "linked": true,
+    "node": "Macrophage activation syndrome",
+    "kg": 0.49492385786802034,
+    "elicit": 0.55
+  },
+  {
+    "trace_id": "PMC11294736",
+    "y": 0,
+    "coverage": 0.8,
+    "dx": "Sulfonylurea-induced hypoglycemia",
+    "linked": false,
+    "node": null,
+    "kg": null,
+    "elicit": 0.5384615384615384
+  },
+  {
+    "trace_id": "PMC11654271",
+    "y": 0,
+    "coverage": 0.6364,
+    "dx": "Reninoma (juxtaglomerular cell tumor)",
+    "linked": false,
+    "node": null,
+    "kg": null,
+    "elicit": 0.6
+  },
+  {
+    "trace_id": "PMC11552163",
+    "y": 0,
+    "coverage": 0.8889,
+    "dx": "Cerebrospinal fluid rhinorrhea",
+    "linked": false,
+    "node": null,
+    "kg": null,
+    "elicit": 0.5333333333333333
+  },
+  {
+    "trace_id": "PMC11202767",
+    "y": 0,
+    "coverage": 0.8,
+    "dx": "MOG-antibody-associated transverse myelitis",
+    "linked": false,
+    "node": null,
+    "kg": null,
+    "elicit": 0.3157894736842105
+  },
+  {
+    "trace_id": "PMC11337001",
+    "y": 0,
+    "coverage": 0.8889,
+    "dx": "Cardiac sarcoidosis",
+    "linked": false,
+    "node": null,
+    "kg": null,
+    "elicit": 0.4
+  },
+  {
+    "trace_id": "PMC11424769",
+    "y": 0,
+    "coverage": 0.8,
+    "dx": "Primary cervical endometrioid adenocarcinoma",
+    "linked": true,
+    "node": "Cervical cancer",
+    "kg": 1.0,
+    "elicit": 0.5333333333333333
+  },
+  {
+    "trace_id": "PMC12010641",
+    "y": 0,
+    "coverage": 0.9091,
+    "dx": "Relapsing-remitting multiple sclerosis",
+    "linked": false,
+    "node": null,
+    "kg": null,
+    "elicit": 0.4
+  },
+  {
+    "trace_id": "PMC11452241",
+    "y": 0,
+    "coverage": 0.75,
+    "dx": "Diabetic muscle infarction",
+    "linked": false,
+    "node": null,
+    "kg": null,
+    "elicit": 0.6666666666666666
+  },
+  {
+    "trace_id": "PMC1948010",
+    "y": 0,
+    "coverage": 0.7143,
+    "dx": "Congenital anterolateral tibial bowing with hallux duplication",
+    "linked": false,
+    "node": null,
+    "kg": null,
+    "elicit": 0.6153846153846154
+  },
+  {
+    "trace_id": "PMC11821356",
+    "y": 0,
+    "coverage": 0.5714,
+    "dx": "PFAPA syndrome",
+    "linked": true,
+    "node": "PFAPA syndrome",
+    "kg": 0.4241816967267869,
+    "elicit": 0.4666666666666667
+  },
+  {
+    "trace_id": "PMC3271452",
+    "y": 0,
+    "coverage": 0.7333,
+    "dx": "Primary renal leiomyosarcoma",
+    "linked": false,
+    "node": null,
+    "kg": null,
+    "elicit": 0.5625
+  },
+  {
+    "trace_id": "PMC2396655",
+    "y": 0,
+    "coverage": 1.0,
+    "dx": "Dedifferentiated metastatic melanoma to the stomach",
+    "linked": false,
+    "node": null,
+    "kg": null,
+    "elicit": 0.6
+  },
+  {
+    "trace_id": "PMC11602436",
+    "y": 0,
+    "coverage": 0.625,
+    "dx": "Primary membranous nephropathy",
+    "linked": true,
+    "node": "Primary membranous glomerulonephritis",
+    "kg": 1.0,
+    "elicit": 0.4117647058823529
+  },
+  {
+    "trace_id": "PMC3657244",
+    "y": 0,
+    "coverage": 0.625,
+    "dx": "Lucio phenomenon",
+    "linked": false,
+    "node": null,
+    "kg": null,
+    "elicit": 0.4166666666666667
+  },
+  {
+    "trace_id": "PMC2934912",
+    "y": 0,
+    "coverage": 0.7143,
+    "dx": "Brucellosis with cholestatic hepatitis",
+    "linked": true,
+    "node": "Brucellosis",
+    "kg": 0.47950819672131145,
+    "elicit": 0.625
+  },
+  {
+    "trace_id": "PMC3884960",
+    "y": 0,
+    "coverage": 0.8667,
+    "dx": "Clear cell adenocarcinoma of the renal pelvis",
+    "linked": false,
+    "node": null,
+    "kg": null,
+    "elicit": 0.7333333333333333
+  },
+  {
+    "trace_id": "PMC3459730",
+    "y": 0,
+    "coverage": 0.875,
+    "dx": "Gallbladder torsion",
+    "linked": false,
+    "node": null,
+    "kg": null,
+    "elicit": 0.5
+  },
+  {
+    "trace_id": "PMC3934446",
+    "y": 0,
+    "coverage": 0.8,
+    "dx": "Suprasellar germinoma",
+    "linked": false,
+    "node": null,
+    "kg": null,
+    "elicit": 0.6666666666666666
+  },
+  {
+    "trace_id": "PMC3543206",
+    "y": 0,
+    "coverage": 0.8947,
+    "dx": "Metastatic prostate adenocarcinoma with diffuse osteolytic bone metastases",
+    "linked": false,
+    "node": null,
+    "kg": null,
+    "elicit": 0.7
+  },
+  {
+    "trace_id": "PMC4054582",
+    "y": 0,
+    "coverage": 0.9167,
+    "dx": "Neuroleptic malignant syndrome",
+    "linked": true,
+    "node": "Neuroleptic malignant syndrome",
+    "kg": 0.565183450429352,
+    "elicit": 0.8333333333333334
+  },
+  {
+    "trace_id": "PMC4147826",
+    "y": 0,
+    "coverage": 0.875,
+    "dx": "Oral malignant melanoma",
+    "linked": false,
+    "node": null,
+    "kg": null,
+    "elicit": 0.3888888888888889
+  },
+  {
+    "trace_id": "PMC3170347",
+    "y": 0,
+    "coverage": 1.0,
+    "dx": "Intraventricular neurocysticercosis causing obstructive hydrocephalus",
+    "linked": false,
+    "node": null,
+    "kg": null,
+    "elicit": 0.4666666666666667
+  },
+  {
+    "trace_id": "PMC4506815",
+    "y": 0,
+    "coverage": 0.7692,
+    "dx": "Diabetic muscle infarction",
+    "linked": false,
+    "node": null,
+    "kg": null,
+    "elicit": 0.4166666666666667
+  },
+  {
+    "trace_id": "PMC4020529",
+    "y": 0,
+    "coverage": 0.9091,
+    "dx": "Extranodal marginal zone B-cell lymphoma (MALT lymphoma) of the Meckel diverticulum",
+    "linked": true,
+    "node": "MALT lymphoma",
+    "kg": 0.13611416026344678,
+    "elicit": 0.65
+  },
+  {
+    "trace_id": "PMC4707795",
+    "y": 0,
+    "coverage": 1.0,
+    "dx": "Sarcoidosis",
+    "linked": true,
+    "node": "Sarcoidosis",
+    "kg": 0.14385353095030515,
+    "elicit": 0.3
+  },
+  {
+    "trace_id": "PMC4501462",
+    "y": 0,
+    "coverage": 0.8462,
+    "dx": "Timolol-induced hypersensitivity pneumonitis",
+    "linked": false,
+    "node": null,
+    "kg": null,
+    "elicit": 0.5714285714285714
+  },
+  {
+    "trace_id": "PMC5731179",
+    "y": 0,
+    "coverage": 0.7778,
+    "dx": "Normal pressure hydrocephalus",
+    "linked": true,
+    "node": "Hydrocephalus, normal pressure, 1",
+    "kg": 0.2857142857142857,
+    "elicit": 0.6
+  },
+  {
+    "trace_id": "PMC5807253",
+    "y": 0,
+    "coverage": 0.7,
+    "dx": "Metformin-associated lactic acidosis",
+    "linked": false,
+    "node": null,
+    "kg": null,
+    "elicit": 0.75
+  },
+  {
+    "trace_id": "PMC6176474",
+    "y": 0,
+    "coverage": 0.75,
+    "dx": "Wound botulism",
+    "linked": true,
+    "node": "Wound botulism",
+    "kg": 0.5914467697907189,
+    "elicit": 0.5333333333333333
+  },
+  {
+    "trace_id": "PMC6335789",
+    "y": 0,
+    "coverage": 0.625,
+    "dx": "M\u00e9n\u00e9trier disease",
+    "linked": true,
+    "node": "M\u00e9n\u00e9trier disease",
+    "kg": 0.2497123130034522,
+    "elicit": 0.26666666666666666
+  },
+  {
+    "trace_id": "PMC5977048",
+    "y": 0,
+    "coverage": 1.0,
+    "dx": "Leprosy (Hansen disease)",
+    "linked": true,
+    "node": "Leprosy",
+    "kg": 0.32209737827715357,
+    "elicit": 0.375
+  },
+  {
+    "trace_id": "PMC6243317",
+    "y": 0,
+    "coverage": 1.0,
+    "dx": "Groove pancreatitis",
+    "linked": false,
+    "node": null,
+    "kg": null,
+    "elicit": 0.7333333333333333
+  },
+  {
+    "trace_id": "PMC6101595",
+    "y": 0,
+    "coverage": 0.8571,
+    "dx": "Primary enteric-type adenocarcinoma of the urinary bladder",
+    "linked": false,
+    "node": null,
+    "kg": null,
+    "elicit": 0.5333333333333333
+  },
+  {
+    "trace_id": "PMC6556260",
+    "y": 0,
+    "coverage": 0.5556,
+    "dx": "Tuberculous peritonitis",
+    "linked": false,
+    "node": null,
+    "kg": null,
+    "elicit": 0.15789473684210525
+  },
+  {
+    "trace_id": "PMC6192136",
+    "y": 0,
+    "coverage": 0.9231,
+    "dx": "Genitourinary tuberculosis causing tuberculous epididymo-orchitis",
+    "linked": false,
+    "node": null,
+    "kg": null,
+    "elicit": 0.2
+  },
+  {
+    "trace_id": "PMC6815408",
+    "y": 0,
+    "coverage": 1.0,
+    "dx": "Multiple sclerosis",
+    "linked": false,
+    "node": null,
+    "kg": null,
+    "elicit": 0.375
+  },
+  {
+    "trace_id": "PMC6735545",
+    "y": 0,
+    "coverage": 0.8333,
+    "dx": "Hemophagocytic lymphohistiocytosis",
+    "linked": false,
+    "node": null,
+    "kg": null,
+    "elicit": 0.65
+  },
+  {
+    "trace_id": "PMC6656673",
+    "y": 0,
+    "coverage": 0.8889,
+    "dx": "Primary familial brain calcification",
+    "linked": false,
+    "node": null,
+    "kg": null,
+    "elicit": 0.6
+  },
+  {
+    "trace_id": "PMC7103037",
+    "y": 0,
+    "coverage": 0.875,
+    "dx": "Disseminated histoplasmosis causing bilateral adrenal insufficiency",
+    "linked": false,
+    "node": null,
+    "kg": null,
+    "elicit": 0.5
+  },
+  {
+    "trace_id": "PMC6421145",
+    "y": 0,
+    "coverage": 0.8,
+    "dx": "Midventricular obstructive hypertrophic cardiomyopathy with left ventricular apical aneurysm and thrombus",
+    "linked": false,
+    "node": null,
+    "kg": null,
+    "elicit": 0.4666666666666667
+  },
+  {
+    "trace_id": "PMC7036447",
+    "y": 0,
+    "coverage": 0.6667,
+    "dx": "Retinal neovascularization secondary to chronic central serous chorioretinopathy",
+    "linked": false,
+    "node": null,
+    "kg": null,
+    "elicit": 0.8
+  },
+  {
+    "trace_id": "PMC7546059",
+    "y": 0,
+    "coverage": 1.0,
+    "dx": "Thoracic paraganglioma",
+    "linked": false,
+    "node": null,
+    "kg": null,
+    "elicit": 0.4666666666666667
+  },
+  {
+    "trace_id": "PMC7362425",
+    "y": 0,
+    "coverage": 0.4615,
+    "dx": "Primary aldosteronism",
+    "linked": true,
+    "node": "Primary aldosteronism, seizures, and neurologic abnormalities",
+    "kg": 0.34615384615384615,
+    "elicit": 0.35714285714285715
+  },
+  {
+    "trace_id": "PMC7813055",
+    "y": 0,
+    "coverage": 0.7692,
+    "dx": "Adult-onset Still disease",
+    "linked": true,
+    "node": "Adult-onset Still disease",
+    "kg": 0.774798927613941,
+    "elicit": 0.65
+  },
+  {
+    "trace_id": "PMC7463383",
+    "y": 0,
+    "coverage": 0.75,
+    "dx": "T-DM1\u2013induced hemorrhagic laryngitis",
+    "linked": false,
+    "node": null,
+    "kg": null,
+    "elicit": 0.42857142857142855
+  },
+  {
+    "trace_id": "PMC7924145",
+    "y": 0,
+    "coverage": 0.5,
+    "dx": "Right adrenal hemorrhage",
+    "linked": false,
+    "node": null,
+    "kg": null,
+    "elicit": 0.4166666666666667
+  },
+  {
+    "trace_id": "PMC7954390",
+    "y": 0,
+    "coverage": 0.7273,
+    "dx": "Mesalazine-induced myopericarditis",
+    "linked": false,
+    "node": null,
+    "kg": null,
+    "elicit": 0.4444444444444444
+  },
+  {
+    "trace_id": "PMC7850611",
+    "y": 0,
+    "coverage": 0.8182,
+    "dx": "Isolated cardiac sarcoidosis",
+    "linked": false,
+    "node": null,
+    "kg": null,
+    "elicit": 0.3333333333333333
+  },
+  {
+    "trace_id": "PMC7993351",
+    "y": 0,
+    "coverage": 1.0,
+    "dx": "Classic nonexertional heat stroke",
+    "linked": false,
+    "node": null,
+    "kg": null,
+    "elicit": 0.5
+  },
+  {
+    "trace_id": "PMC8046473",
+    "y": 0,
+    "coverage": 1.0,
+    "dx": "Gorham-Stout disease",
+    "linked": true,
+    "node": "Gorham-Stout disease",
+    "kg": 0.15885797950219618,
+    "elicit": 0.5333333333333333
+  },
+  {
+    "trace_id": "PMC8367851",
+    "y": 0,
+    "coverage": 0.6923,
+    "dx": "Extracutaneous pyoderma gangrenosum",
+    "linked": false,
+    "node": null,
+    "kg": null,
+    "elicit": 0.7333333333333333
+  },
+  {
+    "trace_id": "PMC8294152",
+    "y": 0,
+    "coverage": 0.9333,
+    "dx": "Burkitt lymphoma",
+    "linked": true,
+    "node": "Burkitt lymphoma",
+    "kg": 0.21428571428571427,
+    "elicit": 0.17647058823529413
+  },
+  {
+    "trace_id": "PMC8420661",
+    "y": 0,
+    "coverage": 1.0,
+    "dx": "Meropenem-induced immune thrombocytopenia",
+    "linked": false,
+    "node": null,
+    "kg": null,
+    "elicit": 0.6428571428571429
+  },
+  {
+    "trace_id": "PMC8461971",
+    "y": 0,
+    "coverage": 0.6,
+    "dx": "Tubulointerstitial nephritis and uveitis syndrome",
+    "linked": true,
+    "node": "Tubulointerstitial nephritis and uveitis syndrome",
+    "kg": 0.5740604274134119,
+    "elicit": 0.7333333333333333
+  },
+  {
+    "trace_id": "PMC8777167",
+    "y": 0,
+    "coverage": 0.875,
+    "dx": "Phytophotodermatitis",
+    "linked": false,
+    "node": null,
+    "kg": null,
+    "elicit": 0.4166666666666667
+  },
+  {
+    "trace_id": "PMC8557694",
+    "y": 0,
+    "coverage": 0.5833,
+    "dx": "Primary CNS lymphoma (lymphomatosis cerebri variant)",
+    "linked": false,
+    "node": null,
+    "kg": null,
+    "elicit": 0.5333333333333333
+  },
+  {
+    "trace_id": "PMC8832220",
+    "y": 0,
+    "coverage": 0.8,
+    "dx": "Endothelial graft rejection after Descemet\u2019s membrane endothelial keratoplasty",
+    "linked": false,
+    "node": null,
+    "kg": null,
+    "elicit": 0.6666666666666666
+  },
+  {
+    "trace_id": "PMC10308979",
+    "y": 1,
+    "coverage": 0.3333,
+    "dx": "Alpha-gal syndrome",
+    "linked": false,
+    "node": null,
+    "kg": null,
+    "elicit": 0.13333333333333333
+  },
+  {
+    "trace_id": "PMC8627342",
+    "y": 0,
+    "coverage": 1.0,
+    "dx": "Essential thrombocythemia",
+    "linked": true,
+    "node": "Essential thrombocythemia",
+    "kg": 0.31864988558352403,
+    "elicit": 0.26666666666666666
+  },
+  {
+    "trace_id": "PMC10216786",
+    "y": 1,
+    "coverage": 0.7,
+    "dx": "Hyperventilation-induced hypophosphatemic tetraparesis",
+    "linked": false,
+    "node": null,
+    "kg": null,
+    "elicit": 0.8
+  },
+  {
+    "trace_id": "PMC10199808",
+    "y": 1,
+    "coverage": 0.6429,
+    "dx": "Lymphogranuloma venereum proctitis",
+    "linked": false,
+    "node": null,
+    "kg": null,
+    "elicit": 0.5333333333333333
+  },
+  {
+    "trace_id": "PMC11607135",
+    "y": 1,
+    "coverage": 0.5556,
+    "dx": "Intramural duodenal hematoma",
+    "linked": false,
+    "node": null,
+    "kg": null,
+    "elicit": 0.4
+  },
+  {
+    "trace_id": "PMC11536889",
+    "y": 1,
+    "coverage": 0.6,
+    "dx": "Spontaneous pneumomediastinum",
+    "linked": false,
+    "node": null,
+    "kg": null,
+    "elicit": 0.42857142857142855
+  },
+  {
+    "trace_id": "PMC11102672",
+    "y": 1,
+    "coverage": 0.7273,
+    "dx": "Gastric gastrointestinal stromal tumor",
+    "linked": true,
+    "node": "Gastrointestinal stromal tumor",
+    "kg": 0.2067156348373557,
+    "elicit": 0.125
+  },
+  {
+    "trace_id": "PMC11625114",
+    "y": 1,
+    "coverage": 0.8333,
+    "dx": "Anticoagulation-associated iliopsoas hematoma",
+    "linked": false,
+    "node": null,
+    "kg": null,
+    "elicit": 0.21428571428571427
+  },
+  {
+    "trace_id": "PMC3483658",
+    "y": 1,
+    "coverage": 0.6,
+    "dx": "Transient neonatal myocardial infarction",
+    "linked": false,
+    "node": null,
+    "kg": null,
+    "elicit": 0.8
+  },
+  {
+    "trace_id": "PMC3800618",
+    "y": 1,
+    "coverage": 1.0,
+    "dx": "Acroangiodermatitis (pseudo-Kaposi sarcoma)",
+    "linked": false,
+    "node": null,
+    "kg": null,
+    "elicit": 0.6
+  },
+  {
+    "trace_id": "PMC3863494",
+    "y": 1,
+    "coverage": 1.0,
+    "dx": "Tuberculoid leprosy",
+    "linked": false,
+    "node": null,
+    "kg": null,
+    "elicit": 0.26666666666666666
+  },
+  {
+    "trace_id": "PMC4855788",
+    "y": 1,
+    "coverage": 1.0,
+    "dx": "Rathke cleft cyst",
+    "linked": false,
+    "node": null,
+    "kg": null,
+    "elicit": 0.2222222222222222
+  },
+  {
+    "trace_id": "PMC4434215",
+    "y": 1,
+    "coverage": 0.8333,
+    "dx": "Metastatic breast carcinoma causing spinal epidural cord compression",
+    "linked": false,
+    "node": null,
+    "kg": null,
+    "elicit": 0.4666666666666667
+  },
+  {
+    "trace_id": "PMC4769612",
+    "y": 1,
+    "coverage": 0.8,
+    "dx": "Glomus jugulare paraganglioma",
+    "linked": false,
+    "node": null,
+    "kg": null,
+    "elicit": 0.55
+  },
+  {
+    "trace_id": "PMC3564269",
+    "y": 1,
+    "coverage": 0.6364,
+    "dx": "Neurosarcoidosis with sarcoid myopathy and peripheral neuropathy",
+    "linked": false,
+    "node": null,
+    "kg": null,
+    "elicit": 0.35
+  },
+  {
+    "trace_id": "PMC3287964",
+    "y": 1,
+    "coverage": 0.6667,
+    "dx": "Q fever hepatitis",
+    "linked": false,
+    "node": null,
+    "kg": null,
+    "elicit": 0.4
+  },
+  {
+    "trace_id": "PMC5412606",
+    "y": 1,
+    "coverage": 0.4444,
+    "dx": "Typical AV nodal reentrant tachycardia (slow-fast AVNRT)",
+    "linked": false,
+    "node": null,
+    "kg": null,
+    "elicit": 0.4166666666666667
+  },
+  {
+    "trace_id": "PMC4389205",
+    "y": 1,
+    "coverage": 0.6429,
+    "dx": "Abdominal tuberculosis (ileocecal TB)",
+    "linked": false,
+    "node": null,
+    "kg": null,
+    "elicit": 0.3157894736842105
+  },
+  {
+    "trace_id": "PMC5572152",
+    "y": 1,
+    "coverage": 0.6923,
+    "dx": "Aspergillus tracheobronchitis",
+    "linked": false,
+    "node": null,
+    "kg": null,
+    "elicit": 0.375
+  },
+  {
+    "trace_id": "PMC7986947",
+    "y": 1,
+    "coverage": 0.8,
+    "dx": "Metastatic non-small cell lung cancer",
+    "linked": false,
+    "node": null,
+    "kg": null,
+    "elicit": 0.3
+  },
+  {
+    "trace_id": "PMC6402948",
+    "y": 1,
+    "coverage": 0.75,
+    "dx": "Conjunctival-episcleral foreign body granuloma",
+    "linked": false,
+    "node": null,
+    "kg": null,
+    "elicit": 0.5
+  },
+  {
+    "trace_id": "PMC5896219",
+    "y": 1,
+    "coverage": 0.8,
+    "dx": "Acute gout flare causing right forearm and hand compartment syndrome",
+    "linked": false,
+    "node": null,
+    "kg": null,
+    "elicit": 0.8
+  },
+  {
+    "trace_id": "PMC8968015",
+    "y": 1,
+    "coverage": 1.0,
+    "dx": "Inverted papilloma",
+    "linked": false,
+    "node": null,
+    "kg": null,
+    "elicit": 0.1875
+  },
+  {
+    "trace_id": "PMC9006328",
+    "y": 1,
+    "coverage": 1.0,
+    "dx": "Chronic postoperative anterior uveitis secondary to a retained intraocular foreign body",
+    "linked": false,
+    "node": null,
+    "kg": null,
+    "elicit": 0.47368421052631576
+  },
+  {
+    "trace_id": "PMC8544292",
+    "y": 1,
+    "coverage": 0.6,
+    "dx": "Ocular myasthenia gravis",
+    "linked": true,
+    "node": "Myasthenia gravis",
+    "kg": 0.21985815602836878,
+    "elicit": 0.3333333333333333
+  },
+  {
+    "trace_id": "PMC9234622",
+    "y": 1,
+    "coverage": 0.9231,
+    "dx": "Gastric adenocarcinoma",
+    "linked": true,
+    "node": "Gastric cancer, somatic",
+    "kg": 0.5,
+    "elicit": 0.4
+  },
+  {
+    "trace_id": "PMC9006327",
+    "y": 1,
+    "coverage": 0.625,
+    "dx": "Left atrial myxoma",
+    "linked": true,
+    "node": "Myxoma, intracardiac",
+    "kg": 0.3333333333333333,
+    "elicit": 0.3125
+  },
+  {
+    "trace_id": "PMC9361806",
+    "y": 1,
+    "coverage": 0.75,
+    "dx": "Babesiosis due to Babesia canis",
+    "linked": false,
+    "node": null,
+    "kg": null,
+    "elicit": 0.6
+  },
+  {
+    "trace_id": "PMC9949802",
+    "y": 1,
+    "coverage": 0.8333,
+    "dx": "Pulmonary mucormycosis",
+    "linked": false,
+    "node": null,
+    "kg": null,
+    "elicit": 0.35
+  }
+]

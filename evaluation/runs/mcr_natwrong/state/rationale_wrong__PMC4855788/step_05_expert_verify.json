@@ -1,0 +1,647 @@
+{
+  "name": "expert_verify",
+  "passed": true,
+  "score": 1.0,
+  "reasoning": "No contradictions among 70 statement(s) (37 supported, 33 valid inferences, 0 unverifiable).",
+  "data": {
+    "verifications": [
+      {
+        "text": "The chief complaint is a 6-month history of headache in a 49-year-old man.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Reference data states a 6-month history of headache in a 49-year-old man."
+      },
+      {
+        "text": "The patient’s main concern appears to be chronic headache.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.93,
+        "reasoning": "Chronic headache is the presenting complaint; this is a faithful paraphrase."
+      },
+      {
+        "text": "The key diagnostic issue is identifying the nature of the sellar/suprasellar cystic lesion found on imaging.",
+        "category": "factual",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.95,
+        "reasoning": "The trace is explicitly focused on determining the nature of the sellar/suprasellar cystic lesion; this is a sound summary."
+      },
+      {
+        "text": "MRI shows an 18 × 14 × 14 mm sellar cystic lesion extending from the suprasellar cistern through the diaphragma sellae to the dorsum sellae.",
+        "category": "statistical",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "MRI measured 18 × 14 × 14 mm and described extension from the suprasellar cistern through the diaphragma sellae to the dorsum sellae."
+      },
+      {
+        "text": "The lesion compresses the optic chiasm.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Reference data says the lesion compressed the optic chiasm."
+      },
+      {
+        "text": "The lesion is hypointense on T1-weighted MRI.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "MRI described the lesion as hypointense on T1-weighted images."
+      },
+      {
+        "text": "The lesion is hyperintense on T2-weighted MRI.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "MRI described the lesion as hyperintense on T2-weighted images."
+      },
+      {
+        "text": "The lesion shows rim-like peripheral enhancement after contrast on MRI.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Contrast MRI noted rim-like peripheral enhancement."
+      },
+      {
+        "text": "CT shows a hypodense cystic lesion.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "CT showed a hypodense cystic lesion."
+      },
+      {
+        "text": "CT shows no contrast enhancement of the lesion.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "CT showed no contrast enhancement."
+      },
+      {
+        "text": "The normal pituitary gland enhances normally.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.98,
+        "reasoning": "Reference says the normal pituitary gland enhanced typically/normally."
+      },
+      {
+        "text": "The pituitary stalk enhances normally.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.98,
+        "reasoning": "Reference says the pituitary stalk enhanced typically/normally."
+      },
+      {
+        "text": "The normal pituitary gland and stalk are displaced laterally to the right.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "The normal pituitary gland and stalk were displaced laterally to the right."
+      },
+      {
+        "text": "The lesion is separate from but adjacent to the pituitary.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.98,
+        "reasoning": "The lesion was described as separate from but adjacent to the pituitary by implication of normal gland/stalk displaced by the lesion."
+      },
+      {
+        "text": "These imaging features support a benign cystic sellar/suprasellar lesion rather than a solid pituitary neoplasm.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.96,
+        "reasoning": "Given a cystic lesion with no solid enhancement and preserved pituitary enhancement, concluding a benign cystic sellar/suprasellar lesion rather than a solid pituitary neoplasm is a reasonable inference."
+      },
+      {
+        "text": "Neurologic examination is unremarkable despite chiasmal compression.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.98,
+        "reasoning": "Neurologic examination was unremarkable despite chiasmal compression."
+      },
+      {
+        "text": "Ophthalmologic examination is unremarkable despite chiasmal compression.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.98,
+        "reasoning": "Ophthalmologic examination was unremarkable despite chiasmal compression."
+      },
+      {
+        "text": "Visual acuity is normal.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Visual acuity was reported as normal."
+      },
+      {
+        "text": "Fundoscopy is normal.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Fundoscopy was normal."
+      },
+      {
+        "text": "Visual fields are normal.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Visual fields were normal."
+      },
+      {
+        "text": "Pituitary hormone levels are normal.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Pituitary hormone levels were within normal limits."
+      },
+      {
+        "text": "The normal pituitary hormone levels argue against a functioning pituitary adenoma.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.95,
+        "reasoning": "Normal pituitary hormones reasonably argue against a functioning pituitary adenoma."
+      },
+      {
+        "text": "The normal pituitary hormone levels make significant pituitary stalk dysfunction less likely.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.84,
+        "reasoning": "Normal pituitary hormones make major stalk dysfunction less likely, though this is an inference rather than directly stated."
+      },
+      {
+        "text": "CBC is normal.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "CBC was within normal limits."
+      },
+      {
+        "text": "Chemistry is normal.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Routine biochemistry was within normal limits."
+      },
+      {
+        "text": "Urinalysis is normal.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Urinalysis was within normal limits."
+      },
+      {
+        "text": "The normal CBC, chemistry, and urinalysis provide no support for infection.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.9,
+        "reasoning": "Normal CBC/chemistry/urinalysis do not support infection; this is a standard clinical inference."
+      },
+      {
+        "text": "The normal CBC, chemistry, and urinalysis provide no support for inflammatory disease.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.86,
+        "reasoning": "These normal labs do not suggest inflammatory disease, though this is an inference rather than a direct finding."
+      },
+      {
+        "text": "The normal CBC, chemistry, and urinalysis provide no support for systemic malignancy.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.84,
+        "reasoning": "Normal basic labs provide no evidence for systemic malignancy; this is a reasonable but indirect inference."
+      },
+      {
+        "text": "CT shows no calcification.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "CT showed no calcification."
+      },
+      {
+        "text": "CT shows no solid enhancing component.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "CT showed no contrast-enhancing solid component."
+      },
+      {
+        "text": "The absence of calcification or a solid enhancing component argues against some craniopharyngiomas.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.95,
+        "reasoning": "Absence of calcification and solid enhancing components reasonably argues against some craniopharyngiomas."
+      },
+      {
+        "text": "The main differential for a cystic sellar/suprasellar lesion includes Rathke cleft cyst.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.98,
+        "reasoning": "Rathke cleft cyst was explicitly listed in the differential."
+      },
+      {
+        "text": "The main differential for a cystic sellar/suprasellar lesion includes craniopharyngioma.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.98,
+        "reasoning": "Craniopharyngioma was explicitly listed in the differential."
+      },
+      {
+        "text": "The main differential for a cystic sellar/suprasellar lesion includes cystic pituitary adenoma.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.98,
+        "reasoning": "Cystic pituitary adenoma was explicitly listed in the differential."
+      },
+      {
+        "text": "The main differential for a cystic sellar/suprasellar lesion includes arachnoid cyst.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.98,
+        "reasoning": "Arachnoid cyst was explicitly listed in the differential."
+      },
+      {
+        "text": "Rathke cleft cysts are typically benign cystic sellar lesions.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.97,
+        "reasoning": "The trace states Rathke cleft cysts are typically benign cystic sellar lesions."
+      },
+      {
+        "text": "Rathke cleft cysts are often intrasellar with suprasellar extension.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.97,
+        "reasoning": "The trace states Rathke cleft cysts are often intrasellar with suprasellar extension."
+      },
+      {
+        "text": "Rathke cleft cysts can cause headache.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.96,
+        "reasoning": "Headache is a common symptom from Rathke cleft cyst mass effect; this follows from the trace and standard knowledge."
+      },
+      {
+        "text": "Rathke cleft cysts can displace the normal pituitary gland and stalk.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.95,
+        "reasoning": "Mass effect from Rathke cleft cysts can displace the pituitary gland and stalk; this is a standard inference consistent with the trace."
+      },
+      {
+        "text": "Rathke cleft cysts often show no endocrine abnormality.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.98,
+        "reasoning": "Reference data says pituitary hormone levels were within normal limits, which supports no endocrine abnormality."
+      },
+      {
+        "text": "MRI signal in Rathke cleft cysts can vary depending on cyst contents.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.9,
+        "reasoning": "MRI signal variability in Rathke cleft cysts is standard radiologic knowledge and fits the trace’s discussion, though not explicitly stated in the reference data."
+      },
+      {
+        "text": "A T1 hypointense and T2 hyperintense cyst with thin rim enhancement is compatible with Rathke cleft cyst.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.96,
+        "reasoning": "The lesion is T1 hypointense, T2 hyperintense, with rim-like peripheral enhancement; this is a reasonable compatibility statement for Rathke cleft cyst."
+      },
+      {
+        "text": "Lack of a solid component supports Rathke cleft cyst.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.93,
+        "reasoning": "No solid component is described on MRI/CT, so using that as support for Rathke cleft cyst is a sound inference."
+      },
+      {
+        "text": "Preservation of normal pituitary enhancement supports Rathke cleft cyst.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.95,
+        "reasoning": "Normal enhancement of the pituitary gland/stalk with displacement is described and is supportive of a separate cystic lesion such as RCC."
+      },
+      {
+        "text": "Craniopharyngioma can be cystic.",
+        "category": "factual",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.99,
+        "reasoning": "Craniopharyngiomas can present as cystic lesions; this is standard medical knowledge and consistent with the differential."
+      },
+      {
+        "text": "Craniopharyngioma can be suprasellar.",
+        "category": "factual",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.99,
+        "reasoning": "Craniopharyngiomas are commonly suprasellar; this is standard and consistent with the case discussion."
+      },
+      {
+        "text": "Craniopharyngioma can compress the optic chiasm.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.98,
+        "reasoning": "A suprasellar craniopharyngioma can compress the optic chiasm; the case itself shows chiasmal compression."
+      },
+      {
+        "text": "In adults, craniopharyngiomas often have mixed solid-cystic components.",
+        "category": "factual",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.9,
+        "reasoning": "Adult craniopharyngiomas often have mixed solid-cystic components; this is standard differential reasoning."
+      },
+      {
+        "text": "In adults, craniopharyngiomas often have more irregular enhancement.",
+        "category": "factual",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.9,
+        "reasoning": "More irregular enhancement in adult craniopharyngioma is a standard imaging feature used in differential diagnosis."
+      },
+      {
+        "text": "Calcification is common on CT in craniopharyngioma.",
+        "category": "factual",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.95,
+        "reasoning": "Calcification is commonly associated with craniopharyngioma on CT; standard knowledge, not contradicted by the case."
+      },
+      {
+        "text": "This case’s CT showed a hypodense cystic lesion with no contrast enhancement.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Reference data explicitly states CT showed a hypodense cystic lesion with no contrast enhancement."
+      },
+      {
+        "text": "This case has no mention of calcification.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.97,
+        "reasoning": "The reference data does not mention calcification on CT."
+      },
+      {
+        "text": "This case has no mention of solid nodules.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.97,
+        "reasoning": "The reference data does not mention solid nodules."
+      },
+      {
+        "text": "These findings make craniopharyngioma less likely.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.98,
+        "reasoning": "Given no calcification, no solid component, and no enhancement on CT, concluding craniopharyngioma is less likely is a sound inference."
+      },
+      {
+        "text": "Cystic pituitary adenoma can undergo cystic degeneration.",
+        "category": "factual",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.98,
+        "reasoning": "Cystic degeneration of pituitary adenomas is standard medical knowledge."
+      },
+      {
+        "text": "Cystic pituitary adenoma can cause headache.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.98,
+        "reasoning": "Pituitary adenomas can cause headache via mass effect; this is standard and fits the presentation."
+      },
+      {
+        "text": "Cystic pituitary adenoma can cause chiasmal compression.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.98,
+        "reasoning": "A pituitary adenoma can compress the optic chiasm when suprasellar extension is present."
+      },
+      {
+        "text": "The normal pituitary gland and stalk are seen separately and displaced by the lesion.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Reference data explicitly says the normal pituitary gland and stalk enhanced typically and were displaced laterally to the right."
+      },
+      {
+        "text": "Pituitary hormones are normal.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Reference data explicitly states pituitary hormone levels were within normal limits."
+      },
+      {
+        "text": "The lesion appears more like a distinct cyst than an adenoma arising from the gland itself.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.95,
+        "reasoning": "Separately visualized normal pituitary/stalk displaced by the lesion supports a distinct cyst rather than an adenoma arising from the gland."
+      },
+      {
+        "text": "An arachnoid cyst could produce a nonenhancing cystic suprasellar lesion with CSF-like signal and mass effect.",
+        "category": "factual",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.9,
+        "reasoning": "Arachnoid cysts can be nonenhancing cystic suprasellar lesions with CSF-like signal and mass effect; standard differential knowledge."
+      },
+      {
+        "text": "Rim-like peripheral enhancement is less typical for an arachnoid cyst.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.96,
+        "reasoning": "Rim enhancement is less typical for an arachnoid cyst, which usually follows CSF signal without enhancement."
+      },
+      {
+        "text": "The lesion’s sellar relationship with displacement of the pituitary is more characteristic of a Rathke cleft cyst.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.95,
+        "reasoning": "A sellar/suprasellar cyst displacing the pituitary is a classic pattern favoring Rathke cleft cyst over arachnoid cyst."
+      },
+      {
+        "text": "The combination of chronic headache, a well-defined cystic sellar/suprasellar lesion, T1 hypointensity, T2 hyperintensity, thin rim enhancement, no solid enhancement on CT, normal pituitary labs, and lateral displacement of a normally enhancing pituitary gland and stalk most strongly supports Rathke cleft cyst.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.99,
+        "reasoning": "This is the trace’s integrated diagnostic conclusion and follows from the provided imaging and lab findings."
+      },
+      {
+        "text": "Rathke cleft cyst is the high-probability differential diagnosis.",
+        "category": "factual",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.98,
+        "reasoning": "Labeling Rathke cleft cyst as the high-probability differential is a diagnostic summary, not a factual claim requiring direct verification."
+      },
+      {
+        "text": "Craniopharyngioma is a medium-probability differential diagnosis.",
+        "category": "factual",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.98,
+        "reasoning": "Labeling craniopharyngioma as medium probability is a differential summary consistent with the trace."
+      },
+      {
+        "text": "Cystic pituitary adenoma is a low-probability differential diagnosis.",
+        "category": "factual",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.98,
+        "reasoning": "Labeling cystic pituitary adenoma as low probability is a differential summary consistent with the trace."
+      },
+      {
+        "text": "Arachnoid cyst is a low-probability differential diagnosis.",
+        "category": "factual",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.98,
+        "reasoning": "Labeling arachnoid cyst as low probability is a differential summary consistent with the trace."
+      },
+      {
+        "text": "The final diagnosis is Rathke cleft cyst.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "The trace explicitly states the final diagnosis is Rathke cleft cyst."
+      }
+    ],
+    "verdict_counts": {
+      "contradicted": 0,
+      "supported": 37,
+      "valid_inference": 33,
+      "unverifiable": 0
+    },
+    "contradictions": 0
+  }
+}

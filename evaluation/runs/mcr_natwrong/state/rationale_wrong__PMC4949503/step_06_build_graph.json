@@ -1,0 +1,1435 @@
+{
+  "name": "build_graph",
+  "passed": false,
+  "score": 0.8596,
+  "reasoning": "Graph built with 89 node(s) and 50 edge(s). 25 disconnected node(s): n14, n16, n19, n22, n23, n29, n31, n32, n33, n45, n46, n47, n48, n49, n50, n51, n56, n65, n66, n67, n69, n70, n72, n76, n77. The graph centers on a chemotherapy-associated acute eruption after romidepsin, with morphology, distribution, timing, and biopsy findings converging on toxic erythema of chemotherapy as the final diagnosis. Secondary branches compare and down-rank Sweet syndrome, SDRIFE, AGEP, SJS/TEN, DRESS, and morbilliform drug eruption using the absence of systemic features and the neutrophilic but non-necrotic histology.",
+  "data": {
+    "nodes": [
+      {
+        "id": "n1",
+        "text": "The chief issue is an acute cutaneous eruption occurring in close temporal relationship to chemotherapy.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "The case describes an acute eruption occurring 5 hours after romidepsin infusion, i.e., in close temporal relationship to chemotherapy.",
+        "cluster_idx": 0,
+        "cluster_label": "history_taking"
+      },
+      {
+        "id": "n2",
+        "text": "The patient developed the eruption 5 hours after the second romidepsin infusion.",
+        "category": "statistical",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Reference data states the eruption began five hours after the second romidepsin infusion.",
+        "cluster_idx": 0,
+        "cluster_label": "history_taking"
+      },
+      {
+        "id": "n3",
+        "text": "The eruption consisted of bright, hot, salmon-pink, nonscaly, edematous nummular patches and plaques.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "The presentation explicitly lists bright, hot, salmon-pink, nonscaly, edematous nummular patches and plaques.",
+        "cluster_idx": 0,
+        "cluster_label": "history_taking"
+      },
+      {
+        "id": "n4",
+        "text": "The eruption involved intertriginous areas, the face, the upper chest, and the back.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Reference data says the eruption was in body folds and also on the face, upper chest, and back.",
+        "cluster_idx": 0,
+        "cluster_label": "history_taking"
+      },
+      {
+        "id": "n5",
+        "text": "The patient described the skin feeling like a \"heat rash.\"",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "The patient described her skin as feeling like a heat rash.",
+        "cluster_idx": 0,
+        "cluster_label": "history_taking"
+      },
+      {
+        "id": "n6",
+        "text": "The patient had minimal pruritus.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Reference data states minimal pruritus.",
+        "cluster_idx": 0,
+        "cluster_label": "history_taking"
+      },
+      {
+        "id": "n7",
+        "text": "The skin description points to an inflammatory drug eruption rather than painful skin necrosis or severe hypersensitivity.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "This is a clinical interpretation of the heat-rash-like, nonpainful eruption; the data support an inflammatory drug eruption more than necrosis or severe hypersensitivity, though it is not stated verbatim.",
+        "cluster_idx": 0,
+        "cluster_label": "history_taking"
+      },
+      {
+        "id": "n8",
+        "text": "Strong timing with drug exposure is a salient positive finding.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "The immediate post-chemotherapy timing is a standard salient clue for a drug eruption; this follows from the 5-hour post-infusion onset.",
+        "cluster_idx": 0,
+        "cluster_label": "history_taking"
+      },
+      {
+        "id": "n9",
+        "text": "The drug exposure specifically involved romidepsin infusion.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "The exposure was specifically romidepsin infusion.",
+        "cluster_idx": 0,
+        "cluster_label": "history_taking"
+      },
+      {
+        "id": "n10",
+        "text": "The morphology was that of well-described erythematous edematous plaques and patches.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "This paraphrases the described bright salmon-pink edematous patches and plaques.",
+        "cluster_idx": 0,
+        "cluster_label": "history_taking"
+      },
+      {
+        "id": "n11",
+        "text": "The distribution favored body folds and intertriginous areas.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "The eruption involved body folds/intertriginous areas per the reference data.",
+        "cluster_idx": 0,
+        "cluster_label": "history_taking"
+      },
+      {
+        "id": "n12",
+        "text": "The eruption also involved the face, chest, and back.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "The reference explicitly includes face, upper chest, and back involvement.",
+        "cluster_idx": 0,
+        "cluster_label": "history_taking"
+      },
+      {
+        "id": "n13",
+        "text": "Biopsy showed a neutrophilic infiltrate in the papillary and superficial reticular dermis.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Biopsy showed a neutrophilic infiltrate in the papillary and superficial reticular dermis.",
+        "cluster_idx": 0,
+        "cluster_label": "history_taking"
+      },
+      {
+        "id": "n14",
+        "text": "Biopsy showed mild spongiosis.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Reference biopsy findings include mild spongiosis.",
+        "cluster_idx": 0,
+        "cluster_label": "history_taking"
+      },
+      {
+        "id": "n15",
+        "text": "Biopsy showed no epidermal necrosis.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Reference data states there was no epidermal necrosis.",
+        "cluster_idx": 0,
+        "cluster_label": "history_taking"
+      },
+      {
+        "id": "n16",
+        "text": "The patient has Sézary syndrome.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "The patient is described as having Sézary syndrome.",
+        "cluster_idx": 0,
+        "cluster_label": "history_taking"
+      },
+      {
+        "id": "n17",
+        "text": "The eruption is described as new and acute after infusion.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "The eruption is new and occurred acutely after infusion, as described in the case.",
+        "cluster_idx": 0,
+        "cluster_label": "history_taking"
+      },
+      {
+        "id": "n18",
+        "text": "Progression of baseline disease is less likely.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Given the abrupt post-infusion onset and new morphology, progression of baseline Sézary syndrome is a reasonable differential-pruning inference, not a directly stated fact.",
+        "cluster_idx": 0,
+        "cluster_label": "history_taking"
+      },
+      {
+        "id": "n19",
+        "text": "The patient was also on bexarotene.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "The reference data states she was on bexarotene as well.",
+        "cluster_idx": 0,
+        "cluster_label": "history_taking"
+      },
+      {
+        "id": "n20",
+        "text": "The immediate post-infusion onset implicates romidepsin more strongly.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Immediate post-infusion onset makes romidepsin the more likely trigger; this is a sound causal inference from the timing.",
+        "cluster_idx": 0,
+        "cluster_label": "history_taking"
+      },
+      {
+        "id": "n21",
+        "text": "There was no fever.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "The reference explicitly says she had no fever.",
+        "cluster_idx": 0,
+        "cluster_label": "history_taking"
+      },
+      {
+        "id": "n22",
+        "text": "There was no skin pain.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "The reference explicitly says she had no skin pain.",
+        "cluster_idx": 0,
+        "cluster_label": "history_taking"
+      },
+      {
+        "id": "n23",
+        "text": "There was no lymphadenopathy.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "The reference explicitly says there was no lymphadenopathy.",
+        "cluster_idx": 0,
+        "cluster_label": "history_taking"
+      },
+      {
+        "id": "n24",
+        "text": "There was no mucositis.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "The reference explicitly says there was no mucositis.",
+        "cluster_idx": 0,
+        "cluster_label": "history_taking"
+      },
+      {
+        "id": "n25",
+        "text": "There was no arthralgia.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "The reference explicitly says there was no arthralgia.",
+        "cluster_idx": 0,
+        "cluster_label": "history_taking"
+      },
+      {
+        "id": "n26",
+        "text": "There was no transaminitis.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "The reference explicitly says there was no transaminitis.",
+        "cluster_idx": 0,
+        "cluster_label": "history_taking"
+      },
+      {
+        "id": "n27",
+        "text": "There was no neutrophilia.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "The reference explicitly says there was no neutrophilia.",
+        "cluster_idx": 0,
+        "cluster_label": "history_taking"
+      },
+      {
+        "id": "n28",
+        "text": "There was no eosinophilia.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "The reference explicitly says there was no eosinophilia.",
+        "cluster_idx": 0,
+        "cluster_label": "history_taking"
+      },
+      {
+        "id": "n29",
+        "text": "Histology showed no epidermal necrosis.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "The biopsy showed no epidermal necrosis.",
+        "cluster_idx": 0,
+        "cluster_label": "history_taking"
+      },
+      {
+        "id": "n30",
+        "text": "These findings argue against Stevens-Johnson syndrome/toxic epidermal necrolysis.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Absence of mucositis and epidermal necrosis, plus the acute drug-related eruption, reasonably argues against SJS/TEN.",
+        "cluster_idx": 1,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n31",
+        "text": "These findings argue against DRESS.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "No eosinophilia and no transaminitis/systemic involvement make DRESS less likely; this is a standard inference.",
+        "cluster_idx": 1,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n32",
+        "text": "These findings argue against classic Sweet syndrome.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "No fever and no neutrophilia argue against classic Sweet syndrome, despite neutrophilic histology.",
+        "cluster_idx": 1,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n33",
+        "text": "These findings argue against AGEP.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "No pustules, fever, or neutrophilia make AGEP less likely; this is a reasonable differential inference.",
+        "cluster_idx": 1,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n34",
+        "text": "Lack of mucosal involvement is especially important against SJS/TEN.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Lack of mucosal involvement is a classic feature arguing against SJS/TEN.",
+        "cluster_idx": 1,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n35",
+        "text": "Lack of epidermal necrosis is especially important against SJS/TEN.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Lack of epidermal necrosis is a strong argument against SJS/TEN.",
+        "cluster_idx": 1,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n36",
+        "text": "Lack of eosinophilia argues against DRESS.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Absence of eosinophilia is a standard point against DRESS.",
+        "cluster_idx": 1,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n37",
+        "text": "Lack of systemic organ involvement argues against DRESS.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Absence of transaminitis/systemic organ involvement supports arguing against DRESS.",
+        "cluster_idx": 1,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n38",
+        "text": "Lack of fever argues against classic Sweet syndrome.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Absence of fever is a standard reason classic Sweet syndrome is less likely.",
+        "cluster_idx": 1,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n39",
+        "text": "Lack of neutrophilia argues against classic Sweet syndrome.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Absence of neutrophilia also argues against classic Sweet syndrome.",
+        "cluster_idx": 1,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n40",
+        "text": "The biopsy is neutrophilic.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "The biopsy showed a neutrophilic infiltrate, so it is neutrophilic.",
+        "cluster_idx": 1,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n41",
+        "text": "The leading differential is toxic erythema of chemotherapy.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "The trace explicitly states the leading differential is toxic erythema of chemotherapy.",
+        "cluster_idx": 1,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n42",
+        "text": "Toxic erythema of chemotherapy is a chemotherapy-associated eruption.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "TEC is described in the trace as a chemotherapy-associated eruption.",
+        "cluster_idx": 1,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n43",
+        "text": "Toxic erythema of chemotherapy is characterized by erythematous edematous patches and plaques.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "The trace describes TEC as characterized by erythematous edematous patches/plaques.",
+        "cluster_idx": 1,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n44",
+        "text": "Toxic erythema of chemotherapy often involves intertriginous areas.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "The trace says TEC often occurs in intertriginous areas/body folds.",
+        "cluster_idx": 1,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n45",
+        "text": "Toxic erythema of chemotherapy can be painful or burning.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "The trace notes TEC can be painful or burning, though not necessarily severe.",
+        "cluster_idx": 1,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n46",
+        "text": "Toxic erythema of chemotherapy is not necessarily severe.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "The trace explicitly says TEC is not necessarily severe.",
+        "cluster_idx": 1,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n47",
+        "text": "Toxic erythema of chemotherapy can occur shortly after chemotherapy exposure.",
+        "category": "causal",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "The eruption occurred 5 hours after romidepsin infusion, matching the statement that TEC can occur shortly after chemotherapy exposure.",
+        "cluster_idx": 1,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n48",
+        "text": "Histology of toxic erythema of chemotherapy can show interface change.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "The trace states TEC histology can show interface change.",
+        "cluster_idx": 1,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n49",
+        "text": "Histology of toxic erythema of chemotherapy can show eccrine involvement.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "The trace states TEC histology can show eccrine involvement.",
+        "cluster_idx": 1,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n50",
+        "text": "Histology of toxic erythema of chemotherapy can show nonspecific inflammatory changes.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "The trace states TEC histology can show nonspecific inflammatory changes.",
+        "cluster_idx": 1,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n51",
+        "text": "Neutrophilic eccrine hidradenitis lies within the toxic erythema of chemotherapy spectrum.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "The trace explicitly says neutrophilic eccrine hidradenitis lies within the TEC spectrum.",
+        "cluster_idx": 1,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n52",
+        "text": "The patient's \"heat rash\" sensation fits toxic erythema of chemotherapy.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "The patient described the eruption as feeling like a heat rash, which the trace uses as supportive of TEC.",
+        "cluster_idx": 1,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n53",
+        "text": "The fold-predominant distribution fits toxic erythema of chemotherapy.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Fold-predominant/intertriginous distribution is a classic TEC pattern and is used in the trace to support that diagnosis.",
+        "cluster_idx": 1,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n54",
+        "text": "The close temporal association with romidepsin fits toxic erythema of chemotherapy.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "The eruption began 5 hours after romidepsin infusion, so the temporal association reasonably supports TEC induced by romidepsin.",
+        "cluster_idx": 1,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n55",
+        "text": "A second consideration is drug-induced Sweet syndrome.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "The trace explicitly lists drug-induced Sweet syndrome as a second consideration.",
+        "cluster_idx": 1,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n56",
+        "text": "Drug-induced Sweet syndrome is also called acute febrile neutrophilic dermatosis.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Drug-induced Sweet syndrome is correctly identified as acute febrile neutrophilic dermatosis.",
+        "cluster_idx": 1,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n57",
+        "text": "Supporting features for drug-induced Sweet syndrome are abrupt onset of bright erythematous edematous plaques.",
+        "category": "causal",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "The trace states abrupt bright erythematous edematous plaques are supportive of Sweet syndrome.",
+        "cluster_idx": 1,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n58",
+        "text": "Supporting features for drug-induced Sweet syndrome include a neutrophilic dermal infiltrate on biopsy.",
+        "category": "causal",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "The biopsy showed a neutrophilic dermal infiltrate, which the trace cites as supportive of Sweet syndrome.",
+        "cluster_idx": 1,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n59",
+        "text": "Drug-induced Sweet syndrome fits less well because she had no fever.",
+        "category": "causal",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "The reference data explicitly says she had no fever.",
+        "cluster_idx": 1,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n60",
+        "text": "Drug-induced Sweet syndrome fits less well because she had no neutrophilia.",
+        "category": "causal",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "The reference data explicitly says she had no neutrophilia.",
+        "cluster_idx": 1,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n61",
+        "text": "Drug-induced Sweet syndrome fits less well because she had no arthralgia.",
+        "category": "causal",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "The reference data explicitly says she had no arthralgia.",
+        "cluster_idx": 1,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n62",
+        "text": "Drug-induced Sweet syndrome fits less well because the eruption was minimally pruritic rather than tender or painful.",
+        "category": "causal",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "The trace says the eruption was minimally pruritic rather than tender/painful, making Sweet syndrome less likely.",
+        "cluster_idx": 1,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n63",
+        "text": "The distribution in body folds favors toxic erythema of chemotherapy over Sweet syndrome.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Intertriginous/fold-predominant distribution is a standard feature favoring TEC over Sweet syndrome, consistent with the trace's differential reasoning.",
+        "cluster_idx": 1,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n64",
+        "text": "The chemotherapy timing favors toxic erythema of chemotherapy over Sweet syndrome.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "The onset 5 hours after romidepsin infusion reasonably favors a chemotherapy-related eruption such as TEC over Sweet syndrome.",
+        "cluster_idx": 1,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n65",
+        "text": "Symmetric drug-related intertriginous and flexural exanthema is another possibility.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "The trace explicitly names SDRIFE as another possibility.",
+        "cluster_idx": 1,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n66",
+        "text": "Symmetric drug-related intertriginous and flexural exanthema is also called SDRIFE.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "SDRIFE is the standard abbreviation given in the trace.",
+        "cluster_idx": 1,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n67",
+        "text": "Symmetric drug-related intertriginous and flexural exanthema is also called baboon syndrome.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Baboon syndrome is a known synonym for SDRIFE and is stated in the trace.",
+        "cluster_idx": 1,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n68",
+        "text": "Flexural involvement supports symmetric drug-related intertriginous and flexural exanthema.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Flexural involvement is a defining feature of SDRIFE and is used in the trace as supportive.",
+        "cluster_idx": 1,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n69",
+        "text": "A drug trigger supports symmetric drug-related intertriginous and flexural exanthema.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "SDRIFE is a drug-triggered eruption, so a drug trigger supports it.",
+        "cluster_idx": 1,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n70",
+        "text": "The eruption also involved the face, upper chest, and back.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "The reference data states involvement of the face, upper chest, and back.",
+        "cluster_idx": 1,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n71",
+        "text": "The biopsy showing a neutrophilic infiltrate is less typical for symmetric drug-related intertriginous and flexural exanthema.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "A neutrophilic infiltrate is less typical for SDRIFE, which is a reasonable differential judgment from the trace.",
+        "cluster_idx": 1,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n72",
+        "text": "Symmetric drug-related intertriginous and flexural exanthema is usually a symmetric flexural erythema without systemic symptoms.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "The trace states SDRIFE is usually a symmetric flexural erythema without systemic symptoms.",
+        "cluster_idx": 1,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n73",
+        "text": "Symmetric drug-related intertriginous and flexural exanthema remains plausible.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "The trace explicitly says SDRIFE remains plausible.",
+        "cluster_idx": 1,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n74",
+        "text": "Symmetric drug-related intertriginous and flexural exanthema is less convincing.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "The trace explicitly says SDRIFE is less convincing.",
+        "cluster_idx": 1,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n75",
+        "text": "AGEP is less likely.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "The trace explicitly states AGEP is less likely.",
+        "cluster_idx": 1,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n76",
+        "text": "AGEP can occur rapidly after drug exposure.",
+        "category": "causal",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "The trace says AGEP can occur rapidly after drug exposure.",
+        "cluster_idx": 1,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n77",
+        "text": "AGEP may show neutrophilic inflammation.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "The trace says AGEP may show neutrophilic inflammation.",
+        "cluster_idx": 1,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n78",
+        "text": "The patient had no pustules.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "The reference data explicitly says there were no pustules.",
+        "cluster_idx": 1,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n79",
+        "text": "The patient had no fever.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "The reference data explicitly says there was no fever.",
+        "cluster_idx": 1,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n80",
+        "text": "The patient had no neutrophilia.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "The reference data explicitly says there was no neutrophilia.",
+        "cluster_idx": 1,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n81",
+        "text": "Morbilliform drug eruption is also less likely.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "The trace explicitly says morbilliform drug eruption is less likely.",
+        "cluster_idx": 1,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n82",
+        "text": "The biopsy is neutrophilic rather than lymphocytic or eosinophilic.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Biopsy showed a neutrophilic infiltrate; the trace contrasts this with lymphocytic/eosinophilic patterns.",
+        "cluster_idx": 1,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n83",
+        "text": "The morphology is more characteristic of chemotherapy-related toxic erythema than morbilliform drug eruption.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Given the fold-predominant, acute post-chemotherapy eruption and neutrophilic biopsy, favoring TEC over morbilliform eruption is a reasonable clinical inference.",
+        "cluster_idx": 1,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n84",
+        "text": "The combination of immediate onset after romidepsin infusion, intertriginous and fold-predominant bright edematous plaques, minimal pruritus with a \"heat rash\" sensation, absence of systemic findings, and neutrophilic superficial dermal infiltrate without epidermal necrosis most strongly supports toxic erythema of chemotherapy induced by romidepsin.",
+        "category": "causal",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "This is directly stated in the trace and matches the reference data: 5 hours after romidepsin, fold-predominant bright edematous plaques, minimal pruritus/heat-rash sensation, no systemic findings, neutrophilic superficial dermal infiltrate, no epidermal necrosis.",
+        "cluster_idx": 2,
+        "cluster_label": "final_decision"
+      },
+      {
+        "id": "n85",
+        "text": "The differential diagnosis includes toxic erythema of chemotherapy with high likelihood.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "The trace lists toxic erythema of chemotherapy as the leading differential with high likelihood.",
+        "cluster_idx": 2,
+        "cluster_label": "final_decision"
+      },
+      {
+        "id": "n86",
+        "text": "The differential diagnosis includes drug-induced Sweet syndrome with medium likelihood.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "The trace explicitly lists drug-induced Sweet syndrome as a medium-likelihood differential.",
+        "cluster_idx": 2,
+        "cluster_label": "final_decision"
+      },
+      {
+        "id": "n87",
+        "text": "The differential diagnosis includes symmetric drug-related intertriginous and flexural exanthema with low likelihood.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "The trace explicitly lists SDRIFE as a low-likelihood differential.",
+        "cluster_idx": 2,
+        "cluster_label": "final_decision"
+      },
+      {
+        "id": "n88",
+        "text": "The differential diagnosis includes acute generalized exanthematous pustulosis with low likelihood.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "The trace explicitly lists AGEP as a low-likelihood differential.",
+        "cluster_idx": 2,
+        "cluster_label": "final_decision"
+      },
+      {
+        "id": "n89",
+        "text": "The final diagnosis is toxic erythema of chemotherapy.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "The trace ends with the final diagnosis: toxic erythema of chemotherapy.",
+        "cluster_idx": 2,
+        "cluster_label": "final_decision"
+      }
+    ],
+    "edges": [
+      {
+        "source": "n2",
+        "target": "n1",
+        "kind": "supports",
+        "explanation": "Onset 5 hours after infusion supports the statement that the eruption occurred in close temporal relationship to chemotherapy."
+      },
+      {
+        "source": "n9",
+        "target": "n2",
+        "kind": "supports",
+        "explanation": "Romidepsin infusion identifies the specific chemotherapy exposure referenced in the timing statement."
+      },
+      {
+        "source": "n3",
+        "target": "n10",
+        "kind": "supports",
+        "explanation": "The described bright, hot, salmon-pink, edematous patches and plaques match the summarized morphology."
+      },
+      {
+        "source": "n4",
+        "target": "n11",
+        "kind": "supports",
+        "explanation": "Involvement of intertriginous areas supports fold-predominant distribution."
+      },
+      {
+        "source": "n4",
+        "target": "n12",
+        "kind": "supports",
+        "explanation": "The listed involved sites include the face, upper chest, and back."
+      },
+      {
+        "source": "n3",
+        "target": "n7",
+        "kind": "supports",
+        "explanation": "The morphology and lack of necrotic features support an inflammatory drug eruption rather than skin necrosis or severe hypersensitivity."
+      },
+      {
+        "source": "n2",
+        "target": "n8",
+        "kind": "supports",
+        "explanation": "Very close timing after drug exposure is a salient positive finding."
+      },
+      {
+        "source": "n17",
+        "target": "n18",
+        "kind": "supports",
+        "explanation": "A new acute eruption after infusion makes baseline Sézary syndrome progression less likely."
+      },
+      {
+        "source": "n2",
+        "target": "n20",
+        "kind": "supports",
+        "explanation": "Immediate post-infusion onset points more strongly to romidepsin as the trigger."
+      },
+      {
+        "source": "n21",
+        "target": "n30",
+        "kind": "supports",
+        "explanation": "Absence of fever argues against SJS/TEN as part of the exclusionary pattern."
+      },
+      {
+        "source": "n24",
+        "target": "n34",
+        "kind": "supports",
+        "explanation": "No mucosal involvement is especially important against SJS/TEN."
+      },
+      {
+        "source": "n15",
+        "target": "n35",
+        "kind": "supports",
+        "explanation": "No epidermal necrosis is especially important against SJS/TEN."
+      },
+      {
+        "source": "n28",
+        "target": "n36",
+        "kind": "supports",
+        "explanation": "Lack of eosinophilia argues against DRESS."
+      },
+      {
+        "source": "n26",
+        "target": "n37",
+        "kind": "supports",
+        "explanation": "No transaminitis supports lack of systemic organ involvement, arguing against DRESS."
+      },
+      {
+        "source": "n21",
+        "target": "n38",
+        "kind": "supports",
+        "explanation": "No fever argues against classic Sweet syndrome."
+      },
+      {
+        "source": "n27",
+        "target": "n39",
+        "kind": "supports",
+        "explanation": "No neutrophilia argues against classic Sweet syndrome."
+      },
+      {
+        "source": "n13",
+        "target": "n40",
+        "kind": "supports",
+        "explanation": "The biopsy description explicitly reports a neutrophilic infiltrate."
+      },
+      {
+        "source": "n1",
+        "target": "n41",
+        "kind": "supports",
+        "explanation": "An acute eruption in close temporal relationship to chemotherapy supports toxic erythema of chemotherapy as the leading differential."
+      },
+      {
+        "source": "n41",
+        "target": "n42",
+        "kind": "depends_on",
+        "explanation": "The diagnosis of toxic erythema of chemotherapy is meaningful only in the context of chemotherapy exposure."
+      },
+      {
+        "source": "n3",
+        "target": "n43",
+        "kind": "supports",
+        "explanation": "The erythematous edematous patches and plaques match the characteristic morphology of toxic erythema of chemotherapy."
+      },
+      {
+        "source": "n4",
+        "target": "n44",
+        "kind": "supports",
+        "explanation": "Intertriginous involvement is a classic distribution for toxic erythema of chemotherapy."
+      },
+      {
+        "source": "n5",
+        "target": "n52",
+        "kind": "supports",
+        "explanation": "The patient's 'heat rash' sensation fits the clinical description of toxic erythema of chemotherapy."
+      },
+      {
+        "source": "n11",
+        "target": "n53",
+        "kind": "supports",
+        "explanation": "Fold-predominant distribution supports toxic erythema of chemotherapy."
+      },
+      {
+        "source": "n2",
+        "target": "n54",
+        "kind": "supports",
+        "explanation": "Close temporal association with romidepsin fits toxic erythema of chemotherapy."
+      },
+      {
+        "source": "n55",
+        "target": "n57",
+        "kind": "depends_on",
+        "explanation": "The supportive features are relevant only if considering drug-induced Sweet syndrome."
+      },
+      {
+        "source": "n13",
+        "target": "n58",
+        "kind": "supports",
+        "explanation": "A neutrophilic dermal infiltrate is a supportive feature for drug-induced Sweet syndrome."
+      },
+      {
+        "source": "n21",
+        "target": "n59",
+        "kind": "supports",
+        "explanation": "No fever makes drug-induced Sweet syndrome less likely."
+      },
+      {
+        "source": "n27",
+        "target": "n60",
+        "kind": "supports",
+        "explanation": "No neutrophilia makes drug-induced Sweet syndrome less likely."
+      },
+      {
+        "source": "n25",
+        "target": "n61",
+        "kind": "supports",
+        "explanation": "No arthralgia makes drug-induced Sweet syndrome less likely."
+      },
+      {
+        "source": "n6",
+        "target": "n62",
+        "kind": "supports",
+        "explanation": "Minimal pruritus rather than tenderness or pain makes Sweet syndrome less fitting."
+      },
+      {
+        "source": "n11",
+        "target": "n63",
+        "kind": "supports",
+        "explanation": "Body-fold predominance favors toxic erythema of chemotherapy over Sweet syndrome."
+      },
+      {
+        "source": "n2",
+        "target": "n64",
+        "kind": "supports",
+        "explanation": "Chemotherapy timing favors toxic erythema of chemotherapy over Sweet syndrome."
+      },
+      {
+        "source": "n68",
+        "target": "n73",
+        "kind": "supports",
+        "explanation": "Flexural involvement supports SDRIFE remaining plausible."
+      },
+      {
+        "source": "n71",
+        "target": "n74",
+        "kind": "supports",
+        "explanation": "Neutrophilic biopsy is less typical for SDRIFE, making it less convincing."
+      },
+      {
+        "source": "n78",
+        "target": "n75",
+        "kind": "supports",
+        "explanation": "No pustules argues against AGEP."
+      },
+      {
+        "source": "n79",
+        "target": "n75",
+        "kind": "supports",
+        "explanation": "No fever argues against AGEP."
+      },
+      {
+        "source": "n80",
+        "target": "n75",
+        "kind": "supports",
+        "explanation": "No neutrophilia argues against AGEP."
+      },
+      {
+        "source": "n82",
+        "target": "n81",
+        "kind": "supports",
+        "explanation": "A neutrophilic rather than lymphocytic/eosinophilic biopsy makes morbilliform drug eruption less likely."
+      },
+      {
+        "source": "n3",
+        "target": "n83",
+        "kind": "supports",
+        "explanation": "The morphology is more characteristic of chemotherapy-related toxic erythema than morbilliform drug eruption."
+      },
+      {
+        "source": "n2",
+        "target": "n84",
+        "kind": "supports",
+        "explanation": "Immediate onset after romidepsin is one of the key features supporting the final diagnosis."
+      },
+      {
+        "source": "n11",
+        "target": "n84",
+        "kind": "supports",
+        "explanation": "Intertriginous and fold-predominant distribution supports the final diagnosis."
+      },
+      {
+        "source": "n5",
+        "target": "n84",
+        "kind": "supports",
+        "explanation": "The 'heat rash' sensation supports the final diagnosis."
+      },
+      {
+        "source": "n21",
+        "target": "n84",
+        "kind": "supports",
+        "explanation": "Absence of systemic findings supports the final diagnosis."
+      },
+      {
+        "source": "n13",
+        "target": "n84",
+        "kind": "supports",
+        "explanation": "Neutrophilic superficial dermal infiltrate supports the final diagnosis."
+      },
+      {
+        "source": "n15",
+        "target": "n84",
+        "kind": "supports",
+        "explanation": "Absence of epidermal necrosis supports the final diagnosis."
+      },
+      {
+        "source": "n84",
+        "target": "n85",
+        "kind": "supports",
+        "explanation": "The overall synthesis supports toxic erythema of chemotherapy as high likelihood."
+      },
+      {
+        "source": "n84",
+        "target": "n86",
+        "kind": "supports",
+        "explanation": "The synthesis leaves drug-induced Sweet syndrome as a medium-likelihood alternative."
+      },
+      {
+        "source": "n84",
+        "target": "n87",
+        "kind": "supports",
+        "explanation": "The synthesis leaves SDRIFE as a low-likelihood alternative."
+      },
+      {
+        "source": "n84",
+        "target": "n88",
+        "kind": "supports",
+        "explanation": "The synthesis leaves AGEP as a low-likelihood alternative."
+      },
+      {
+        "source": "n84",
+        "target": "n89",
+        "kind": "supports",
+        "explanation": "The combined clinical and histologic pattern supports the final diagnosis of toxic erythema of chemotherapy."
+      }
+    ],
+    "disconnected": [
+      "n14",
+      "n16",
+      "n19",
+      "n22",
+      "n23",
+      "n29",
+      "n31",
+      "n32",
+      "n33",
+      "n45",
+      "n46",
+      "n47",
+      "n48",
+      "n49",
+      "n50",
+      "n51",
+      "n56",
+      "n65",
+      "n66",
+      "n67",
+      "n69",
+      "n70",
+      "n72",
+      "n76",
+      "n77"
+    ],
+    "clusters": [
+      {
+        "cluster_id": "c1",
+        "label": "history_taking",
+        "statement_indices": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29
+        ],
+        "summary": "Initial presentation, timing after romidepsin, morphology/distribution, biopsy findings, and relevant negatives are gathered to frame the eruption.",
+        "salience": 0.95
+      },
+      {
+        "cluster_id": "c2",
+        "label": "differential_generation",
+        "statement_indices": [
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40,
+          41,
+          42,
+          43,
+          44,
+          45,
+          46,
+          47,
+          48,
+          49,
+          50,
+          51,
+          52,
+          53,
+          54,
+          55,
+          56,
+          57,
+          58,
+          59,
+          60,
+          61,
+          62,
+          63,
+          64,
+          65,
+          66,
+          67,
+          68,
+          69,
+          70,
+          71,
+          72,
+          73,
+          74,
+          75,
+          76,
+          77,
+          78,
+          79,
+          80,
+          81,
+          82,
+          83
+        ],
+        "summary": "Competing diagnoses are compared against the clinical and histologic pattern, with toxic erythema of chemotherapy emerging as most likely.",
+        "salience": 0.9
+      },
+      {
+        "cluster_id": "c3",
+        "label": "final_decision",
+        "statement_indices": [
+          84,
+          85,
+          86,
+          87,
+          88,
+          89
+        ],
+        "summary": "The reasoning is synthesized into a final diagnosis of toxic erythema of chemotherapy induced by romidepsin.",
+        "salience": 1.0
+      }
+    ],
+    "node_ranks": {
+      "n1": 0.3833,
+      "n2": 0.3083,
+      "n3": 0.4583,
+      "n4": 0.3083,
+      "n5": 0.3833,
+      "n6": 0.4583,
+      "n7": 0.5333,
+      "n8": 0.5333,
+      "n9": 0.2333,
+      "n10": 0.5333,
+      "n11": 0.3833,
+      "n12": 0.5333,
+      "n13": 0.3833,
+      "n14": 0.3833,
+      "n15": 0.3833,
+      "n16": 0.3833,
+      "n17": 0.4583,
+      "n18": 0.5333,
+      "n19": 0.3833,
+      "n20": 0.5333,
+      "n21": 0.3833,
+      "n22": 0.3833,
+      "n23": 0.3833,
+      "n24": 0.4583,
+      "n25": 0.4583,
+      "n26": 0.4583,
+      "n27": 0.4583,
+      "n28": 0.4583,
+      "n29": 0.3833,
+      "n30": 0.7667,
+      "n31": 0.6167,
+      "n32": 0.6167,
+      "n33": 0.6167,
+      "n34": 0.7667,
+      "n35": 0.7667,
+      "n36": 0.7667,
+      "n37": 0.7667,
+      "n38": 0.7667,
+      "n39": 0.7667,
+      "n40": 0.7667,
+      "n41": 0.6917,
+      "n42": 0.7667,
+      "n43": 0.7667,
+      "n44": 0.7667,
+      "n45": 0.6167,
+      "n46": 0.6167,
+      "n47": 0.6167,
+      "n48": 0.6167,
+      "n49": 0.6167,
+      "n50": 0.6167,
+      "n51": 0.6167,
+      "n52": 0.7667,
+      "n53": 0.7667,
+      "n54": 0.7667,
+      "n55": 0.6917,
+      "n56": 0.6167,
+      "n57": 0.7667,
+      "n58": 0.7667,
+      "n59": 0.7667,
+      "n60": 0.7667,
+      "n61": 0.7667,
+      "n62": 0.7667,
+      "n63": 0.7667,
+      "n64": 0.7667,
+      "n65": 0.6167,
+      "n66": 0.6167,
+      "n67": 0.6167,
+      "n68": 0.6917,
+      "n69": 0.6167,
+      "n70": 0.6167,
+      "n71": 0.6917,
+      "n72": 0.6167,
+      "n73": 0.7667,
+      "n74": 0.7667,
+      "n75": 0.7667,
+      "n76": 0.6167,
+      "n77": 0.6167,
+      "n78": 0.6917,
+      "n79": 0.6917,
+      "n80": 0.6917,
+      "n81": 0.7667,
+      "n82": 0.6917,
+      "n83": 0.7667,
+      "n84": 0.925,
+      "n85": 1.0,
+      "n86": 1.0,
+      "n87": 1.0,
+      "n88": 1.0,
+      "n89": 1.0
+    }
+  }
+}

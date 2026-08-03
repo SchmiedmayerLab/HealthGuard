@@ -1,0 +1,791 @@
+{
+  "name": "expert_verify",
+  "passed": true,
+  "score": 1.0,
+  "reasoning": "No contradictions among 86 statement(s) (46 supported, 40 valid inferences, 0 unverifiable).",
+  "data": {
+    "verifications": [
+      {
+        "text": "The chief complaint is progressive obstructive jaundice with pruritus, epigastric pain, and weight loss in a 59-year-old man with known neurofibromatosis type 1 (NF1).",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Matches reference: 59-year-old man with 1-month progressive jaundice, pruritus, episodic epigastric pain, weight loss, and known NF1."
+      },
+      {
+        "text": "The patient’s own major concern appears to be the 1-month progression of jaundice and associated systemic symptoms.",
+        "category": "factual",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.78,
+        "reasoning": "The case states the patient presented with a 1-month history of jaundice and associated symptoms; 'major concern' is an interpretive summary, not directly stated."
+      },
+      {
+        "text": "The key diagnostic task is to identify the cause of extrahepatic biliary obstruction and determine whether it is malignant.",
+        "category": "recommendation",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.95,
+        "reasoning": "This is the appropriate diagnostic task given extrahepatic biliary obstruction and concern for malignancy; it follows from the case."
+      },
+      {
+        "text": "Salient positive findings strongly support a malignant obstructing lesion of the extrahepatic biliary tree.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.93,
+        "reasoning": "The imaging and cholestatic presentation support malignant obstruction; this is a clinical synthesis rather than a verbatim fact."
+      },
+      {
+        "text": "He has progressive jaundice.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 1.0,
+        "reasoning": "Reference explicitly says progressive jaundice."
+      },
+      {
+        "text": "He has pruritus.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 1.0,
+        "reasoning": "Reference explicitly says pruritus."
+      },
+      {
+        "text": "He has excoriations.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.98,
+        "reasoning": "Reference notes widespread excoriations, consistent with pruritus-related scratching."
+      },
+      {
+        "text": "He has hepatomegaly.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.97,
+        "reasoning": "Reference says the liver was enlarged on exam."
+      },
+      {
+        "text": "He has a cholestatic liver profile.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Reference states a cholestatic liver profile."
+      },
+      {
+        "text": "Ultrasound showed marked intrahepatic and extrahepatic biliary dilatation.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 1.0,
+        "reasoning": "Ultrasound showed marked intrahepatic and extrahepatic biliary dilatation."
+      },
+      {
+        "text": "Ultrasound showed a proximal common bile duct of 17 mm.",
+        "category": "statistical",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 1.0,
+        "reasoning": "Reference gives proximal common bile duct measuring 17 mm."
+      },
+      {
+        "text": "These ultrasound findings confirm mechanical obstruction.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.96,
+        "reasoning": "Marked intra/extrahepatic biliary dilatation with a 17 mm CBD is consistent with mechanical obstruction; 'confirm' is a reasonable inference."
+      },
+      {
+        "text": "CT demonstrated a 4.5 × 5 × 3.4 cm hypoenhancing porta hepatis mass.",
+        "category": "statistical",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 1.0,
+        "reasoning": "CT reported a 4.5 × 5 × 3.4 cm hypoenhancing soft-tissue mass in the porta hepatis."
+      },
+      {
+        "text": "The porta hepatis mass encases the portal vein and common hepatic artery.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 1.0,
+        "reasoning": "Reference explicitly says the mass encased the portal vein and common hepatic artery."
+      },
+      {
+        "text": "The porta hepatis mass extends toward the pancreatic head.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 1.0,
+        "reasoning": "Reference says the mass extended toward the pancreatic head."
+      },
+      {
+        "text": "MRCP showed an abrupt occlusion in the mid common bile duct.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 1.0,
+        "reasoning": "MRCP confirmed abrupt occlusion in the mid common bile duct."
+      },
+      {
+        "text": "ERCP demonstrated a tight 6 cm proximal CBD stricture.",
+        "category": "statistical",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 1.0,
+        "reasoning": "ERCP demonstrated a tight 6 cm proximal CBD stricture."
+      },
+      {
+        "text": "ERCP demonstrated marked biliary dilatation.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.98,
+        "reasoning": "ERCP showed marked biliary dilatation."
+      },
+      {
+        "text": "Weight loss of 15 pounds favors malignancy over benign stricture.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.9,
+        "reasoning": "15-pound weight loss is a classic malignancy-supporting feature; this is a clinical inference."
+      },
+      {
+        "text": "Vascular encasement favors malignancy over benign stricture.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.92,
+        "reasoning": "Vascular encasement is a malignant imaging feature and supports malignancy over benign stricture."
+      },
+      {
+        "text": "The normal pancreatic duct argues against a primary pancreatic head process causing double-duct obstruction.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.95,
+        "reasoning": "A normal pancreatic duct makes a primary pancreatic head lesion causing double-duct obstruction less likely; this follows from the imaging."
+      },
+      {
+        "text": "Additional splenic and retroperitoneal masses raise concern for metastatic disease or multifocal tumor involvement.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.93,
+        "reasoning": "Additional splenic and retroperitoneal masses reasonably raise concern for metastatic or multifocal tumor involvement."
+      },
+      {
+        "text": "NF1 predisposes to certain neoplasms, including malignant peripheral nerve sheath tumors and other soft-tissue tumors.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.9,
+        "reasoning": "NF1 is known to predispose to MPNST and other tumors; standard medical knowledge supports this inference."
+      },
+      {
+        "text": "A neurogenic malignancy in the porta hepatis is plausible.",
+        "category": "factual",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.84,
+        "reasoning": "Given NF1 and a porta hepatis soft-tissue mass, a neurogenic malignancy is a plausible inference, though not directly proven."
+      },
+      {
+        "text": "There is no fever mentioned.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.98,
+        "reasoning": "Presentation lists temperature 98.3 F and does not mention fever."
+      },
+      {
+        "text": "There is no leukocytosis mentioned.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.95,
+        "reasoning": "Reference says initial blood counts were normal; no leukocytosis is reported."
+      },
+      {
+        "text": "Acute cholangitis is less likely as the primary diagnosis.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.9,
+        "reasoning": "Absence of fever/leukocytosis and the obstructive mass make acute cholangitis less likely as the primary diagnosis."
+      },
+      {
+        "text": "Normal blood counts do not support a hematologic malignancy causing diffuse adenopathy as the main explanation.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.72,
+        "reasoning": "Normal blood counts do not support a hematologic malignancy as the main explanation; this is a differential-pruning inference."
+      },
+      {
+        "text": "The pancreatic duct was normal.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 1.0,
+        "reasoning": "MRCP explicitly states the pancreatic duct was normal."
+      },
+      {
+        "text": "The normal pancreatic duct argues against pancreatic adenocarcinoma at the head causing simultaneous pancreatic and biliary duct dilation.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.96,
+        "reasoning": "Normal pancreatic duct argues against pancreatic head adenocarcinoma causing the classic double-duct pattern."
+      },
+      {
+        "text": "The lesion is described as a soft-tissue mass in the porta hepatis with vascular encasement rather than stones or inflammatory changes.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.97,
+        "reasoning": "CT described a hypoenhancing soft-tissue mass in the porta hepatis with vascular encasement; no stones or inflammatory changes are described."
+      },
+      {
+        "text": "Choledocholithiasis is unlikely.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.9,
+        "reasoning": "Given the mass, long stricture, and imaging pattern, choledocholithiasis is unlikely."
+      },
+      {
+        "text": "A benign inflammatory stricture is unlikely.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.9,
+        "reasoning": "The imaging pattern favors malignancy over benign inflammatory stricture, making it unlikely."
+      },
+      {
+        "text": "The first major differential is cholangiocarcinoma, especially extrahepatic/perihilar disease.",
+        "category": "factual",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.95,
+        "reasoning": "Cholangiocarcinoma as a major differential is a diagnostic synthesis from the biliary obstruction pattern."
+      },
+      {
+        "text": "This diagnosis fits progressive painless-predominant jaundice with pruritus, cholestatic labs, abrupt CBD occlusion, long proximal CBD stricture, and a hypoenhancing porta hepatis mass with vascular encasement.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.97,
+        "reasoning": "The listed features are classic for extrahepatic/perihilar cholangiocarcinoma and fit the case."
+      },
+      {
+        "text": "Weight loss also supports cholangiocarcinoma.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.9,
+        "reasoning": "Weight loss is a standard supportive feature for cholangiocarcinoma; this is a reasonable inference."
+      },
+      {
+        "text": "The patient has NF1.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 1.0,
+        "reasoning": "Reference explicitly states known NF1."
+      },
+      {
+        "text": "The patient has additional splenic and retroperitoneal masses.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 1.0,
+        "reasoning": "Reference explicitly identifies a 5 cm splenic mass and a 4.5 × 4.5 × 2.8 cm retroperitoneal mass."
+      },
+      {
+        "text": "These findings are less typical for a straightforward primary cholangiocarcinoma.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.88,
+        "reasoning": "Multifocal masses are less typical for straightforward primary cholangiocarcinoma; this is a comparative inference."
+      },
+      {
+        "text": "These findings raise the possibility of another tumor type.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.9,
+        "reasoning": "Because multifocal masses are atypical for a single primary cholangiocarcinoma, they reasonably raise concern for another tumor type."
+      },
+      {
+        "text": "The second differential is pancreatic head carcinoma.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "The trace explicitly lists pancreatic head carcinoma as the second differential."
+      },
+      {
+        "text": "Pancreatic head carcinoma can cause jaundice, weight loss, and epigastric pain.",
+        "category": "causal",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.98,
+        "reasoning": "Standard clinical statement; pancreatic head carcinoma can present with jaundice, weight loss, and epigastric pain."
+      },
+      {
+        "text": "The imaging localizes the dominant lesion to the porta hepatis/mid CBD region.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.98,
+        "reasoning": "CT shows a porta hepatis mass and MRCP/ERCP localize obstruction to the mid/proximal CBD region."
+      },
+      {
+        "text": "MRCP notes a normal pancreatic duct.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 1.0,
+        "reasoning": "Reference data states the pancreatic duct was normal on MRCP."
+      },
+      {
+        "text": "These findings argue against pancreatic adenocarcinoma.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.97,
+        "reasoning": "A normal pancreatic duct and porta hepatis/CBD localization reasonably argue against primary pancreatic adenocarcinoma."
+      },
+      {
+        "text": "The obstruction is a 6 cm proximal CBD stricture rather than a distal CBD obstruction from a pancreatic head mass.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "ERCP showed a tight 6 cm proximal CBD stricture; this is not a distal CBD obstruction from a pancreatic head mass."
+      },
+      {
+        "text": "A third differential is a benign biliary stricture or choledocholithiasis.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "The trace explicitly lists benign biliary stricture or choledocholithiasis as a differential."
+      },
+      {
+        "text": "These conditions can produce cholestatic jaundice and ductal dilation.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.96,
+        "reasoning": "Benign biliary obstruction can cause cholestatic jaundice and ductal dilation; this is standard medical knowledge."
+      },
+      {
+        "text": "The large hypoenhancing mass makes a benign cause much less likely.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.98,
+        "reasoning": "A large hypoenhancing mass with weight loss and vascular encasement makes a benign cause less likely."
+      },
+      {
+        "text": "Vascular encasement makes a benign cause much less likely.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.97,
+        "reasoning": "Vascular encasement is a malignant feature and argues against a benign stricture."
+      },
+      {
+        "text": "The long stricture makes a benign cause much less likely.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.96,
+        "reasoning": "A long 6 cm stricture is more concerning for malignancy than a benign short stricture."
+      },
+      {
+        "text": "Weight loss makes a benign cause much less likely.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.95,
+        "reasoning": "Weight loss is a malignancy-supporting feature, making a benign cause less likely."
+      },
+      {
+        "text": "A fourth differential is malignant peripheral nerve sheath tumor (MPNST) involving the porta hepatis/biliary tract.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "The trace explicitly names MPNST involving the porta hepatis/biliary tract as a differential."
+      },
+      {
+        "text": "NF1 markedly increases risk of MPNST.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.98,
+        "reasoning": "NF1 is a known major risk factor for MPNST; this is standard medical knowledge."
+      },
+      {
+        "text": "A soft-tissue mass in the porta hepatis causing extrinsic compression or direct involvement of the common bile duct would explain the obstructive jaundice.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.97,
+        "reasoning": "A porta hepatis mass compressing or involving the CBD would plausibly explain obstructive jaundice."
+      },
+      {
+        "text": "Additional splenic and retroperitoneal masses support disseminated malignant disease rather than isolated cholangiocarcinoma.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.9,
+        "reasoning": "Additional splenic and retroperitoneal masses reasonably suggest disseminated or multifocal malignancy, though not definitive."
+      },
+      {
+        "text": "In the context of NF1, this pattern makes MPNST a strong unifying diagnosis.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.95,
+        "reasoning": "Given NF1 plus a porta hepatis mass and additional masses, MPNST is a plausible unifying diagnosis."
+      },
+      {
+        "text": "The severe hypercholesterolemia is best explained as secondary lipoprotein-X accumulation from cholestasis.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.93,
+        "reasoning": "Severe cholestasis can cause lipoprotein-X–mediated hypercholesterolemia; this is a standard explanation."
+      },
+      {
+        "text": "The severe hypercholesterolemia is not best explained by a primary lipid disorder.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.9,
+        "reasoning": "The pattern is more consistent with cholestasis-related hypercholesterolemia than a primary lipid disorder."
+      },
+      {
+        "text": "Total cholesterol was greater than 1,000 mg/dL.",
+        "category": "statistical",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 1.0,
+        "reasoning": "Reference data states total cholesterol was >1,000 mg/dL."
+      },
+      {
+        "text": "LDL was greater than 1,000 mg/dL.",
+        "category": "statistical",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 1.0,
+        "reasoning": "Reference data states LDL was >1,000 mg/dL."
+      },
+      {
+        "text": "Total cholesterol and LDL declined steadily after biliary stenting and improvement in jaundice.",
+        "category": "causal",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.98,
+        "reasoning": "The reference says cholesterol levels declined steadily after biliary stenting and jaundice improved."
+      },
+      {
+        "text": "Overall, the evidence points to malignant extrahepatic biliary obstruction.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.98,
+        "reasoning": "The imaging and clinical picture support malignant extrahepatic biliary obstruction."
+      },
+      {
+        "text": "Cholangiocarcinoma is a strong generic consideration based on the biliary imaging.",
+        "category": "factual",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.95,
+        "reasoning": "Cholangiocarcinoma is a reasonable generic consideration from biliary imaging, though not directly stated in the reference data."
+      },
+      {
+        "text": "The presence of NF1 and multifocal masses makes a malignant peripheral nerve sheath tumor involving the porta hepatis the single most likely diagnosis.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.97,
+        "reasoning": "NF1 plus multifocal masses makes porta hepatis MPNST a plausible leading diagnosis; this is a diagnostic inference."
+      },
+      {
+        "text": "Known NF1 is present.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 1.0,
+        "reasoning": "The patient is explicitly described as having known NF1."
+      },
+      {
+        "text": "A porta hepatis soft-tissue mass is present.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 1.0,
+        "reasoning": "CT revealed a 4.5 × 5 × 3.4 cm porta hepatis soft-tissue mass."
+      },
+      {
+        "text": "The porta hepatis soft-tissue mass causes a long proximal CBD stricture and biliary obstruction.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.98,
+        "reasoning": "The porta hepatis mass plausibly causes the long proximal CBD stricture and biliary obstruction, consistent with the imaging."
+      },
+      {
+        "text": "Additional splenic and retroperitoneal masses suggest multifocal or metastatic malignant disease.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.95,
+        "reasoning": "Splenic and retroperitoneal masses can suggest multifocal or metastatic malignant disease, though pathology is not proven."
+      },
+      {
+        "text": "These findings are compatible with NF1-associated sarcoma.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.9,
+        "reasoning": "NF1 is associated with sarcomas including MPNST, so this compatibility is a reasonable inference."
+      },
+      {
+        "text": "Progressive jaundice is present.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 1.0,
+        "reasoning": "Progressive jaundice is explicitly described in the presentation."
+      },
+      {
+        "text": "Pruritus is present.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 1.0,
+        "reasoning": "Pruritus is explicitly described in the presentation."
+      },
+      {
+        "text": "Weight loss is present.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 1.0,
+        "reasoning": "A 15-pound weight loss is explicitly reported."
+      },
+      {
+        "text": "A cholestatic profile is present.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 1.0,
+        "reasoning": "The labs are described as a cholestatic liver profile."
+      },
+      {
+        "text": "An abrupt mid-CBD occlusion is present on MRCP.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 1.0,
+        "reasoning": "MRCP confirmed an abrupt occlusion in the mid common bile duct."
+      },
+      {
+        "text": "A tight 6 cm proximal CBD stricture is present on ERCP.",
+        "category": "statistical",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 1.0,
+        "reasoning": "ERCP demonstrated a tight 6 cm proximal CBD stricture."
+      },
+      {
+        "text": "A porta hepatis mass with vascular encasement is present.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 1.0,
+        "reasoning": "CT showed a porta hepatis mass encasing the portal vein and common hepatic artery."
+      },
+      {
+        "text": "Pancreatic head adenocarcinoma can cause jaundice, weight loss, and epigastric pain.",
+        "category": "causal",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.98,
+        "reasoning": "This is standard clinical knowledge; pancreatic head adenocarcinoma can present with jaundice, weight loss, and epigastric pain."
+      },
+      {
+        "text": "The lesion is localized to the porta hepatis/CBD rather than the pancreas.",
+        "category": "factual",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.98,
+        "reasoning": "Imaging localizes the dominant lesion to the porta hepatis/CBD region rather than the pancreas."
+      },
+      {
+        "text": "The pancreatic duct was normal.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 1.0,
+        "reasoning": "Reference data explicitly states the pancreatic duct was normal."
+      },
+      {
+        "text": "Benign biliary stricture or choledocholithiasis can cause biliary dilatation and jaundice.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.98,
+        "reasoning": "Standard clinical knowledge: benign biliary stricture or choledocholithiasis can cause biliary dilatation and jaundice; this is consistent with the differential discussion."
+      },
+      {
+        "text": "A large hypoenhancing mass favors malignancy.",
+        "category": "causal",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "CT showed a 4.5 × 5 × 3.4 cm hypoenhancing soft-tissue mass in the porta hepatis."
+      },
+      {
+        "text": "Vascular encasement favors malignancy.",
+        "category": "causal",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "CT explicitly described the mass as encasing the portal vein and common hepatic artery."
+      },
+      {
+        "text": "A long stricture favors malignancy.",
+        "category": "causal",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.98,
+        "reasoning": "ERCP demonstrated a tight 6 cm proximal CBD stricture, which is a long stricture."
+      },
+      {
+        "text": "A 15-pound weight loss favors malignancy.",
+        "category": "causal",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "The reference case states a 15-pound weight loss over 1 month."
+      },
+      {
+        "text": "The final diagnosis is malignant peripheral nerve sheath tumor of the porta hepatis causing obstructive jaundice.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.97,
+        "reasoning": "The trace explicitly concludes the final diagnosis is malignant peripheral nerve sheath tumor of the porta hepatis causing obstructive jaundice."
+      }
+    ],
+    "verdict_counts": {
+      "contradicted": 0,
+      "supported": 46,
+      "valid_inference": 40,
+      "unverifiable": 0
+    },
+    "contradictions": 0
+  }
+}

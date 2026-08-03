@@ -1,0 +1,42 @@
+{
+  "name": "aggregate",
+  "passed": false,
+  "score": 0.942,
+  "reasoning": "Failed overall. The main issue was a decomposition completeness failure, with several important causal relationships and qualifiers not fully preserved, including the painless non-traumatic presentation making painful inflammatory causes less likely, the low-reflective granulomatous mass description, and the rationale linking negative infectious work-up to the final diagnosis. The weighted aggregate score was 0.942, and despite otherwise consistent verification, the final diagnosis should remain probabilistic rather than overstated.",
+  "data": {
+    "weighted_score": 0.942,
+    "all_passed": false,
+    "step_scores": {
+      "static_rules": {
+        "score": 1.0,
+        "passed": true,
+        "weight": 0.1
+      },
+      "decompose": {
+        "score": 0.0,
+        "passed": false,
+        "weight": 0.05
+      },
+      "chain_verify": {
+        "score": 1.0,
+        "passed": true,
+        "weight": 0.1
+      },
+      "classify": {
+        "score": 1.0,
+        "passed": true,
+        "weight": 0.0
+      },
+      "expert_verify": {
+        "score": 1.0,
+        "passed": true,
+        "weight": 0.65
+      },
+      "build_graph": {
+        "score": 0.9196,
+        "passed": false,
+        "weight": 0.1
+      }
+    }
+  }
+}

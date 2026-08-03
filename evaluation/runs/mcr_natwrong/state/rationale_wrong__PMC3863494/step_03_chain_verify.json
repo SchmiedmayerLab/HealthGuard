@@ -1,0 +1,10 @@
+{
+  "name": "chain_verify",
+  "passed": true,
+  "score": 1.0,
+  "reasoning": "All logical chains are internally consistent. The statements form a coherent diagnostic chain: clinical features, exposure history, immunosuppression, histology, and special stains all consistently support Hansen disease, specifically tuberculoid leprosy. The exclusions of fungal, tuberculosis, granuloma annulare, sarcoidosis, and nontuberculous mycobacterial infection are logically supported by the provided findings, especially the acid-fast bacilli within a granulomatous dermatitis involving a peripheral nerve bundle.",
+  "data": {
+    "has_chain_dependencies": true,
+    "issues": []
+  }
+}

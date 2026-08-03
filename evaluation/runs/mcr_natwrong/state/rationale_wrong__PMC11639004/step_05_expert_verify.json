@@ -1,0 +1,746 @@
+{
+  "name": "expert_verify",
+  "passed": true,
+  "score": 1.0,
+  "reasoning": "No contradictions among 81 statement(s) (58 supported, 23 valid inferences, 0 unverifiable).",
+  "data": {
+    "verifications": [
+      {
+        "text": "The chief issue is an incidentally characterized small hepatic nodule in a 50-year-old woman with chronic mild right upper quadrant pain.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.98,
+        "reasoning": "Case is a 50-year-old woman with chronic mild RUQ pain and a small hepatic nodule; this is a fair paraphrase of the presentation."
+      },
+      {
+        "text": "Her own concern is abdominal pain.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.97,
+        "reasoning": "Reference data states she presented with chronic mild right upper quadrant abdominal pain."
+      },
+      {
+        "text": "The clinically important problem is determining the nature of the 17 mm liver lesion.",
+        "category": "statistical",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.96,
+        "reasoning": "The key issue is indeed characterization of the 17 mm liver nodule on MRI."
+      },
+      {
+        "text": "Salient positive findings are the imaging characteristics.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.95,
+        "reasoning": "The trace explicitly emphasizes imaging characteristics as the salient positive findings."
+      },
+      {
+        "text": "Ultrasound showed a 15 mm homogeneous hyperechoic nodule in segment VI.",
+        "category": "statistical",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Ultrasound showed a 15 mm homogeneous hyperechoic nodule in segment VI."
+      },
+      {
+        "text": "MRI showed a well-circumscribed 17 mm lesion.",
+        "category": "statistical",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "MRI revealed a well-circumscribed 17 mm nodule."
+      },
+      {
+        "text": "The lesion was moderately T2 hyperintense.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Reference MRI described the lesion as moderately hyperintense on T2-weighted images."
+      },
+      {
+        "text": "The lesion was T1 hypointense.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Reference MRI described the lesion as hypointense on T1-weighted images."
+      },
+      {
+        "text": "The lesion was hyperintense on diffusion-weighted imaging with ADC restriction.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Reference MRI described hyperintensity on diffusion-weighted imaging with ADC restriction."
+      },
+      {
+        "text": "The lesion demonstrated arterial-phase hyperenhancement.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Reference MRI showed arterial-phase enhancement."
+      },
+      {
+        "text": "The lesion showed washout on portal/delayed phases.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Reference MRI showed washout in the portal and delayed phases."
+      },
+      {
+        "text": "The lesion showed capsule enhancement.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Reference MRI showed capsule enhancement."
+      },
+      {
+        "text": "There was signal drop on opposed-phase imaging.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Reference MRI showed a signal drop on opposed-phase imaging."
+      },
+      {
+        "text": "The signal drop on opposed-phase imaging indicated intralesional fat.",
+        "category": "causal",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.98,
+        "reasoning": "Opposed-phase signal drop is indicative of fat content, i.e., intralesional fat."
+      },
+      {
+        "text": "These are classic malignant-appearing dynamic enhancement features.",
+        "category": "factual",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.93,
+        "reasoning": "Arterial hyperenhancement with washout/capsule is a classic malignant-appearing pattern; this is a standard radiologic inference from the described MRI features."
+      },
+      {
+        "text": "The combination of arterial enhancement plus washout plus capsule is especially characteristic of malignant-appearing dynamic enhancement features.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.96,
+        "reasoning": "The combination of arterial enhancement, washout, and capsule is a hallmark HCC-type dynamic pattern; this is a sound inference."
+      },
+      {
+        "text": "The lesion is small.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.98,
+        "reasoning": "A 17 mm lesion is small."
+      },
+      {
+        "text": "The lesion is solitary.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.95,
+        "reasoning": "Only one liver lesion is described in the reference data."
+      },
+      {
+        "text": "Relevant background findings are notable mainly for the absence of chronic liver disease risk factors.",
+        "category": "factual",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.9,
+        "reasoning": "The absence of cirrhosis/hepatitis risk factors is a reasonable summary of the background data."
+      },
+      {
+        "text": "The patient has no past medical history.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Reference states no past medical history."
+      },
+      {
+        "text": "The patient has normal CBC and liver function tests.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "CBC and liver function tests were within normal limits."
+      },
+      {
+        "text": "The patient has normal alpha-fetoprotein.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Alpha-fetoprotein was within normal limits."
+      },
+      {
+        "text": "The patient has negative hepatitis B serologies.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Hepatitis B serologies were negative."
+      },
+      {
+        "text": "The patient has negative hepatitis C serologies.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Hepatitis C serologies were negative."
+      },
+      {
+        "text": "Physical examination was unremarkable.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Physical examination was unremarkable."
+      },
+      {
+        "text": "She is a non-smoker.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Reference explicitly says she is a non-smoker."
+      },
+      {
+        "text": "These findings make common cirrhosis-related hepatocellular carcinoma less expected.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.92,
+        "reasoning": "Normal labs and no cirrhosis/hepatitis make typical cirrhosis-related HCC less expected, though not excluded."
+      },
+      {
+        "text": "These findings do not exclude hepatocellular carcinoma.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.98,
+        "reasoning": "The trace explicitly states these findings do not exclude HCC."
+      },
+      {
+        "text": "Certain variants of hepatocellular carcinoma can occur in non-cirrhotic liver.",
+        "category": "factual",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.9,
+        "reasoning": "Non-cirrhotic HCC variants are a legitimate clinical possibility and are discussed in the trace."
+      },
+      {
+        "text": "Pertinent negatives help with the differential.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.88,
+        "reasoning": "This is a differential-framing statement, not a factual claim requiring direct verification."
+      },
+      {
+        "text": "There is no evidence provided of cirrhosis.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.97,
+        "reasoning": "No evidence of cirrhosis is provided in the reference data."
+      },
+      {
+        "text": "There is no evidence provided of viral hepatitis.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.97,
+        "reasoning": "Hepatitis B and C serologies were negative, so no evidence of viral hepatitis is provided."
+      },
+      {
+        "text": "There is no evidence provided of elevated AFP.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.97,
+        "reasoning": "AFP was normal, so there is no evidence of elevated AFP."
+      },
+      {
+        "text": "There is no evidence provided of systemic illness.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.95,
+        "reasoning": "No systemic illness is described in the reference data."
+      },
+      {
+        "text": "The lesion is not described as having peripheral nodular discontinuous enhancement.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.96,
+        "reasoning": "The lesion is not described with peripheral nodular discontinuous enhancement."
+      },
+      {
+        "text": "The lesion is not described as having progressive fill-in expected for hemangioma.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.96,
+        "reasoning": "The MRI description does not include progressive fill-in typical of hemangioma."
+      },
+      {
+        "text": "The lesion is not described as having a central scar.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.96,
+        "reasoning": "No central scar is described in the lesion imaging."
+      },
+      {
+        "text": "The lesion is not described as having the typical enhancement pattern of focal nodular hyperplasia.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.95,
+        "reasoning": "The described enhancement pattern is not the typical FNH pattern."
+      },
+      {
+        "text": "The presence of washout and capsule enhancement argues strongly against benign lesions such as focal fatty change, hemangioma, or most adenomas.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.93,
+        "reasoning": "Washout and capsule enhancement reasonably argue against benign lesions such as hemangioma or most adenomas; this is a standard differential inference."
+      },
+      {
+        "text": "Metastatic disease is less supported.",
+        "category": "factual",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.9,
+        "reasoning": "With no known primary malignancy and fat-containing hepatic lesion features, metastatic disease is less supported; this is a reasonable inference."
+      },
+      {
+        "text": "There is no known primary malignancy.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.98,
+        "reasoning": "Reference data says no past medical history and does not mention any primary malignancy; this is a reasonable case-context statement."
+      },
+      {
+        "text": "The lesion contains fat.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Opposed-phase signal drop is explicitly described as indicative of fat content."
+      },
+      {
+        "text": "Fat is more characteristic of hepatocellular neoplasms than most metastases.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.86,
+        "reasoning": "This is a differential inference; fat-containing hepatic lesions are more suggestive of hepatocellular neoplasms than most metastases, though not directly stated in the data."
+      },
+      {
+        "text": "Hepatocellular carcinoma fits best.",
+        "category": "factual",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.97,
+        "reasoning": "Given arterial enhancement, washout, capsule enhancement, diffusion restriction, and fat, HCC is the leading diagnosis; this follows from the trace."
+      },
+      {
+        "text": "The lesion shows arterial-phase hyperenhancement.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 1.0,
+        "reasoning": "MRI explicitly showed arterial-phase enhancement."
+      },
+      {
+        "text": "The lesion shows portal/delayed washout.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 1.0,
+        "reasoning": "MRI explicitly showed washout in the portal and delayed phases."
+      },
+      {
+        "text": "The lesion shows capsule enhancement.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 1.0,
+        "reasoning": "MRI explicitly showed capsule enhancement."
+      },
+      {
+        "text": "These features together are hallmark imaging features of hepatocellular carcinoma.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.98,
+        "reasoning": "The combination of arterial hyperenhancement, washout, and capsule enhancement is a classic hallmark pattern for HCC."
+      },
+      {
+        "text": "Intralesional fat can be seen in hepatocellular carcinoma.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.96,
+        "reasoning": "Opposed-phase signal drop indicates intralesional fat, and the trace explicitly states fat can be seen in HCC."
+      },
+      {
+        "text": "Intralesional fat can be seen especially in small or well-differentiated tumors.",
+        "category": "factual",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.84,
+        "reasoning": "This is standard clinical knowledge about HCC variants; not directly stated in the reference data."
+      },
+      {
+        "text": "Diffusion restriction also supports malignancy.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.95,
+        "reasoning": "Diffusion restriction is a common malignant imaging feature and supports malignancy as an inference."
+      },
+      {
+        "text": "Hepatocellular adenoma is plausible.",
+        "category": "factual",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.95,
+        "reasoning": "Adenoma is a legitimate differential consideration from the imaging and non-cirrhotic background."
+      },
+      {
+        "text": "Adenomas can occur in non-cirrhotic livers.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.95,
+        "reasoning": "The case is a non-cirrhotic liver context; adenomas can occur in non-cirrhotic livers is standard and consistent."
+      },
+      {
+        "text": "Adenomas may contain fat with T1/T2 signal changes.",
+        "category": "factual",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.9,
+        "reasoning": "Fat and T1/T2 signal changes are compatible with adenoma, though not directly stated in the reference data."
+      },
+      {
+        "text": "Adenomas more often show arterial enhancement without the classic combination of washout and enhancing capsule seen here.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.96,
+        "reasoning": "This is a differential-pruning inference based on the lesion's enhancement pattern."
+      },
+      {
+        "text": "Diffusion restriction is less typical for adenoma.",
+        "category": "factual",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.9,
+        "reasoning": "Diffusion restriction is less typical for adenoma; this is a standard inference rather than a directly stated fact."
+      },
+      {
+        "text": "No risk factors such as oral contraceptive use, obesity, or metabolic syndrome are provided.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "The reference data provides no oral contraceptive use, obesity, or metabolic syndrome; absence of provided risk factors is accurate."
+      },
+      {
+        "text": "Focal nodular hyperplasia is less likely.",
+        "category": "factual",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.96,
+        "reasoning": "FNH is a less likely differential given the imaging pattern; this is a conclusion from the trace."
+      },
+      {
+        "text": "Focal nodular hyperplasia can occur in women without liver disease.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.95,
+        "reasoning": "FNH can occur in women without liver disease is standard medical knowledge and consistent with the case."
+      },
+      {
+        "text": "Focal nodular hyperplasia usually shows arterial hyperenhancement with persistent enhancement rather than washout.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.95,
+        "reasoning": "The trace states FNH usually shows arterial hyperenhancement with persistent enhancement rather than washout."
+      },
+      {
+        "text": "Focal nodular hyperplasia often has a central scar.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.95,
+        "reasoning": "The trace states FNH often has a central scar."
+      },
+      {
+        "text": "Focal nodular hyperplasia typically does not show capsule enhancement or diffusion restriction.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.95,
+        "reasoning": "The trace states capsule enhancement and diffusion restriction are not typical for FNH."
+      },
+      {
+        "text": "Hepatic angiomyolipoma could contain fat and be hypervascular.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.95,
+        "reasoning": "The trace explicitly states hepatic angiomyolipoma could contain fat and be hypervascular."
+      },
+      {
+        "text": "Hepatic angiomyolipoma is uncommon.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.95,
+        "reasoning": "The trace explicitly states hepatic angiomyolipoma is uncommon."
+      },
+      {
+        "text": "The classic HCC-like washout/capsule pattern makes hepatic angiomyolipoma less likely.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.96,
+        "reasoning": "Given the lesion's washout and capsule enhancement, angiomyolipoma is less likely; this is a differential inference."
+      },
+      {
+        "text": "Hemangioma is unlikely.",
+        "category": "factual",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.97,
+        "reasoning": "Hemangioma is judged unlikely in the trace based on imaging pattern."
+      },
+      {
+        "text": "The lesion is hyperechoic on ultrasound.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 1.0,
+        "reasoning": "Ultrasound showed a homogeneous hyperechoic nodule."
+      },
+      {
+        "text": "MRI behavior is not typical for hemangioma.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "The MRI pattern described is not typical for hemangioma, as stated in the trace."
+      },
+      {
+        "text": "Hemangiomas usually show very high T2 signal.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.98,
+        "reasoning": "The trace states hemangiomas usually show very high T2 signal."
+      },
+      {
+        "text": "Hemangiomas usually show peripheral nodular enhancement with centripetal fill-in.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.98,
+        "reasoning": "The trace states hemangiomas usually show peripheral nodular enhancement with centripetal fill-in."
+      },
+      {
+        "text": "Hemangiomas do not usually show washout and capsule.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.98,
+        "reasoning": "The trace states hemangiomas do not usually show washout and capsule."
+      },
+      {
+        "text": "Despite the absence of cirrhosis, hepatitis, or AFP elevation, the MRI pattern is most decisive.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.95,
+        "reasoning": "This is a synthesis of the absence of cirrhosis/hepatitis/AFP elevation with the decisive MRI pattern."
+      },
+      {
+        "text": "Arterial hyperenhancement plus washout plus capsule enhancement in a fat-containing hepatic lesion with diffusion restriction is most consistent with hepatocellular carcinoma.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.99,
+        "reasoning": "This is the core diagnostic inference from the imaging pattern and fat content."
+      },
+      {
+        "text": "In a non-cirrhotic liver and with fat content, a steatohepatitic or well-differentiated HCC phenotype would be compatible.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.93,
+        "reasoning": "The trace explicitly says a steatohepatitic or well-differentiated HCC phenotype would be compatible in this setting."
+      },
+      {
+        "text": "The single best diagnosis from the provided data is hepatocellular carcinoma.",
+        "category": "factual",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.99,
+        "reasoning": "The final diagnosis of HCC follows from the provided data and reasoning trace."
+      },
+      {
+        "text": "The differential diagnosis includes hepatocellular carcinoma with high likelihood.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.98,
+        "reasoning": "The trace lists HCC as the high-likelihood differential diagnosis."
+      },
+      {
+        "text": "The differential diagnosis includes hepatocellular adenoma with medium likelihood.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.98,
+        "reasoning": "The trace lists hepatocellular adenoma as medium likelihood."
+      },
+      {
+        "text": "The differential diagnosis includes focal nodular hyperplasia with low likelihood.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.98,
+        "reasoning": "The trace lists focal nodular hyperplasia as low likelihood."
+      },
+      {
+        "text": "The differential diagnosis includes hepatic angiomyolipoma with low likelihood.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.98,
+        "reasoning": "The trace lists hepatic angiomyolipoma as low likelihood."
+      },
+      {
+        "text": "The differential diagnosis includes hemangioma with low likelihood.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.98,
+        "reasoning": "The trace lists hemangioma as low likelihood."
+      },
+      {
+        "text": "The final diagnosis is hepatocellular carcinoma.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "The trace explicitly concludes 'Final diagnosis: Hepatocellular carcinoma,' and the MRI features in the reference data match this diagnosis."
+      }
+    ],
+    "verdict_counts": {
+      "contradicted": 0,
+      "supported": 58,
+      "valid_inference": 23,
+      "unverifiable": 0
+    },
+    "contradictions": 0
+  }
+}

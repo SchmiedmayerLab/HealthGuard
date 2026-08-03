@@ -1,0 +1,42 @@
+{
+  "name": "aggregate",
+  "passed": false,
+  "score": 0.9818,
+  "reasoning": "Failed overall due to a graph-building step failure despite all earlier verification steps passing. The main diagnostic reasoning is internally consistent and the final diagnosis of retroperitoneal sarcoma is well supported by the imaging and clinical context, but the build_graph step reported 27 disconnected nodes. The weighted aggregate score was 0.9818.",
+  "data": {
+    "weighted_score": 0.9818,
+    "all_passed": false,
+    "step_scores": {
+      "static_rules": {
+        "score": 1.0,
+        "passed": true,
+        "weight": 0.1
+      },
+      "decompose": {
+        "score": 1.0,
+        "passed": true,
+        "weight": 0.05
+      },
+      "chain_verify": {
+        "score": 1.0,
+        "passed": true,
+        "weight": 0.1
+      },
+      "classify": {
+        "score": 1.0,
+        "passed": true,
+        "weight": 0.0
+      },
+      "expert_verify": {
+        "score": 1.0,
+        "passed": true,
+        "weight": 0.65
+      },
+      "build_graph": {
+        "score": 0.8176,
+        "passed": false,
+        "weight": 0.1
+      }
+    }
+  }
+}

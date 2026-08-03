@@ -1,0 +1,10 @@
+{
+  "name": "chain_verify",
+  "passed": true,
+  "score": 1.0,
+  "reasoning": "All logical chains are internally consistent. The statements form a coherent diagnostic chain: clinical findings, imaging, bronchoscopy, and immunosuppression are used to support a differential and converge on Aspergillus tracheobronchitis at the bronchial anastomosis. The intermediate exclusions and prioritization are logically consistent, and no statement pair contains an obvious unsupported causal or dependency break.",
+  "data": {
+    "has_chain_dependencies": true,
+    "issues": []
+  }
+}

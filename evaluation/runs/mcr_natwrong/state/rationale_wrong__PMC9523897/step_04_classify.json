@@ -1,0 +1,530 @@
+{
+  "name": "classify",
+  "passed": true,
+  "score": 1.0,
+  "reasoning": "Classified 104 statement(s): 32 causal, 71 factual, 1 statistical.",
+  "data": {
+    "classified": [
+      {
+        "text": "The chief complaint is a chronic, painful, slowly enlarging ulcerative lesion of the lower lip present for 10 months.",
+        "category": "factual",
+        "rationale": "It states a patient finding and symptom course that can be verified from the case."
+      },
+      {
+        "text": "The patient’s main concern is a persistent crusted lip ulcer that has progressed despite multiple empiric treatments.",
+        "category": "factual",
+        "rationale": "It describes the patient’s presenting complaint and treatment history."
+      },
+      {
+        "text": "The patient is a 41-year-old woman.",
+        "category": "factual",
+        "rationale": "This is a direct patient demographic fact."
+      },
+      {
+        "text": "The patient has a 3 × 1 cm ill-demarcated, tender, thick-crusted lower-lip ulcer.",
+        "category": "statistical",
+        "rationale": "It includes a specific measured lesion size and descriptive exam findings."
+      },
+      {
+        "text": "The lower-lip ulcer discharged fluid on pressure.",
+        "category": "factual",
+        "rationale": "This is an observable clinical finding."
+      },
+      {
+        "text": "The course of the lower-lip ulcer has been chronic and progressive over 10 months.",
+        "category": "factual",
+        "rationale": "It describes the duration and progression of the lesion."
+      },
+      {
+        "text": "The lower-lip ulcer worsened despite local wound care.",
+        "category": "factual",
+        "rationale": "It reports the lesion’s response to prior treatment."
+      },
+      {
+        "text": "The lower-lip ulcer worsened despite topical antifungal therapy.",
+        "category": "factual",
+        "rationale": "It reports lack of improvement after a treatment."
+      },
+      {
+        "text": "The lower-lip ulcer worsened despite topical antimicrobial therapy.",
+        "category": "factual",
+        "rationale": "It reports lack of improvement after a treatment."
+      },
+      {
+        "text": "The lower-lip ulcer worsened despite empiric immunosuppressive treatments.",
+        "category": "factual",
+        "rationale": "It reports the clinical course after treatment exposure."
+      },
+      {
+        "text": "The lower-lip ulcer worsened despite empiric antibiotic treatments.",
+        "category": "factual",
+        "rationale": "It reports the clinical course after treatment exposure."
+      },
+      {
+        "text": "Histology from two biopsies showed parakeratotic hyperkeratosis.",
+        "category": "factual",
+        "rationale": "This is a pathology finding from biopsy specimens."
+      },
+      {
+        "text": "Histology from two biopsies showed severe acanthosis.",
+        "category": "factual",
+        "rationale": "This is a pathology finding from biopsy specimens."
+      },
+      {
+        "text": "Histology from two biopsies showed spongiosis.",
+        "category": "factual",
+        "rationale": "This is a pathology finding from biopsy specimens."
+      },
+      {
+        "text": "Histology from two biopsies showed exocytosis of inflammatory cells.",
+        "category": "factual",
+        "rationale": "This is a pathology finding from biopsy specimens."
+      },
+      {
+        "text": "Histology from two biopsies showed a mixed dermal infiltrate.",
+        "category": "factual",
+        "rationale": "This is a pathology finding from biopsy specimens."
+      },
+      {
+        "text": "The histology supports a chronic inflammatory or infectious process rather than straightforward neoplasia.",
+        "category": "causal",
+        "rationale": "It interprets how the biopsy findings relate to the underlying disease process."
+      },
+      {
+        "text": "The patient had intermittent bronchitis.",
+        "category": "factual",
+        "rationale": "This is a reported medical history item."
+      },
+      {
+        "text": "The intermittent bronchitis was treated with corticosteroid nasal spray.",
+        "category": "factual",
+        "rationale": "It states a prior treatment exposure."
+      },
+      {
+        "text": "Corticosteroid nasal spray is a minor steroid exposure.",
+        "category": "factual",
+        "rationale": "It characterizes the exposure level as a factual attribute."
+      },
+      {
+        "text": "Corticosteroid nasal spray is not major systemic immunosuppression.",
+        "category": "factual",
+        "rationale": "It states a clinical attribute about the exposure’s systemic effect."
+      },
+      {
+        "text": "The case specifically raises opportunistic fungal infection among the clinical differentials.",
+        "category": "factual",
+        "rationale": "It identifies a diagnostic consideration in the case."
+      },
+      {
+        "text": "There was no evidence of malignant transformation on two incisional biopsies.",
+        "category": "factual",
+        "rationale": "This is a biopsy result indicating absence of malignancy."
+      },
+      {
+        "text": "The absence of malignant transformation argues strongly against squamous cell carcinoma.",
+        "category": "causal",
+        "rationale": "It links the negative biopsy result to reduced likelihood of a diagnosis."
+      },
+      {
+        "text": "The absence of malignant transformation argues strongly against another lip malignancy.",
+        "category": "causal",
+        "rationale": "It links the negative biopsy result to reduced likelihood of malignancy."
+      },
+      {
+        "text": "Direct immunofluorescence was negative.",
+        "category": "factual",
+        "rationale": "This is a diagnostic test result."
+      },
+      {
+        "text": "Negative direct immunofluorescence makes immunobullous disease less likely.",
+        "category": "causal",
+        "rationale": "It states how the test result affects diagnostic probability."
+      },
+      {
+        "text": "Direct smear for leishmaniasis was negative.",
+        "category": "factual",
+        "rationale": "This is a diagnostic test result."
+      },
+      {
+        "text": "Negative direct smear for leishmaniasis argues against ulcerative leishmaniasis.",
+        "category": "causal",
+        "rationale": "It links the negative test to reduced likelihood of the disease."
+      },
+      {
+        "text": "The patient was afebrile.",
+        "category": "factual",
+        "rationale": "This is a direct clinical observation."
+      },
+      {
+        "text": "The patient had no lymphadenopathy.",
+        "category": "factual",
+        "rationale": "This is a direct clinical observation."
+      },
+      {
+        "text": "The patient had no other systemic findings.",
+        "category": "factual",
+        "rationale": "This is a direct clinical observation."
+      },
+      {
+        "text": "The absence of fever, lymphadenopathy, and other systemic findings makes disseminated infection or aggressive inflammatory disease less likely.",
+        "category": "causal",
+        "rationale": "It explains how the absence of systemic signs affects diagnostic likelihood."
+      },
+      {
+        "text": "HIV testing was negative.",
+        "category": "factual",
+        "rationale": "This is a laboratory test result."
+      },
+      {
+        "text": "Hepatitis B testing was negative.",
+        "category": "factual",
+        "rationale": "This is a laboratory test result."
+      },
+      {
+        "text": "Hepatitis C testing was negative.",
+        "category": "factual",
+        "rationale": "This is a laboratory test result."
+      },
+      {
+        "text": "The nitroblue tetrazolium test was normal.",
+        "category": "factual",
+        "rationale": "This is a laboratory test result."
+      },
+      {
+        "text": "There is no evidence here of major immunodeficiency.",
+        "category": "factual",
+        "rationale": "It is a clinical conclusion about immune status based on the workup."
+      },
+      {
+        "text": "There is no evidence here of chronic granulomatous disease.",
+        "category": "factual",
+        "rationale": "It is a clinical conclusion about a specific disorder based on testing."
+      },
+      {
+        "text": "The patient had no smoking history.",
+        "category": "factual",
+        "rationale": "This is a patient history fact."
+      },
+      {
+        "text": "The patient had no alcohol history.",
+        "category": "factual",
+        "rationale": "This is a patient history fact."
+      },
+      {
+        "text": "The patient had no trauma history.",
+        "category": "factual",
+        "rationale": "This is a patient history fact."
+      },
+      {
+        "text": "The patient had no tattooing history.",
+        "category": "factual",
+        "rationale": "This is a patient history fact."
+      },
+      {
+        "text": "The patient had no burns history.",
+        "category": "factual",
+        "rationale": "This is a patient history fact."
+      },
+      {
+        "text": "The absence of smoking, alcohol, trauma, tattooing, and burns reduces common malignant or traumatic explanations.",
+        "category": "causal",
+        "rationale": "It states how the absence of exposures affects diagnostic reasoning."
+      },
+      {
+        "text": "The patient had no onychomycosis.",
+        "category": "factual",
+        "rationale": "This is a negative clinical finding."
+      },
+      {
+        "text": "The patient had no interdigital intertrigo.",
+        "category": "factual",
+        "rationale": "This is a negative clinical finding."
+      },
+      {
+        "text": "There is no obvious concurrent dermatophyte reservoir.",
+        "category": "factual",
+        "rationale": "It states an observed absence of a reservoir source."
+      },
+      {
+        "text": "The absence of an obvious concurrent dermatophyte reservoir does not exclude fungal infection.",
+        "category": "causal",
+        "rationale": "It explains that the negative finding does not rule out infection."
+      },
+      {
+        "text": "Squamous cell carcinoma is a major consideration.",
+        "category": "factual",
+        "rationale": "It identifies a diagnostic possibility."
+      },
+      {
+        "text": "A chronic enlarging crusted lip ulcer is a classic presentation for squamous cell carcinoma.",
+        "category": "causal",
+        "rationale": "It links the lesion pattern to the disease presentation."
+      },
+      {
+        "text": "Squamous cell carcinoma becomes less likely because two biopsies showed no malignant transformation.",
+        "category": "causal",
+        "rationale": "It explains how biopsy results reduce the likelihood of the diagnosis."
+      },
+      {
+        "text": "Other malignant lesions similarly fall in likelihood for the same reason.",
+        "category": "causal",
+        "rationale": "It links the negative biopsies to reduced likelihood of other malignancies."
+      },
+      {
+        "text": "Ulcerative leishmaniasis is plausible in the geographic context and chronic ulcerative morphology.",
+        "category": "factual",
+        "rationale": "It states a diagnostic possibility based on context and presentation."
+      },
+      {
+        "text": "The direct smear was negative for leishmaniasis.",
+        "category": "factual",
+        "rationale": "This is a diagnostic test result."
+      },
+      {
+        "text": "Histology did not support ulcerative leishmaniasis.",
+        "category": "factual",
+        "rationale": "It reports the pathology interpretation."
+      },
+      {
+        "text": "Ulcerative mycobacterial infection could cause a chronic nonhealing ulcer.",
+        "category": "causal",
+        "rationale": "It states a disease mechanism or clinical relationship."
+      },
+      {
+        "text": "The pathology described is nonspecific.",
+        "category": "factual",
+        "rationale": "It characterizes the biopsy findings."
+      },
+      {
+        "text": "There are no systemic clues provided for ulcerative mycobacterial infection.",
+        "category": "factual",
+        "rationale": "It states the absence of supportive systemic findings."
+      },
+      {
+        "text": "There are no granulomatous features provided for ulcerative mycobacterial infection.",
+        "category": "factual",
+        "rationale": "It states the absence of supportive histologic features."
+      },
+      {
+        "text": "Erosive lichen planus can affect the lips.",
+        "category": "factual",
+        "rationale": "It is a general clinical fact about the disease."
+      },
+      {
+        "text": "Erosive lichen planus can be painful.",
+        "category": "factual",
+        "rationale": "It is a general clinical fact about the disease."
+      },
+      {
+        "text": "The lesion here is a thick-crusted ulcer with discharge rather than the more typical erosive or reticular mucosal pattern.",
+        "category": "factual",
+        "rationale": "It describes the lesion’s morphology relative to typical patterns."
+      },
+      {
+        "text": "The histology is not characteristic of erosive lichen planus.",
+        "category": "factual",
+        "rationale": "It reports a pathology-based assessment."
+      },
+      {
+        "text": "Immunobullous disorders are less likely because direct immunofluorescence was negative.",
+        "category": "causal",
+        "rationale": "It links the negative test to reduced likelihood of the disorder."
+      },
+      {
+        "text": "Opportunistic fungal infection remains plausible.",
+        "category": "factual",
+        "rationale": "It states a remaining diagnostic possibility."
+      },
+      {
+        "text": "Chronic verrucous or crusted inflammatory lesions can mimic squamous cell carcinoma.",
+        "category": "causal",
+        "rationale": "It describes a relationship between lesion appearance and diagnostic mimicry."
+      },
+      {
+        "text": "Chronic verrucous or crusted inflammatory lesions may worsen with immunosuppression.",
+        "category": "causal",
+        "rationale": "It states a relationship between immunosuppression and lesion worsening."
+      },
+      {
+        "text": "Routine biopsies can initially appear nonspecific if special stains or cultures are not yet diagnostic.",
+        "category": "causal",
+        "rationale": "It explains why biopsy results may be nondiagnostic early on."
+      },
+      {
+        "text": "Among fungal causes, the most likely diagnosis is deep dermatophytosis of the lip due to Trichophyton species.",
+        "category": "factual",
+        "rationale": "It states the leading diagnostic conclusion."
+      },
+      {
+        "text": "Deep dermatophytosis of the lip is also described as tinea of the lip.",
+        "category": "factual",
+        "rationale": "It provides an alternate name for the condition."
+      },
+      {
+        "text": "Deep dermatophytosis of the lip is also described as a Majocchi-like deep dermatophyte infection.",
+        "category": "factual",
+        "rationale": "It provides an alternate descriptive term for the condition."
+      },
+      {
+        "text": "Deep dermatophytosis of the lip best fits the chronic crusted painful ulcer on the lower lip.",
+        "category": "causal",
+        "rationale": "It explains why the diagnosis matches the presentation."
+      },
+      {
+        "text": "Deep dermatophytosis of the lip best fits the inflammatory but nonmalignant biopsies.",
+        "category": "causal",
+        "rationale": "It links the biopsy pattern to the diagnosis."
+      },
+      {
+        "text": "Deep dermatophytosis of the lip best fits the worsening after empiric immunosuppressive treatment.",
+        "category": "causal",
+        "rationale": "It explains how treatment response supports the diagnosis."
+      },
+      {
+        "text": "The absence of overt immunodeficiency does not exclude localized deep dermatophyte infection.",
+        "category": "causal",
+        "rationale": "It states that lack of immunodeficiency does not rule out the infection."
+      },
+      {
+        "text": "The case framing of an opportunistic fungal infection supports this conclusion.",
+        "category": "causal",
+        "rationale": "It links the case framing to the diagnostic conclusion."
+      },
+      {
+        "text": "The exclusion of malignancy supports this conclusion.",
+        "category": "causal",
+        "rationale": "It explains how ruling out malignancy supports the diagnosis."
+      },
+      {
+        "text": "The exclusion of leishmaniasis supports this conclusion.",
+        "category": "causal",
+        "rationale": "It explains how ruling out leishmaniasis supports the diagnosis."
+      },
+      {
+        "text": "The exclusion of immunobullous disease supports this conclusion.",
+        "category": "causal",
+        "rationale": "It explains how ruling out immunobullous disease supports the diagnosis."
+      },
+      {
+        "text": "The single most likely diagnosis is a deep dermatophyte infection of the lower lip.",
+        "category": "factual",
+        "rationale": "It states the final diagnostic conclusion."
+      },
+      {
+        "text": "Deep dermatophytosis of the lower lip is a differential diagnosis with high likelihood.",
+        "category": "factual",
+        "rationale": "It states a diagnostic probability assessment."
+      },
+      {
+        "text": "The chronic slowly enlarging crusted painful lip ulcer supports deep dermatophytosis of the lower lip.",
+        "category": "causal",
+        "rationale": "It links the clinical presentation to the diagnosis."
+      },
+      {
+        "text": "The inflammatory nonmalignant biopsies support deep dermatophytosis of the lower lip.",
+        "category": "causal",
+        "rationale": "It links pathology findings to the diagnosis."
+      },
+      {
+        "text": "Worsening with empiric immunosuppression supports deep dermatophytosis of the lower lip.",
+        "category": "causal",
+        "rationale": "It links treatment response to the diagnosis."
+      },
+      {
+        "text": "Exclusion of malignancy, leishmaniasis, and immunobullous disease supports deep dermatophytosis of the lower lip.",
+        "category": "causal",
+        "rationale": "It explains how differential exclusion supports the diagnosis."
+      },
+      {
+        "text": "Squamous cell carcinoma of the lower lip is a differential diagnosis with medium likelihood.",
+        "category": "factual",
+        "rationale": "It states a diagnostic probability assessment."
+      },
+      {
+        "text": "A chronic enlarging crusted ulcer on the lower lip is a classic presentation for squamous cell carcinoma of the lower lip.",
+        "category": "causal",
+        "rationale": "It links the lesion pattern to the disease presentation."
+      },
+      {
+        "text": "Two incisional biopsies showed no malignant transformation, lowering the likelihood of squamous cell carcinoma of the lower lip.",
+        "category": "causal",
+        "rationale": "It explains how biopsy results reduce diagnostic likelihood."
+      },
+      {
+        "text": "Ulcerative leishmaniasis is a differential diagnosis with low likelihood.",
+        "category": "factual",
+        "rationale": "It states a diagnostic probability assessment."
+      },
+      {
+        "text": "A chronic ulcerative lip lesion in an Iranian patient is epidemiologically plausible for ulcerative leishmaniasis.",
+        "category": "causal",
+        "rationale": "It links epidemiology and presentation to diagnostic plausibility."
+      },
+      {
+        "text": "Direct smear for leishmaniasis was negative.",
+        "category": "factual",
+        "rationale": "This is a diagnostic test result."
+      },
+      {
+        "text": "Biopsy did not establish ulcerative leishmaniasis.",
+        "category": "factual",
+        "rationale": "It reports the biopsy interpretation."
+      },
+      {
+        "text": "Ulcerative mycobacterial infection is a differential diagnosis with low likelihood.",
+        "category": "factual",
+        "rationale": "It states a diagnostic probability assessment."
+      },
+      {
+        "text": "Ulcerative mycobacterial infection could cause a chronic nonhealing ulcer.",
+        "category": "causal",
+        "rationale": "It states a disease mechanism or clinical relationship."
+      },
+      {
+        "text": "There were no systemic findings for ulcerative mycobacterial infection.",
+        "category": "factual",
+        "rationale": "It states the absence of supportive findings."
+      },
+      {
+        "text": "There was no lymphadenopathy for ulcerative mycobacterial infection.",
+        "category": "factual",
+        "rationale": "It states the absence of supportive findings."
+      },
+      {
+        "text": "The pathology provided no specific granulomatous or mycobacterial features.",
+        "category": "factual",
+        "rationale": "It reports the absence of specific histologic findings."
+      },
+      {
+        "text": "Erosive lichen planus is a differential diagnosis with low likelihood.",
+        "category": "factual",
+        "rationale": "It states a diagnostic probability assessment."
+      },
+      {
+        "text": "Painful lip erosions are possible in erosive lichen planus.",
+        "category": "factual",
+        "rationale": "It is a general clinical fact about the disease."
+      },
+      {
+        "text": "The thick-crusted draining ulcer is not typical of erosive lichen planus.",
+        "category": "factual",
+        "rationale": "It compares the lesion to the typical presentation."
+      },
+      {
+        "text": "The biopsy findings are not typical of erosive lichen planus.",
+        "category": "factual",
+        "rationale": "It reports a pathology-based assessment."
+      },
+      {
+        "text": "The lesion worsened despite empiric immunosuppressive therapy.",
+        "category": "factual",
+        "rationale": "It reports the clinical course after treatment."
+      },
+      {
+        "text": "The final diagnosis is deep dermatophytosis of the lower lip.",
+        "category": "factual",
+        "rationale": "It states the final diagnosis directly."
+      }
+    ]
+  }
+}

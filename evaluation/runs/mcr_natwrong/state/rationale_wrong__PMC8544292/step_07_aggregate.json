@@ -1,0 +1,42 @@
+{
+  "name": "aggregate",
+  "passed": false,
+  "score": 0.8829,
+  "reasoning": "Failed. The weighted aggregate score was 0.8829. Although the text strongly supports ocular myasthenia gravis through fluctuating ptosis, intermittent diplopia, and a positive ice pack test, the verification pipeline identified an important unresolved conflict: the dilated pupil and ocular pain are more consistent with an oculomotor nerve palsy or compressive third nerve process, so the final diagnosis is not fully supported.",
+  "data": {
+    "weighted_score": 0.8829,
+    "all_passed": false,
+    "step_scores": {
+      "static_rules": {
+        "score": 1.0,
+        "passed": true,
+        "weight": 0.1
+      },
+      "decompose": {
+        "score": 0.0,
+        "passed": false,
+        "weight": 0.05
+      },
+      "chain_verify": {
+        "score": 0.4,
+        "passed": false,
+        "weight": 0.1
+      },
+      "classify": {
+        "score": 1.0,
+        "passed": true,
+        "weight": 0.0
+      },
+      "expert_verify": {
+        "score": 1.0,
+        "passed": true,
+        "weight": 0.65
+      },
+      "build_graph": {
+        "score": 0.9286,
+        "passed": false,
+        "weight": 0.1
+      }
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "name": "chain_verify",
+  "passed": true,
+  "score": 1.0,
+  "reasoning": "All logical chains are internally consistent. The statements form a coherent diagnostic chain: the clinical findings support acute myocardial ischemia/injury, the differential diagnoses are evaluated against imaging, labs, and rapid recovery, and the exclusions (normal coronary anatomy, negative viral studies, no obstructive anatomy) reasonably support the final diagnosis of transient neonatal myocardial infarction. No logical breaks are present.",
+  "data": {
+    "has_chain_dependencies": true,
+    "issues": []
+  }
+}

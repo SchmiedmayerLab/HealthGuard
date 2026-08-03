@@ -1,0 +1,42 @@
+{
+  "name": "aggregate",
+  "passed": false,
+  "score": 0.9356,
+  "reasoning": "Failed. The overall weighted aggregate score was 0.9356, but the pipeline identified a decomposition failure with several missing or only partially preserved clinical linkages, including the full cranial neuropathy pattern, the systemic sarcoidosis context, and some exclusionary reasoning. Internal verification and logical consistency checks passed, and the final diagnosis of neurosarcoidosis with sarcoid myopathy and peripheral neuropathy was otherwise well supported.",
+  "data": {
+    "weighted_score": 0.9356,
+    "all_passed": false,
+    "step_scores": {
+      "static_rules": {
+        "score": 1.0,
+        "passed": true,
+        "weight": 0.1
+      },
+      "decompose": {
+        "score": 0.0,
+        "passed": false,
+        "weight": 0.05
+      },
+      "chain_verify": {
+        "score": 1.0,
+        "passed": true,
+        "weight": 0.1
+      },
+      "classify": {
+        "score": 1.0,
+        "passed": true,
+        "weight": 0.0
+      },
+      "expert_verify": {
+        "score": 1.0,
+        "passed": true,
+        "weight": 0.65
+      },
+      "build_graph": {
+        "score": 0.8556,
+        "passed": false,
+        "weight": 0.1
+      }
+    }
+  }
+}

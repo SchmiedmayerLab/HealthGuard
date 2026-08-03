@@ -1,0 +1,385 @@
+{
+  "name": "classify",
+  "passed": true,
+  "score": 1.0,
+  "reasoning": "Classified 75 statement(s): 33 causal, 33 factual, 1 recommendation, 8 statistical.",
+  "data": {
+    "classified": [
+      {
+        "text": "The chief concern is sudden death within about 2 days of first BNT162b2 vaccination.",
+        "category": "factual",
+        "rationale": "It states a reported event and timing without making a numerical measurement or causal claim."
+      },
+      {
+        "text": "The sudden death was preceded by acute systemic symptoms.",
+        "category": "factual",
+        "rationale": "It asserts a clinical observation about preceding symptoms."
+      },
+      {
+        "text": "The sudden death was preceded by chest pain.",
+        "category": "factual",
+        "rationale": "It reports a symptom that occurred before death."
+      },
+      {
+        "text": "The sudden death was preceded by back pain.",
+        "category": "factual",
+        "rationale": "It reports a symptom that occurred before death."
+      },
+      {
+        "text": "The key diagnostic task is to identify the proximate medical cause of death rather than simply note the temporal association with vaccination.",
+        "category": "recommendation",
+        "rationale": "It advises what the diagnostic focus should be."
+      },
+      {
+        "text": "She was a 72-year-old woman.",
+        "category": "statistical",
+        "rationale": "It gives a numerical age value."
+      },
+      {
+        "text": "She developed malaise immediately after vaccination.",
+        "category": "factual",
+        "rationale": "It states a symptom occurrence after vaccination."
+      },
+      {
+        "text": "On day X+1, at about 16:00, she developed fatigue.",
+        "category": "statistical",
+        "rationale": "It specifies a time point for symptom onset."
+      },
+      {
+        "text": "On day X+1, at about 16:00, she developed nausea.",
+        "category": "statistical",
+        "rationale": "It specifies a time point for symptom onset."
+      },
+      {
+        "text": "On day X+1, at about 16:00, she developed chest pain.",
+        "category": "statistical",
+        "rationale": "It specifies a time point for symptom onset."
+      },
+      {
+        "text": "On day X+1, at about 16:00, she developed back pain.",
+        "category": "statistical",
+        "rationale": "It specifies a time point for symptom onset."
+      },
+      {
+        "text": "She died sometime between about 20:00 on day X+1 and discovery on day X+2.",
+        "category": "statistical",
+        "rationale": "It gives a time interval for death."
+      },
+      {
+        "text": "Baseline data shortly before vaccination showed normal liver function.",
+        "category": "factual",
+        "rationale": "It reports a laboratory finding."
+      },
+      {
+        "text": "Baseline data shortly before vaccination showed normal kidney function.",
+        "category": "factual",
+        "rationale": "It reports a laboratory finding."
+      },
+      {
+        "text": "Baseline data shortly before vaccination showed normal blood count.",
+        "category": "factual",
+        "rationale": "It reports a laboratory finding."
+      },
+      {
+        "text": "There was no thrombocytopenia 10 days before vaccination.",
+        "category": "statistical",
+        "rationale": "It includes a specific time reference and lab status."
+      },
+      {
+        "text": "There was no anemia 10 days before vaccination.",
+        "category": "statistical",
+        "rationale": "It includes a specific time reference and lab status."
+      },
+      {
+        "text": "The absence of thrombocytopenia and anemia 10 days before vaccination argues against a preexisting hematologic explanation for sudden collapse.",
+        "category": "causal",
+        "rationale": "It links the absence of lab abnormalities to a reduced likelihood of a hematologic cause."
+      },
+      {
+        "text": "Her past history includes controlled hyperthyroidism.",
+        "category": "factual",
+        "rationale": "It states a past medical history item."
+      },
+      {
+        "text": "Her past history includes remote diffuse large B-cell lymphoma in complete remission.",
+        "category": "factual",
+        "rationale": "It states a past medical history item."
+      },
+      {
+        "text": "Controlled hyperthyroidism does not by itself explain this abrupt chest/back pain syndrome.",
+        "category": "causal",
+        "rationale": "It relates the condition to its inability to explain the syndrome."
+      },
+      {
+        "text": "Remote diffuse large B-cell lymphoma in complete remission does not by itself explain this abrupt chest/back pain syndrome.",
+        "category": "causal",
+        "rationale": "It relates the prior lymphoma history to its inability to explain the syndrome."
+      },
+      {
+        "text": "There is no report of fever.",
+        "category": "factual",
+        "rationale": "It states the absence of a reported symptom."
+      },
+      {
+        "text": "There is no report of rash.",
+        "category": "factual",
+        "rationale": "It states the absence of a reported symptom."
+      },
+      {
+        "text": "There is no report of airway symptoms.",
+        "category": "factual",
+        "rationale": "It states the absence of a reported symptom."
+      },
+      {
+        "text": "There is no report of wheeze.",
+        "category": "factual",
+        "rationale": "It states the absence of a reported symptom."
+      },
+      {
+        "text": "There is no report of hypotension.",
+        "category": "factual",
+        "rationale": "It states the absence of a reported finding."
+      },
+      {
+        "text": "There is no report of immediate cardiovascular collapse after vaccination.",
+        "category": "factual",
+        "rationale": "It states the absence of a reported event."
+      },
+      {
+        "text": "The absence of fever, rash, airway symptoms, wheeze, hypotension, and immediate cardiovascular collapse makes fatal anaphylaxis less consistent.",
+        "category": "causal",
+        "rationale": "It explains how the absence of features affects the likelihood of anaphylaxis."
+      },
+      {
+        "text": "There is no mention of prolonged prodromal infection.",
+        "category": "factual",
+        "rationale": "It states the absence of a reported history."
+      },
+      {
+        "text": "There is no mention of heart failure symptoms.",
+        "category": "factual",
+        "rationale": "It states the absence of a reported symptom cluster."
+      },
+      {
+        "text": "There is no mention of focal neurologic deficits.",
+        "category": "factual",
+        "rationale": "It states the absence of a reported finding."
+      },
+      {
+        "text": "There is no mention of trauma.",
+        "category": "factual",
+        "rationale": "It states the absence of a reported event."
+      },
+      {
+        "text": "The vaccine was BNT162b2.",
+        "category": "factual",
+        "rationale": "It identifies the vaccine received."
+      },
+      {
+        "text": "The vaccine was not an adenoviral vector vaccine.",
+        "category": "factual",
+        "rationale": "It states a vaccine type exclusion."
+      },
+      {
+        "text": "Vaccine-induced immune thrombotic thrombocytopenia is less fitting because the vaccine was BNT162b2 and not an adenoviral vector vaccine.",
+        "category": "causal",
+        "rationale": "It links vaccine type to the lower likelihood of VITT."
+      },
+      {
+        "text": "The documented absence of thrombocytopenia before vaccination does not support a preexisting consumptive process.",
+        "category": "causal",
+        "rationale": "It connects the lab finding to the inference about a consumptive process."
+      },
+      {
+        "text": "There is no evidence presented for severe myocarditis/pericarditis prodrome such as persistent dyspnea.",
+        "category": "factual",
+        "rationale": "It states the absence of presented evidence for a symptom."
+      },
+      {
+        "text": "There is no evidence presented for severe myocarditis/pericarditis prodrome such as palpitations.",
+        "category": "factual",
+        "rationale": "It states the absence of presented evidence for a symptom."
+      },
+      {
+        "text": "There is no evidence presented for severe myocarditis/pericarditis prodrome such as fever.",
+        "category": "factual",
+        "rationale": "It states the absence of presented evidence for a symptom."
+      },
+      {
+        "text": "These findings cannot fully exclude myocarditis/pericarditis from the summary alone.",
+        "category": "factual",
+        "rationale": "It states a limitation of the available information."
+      },
+      {
+        "text": "Acute aortic dissection fits very well with the symptom pattern of chest pain plus back pain with nausea and rapid death in an older patient.",
+        "category": "causal",
+        "rationale": "It relates the symptom pattern to a likely diagnosis."
+      },
+      {
+        "text": "The combination of chest and back pain is especially classic for dissection.",
+        "category": "causal",
+        "rationale": "It links the symptom combination to dissection as a characteristic pattern."
+      },
+      {
+        "text": "Sudden death at home within hours is compatible with rupture, tamponade, or catastrophic ischemic complications.",
+        "category": "causal",
+        "rationale": "It relates the timing of death to possible catastrophic mechanisms."
+      },
+      {
+        "text": "Acute myocardial infarction is also plausible because chest pain, nausea, and sudden death are common, especially in an older woman.",
+        "category": "causal",
+        "rationale": "It explains why the symptom pattern supports myocardial infarction as a possibility."
+      },
+      {
+        "text": "Prominent back pain makes dissection more characteristic than acute myocardial infarction.",
+        "category": "causal",
+        "rationale": "It compares how the symptom affects the relative likelihood of two diagnoses."
+      },
+      {
+        "text": "The case framing around medicolegal autopsy after abrupt death suggests a catastrophic structural event is likely.",
+        "category": "causal",
+        "rationale": "It infers a likely mechanism from the case framing."
+      },
+      {
+        "text": "Pulmonary embolism could cause chest pain and sudden death.",
+        "category": "causal",
+        "rationale": "It states a possible causal relationship between PE and the symptoms."
+      },
+      {
+        "text": "Back pain is less characteristic of pulmonary embolism.",
+        "category": "causal",
+        "rationale": "It compares symptom fit with pulmonary embolism."
+      },
+      {
+        "text": "Nausea is less characteristic of pulmonary embolism.",
+        "category": "causal",
+        "rationale": "It compares symptom fit with pulmonary embolism."
+      },
+      {
+        "text": "There are no stated thrombotic risk clues.",
+        "category": "factual",
+        "rationale": "It states the absence of reported risk factors."
+      },
+      {
+        "text": "There is no stated dyspnea.",
+        "category": "factual",
+        "rationale": "It states the absence of a reported symptom."
+      },
+      {
+        "text": "Vaccine-related anaphylaxis is unlikely because she survived well beyond the immediate post-vaccination period.",
+        "category": "causal",
+        "rationale": "It links the delayed course to lower likelihood of anaphylaxis."
+      },
+      {
+        "text": "Vaccine-related anaphylaxis is unlikely because she improved after initial malaise.",
+        "category": "causal",
+        "rationale": "It links symptom improvement to lower likelihood of anaphylaxis."
+      },
+      {
+        "text": "Vaccine-associated myocarditis is low likelihood.",
+        "category": "factual",
+        "rationale": "It states an assessment of likelihood."
+      },
+      {
+        "text": "Vaccine-associated myocarditis is much rarer in a 72-year-old woman.",
+        "category": "causal",
+        "rationale": "It links age and sex to lower incidence."
+      },
+      {
+        "text": "Vaccine-associated myocarditis usually presents with chest pain within days.",
+        "category": "causal",
+        "rationale": "It describes a typical temporal relationship for myocarditis."
+      },
+      {
+        "text": "Vaccine-associated myocarditis does not typically present with this chest-plus-back pain pattern.",
+        "category": "causal",
+        "rationale": "It relates the symptom pattern to lower fit for myocarditis."
+      },
+      {
+        "text": "Vaccine-associated myocarditis does not typically cause sudden death so quickly after first dose.",
+        "category": "causal",
+        "rationale": "It links the timing and outcome to lower fit for myocarditis."
+      },
+      {
+        "text": "Among the plausible fatal causes, acute aortic dissection best matches the specific symptom cluster of chest pain radiating to the back or back pain, nausea, and abrupt death over a short interval in an elderly patient.",
+        "category": "causal",
+        "rationale": "It explains why the symptom cluster points most strongly to dissection."
+      },
+      {
+        "text": "The temporal relation to vaccination may be incidental rather than causal based on the data provided.",
+        "category": "causal",
+        "rationale": "It proposes an incidental rather than causal relationship."
+      },
+      {
+        "text": "The most likely diagnosis is acute aortic dissection.",
+        "category": "factual",
+        "rationale": "It states a diagnostic conclusion."
+      },
+      {
+        "text": "Older patient with abrupt chest pain and back pain plus nausea and fatigue on day X+1 followed by sudden death within hours is a high-likelihood pattern for acute aortic dissection.",
+        "category": "causal",
+        "rationale": "It links the pattern of symptoms and timing to dissection."
+      },
+      {
+        "text": "Chest-plus-back pain is classic for acute aortic dissection.",
+        "category": "causal",
+        "rationale": "It relates the symptom combination to dissection."
+      },
+      {
+        "text": "Chest pain, nausea, and sudden death in a 72-year-old woman are compatible with acute myocardial infarction.",
+        "category": "causal",
+        "rationale": "It links the symptom pattern to myocardial infarction."
+      },
+      {
+        "text": "The associated back pain makes acute aortic dissection more characteristic than acute myocardial infarction.",
+        "category": "causal",
+        "rationale": "It compares how back pain shifts the differential diagnosis."
+      },
+      {
+        "text": "Pulmonary embolism can cause chest pain and sudden death.",
+        "category": "causal",
+        "rationale": "It states a possible causal relationship between PE and the symptoms."
+      },
+      {
+        "text": "The reported symptom pattern lacks dyspnea.",
+        "category": "factual",
+        "rationale": "It states the absence of a reported symptom."
+      },
+      {
+        "text": "The reported symptom pattern is less typical than dissection or myocardial infarction.",
+        "category": "causal",
+        "rationale": "It compares the symptom pattern across diagnoses."
+      },
+      {
+        "text": "Temporal proximity to mRNA vaccination and chest pain could suggest vaccine-associated myocarditis.",
+        "category": "causal",
+        "rationale": "It links timing and symptom to a possible diagnosis."
+      },
+      {
+        "text": "Age and sex are atypical for vaccine-associated myocarditis.",
+        "category": "causal",
+        "rationale": "It relates demographic factors to lower fit for myocarditis."
+      },
+      {
+        "text": "Back pain with rapid sudden death is less characteristic of vaccine-associated myocarditis.",
+        "category": "causal",
+        "rationale": "It compares the symptom pattern to myocarditis."
+      },
+      {
+        "text": "Immediate post-vaccination malaise improved with rest.",
+        "category": "factual",
+        "rationale": "It states a symptom course."
+      },
+      {
+        "text": "Fatal anaphylaxis would usually occur rapidly with airway or circulatory symptoms rather than delayed chest and back pain the next day.",
+        "category": "causal",
+        "rationale": "It explains why the timing and symptom pattern argue against anaphylaxis."
+      },
+      {
+        "text": "The final diagnosis is acute aortic dissection.",
+        "category": "factual",
+        "rationale": "It states the final diagnostic conclusion."
+      }
+    ]
+  }
+}

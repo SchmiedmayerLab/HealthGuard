@@ -1,0 +1,42 @@
+{
+  "name": "aggregate",
+  "passed": false,
+  "score": 0.9957,
+  "reasoning": "Failed overall. The verification pipeline found no major logical contradictions, but the graph-building step failed due to six disconnected nodes, indicating incomplete linkage in the reasoning structure. The weighted aggregate score was 0.9957, reflecting very strong overall quality despite this structural failure.",
+  "data": {
+    "weighted_score": 0.9957,
+    "all_passed": false,
+    "step_scores": {
+      "static_rules": {
+        "score": 1.0,
+        "passed": true,
+        "weight": 0.1
+      },
+      "decompose": {
+        "score": 1.0,
+        "passed": true,
+        "weight": 0.05
+      },
+      "chain_verify": {
+        "score": 1.0,
+        "passed": true,
+        "weight": 0.1
+      },
+      "classify": {
+        "score": 1.0,
+        "passed": true,
+        "weight": 0.0
+      },
+      "expert_verify": {
+        "score": 1.0,
+        "passed": true,
+        "weight": 0.65
+      },
+      "build_graph": {
+        "score": 0.9565,
+        "passed": false,
+        "weight": 0.1
+      }
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "name": "chain_verify",
+  "passed": true,
+  "score": 1.0,
+  "reasoning": "All logical chains are internally consistent. The statements form a coherent diagnostic chain: clinical signs and imaging findings are used to support and refine differentials, and the later conclusions follow logically from the earlier evidence. The causal/diagnostic dependencies are internally consistent, with no broken links apparent.",
+  "data": {
+    "has_chain_dependencies": true,
+    "issues": []
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "name": "chain_verify",
+  "passed": true,
+  "score": 1.0,
+  "reasoning": "All logical chains are internally consistent. The statements form a coherent diagnostic chain: clinical and CT findings support concern for a unilateral sinonasal neoplasm, with the age, unilateral mass, choanal/nasopharyngeal extension, and bony remodeling/erosion favoring inverted papilloma over antrochoanal polyp or inflammatory polyp. Malignancy remains a reasonable alternative but does not break the overall logic.",
+  "data": {
+    "has_chain_dependencies": true,
+    "issues": []
+  }
+}

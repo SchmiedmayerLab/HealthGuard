@@ -1,0 +1,10 @@
+{
+  "name": "chain_verify",
+  "passed": true,
+  "score": 1.0,
+  "reasoning": "All logical chains are internally consistent. The statements form a coherent diagnostic argument: imaging, histology, age, distribution, and exclusion of infection/malignancy support monostotic fibrous dysplasia of the right femur, with reasonable differential diagnosis comparisons. The causal/logical links are generally consistent and not broken.",
+  "data": {
+    "has_chain_dependencies": true,
+    "issues": []
+  }
+}

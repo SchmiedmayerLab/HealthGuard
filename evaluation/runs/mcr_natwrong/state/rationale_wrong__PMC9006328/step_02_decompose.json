@@ -1,0 +1,221 @@
+{
+  "name": "decompose",
+  "passed": true,
+  "score": 1.0,
+  "reasoning": "Decomposed into 70 verifiable statement(s). Completeness check passed. Grouped into 8 reasoning segment(s).",
+  "data": {
+    "statements": [
+      "The chief issue is persistent/recurrent postoperative inflammation in the right eye after otherwise uneventful cataract surgery.",
+      "A visible anterior chamber foreign body was noted on postoperative day 1.",
+      "The patient declined removal because his vision remained relatively good and his symptoms were minimal.",
+      "Clinically, the important problem is inflammation that repeatedly recurs when topical steroids are tapered.",
+      "The patient underwent uncomplicated phacoemulsification with in-the-bag IOL implantation.",
+      "On postoperative day 1, diffuse conjunctival hyperemia was present.",
+      "On postoperative day 1, anterior chamber cells were present.",
+      "On postoperative day 1, mild Descemet folds were present.",
+      "On postoperative day 1, medium keratic precipitates were present.",
+      "On postoperative day 1, a poorly defined intraocular foreign body was present at 12 o’clock.",
+      "On postoperative day 1, the cornea was otherwise clear.",
+      "On postoperative day 1, the intraocular pressure was 10 mmHg.",
+      "Vision improved from 20/40 on day 1 to 20/25 at one week.",
+      "Inflammation decreased with intensive topical dexamethasone.",
+      "Inflammation repeatedly recurred whenever steroids were tapered over the following 6 months.",
+      "Improvement occurred again when steroids were restarted.",
+      "Laboratory workup for systemic inflammatory/rheumatologic disease was unrevealing aside from mildly elevated ESR.",
+      "CRP was normal.",
+      "ANA was normal.",
+      "Rheumatologic disease was excluded clinically.",
+      "There is no mention of severe pain.",
+      "There is no mention of hypopyon.",
+      "There is no mention of marked vision loss.",
+      "There is no mention of vitritis.",
+      "There is no mention of corneal infiltrate.",
+      "There is no mention of wound leak.",
+      "There is no mention of progressive deterioration that would strongly suggest acute postoperative infectious endophthalmitis.",
+      "The cornea was otherwise clear.",
+      "Vision improved rather than worsened.",
+      "There is no evidence supporting a systemic autoimmune uveitis syndrome.",
+      "There was no prior ocular inflammation.",
+      "There was no systemic disease.",
+      "Rheumatologic evaluation was negative.",
+      "Postoperative nongranulomatous anterior uveitis is possible.",
+      "The striking finding is the visible intraocular foreign body present from day 1.",
+      "The inflammation showed a steroid-dependent recurrence pattern.",
+      "Retained intraocular foreign material after cataract surgery causing chronic postoperative anterior uveitis fits best.",
+      "The foreign body was directly seen at 12 o’clock in the anterior chamber.",
+      "Inflammation began immediately after surgery.",
+      "Inflammation persisted or recurred whenever steroids were tapered.",
+      "This pattern strongly supports a mechanical or toxic inflammatory nidus such as retained lens fragment or retained surgical material.",
+      "Idiopathic/persistent postoperative nongranulomatous anterior uveitis is plausible.",
+      "The inflammation was anterior.",
+      "The inflammation was steroid-responsive.",
+      "The systemic workup was negative.",
+      "Idiopathic/persistent postoperative nongranulomatous anterior uveitis does not explain the observed intraocular foreign body.",
+      "Delayed-onset postoperative endophthalmitis is less likely.",
+      "Chronic low-grade inflammation after surgery can occur.",
+      "This case lacks classic clues such as worsening vision.",
+      "This case lacks classic clues such as pain.",
+      "This case lacks classic clues such as vitritis.",
+      "This case lacks classic clues such as plaque on the capsule.",
+      "This case lacks classic clues such as poor steroid response.",
+      "Vision remained good.",
+      "Inflammation improved substantially with steroids.",
+      "Retained lens material is another specific postoperative cause of recurrent inflammation.",
+      "Retained lens material could present as an anterior chamber fragment.",
+      "Retained lens material could cause recurrent uveitis.",
+      "The case describes a poorly defined foreign body rather than clearly identified lens matter.",
+      "The broader retained foreign body explanation is safer.",
+      "The most compelling feature is the visible anterior chamber foreign body noted immediately after surgery.",
+      "The case also had chronic steroid-dependent recurrent anterior chamber inflammation over 6 months.",
+      "Systemic inflammatory causes were excluded.",
+      "The most likely diagnosis is chronic postoperative anterior uveitis secondary to a retained intraocular foreign body.",
+      "The retained intraocular foreign body was most likely retained surgical material in the anterior chamber.",
+      "Chronic postoperative anterior uveitis due to retained intraocular foreign body is a high-probability differential.",
+      "Persistent/nongranulomatous postoperative anterior uveitis is a medium-probability differential.",
+      "Chronic postoperative endophthalmitis is a low-probability differential.",
+      "Retained lens fragment is a low-probability differential.",
+      "The final diagnosis is chronic postoperative anterior uveitis secondary to a retained intraocular foreign body."
+    ],
+    "completeness": {
+      "complete": true,
+      "missing": [],
+      "added": []
+    },
+    "clusters": [
+      {
+        "cluster_id": "c1",
+        "label": "history_taking",
+        "statement_indices": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "summary": "Initial postoperative course and key history of visible foreign body with recurrent inflammation after steroid taper.",
+        "salience": 0.95
+      },
+      {
+        "cluster_id": "c2",
+        "label": "examination",
+        "statement_indices": [
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        "summary": "Postoperative day 1 exam findings show anterior chamber inflammation and a visible intraocular foreign body with preserved vision and normal IOP.",
+        "salience": 0.9
+      },
+      {
+        "cluster_id": "c3",
+        "label": "treatment_planning",
+        "statement_indices": [
+          14,
+          15,
+          16
+        ],
+        "summary": "Steroid treatment temporarily improved inflammation, but tapering repeatedly triggered recurrence.",
+        "salience": 0.85
+      },
+      {
+        "cluster_id": "c4",
+        "label": "test_ordering",
+        "statement_indices": [
+          17,
+          18,
+          19,
+          20
+        ],
+        "summary": "Systemic inflammatory/rheumatologic workup was pursued and was unrevealing.",
+        "salience": 0.6
+      },
+      {
+        "cluster_id": "c5",
+        "label": "differential_generation",
+        "statement_indices": [
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34
+        ],
+        "summary": "Alternative infectious, autoimmune, and postoperative inflammatory causes are considered but lack supporting features.",
+        "salience": 0.7
+      },
+      {
+        "cluster_id": "c6",
+        "label": "differential_generation",
+        "statement_indices": [
+          35,
+          36,
+          37,
+          38,
+          39,
+          40,
+          41,
+          42,
+          43,
+          44,
+          45,
+          46
+        ],
+        "summary": "Reasoning favors a retained foreign body or retained material as the mechanical nidus for steroid-responsive recurrent anterior uveitis.",
+        "salience": 0.98
+      },
+      {
+        "cluster_id": "c7",
+        "label": "differential_generation",
+        "statement_indices": [
+          47,
+          48,
+          49,
+          50,
+          51,
+          52,
+          53,
+          54,
+          55,
+          56,
+          57,
+          58,
+          59,
+          60
+        ],
+        "summary": "Chronic postoperative endophthalmitis and retained lens material are considered but are less consistent with the clinical picture.",
+        "salience": 0.8
+      },
+      {
+        "cluster_id": "c8",
+        "label": "final_decision",
+        "statement_indices": [
+          61,
+          62,
+          63,
+          64,
+          65,
+          66,
+          67,
+          68,
+          69,
+          70
+        ],
+        "summary": "Final synthesis concludes chronic postoperative anterior uveitis due to a retained intraocular foreign body, likely retained surgical material.",
+        "salience": 1.0
+      }
+    ]
+  }
+}

@@ -1,0 +1,647 @@
+{
+  "name": "expert_verify",
+  "passed": true,
+  "score": 1.0,
+  "reasoning": "No contradictions among 70 statement(s) (46 supported, 18 valid inferences, 6 unverifiable).",
+  "data": {
+    "verifications": [
+      {
+        "text": "The chief issue is persistent/recurrent postoperative inflammation in the right eye after otherwise uneventful cataract surgery.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.98,
+        "reasoning": "Reference says uneventful phacoemulsification with postoperative recurrent inflammation in the right eye."
+      },
+      {
+        "text": "A visible anterior chamber foreign body was noted on postoperative day 1.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "POD1 slit lamp showed a poorly defined intraocular foreign body at 12 o’clock."
+      },
+      {
+        "text": "The patient declined removal because his vision remained relatively good and his symptoms were minimal.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.97,
+        "reasoning": "Patient declined removal due to good vision and minimal symptoms."
+      },
+      {
+        "text": "Clinically, the important problem is inflammation that repeatedly recurs when topical steroids are tapered.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.95,
+        "reasoning": "The record states inflammation recurred each time steroids were tapered over 6 months, so this causal summary is justified."
+      },
+      {
+        "text": "The patient underwent uncomplicated phacoemulsification with in-the-bag IOL implantation.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Reference explicitly states uneventful phacoemulsification and in-the-bag IOL implantation."
+      },
+      {
+        "text": "On postoperative day 1, diffuse conjunctival hyperemia was present.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Diffuse conjunctival hyperemia was documented on postoperative day 1."
+      },
+      {
+        "text": "On postoperative day 1, anterior chamber cells were present.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Anterior chamber cells were documented on postoperative day 1."
+      },
+      {
+        "text": "On postoperative day 1, mild Descemet folds were present.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Mild Descemet folds were documented on postoperative day 1."
+      },
+      {
+        "text": "On postoperative day 1, medium keratic precipitates were present.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Medium keratic precipitates were documented on postoperative day 1."
+      },
+      {
+        "text": "On postoperative day 1, a poorly defined intraocular foreign body was present at 12 o’clock.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "A poorly defined intraocular foreign body at 12 o’clock was documented on postoperative day 1."
+      },
+      {
+        "text": "On postoperative day 1, the cornea was otherwise clear.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "The cornea was otherwise clear per slit-lamp exam."
+      },
+      {
+        "text": "On postoperative day 1, the intraocular pressure was 10 mmHg.",
+        "category": "statistical",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "IOP on postoperative day 1 was 10 mmHg."
+      },
+      {
+        "text": "Vision improved from 20/40 on day 1 to 20/25 at one week.",
+        "category": "statistical",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Vision improved from 20/40 on day 1 to 20/25 at one week."
+      },
+      {
+        "text": "Inflammation decreased with intensive topical dexamethasone.",
+        "category": "causal",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.98,
+        "reasoning": "Inflammation decreased after intensive topical dexamethasone was started."
+      },
+      {
+        "text": "Inflammation repeatedly recurred whenever steroids were tapered over the following 6 months.",
+        "category": "causal",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "The case states inflammation recurred each time steroids were tapered over the following 6 months."
+      },
+      {
+        "text": "Improvement occurred again when steroids were restarted.",
+        "category": "causal",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.98,
+        "reasoning": "Inflammation improved upon restarting therapy after taper-related recurrence."
+      },
+      {
+        "text": "Laboratory workup for systemic inflammatory/rheumatologic disease was unrevealing aside from mildly elevated ESR.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.98,
+        "reasoning": "ESR was mildly elevated at 24 mm/h, while CRP and ANA were normal."
+      },
+      {
+        "text": "CRP was normal.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "CRP was within normal limits."
+      },
+      {
+        "text": "ANA was normal.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "ANA was within normal limits."
+      },
+      {
+        "text": "Rheumatologic disease was excluded clinically.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.97,
+        "reasoning": "The reference explicitly says rheumatologic diseases were excluded on laboratory and physical evaluation."
+      },
+      {
+        "text": "There is no mention of severe pain.",
+        "category": "factual",
+        "verdict": "unverifiable",
+        "verified": true,
+        "score": 0.6,
+        "confidence": 0.9,
+        "reasoning": "The record does not mention severe pain; absence statements are not directly verifiable as present."
+      },
+      {
+        "text": "There is no mention of hypopyon.",
+        "category": "factual",
+        "verdict": "unverifiable",
+        "verified": true,
+        "score": 0.6,
+        "confidence": 0.9,
+        "reasoning": "Hypopyon is not mentioned in the reference data."
+      },
+      {
+        "text": "There is no mention of marked vision loss.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.95,
+        "reasoning": "Vision was 20/40 on day 1 and improved to 20/25, so there was no marked vision loss in the documented course."
+      },
+      {
+        "text": "There is no mention of vitritis.",
+        "category": "factual",
+        "verdict": "unverifiable",
+        "verified": true,
+        "score": 0.6,
+        "confidence": 0.9,
+        "reasoning": "Vitritis is not mentioned in the reference data."
+      },
+      {
+        "text": "There is no mention of corneal infiltrate.",
+        "category": "factual",
+        "verdict": "unverifiable",
+        "verified": true,
+        "score": 0.6,
+        "confidence": 0.9,
+        "reasoning": "Corneal infiltrate is not mentioned; only that the cornea was otherwise clear."
+      },
+      {
+        "text": "There is no mention of wound leak.",
+        "category": "factual",
+        "verdict": "unverifiable",
+        "verified": true,
+        "score": 0.6,
+        "confidence": 0.9,
+        "reasoning": "Wound leak is not mentioned in the reference data."
+      },
+      {
+        "text": "There is no mention of progressive deterioration that would strongly suggest acute postoperative infectious endophthalmitis.",
+        "category": "factual",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.86,
+        "reasoning": "The case lacks pain, hypopyon, vitritis, corneal infiltrate, and progressive visual decline, which argues against acute postoperative infectious endophthalmitis."
+      },
+      {
+        "text": "The cornea was otherwise clear.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "The cornea was otherwise clear."
+      },
+      {
+        "text": "Vision improved rather than worsened.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.98,
+        "reasoning": "Visual acuity improved from 20/40 to 20/25 rather than worsening."
+      },
+      {
+        "text": "There is no evidence supporting a systemic autoimmune uveitis syndrome.",
+        "category": "factual",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.9,
+        "reasoning": "No systemic disease, negative rheumatologic evaluation, and no prior ocular inflammation make a systemic autoimmune uveitis syndrome unsupported."
+      },
+      {
+        "text": "There was no prior ocular inflammation.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.96,
+        "reasoning": "Preoperatively there were no other ocular abnormalities, which supports no prior ocular inflammation in the record."
+      },
+      {
+        "text": "There was no systemic disease.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.98,
+        "reasoning": "Preoperatively the patient had no systemic disease."
+      },
+      {
+        "text": "Rheumatologic evaluation was negative.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.98,
+        "reasoning": "Rheumatologic diseases were excluded on laboratory and physical evaluation."
+      },
+      {
+        "text": "Postoperative nongranulomatous anterior uveitis is possible.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.95,
+        "reasoning": "Nongranulomatous anterior uveitis was explicitly considered the leading diagnosis."
+      },
+      {
+        "text": "The striking finding is the visible intraocular foreign body present from day 1.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "The visible intraocular foreign body on day 1 is the striking finding emphasized in the case."
+      },
+      {
+        "text": "The inflammation showed a steroid-dependent recurrence pattern.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.97,
+        "reasoning": "Repeated recurrence when steroids were tapered is a steroid-dependent pattern."
+      },
+      {
+        "text": "Retained intraocular foreign material after cataract surgery causing chronic postoperative anterior uveitis fits best.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.96,
+        "reasoning": "Given the visible foreign body and recurrent postoperative anterior uveitis, retained intraocular foreign material is the best-fitting diagnosis."
+      },
+      {
+        "text": "The foreign body was directly seen at 12 o’clock in the anterior chamber.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "The foreign body was described at 12 o’clock in the anterior chamber."
+      },
+      {
+        "text": "Inflammation began immediately after surgery.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.97,
+        "reasoning": "The foreign body and inflammation were present on postoperative day 1, i.e., immediately after surgery."
+      },
+      {
+        "text": "Inflammation persisted or recurred whenever steroids were tapered.",
+        "category": "causal",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "The case states inflammation recurred each time steroids were tapered."
+      },
+      {
+        "text": "This pattern strongly supports a mechanical or toxic inflammatory nidus such as retained lens fragment or retained surgical material.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.96,
+        "reasoning": "The trace and data support a local postoperative nidus: visible anterior chamber foreign body on day 1 plus steroid-dependent recurrent inflammation. 'Mechanical or toxic inflammatory nidus' is an inference, not verbatim."
+      },
+      {
+        "text": "Idiopathic/persistent postoperative nongranulomatous anterior uveitis is plausible.",
+        "category": "factual",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.93,
+        "reasoning": "The trace explicitly says nongranulomatous anterior uveitis was considered leading diagnosis; 'plausible' is a reasonable inference."
+      },
+      {
+        "text": "The inflammation was anterior.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Slit-lamp findings were anterior chamber cells and keratic precipitates, i.e., anterior inflammation."
+      },
+      {
+        "text": "The inflammation was steroid-responsive.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Inflammation decreased with hourly dexamethasone and recurred when steroids were tapered, improving again when restarted."
+      },
+      {
+        "text": "The systemic workup was negative.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.98,
+        "reasoning": "ESR mildly elevated, but CRP and ANA normal and rheumatologic disease excluded clinically/laboratorily; overall systemic workup unrevealing."
+      },
+      {
+        "text": "Idiopathic/persistent postoperative nongranulomatous anterior uveitis does not explain the observed intraocular foreign body.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.95,
+        "reasoning": "A diagnosis of idiopathic postoperative uveitis does not account for the directly observed intraocular foreign body; this is a sound differential-pruning inference."
+      },
+      {
+        "text": "Delayed-onset postoperative endophthalmitis is less likely.",
+        "category": "factual",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.94,
+        "reasoning": "Given the course and lack of classic infectious features, delayed-onset postoperative endophthalmitis is reasonably less likely; this is an inference."
+      },
+      {
+        "text": "Chronic low-grade inflammation after surgery can occur.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.97,
+        "reasoning": "The case had recurrent inflammation over 6 months after surgery, which is compatible with chronic low-grade postoperative inflammation."
+      },
+      {
+        "text": "This case lacks classic clues such as worsening vision.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.96,
+        "reasoning": "Vision improved from 20/40 on day 1 to 20/25 at one week and remained good enough that the patient declined removal."
+      },
+      {
+        "text": "This case lacks classic clues such as pain.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.95,
+        "reasoning": "The reference says symptoms were minimal and does not describe pain; this absence is supported by the data."
+      },
+      {
+        "text": "This case lacks classic clues such as vitritis.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.95,
+        "reasoning": "No vitritis is mentioned in the reference data; absence summary is supported."
+      },
+      {
+        "text": "This case lacks classic clues such as plaque on the capsule.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.95,
+        "reasoning": "No plaque on the capsule is mentioned in the reference data; absence summary is supported."
+      },
+      {
+        "text": "This case lacks classic clues such as poor steroid response.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.95,
+        "reasoning": "Inflammation repeatedly recurred when steroids were tapered and improved when restarted, so poor steroid response is not supported."
+      },
+      {
+        "text": "Vision remained good.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.98,
+        "reasoning": "Vision improved to 20/25 and was described as good enough for the patient to decline removal."
+      },
+      {
+        "text": "Inflammation improved substantially with steroids.",
+        "category": "causal",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Inflammation decreased with intensive topical dexamethasone and improved again when steroids were restarted."
+      },
+      {
+        "text": "Retained lens material is another specific postoperative cause of recurrent inflammation.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.95,
+        "reasoning": "Retained lens material is a standard postoperative cause of recurrent inflammation; this is medically correct."
+      },
+      {
+        "text": "Retained lens material could present as an anterior chamber fragment.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.9,
+        "reasoning": "Retained lens material can appear as anterior chamber material/fragment after cataract surgery; this is a standard clinical inference."
+      },
+      {
+        "text": "Retained lens material could cause recurrent uveitis.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.95,
+        "reasoning": "Retained lens fragments are a known cause of recurrent postoperative uveitis; this follows standard ophthalmic knowledge."
+      },
+      {
+        "text": "The case describes a poorly defined foreign body rather than clearly identified lens matter.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "The reference explicitly describes a 'poorly defined intraocular foreign body' rather than identified lens matter."
+      },
+      {
+        "text": "The broader retained foreign body explanation is safer.",
+        "category": "recommendation",
+        "verdict": "unverifiable",
+        "verified": true,
+        "score": 0.6,
+        "confidence": 0.72,
+        "reasoning": "'Safer' is a judgment call rather than a directly checkable clinical fact."
+      },
+      {
+        "text": "The most compelling feature is the visible anterior chamber foreign body noted immediately after surgery.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "A poorly defined intraocular foreign body at 12 o'clock was seen on postoperative day 1."
+      },
+      {
+        "text": "The case also had chronic steroid-dependent recurrent anterior chamber inflammation over 6 months.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.98,
+        "reasoning": "Inflammation recurred each time steroids were tapered over the following 6 months."
+      },
+      {
+        "text": "Systemic inflammatory causes were excluded.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.98,
+        "reasoning": "Rheumatologic diseases were excluded on laboratory and physical evaluation; CRP and ANA were normal."
+      },
+      {
+        "text": "The most likely diagnosis is chronic postoperative anterior uveitis secondary to a retained intraocular foreign body.",
+        "category": "factual",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.97,
+        "reasoning": "This is the trace's synthesized final diagnosis and is well supported by the observed foreign body and steroid-dependent recurrent anterior uveitis."
+      },
+      {
+        "text": "The retained intraocular foreign body was most likely retained surgical material in the anterior chamber.",
+        "category": "factual",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.9,
+        "reasoning": "The reference does not identify the material as surgical material, but given post-cataract timing and visible foreign body, this is a reasonable inference, not a direct fact."
+      },
+      {
+        "text": "Chronic postoperative anterior uveitis due to retained intraocular foreign body is a high-probability differential.",
+        "category": "factual",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.98,
+        "reasoning": "The trace labels this as the high-probability differential; that is a legitimate diagnostic conclusion from the case."
+      },
+      {
+        "text": "Persistent/nongranulomatous postoperative anterior uveitis is a medium-probability differential.",
+        "category": "factual",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.97,
+        "reasoning": "The trace explicitly frames persistent/nongranulomatous postoperative anterior uveitis as a medium-probability differential."
+      },
+      {
+        "text": "Chronic postoperative endophthalmitis is a low-probability differential.",
+        "category": "factual",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.97,
+        "reasoning": "The trace explicitly frames chronic postoperative endophthalmitis as a low-probability differential."
+      },
+      {
+        "text": "Retained lens fragment is a low-probability differential.",
+        "category": "factual",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.97,
+        "reasoning": "The trace explicitly frames retained lens fragment as a low-probability differential."
+      },
+      {
+        "text": "The final diagnosis is chronic postoperative anterior uveitis secondary to a retained intraocular foreign body.",
+        "category": "factual",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.99,
+        "reasoning": "This is the final diagnosis stated in the trace and follows from the case data."
+      }
+    ],
+    "verdict_counts": {
+      "contradicted": 0,
+      "supported": 46,
+      "valid_inference": 18,
+      "unverifiable": 6
+    },
+    "contradictions": 0
+  }
+}

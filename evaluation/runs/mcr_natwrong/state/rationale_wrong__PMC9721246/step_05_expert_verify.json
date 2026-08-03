@@ -1,0 +1,764 @@
+{
+  "name": "expert_verify",
+  "passed": true,
+  "score": 1.0,
+  "reasoning": "No contradictions among 83 statement(s) (55 supported, 28 valid inferences, 0 unverifiable).",
+  "data": {
+    "verifications": [
+      {
+        "text": "The chief complaint is a 6-week history of dull right upper-quadrant abdominal pain in a 26-year-old woman.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Reference data states a 6-week history of dull RUQ pain in a 26-year-old woman."
+      },
+      {
+        "text": "The woman has a known childhood diagnosis of mesenchymal hamartoma of the liver.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "She was first diagnosed at 16 months with mesenchymal hamartoma of the liver."
+      },
+      {
+        "text": "Her major clinical concern is a previously documented hepatic lesion that has enlarged and is now symptomatic in adulthood.",
+        "category": "factual",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.93,
+        "reasoning": "This summarizes the known childhood lesion, interval growth, and new symptoms; it follows from the case data."
+      },
+      {
+        "text": "She had a 9 × 8 cm multiseptated cystic mass in the right hepatic lobe at 16 months of age.",
+        "category": "statistical",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Reference gives a 9 × 8 cm multiseptated cystic mass in the right hepatic lobe at 16 months."
+      },
+      {
+        "text": "The 9 × 8 cm multiseptated cystic mass was interpreted as mesenchymal hamartoma of the liver.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "The lesion was described as consistent with mesenchymal hamartoma of the liver."
+      },
+      {
+        "text": "The lesion was never resected.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.98,
+        "reasoning": "Resection was planned but deferred; no resection occurred."
+      },
+      {
+        "text": "CT shows interval growth of the lesion to 12.9 × 8.3 cm.",
+        "category": "statistical",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "CT showed interval growth to 12.9 × 8.3 cm."
+      },
+      {
+        "text": "The interval growth indicates persistence and enlargement over many years.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.9,
+        "reasoning": "Interval growth over years implies persistence and enlargement; this is a reasonable inference from the serial imaging history."
+      },
+      {
+        "text": "There is a new 6 cm peripheral enhancing region within the posterior aspect of the lesion.",
+        "category": "statistical",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "CT showed a new 6 cm peripheral enhancing region in the posterior aspect of the lesion."
+      },
+      {
+        "text": "MRI shows heterogeneous internal signal intensity.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "MRI revealed heterogeneous internal signal intensity."
+      },
+      {
+        "text": "FDG-PET shows focal hypermetabolism.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "^18F-FDG PET showed focal hypermetabolism within the lesion."
+      },
+      {
+        "text": "A benign mesenchymal hamartoma is typically predominantly cystic.",
+        "category": "factual",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.82,
+        "reasoning": "This is standard characterization of benign mesenchymal hamartoma and is consistent with the lesion being described as multiseptated cystic."
+      },
+      {
+        "text": "Development of a new enhancing solid component raises concern for malignant transformation.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.97,
+        "reasoning": "A new enhancing solid component in a longstanding cystic hepatic lesion reasonably raises concern for malignant transformation."
+      },
+      {
+        "text": "Focal metabolic activity raises concern for malignant transformation.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.97,
+        "reasoning": "Focal FDG uptake is a standard concerning feature for malignancy and supports that inference."
+      },
+      {
+        "text": "Enlarged hepatoduodenal lymph nodes are present.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Reference data explicitly notes enlarged hepatoduodenal lymph nodes."
+      },
+      {
+        "text": "Enlarged portocaval lymph nodes are present.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Reference data explicitly notes enlarged portocaval lymph nodes."
+      },
+      {
+        "text": "The enlarged hepatoduodenal and portocaval lymph nodes support a neoplastic process rather than a stable benign hamartoma.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.95,
+        "reasoning": "Enlarged regional nodes in the setting of a changing hepatic mass support a neoplastic process over a stable benign hamartoma."
+      },
+      {
+        "text": "She now has right upper-quadrant pain.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Presentation includes dull RUQ pain."
+      },
+      {
+        "text": "She has mild right upper-quadrant tenderness.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Exam showed mild RUQ tenderness without rebound or guarding."
+      },
+      {
+        "text": "CA 19-9 is markedly elevated at 1075 U/mL.",
+        "category": "statistical",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "CA 19-9 was 1075 U/mL, well above the reference range."
+      },
+      {
+        "text": "AFP is normal.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "AFP was 1.13 ng/mL, within the stated normal range."
+      },
+      {
+        "text": "CEA is normal.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "CEA was 1.3 ng/mL, within the stated normal range."
+      },
+      {
+        "text": "Liver enzymes are essentially normal.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.98,
+        "reasoning": "Liver enzymes were normal except GGT; thus essentially normal is accurate."
+      },
+      {
+        "text": "GGT is minimally elevated.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "GGT was 40 IU/L with reference 8–35 IU/L, a mild elevation."
+      },
+      {
+        "text": "Normal AFP argues against hepatoblastoma.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.95,
+        "reasoning": "Normal AFP makes hepatoblastoma less likely; this is a standard clinical inference."
+      },
+      {
+        "text": "Normal AFP argues against conventional hepatocellular malignancy.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.93,
+        "reasoning": "Normal AFP argues against many conventional hepatocellular malignancies; this is a reasonable inference."
+      },
+      {
+        "text": "Normal CEA makes metastatic gastrointestinal adenocarcinoma less supported.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.9,
+        "reasoning": "Normal CEA makes metastatic GI adenocarcinoma less supported; this is a differential-pruning inference."
+      },
+      {
+        "text": "There is no mention of fever.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.98,
+        "reasoning": "The reference data does not mention fever."
+      },
+      {
+        "text": "There is no mention of leukocytosis.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.98,
+        "reasoning": "The reference data does not mention leukocytosis."
+      },
+      {
+        "text": "There is no mention of systemic inflammatory signs.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.98,
+        "reasoning": "No systemic inflammatory signs are described in the reference data."
+      },
+      {
+        "text": "There is no mention of rebound.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.98,
+        "reasoning": "Exam explicitly states no rebound."
+      },
+      {
+        "text": "There is no mention of guarding.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.98,
+        "reasoning": "Exam explicitly states no guarding."
+      },
+      {
+        "text": "The absence of rebound or guarding makes an acute surgical abdomen unlikely.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.94,
+        "reasoning": "Absence of rebound/guarding supports that an acute surgical abdomen is unlikely."
+      },
+      {
+        "text": "The lesion was known since infancy.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "The lesion was first diagnosed at 16 months of age, i.e., in infancy."
+      },
+      {
+        "text": "The lesion being known since infancy makes a de novo adult primary cystic liver lesion less likely than evolution of the preexisting mesenchymal hamartoma of the liver.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.9,
+        "reasoning": "A lesion known since infancy is more consistent with evolution of the preexisting hamartoma than a de novo adult cystic lesion."
+      },
+      {
+        "text": "The first candidate differential is persistent benign mesenchymal hamartoma of the liver.",
+        "category": "factual",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.88,
+        "reasoning": "This is a differential diagnosis proposed in the trace; not directly stated in the reference data but a legitimate clinical possibility."
+      },
+      {
+        "text": "This diagnosis fits the childhood diagnosis.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.99,
+        "reasoning": "It follows directly that a childhood diagnosis of MHL fits the current consideration of persistent benign MHL."
+      },
+      {
+        "text": "This diagnosis fits the long history of a multiseptated cystic right-lobe lesion.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.98,
+        "reasoning": "The long history of a multiseptated cystic right-lobe lesion is consistent with persistent benign MHL."
+      },
+      {
+        "text": "Persistent benign mesenchymal hamartoma does not adequately explain the new 6 cm enhancing component.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.99,
+        "reasoning": "A new enhancing component is not well explained by a purely benign hamartoma; this is a sound inference."
+      },
+      {
+        "text": "Persistent benign mesenchymal hamartoma does not adequately explain focal FDG uptake.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.99,
+        "reasoning": "Focal FDG uptake is atypical for a stable benign hamartoma and supports concern beyond benign disease."
+      },
+      {
+        "text": "Persistent benign mesenchymal hamartoma does not adequately explain enlarged regional lymph nodes.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.95,
+        "reasoning": "Regional hepatoduodenal/portocaval lymphadenopathy is present; a stable benign hamartoma would not typically explain nodal enlargement."
+      },
+      {
+        "text": "Persistent benign mesenchymal hamartoma does not adequately explain marked CA 19-9 elevation.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.93,
+        "reasoning": "CA 19-9 is markedly elevated at 1075 U/mL; benign MHL alone does not readily account for this, though it is an inference rather than directly stated."
+      },
+      {
+        "text": "These changes suggest that the lesion is no longer behaving as a purely benign hamartoma.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.98,
+        "reasoning": "Supported by interval growth, new enhancing component, PET avidity, and symptoms, which together indicate behavior beyond a purely benign lesion."
+      },
+      {
+        "text": "The next major differential is undifferentiated embryonal sarcoma of the liver arising in association with or transformation from mesenchymal hamartoma.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "This exact differential is stated in the trace and is consistent with the case data."
+      },
+      {
+        "text": "This diagnosis fits particularly well because mesenchymal hamartoma is a recognized precursor or associated lesion for undifferentiated embryonal sarcoma of the liver.",
+        "category": "causal",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.98,
+        "reasoning": "The trace explicitly states MHL is a recognized precursor/associated lesion for UESL."
+      },
+      {
+        "text": "A longstanding cystic hepatic lesion that develops new solid enhancing areas in a young patient supports this diagnosis.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.98,
+        "reasoning": "A longstanding cystic lesion that develops a new solid enhancing area in a young patient is a classic pattern raising concern for UESL."
+      },
+      {
+        "text": "The heterogeneous MRI appearance supports this diagnosis.",
+        "category": "causal",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.97,
+        "reasoning": "MRI showed heterogeneous internal signal intensity."
+      },
+      {
+        "text": "Focal hypermetabolism on PET supports this diagnosis.",
+        "category": "causal",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.97,
+        "reasoning": "^18F-FDG PET showed focal hypermetabolism within the lesion."
+      },
+      {
+        "text": "Interval growth supports this diagnosis.",
+        "category": "causal",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.98,
+        "reasoning": "CT demonstrated interval growth from the childhood lesion to 12.9 × 8.3 cm."
+      },
+      {
+        "text": "Symptoms support this diagnosis.",
+        "category": "causal",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.96,
+        "reasoning": "The patient has 6-week dull RUQ pain and mild RUQ tenderness."
+      },
+      {
+        "text": "Nodal enlargement supports this diagnosis.",
+        "category": "causal",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.98,
+        "reasoning": "CT showed enlarged hepatoduodenal and portocaval lymph nodes."
+      },
+      {
+        "text": "Normal AFP is compatible with undifferentiated embryonal sarcoma of the liver.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.97,
+        "reasoning": "AFP is normal at 1.13 ng/mL, which is compatible with UESL."
+      },
+      {
+        "text": "Undifferentiated embryonal sarcoma of the liver typically does not elevate AFP.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.96,
+        "reasoning": "UESL typically does not elevate AFP; this is standard clinical knowledge and consistent with the normal AFP here."
+      },
+      {
+        "text": "Undifferentiated embryonal sarcoma of the liver is more common in children.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.95,
+        "reasoning": "UESL is classically a pediatric tumor, more common in children."
+      },
+      {
+        "text": "Undifferentiated embryonal sarcoma of the liver can occur in young adults.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.95,
+        "reasoning": "UESL can occur in young adults, as noted in the trace."
+      },
+      {
+        "text": "Undifferentiated embryonal sarcoma of the liver is the classic malignant counterpart linked to mesenchymal hamartoma.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.96,
+        "reasoning": "The trace explicitly describes UESL as the classic malignant counterpart linked to MHL."
+      },
+      {
+        "text": "Another differential is intrahepatic cholangiocarcinoma arising within a cystic hepatic lesion.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.95,
+        "reasoning": "Intrahepatic cholangiocarcinoma is listed as a differential in the trace."
+      },
+      {
+        "text": "Another differential is cystadenocarcinoma arising within a cystic hepatic lesion.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.95,
+        "reasoning": "Cystadenocarcinoma is listed as a differential in the trace."
+      },
+      {
+        "text": "Markedly elevated CA 19-9 could suggest biliary malignancy.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.96,
+        "reasoning": "Marked CA 19-9 elevation can be seen with biliary malignancies; this is a reasonable differential inference."
+      },
+      {
+        "text": "An enhancing component within a cystic liver mass could suggest biliary malignancy.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.95,
+        "reasoning": "An enhancing component in a cystic liver mass is a standard imaging feature that can suggest biliary malignancy."
+      },
+      {
+        "text": "The lesion’s origin in infancy as a mesenchymal hamartoma makes biliary malignancy less likely than sarcomatous transformation of the known mesenchymal hamartoma.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.97,
+        "reasoning": "Given the lesion has been present since infancy as MHL, sarcomatous transformation is more plausible than a de novo biliary malignancy."
+      },
+      {
+        "text": "The patient is quite young for cholangiocarcinoma.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.98,
+        "reasoning": "The patient is 26 years old, which is young for cholangiocarcinoma."
+      },
+      {
+        "text": "The overall clinical narrative is more consistent with malignant change in a congenital or childhood lesion.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.97,
+        "reasoning": "The overall pattern of congenital lesion with new aggressive features supports malignant change in a preexisting childhood lesion."
+      },
+      {
+        "text": "Biliary cystadenoma could present as a multiloculated cystic hepatic mass.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.95,
+        "reasoning": "Biliary cystadenoma can present as a multiloculated cystic hepatic mass; this is standard medical knowledge and consistent with the differential."
+      },
+      {
+        "text": "Biliary cystadenocarcinoma could present as a multiloculated cystic hepatic mass.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.95,
+        "reasoning": "Biliary cystadenocarcinoma can present as a multiloculated cystic hepatic mass; standard medical knowledge."
+      },
+      {
+        "text": "Biliary cystadenoma or cystadenocarcinoma could present with elevated CA 19-9.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.95,
+        "reasoning": "Elevated CA 19-9 can occur with biliary cystadenoma/cystadenocarcinoma."
+      },
+      {
+        "text": "Biliary cystadenoma or cystadenocarcinoma could present with mural enhancement.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.95,
+        "reasoning": "Mural or peripheral enhancement can be seen with biliary cystic neoplasms."
+      },
+      {
+        "text": "The documented diagnosis since infancy of mesenchymal hamartoma makes biliary cystadenoma or cystadenocarcinoma a less favored explanation.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.96,
+        "reasoning": "A known childhood diagnosis of MHL makes a biliary cystic neoplasm less favored than evolution of the preexisting lesion."
+      },
+      {
+        "text": "The known association between mesenchymal hamartoma and undifferentiated embryonal sarcoma makes biliary cystadenoma or cystadenocarcinoma a less favored explanation.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.95,
+        "reasoning": "The MHL-UESL association makes biliary cystadenoma/cystadenocarcinoma less favored in this context."
+      },
+      {
+        "text": "The most likely diagnosis is malignant transformation of mesenchymal hamartoma of the liver into undifferentiated embryonal sarcoma.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "This is the stated final diagnosis in the trace."
+      },
+      {
+        "text": "The preexisting childhood mesenchymal hamartoma is a decisive feature.",
+        "category": "factual",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.96,
+        "reasoning": "The preexisting childhood MHL is a key/decisive contextual feature supporting the diagnosis."
+      },
+      {
+        "text": "Interval enlargement is a decisive feature.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.98,
+        "reasoning": "Interval enlargement from the childhood lesion to 12.9 × 8.3 cm is documented."
+      },
+      {
+        "text": "Development of a new enhancing solid component is a decisive feature.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.98,
+        "reasoning": "CT showed a new 6 cm peripheral enhancing region within the lesion."
+      },
+      {
+        "text": "Heterogeneous MRI signal is a decisive feature.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.97,
+        "reasoning": "MRI showed heterogeneous internal signal intensity."
+      },
+      {
+        "text": "Focal FDG uptake is a decisive feature.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.97,
+        "reasoning": "FDG PET showed focal hypermetabolism."
+      },
+      {
+        "text": "Regional lymphadenopathy is a decisive feature.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.98,
+        "reasoning": "Enlarged hepatoduodenal and portocaval lymph nodes were seen on CT."
+      },
+      {
+        "text": "New symptoms are a decisive feature.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.96,
+        "reasoning": "New RUQ pain and tenderness are present."
+      },
+      {
+        "text": "Pathology would be required for definitive confirmation.",
+        "category": "recommendation",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.98,
+        "reasoning": "The trace explicitly states pathology would be required for definitive confirmation."
+      },
+      {
+        "text": "Among the diagnostic possibilities, malignant transformation of mesenchymal hamartoma of the liver into undifferentiated embryonal sarcoma is the single best fit to the provided data.",
+        "category": "factual",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.98,
+        "reasoning": "This is the trace’s overall synthesis and follows from the provided imaging, symptoms, and history."
+      },
+      {
+        "text": "The differential diagnosis includes undifferentiated embryonal sarcoma of the liver arising in mesenchymal hamartoma.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.98,
+        "reasoning": "UESL arising in mesenchymal hamartoma is explicitly included in the differential."
+      },
+      {
+        "text": "The differential diagnosis includes persistent benign mesenchymal hamartoma of the liver.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.98,
+        "reasoning": "The trace explicitly lists persistent benign mesenchymal hamartoma of the liver as a differential diagnosis."
+      },
+      {
+        "text": "The differential diagnosis includes biliary cystadenocarcinoma or intrahepatic cholangiocarcinoma arising in a cystic hepatic lesion.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.98,
+        "reasoning": "The trace explicitly includes biliary cystadenocarcinoma / intrahepatic cholangiocarcinoma arising in a cystic hepatic lesion as a differential diagnosis."
+      },
+      {
+        "text": "The final diagnosis is undifferentiated embryonal sarcoma of the liver arising in mesenchymal hamartoma.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "The trace explicitly states the final diagnosis is undifferentiated embryonal sarcoma of the liver arising in mesenchymal hamartoma."
+      }
+    ],
+    "verdict_counts": {
+      "contradicted": 0,
+      "supported": 55,
+      "valid_inference": 28,
+      "unverifiable": 0
+    },
+    "contradictions": 0
+  }
+}

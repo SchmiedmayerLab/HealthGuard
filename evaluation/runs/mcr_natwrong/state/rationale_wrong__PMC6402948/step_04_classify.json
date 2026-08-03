@@ -1,0 +1,290 @@
+{
+  "name": "classify",
+  "passed": true,
+  "score": 1.0,
+  "reasoning": "Classified 56 statement(s): 26 causal, 29 factual, 1 statistical.",
+  "data": {
+    "classified": [
+      {
+        "text": "The chief complaint is a 2-week history of a unilateral red eye with chemosis in a 67-year-old woman.",
+        "category": "factual",
+        "rationale": "It states a patient presentation and demographic detail as observed facts."
+      },
+      {
+        "text": "The patient’s presentation is non-traumatic.",
+        "category": "factual",
+        "rationale": "It asserts the absence of trauma as a patient attribute."
+      },
+      {
+        "text": "The patient’s presentation is painless.",
+        "category": "factual",
+        "rationale": "It describes a symptom characteristic of the presentation."
+      },
+      {
+        "text": "The presentation makes common painful inflammatory causes of red eye such as scleritis, keratitis, or acute angle closure glaucoma less likely.",
+        "category": "causal",
+        "rationale": "It links the painless presentation to reduced likelihood of certain diagnoses."
+      },
+      {
+        "text": "The key lesion on slit-lamp exam is a 7 × 4 mm conjunctival granuloma attached to the sclera with central epithelial necrosis.",
+        "category": "statistical",
+        "rationale": "It contains a specific measurement and size-based claim."
+      },
+      {
+        "text": "Salient positive findings strongly point toward a localized granulomatous reaction around a retained foreign body.",
+        "category": "causal",
+        "rationale": "It explains how the findings indicate a particular underlying mechanism."
+      },
+      {
+        "text": "Ultrasound biomicroscopy showed a high-reflectivity echo embedded in the conjunctiva, episclera, and superficial sclera.",
+        "category": "factual",
+        "rationale": "It reports an imaging finding as an observed fact."
+      },
+      {
+        "text": "Ultrasound biomicroscopy showed a low-reflective granulomatous mass surrounding the embedded echo.",
+        "category": "factual",
+        "rationale": "It reports an imaging finding without making a numerical claim."
+      },
+      {
+        "text": "Ultrasound biomicroscopy showed multiple pseudocysts.",
+        "category": "factual",
+        "rationale": "It states an observed imaging feature."
+      },
+      {
+        "text": "A discrete high-reflective focus within superficial ocular tissues is highly suggestive of foreign material rather than a purely inflammatory or infectious nodule.",
+        "category": "causal",
+        "rationale": "It infers that the imaging feature indicates foreign material instead of other causes."
+      },
+      {
+        "text": "The surrounding granulomatous mass fits a tissue reaction to the embedded material.",
+        "category": "causal",
+        "rationale": "It describes a mechanism linking the mass to the embedded material."
+      },
+      {
+        "text": "Mild leukocytosis is nonspecific.",
+        "category": "factual",
+        "rationale": "It states a general property of leukocytosis."
+      },
+      {
+        "text": "Mild leukocytosis could accompany local inflammation.",
+        "category": "causal",
+        "rationale": "It relates leukocytosis to inflammation as a possible cause or association."
+      },
+      {
+        "text": "There was no trauma history.",
+        "category": "factual",
+        "rationale": "It asserts the absence of a trauma history."
+      },
+      {
+        "text": "Occult foreign body exposure can still occur despite absent recalled trauma.",
+        "category": "causal",
+        "rationale": "It explains how foreign body exposure may occur even without remembered trauma."
+      },
+      {
+        "text": "Fundoscopy was normal.",
+        "category": "factual",
+        "rationale": "It reports a normal exam finding."
+      },
+      {
+        "text": "A normal fundoscopy argues against posterior segment involvement.",
+        "category": "causal",
+        "rationale": "It links the normal exam to reduced likelihood of posterior disease."
+      },
+      {
+        "text": "QuantiFERON-TB was normal.",
+        "category": "factual",
+        "rationale": "It reports a test result."
+      },
+      {
+        "text": "Chest CT was normal.",
+        "category": "factual",
+        "rationale": "It reports an imaging result."
+      },
+      {
+        "text": "The normal QuantiFERON-TB and chest CT make ocular tuberculosis unlikely.",
+        "category": "causal",
+        "rationale": "It connects negative tests with decreased likelihood of tuberculosis."
+      },
+      {
+        "text": "Treponemal tests were negative.",
+        "category": "factual",
+        "rationale": "It reports a laboratory result."
+      },
+      {
+        "text": "Non-treponemal tests were negative.",
+        "category": "factual",
+        "rationale": "It reports a laboratory result."
+      },
+      {
+        "text": "Negative treponemal and non-treponemal tests argue against syphilitic granulomatous disease.",
+        "category": "causal",
+        "rationale": "It links negative serology to reduced likelihood of syphilis."
+      },
+      {
+        "text": "The lesion is painless.",
+        "category": "factual",
+        "rationale": "It states a symptom characteristic."
+      },
+      {
+        "text": "A painless lesion is less typical for active infectious scleritis.",
+        "category": "causal",
+        "rationale": "It relates pain status to the likelihood of infectious scleritis."
+      },
+      {
+        "text": "No systemic history suggesting autoimmune inflammatory disease is provided.",
+        "category": "factual",
+        "rationale": "It states the absence of reported systemic history."
+      },
+      {
+        "text": "Retained conjunctival/episcleral foreign body with granulomatous reaction best fits the imaging finding of a high-reflective embedded echo in the conjunctiva, episclera, and superficial sclera with surrounding granuloma and pseudocysts.",
+        "category": "causal",
+        "rationale": "It interprets the imaging pattern as supporting a specific diagnosis."
+      },
+      {
+        "text": "The localized unilateral red eye and chemosis with a necrotic conjunctival granuloma are compatible with a foreign body granuloma.",
+        "category": "causal",
+        "rationale": "It connects the clinical findings to the proposed diagnosis."
+      },
+      {
+        "text": "Necrosis can suggest infection.",
+        "category": "causal",
+        "rationale": "It states a relationship between necrosis and possible infection."
+      },
+      {
+        "text": "Mild leukocytosis could support inflammation or infection.",
+        "category": "causal",
+        "rationale": "It links leukocytosis to inflammatory or infectious processes."
+      },
+      {
+        "text": "The ultrasound finding of a discrete embedded reflective structure argues more for foreign material than primary infection.",
+        "category": "causal",
+        "rationale": "It interprets the imaging feature as favoring one cause over another."
+      },
+      {
+        "text": "TB and syphilis testing were negative.",
+        "category": "factual",
+        "rationale": "It reports negative test results."
+      },
+      {
+        "text": "A unilateral red eye with a sclera-adherent nodule could suggest nodular episcleritis or scleritis.",
+        "category": "causal",
+        "rationale": "It relates the presentation to possible differential diagnoses."
+      },
+      {
+        "text": "The lesion is painless.",
+        "category": "factual",
+        "rationale": "It states a symptom characteristic."
+      },
+      {
+        "text": "Ultrasound demonstrates an embedded reflective body with granulomatous reaction rather than idiopathic scleral inflammation.",
+        "category": "causal",
+        "rationale": "It contrasts imaging-supported foreign body reaction with inflammatory disease."
+      },
+      {
+        "text": "A conjunctival mass can present as a red eye lesion.",
+        "category": "causal",
+        "rationale": "It states that the mass can cause or manifest as red eye."
+      },
+      {
+        "text": "The acute 2-week course, granulomatous appearance, central necrosis, and embedded high-reflective echo make neoplasia less likely.",
+        "category": "causal",
+        "rationale": "It explains why the findings reduce the likelihood of neoplasia."
+      },
+      {
+        "text": "The most likely diagnosis is a conjunctival-episcleral foreign body granuloma.",
+        "category": "factual",
+        "rationale": "It states the final diagnostic conclusion as a fact from the case."
+      },
+      {
+        "text": "The foreign body granuloma is likely from occult insect or plant material.",
+        "category": "causal",
+        "rationale": "It proposes a likely source for the foreign body."
+      },
+      {
+        "text": "The defining feature is the high-reflective embedded structure on ultrasound biomicroscopy with surrounding granulomatous inflammation and pseudocysts.",
+        "category": "factual",
+        "rationale": "It identifies the key observed feature set."
+      },
+      {
+        "text": "Systemic infectious causes were specifically investigated and not supported.",
+        "category": "factual",
+        "rationale": "It reports the workup outcome as a factual statement."
+      },
+      {
+        "text": "Conjunctival/episcleral foreign body granuloma is a high-probability differential diagnosis.",
+        "category": "factual",
+        "rationale": "It states a diagnostic likelihood assessment."
+      },
+      {
+        "text": "Ultrasound biomicroscopy showed a high-reflectivity echo embedded in the conjunctiva, episclera, and superficial sclera, surrounded by a granulomatous mass and pseudocysts.",
+        "category": "factual",
+        "rationale": "It reports a specific imaging finding."
+      },
+      {
+        "text": "Unilateral localized red eye with a sclera-attached granuloma fits retained foreign material.",
+        "category": "causal",
+        "rationale": "It links the clinical pattern to retained foreign material."
+      },
+      {
+        "text": "Infectious conjunctival or scleral granuloma is a medium-probability differential diagnosis.",
+        "category": "factual",
+        "rationale": "It states a probability-based diagnostic assessment."
+      },
+      {
+        "text": "Central epithelial necrosis and mild leukocytosis could suggest infection.",
+        "category": "causal",
+        "rationale": "It connects these findings to possible infection."
+      },
+      {
+        "text": "TB work-up, chest CT, and syphilis serologies were negative.",
+        "category": "factual",
+        "rationale": "It reports negative diagnostic tests."
+      },
+      {
+        "text": "Imaging favored embedded foreign material.",
+        "category": "causal",
+        "rationale": "It interprets imaging as supporting foreign material."
+      },
+      {
+        "text": "Nodular episcleritis or anterior scleritis is a low-probability differential diagnosis.",
+        "category": "factual",
+        "rationale": "It states a diagnostic likelihood assessment."
+      },
+      {
+        "text": "A unilateral red eye with a sclera-adherent lesion could mimic nodular episcleritis or anterior scleritis.",
+        "category": "causal",
+        "rationale": "It relates the presentation to possible mimicking diagnoses."
+      },
+      {
+        "text": "The lesion was painless.",
+        "category": "factual",
+        "rationale": "It states a symptom characteristic."
+      },
+      {
+        "text": "Ultrasound identified a discrete reflective embedded structure rather than primary inflammatory scleral disease.",
+        "category": "causal",
+        "rationale": "It interprets the ultrasound finding as favoring one process over another."
+      },
+      {
+        "text": "Conjunctival neoplasm is a low-probability differential diagnosis.",
+        "category": "factual",
+        "rationale": "It states a diagnostic likelihood assessment."
+      },
+      {
+        "text": "A conjunctival mass is possible.",
+        "category": "factual",
+        "rationale": "It states a possible condition without causal explanation."
+      },
+      {
+        "text": "The short 2-week course and ultrasound evidence of an embedded reflective body with surrounding granuloma argue against neoplasia.",
+        "category": "causal",
+        "rationale": "It explains why the findings make neoplasia less likely."
+      },
+      {
+        "text": "The final diagnosis is conjunctival-episcleral foreign body granuloma.",
+        "category": "factual",
+        "rationale": "It states the final diagnosis as a factual conclusion."
+      }
+    ]
+  }
+}

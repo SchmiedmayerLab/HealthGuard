@@ -1,0 +1,370 @@
+{
+  "name": "classify",
+  "passed": true,
+  "score": 1.0,
+  "reasoning": "Classified 72 statement(s): 33 causal, 36 factual, 1 recommendation, 2 statistical.",
+  "data": {
+    "classified": [
+      {
+        "text": "The chief complaint is a 6-week history of sharp left-sided chest pain.",
+        "category": "factual",
+        "rationale": "This is a direct clinical assertion about the patient's presenting symptom and duration."
+      },
+      {
+        "text": "The chest pain is pleuritic.",
+        "category": "factual",
+        "rationale": "This describes a symptom characteristic as stated in the case."
+      },
+      {
+        "text": "The chest pain is worse with inspiration.",
+        "category": "causal",
+        "rationale": "This states a relationship between inspiration and worsening pain."
+      },
+      {
+        "text": "The chest pain is positional.",
+        "category": "factual",
+        "rationale": "This is a descriptive attribute of the pain."
+      },
+      {
+        "text": "The chest pain is worse lying down.",
+        "category": "causal",
+        "rationale": "This asserts a positional trigger that worsens the pain."
+      },
+      {
+        "text": "The chest pain is accompanied by progressive back pain.",
+        "category": "factual",
+        "rationale": "This reports an associated symptom present in the patient."
+      },
+      {
+        "text": "The chest pain is accompanied by constipation.",
+        "category": "factual",
+        "rationale": "This is a factual statement about an associated symptom."
+      },
+      {
+        "text": "The chest pain is accompanied by lower-limb weakness and numbness.",
+        "category": "factual",
+        "rationale": "This states associated neurologic symptoms."
+      },
+      {
+        "text": "The lower-limb weakness and numbness are concerning for spinal cord compression.",
+        "category": "recommendation",
+        "rationale": "This expresses a clinical interpretation that should prompt concern and evaluation."
+      },
+      {
+        "text": "The patient’s own major concern appears to be chest pain plus progressive neurologic symptoms from back involvement.",
+        "category": "factual",
+        "rationale": "This summarizes the patient's main concern as presented."
+      },
+      {
+        "text": "The salient positive findings strongly suggest an underlying thoracic malignancy with metastatic spread.",
+        "category": "causal",
+        "rationale": "This infers a disease process from the findings."
+      },
+      {
+        "text": "Chest radiograph shows a left upper-lobe opacity.",
+        "category": "factual",
+        "rationale": "This is an imaging finding."
+      },
+      {
+        "text": "Contrast CT confirms a large 75 mm lobulated left upper-lobe mass.",
+        "category": "statistical",
+        "rationale": "This includes a specific numerical measurement that must match the source."
+      },
+      {
+        "text": "The left upper-lobe mass directly invades the chest wall.",
+        "category": "factual",
+        "rationale": "This is a direct imaging/pathologic finding."
+      },
+      {
+        "text": "The left upper-lobe mass invades the left third rib.",
+        "category": "factual",
+        "rationale": "This states a specific anatomic invasion finding."
+      },
+      {
+        "text": "The left upper-lobe mass invades adjacent muscle.",
+        "category": "factual",
+        "rationale": "This is a direct description of local invasion."
+      },
+      {
+        "text": "There is a mild to moderate left pleural effusion.",
+        "category": "factual",
+        "rationale": "This reports an imaging finding."
+      },
+      {
+        "text": "MRI spine shows widespread skeletal lesions.",
+        "category": "factual",
+        "rationale": "This is a direct imaging finding."
+      },
+      {
+        "text": "MRI spine shows multiple thoracic paraspinal soft-tissue deposits.",
+        "category": "factual",
+        "rationale": "This reports an imaging finding."
+      },
+      {
+        "text": "One thoracic paraspinal soft-tissue deposit at T4/T5 is causing significant cord compression.",
+        "category": "factual",
+        "rationale": "This is a specific imaging finding describing cord compression."
+      },
+      {
+        "text": "CT shows vertebral bony lesions.",
+        "category": "factual",
+        "rationale": "This is a direct imaging finding."
+      },
+      {
+        "text": "CT shows pelvic bony lesions.",
+        "category": "factual",
+        "rationale": "This is a direct imaging finding."
+      },
+      {
+        "text": "The back pain worsened by walking.",
+        "category": "causal",
+        "rationale": "This describes a symptom being exacerbated by activity."
+      },
+      {
+        "text": "The lower-limb weakness and numbness fit metastatic spinal disease with cord compression.",
+        "category": "causal",
+        "rationale": "This links the neurologic symptoms to a proposed underlying mechanism."
+      },
+      {
+        "text": "The pleuritic chest pain is well explained by pleural and chest wall involvement from the lung mass.",
+        "category": "causal",
+        "rationale": "This explicitly explains the symptom by the mass involvement."
+      },
+      {
+        "text": "The absence of major hematologic abnormalities does not exclude metastatic solid malignancy.",
+        "category": "causal",
+        "rationale": "This states a diagnostic relationship between lab findings and disease exclusion."
+      },
+      {
+        "text": "Normal renal function does not exclude metastatic solid malignancy.",
+        "category": "causal",
+        "rationale": "This relates a normal lab result to diagnostic exclusion."
+      },
+      {
+        "text": "Normal calcium does not exclude metastatic solid malignancy.",
+        "category": "causal",
+        "rationale": "This is a diagnostic relationship between calcium level and malignancy."
+      },
+      {
+        "text": "He has no smoking history.",
+        "category": "factual",
+        "rationale": "This is a patient attribute."
+      },
+      {
+        "text": "Lung cancer still occurs in never-smokers.",
+        "category": "factual",
+        "rationale": "This is a general clinical fact."
+      },
+      {
+        "text": "Lung cancer in never-smokers is particularly adenocarcinoma.",
+        "category": "factual",
+        "rationale": "This is a general epidemiologic/pathologic fact."
+      },
+      {
+        "text": "Normal hemoglobin argues against a classic symptomatic multiple myeloma presentation.",
+        "category": "causal",
+        "rationale": "This links a lab result to the likelihood of a diagnosis."
+      },
+      {
+        "text": "Normal calcium argues against a classic symptomatic multiple myeloma presentation.",
+        "category": "causal",
+        "rationale": "This relates a lab result to diagnostic probability."
+      },
+      {
+        "text": "Normal renal function argues against a classic symptomatic multiple myeloma presentation.",
+        "category": "causal",
+        "rationale": "This states a diagnostic relationship between renal function and myeloma presentation."
+      },
+      {
+        "text": "Normal white count and differential make hematologic malignancy less supported.",
+        "category": "causal",
+        "rationale": "This links blood counts to the likelihood of hematologic malignancy."
+      },
+      {
+        "text": "There is no hepatomegaly on exam.",
+        "category": "factual",
+        "rationale": "This is a physical exam finding."
+      },
+      {
+        "text": "There are no described infectious symptoms such as fever.",
+        "category": "factual",
+        "rationale": "This states absence of a symptom."
+      },
+      {
+        "text": "There are no described infectious symptoms such as productive cough.",
+        "category": "factual",
+        "rationale": "This states absence of a symptom."
+      },
+      {
+        "text": "There are no described infectious symptoms such as weight loss.",
+        "category": "factual",
+        "rationale": "This states absence of a symptom."
+      },
+      {
+        "text": "The absence of infectious symptoms does not favor infection such as tuberculosis.",
+        "category": "causal",
+        "rationale": "This links absence of symptoms to reduced likelihood of infection."
+      },
+      {
+        "text": "The absence of infectious symptoms does not favor empyema-related disease.",
+        "category": "causal",
+        "rationale": "This is a diagnostic inference based on symptom absence."
+      },
+      {
+        "text": "Cardiovascular examination is otherwise normal.",
+        "category": "factual",
+        "rationale": "This is a physical exam finding."
+      },
+      {
+        "text": "Respiratory examination is otherwise normal.",
+        "category": "factual",
+        "rationale": "This is a physical exam finding."
+      },
+      {
+        "text": "Primary cardiac causes are much less likely in the face of the imaging findings.",
+        "category": "causal",
+        "rationale": "This infers diagnostic likelihood from imaging findings."
+      },
+      {
+        "text": "Benign pleuritic causes are much less likely in the face of the imaging findings.",
+        "category": "causal",
+        "rationale": "This is a diagnostic inference based on imaging."
+      },
+      {
+        "text": "Primary lung carcinoma with osseous metastases fits best.",
+        "category": "causal",
+        "rationale": "This is a diagnostic conclusion based on the overall findings."
+      },
+      {
+        "text": "There is a dominant large left upper-lobe mass with chest wall and rib invasion.",
+        "category": "factual",
+        "rationale": "This is a direct description of imaging findings."
+      },
+      {
+        "text": "There is a pleural effusion.",
+        "category": "factual",
+        "rationale": "This is a direct finding."
+      },
+      {
+        "text": "There are widespread bone lesions causing cord compression.",
+        "category": "causal",
+        "rationale": "This links the lesions to the resulting cord compression."
+      },
+      {
+        "text": "Multiple myeloma could explain diffuse skeletal lesions and cord compression.",
+        "category": "causal",
+        "rationale": "This proposes a mechanism by which myeloma could account for the findings."
+      },
+      {
+        "text": "Multiple myeloma is less convincing because there is a clear primary lung mass.",
+        "category": "causal",
+        "rationale": "This explains reduced likelihood of myeloma based on the lung mass."
+      },
+      {
+        "text": "Multiple myeloma is less convincing because the labs do not show anemia.",
+        "category": "causal",
+        "rationale": "This links lab absence to lower diagnostic support."
+      },
+      {
+        "text": "Multiple myeloma is less convincing because the labs do not show renal impairment.",
+        "category": "causal",
+        "rationale": "This is a diagnostic inference from lab findings."
+      },
+      {
+        "text": "Multiple myeloma is less convincing because the labs do not show hypercalcemia.",
+        "category": "causal",
+        "rationale": "This relates a missing lab abnormality to reduced likelihood of myeloma."
+      },
+      {
+        "text": "Metastatic disease from another occult primary is possible in principle.",
+        "category": "factual",
+        "rationale": "This states a possibility rather than a recommendation or mechanism."
+      },
+      {
+        "text": "Diffuse bone metastases can arise from several cancers.",
+        "category": "factual",
+        "rationale": "This is a general clinical fact."
+      },
+      {
+        "text": "The presence of a large invasive lung mass makes the lung the most likely primary rather than an incidental lesion.",
+        "category": "causal",
+        "rationale": "This infers the most likely primary site from the imaging pattern."
+      },
+      {
+        "text": "Lymphoma is less likely.",
+        "category": "causal",
+        "rationale": "This is a diagnostic likelihood statement."
+      },
+      {
+        "text": "Lymphoma can produce masses and bony involvement.",
+        "category": "factual",
+        "rationale": "This is a general factual statement about lymphoma."
+      },
+      {
+        "text": "The imaging pattern of a large lobulated upper-lobe mass invading chest wall and rib with pleural effusion is more typical of primary bronchogenic carcinoma.",
+        "category": "causal",
+        "rationale": "This compares imaging features to a likely diagnosis."
+      },
+      {
+        "text": "The unifying diagnosis that best explains the pleuritic chest pain, left upper-lobe opacity, 75 mm invasive lung mass, pleural effusion, rib and chest wall invasion, widespread vertebral and pelvic lesions, paraspinal soft-tissue deposits, and spinal cord compression is metastatic primary lung cancer.",
+        "category": "causal",
+        "rationale": "This synthesizes findings into a diagnostic explanation."
+      },
+      {
+        "text": "In a never-smoker, adenocarcinoma is a particularly plausible histologic subtype.",
+        "category": "causal",
+        "rationale": "This infers a likely histologic subtype from smoking status."
+      },
+      {
+        "text": "Histology is not directly provided.",
+        "category": "factual",
+        "rationale": "This states the absence of a reported pathology result."
+      },
+      {
+        "text": "The single most likely diagnosis is metastatic non-small cell lung cancer presenting with spinal metastases and cord compression.",
+        "category": "causal",
+        "rationale": "This is a diagnostic conclusion based on the overall clinical picture."
+      },
+      {
+        "text": "CT shows a 75 mm lobulated left upper-lobe mass with chest wall and rib invasion and pleural effusion.",
+        "category": "statistical",
+        "rationale": "This includes a specific numeric measurement that must be matched."
+      },
+      {
+        "text": "MRI and CT show widespread vertebral, pelvic, and paraspinal metastatic lesions causing cord compression.",
+        "category": "causal",
+        "rationale": "This links imaging findings to the resulting cord compression."
+      },
+      {
+        "text": "Chest pain is pleuritic and consistent with pleural and chest wall involvement.",
+        "category": "causal",
+        "rationale": "This explains the symptom by the anatomic involvement."
+      },
+      {
+        "text": "Metastatic primary lung carcinoma, likely non-small cell lung cancer, is the high-probability diagnosis.",
+        "category": "causal",
+        "rationale": "This is a probability-based diagnostic conclusion."
+      },
+      {
+        "text": "Multiple myeloma is a medium-probability diagnosis.",
+        "category": "factual",
+        "rationale": "This states a probability assessment rather than a recommendation."
+      },
+      {
+        "text": "Metastatic malignancy from another occult primary is a low-probability diagnosis.",
+        "category": "factual",
+        "rationale": "This states a probability assessment."
+      },
+      {
+        "text": "Lymphoma is a low-probability diagnosis.",
+        "category": "factual",
+        "rationale": "This states a probability assessment."
+      },
+      {
+        "text": "The final diagnosis is metastatic non-small cell lung cancer.",
+        "category": "factual",
+        "rationale": "This is a direct diagnostic assertion."
+      }
+    ]
+  }
+}

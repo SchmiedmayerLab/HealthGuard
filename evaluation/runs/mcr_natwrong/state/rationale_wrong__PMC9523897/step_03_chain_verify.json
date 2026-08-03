@@ -1,0 +1,10 @@
+{
+  "name": "chain_verify",
+  "passed": true,
+  "score": 1.0,
+  "reasoning": "All logical chains are internally consistent. The statements form a coherent diagnostic chain: the clinical course, biopsy findings, and negative tests are used to progressively exclude malignancy, leishmaniasis, and immunobullous disease while supporting deep dermatophytosis of the lower lip. The dependencies are logically consistent, and no broken causal or inferential links are evident.",
+  "data": {
+    "has_chain_dependencies": true,
+    "issues": []
+  }
+}

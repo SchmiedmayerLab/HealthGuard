@@ -1,0 +1,10 @@
+{
+  "name": "chain_verify",
+  "passed": true,
+  "score": 1.0,
+  "reasoning": "All logical chains are internally consistent. The statements form several explanatory chains evaluating possible causes of death after vaccination and converging on acute aortic dissection as the best fit. The intermediate claims generally support the final conclusion, and the alternative diagnoses are argued against in a logically consistent way. Some statements are independent factual details, but no broken dependency is present.",
+  "data": {
+    "has_chain_dependencies": true,
+    "issues": []
+  }
+}

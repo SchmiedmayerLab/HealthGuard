@@ -1,0 +1,181 @@
+{
+  "name": "decompose",
+  "passed": false,
+  "score": 0.0,
+  "reasoning": "Decomposed into 55 statement(s) but completeness check found issues. Missing: The original text explicitly states that the symptoms began 4 weeks after surgery with erythema, warmth, swelling, and limited ROM; the statements mention this, but do not explicitly capture that the initial concern was infection because of those findings and the postoperative timing as a causal relationship in one place.; The original text says the patient had recurrent postoperative episodes of right knee rash, warmth, swelling, stiffness, and severe throbbing pain after patellofemoral arthroplasty/MPFL reconstruction; the statements capture these elements separately, but not the full postoperative context tied to the specific surgery in a single statement.; The original text notes that symptoms improved after diphenhydramine in the ED and that this supports an allergic process; the statements capture the improvement but do not explicitly preserve the inferential link that this antihistamine response supports the allergic diagnosis.; The original text states that MRI angiography and abdominopelvic CT showed patent vasculature, arguing against popliteal entrapment or May-Thurner syndrome; the statements mention patent vasculature but do not explicitly preserve the causal inference that this argues against those specific vascular compression syndromes.; The original text says the food diary recommendation from allergy specialists points toward suspicion for an exposure-triggered allergic syndrome; the statements include this, but the relationship to allergy specialist recommendation is not clearly preserved as a recommendation-based inference.; The original text states that in the context of an orthopedic implant case, exposure to mammalian-derived surgical materials can trigger delayed allergic reactions in sensitized patients, producing recurrent local and systemic symptoms without infectious markers; the statements split this into separate pieces, but do not fully preserve the complete causal chain in one statement.; The original text includes the phrase 'postoperative hypersensitivity related to mammalian-derived surgical exposure' as the final framing; the statements capture alpha-gal syndrome as final diagnosis, but not this exact postoperative hypersensitivity framing. Fabricated: 'The initial concern was based on symptoms that began 4 weeks after surgery with erythema, warmth, swelling, and limited range of motion.' adds 'limited range of motion' as a standalone detail in a way that is not explicitly tied to the initial concern in the original sentence structure, though it is present in the source.; 'The repeated negative evaluations for infection, thrombosis, vascular compression, mastocytosis, hereditary angioedema, and implant contact allergy make those alternatives less convincing.' adds 'vascular compression' as a generalized category; the original specifically names popliteal entrapment and May-Thurner syndrome rather than the broader term.; 'The combination of recurrent urticarial or blanchable rash, warmth, swelling, severe pain episodes, antihistamine responsiveness, and gastrointestinal or systemic symptoms strongly supports an allergic syndrome with delayed mammalian-product sensitivity.' adds the phrase 'gastrointestinal or systemic symptoms' as a generalized grouping; the original specifically lists bloating, fatigue, and headaches.; 'A mast cell-mediated allergic disorder was weakened by normal serum tryptase and episodes tied to the postoperative course rather than classic spontaneous mast cell activation.' adds the concept of 'classic spontaneous mast cell activation,' which is not stated in the original.; 'Hereditary angioedema was weakened by normal C4 and the presence of an urticarial or blanchable rash.' adds 'urticarial or blanchable rash' as a reason against hereditary angioedema; while consistent with the source, the original emphasizes normal C4 and that rash makes it unlikely, but does not explicitly frame it as a weakening factor in that exact way.",
+  "data": {
+    "statements": [
+      "The chief concern is recurrent postoperative episodes of right knee rash, warmth, swelling, stiffness, and severe throbbing pain after patellofemoral arthroplasty/MPFL reconstruction.",
+      "The initial clinical concern was infection.",
+      "The initial concern was based on symptoms that began 4 weeks after surgery with erythema, warmth, swelling, and limited range of motion.",
+      "The patient continued to have recurrent episodic symptoms despite a negative infectious and vascular workup.",
+      "She developed an erythematous blanchable rash around the incision at 4 weeks post-op.",
+      "The rash was later described as persistent with mild urticaria and warmth.",
+      "Over weeks 7 to 21, she had recurrent knee warmth.",
+      "Over weeks 7 to 21, she had recurrent knee swelling.",
+      "Over weeks 7 to 21, she had a reticular rash over the limb.",
+      "Over weeks 7 to 21, she had severe activity-related throbbing pain up to 10/10.",
+      "There was trace effusion.",
+      "There was joint-line tenderness.",
+      "The incision sites were well healed.",
+      "Symptoms subjectively improved after diphenhydramine in the emergency department.",
+      "She reported intermittent bloating.",
+      "She reported intermittent fatigue.",
+      "She reported intermittent headaches.",
+      "She was afebrile.",
+      "Her vital signs were normal.",
+      "Laboratory inflammatory markers were normal.",
+      "MRI showed no evidence of infection.",
+      "Repeated workup for infection and thromboembolism was negative.",
+      "Patch testing for implant allergy was negative.",
+      "Serum tryptase was normal.",
+      "Serum C4 was normal.",
+      "MRI angiography showed patent vasculature.",
+      "Abdominopelvic CT showed patent vasculature.",
+      "The surgical wounds were well healed.",
+      "Periprosthetic joint infection or postoperative cellulitis initially fits because of postoperative erythema, warmth, swelling, pain, and stiffness.",
+      "Periprosthetic joint infection or postoperative cellulitis becomes less likely given afebrile status, normal vitals, normal inflammatory markers, MRI without infection, well-healed incisions, and a recurrent episodic pattern over many weeks despite antibiotics.",
+      "Implant hypersensitivity or contact allergy is plausible because symptoms are localized around the operative site with rash and swelling after arthroplasty.",
+      "Patch testing was negative.",
+      "The associated intermittent bloating, fatigue, and headaches suggest a broader trigger rather than an isolated implant reaction.",
+      "A mast cell-mediated disorder such as mastocytosis or hereditary angioedema was considered because of urticaria-like rash and swelling.",
+      "Normal tryptase and C4 make mastocytosis and hereditary angioedema less likely.",
+      "Vascular causes such as DVT, May-Thurner syndrome, or popliteal entrapment could explain swelling and pain.",
+      "Vascular imaging and thromboembolism workup were negative.",
+      "The rash and urticaria pattern is not well explained by vascular causes.",
+      "Alpha-gal syndrome best integrates the episodic nature, urticarial or blanchable rash, subjective response to antihistamine, and associated systemic symptoms of bloating, fatigue, and headaches.",
+      "In the context of an orthopedic implant case, exposure to mammalian-derived surgical materials can trigger delayed allergic reactions in sensitized patients.",
+      "Delayed allergic reactions in sensitized patients can produce recurrent local and systemic symptoms without infectious markers.",
+      "The food diary recommendation from allergy specialists points toward suspicion for an exposure-triggered allergic syndrome.",
+      "The repeated negative evaluations for infection, thrombosis, vascular compression, mastocytosis, hereditary angioedema, and implant contact allergy make those alternatives less convincing.",
+      "The combination of recurrent urticarial or blanchable rash, warmth, swelling, severe pain episodes, antihistamine responsiveness, and gastrointestinal or systemic symptoms strongly supports an allergic syndrome with delayed mammalian-product sensitivity.",
+      "The single best diagnosis is alpha-gal syndrome presenting as postoperative hypersensitivity related to mammalian-derived surgical exposure.",
+      "Periprosthetic joint infection or postoperative cellulitis was initially suggested by postoperative erythema, warmth, swelling, pain, stiffness, and trace effusion.",
+      "Periprosthetic joint infection or postoperative cellulitis was undermined by afebrile status, normal inflammatory markers, well-healed incisions, and MRI negative for infection.",
+      "Implant hypersensitivity was considered because localized recurrent rash, warmth, and swelling after arthroplasty could suggest implant allergy.",
+      "Implant hypersensitivity was weakened by negative patch testing and systemic symptoms such as bloating, fatigue, and headaches.",
+      "A mast cell-mediated allergic disorder such as mastocytosis was considered because mild urticaria, rash, swelling, and improvement after diphenhydramine were present.",
+      "A mast cell-mediated allergic disorder was weakened by normal serum tryptase and episodes tied to the postoperative course rather than classic spontaneous mast cell activation.",
+      "Hereditary angioedema was considered because swelling was present.",
+      "Hereditary angioedema was weakened by normal C4 and the presence of an urticarial or blanchable rash.",
+      "Alpha-gal syndrome was considered high because recurrent delayed episodes of rash or urticaria, warmth, swelling, severe pain, antihistamine response, and associated bloating, fatigue, and headaches after exposure to mammalian-derived surgical materials fit a delayed allergic syndrome consistent with alpha-gal sensitivity.",
+      "The final diagnosis is alpha-gal syndrome."
+    ],
+    "completeness": {
+      "complete": false,
+      "missing": [
+        "The original text explicitly states that the symptoms began 4 weeks after surgery with erythema, warmth, swelling, and limited ROM; the statements mention this, but do not explicitly capture that the initial concern was infection because of those findings and the postoperative timing as a causal relationship in one place.",
+        "The original text says the patient had recurrent postoperative episodes of right knee rash, warmth, swelling, stiffness, and severe throbbing pain after patellofemoral arthroplasty/MPFL reconstruction; the statements capture these elements separately, but not the full postoperative context tied to the specific surgery in a single statement.",
+        "The original text notes that symptoms improved after diphenhydramine in the ED and that this supports an allergic process; the statements capture the improvement but do not explicitly preserve the inferential link that this antihistamine response supports the allergic diagnosis.",
+        "The original text states that MRI angiography and abdominopelvic CT showed patent vasculature, arguing against popliteal entrapment or May-Thurner syndrome; the statements mention patent vasculature but do not explicitly preserve the causal inference that this argues against those specific vascular compression syndromes.",
+        "The original text says the food diary recommendation from allergy specialists points toward suspicion for an exposure-triggered allergic syndrome; the statements include this, but the relationship to allergy specialist recommendation is not clearly preserved as a recommendation-based inference.",
+        "The original text states that in the context of an orthopedic implant case, exposure to mammalian-derived surgical materials can trigger delayed allergic reactions in sensitized patients, producing recurrent local and systemic symptoms without infectious markers; the statements split this into separate pieces, but do not fully preserve the complete causal chain in one statement.",
+        "The original text includes the phrase 'postoperative hypersensitivity related to mammalian-derived surgical exposure' as the final framing; the statements capture alpha-gal syndrome as final diagnosis, but not this exact postoperative hypersensitivity framing."
+      ],
+      "added": [
+        "'The initial concern was based on symptoms that began 4 weeks after surgery with erythema, warmth, swelling, and limited range of motion.' adds 'limited range of motion' as a standalone detail in a way that is not explicitly tied to the initial concern in the original sentence structure, though it is present in the source.",
+        "'The repeated negative evaluations for infection, thrombosis, vascular compression, mastocytosis, hereditary angioedema, and implant contact allergy make those alternatives less convincing.' adds 'vascular compression' as a generalized category; the original specifically names popliteal entrapment and May-Thurner syndrome rather than the broader term.",
+        "'The combination of recurrent urticarial or blanchable rash, warmth, swelling, severe pain episodes, antihistamine responsiveness, and gastrointestinal or systemic symptoms strongly supports an allergic syndrome with delayed mammalian-product sensitivity.' adds the phrase 'gastrointestinal or systemic symptoms' as a generalized grouping; the original specifically lists bloating, fatigue, and headaches.",
+        "'A mast cell-mediated allergic disorder was weakened by normal serum tryptase and episodes tied to the postoperative course rather than classic spontaneous mast cell activation.' adds the concept of 'classic spontaneous mast cell activation,' which is not stated in the original.",
+        "'Hereditary angioedema was weakened by normal C4 and the presence of an urticarial or blanchable rash.' adds 'urticarial or blanchable rash' as a reason against hereditary angioedema; while consistent with the source, the original emphasizes normal C4 and that rash makes it unlikely, but does not explicitly frame it as a weakening factor in that exact way."
+      ]
+    },
+    "clusters": [
+      {
+        "cluster_id": "c1",
+        "label": "history_taking",
+        "statement_indices": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19
+        ],
+        "summary": "Postoperative recurrent knee rash, swelling, warmth, pain, and associated systemic symptoms are described, along with initial infection concern and basic clinical findings.",
+        "salience": 0.8
+      },
+      {
+        "cluster_id": "c2",
+        "label": "test_ordering",
+        "statement_indices": [
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28
+        ],
+        "summary": "Workup shows normal inflammatory markers, negative infection/thromboembolism studies, negative patch testing, normal tryptase/C4, and patent vascular imaging.",
+        "salience": 0.9
+      },
+      {
+        "cluster_id": "c3",
+        "label": "differential_generation",
+        "statement_indices": [
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38
+        ],
+        "summary": "Initial differential considers infection, implant hypersensitivity, mast cell disorders, and vascular causes, with reasons each becomes less likely.",
+        "salience": 0.95
+      },
+      {
+        "cluster_id": "c4",
+        "label": "differential_generation",
+        "statement_indices": [
+          39,
+          40,
+          41,
+          42,
+          43,
+          44
+        ],
+        "summary": "Alpha-gal syndrome is proposed as the best unifying allergic explanation for the episodic rash, swelling, pain, and systemic symptoms.",
+        "salience": 0.98
+      },
+      {
+        "cluster_id": "c5",
+        "label": "final_decision",
+        "statement_indices": [
+          45,
+          46,
+          47,
+          48,
+          49,
+          50,
+          51,
+          52,
+          53,
+          54,
+          55
+        ],
+        "summary": "The reasoning concludes that alpha-gal syndrome best fits the postoperative hypersensitivity presentation and states it as the final diagnosis.",
+        "salience": 1.0
+      }
+    ]
+  }
+}

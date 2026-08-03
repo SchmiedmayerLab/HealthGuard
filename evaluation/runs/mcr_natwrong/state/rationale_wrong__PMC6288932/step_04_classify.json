@@ -1,0 +1,405 @@
+{
+  "name": "classify",
+  "passed": true,
+  "score": 1.0,
+  "reasoning": "Classified 79 statement(s): 22 causal, 50 factual, 1 recommendation, 6 statistical.",
+  "data": {
+    "classified": [
+      {
+        "text": "The chief problem is recurrent symptomatic hypoglycemia in a 19-year-old woman.",
+        "category": "factual",
+        "rationale": "It states a patient condition and demographic as a direct clinical fact."
+      },
+      {
+        "text": "Her symptoms progressed from lightheadedness and weakness to repeated episodes of unresponsiveness.",
+        "category": "factual",
+        "rationale": "It describes the observed progression of symptoms."
+      },
+      {
+        "text": "Her symptom pattern is classic for neuroglycopenia and adrenergic activation.",
+        "category": "causal",
+        "rationale": "It links the symptom pattern to underlying physiologic syndromes."
+      },
+      {
+        "text": "Her symptoms included diaphoresis, palpitations, confusion, weakness, and altered mental status.",
+        "category": "factual",
+        "rationale": "It lists reported symptoms."
+      },
+      {
+        "text": "Her documented glucose values were 53 mg/dL at home, 60 mg/dL in the ED, 46 mg/dL prehospital, and as low as 23 mg/dL on the third visit.",
+        "category": "statistical",
+        "rationale": "It provides specific numerical glucose measurements."
+      },
+      {
+        "text": "This fulfills Whipple-type concern.",
+        "category": "factual",
+        "rationale": "It asserts that the clinical picture meets a diagnostic concern."
+      },
+      {
+        "text": "The Whipple-type concern includes symptoms consistent with hypoglycemia.",
+        "category": "factual",
+        "rationale": "It states a defining clinical feature."
+      },
+      {
+        "text": "The Whipple-type concern includes low measured glucose.",
+        "category": "factual",
+        "rationale": "It states a defining clinical feature."
+      },
+      {
+        "text": "The Whipple-type concern includes improvement after dextrose or food.",
+        "category": "factual",
+        "rationale": "It states a defining clinical feature."
+      },
+      {
+        "text": "Salient positive findings strongly indicate endogenous hyperinsulinemic hypoglycemia.",
+        "category": "causal",
+        "rationale": "It infers a cause based on the pattern of findings."
+      },
+      {
+        "text": "During recurrent hypoglycemia she had markedly elevated insulin levels.",
+        "category": "factual",
+        "rationale": "It reports a laboratory finding."
+      },
+      {
+        "text": "Her free insulin level was 370 mIU/L.",
+        "category": "statistical",
+        "rationale": "It gives a specific numeric lab value."
+      },
+      {
+        "text": "Her total insulin level was 377 mIU/L.",
+        "category": "statistical",
+        "rationale": "It gives a specific numeric lab value."
+      },
+      {
+        "text": "She had elevated C-peptide.",
+        "category": "factual",
+        "rationale": "It reports a laboratory abnormality."
+      },
+      {
+        "text": "Her C-peptide level was 9.9 ng/mL.",
+        "category": "statistical",
+        "rationale": "It gives a specific numeric lab value."
+      },
+      {
+        "text": "Elevated C-peptide means the insulin is being secreted endogenously or stimulated endogenously rather than being purely injected exogenous insulin.",
+        "category": "causal",
+        "rationale": "It explains the physiologic implication of elevated C-peptide."
+      },
+      {
+        "text": "The hypoglycemia was persistent and severe enough to recur despite repeated D50W boluses and escalating dextrose infusions.",
+        "category": "factual",
+        "rationale": "It describes the clinical course and treatment response."
+      },
+      {
+        "text": "This is compatible with ongoing insulin effect.",
+        "category": "causal",
+        "rationale": "It interprets the recurrence as due to a mechanism."
+      },
+      {
+        "text": "Hemoglobin A1C was 5.1%.",
+        "category": "statistical",
+        "rationale": "It provides a specific numeric laboratory value."
+      },
+      {
+        "text": "There is no evidence of chronic hyperglycemia or known diabetes.",
+        "category": "factual",
+        "rationale": "It states the absence of evidence for those conditions."
+      },
+      {
+        "text": "Routine labs were otherwise normal.",
+        "category": "factual",
+        "rationale": "It reports a general laboratory finding."
+      },
+      {
+        "text": "Routine hematologic panels were normal.",
+        "category": "factual",
+        "rationale": "It reports a laboratory finding."
+      },
+      {
+        "text": "Routine renal panels were normal.",
+        "category": "factual",
+        "rationale": "It reports a laboratory finding."
+      },
+      {
+        "text": "Routine electrolyte panels were normal.",
+        "category": "factual",
+        "rationale": "It reports a laboratory finding."
+      },
+      {
+        "text": "These normal routine labs argue against organ failure as the cause.",
+        "category": "causal",
+        "rationale": "It draws a causal inference from normal labs to a less likely cause."
+      },
+      {
+        "text": "The drug screen was negative.",
+        "category": "factual",
+        "rationale": "It reports a test result."
+      },
+      {
+        "text": "Standard drug screens do not typically detect sulfonylureas.",
+        "category": "factual",
+        "rationale": "It states a general limitation of testing."
+      },
+      {
+        "text": "Abdominal CT showed no pancreatic mass.",
+        "category": "factual",
+        "rationale": "It reports an imaging finding."
+      },
+      {
+        "text": "CT can miss small insulinomas.",
+        "category": "factual",
+        "rationale": "It states a known limitation of CT imaging."
+      },
+      {
+        "text": "There is no evidence provided for sepsis.",
+        "category": "factual",
+        "rationale": "It states absence of evidence for a condition."
+      },
+      {
+        "text": "There is no evidence provided for liver failure.",
+        "category": "factual",
+        "rationale": "It states absence of evidence for a condition."
+      },
+      {
+        "text": "There is no evidence provided for renal failure.",
+        "category": "factual",
+        "rationale": "It states absence of evidence for a condition."
+      },
+      {
+        "text": "There is no evidence provided for adrenal crisis.",
+        "category": "factual",
+        "rationale": "It states absence of evidence for a condition."
+      },
+      {
+        "text": "There is no evidence provided for malnutrition.",
+        "category": "factual",
+        "rationale": "It states absence of evidence for a condition."
+      },
+      {
+        "text": "There is no evidence provided for pregnancy-related illness.",
+        "category": "factual",
+        "rationale": "It states absence of evidence for a condition."
+      },
+      {
+        "text": "There is no evidence provided for alcohol intoxication.",
+        "category": "factual",
+        "rationale": "It states absence of evidence for a condition."
+      },
+      {
+        "text": "There is no evidence provided for drug intoxication.",
+        "category": "factual",
+        "rationale": "It states absence of evidence for a condition."
+      },
+      {
+        "text": "Vitals were not suggestive of shock.",
+        "category": "factual",
+        "rationale": "It reports an assessment of vital signs."
+      },
+      {
+        "text": "Vitals were not suggestive of severe infection.",
+        "category": "factual",
+        "rationale": "It reports an assessment of vital signs."
+      },
+      {
+        "text": "Temperature was normal.",
+        "category": "statistical",
+        "rationale": "It refers to a measurable vital sign value."
+      },
+      {
+        "text": "Chemistry panels were otherwise unremarkable.",
+        "category": "factual",
+        "rationale": "It reports a general laboratory finding."
+      },
+      {
+        "text": "Head CT was normal.",
+        "category": "factual",
+        "rationale": "It reports an imaging finding."
+      },
+      {
+        "text": "Normal head CT makes intracranial pathology an unlikely explanation for the altered mental status.",
+        "category": "causal",
+        "rationale": "It infers reduced likelihood of a cause from the imaging result."
+      },
+      {
+        "text": "The combination of high insulin plus high C-peptide essentially rules out non-insulin-mediated causes of hypoglycemia.",
+        "category": "causal",
+        "rationale": "It asserts a mechanistic exclusion based on lab pattern."
+      },
+      {
+        "text": "The combination of high insulin plus high C-peptide argues against exogenous insulin administration.",
+        "category": "causal",
+        "rationale": "It links the lab pattern to a less likely cause."
+      },
+      {
+        "text": "Exogenous insulin would suppress C-peptide.",
+        "category": "causal",
+        "rationale": "It states a physiologic mechanism."
+      },
+      {
+        "text": "The main candidate differentials are sulfonylurea or meglitinide ingestion causing factitious or endogenous hyperinsulinemic hypoglycemia, insulinoma, and less likely surreptitious exogenous insulin use.",
+        "category": "factual",
+        "rationale": "It lists the differential diagnoses as a clinical statement."
+      },
+      {
+        "text": "Sulfonylurea ingestion fits very well.",
+        "category": "causal",
+        "rationale": "It implies a causal match between the ingestion and the presentation."
+      },
+      {
+        "text": "Sulfonylurea ingestion causes profound recurrent hypoglycemia with both elevated insulin and elevated C-peptide.",
+        "category": "causal",
+        "rationale": "It describes the mechanism and resulting lab pattern."
+      },
+      {
+        "text": "Sulfonylurea ingestion often occurs with normal routine labs and no pancreatic lesion on imaging.",
+        "category": "factual",
+        "rationale": "It states a typical associated clinical pattern."
+      },
+      {
+        "text": "The patient is young.",
+        "category": "factual",
+        "rationale": "It states a patient attribute."
+      },
+      {
+        "text": "The patient has psychosocial distress.",
+        "category": "factual",
+        "rationale": "It states a patient attribute."
+      },
+      {
+        "text": "These features raise concern for possible factitious or accidental ingestion.",
+        "category": "causal",
+        "rationale": "It infers a possible cause from patient features."
+      },
+      {
+        "text": "The diagnosis should rest on the biochemical pattern rather than speculation.",
+        "category": "recommendation",
+        "rationale": "It advises how the diagnosis should be determined."
+      },
+      {
+        "text": "Insulinoma is also plausible.",
+        "category": "factual",
+        "rationale": "It states a diagnostic possibility."
+      },
+      {
+        "text": "Insulinoma causes endogenous hyperinsulinemic hypoglycemia with elevated insulin and C-peptide.",
+        "category": "causal",
+        "rationale": "It describes the mechanism and resulting biochemical pattern."
+      },
+      {
+        "text": "Her age is young for insulinoma.",
+        "category": "factual",
+        "rationale": "It states an age-related clinical observation."
+      },
+      {
+        "text": "Abdominal CT showed no pancreatic mass.",
+        "category": "factual",
+        "rationale": "It repeats an imaging finding."
+      },
+      {
+        "text": "The dramatic recurrent episodes over multiple ED visits without a visible lesion make medication-induced hypoglycemia at least more immediately compelling.",
+        "category": "causal",
+        "rationale": "It argues that the pattern makes one cause more likely."
+      },
+      {
+        "text": "Exogenous insulin use is less likely.",
+        "category": "factual",
+        "rationale": "It states a likelihood assessment."
+      },
+      {
+        "text": "The decisive feature is severe hypoglycemia with simultaneously very high insulin and high C-peptide.",
+        "category": "factual",
+        "rationale": "It identifies the key biochemical finding."
+      },
+      {
+        "text": "This occurred in the setting of otherwise normal labs and a negative standard drug screen.",
+        "category": "factual",
+        "rationale": "It describes accompanying test results."
+      },
+      {
+        "text": "This biochemical profile is most characteristic of sulfonylurea-induced hypoglycemia.",
+        "category": "causal",
+        "rationale": "It links the lab profile to a likely cause."
+      },
+      {
+        "text": "Sulfonylurea-induced hypoglycemia can mimic insulinoma.",
+        "category": "causal",
+        "rationale": "It states a relationship between two diagnostic entities."
+      },
+      {
+        "text": "Sulfonylurea-induced hypoglycemia would not be detected on a routine drug screen.",
+        "category": "factual",
+        "rationale": "It states a testing limitation."
+      },
+      {
+        "text": "Although insulinoma remains an important alternative, the most likely diagnosis from the provided data is factitious sulfonylurea ingestion causing endogenous hyperinsulinemic hypoglycemia.",
+        "category": "factual",
+        "rationale": "It states the most likely diagnosis based on the provided data."
+      },
+      {
+        "text": "The differential diagnosis includes sulfonylurea-induced hypoglycemia.",
+        "category": "factual",
+        "rationale": "It lists a differential diagnosis."
+      },
+      {
+        "text": "Sulfonylurea-induced hypoglycemia is high on the differential.",
+        "category": "factual",
+        "rationale": "It states a diagnostic ranking."
+      },
+      {
+        "text": "Sulfonylurea-induced hypoglycemia is associated with recurrent severe hypoglycemia.",
+        "category": "causal",
+        "rationale": "It describes an association between cause and effect."
+      },
+      {
+        "text": "Sulfonylurea-induced hypoglycemia is associated with markedly elevated insulin.",
+        "category": "causal",
+        "rationale": "It describes an association between cause and effect."
+      },
+      {
+        "text": "Sulfonylurea-induced hypoglycemia is associated with elevated C-peptide.",
+        "category": "causal",
+        "rationale": "It describes an association between cause and effect."
+      },
+      {
+        "text": "Sulfonylurea-induced hypoglycemia is associated with normal routine labs.",
+        "category": "causal",
+        "rationale": "It describes an association between cause and effect."
+      },
+      {
+        "text": "Sulfonylurea-induced hypoglycemia is associated with a negative standard drug screen.",
+        "category": "causal",
+        "rationale": "It describes an association between cause and effect."
+      },
+      {
+        "text": "Sulfonylurea-induced hypoglycemia is associated with no pancreatic mass on CT.",
+        "category": "causal",
+        "rationale": "It describes an association between cause and effect."
+      },
+      {
+        "text": "The differential diagnosis includes insulinoma.",
+        "category": "factual",
+        "rationale": "It lists a differential diagnosis."
+      },
+      {
+        "text": "Insulinoma is medium on the differential.",
+        "category": "factual",
+        "rationale": "It states a diagnostic ranking."
+      },
+      {
+        "text": "The differential diagnosis includes exogenous insulin administration.",
+        "category": "factual",
+        "rationale": "It lists a differential diagnosis."
+      },
+      {
+        "text": "Exogenous insulin administration is low on the differential.",
+        "category": "factual",
+        "rationale": "It states a diagnostic ranking."
+      },
+      {
+        "text": "The final diagnosis is sulfonylurea-induced hypoglycemia.",
+        "category": "factual",
+        "rationale": "It states a final diagnosis."
+      }
+    ]
+  }
+}

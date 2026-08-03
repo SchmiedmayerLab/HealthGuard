@@ -1,0 +1,10 @@
+{
+  "name": "chain_verify",
+  "passed": true,
+  "score": 1.0,
+  "reasoning": "All logical chains are internally consistent. The statements form a coherent diagnostic chain: cough and subcutaneous emphysema support pneumomediastinum, bronchoscopy excludes perforation/neoplasm, and mucus plugging plausibly explains the left lower lobe obstructive atelectasis. The differential considerations are internally consistent and the final diagnosis is supported by the preceding findings.",
+  "data": {
+    "has_chain_dependencies": true,
+    "issues": []
+  }
+}

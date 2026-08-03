@@ -1,0 +1,182 @@
+digraph ReasoningGraph {
+  rankdir="LR";
+  compound=true;
+  node [shape=box, style="rounded,filled"];
+  subgraph cluster_0 {
+    label="history_taking (c1)";
+    style="rounded,dashed";
+    color="#9e9e9e";
+    n1 [label="n1: The chief concern is a several-year history of slowly progressive purple spots on both feet.\\n[factual]", fillcolor="#c8e6c9"];
+    n2 [label="n2: The purple spots increased in number and size.\\n[factual]", fillcolor="#c8e6c9"];
+  }
+  subgraph cluster_1 {
+    label="examination (c2)";
+    style="rounded,dashed";
+    color="#9e9e9e";
+    n3 [label="n3: Clinically, the lesions are multiple purple papules and plaques on the dorsum of the feet and around the ankles.\\n[factual]", fillcolor="#c8e6c9"];
+    n4 [label="n4: Some of the lesions are crusted.\\n[factual]", fillcolor="#c8e6c9"];
+  }
+  subgraph cluster_2 {
+    label="differential_generation (c3)";
+    style="rounded,dashed";
+    color="#9e9e9e";
+    n5 [label="n5: In an older man, bilateral violaceous acral lesions raise concern for a vascular proliferation.\\n[causal]", fillcolor="#c8e6c9"];
+    n6 [label="n6: Kaposi sarcoma is a particular concern in this setting.\\n[factual]", fillcolor="#c8e6c9"];
+    n7 [label="n7: The diagnosis must be reconciled with the biopsy.\\n[recommendation]", fillcolor="#c8e6c9"];
+    n8 [label="n8: Salient positive findings include chronic, gradual enlargement over years.\\n[factual]", fillcolor="#c8e6c9"];
+    n9 [label="n9: Salient positive findings include bilateral acral distribution on the feet and ankles.\\n[factual]", fillcolor="#c8e6c9"];
+    n10 [label="n10: Salient positive findings include violaceous papules and plaques.\\n[factual]", fillcolor="#c8e6c9"];
+  }
+  subgraph cluster_3 {
+    label="examination (c4)";
+    style="rounded,dashed";
+    color="#9e9e9e";
+    n11 [label="n11: Histology shows a vascular lesion extending from the papillary dermis to the reticular dermis in a lobular pattern.\\n[factual]", fillcolor="#c8e6c9"];
+    n12 [label="n12: The lesion is composed mainly of dilated blood-filled thin-walled spaces.\\n[factual]", fillcolor="#c8e6c9"];
+    n13 [label="n13: The lesion also contains some thick-walled vessels.\\n[factual]", fillcolor="#c8e6c9"];
+    n14 [label="n14: Histology shows hemosiderin deposition.\\n[factual]", fillcolor="#c8e6c9"];
+    n15 [label="n15: Histology shows chronic inflammation.\\n[factual]", fillcolor="#c8e6c9"];
+    n16 [label="n16: Histology shows focal immature vascular clefts with extravasated erythrocytes.\\n[factual]", fillcolor="#c8e6c9"];
+    n17 [label="n17: Histology shows mild endothelial atypia.\\n[factual]", fillcolor="#c8e6c9"];
+    n18 [label="n18: These features indicate a benign-to-borderline vascular proliferation with hemorrhagic change.\\n[causal]", fillcolor="#c8e6c9"];
+  }
+  subgraph cluster_4 {
+    label="other (c5)";
+    style="rounded,dashed";
+    color="#9e9e9e";
+    n19 [label="n19: There are no systemic symptoms.\\n[factual]", fillcolor="#c8e6c9"];
+    n20 [label="n20: There is no lymphadenopathy.\\n[factual]", fillcolor="#c8e6c9"];
+    n21 [label="n21: There is no visceral involvement.\\n[factual]", fillcolor="#c8e6c9"];
+    n22 [label="n22: HIV serology is negative.\\n[factual]", fillcolor="#c8e6c9"];
+  }
+  subgraph cluster_5 {
+    label="differential_generation (c6)";
+    style="rounded,dashed";
+    color="#9e9e9e";
+    n23 [label="n23: There is no spindle cell proliferation on histology.\\n[factual]", fillcolor="#c8e6c9"];
+    n24 [label="n24: The absence of spindle cell proliferation argues strongly against Kaposi sarcoma despite the clinical resemblance.\\n[causal]", fillcolor="#c8e6c9"];
+    n25 [label="n25: There is no mention of dissecting irregular anastomosing vascular channels infiltrating collagen.\\n[factual]", fillcolor="#c8e6c9"];
+    n26 [label="n26: There is no mention of marked atypia.\\n[factual]", fillcolor="#c8e6c9"];
+    n27 [label="n27: There is no mention of multilayered endothelium.\\n[factual]", fillcolor="#c8e6c9"];
+    n28 [label="n28: These missing features do not support angiosarcoma.\\n[causal]", fillcolor="#c8e6c9"];
+    n29 [label="n29: The lesion is not described as a simple targetoid solitary papule typical of hobnail hemangioma.\\n[factual]", fillcolor="#c8e6c9"];
+    n30 [label="n30: Histology instead shows larger dilated vessels with hemosiderin and focal papillary-dermal slitlike immature areas.\\n[factual]", fillcolor="#c8e6c9"];
+    n31 [label="n31: There is no systemic disease to support epidemic Kaposi sarcoma.\\n[factual]", fillcolor="#c8e6c9"];
+    n32 [label="n32: There is no immunosuppression to support iatrogenic Kaposi sarcoma.\\n[factual]", fillcolor="#c8e6c9"];
+  }
+  subgraph cluster_6 {
+    label="differential_generation (c7)";
+    style="rounded,dashed";
+    color="#9e9e9e";
+    n33 [label="n33: The leading differential is acroangiodermatitis.\\n[factual]", fillcolor="#c8e6c9"];
+    n34 [label="n34: Acroangiodermatitis is also called pseudo-Kaposi sarcoma.\\n[factual]", fillcolor="#c8e6c9"];
+    n35 [label="n35: The leading differential is particularly the Mali type or a related acral reactive vascular proliferation.\\n[factual]", fillcolor="#c8e6c9"];
+    n36 [label="n36: Acroangiodermatitis fits the bilateral lesions on the feet and ankles of an older man.\\n[causal]", fillcolor="#c8e6c9"];
+    n37 [label="n37: Acroangiodermatitis fits the histology of capillary and venous proliferation with thick- and thin-walled vessels, hemosiderin, extravasated erythrocytes, and inflammation.\\n[causal]", fillcolor="#c8e6c9"];
+    n38 [label="n38: Acroangiodermatitis can clinically mimic Kaposi sarcoma.\\n[causal]", fillcolor="#c8e6c9"];
+    n39 [label="n39: Acroangiodermatitis may show vascular clefts and mild endothelial atypia.\\n[factual]", fillcolor="#c8e6c9"];
+    n40 [label="n40: Acroangiodermatitis lacks the spindle-cell fascicles characteristic of Kaposi sarcoma.\\n[factual]", fillcolor="#c8e6c9"];
+  }
+  subgraph cluster_7 {
+    label="differential_generation (c8)";
+    style="rounded,dashed";
+    color="#9e9e9e";
+    n41 [label="n41: Kaposi sarcoma is the main competing diagnosis.\\n[factual]", fillcolor="#c8e6c9"];
+    n42 [label="n42: Kaposi sarcoma is considered because of the violaceous plaques on the feet.\\n[causal]", fillcolor="#c8e6c9"];
+    n43 [label="n43: Kaposi sarcoma is considered because of the focal slitlike vascular spaces with extravasated erythrocytes.\\n[causal]", fillcolor="#c8e6c9"];
+    n44 [label="n44: Kaposi sarcoma is less likely because HIV serology is negative.\\n[causal]", fillcolor="#c8e6c9"];
+    n45 [label="n45: Kaposi sarcoma is less likely because there is no systemic involvement.\\n[causal]", fillcolor="#c8e6c9"];
+    n46 [label="n46: Kaposi sarcoma is less likely because the biopsy lacks spindle cell proliferation.\\n[causal]", fillcolor="#c8e6c9"];
+    n47 [label="n47: Spindle cell proliferation is a key histologic feature of Kaposi sarcoma.\\n[factual]", fillcolor="#c8e6c9"];
+  }
+  subgraph cluster_8 {
+    label="differential_generation (c9)";
+    style="rounded,dashed";
+    color="#9e9e9e";
+    n48 [label="n48: Another consideration is verrucous hemangioma or another benign venous or lymphatic vascular malformation.\\n[factual]", fillcolor="#c8e6c9"];
+    n49 [label="n49: This consideration is based on the hyperkeratotic epidermis and dilated vascular spaces.\\n[causal]", fillcolor="#c8e6c9"];
+    n50 [label="n50: The age of onset is in late adulthood.\\n[factual]", fillcolor="#c8e6c9"];
+    n51 [label="n51: The lesions have a bilateral multifocal acral distribution.\\n[factual]", fillcolor="#c8e6c9"];
+    n52 [label="n52: The lesions have a pseudo-Kaposi-like clinical appearance.\\n[factual]", fillcolor="#c8e6c9"];
+    n53 [label="n53: These features make verrucous hemangioma or another benign venous or lymphatic vascular malformation less fitting.\\n[causal]", fillcolor="#c8e6c9"];
+  }
+  subgraph cluster_9 {
+    label="differential_generation (c10)";
+    style="rounded,dashed";
+    color="#9e9e9e";
+    n54 [label="n54: Angiosarcoma is low likelihood.\\n[factual]", fillcolor="#c8e6c9"];
+    n55 [label="n55: Angiosarcoma is low likelihood because the course is indolent over years.\\n[causal]", fillcolor="#c8e6c9"];
+    n56 [label="n56: Angiosarcoma is low likelihood because histology shows only mild atypia without destructive infiltrative malignant features.\\n[causal]", fillcolor="#c8e6c9"];
+  }
+  subgraph cluster_10 {
+    label="final_decision (c11)";
+    style="rounded,dashed";
+    color="#9e9e9e";
+    n57 [label="n57: The combination of bilateral slowly progressive violaceous acral plaques, absence of systemic disease, and biopsy showing lobular dilated vascular proliferation with hemosiderin and extravasated erythrocytes but no spindle cell proliferation most strongly supports acroangiodermatitis.\\n[causal]", fillcolor="#c8e6c9"];
+    n58 [label="n58: Acroangiodermatitis is the final diagnosis.\\n[factual]", fillcolor="#c8e6c9"];
+    n59 [label="n59: The differential diagnosis includes acroangiodermatitis with high likelihood.\\n[factual]", fillcolor="#c8e6c9"];
+    n60 [label="n60: The differential diagnosis includes Kaposi sarcoma with medium likelihood.\\n[factual]", fillcolor="#c8e6c9"];
+    n61 [label="n61: The differential diagnosis includes angiosarcoma with low likelihood.\\n[factual]", fillcolor="#c8e6c9"];
+    n62 [label="n62: The final diagnosis is acroangiodermatitis (pseudo-Kaposi sarcoma).\\n[factual]", fillcolor="#c8e6c9"];
+  }
+  n1 -> n8 [label="supports: A several-year history of slowly progressive lesions supports the summary of chronic, gradual enlargement."];
+  n2 -> n8 [label="supports: Increasing number and size supports the characterization of gradual enlargement over time."];
+  n1 -> n9 [label="supports: The chief concern specifies bilateral foot involvement, supporting the acral distribution summary."];
+  n3 -> n9 [label="supports: Lesions on the dorsum of the feet and around the ankles support bilateral acral distribution."];
+  n3 -> n10 [label="supports: Multiple purple papules and plaques directly support the violaceous papules and plaques summary."];
+  n5 -> n6 [label="supports: Older age with bilateral violaceous acral lesions raises concern for Kaposi sarcoma in this setting."];
+  n11 -> n18 [label="supports: A lobular vascular proliferation extending through the dermis supports a benign-to-borderline vascular proliferation interpretation."];
+  n12 -> n18 [label="supports: Dilated blood-filled thin-walled spaces support a benign vascular proliferation with hemorrhagic change."];
+  n13 -> n18 [label="supports: Thick-walled vessels are compatible with the benign-to-borderline vascular proliferation interpretation."];
+  n14 -> n18 [label="supports: Hemosiderin deposition supports hemorrhagic change in a vascular proliferation."];
+  n15 -> n18 [label="supports: Chronic inflammation supports a reactive benign-to-borderline vascular process."];
+  n16 -> n18 [label="supports: Immature vascular clefts with extravasated erythrocytes support a hemorrhagic vascular proliferation."];
+  n17 -> n18 [label="supports: Mild endothelial atypia still fits a borderline rather than frankly malignant vascular proliferation."];
+  n23 -> n24 [label="supports: Absence of spindle cell proliferation supports arguing against Kaposi sarcoma."];
+  n25 -> n28 [label="supports: Lack of dissecting irregular anastomosing channels does not support angiosarcoma."];
+  n26 -> n28 [label="supports: Absence of marked atypia argues against angiosarcoma."];
+  n27 -> n28 [label="supports: Absence of multilayered endothelium argues against angiosarcoma."];
+  n30 -> n37 [label="supports: Dilated vessels with hemosiderin and slitlike immature areas match the histology described for acroangiodermatitis."];
+  n29 -> n53 [label="supports: Not being a simple targetoid solitary papule makes verrucous hemangioma or related malformation less fitting."];
+  n30 -> n53 [label="supports: The described histology is less typical for verrucous hemangioma or a simple benign malformation."];
+  n31 -> n44 [label="supports: No systemic disease supports Kaposi sarcoma being less likely."];
+  n32 -> n44 [label="supports: No immunosuppression supports Kaposi sarcoma being less likely."];
+  n19 -> n45 [label="supports: Absence of systemic symptoms supports Kaposi sarcoma being less likely."];
+  n20 -> n45 [label="supports: No lymphadenopathy supports Kaposi sarcoma being less likely."];
+  n21 -> n45 [label="supports: No visceral involvement supports Kaposi sarcoma being less likely."];
+  n23 -> n46 [label="supports: No spindle cell proliferation on biopsy supports Kaposi sarcoma being less likely."];
+  n47 -> n46 [label="supports: Because spindle cell proliferation is a key feature of Kaposi sarcoma, its absence lowers likelihood."];
+  n50 -> n36 [label="supports: Late-adult onset supports acroangiodermatitis fitting the clinical picture in an older man."];
+  n51 -> n36 [label="supports: Bilateral multifocal acral distribution supports acroangiodermatitis fitting the presentation."];
+  n52 -> n38 [label="supports: A pseudo-Kaposi-like appearance supports clinical mimicry of Kaposi sarcoma."];
+  n39 -> n37 [label="supports: Vascular clefts and mild endothelial atypia are compatible with acroangiodermatitis histology."];
+  n40 -> n24 [label="supports: Lack of spindle-cell fascicles supports arguing strongly against Kaposi sarcoma."];
+  n42 -> n41 [label="supports: Violaceous plaques on the feet are a reason Kaposi sarcoma is the main competing diagnosis."];
+  n43 -> n41 [label="supports: Focal slitlike vascular spaces with extravasated erythrocytes support Kaposi sarcoma as a competing diagnosis."];
+  n44 -> n41 [label="supports: Lower likelihood due to negative HIV still keeps Kaposi sarcoma in the differential as a competing diagnosis."];
+  n45 -> n41 [label="supports: Lack of systemic involvement informs the competing diagnosis assessment for Kaposi sarcoma."];
+  n46 -> n41 [label="supports: Absence of spindle cell proliferation informs the competing diagnosis assessment for Kaposi sarcoma."];
+  n49 -> n48 [label="supports: Hyperkeratotic epidermis and dilated vascular spaces support considering verrucous hemangioma or another benign vascular malformation."];
+  n55 -> n54 [label="supports: An indolent course over years supports angiosarcoma being low likelihood."];
+  n56 -> n54 [label="supports: Only mild atypia without destructive infiltrative malignant features supports angiosarcoma being low likelihood."];
+  n57 -> n58 [label="supports: The integrated clinicopathologic conclusion supports the final diagnosis of acroangiodermatitis."];
+  n57 -> n62 [label="supports: The strongest overall diagnostic synthesis supports the stated final diagnosis."];
+  n33 -> n59 [label="supports: Naming acroangiodermatitis as the leading differential supports high likelihood in the differential list."];
+  n41 -> n60 [label="supports: Kaposi sarcoma as the main competing diagnosis supports medium likelihood in the differential list."];
+  n54 -> n61 [label="supports: Angiosarcoma being low likelihood supports its placement in the differential list."];
+  n34 -> n62 [label="supports: Pseudo-Kaposi sarcoma is another name for acroangiodermatitis, supporting the final diagnosis statement."];
+  n35 -> n33 [label="supports: The Mali type or related acral reactive vascular proliferation is part of the acroangiodermatitis differential."];
+  n36 -> n33 [label="supports: Clinical fit with bilateral lesions on the feet and ankles supports acroangiodermatitis as leading differential."];
+  n37 -> n33 [label="supports: Histologic fit with capillary and venous proliferation supports acroangiodermatitis as leading differential."];
+  n38 -> n33 [label="supports: Clinical mimicry of Kaposi sarcoma supports acroangiodermatitis being considered prominently."];
+  n40 -> n33 [label="supports: Absence of spindle-cell fascicles supports acroangiodermatitis over Kaposi sarcoma."];
+  n42 -> n6 [label="supports: Violaceous plaques on the feet are a clinical reason Kaposi sarcoma is a concern."];
+  n43 -> n6 [label="supports: Slitlike vascular spaces with extravasated erythrocytes are a histologic reason Kaposi sarcoma is a concern."];
+  n44 -> n6 [label="contradicts: Negative HIV serology makes Kaposi sarcoma less likely, opposing concern for it."];
+  n45 -> n6 [label="contradicts: No systemic involvement makes Kaposi sarcoma less likely, opposing concern for it."];
+  n46 -> n6 [label="contradicts: Lack of spindle cell proliferation argues against Kaposi sarcoma."];
+  n24 -> n6 [label="contradicts: The explicit argument against Kaposi sarcoma contradicts it being a major concern."];
+  n53 -> n48 [label="contradicts: Features making verrucous hemangioma less fitting oppose that alternative diagnosis."];
+  n55 -> n54 [label="contradicts: An indolent multi-year course is incompatible with angiosarcoma being likely."];
+  n56 -> n54 [label="contradicts: Lack of destructive malignant histology contradicts angiosarcoma."];
+}

@@ -1,0 +1,764 @@
+{
+  "name": "expert_verify",
+  "passed": true,
+  "score": 1.0,
+  "reasoning": "No contradictions among 83 statement(s) (42 supported, 37 valid inferences, 4 unverifiable).",
+  "data": {
+    "verifications": [
+      {
+        "text": "The chief complaint is a 4-month history of a gradually enlarging unilateral left nasal mass in a 90-year-old man.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Matches the case: 4-month gradually enlarging left-sided nasal mass in a 90-year-old man."
+      },
+      {
+        "text": "The patient’s main concern is progressive nasal obstruction from a mass prolapsing through the left nostril.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.98,
+        "reasoning": "Reference says progressive nasal obstruction from a mass prolapsing through the left nostril."
+      },
+      {
+        "text": "The unilateral nature, progressive enlargement, and extension into the choana/nasopharynx raise concern for a sinonasal neoplasm rather than simple inflammatory disease.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.9,
+        "reasoning": "Unilateral progressive mass with choanal/nasopharyngeal extension reasonably raises concern for neoplasm over simple inflammation."
+      },
+      {
+        "text": "Advanced age is a salient positive finding.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.97,
+        "reasoning": "Age 90 is explicitly stated and is clinically salient."
+      },
+      {
+        "text": "The patient is 90 years old.",
+        "category": "statistical",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 1.0,
+        "reasoning": "Reference data explicitly states the patient is 90 years old."
+      },
+      {
+        "text": "A large smooth grayish mass is arising in the left nasal cavity.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Endoscopy found a smooth, grayish mass in the left nasal cavity/choana region."
+      },
+      {
+        "text": "The left nasal cavity is completely obstructed.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.98,
+        "reasoning": "Exam states complete obstruction of the left nasal cavity."
+      },
+      {
+        "text": "The septum is deviated to the right from mass effect.",
+        "category": "causal",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.96,
+        "reasoning": "The septum was deflected/deviated to the right from mass effect."
+      },
+      {
+        "text": "The mass extends posteriorly into the left choana.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.98,
+        "reasoning": "Endoscopy showed the mass filling the left choana."
+      },
+      {
+        "text": "The mass extends posteriorly into the nasopharyngeal space.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.98,
+        "reasoning": "Endoscopy showed extension into the nasopharyngeal space."
+      },
+      {
+        "text": "CT shows a homogeneous lesion completely occupying the left nasal cavity.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "CT showed a homogeneous mass completely occupying the left nasal cavity."
+      },
+      {
+        "text": "CT shows extension of the lesion to the nasopharynx.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "CT showed extension to the nasopharynx."
+      },
+      {
+        "text": "CT shows erosion of the nasal septum.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "CT explicitly noted erosion of the nasal septum."
+      },
+      {
+        "text": "CT shows erosion of the left lamina papyracea.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "CT explicitly noted erosion of the left lamina papyracea."
+      },
+      {
+        "text": "CT shows displacement of the medial wall of the left maxillary sinus.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.98,
+        "reasoning": "CT described displacement of the medial wall of the left maxillary sinus."
+      },
+      {
+        "text": "CT shows complete opacification of the left maxillary sinus.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "CT showed complete opacification of the left maxillary sinus."
+      },
+      {
+        "text": "These bony changes suggest a locally expansile or destructive process.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.93,
+        "reasoning": "Bony erosion/displacement on CT reasonably suggests a locally expansile or destructive process."
+      },
+      {
+        "text": "There is no prior sinus surgery.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 1.0,
+        "reasoning": "Reference explicitly says no prior sinus disease or surgery."
+      },
+      {
+        "text": "The absence of prior sinus surgery argues strongly against an antrochoanal polyp arising as a postoperative maxillary sinus lesion or postoperative maxillary mucocele.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.88,
+        "reasoning": "Given no prior sinus surgery, postoperative antrochoanal polyp/mucocele is reasonably argued against; this is an inference from the history."
+      },
+      {
+        "text": "There is no prior sinus disease.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 1.0,
+        "reasoning": "Reference explicitly states no prior sinus disease."
+      },
+      {
+        "text": "There is no cervical lymphadenopathy.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 1.0,
+        "reasoning": "Reference explicitly states no cervical lymphadenopathy."
+      },
+      {
+        "text": "There is no facial deformity.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 1.0,
+        "reasoning": "Reference explicitly states no facial deformity."
+      },
+      {
+        "text": "Lack of lymphadenopathy does not exclude malignancy.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.95,
+        "reasoning": "Absence of lymphadenopathy does not exclude malignancy is standard clinical reasoning and consistent with the case."
+      },
+      {
+        "text": "Lack of lymphadenopathy makes advanced nodal metastatic disease less evident.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.9,
+        "reasoning": "No lymphadenopathy makes nodal metastatic disease less evident, which is a reasonable inference."
+      },
+      {
+        "text": "There is no history of epistaxis.",
+        "category": "factual",
+        "verdict": "unverifiable",
+        "verified": true,
+        "score": 0.6,
+        "confidence": 0.86,
+        "reasoning": "The reference data does not mention epistaxis."
+      },
+      {
+        "text": "There is no history of pain.",
+        "category": "factual",
+        "verdict": "unverifiable",
+        "verified": true,
+        "score": 0.6,
+        "confidence": 0.86,
+        "reasoning": "The reference data does not mention pain."
+      },
+      {
+        "text": "There is no history of cranial neuropathy.",
+        "category": "factual",
+        "verdict": "unverifiable",
+        "verified": true,
+        "score": 0.6,
+        "confidence": 0.86,
+        "reasoning": "The reference data does not mention cranial neuropathy."
+      },
+      {
+        "text": "There is no history of facial swelling.",
+        "category": "factual",
+        "verdict": "unverifiable",
+        "verified": true,
+        "score": 0.6,
+        "confidence": 0.86,
+        "reasoning": "The reference data does not mention facial swelling."
+      },
+      {
+        "text": "The absence of these symptoms somewhat lowers suspicion for an aggressive invasive carcinoma.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.9,
+        "reasoning": "Lack of those aggressive symptoms can lower suspicion for invasive carcinoma, though not exclude it."
+      },
+      {
+        "text": "The absence of these symptoms does not rule out an aggressive invasive carcinoma.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.96,
+        "reasoning": "Absence of symptoms does not rule out carcinoma is standard and consistent with the data."
+      },
+      {
+        "text": "The first major differential is an antrochoanal polyp.",
+        "category": "factual",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.72,
+        "reasoning": "This is a differential consideration from the trace, not a direct fact from the case data."
+      },
+      {
+        "text": "The mass is smooth.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "The mass is described as smooth."
+      },
+      {
+        "text": "The mass is grayish.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "The mass is described as grayish."
+      },
+      {
+        "text": "The mass is unilateral.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 1.0,
+        "reasoning": "The lesion is left-sided/unilateral."
+      },
+      {
+        "text": "The mass fills the choana.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.98,
+        "reasoning": "Endoscopy showed the mass filling the left choana."
+      },
+      {
+        "text": "The mass extends into the nasopharynx.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.98,
+        "reasoning": "Endoscopy showed extension into the nasopharyngeal space."
+      },
+      {
+        "text": "There is complete opacification of the ipsilateral maxillary sinus.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "CT showed complete opacification of the left maxillary sinus, the ipsilateral sinus."
+      },
+      {
+        "text": "These are classic features of a choanal polyp arising from the maxillary sinus.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.9,
+        "reasoning": "Smooth unilateral choanal mass with ipsilateral maxillary sinus opacification is classic for an antrochoanal polyp."
+      },
+      {
+        "text": "Antrochoanal polyps are more typical in children and young adults.",
+        "category": "factual",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.98,
+        "reasoning": "Antrochoanal polyps are classically seen in children and young adults; this is standard medical knowledge."
+      },
+      {
+        "text": "Antrochoanal polyps usually cause remodeling rather than frank erosion of structures such as the nasal septum and lamina papyracea.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.92,
+        "reasoning": "Antrochoanal polyps typically remodel rather than erode bone; this is a reasonable clinical generalization."
+      },
+      {
+        "text": "In a 90-year-old with septal and orbital wall erosion, a simple inflammatory polyp becomes less convincing.",
+        "category": "causal",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.96,
+        "reasoning": "Reference CT shows erosion of the nasal septum and left lamina papyracea; in a 90-year-old this makes a simple inflammatory polyp less convincing."
+      },
+      {
+        "text": "A second strong consideration is inverted papilloma.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.98,
+        "reasoning": "The trace explicitly lists inverted papilloma as a strong consideration."
+      },
+      {
+        "text": "Inverted papilloma typically presents as a unilateral nasal mass in older adults.",
+        "category": "factual",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.93,
+        "reasoning": "This is standard clinical characterization of inverted papilloma and fits the case, though not stated verbatim in the reference data."
+      },
+      {
+        "text": "Inverted papilloma often causes nasal obstruction.",
+        "category": "factual",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.95,
+        "reasoning": "Nasal obstruction is a typical presentation of inverted papilloma and is consistent with the patient’s complete obstruction."
+      },
+      {
+        "text": "Inverted papilloma can extend into the maxillary sinus and choana.",
+        "category": "factual",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.94,
+        "reasoning": "Extension into the maxillary sinus/choana is a recognized pattern for inverted papilloma and matches the case anatomy."
+      },
+      {
+        "text": "Inverted papilloma is known for local aggressiveness with bone remodeling or erosion.",
+        "category": "factual",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.95,
+        "reasoning": "Local aggressiveness with remodeling/erosion is standard knowledge for inverted papilloma and is consistent with the CT findings."
+      },
+      {
+        "text": "The unilateral origin fits inverted papilloma.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.97,
+        "reasoning": "The unilateral origin is a sound inference supporting inverted papilloma given the case pattern."
+      },
+      {
+        "text": "The age group fits inverted papilloma.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.96,
+        "reasoning": "Older age is a classic demographic for inverted papilloma; this follows from standard knowledge and the case."
+      },
+      {
+        "text": "The expansile behavior fits inverted papilloma.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.92,
+        "reasoning": "The expansile/destructive behavior is compatible with inverted papilloma based on the imaging findings."
+      },
+      {
+        "text": "The associated maxillary sinus opacification fits inverted papilloma.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.93,
+        "reasoning": "Ipsilateral maxillary sinus opacification is compatible with inverted papilloma and supports the inference."
+      },
+      {
+        "text": "CT classically may show a unilateral soft-tissue mass with sinus involvement and bony remodeling in inverted papilloma.",
+        "category": "factual",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.95,
+        "reasoning": "This is a standard imaging description of inverted papilloma and aligns with the CT findings, though not verbatim in the reference."
+      },
+      {
+        "text": "The description of a smooth gray mass is compatible with inverted papilloma.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.9,
+        "reasoning": "A smooth gray mass is compatible with inverted papilloma; this is an interpretive fit rather than a directly stated fact."
+      },
+      {
+        "text": "The description of a homogeneous lesion is compatible with inverted papilloma.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.88,
+        "reasoning": "Homogeneous lesion is compatible with inverted papilloma in this context; not a direct reference statement."
+      },
+      {
+        "text": "Inverted papilloma is a very plausible diagnosis.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.97,
+        "reasoning": "The trace explicitly concludes inverted papilloma is very plausible."
+      },
+      {
+        "text": "Sinonasal malignancy such as squamous cell carcinoma must also be considered.",
+        "category": "recommendation",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.96,
+        "reasoning": "Considering sinonasal malignancy such as SCC is an appropriate differential given unilateral mass and bone erosion."
+      },
+      {
+        "text": "Unilateral nasal mass with bone erosion in an elderly patient is concerning for malignancy.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.98,
+        "reasoning": "Unilateral nasal mass with bone erosion in an elderly patient is a standard red flag for malignancy."
+      },
+      {
+        "text": "Erosion of the lamina papyracea and septum could reflect malignant invasion.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.95,
+        "reasoning": "Erosion of the lamina papyracea and septum can indicate invasive malignant behavior; this is a reasonable inference."
+      },
+      {
+        "text": "The lesion is described as smooth and homogeneous rather than irregular or necrotic.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Reference data describes a smooth, grayish mass and a homogeneous lesion, not irregular or necrotic."
+      },
+      {
+        "text": "There is no cervical lymphadenopathy.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Reference explicitly states there was no cervical lymphadenopathy."
+      },
+      {
+        "text": "There is no facial deformity.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Reference explicitly states there was no facial deformity."
+      },
+      {
+        "text": "No other aggressive symptoms are provided.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.9,
+        "reasoning": "The reference does not provide epistaxis, pain, cranial neuropathy, or facial swelling; this is a correct absence summary."
+      },
+      {
+        "text": "Malignancy remains possible.",
+        "category": "factual",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.95,
+        "reasoning": "Given the bone erosion and age, malignancy remains a reasonable possibility even if not the leading diagnosis."
+      },
+      {
+        "text": "Malignancy is somewhat less favored than a benign but locally aggressive epithelial tumor.",
+        "category": "factual",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.93,
+        "reasoning": "This is a comparative diagnostic judgment from the trace, not a directly stated fact."
+      },
+      {
+        "text": "An ordinary inflammatory nasal polyp is less likely.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.96,
+        "reasoning": "The trace explicitly says an ordinary inflammatory nasal polyp is less likely."
+      },
+      {
+        "text": "Inflammatory nasal polyps are usually bilateral.",
+        "category": "factual",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.95,
+        "reasoning": "Inflammatory nasal polyps are usually bilateral; this is standard medical knowledge used in the differential."
+      },
+      {
+        "text": "Inflammatory nasal polyps are usually associated with chronic rhinosinusitis.",
+        "category": "factual",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.95,
+        "reasoning": "Association with chronic rhinosinusitis is standard for inflammatory nasal polyps and supports the differential reasoning."
+      },
+      {
+        "text": "There is no prior sinus disease.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.98,
+        "reasoning": "Reference explicitly states no prior sinus disease."
+      },
+      {
+        "text": "There is destructive change.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.98,
+        "reasoning": "Reference CT shows erosion of the nasal septum and left lamina papyracea, which is destructive change."
+      },
+      {
+        "text": "Juvenile nasopharyngeal angiofibroma is implausible given the patient’s age.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.99,
+        "reasoning": "Juvenile nasopharyngeal angiofibroma is implausible in a 90-year-old; this is a sound age-based exclusion."
+      },
+      {
+        "text": "Juvenile nasopharyngeal angiofibroma is implausible given the lack of typical demographic profile.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.96,
+        "reasoning": "Lack of the typical demographic profile is a reasonable inference for excluding JNA."
+      },
+      {
+        "text": "Mucocele is less likely.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.95,
+        "reasoning": "The trace explicitly says mucocele is less likely."
+      },
+      {
+        "text": "The lesion is intranasal and choanal.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Reference states the mass fills the left choana and extends into the nasopharyngeal space."
+      },
+      {
+        "text": "The lesion is prolapsing through the nostril.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Reference states a voluminous mass was prolapsing through the left nostril."
+      },
+      {
+        "text": "The lesion is not described as a sinus-expansile cystic lesion.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.97,
+        "reasoning": "The lesion is described as a homogeneous mass; the reference does not describe a cystic sinus-expansile lesion."
+      },
+      {
+        "text": "The combination of an elderly patient, unilateral nasal cavity mass, extension into the choana/nasopharynx, ipsilateral maxillary sinus involvement, and local bony erosion or remodeling most strongly supports inverted papilloma over a simple antrochoanal polyp.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.98,
+        "reasoning": "This is the trace’s diagnostic synthesis favoring inverted papilloma over antrochoanal polyp based on age, laterality, extension, and erosion."
+      },
+      {
+        "text": "Sinonasal carcinoma remains an important alternative because of the bone erosion.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.97,
+        "reasoning": "Bone erosion appropriately keeps sinonasal carcinoma in the differential."
+      },
+      {
+        "text": "The gross description and imaging pattern are more in keeping with inverted papilloma.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.96,
+        "reasoning": "The gross and imaging pattern fitting inverted papilloma is a reasonable diagnostic inference from the case."
+      },
+      {
+        "text": "Inverted papilloma is a benign but locally aggressive sinonasal tumor.",
+        "category": "factual",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.99,
+        "reasoning": "Inverted papilloma is classically benign but locally aggressive; this is standard medical knowledge."
+      },
+      {
+        "text": "The differential diagnosis includes inverted papilloma with high likelihood.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.98,
+        "reasoning": "The differential explicitly lists inverted papilloma with high likelihood."
+      },
+      {
+        "text": "The differential diagnosis includes antrochoanal polyp with medium likelihood.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.98,
+        "reasoning": "The differential explicitly lists antrochoanal polyp with medium likelihood."
+      },
+      {
+        "text": "The differential diagnosis includes sinonasal squamous cell carcinoma with medium likelihood.",
+        "category": "factual",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.96,
+        "reasoning": "The trace explicitly considers sinonasal squamous cell carcinoma as a differential and labels it medium likelihood; this is a reasonable diagnostic inference from unilateral mass with bone erosion in an elderly patient."
+      },
+      {
+        "text": "The differential diagnosis includes inflammatory nasal polyp with low likelihood.",
+        "category": "factual",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.98,
+        "reasoning": "The trace explicitly lists inflammatory nasal polyp as a low-likelihood differential; this is a standard differential-pruning conclusion consistent with the unilateral destructive presentation."
+      },
+      {
+        "text": "The final diagnosis is inverted papilloma.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "The trace states the final diagnosis is inverted papilloma, and this is directly supported by the reasoning and case summary."
+      }
+    ],
+    "verdict_counts": {
+      "contradicted": 0,
+      "supported": 42,
+      "valid_inference": 37,
+      "unverifiable": 4
+    },
+    "contradictions": 0
+  }
+}

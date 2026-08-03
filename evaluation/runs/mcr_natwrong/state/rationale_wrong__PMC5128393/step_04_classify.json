@@ -1,0 +1,320 @@
+{
+  "name": "classify",
+  "passed": true,
+  "score": 1.0,
+  "reasoning": "Classified 62 statement(s): 8 causal, 54 factual.",
+  "data": {
+    "classified": [
+      {
+        "text": "The chief concern is a slowly progressive neurologic syndrome localized to the lumbosacral spine.",
+        "category": "factual",
+        "rationale": "It states a clinical description of the patient's syndrome without making a numerical or causal claim."
+      },
+      {
+        "text": "The neurologic syndrome includes worsening left greater than right lower-extremity weakness and numbness over several years.",
+        "category": "factual",
+        "rationale": "It asserts specific symptoms and their time course as patient findings."
+      },
+      {
+        "text": "The neurologic syndrome includes chronic low back pain.",
+        "category": "factual",
+        "rationale": "It is a direct statement of a symptom present in the syndrome."
+      },
+      {
+        "text": "The neurologic syndrome includes constipation.",
+        "category": "factual",
+        "rationale": "It identifies constipation as part of the patient's symptom complex."
+      },
+      {
+        "text": "These symptoms suggest a chronic compressive or infiltrative lesion affecting the lumbar spinal canal or cauda equina region rather than an acute vascular or inflammatory process.",
+        "category": "causal",
+        "rationale": "It infers a likely underlying mechanism and contrasts it with alternative processes."
+      },
+      {
+        "text": "The patient has a prior history of a lumbar spinal tumor resected in 1992.",
+        "category": "factual",
+        "rationale": "It states a past medical history item."
+      },
+      {
+        "text": "The lumbar spinal tumor was diagnosed at that time as paraganglioma.",
+        "category": "factual",
+        "rationale": "It reports a prior diagnosis as a factual historical claim."
+      },
+      {
+        "text": "The patient received radiation therapy in 2002.",
+        "category": "factual",
+        "rationale": "It states a past treatment event."
+      },
+      {
+        "text": "Surveillance imaging showed interval enlargement of the lumbar lesion.",
+        "category": "factual",
+        "rationale": "It reports an imaging finding over time."
+      },
+      {
+        "text": "Current CT shows expansion of the spinal canal by an isodense soft-tissue mass.",
+        "category": "factual",
+        "rationale": "It describes a specific imaging appearance."
+      },
+      {
+        "text": "Current CT shows osseous destruction.",
+        "category": "factual",
+        "rationale": "It states a radiologic finding."
+      },
+      {
+        "text": "MRI shows a mass that is hypointense on both T1-weighted and T2-weighted sequences.",
+        "category": "factual",
+        "rationale": "It reports a specific MRI signal characteristic."
+      },
+      {
+        "text": "MRI shows homogeneous postcontrast enhancement.",
+        "category": "factual",
+        "rationale": "It describes an imaging feature."
+      },
+      {
+        "text": "There is focal sensory loss in the left groin, anterior thigh, and calf.",
+        "category": "factual",
+        "rationale": "It states a neurologic exam finding."
+      },
+      {
+        "text": "There is bilateral leg weakness.",
+        "category": "factual",
+        "rationale": "It reports a physical finding."
+      },
+      {
+        "text": "The bilateral leg weakness is worse on the left.",
+        "category": "factual",
+        "rationale": "It specifies the asymmetry of the weakness as a clinical finding."
+      },
+      {
+        "text": "The focal sensory loss and bilateral leg weakness support mass effect on lumbar nerve roots or conus/cauda equina structures.",
+        "category": "causal",
+        "rationale": "It links the symptoms to a proposed anatomic mechanism."
+      },
+      {
+        "text": "Constipation supports chronic neural compromise.",
+        "category": "causal",
+        "rationale": "It interprets constipation as evidence for a neurologic cause."
+      },
+      {
+        "text": "There is no mention of acute onset.",
+        "category": "factual",
+        "rationale": "It comments on the absence of a documented feature in the record."
+      },
+      {
+        "text": "There is no mention of fever.",
+        "category": "factual",
+        "rationale": "It notes absence of a reported symptom."
+      },
+      {
+        "text": "There is no mention of systemic infection.",
+        "category": "factual",
+        "rationale": "It states that infection is not mentioned in the history."
+      },
+      {
+        "text": "There is no mention of inflammatory symptoms.",
+        "category": "factual",
+        "rationale": "It reports absence of inflammatory features in the documentation."
+      },
+      {
+        "text": "The course is over years.",
+        "category": "factual",
+        "rationale": "It states the duration of the illness course."
+      },
+      {
+        "text": "The course over years argues strongly against acute disc herniation or hematoma.",
+        "category": "causal",
+        "rationale": "It uses the chronic course to infer that acute causes are unlikely."
+      },
+      {
+        "text": "The patient has a history of prostate cancer.",
+        "category": "factual",
+        "rationale": "It states a past diagnosis."
+      },
+      {
+        "text": "The lesion appears to be a long-standing recurrent lumbar canal mass at the site of a previously resected tumor.",
+        "category": "factual",
+        "rationale": "It is a descriptive synthesis of the lesion's behavior and location."
+      },
+      {
+        "text": "The lesion appears to be a long-standing recurrent lumbar canal mass at the site of a previously resected tumor, making a new metastatic lesion less likely.",
+        "category": "causal",
+        "rationale": "It draws a likelihood inference from the lesion's pattern to an alternative diagnosis."
+      },
+      {
+        "text": "The MRI pattern is not typical for many common intradural tumors such as myxopapillary ependymoma.",
+        "category": "factual",
+        "rationale": "It states a comparative imaging assessment."
+      },
+      {
+        "text": "Myxopapillary ependymoma more often shows T2 hyperintensity rather than marked T2 hypointensity.",
+        "category": "factual",
+        "rationale": "It gives a general characteristic of that tumor type."
+      },
+      {
+        "text": "The combination of osseous destruction and very delayed recurrence after prior surgery and radiation raises concern that the original diagnosis may have been incorrect.",
+        "category": "causal",
+        "rationale": "It uses the imaging and clinical course to infer possible diagnostic error."
+      },
+      {
+        "text": "Recurrent spinal paraganglioma fits the prior diagnosis.",
+        "category": "factual",
+        "rationale": "It states a diagnostic compatibility claim."
+      },
+      {
+        "text": "Recurrent spinal paraganglioma fits the location in the lumbar canal.",
+        "category": "factual",
+        "rationale": "It asserts an anatomic match."
+      },
+      {
+        "text": "Recurrent spinal paraganglioma fits homogeneous enhancement.",
+        "category": "factual",
+        "rationale": "It states an imaging compatibility claim."
+      },
+      {
+        "text": "Recurrent spinal paraganglioma fits slow progression over years.",
+        "category": "factual",
+        "rationale": "It matches the tumor type to the chronic course."
+      },
+      {
+        "text": "Spinal paragangliomas are typically highly vascular.",
+        "category": "factual",
+        "rationale": "It states a general property of spinal paragangliomas."
+      },
+      {
+        "text": "Spinal paragangliomas are often T2 hyperintense or show a salt-and-pepper appearance rather than uniformly T2 hypointense.",
+        "category": "factual",
+        "rationale": "It describes typical imaging characteristics of spinal paragangliomas."
+      },
+      {
+        "text": "Osseous destruction is less characteristic of spinal paraganglioma.",
+        "category": "factual",
+        "rationale": "It compares a feature against the usual pattern for that tumor."
+      },
+      {
+        "text": "Cellular schwannoma of the lumbar spine can present as a slow-growing cauda equina or lumbar canal mass causing chronic radiculopathy, weakness, sensory loss, and bowel dysfunction.",
+        "category": "factual",
+        "rationale": "It states a known clinical presentation pattern for cellular schwannoma."
+      },
+      {
+        "text": "Cellular schwannomas can erode adjacent bone.",
+        "category": "factual",
+        "rationale": "It describes a recognized behavior of cellular schwannomas."
+      },
+      {
+        "text": "Cellular schwannomas may be mistaken histologically for other spindle-cell or neuroendocrine tumors, especially in older pathology.",
+        "category": "factual",
+        "rationale": "It states a diagnostic pitfall associated with cellular schwannomas."
+      },
+      {
+        "text": "MRI often shows iso- to hypointensity on T1-weighted sequences in cellular schwannoma.",
+        "category": "factual",
+        "rationale": "It gives a typical imaging feature of cellular schwannoma."
+      },
+      {
+        "text": "MRI often shows relatively low T2 signal compared with conventional schwannoma because of hypercellularity in cellular schwannoma.",
+        "category": "causal",
+        "rationale": "It explains the imaging appearance by the underlying hypercellularity."
+      },
+      {
+        "text": "MRI often shows homogeneous enhancement in cellular schwannoma.",
+        "category": "factual",
+        "rationale": "It states a common imaging characteristic."
+      },
+      {
+        "text": "The history of a lesion originally called paraganglioma but recurring locally over decades with these imaging features strongly supports cellular schwannoma.",
+        "category": "causal",
+        "rationale": "It argues that the historical and imaging pattern supports a specific diagnosis."
+      },
+      {
+        "text": "Prostate cancer can cause back pain, weakness, and osseous involvement.",
+        "category": "factual",
+        "rationale": "It states a general clinical association of prostate cancer."
+      },
+      {
+        "text": "This lesion is centered in the spinal canal at the site of a previously resected tumor.",
+        "category": "factual",
+        "rationale": "It describes the lesion's location and relation to prior surgery."
+      },
+      {
+        "text": "This lesion has a decades-long local recurrence pattern rather than typical multifocal vertebral metastatic disease.",
+        "category": "factual",
+        "rationale": "It contrasts the lesion's behavior with a metastatic pattern."
+      },
+      {
+        "text": "The location and chronic symptoms fit myxopapillary ependymoma or another cauda equina tumor.",
+        "category": "factual",
+        "rationale": "It states a differential diagnostic fit based on location and symptoms."
+      },
+      {
+        "text": "The imaging description of T2 hypointensity and osseous destruction is less typical for myxopapillary ependymoma or another cauda equina tumor.",
+        "category": "factual",
+        "rationale": "It compares the imaging pattern with typical features of those tumors."
+      },
+      {
+        "text": "The most compelling synthesis is a recurrent cellular schwannoma of the lumbar spine.",
+        "category": "factual",
+        "rationale": "It presents a diagnostic conclusion as a synthesis of the findings."
+      },
+      {
+        "text": "The lesion was previously labeled paraganglioma.",
+        "category": "factual",
+        "rationale": "It states a prior diagnostic label."
+      },
+      {
+        "text": "The very slow indolent course is a decisive clue.",
+        "category": "factual",
+        "rationale": "It characterizes the course as an important clinical feature."
+      },
+      {
+        "text": "The lesion is a recurrent lumbar canal mass causing chronic cauda equina-type deficits.",
+        "category": "factual",
+        "rationale": "It describes the lesion and its associated deficits."
+      },
+      {
+        "text": "CT evidence of spinal canal expansion with osseous destruction is a decisive clue.",
+        "category": "factual",
+        "rationale": "It identifies a radiologic feature as an important clue."
+      },
+      {
+        "text": "MRI showing T1 and T2 hypointensity with homogeneous enhancement is a decisive clue.",
+        "category": "factual",
+        "rationale": "It identifies a specific imaging pattern as an important clue."
+      },
+      {
+        "text": "These features are characteristic of a hypercellular schwannoma.",
+        "category": "factual",
+        "rationale": "It states a diagnostic characterization of the imaging features."
+      },
+      {
+        "text": "These features are less typical for paraganglioma or metastatic disease.",
+        "category": "factual",
+        "rationale": "It compares the features against alternative diagnoses."
+      },
+      {
+        "text": "The differential diagnosis includes cellular schwannoma of the lumbar spine.",
+        "category": "factual",
+        "rationale": "It lists a possible diagnosis in the differential."
+      },
+      {
+        "text": "The differential diagnosis includes recurrent spinal paraganglioma.",
+        "category": "factual",
+        "rationale": "It lists a possible diagnosis in the differential."
+      },
+      {
+        "text": "The differential diagnosis includes metastatic prostate cancer to the lumbar spine.",
+        "category": "factual",
+        "rationale": "It lists a possible diagnosis in the differential."
+      },
+      {
+        "text": "The differential diagnosis includes myxopapillary ependymoma.",
+        "category": "factual",
+        "rationale": "It lists a possible diagnosis in the differential."
+      },
+      {
+        "text": "The final diagnosis is cellular schwannoma.",
+        "category": "factual",
+        "rationale": "It states the final diagnostic conclusion."
+      }
+    ]
+  }
+}

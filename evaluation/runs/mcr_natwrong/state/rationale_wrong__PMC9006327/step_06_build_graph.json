@@ -1,0 +1,1196 @@
+{
+  "name": "build_graph",
+  "passed": false,
+  "score": 0.9552,
+  "reasoning": "Graph built with 67 node(s) and 52 edge(s). 6 disconnected node(s): n2, n21, n22, n23, n24, n3. The graph centers on a left atrial mass whose imaging features, septal attachment, calcification, and embolic cerebral infarcts collectively support left atrial myxoma as the best diagnosis. Alternative explanations such as thrombus, infective endocarditis vegetation, papillary fibroelastoma, and sarcoma are weakened by the absence of typical supporting features and by the lesion’s characteristic location and appearance.",
+  "data": {
+    "nodes": [
+      {
+        "id": "n1",
+        "text": "The key clinical problem is an incidentally discovered 39 mm left atrial mass in a 63-year-old man being evaluated before abdominal surgery.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Reference data: 63-year-old man; preoperative TTE found a 39 mm left atrial mass.",
+        "cluster_idx": 0,
+        "cluster_label": "history_taking"
+      },
+      {
+        "id": "n2",
+        "text": "The patient had associated minuscule scattered cerebral infarctions on brain MRI.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Brain MRI showed minuscule, scattered cerebral infarctions.",
+        "cluster_idx": 0,
+        "cluster_label": "history_taking"
+      },
+      {
+        "id": "n3",
+        "text": "The patient’s presenting illness was fever and intra-abdominal pus from a mesh infection.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "He was admitted with fever and pus in the abdomen from mesh infection.",
+        "cluster_idx": 0,
+        "cluster_label": "history_taking"
+      },
+      {
+        "id": "n4",
+        "text": "The diagnostic question centers on the nature of the left atrial mass.",
+        "category": "factual",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "The trace is explicitly focused on determining the nature of the left atrial mass.",
+        "cluster_idx": 1,
+        "cluster_label": "examination"
+      },
+      {
+        "id": "n5",
+        "text": "A relatively large left atrial mass measuring 39 mm was seen on transthoracic echocardiography.",
+        "category": "statistical",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Preoperative transthoracic echocardiography revealed a 39 mm left atrial mass.",
+        "cluster_idx": 1,
+        "cluster_label": "examination"
+      },
+      {
+        "id": "n6",
+        "text": "A relatively large left atrial mass measuring 39 mm was seen on contrast-enhanced CT.",
+        "category": "statistical",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Contrast-enhanced CT also demonstrated a 39 mm left atrial mass.",
+        "cluster_idx": 1,
+        "cluster_label": "examination"
+      },
+      {
+        "id": "n7",
+        "text": "The mass was attached to the atrial septum.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "The mass was adherent to the atrial septum on TTE.",
+        "cluster_idx": 1,
+        "cluster_label": "examination"
+      },
+      {
+        "id": "n8",
+        "text": "The atrial septum is the classic location for an atrial myxoma.",
+        "category": "factual",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Classic location for atrial myxoma is the interatrial septum; this is standard medical knowledge.",
+        "cluster_idx": 1,
+        "cluster_label": "examination"
+      },
+      {
+        "id": "n9",
+        "text": "There was evidence of embolic phenomena with scattered cerebral infarctions.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Brain MRI showed minuscule, scattered cerebral infarctions, consistent with embolic phenomena.",
+        "cluster_idx": 1,
+        "cluster_label": "examination"
+      },
+      {
+        "id": "n10",
+        "text": "Tumor embolization can cause scattered cerebral infarctions.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Tumor embolization is a standard mechanism for cerebral infarctions in cardiac tumors.",
+        "cluster_idx": 1,
+        "cluster_label": "examination"
+      },
+      {
+        "id": "n11",
+        "text": "Surface thrombus on a myxoma can cause scattered cerebral infarctions.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Surface thrombus on a myxoma can embolize and cause cerebral infarcts; standard clinical inference.",
+        "cluster_idx": 1,
+        "cluster_label": "examination"
+      },
+      {
+        "id": "n12",
+        "text": "Partial calcification on CT is compatible with myxoma.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "CT showed partial calcification, which is compatible with myxoma.",
+        "cluster_idx": 1,
+        "cluster_label": "examination"
+      },
+      {
+        "id": "n13",
+        "text": "Cardiac function was otherwise preserved with an ejection fraction of 56%.",
+        "category": "statistical",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Ejection fraction was 56%, indicating preserved cardiac function.",
+        "cluster_idx": 1,
+        "cluster_label": "examination"
+      },
+      {
+        "id": "n14",
+        "text": "There were no valvular abnormalities.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Reference data explicitly states no valvular abnormalities.",
+        "cluster_idx": 1,
+        "cluster_label": "examination"
+      },
+      {
+        "id": "n15",
+        "text": "The mass is not explained by valvular vegetation.",
+        "category": "factual",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "With no valvular abnormalities and a septal atrial mass, valvular vegetation is not a good explanation.",
+        "cluster_idx": 1,
+        "cluster_label": "examination"
+      },
+      {
+        "id": "n16",
+        "text": "The mass is not explained by severe structural heart disease.",
+        "category": "factual",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "The provided data do not show severe structural heart disease; this is a reasonable exclusionary inference, not a direct fact.",
+        "cluster_idx": 1,
+        "cluster_label": "examination"
+      },
+      {
+        "id": "n17",
+        "text": "Blood cultures were negative.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Blood cultures were negative.",
+        "cluster_idx": 1,
+        "cluster_label": "examination"
+      },
+      {
+        "id": "n18",
+        "text": "The mass was adherent to the atrial septum rather than a valve.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "TTE described the mass as adherent to the atrial septum, not a valve.",
+        "cluster_idx": 1,
+        "cluster_label": "examination"
+      },
+      {
+        "id": "n19",
+        "text": "These findings argue against infective endocarditis vegetation.",
+        "category": "factual",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Negative blood cultures, no valvular abnormalities, and septal attachment argue against infective endocarditis vegetation.",
+        "cluster_idx": 1,
+        "cluster_label": "examination"
+      },
+      {
+        "id": "n20",
+        "text": "The patient had concurrent mesh infection and fever.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "He had fever and mesh infection with pus in the abdomen.",
+        "cluster_idx": 1,
+        "cluster_label": "examination"
+      },
+      {
+        "id": "n21",
+        "text": "He had no prior thrombotic events.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Reference data states no history of thrombotic events.",
+        "cluster_idx": 2,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n22",
+        "text": "He had no smoking history.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Reference data states no smoking history.",
+        "cluster_idx": 2,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n23",
+        "text": "He had no drug use.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Reference data states no drug use.",
+        "cluster_idx": 2,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n24",
+        "text": "He had no family history of coagulopathy.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Reference data states no family history of coagulopathy.",
+        "cluster_idx": 2,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n25",
+        "text": "Antithrombin III was normal.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Antithrombin III was normal.",
+        "cluster_idx": 2,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n26",
+        "text": "An underlying hypercoagulable state is less evident as an explanation for a primary intracardiac thrombus.",
+        "category": "factual",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Normal antithrombin III and lack of thrombotic history make a hypercoagulable explanation less evident.",
+        "cluster_idx": 2,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n27",
+        "text": "The case summary does not mention atrial fibrillation.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Atrial fibrillation is not mentioned in the reference data.",
+        "cluster_idx": 2,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n28",
+        "text": "The case summary does not mention severe left ventricular dysfunction.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Severe left ventricular dysfunction is not mentioned; EF was 56%.",
+        "cluster_idx": 2,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n29",
+        "text": "The case summary does not mention mitral stenosis.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Mitral stenosis is not mentioned in the reference data.",
+        "cluster_idx": 2,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n30",
+        "text": "The case summary does not mention marked left atrial enlargement.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Marked left atrial enlargement is not mentioned in the reference data.",
+        "cluster_idx": 2,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n31",
+        "text": "Atrial fibrillation is a common setting for left atrial thrombus.",
+        "category": "factual",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Atrial fibrillation is a standard common setting for left atrial thrombus.",
+        "cluster_idx": 2,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n32",
+        "text": "Severe left ventricular dysfunction is a common setting for left atrial thrombus.",
+        "category": "factual",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Severe LV dysfunction is a standard risk setting for intracardiac thrombus.",
+        "cluster_idx": 2,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n33",
+        "text": "Mitral stenosis is a common setting for left atrial thrombus.",
+        "category": "factual",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Mitral stenosis is a standard risk setting for left atrial thrombus.",
+        "cluster_idx": 2,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n34",
+        "text": "Marked left atrial enlargement is a common setting for left atrial thrombus.",
+        "category": "factual",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Marked left atrial enlargement is a standard risk setting for left atrial thrombus.",
+        "cluster_idx": 2,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n35",
+        "text": "Thrombus is less supported by the provided data.",
+        "category": "factual",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Given septal attachment, calcification, and embolic infarcts, thrombus is less supported than myxoma.",
+        "cluster_idx": 2,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n36",
+        "text": "Left atrial myxoma is the strongest fit.",
+        "category": "factual",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "This is the trace's diagnostic conclusion and follows from the provided findings.",
+        "cluster_idx": 3,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n37",
+        "text": "The left atrial myxoma fit is supported by the classic septal attachment in the left atrium.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Classic septal attachment is a standard reason myxoma fits.",
+        "cluster_idx": 3,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n38",
+        "text": "The left atrial myxoma fit is supported by the size around 4 cm.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "A size around 4 cm is compatible with a myxoma and supports the fit.",
+        "cluster_idx": 3,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n39",
+        "text": "The left atrial myxoma fit is supported by partial calcification.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Partial calcification is a recognized feature compatible with myxoma.",
+        "cluster_idx": 3,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n40",
+        "text": "The left atrial myxoma fit is supported by embolic cerebral infarcts.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Embolic cerebral infarcts are a recognized presentation of atrial myxoma.",
+        "cluster_idx": 3,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n41",
+        "text": "Myxomas commonly arise from the interatrial septum.",
+        "category": "factual",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Classic myxoma origin is the interatrial septum; this is standard medical knowledge and fits the case.",
+        "cluster_idx": 3,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n42",
+        "text": "Myxomas can present with constitutional or inflammatory findings.",
+        "category": "factual",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Myxomas may cause constitutional/inflammatory symptoms; this is a standard clinical association, though not directly stated in the data.",
+        "cluster_idx": 3,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n43",
+        "text": "Myxomas can present with embolization.",
+        "category": "factual",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Embolization is a well-known complication of atrial myxoma and is supported by the cerebral infarcts.",
+        "cluster_idx": 3,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n44",
+        "text": "Left atrial thrombus is plausible.",
+        "category": "factual",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "A left atrial thrombus is a reasonable differential diagnosis for a left atrial mass with embolic infarcts.",
+        "cluster_idx": 4,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n45",
+        "text": "Any left atrial mass with cerebral infarcts could be thrombus.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "This is a differential statement, not a universal claim; a left atrial mass with cerebral infarcts can indeed be thrombus.",
+        "cluster_idx": 4,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n46",
+        "text": "The patient had an inflammatory or infectious state.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Reference data explicitly says the patient had fever, pus in the abdomen, and mesh infection.",
+        "cluster_idx": 4,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n47",
+        "text": "The patient had elevated CRP.",
+        "category": "statistical",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "CRP was 2.63 mg/dL, which is elevated above normal.",
+        "cluster_idx": 4,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n48",
+        "text": "The patient had elevated fibrinogen.",
+        "category": "statistical",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Fibrinogen was 493 mg/dL, which is elevated.",
+        "cluster_idx": 4,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n49",
+        "text": "Inflammation or infection could promote thrombosis.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Inflammation/infection can promote thrombosis; this is standard medical reasoning and fits the elevated inflammatory markers.",
+        "cluster_idx": 4,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n50",
+        "text": "The location adherent to the atrial septum makes thrombus less likely than myxoma.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Septal attachment is classic for myxoma and less typical for thrombus, so this comparative inference is sound.",
+        "cluster_idx": 4,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n51",
+        "text": "Partial calcification makes thrombus less likely than myxoma.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Partial calcification is compatible with myxoma and does not favor thrombus; the comparative inference is reasonable.",
+        "cluster_idx": 4,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n52",
+        "text": "The absence of typical predisposing cardiac conditions makes thrombus less likely than myxoma.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "The case lacks typical thrombus risk settings such as AF, severe LV dysfunction, or mitral stenosis, making thrombus less likely.",
+        "cluster_idx": 4,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n53",
+        "text": "Fever and active mesh infection raise the possibility of infective endocarditis vegetation or an infected intracardiac mass.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Fever and active mesh infection reasonably raise concern for an infectious source, including endocarditis or infected mass.",
+        "cluster_idx": 5,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n54",
+        "text": "Negative blood cultures argue strongly against infective endocarditis vegetation.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Negative blood cultures support arguing against infective endocarditis, though they do not absolutely exclude it.",
+        "cluster_idx": 5,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n55",
+        "text": "No valvular abnormalities argue strongly against infective endocarditis vegetation.",
+        "category": "causal",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Reference data explicitly states there were no valvular abnormalities.",
+        "cluster_idx": 5,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n56",
+        "text": "A septal left atrial mass rather than a valvular lesion argues strongly against infective endocarditis vegetation.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "A septal left atrial mass is less typical of infective endocarditis than a valvular lesion; this is a sound inference.",
+        "cluster_idx": 5,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n57",
+        "text": "Papillary fibroelastoma is less likely.",
+        "category": "factual",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Papillary fibroelastoma being less likely is a differential-pruning conclusion, not directly stated in the data.",
+        "cluster_idx": 5,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n58",
+        "text": "Papillary fibroelastomas are usually smaller.",
+        "category": "factual",
+        "verified": true,
+        "score": 0.6,
+        "reasoning": "The data do not provide size comparisons for papillary fibroelastomas.",
+        "cluster_idx": 5,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n59",
+        "text": "Papillary fibroelastomas are usually valvular.",
+        "category": "factual",
+        "verified": true,
+        "score": 0.6,
+        "reasoning": "The data do not state the typical valvular location of papillary fibroelastomas.",
+        "cluster_idx": 5,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n60",
+        "text": "Sarcoma is possible for an atrial mass.",
+        "category": "factual",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Sarcoma is a possible differential for an atrial mass; this is standard clinical knowledge.",
+        "cluster_idx": 5,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n61",
+        "text": "Septal attachment with calcification and embolic strokes is much more characteristic of myxoma than sarcoma.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Septal attachment, calcification, and embolic strokes are classic for myxoma and less characteristic of sarcoma.",
+        "cluster_idx": 5,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n62",
+        "text": "The mass was most consistent with a left atrial myxoma.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "The reference data says the mass was presumed to be a myxoma.",
+        "cluster_idx": 6,
+        "cluster_label": "final_decision"
+      },
+      {
+        "id": "n63",
+        "text": "The septal attachment is the most decisive feature.",
+        "category": "factual",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "The trace explicitly calls septal attachment the decisive feature; this is a reasoning conclusion, not a direct data fact.",
+        "cluster_idx": 6,
+        "cluster_label": "final_decision"
+      },
+      {
+        "id": "n64",
+        "text": "The scattered cerebral infarctions support an embolizing atrial tumor.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Scattered cerebral infarctions are consistent with embolization from an atrial tumor.",
+        "cluster_idx": 6,
+        "cluster_label": "final_decision"
+      },
+      {
+        "id": "n65",
+        "text": "Thrombus is an important alternative.",
+        "category": "factual",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Thrombus is an important alternative diagnosis in this setting; this is a valid differential statement.",
+        "cluster_idx": 6,
+        "cluster_label": "final_decision"
+      },
+      {
+        "id": "n66",
+        "text": "The provided preoperative evidence more strongly supports myxoma.",
+        "category": "factual",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Given septal attachment, calcification, and embolic infarcts, myxoma is the stronger supported diagnosis.",
+        "cluster_idx": 6,
+        "cluster_label": "final_decision"
+      },
+      {
+        "id": "n67",
+        "text": "The final diagnosis was left atrial myxoma.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Reference data explicitly states the mass was presumed to be a myxoma and surgical resection was scheduled.",
+        "cluster_idx": 6,
+        "cluster_label": "final_decision"
+      }
+    ],
+    "edges": [
+      {
+        "source": "n1",
+        "target": "n4",
+        "kind": "supports",
+        "explanation": "The incidental discovery of a left atrial mass frames the diagnostic question about its nature."
+      },
+      {
+        "source": "n5",
+        "target": "n1",
+        "kind": "supports",
+        "explanation": "The echocardiographic finding of a 39 mm left atrial mass supports the summary of the key clinical problem."
+      },
+      {
+        "source": "n6",
+        "target": "n1",
+        "kind": "supports",
+        "explanation": "The CT finding of a 39 mm left atrial mass supports the summary of the key clinical problem."
+      },
+      {
+        "source": "n7",
+        "target": "n8",
+        "kind": "supports",
+        "explanation": "Attachment to the atrial septum matches the classic location for atrial myxoma."
+      },
+      {
+        "source": "n9",
+        "target": "n10",
+        "kind": "supports",
+        "explanation": "The presence of scattered cerebral infarctions is consistent with embolic phenomena from tumor embolization."
+      },
+      {
+        "source": "n9",
+        "target": "n11",
+        "kind": "supports",
+        "explanation": "Scattered cerebral infarctions are also compatible with embolization of surface thrombus from a myxoma."
+      },
+      {
+        "source": "n12",
+        "target": "n36",
+        "kind": "supports",
+        "explanation": "Partial calcification is a feature that supports myxoma over other causes."
+      },
+      {
+        "source": "n13",
+        "target": "n16",
+        "kind": "supports",
+        "explanation": "Preserved ejection fraction argues against severe structural heart disease as the explanation."
+      },
+      {
+        "source": "n14",
+        "target": "n15",
+        "kind": "supports",
+        "explanation": "The absence of valvular abnormalities argues against a valvular vegetation."
+      },
+      {
+        "source": "n17",
+        "target": "n19",
+        "kind": "supports",
+        "explanation": "Negative blood cultures support arguing against infective endocarditis vegetation."
+      },
+      {
+        "source": "n18",
+        "target": "n19",
+        "kind": "supports",
+        "explanation": "A mass adherent to the atrial septum rather than a valve supports excluding infective endocarditis vegetation."
+      },
+      {
+        "source": "n20",
+        "target": "n53",
+        "kind": "supports",
+        "explanation": "Fever with mesh infection raises concern for infective endocarditis or an infected intracardiac mass."
+      },
+      {
+        "source": "n25",
+        "target": "n26",
+        "kind": "supports",
+        "explanation": "Normal antithrombin III makes an underlying hypercoagulable state less evident."
+      },
+      {
+        "source": "n27",
+        "target": "n35",
+        "kind": "supports",
+        "explanation": "No atrial fibrillation weakens the thrombus explanation."
+      },
+      {
+        "source": "n28",
+        "target": "n35",
+        "kind": "supports",
+        "explanation": "No severe left ventricular dysfunction weakens the thrombus explanation."
+      },
+      {
+        "source": "n29",
+        "target": "n35",
+        "kind": "supports",
+        "explanation": "No mitral stenosis weakens the thrombus explanation."
+      },
+      {
+        "source": "n30",
+        "target": "n35",
+        "kind": "supports",
+        "explanation": "No marked left atrial enlargement weakens the thrombus explanation."
+      },
+      {
+        "source": "n31",
+        "target": "n52",
+        "kind": "supports",
+        "explanation": "Atrial fibrillation is a common setting for left atrial thrombus, so its absence makes thrombus less likely."
+      },
+      {
+        "source": "n32",
+        "target": "n52",
+        "kind": "supports",
+        "explanation": "Severe left ventricular dysfunction is a common setting for left atrial thrombus, so its absence makes thrombus less likely."
+      },
+      {
+        "source": "n33",
+        "target": "n52",
+        "kind": "supports",
+        "explanation": "Mitral stenosis is a common setting for left atrial thrombus, so its absence makes thrombus less likely."
+      },
+      {
+        "source": "n34",
+        "target": "n52",
+        "kind": "supports",
+        "explanation": "Marked left atrial enlargement is a common setting for left atrial thrombus, so its absence makes thrombus less likely."
+      },
+      {
+        "source": "n36",
+        "target": "n62",
+        "kind": "supports",
+        "explanation": "The strongest-fit assessment supports the final diagnosis of left atrial myxoma."
+      },
+      {
+        "source": "n37",
+        "target": "n36",
+        "kind": "supports",
+        "explanation": "Classic septal attachment supports the myxoma fit."
+      },
+      {
+        "source": "n38",
+        "target": "n36",
+        "kind": "supports",
+        "explanation": "A size around 4 cm supports the myxoma fit."
+      },
+      {
+        "source": "n39",
+        "target": "n36",
+        "kind": "supports",
+        "explanation": "Partial calcification supports the myxoma fit."
+      },
+      {
+        "source": "n40",
+        "target": "n36",
+        "kind": "supports",
+        "explanation": "Embolic cerebral infarcts support the myxoma fit."
+      },
+      {
+        "source": "n41",
+        "target": "n8",
+        "kind": "supports",
+        "explanation": "Myxomas commonly arising from the interatrial septum supports the classic septal location statement."
+      },
+      {
+        "source": "n42",
+        "target": "n53",
+        "kind": "supports",
+        "explanation": "Constitutional or inflammatory presentations of myxoma can overlap with fever/inflammatory findings."
+      },
+      {
+        "source": "n43",
+        "target": "n64",
+        "kind": "supports",
+        "explanation": "Myxomas can embolize, supporting the interpretation of scattered cerebral infarctions as embolic."
+      },
+      {
+        "source": "n44",
+        "target": "n65",
+        "kind": "supports",
+        "explanation": "If left atrial thrombus is plausible, it remains an important alternative diagnosis."
+      },
+      {
+        "source": "n45",
+        "target": "n44",
+        "kind": "supports",
+        "explanation": "A left atrial mass with cerebral infarcts could be thrombus."
+      },
+      {
+        "source": "n46",
+        "target": "n49",
+        "kind": "supports",
+        "explanation": "An inflammatory or infectious state can promote thrombosis."
+      },
+      {
+        "source": "n47",
+        "target": "n46",
+        "kind": "supports",
+        "explanation": "Elevated CRP supports an inflammatory state."
+      },
+      {
+        "source": "n48",
+        "target": "n46",
+        "kind": "supports",
+        "explanation": "Elevated fibrinogen supports an inflammatory state."
+      },
+      {
+        "source": "n49",
+        "target": "n44",
+        "kind": "supports",
+        "explanation": "Inflammation or infection could promote a thrombotic left atrial mass."
+      },
+      {
+        "source": "n50",
+        "target": "n35",
+        "kind": "supports",
+        "explanation": "Septal attachment makes thrombus less likely than myxoma."
+      },
+      {
+        "source": "n51",
+        "target": "n35",
+        "kind": "supports",
+        "explanation": "Partial calcification makes thrombus less likely than myxoma."
+      },
+      {
+        "source": "n52",
+        "target": "n35",
+        "kind": "supports",
+        "explanation": "Lack of typical predisposing cardiac conditions makes thrombus less likely than myxoma."
+      },
+      {
+        "source": "n53",
+        "target": "n19",
+        "kind": "contradicts",
+        "explanation": "Fever and infection raise concern for vegetation, but the overall findings argue against infective endocarditis vegetation."
+      },
+      {
+        "source": "n54",
+        "target": "n19",
+        "kind": "supports",
+        "explanation": "Negative blood cultures argue strongly against infective endocarditis vegetation."
+      },
+      {
+        "source": "n55",
+        "target": "n19",
+        "kind": "supports",
+        "explanation": "No valvular abnormalities argue strongly against infective endocarditis vegetation."
+      },
+      {
+        "source": "n56",
+        "target": "n19",
+        "kind": "supports",
+        "explanation": "A septal left atrial mass rather than a valvular lesion argues strongly against infective endocarditis vegetation."
+      },
+      {
+        "source": "n57",
+        "target": "n62",
+        "kind": "supports",
+        "explanation": "Papillary fibroelastoma being less likely leaves myxoma as the favored diagnosis."
+      },
+      {
+        "source": "n58",
+        "target": "n57",
+        "kind": "supports",
+        "explanation": "Papillary fibroelastomas are usually smaller, which makes this large mass less typical."
+      },
+      {
+        "source": "n59",
+        "target": "n57",
+        "kind": "supports",
+        "explanation": "Papillary fibroelastomas are usually valvular, unlike this septal atrial mass."
+      },
+      {
+        "source": "n60",
+        "target": "n61",
+        "kind": "supports",
+        "explanation": "Sarcoma is a possible alternative atrial mass diagnosis, but the described features favor myxoma."
+      },
+      {
+        "source": "n61",
+        "target": "n62",
+        "kind": "supports",
+        "explanation": "The combination of septal attachment, calcification, and embolic strokes is more characteristic of myxoma than sarcoma."
+      },
+      {
+        "source": "n63",
+        "target": "n62",
+        "kind": "supports",
+        "explanation": "If septal attachment is the most decisive feature, it supports the myxoma diagnosis."
+      },
+      {
+        "source": "n64",
+        "target": "n36",
+        "kind": "supports",
+        "explanation": "Embolic cerebral infarctions support the myxoma fit."
+      },
+      {
+        "source": "n65",
+        "target": "n66",
+        "kind": "supports",
+        "explanation": "Recognizing thrombus as an alternative helps frame why the overall evidence still favors myxoma."
+      },
+      {
+        "source": "n66",
+        "target": "n62",
+        "kind": "supports",
+        "explanation": "The preoperative evidence more strongly supporting myxoma leads to the final diagnosis."
+      },
+      {
+        "source": "n62",
+        "target": "n67",
+        "kind": "supports",
+        "explanation": "The most consistent diagnosis is carried forward as the final diagnosis."
+      }
+    ],
+    "disconnected": [
+      "n2",
+      "n21",
+      "n22",
+      "n23",
+      "n24",
+      "n3"
+    ],
+    "clusters": [
+      {
+        "cluster_id": "c1",
+        "label": "history_taking",
+        "statement_indices": [
+          1,
+          2,
+          3
+        ],
+        "summary": "Initial clinical context: incidental left atrial mass found during preoperative workup with fever, mesh infection, and cerebral infarcts.",
+        "salience": 0.72
+      },
+      {
+        "cluster_id": "c2",
+        "label": "examination",
+        "statement_indices": [
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20
+        ],
+        "summary": "Imaging and clinical findings characterize a septal left atrial mass with embolic infarcts, preserved cardiac function, negative cultures, and no valvular disease, arguing against vegetation.",
+        "salience": 0.9
+      },
+      {
+        "cluster_id": "c3",
+        "label": "differential_generation",
+        "statement_indices": [
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35
+        ],
+        "summary": "Assessment of thrombus risk factors and common predisposing conditions makes primary left atrial thrombus less supported.",
+        "salience": 0.78
+      },
+      {
+        "cluster_id": "c4",
+        "label": "differential_generation",
+        "statement_indices": [
+          36,
+          37,
+          38,
+          39,
+          40,
+          41,
+          42,
+          43
+        ],
+        "summary": "Arguments favor left atrial myxoma based on classic septal origin, size, calcification, embolization, and typical myxoma behavior.",
+        "salience": 0.95
+      },
+      {
+        "cluster_id": "c5",
+        "label": "differential_generation",
+        "statement_indices": [
+          44,
+          45,
+          46,
+          47,
+          48,
+          49,
+          50,
+          51,
+          52
+        ],
+        "summary": "Thrombus remains a consideration but is weakened by septal attachment, calcification, and lack of typical cardiac predisposition despite inflammation.",
+        "salience": 0.8
+      },
+      {
+        "cluster_id": "c6",
+        "label": "differential_generation",
+        "statement_indices": [
+          53,
+          54,
+          55,
+          56,
+          57,
+          58,
+          59,
+          60,
+          61
+        ],
+        "summary": "Infective endocarditis, papillary fibroelastoma, and sarcoma are considered but are less consistent with the lesion’s features.",
+        "salience": 0.83
+      },
+      {
+        "cluster_id": "c7",
+        "label": "final_decision",
+        "statement_indices": [
+          62,
+          63,
+          64,
+          65,
+          66,
+          67
+        ],
+        "summary": "Final synthesis concludes the mass is most consistent with left atrial myxoma, with thrombus as the main alternative.",
+        "salience": 1.0
+      }
+    ],
+    "node_ranks": {
+      "n1": 0.3571,
+      "n2": 0.25,
+      "n3": 0.25,
+      "n4": 0.5,
+      "n5": 0.4143,
+      "n6": 0.4143,
+      "n7": 0.4571,
+      "n8": 0.5,
+      "n9": 0.4571,
+      "n10": 0.5,
+      "n11": 0.5,
+      "n12": 0.3714,
+      "n13": 0.4571,
+      "n14": 0.4571,
+      "n15": 0.5,
+      "n16": 0.5,
+      "n17": 0.4571,
+      "n18": 0.4571,
+      "n19": 0.5,
+      "n20": 0.4143,
+      "n21": 0.45,
+      "n22": 0.45,
+      "n23": 0.45,
+      "n24": 0.45,
+      "n25": 0.5571,
+      "n26": 0.6,
+      "n27": 0.5571,
+      "n28": 0.5571,
+      "n29": 0.5571,
+      "n30": 0.5571,
+      "n31": 0.5143,
+      "n32": 0.5143,
+      "n33": 0.5143,
+      "n34": 0.5143,
+      "n35": 0.6,
+      "n36": 0.6143,
+      "n37": 0.5714,
+      "n38": 0.5714,
+      "n39": 0.5714,
+      "n40": 0.5714,
+      "n41": 0.6571,
+      "n42": 0.6143,
+      "n43": 0.5286,
+      "n44": 0.6286,
+      "n45": 0.5857,
+      "n46": 0.5429,
+      "n47": 0.5,
+      "n48": 0.5,
+      "n49": 0.5857,
+      "n50": 0.7571,
+      "n51": 0.7571,
+      "n52": 0.7571,
+      "n53": 0.8571,
+      "n54": 0.8571,
+      "n55": 0.8571,
+      "n56": 0.8571,
+      "n57": 0.8143,
+      "n58": 0.7714,
+      "n59": 0.7714,
+      "n60": 0.7714,
+      "n61": 0.8143,
+      "n62": 0.9571,
+      "n63": 0.9143,
+      "n64": 0.8714,
+      "n65": 0.8714,
+      "n66": 0.9143,
+      "n67": 1.0
+    }
+  }
+}

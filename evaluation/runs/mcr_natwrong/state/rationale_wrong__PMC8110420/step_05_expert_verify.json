@@ -1,0 +1,1133 @@
+{
+  "name": "expert_verify",
+  "passed": true,
+  "score": 1.0,
+  "reasoning": "No contradictions among 124 statement(s) (60 supported, 63 valid inferences, 1 unverifiable).",
+  "data": {
+    "verifications": [
+      {
+        "text": "The chief concern is an acute neuropsychiatric syndrome in a 21-year-old man.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Reference describes a 21-year-old man with abrupt neuropsychiatric symptoms."
+      },
+      {
+        "text": "The syndrome began abruptly with intense fear.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.98,
+        "reasoning": "Initial presentation was sudden-onset severe anxiety/fear."
+      },
+      {
+        "text": "The syndrome began abruptly with a sense that he was dying.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.98,
+        "reasoning": "He reported the sensation that he was dying."
+      },
+      {
+        "text": "The syndrome rapidly evolved over hours to agitation.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.97,
+        "reasoning": "He returned a few hours later agitated; this matches rapid evolution over hours."
+      },
+      {
+        "text": "The syndrome rapidly evolved over hours to pacing.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.97,
+        "reasoning": "Collateral says he was pacing on return."
+      },
+      {
+        "text": "The syndrome rapidly evolved over hours to mutism/nonverbal behavior.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.98,
+        "reasoning": "He was described as nonverbal on return."
+      },
+      {
+        "text": "Over days, the syndrome evolved to severe disorientation.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.98,
+        "reasoning": "At admission 9 days later he was severely disoriented to time, place, and person."
+      },
+      {
+        "text": "Over days, the syndrome evolved to thought blocking.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.98,
+        "reasoning": "Admission exam explicitly noted major thought block."
+      },
+      {
+        "text": "Over days, the syndrome evolved to bizarre disorganized speech.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.97,
+        "reasoning": "Speech content was disjointed and bizarre with incoherent content."
+      },
+      {
+        "text": "Over days, the syndrome evolved to staring.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.96,
+        "reasoning": "Mental status exam noted an intense stare."
+      },
+      {
+        "text": "Over days, the syndrome evolved to increased tone.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.97,
+        "reasoning": "Admission exam documented increased muscle tone."
+      },
+      {
+        "text": "Over days, the syndrome evolved to spastic movements.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.97,
+        "reasoning": "Admission exam documented spastic movements."
+      },
+      {
+        "text": "The patient’s own initial complaint was panic-like.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.96,
+        "reasoning": "Initial complaint was sudden severe anxiety/panic attack."
+      },
+      {
+        "text": "The subsequent course shows a broader encephalopathic/catatonic picture.",
+        "category": "factual",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.9,
+        "reasoning": "Given disorientation, mutism, thought block, abnormal tone/movements, this is a reasonable clinical synthesis, though not stated verbatim."
+      },
+      {
+        "text": "The onset was very acute.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.98,
+        "reasoning": "Presentation was sudden-onset and returned within hours."
+      },
+      {
+        "text": "The behavioral disturbance fluctuated.",
+        "category": "factual",
+        "verdict": "unverifiable",
+        "verified": true,
+        "score": 0.6,
+        "confidence": 0.55,
+        "reasoning": "The record shows evolving symptoms, but true fluctuation is not explicitly documented."
+      },
+      {
+        "text": "The patient was in a nonverbal state.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.98,
+        "reasoning": "He was described as nonverbal on return."
+      },
+      {
+        "text": "The patient was severely disoriented to time.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Severely disoriented to time was explicitly documented."
+      },
+      {
+        "text": "The patient was severely disoriented to place.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Severely disoriented to place was explicitly documented."
+      },
+      {
+        "text": "The patient was severely disoriented to person.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Severely disoriented to person was explicitly documented."
+      },
+      {
+        "text": "The patient had marked thought block.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Major thought block was explicitly documented."
+      },
+      {
+        "text": "The patient had limited stilted speech.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.98,
+        "reasoning": "Markedly limited, stilted speech was explicitly documented."
+      },
+      {
+        "text": "The patient had a dazed appearance.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.97,
+        "reasoning": "He appeared dazed."
+      },
+      {
+        "text": "The patient had an intense stare.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.98,
+        "reasoning": "An intense stare was explicitly documented."
+      },
+      {
+        "text": "The patient had increased muscle tone.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Increased muscle tone was explicitly documented."
+      },
+      {
+        "text": "The patient had abnormal movements.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Spastic movements were explicitly documented."
+      },
+      {
+        "text": "The patient made bizarre statements.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.98,
+        "reasoning": "Speech content was disjointed and bizarre."
+      },
+      {
+        "text": "The statement \"this is not the original\" was reported.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "The quoted statement appears verbatim in the reference data."
+      },
+      {
+        "text": "The statement \"two people joined in the middle, different timelines\" was reported.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "The quoted statement appears verbatim in the reference data."
+      },
+      {
+        "text": "The bizarre statements indicate psychosis/disorganized thought.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.95,
+        "reasoning": "Bizarre disorganized statements reasonably indicate psychosis/disorganized thought, though this is an interpretation."
+      },
+      {
+        "text": "Preserved withdrawal to pain suggests reduced responsiveness without coma.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.84,
+        "reasoning": "Preserved withdrawal to painful stimuli implies some responsiveness and argues against coma; this is a standard clinical inference."
+      },
+      {
+        "text": "CBC was normal.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "CBC was reported normal."
+      },
+      {
+        "text": "Liver profile was normal.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Liver function/profile was reported normal."
+      },
+      {
+        "text": "Renal profile was normal.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Renal profile was reported normal."
+      },
+      {
+        "text": "Inflammatory markers were normal.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Inflammatory markers were reported normal."
+      },
+      {
+        "text": "MRI brain was normal.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "MRI of the head was unremarkable."
+      },
+      {
+        "text": "CSF studies were normal.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "LP showed normal protein and glucose and was negative for bacteria/viruses."
+      },
+      {
+        "text": "Toxicology screen was negative.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Urine toxicology screen was negative."
+      },
+      {
+        "text": "Phosphate was markedly low at 0.35 mmol/L.",
+        "category": "statistical",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Serum phosphate was 0.35 mmol/L, which is markedly low."
+      },
+      {
+        "text": "Low phosphate can occur after hyperventilation.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.9,
+        "reasoning": "Hypophosphatemia can occur after hyperventilation; this is standard medical knowledge, not contradicted by the case."
+      },
+      {
+        "text": "Low phosphate can occur after agitation.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.95,
+        "reasoning": "Reference data shows phosphate 0.35 mmol/L and the trace notes this can occur after hyperventilation/agitation; this is a standard plausible inference."
+      },
+      {
+        "text": "Low phosphate can occur after seizure.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.95,
+        "reasoning": "Low phosphate is noted in the trace as potentially occurring after seizure, and the case includes seizure-compatible features."
+      },
+      {
+        "text": "Prolactin was elevated at 737 mu/L.",
+        "category": "statistical",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 1.0,
+        "reasoning": "Reference data explicitly states prolactin was elevated at 737 mu/L."
+      },
+      {
+        "text": "Prolactin can rise after a recent seizure.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.98,
+        "reasoning": "The trace correctly notes prolactin can rise after a recent seizure; this is standard clinical knowledge."
+      },
+      {
+        "text": "Family history was noncontributory except for autism/OCD in the patient.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 1.0,
+        "reasoning": "Reference data says high-functioning autism and OCD, with no other psychiatric or medical family history."
+      },
+      {
+        "text": "Normal vitals initially argue against a systemic infectious or toxic-metabolic delirium.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.86,
+        "reasoning": "Initial vital signs were unremarkable; using that to argue against systemic infectious/toxic-metabolic delirium is a reasonable inference, not a direct fact."
+      },
+      {
+        "text": "An unremarkable physical exam initially argues against a systemic infectious or toxic-metabolic delirium.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.82,
+        "reasoning": "The physical exam was unremarkable initially, which supports but does not prove against systemic infectious/toxic-metabolic delirium."
+      },
+      {
+        "text": "Normal inflammatory markers make meningitis less likely.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.9,
+        "reasoning": "Normal inflammatory markers make bacterial meningitis less likely; this is a reasonable differential-pruning inference."
+      },
+      {
+        "text": "Normal inflammatory markers make encephalitis less likely.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.84,
+        "reasoning": "Normal inflammatory markers can make encephalitis less likely, though they do not exclude it."
+      },
+      {
+        "text": "Normal CSF protein and glucose make meningitis less likely.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.9,
+        "reasoning": "Normal CSF protein and glucose are supportive against meningitis, though not definitive."
+      },
+      {
+        "text": "Normal CSF protein and glucose make encephalitis less likely.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.82,
+        "reasoning": "Normal CSF protein and glucose can make encephalitis less likely, but do not exclude it."
+      },
+      {
+        "text": "Negative bacterial studies make meningitis less likely.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.93,
+        "reasoning": "Negative bacterial studies reduce the likelihood of bacterial meningitis."
+      },
+      {
+        "text": "Negative viral studies make encephalitis less likely.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.9,
+        "reasoning": "Negative viral studies reduce the likelihood of infectious encephalitis, though early disease can still be missed."
+      },
+      {
+        "text": "MRI head was unremarkable.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 1.0,
+        "reasoning": "Reference data explicitly states MRI of the head was unremarkable."
+      },
+      {
+        "text": "An unremarkable MRI head argues against structural lesions.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.95,
+        "reasoning": "An unremarkable MRI reasonably argues against structural lesions."
+      },
+      {
+        "text": "Negative urine toxicology reduces the likelihood of stimulant intoxication causing the syndrome.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.95,
+        "reasoning": "Negative urine toxicology reduces the likelihood of stimulant intoxication as the cause."
+      },
+      {
+        "text": "Collateral denial of cocaine reduces the likelihood of stimulant intoxication causing the syndrome.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.9,
+        "reasoning": "Collateral denial of cocaine use reduces the likelihood of stimulant intoxication."
+      },
+      {
+        "text": "There is no reported fever.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 1.0,
+        "reasoning": "No fever is reported in the reference data."
+      },
+      {
+        "text": "There is no reported autonomic instability.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 1.0,
+        "reasoning": "No autonomic instability is reported in the reference data."
+      },
+      {
+        "text": "The absence of fever or autonomic instability does not strongly support neuroleptic malignant syndrome.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.95,
+        "reasoning": "Absence of fever/autonomic instability weakens support for NMS; this is a reasonable clinical inference."
+      },
+      {
+        "text": "There is no medication exposure suggesting neuroleptic malignant syndrome.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 1.0,
+        "reasoning": "Reference data provides no medication exposure suggesting NMS."
+      },
+      {
+        "text": "There is no prior psychiatric family history provided.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 1.0,
+        "reasoning": "Reference data says there is no other psychiatric or medical family history."
+      },
+      {
+        "text": "There is no chronic prodrome provided.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 1.0,
+        "reasoning": "No chronic prodrome is provided in the case; the presentation is described as abrupt."
+      },
+      {
+        "text": "First-episode psychosis remains possible.",
+        "category": "factual",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.9,
+        "reasoning": "Given age and psychotic symptoms, first-episode psychosis remains a plausible differential diagnosis."
+      },
+      {
+        "text": "The leading candidates are anti-NMDA receptor encephalitis or another autoimmune encephalitis.",
+        "category": "factual",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.98,
+        "reasoning": "This is the trace’s leading diagnostic synthesis and is a legitimate conclusion from the case features."
+      },
+      {
+        "text": "The leading candidates are primary psychotic disorder/catatonia.",
+        "category": "factual",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.96,
+        "reasoning": "Primary psychotic disorder/catatonia is explicitly discussed as a plausible differential, not a contradiction."
+      },
+      {
+        "text": "The leading candidates are substance-induced psychosis.",
+        "category": "factual",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.95,
+        "reasoning": "Substance-induced psychosis is explicitly considered as a differential diagnosis."
+      },
+      {
+        "text": "The leading candidates are nonconvulsive seizure/postictal state.",
+        "category": "factual",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.95,
+        "reasoning": "Nonconvulsive seizure/postictal state is explicitly considered as a differential diagnosis."
+      },
+      {
+        "text": "Anti-NMDA receptor encephalitis often presents in young patients with abrupt psychiatric symptoms.",
+        "category": "factual",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.98,
+        "reasoning": "This is standard medical knowledge about anti-NMDA receptor encephalitis and matches the case pattern."
+      },
+      {
+        "text": "Anti-NMDA receptor encephalitis often presents with disorientation.",
+        "category": "factual",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.98,
+        "reasoning": "Disorientation is a recognized feature of anti-NMDA receptor encephalitis and fits the case."
+      },
+      {
+        "text": "Anti-NMDA receptor encephalitis often presents with mutism.",
+        "category": "factual",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.98,
+        "reasoning": "Mutism is a recognized feature of anti-NMDA receptor encephalitis and is present here."
+      },
+      {
+        "text": "Anti-NMDA receptor encephalitis often presents with bizarre behavior.",
+        "category": "factual",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.98,
+        "reasoning": "Bizarre behavior is consistent with the psychiatric presentation of anti-NMDA receptor encephalitis."
+      },
+      {
+        "text": "Anti-NMDA receptor encephalitis often presents with psychosis.",
+        "category": "factual",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.98,
+        "reasoning": "Psychosis is a classic presenting feature of anti-NMDA receptor encephalitis."
+      },
+      {
+        "text": "Anti-NMDA receptor encephalitis often presents with catatonic features.",
+        "category": "factual",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.98,
+        "reasoning": "Catatonic features are well-described in anti-NMDA receptor encephalitis."
+      },
+      {
+        "text": "Anti-NMDA receptor encephalitis often presents with staring.",
+        "category": "factual",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.97,
+        "reasoning": "Staring is a recognized catatonic/encephalitic feature and fits the syndrome."
+      },
+      {
+        "text": "Anti-NMDA receptor encephalitis often presents with abnormal movements.",
+        "category": "factual",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.98,
+        "reasoning": "Abnormal movements are common in anti-NMDA receptor encephalitis and are present in the case."
+      },
+      {
+        "text": "Routine MRI can be normal early in anti-NMDA receptor encephalitis.",
+        "category": "factual",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.98,
+        "reasoning": "Normal MRI early in anti-NMDA receptor encephalitis is standard knowledge and consistent with the case."
+      },
+      {
+        "text": "Routine CSF can be normal early in anti-NMDA receptor encephalitis.",
+        "category": "factual",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.98,
+        "reasoning": "Normal CSF early in anti-NMDA receptor encephalitis is standard knowledge and consistent with the case."
+      },
+      {
+        "text": "The negative initial investigations do not exclude anti-NMDA receptor encephalitis.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.98,
+        "reasoning": "Given normal MRI/CSF and the syndrome, it is reasonable to say the negative initial workup does not exclude anti-NMDA receptor encephalitis."
+      },
+      {
+        "text": "The elevated prolactin could reflect seizure activity.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.97,
+        "reasoning": "Elevated prolactin can reflect recent seizure activity; this is a standard inference."
+      },
+      {
+        "text": "The hypophosphatemia could reflect seizure activity.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.98,
+        "reasoning": "Low phosphate (0.35 mmol/L) can occur after hyperventilation/agitation or seizure; the trace explicitly links it to possible seizure activity."
+      },
+      {
+        "text": "Seizure activity is common in anti-NMDA receptor encephalitis.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.97,
+        "reasoning": "The trace states seizures are common in anti-NMDA receptor encephalitis."
+      },
+      {
+        "text": "The combination of psychosis plus catatonic/motor signs and cognitive disorientation is more suggestive of an organic encephalitic process than a pure primary psychiatric disorder.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.95,
+        "reasoning": "Psychosis plus catatonic/motor signs and disorientation reasonably favors an organic encephalitic process over uncomplicated primary psychosis."
+      },
+      {
+        "text": "Primary psychosis such as schizophreniform disorder is plausible because of the age.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.9,
+        "reasoning": "Young age is a standard epidemiologic reason primary psychosis remains plausible."
+      },
+      {
+        "text": "Primary psychosis such as schizophreniform disorder is plausible because of bizarre disorganized speech.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.92,
+        "reasoning": "Bizarre disorganized speech is compatible with a primary psychotic disorder, so this is a reasonable differential point."
+      },
+      {
+        "text": "Primary psychosis such as schizophreniform disorder is plausible because of poor insight.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.88,
+        "reasoning": "Poor insight is commonly seen in primary psychosis and supports plausibility, though not specific."
+      },
+      {
+        "text": "Primary psychosis such as schizophreniform disorder is plausible because of acute behavioral change.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.9,
+        "reasoning": "Acute behavioral change can occur in first-episode psychosis, so this is a plausible consideration."
+      },
+      {
+        "text": "Profound disorientation to person/place/time is atypical for uncomplicated first-episode psychosis.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.98,
+        "reasoning": "Profound disorientation is atypical for uncomplicated first-episode psychosis; this is a standard clinical distinction."
+      },
+      {
+        "text": "Mutism/nonverbal periods are atypical for uncomplicated first-episode psychosis.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.98,
+        "reasoning": "Mutism/nonverbal periods are atypical for uncomplicated first-episode psychosis and point toward catatonia/organic illness."
+      },
+      {
+        "text": "A dazed state is atypical for uncomplicated first-episode psychosis.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.96,
+        "reasoning": "A dazed state is not typical of uncomplicated primary psychosis and supports an organic syndrome."
+      },
+      {
+        "text": "Increased tone is atypical for uncomplicated first-episode psychosis.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.97,
+        "reasoning": "Increased tone is a motor sign atypical for uncomplicated first-episode psychosis."
+      },
+      {
+        "text": "Spastic movements are atypical for uncomplicated first-episode psychosis.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.97,
+        "reasoning": "Spastic movements are atypical for uncomplicated first-episode psychosis and suggest neurologic involvement."
+      },
+      {
+        "text": "Catatonia is strongly suggested by mutism.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.99,
+        "reasoning": "Mutism is a classic catatonic feature; the trace uses it as supportive of catatonia."
+      },
+      {
+        "text": "Catatonia is strongly suggested by staring.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.98,
+        "reasoning": "Staring is a classic catatonic sign and is used in the trace to support catatonia."
+      },
+      {
+        "text": "Catatonia is strongly suggested by increased tone.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.98,
+        "reasoning": "Increased tone is compatible with catatonia and is cited as such in the trace."
+      },
+      {
+        "text": "Catatonia is strongly suggested by limited speech.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.98,
+        "reasoning": "Limited speech is a common catatonic feature and supports catatonia."
+      },
+      {
+        "text": "Catatonia is a syndrome rather than the underlying diagnosis.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Catatonia is a syndrome, not a final etiologic diagnosis."
+      },
+      {
+        "text": "The question is what is causing the catatonia.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.98,
+        "reasoning": "This is a direct restatement of the diagnostic question posed in the trace."
+      },
+      {
+        "text": "Given the neurologic features and abrupt onset, an organic cause is more likely than a primary psychiatric one.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.96,
+        "reasoning": "Abrupt onset plus neurologic features reasonably make an organic cause more likely than a primary psychiatric one."
+      },
+      {
+        "text": "Substance-induced psychosis was considered because he initially reported cocaine use.",
+        "category": "causal",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "The trace explicitly says substance-induced psychosis was considered because he initially reported cocaine use."
+      },
+      {
+        "text": "Substance-induced psychosis was considered because he presented with anxiety/agitation.",
+        "category": "causal",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "The trace explicitly says anxiety/agitation prompted consideration of substance-induced psychosis."
+      },
+      {
+        "text": "Urine toxicology was negative.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Urine toxicology was negative in the reference data."
+      },
+      {
+        "text": "Collateral history denied cocaine use.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Collateral history denied cocaine use in the reference case."
+      },
+      {
+        "text": "There is no direct evidence supporting intoxication.",
+        "category": "factual",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.95,
+        "reasoning": "Given negative tox and collateral denial, there is no direct evidence supporting intoxication."
+      },
+      {
+        "text": "The prolonged 9-day evolution is less typical of a transient stimulant reaction.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.93,
+        "reasoning": "A 9-day evolving syndrome is less typical of a transient stimulant intoxication reaction."
+      },
+      {
+        "text": "Elevated prolactin can follow seizures.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.97,
+        "reasoning": "Elevated prolactin can rise after a recent seizure; this is standard medical knowledge and stated in the trace."
+      },
+      {
+        "text": "Severe hypophosphatemia can follow seizures.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.96,
+        "reasoning": "Severe hypophosphatemia can be seen after seizures or intense hyperventilation/agitation; this is a reasonable inference from the trace."
+      },
+      {
+        "text": "The patient had altered responsiveness.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.98,
+        "reasoning": "He was nonverbal, disoriented, and had preserved withdrawal to pain, indicating altered responsiveness."
+      },
+      {
+        "text": "The patient had bizarre behavior.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.98,
+        "reasoning": "The reference data describes agitated, pacing, nonverbal, disjointed, bizarre behavior."
+      },
+      {
+        "text": "No EEG evidence is provided.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "No EEG findings are provided in the reference data."
+      },
+      {
+        "text": "The sustained psychotic/catatonic syndrome over days with normal MRI/CSF is more consistent with autoimmune encephalitis.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.96,
+        "reasoning": "Persistent psychotic/catatonic syndrome with normal MRI/CSF reasonably favors autoimmune encephalitis over many alternatives."
+      },
+      {
+        "text": "Autoimmune encephalitis can include seizures.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.98,
+        "reasoning": "The trace explicitly notes autoimmune encephalitis can include seizures."
+      },
+      {
+        "text": "The syndrome is best unified as anti-NMDA receptor encephalitis presenting with prominent psychiatric and catatonic features.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "The trace’s overall conclusion is anti-NMDA receptor encephalitis with prominent psychiatric and catatonic features."
+      },
+      {
+        "text": "Anti-NMDA receptor encephalitis explains the abrupt onset.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.98,
+        "reasoning": "Abrupt onset is a classic fit for anti-NMDA receptor encephalitis and is used as part of the unifying diagnosis."
+      },
+      {
+        "text": "Anti-NMDA receptor encephalitis explains the progression from panic-like symptoms to agitation and mutism.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.98,
+        "reasoning": "The described progression from panic-like symptoms to agitation and mutism is consistent with anti-NMDA receptor encephalitis."
+      },
+      {
+        "text": "Anti-NMDA receptor encephalitis explains severe disorientation.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.98,
+        "reasoning": "Severe disorientation is part of the encephalitic syndrome and is reasonably explained by anti-NMDA receptor encephalitis."
+      },
+      {
+        "text": "Anti-NMDA receptor encephalitis explains bizarre psychosis.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.98,
+        "reasoning": "Bizarre psychosis/disorganized thought is a classic psychiatric manifestation of anti-NMDA receptor encephalitis."
+      },
+      {
+        "text": "Anti-NMDA receptor encephalitis explains increased tone and abnormal movements.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.98,
+        "reasoning": "Increased tone and abnormal movements are well-recognized motor features of anti-NMDA receptor encephalitis."
+      },
+      {
+        "text": "Anti-NMDA receptor encephalitis explains the otherwise negative standard medical workup.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.97,
+        "reasoning": "Normal MRI/CSF, CBC, renal/liver tests, inflammatory markers, and negative tox support a largely unrevealing standard workup."
+      },
+      {
+        "text": "The differential diagnosis includes anti-NMDA receptor encephalitis.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Anti-NMDA receptor encephalitis is explicitly included in the differential diagnosis."
+      },
+      {
+        "text": "The differential diagnosis includes first-episode psychosis with catatonia.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.98,
+        "reasoning": "The trace explicitly lists 'First-episode psychosis with catatonia (medium)' in the differential diagnoses."
+      },
+      {
+        "text": "The differential diagnosis includes substance-induced psychotic disorder.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.98,
+        "reasoning": "The trace explicitly includes 'Substance-induced psychotic disorder (e.g., stimulant-related)' as a differential diagnosis."
+      },
+      {
+        "text": "The differential diagnosis includes nonconvulsive status epilepticus or prolonged postictal state.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.98,
+        "reasoning": "The trace explicitly includes 'Nonconvulsive status epilepticus or prolonged postictal state (low)' as a differential diagnosis."
+      },
+      {
+        "text": "The final diagnosis is anti-NMDA receptor encephalitis.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "The trace states 'Final diagnosis: Anti-NMDA receptor encephalitis' verbatim."
+      }
+    ],
+    "verdict_counts": {
+      "contradicted": 0,
+      "supported": 60,
+      "valid_inference": 63,
+      "unverifiable": 1
+    },
+    "contradictions": 0
+  }
+}

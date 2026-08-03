@@ -1,0 +1,45 @@
+{
+  "input": {
+    "resourceType": "clinicalCaseDiagnosis",
+    "id": "PMC11536889",
+    "origin": "testdata/streamlined/clinical-cases-cot/extracted/PMC11536889.json",
+    "groundTruthDiagnosis": "Streptococcus salivarius pneumonia",
+    "rawInput": {
+      "complaint": "A 36-year-old man presented with a 1-week history of persistent cough and sputum production that worsened with the onset of a sore throat 1 day before admission. He works in a barbecue restaurant and has smoked approximately 20 cigarettes per day for 10 years. Initial treatment with an herbal cough remedy failed to relieve symptoms. On examination, vital signs were stable. Subcutaneous emphysema was palpable in the neck, and wet rales were auscultated over the left lung. Laboratory studies showed a leukocyte count of 25.74×10^9/L (neutrophils 21.04×10^9/L, 81.8%) and a C-reactive protein level of 1.63 mg/L. Chest radiography demonstrated obstructive atelectasis in the left lower lobe. Computed tomography of the chest confirmed pneumomediastinum and left lower lobe atelectasis. Flexible bronchoscopy revealed congested mucosa in the left main bronchus and in the basal and dorsal segments of the left lower lobe, along with copious white, viscous secretions, but no airway perforation, neoplasm, or active bleeding.",
+      "metadata": {
+        "presentation": "A 36-year-old man presented with a 1-week history of persistent cough and sputum production that worsened with the onset of a sore throat 1 day before admission. He works in a barbecue restaurant and has smoked approximately 20 cigarettes per day for 10 years. Initial treatment with an herbal cough remedy failed to relieve symptoms. On examination, vital signs were stable. Subcutaneous emphysema was palpable in the neck, and wet rales were auscultated over the left lung. Laboratory studies showed a leukocyte count of 25.74×10^9/L (neutrophils 21.04×10^9/L, 81.8%) and a C-reactive protein level of 1.63 mg/L. Chest radiography demonstrated obstructive atelectasis in the left lower lobe. Computed tomography of the chest confirmed pneumomediastinum and left lower lobe atelectasis. Flexible bronchoscopy revealed congested mucosa in the left main bronchus and in the basal and dorsal segments of the left lower lobe, along with copious white, viscous secretions, but no airway perforation, neoplasm, or active bleeding."
+      }
+    },
+    "cotDiagnosis": {
+      "reasoning": "The chief complaint is a 1-week history of persistent cough with sputum production, worsening with sore throat, in a 36-year-old man. The patient’s immediate concerning findings are not just infectious respiratory symptoms but also palpable subcutaneous emphysema in the neck and CT-confirmed pneumomediastinum, which require explaining. The key diagnostic task is to determine the cause of the pneumomediastinum and associated left lower lobe obstructive atelectasis.\n\nSalient positive findings include: persistent cough and sputum production; smoking history of about 20 cigarettes/day for 10 years; occupational exposure in a barbecue restaurant, which may contribute to airway irritation; palpable cervical subcutaneous emphysema; wet rales over the left lung; marked leukocytosis with neutrophilia (WBC 25.74×10^9/L, neutrophils 81.8%), suggesting acute airway/lung inflammation or infection; chest radiography showing obstructive atelectasis in the left lower lobe; CT confirming pneumomediastinum plus left lower lobe atelectasis; and bronchoscopy showing congested bronchial mucosa with copious white, viscous secretions in the left main bronchus and left lower lobe segmental bronchi. These bronchoscopic findings strongly support mucus plugging/airway inflammation as the cause of the obstructive atelectasis.\n\nPertinent negatives are also important. Vital signs were stable, arguing against severe tension physiology or overwhelming sepsis. Bronchoscopy showed no airway perforation, no neoplasm, and no active bleeding, which makes traumatic or iatrogenic tracheobronchial injury and endobronchial tumor much less likely explanations for the pneumomediastinum and atelectasis. There is no mention of chest trauma, vomiting, or severe chest pain, making esophageal rupture less likely. The CRP is only 1.63 mg/L, which is not strongly supportive of severe bacterial pneumonia despite leukocytosis.\n\nThe leading differential is spontaneous pneumomediastinum secondary to forceful coughing. This fits the history of persistent cough, stable vitals, palpable neck subcutaneous emphysema, and CT-confirmed pneumomediastinum without evidence of airway perforation. The likely mechanism is alveolar rupture from increased intrathoracic pressure during coughing (Macklin effect), with air dissecting into the mediastinum and neck. The concurrent left lower lobe obstructive atelectasis is plausibly due to mucus plugging, supported directly by bronchoscopy showing copious viscous secretions and congested mucosa.\n\nAnother consideration is infectious pneumonia with secondary atelectasis. The cough, sputum, wet rales, leukocytosis, and bronchial mucosal congestion support airway infection/inflammation. However, the imaging specifically describes obstructive atelectasis rather than consolidation, and bronchoscopy identified mucus obstruction rather than a parenchymal infectious focus. Pneumomediastinum is not well explained by uncomplicated pneumonia alone unless severe coughing caused it, which brings the diagnosis back to spontaneous pneumomediastinum.\n\nEndobronchial obstruction from malignancy is another differential because obstructive atelectasis in a smoker can reflect a tumor. However, he is relatively young, and bronchoscopy found no neoplasm. That makes this unlikely.\n\nTracheobronchial injury/perforation must be considered whenever pneumomediastinum and subcutaneous emphysema are present, but bronchoscopy showed no airway perforation, and there is no trauma or procedure history provided. Boerhaave syndrome is also unlikely without vomiting, severe chest pain, toxicity, or supportive endoscopic/imaging findings.\n\nNarrowing to a single diagnosis: the most coherent explanation for all findings is spontaneous pneumomediastinum triggered by persistent cough, with associated mucus-plug-induced obstructive atelectasis of the left lower lobe. Since the prompt asks for a single condition, the central diagnosis is spontaneous pneumomediastinum.",
+      "differentialDiagnoses": [
+        {
+          "condition": "Spontaneous pneumomediastinum",
+          "likelihood": "high",
+          "supportingEvidence": "Persistent cough preceding symptoms, palpable neck subcutaneous emphysema, CT-confirmed pneumomediastinum, stable vital signs, and bronchoscopy showing no airway perforation or neoplasm support cough-induced spontaneous pneumomediastinum."
+        },
+        {
+          "condition": "Mucus plug causing obstructive atelectasis of the left lower lobe",
+          "likelihood": "high",
+          "supportingEvidence": "Chest radiography and CT showed left lower lobe obstructive atelectasis; bronchoscopy directly demonstrated copious white, viscous secretions with congested mucosa in the left main bronchus and left lower lobe bronchi."
+        },
+        {
+          "condition": "Acute infectious bronchitis or pneumonia",
+          "likelihood": "medium",
+          "supportingEvidence": "Cough, sputum production, wet rales, marked leukocytosis with neutrophilia, and bronchial mucosal congestion suggest acute airway/lung infection or inflammation, though imaging favored obstructive atelectasis rather than primary consolidation."
+        },
+        {
+          "condition": "Endobronchial neoplasm",
+          "likelihood": "low",
+          "supportingEvidence": "Smoking history and obstructive atelectasis could suggest tumor, but bronchoscopy found no neoplasm and the patient is only 36 years old."
+        },
+        {
+          "condition": "Tracheobronchial or esophageal perforation",
+          "likelihood": "low",
+          "supportingEvidence": "Pneumomediastinum and subcutaneous emphysema raise concern, but bronchoscopy showed no airway perforation, and there is no history of trauma, instrumentation, or vomiting."
+        }
+      ],
+      "finalDiagnosis": "Spontaneous pneumomediastinum"
+    }
+  }
+}

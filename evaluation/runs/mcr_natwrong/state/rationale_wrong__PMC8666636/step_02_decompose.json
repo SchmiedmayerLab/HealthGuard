@@ -1,0 +1,229 @@
+{
+  "name": "decompose",
+  "passed": true,
+  "score": 1.0,
+  "reasoning": "Decomposed into 66 verifiable statement(s). Completeness check passed. Grouped into 10 reasoning segment(s).",
+  "data": {
+    "statements": [
+      "The chief concern is a slowly enlarging right cheek mass in a 4-year-old boy.",
+      "The right cheek mass has been present for 1 year.",
+      "The right cheek mass is notably asymptomatic.",
+      "The key clinical task is to determine the most likely cause of a pediatric buccal soft-tissue mass based on its growth pattern, exam characteristics, and imaging.",
+      "The lesion is 3 × 2 × 1 cm.",
+      "The lesion is firm.",
+      "The lesion is non-tender.",
+      "The lesion is non-fluctuant.",
+      "The lesion is non-pulsatile.",
+      "The lesion is freely mobile between the buccal mucosa and skin.",
+      "The lesion has distinct margins.",
+      "The overlying mucosa is normal.",
+      "The lesion extends from the right oral commissure to the pterygomandibular raphe.",
+      "The lesion suggests a buccal space or intramuscular location.",
+      "Aspiration yielded no fluid.",
+      "Ultrasound confirmed a soft-tissue mass.",
+      "Contrast CT showed a well-defined hypodense lesion within the muscle layer.",
+      "CBC was normal.",
+      "The metabolic panel was normal.",
+      "There was no submandibular lymphadenopathy.",
+      "There was no submental lymphadenopathy.",
+      "There is no pain.",
+      "There is no tenderness.",
+      "There is no dysphagia.",
+      "There is no dysphonia.",
+      "There is no dyspnea.",
+      "There is no trauma.",
+      "There are no systemic symptoms.",
+      "There is no lymphadenopathy.",
+      "There is no mucosal discoloration.",
+      "There is no pulsatility.",
+      "There is no fluctuance.",
+      "There was no aspirated fluid.",
+      "These findings make inflammatory or infectious causes less likely.",
+      "These findings make aggressive malignant lesions less likely.",
+      "These findings make many vascular lesions less likely.",
+      "Intramuscular lipoma fits well with a slowly enlarging, painless, well-circumscribed, mobile soft-tissue mass.",
+      "CT showing a well-defined hypodense lesion within the muscle layer strongly supports a fatty lesion.",
+      "The intramuscular location matches an intramuscular lipoma.",
+      "Lack of lymphadenopathy or systemic symptoms also supports a benign mesenchymal tumor.",
+      "Dermoid and epidermoid cysts can present as painless, slow-growing cheek masses in children.",
+      "Aspiration yielded no fluid.",
+      "The lesion was described as firm rather than doughy or cystic.",
+      "CT localization within the muscle layer is less typical for a dermoid or epidermoid cyst.",
+      "Pediatric cheek masses commonly include vascular lesions.",
+      "The lesion was non-pulsatile.",
+      "The lesion was non-fluctuant.",
+      "The mucosal color was normal.",
+      "Aspiration yielded no blood or fluid.",
+      "CT described a well-defined hypodense intramuscular lesion without vascular features.",
+      "A painless intramuscular mass could raise the possibility of rhabdomyoma or another benign mesenchymal tumor.",
+      "Rhabdomyoma and other benign mesenchymal tumors are much rarer than lipoma.",
+      "CT density described as hypodense is more characteristic of fat.",
+      "Malignancy such as rhabdomyosarcoma is less likely because the lesion has been slowly enlarging over a year.",
+      "Malignancy such as rhabdomyosarcoma is less likely because the lesion is well defined.",
+      "Malignancy such as rhabdomyosarcoma is less likely because the lesion is freely mobile.",
+      "Malignancy such as rhabdomyosarcoma is less likely because the lesion is painless.",
+      "Malignancy such as rhabdomyosarcoma is less likely because there is no lymphadenopathy or systemic symptoms.",
+      "Imaging does not suggest an infiltrative aggressive mass.",
+      "The combination of a long-standing painless cheek mass, benign exam features, absence of inflammatory or malignant signs, and a well-defined hypodense lesion within the muscle layer on CT most strongly indicates a lipomatous tumor arising in muscle.",
+      "The most likely diagnosis is intramuscular lipoma of the cheek or buccinator region.",
+      "Intramuscular lipoma is the high-probability differential diagnosis.",
+      "Dermoid or epidermoid cyst is a medium-probability differential diagnosis.",
+      "Vascular malformation or hemangioma is a low-probability differential diagnosis.",
+      "Rhabdomyosarcoma or other malignant soft-tissue tumor is a low-probability differential diagnosis.",
+      "The final diagnosis is intramuscular lipoma."
+    ],
+    "completeness": {
+      "complete": true,
+      "missing": [],
+      "added": []
+    },
+    "clusters": [
+      {
+        "cluster_id": "c1",
+        "label": "history_taking",
+        "statement_indices": [
+          1,
+          2,
+          3
+        ],
+        "summary": "Initial presentation of a chronic, asymptomatic right cheek mass in a young child.",
+        "salience": 0.9
+      },
+      {
+        "cluster_id": "c2",
+        "label": "examination",
+        "statement_indices": [
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14
+        ],
+        "summary": "Clinical exam characterizes a firm, well-circumscribed, mobile buccal space mass with benign surface features and intramuscular/buccal location.",
+        "salience": 0.95
+      },
+      {
+        "cluster_id": "c3",
+        "label": "test_ordering",
+        "statement_indices": [
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21
+        ],
+        "summary": "Diagnostic workup including aspiration, ultrasound, CT, labs, and lymph node assessment.",
+        "salience": 0.9
+      },
+      {
+        "cluster_id": "c4",
+        "label": "differential_generation",
+        "statement_indices": [
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36
+        ],
+        "summary": "Features are used to argue against inflammatory, infectious, vascular, and malignant causes.",
+        "salience": 0.85
+      },
+      {
+        "cluster_id": "c5",
+        "label": "differential_generation",
+        "statement_indices": [
+          37,
+          38,
+          39,
+          40
+        ],
+        "summary": "Reasoning favors intramuscular lipoma based on slow growth, benign exam, and fat-density intramuscular CT findings.",
+        "salience": 0.98
+      },
+      {
+        "cluster_id": "c6",
+        "label": "differential_generation",
+        "statement_indices": [
+          41,
+          42,
+          43,
+          44
+        ],
+        "summary": "Dermoid/epidermoid cyst considered but felt less likely due to firm texture, no aspirate, and intramuscular location.",
+        "salience": 0.7
+      },
+      {
+        "cluster_id": "c7",
+        "label": "differential_generation",
+        "statement_indices": [
+          45,
+          46,
+          47,
+          48,
+          49,
+          50
+        ],
+        "summary": "Vascular lesions are considered but discounted by nonpulsatile, nonfluctuant, normal mucosa, negative aspiration, and nonvascular CT appearance.",
+        "salience": 0.65
+      },
+      {
+        "cluster_id": "c8",
+        "label": "differential_generation",
+        "statement_indices": [
+          51,
+          52,
+          53
+        ],
+        "summary": "Other benign mesenchymal tumors are briefly considered but lipoma remains more likely because hypodensity suggests fat.",
+        "salience": 0.6
+      },
+      {
+        "cluster_id": "c9",
+        "label": "differential_generation",
+        "statement_indices": [
+          54,
+          55,
+          56,
+          57,
+          58,
+          59
+        ],
+        "summary": "Malignancy is argued against by the lesion’s slow, well-defined, mobile, painless, non-systemic, noninfiltrative behavior.",
+        "salience": 0.8
+      },
+      {
+        "cluster_id": "c10",
+        "label": "final_decision",
+        "statement_indices": [
+          60,
+          61,
+          62,
+          63,
+          64,
+          65,
+          66
+        ],
+        "summary": "Concludes that the overall picture most strongly supports intramuscular lipoma, with alternative differentials ranked lower.",
+        "salience": 1.0
+      }
+    ]
+  }
+}

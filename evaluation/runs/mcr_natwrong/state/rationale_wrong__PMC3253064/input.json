@@ -1,0 +1,40 @@
+{
+  "input": {
+    "resourceType": "clinicalCaseDiagnosis",
+    "id": "PMC3253064",
+    "origin": "testdata/streamlined/clinical-cases-cot/extracted/PMC3253064.json",
+    "groundTruthDiagnosis": "Hashimotos thyroiditis",
+    "rawInput": {
+      "complaint": "A 17-year-old Caucasian woman presented with acute right lower abdominal pain. Ultrasonography and CT revealed a 20-cm hyperdense cystic right adnexal mass with solid components up to the umbilicus. Emergency laparotomy showed torsion of the right ovary; a right salpingo-oophorectomy removed a 1600-g tumor. Histopathology disclosed a benign cystic struma ovarii confirmed by thyroglobulin immunostaining, with lymphocytes and lymphoid follicles among thyroid follicles. Three days after surgery, thyroid function tests showed TSH 0.001 mIU/mL (normal 0.27–4.2), free T4 1.32 ng/dL (normal 0.74–1.52), and free T3 3.6 pg/mL (normal 2.3–4.2). Two months later, she remained asymptomatic but had persistent subclinical hyperthyroidism. Thyroid ultrasound demonstrated a normal-sized gland with mildly heterogeneous echogenicity. Thyroid scintigraphy showed focal uptake in the left lobe with suppression elsewhere, and I-131 uptake was reduced to 16% at 4 hours and 27% at 24 hours.",
+      "metadata": {
+        "presentation": "A 17-year-old Caucasian woman presented with acute right lower abdominal pain. Ultrasonography and CT revealed a 20-cm hyperdense cystic right adnexal mass with solid components up to the umbilicus. Emergency laparotomy showed torsion of the right ovary; a right salpingo-oophorectomy removed a 1600-g tumor. Histopathology disclosed a benign cystic struma ovarii confirmed by thyroglobulin immunostaining, with lymphocytes and lymphoid follicles among thyroid follicles. Three days after surgery, thyroid function tests showed TSH 0.001 mIU/mL (normal 0.27–4.2), free T4 1.32 ng/dL (normal 0.74–1.52), and free T3 3.6 pg/mL (normal 2.3–4.2). Two months later, she remained asymptomatic but had persistent subclinical hyperthyroidism. Thyroid ultrasound demonstrated a normal-sized gland with mildly heterogeneous echogenicity. Thyroid scintigraphy showed focal uptake in the left lobe with suppression elsewhere, and I-131 uptake was reduced to 16% at 4 hours and 27% at 24 hours."
+      }
+    },
+    "cotDiagnosis": {
+      "reasoning": "The chief issue initially was acute right lower abdominal pain, which was explained surgically by torsion of a large right ovarian mass. The key diagnostic question after surgery is the cause of the persistent biochemical thyrotoxicosis/subclinical hyperthyroidism.\n\nSalient positive findings are: (1) pathology-proven benign cystic struma ovarii, confirmed by thyroglobulin immunostaining, meaning ectopic thyroid tissue was present in the ovary; (2) thyroid tests 3 days postoperatively showed markedly suppressed TSH at 0.001 mIU/mL with normal free T4 and free T3, consistent with subclinical hyperthyroidism; (3) this suppression persisted 2 months later despite removal of the ovarian tumor; (4) thyroid ultrasound showed a normal-sized gland with only mildly heterogeneous echogenicity, not a diffuse toxic goiter; and most importantly (5) thyroid scintigraphy showed focal uptake in the left lobe with suppression of the remainder of the gland, which is the classic pattern of an autonomously functioning thyroid nodule. The radioactive iodine uptake was not absent; it was reduced but still present (16% at 4 hours, 27% at 24 hours), supporting endogenous thyroid hormone production rather than exogenous hormone exposure.\n\nPertinent negatives/less supportive findings: she was asymptomatic, and free T4/free T3 were normal, so this is not overt hyperthyroidism. There is no report of diffuse uptake on scintigraphy, ophthalmopathy, or diffuse goiter to support Graves disease. There is no mention of thyroid pain or a near-absent uptake pattern that would suggest thyroiditis. Persistent TSH suppression after resection argues against the ovarian struma ovarii being the sole source of thyroid hormone excess; if the ectopic thyroid tissue alone had caused the biochemical abnormality, removal should have normalized the axis over time.\n\nDifferential diagnosis:\n1. Functioning struma ovarii causing hyperthyroidism initially fits because the patient had a large struma ovarii, and ectopic thyroid tissue can produce thyroid hormone. However, this becomes less likely as the final explanation because the suppressed TSH persisted 2 months after salpingo-oophorectomy, indicating an ongoing thyroidal source.\n2. Autonomous functioning thyroid nodule (toxic adenoma) fits very well because scintigraphy demonstrated focal uptake in the left lobe with suppression elsewhere, the hallmark of a hyperfunctioning nodule. The persistent subclinical hyperthyroidism after ovarian tumor removal strongly supports this.\n3. Graves disease is less likely because the scan was focal rather than diffuse, and ultrasound did not describe diffuse enlargement or hypervascularity.\n4. Thyroiditis is low likelihood because uptake was focal rather than globally low/absent, and the abnormality persisted without mention of a transient inflammatory course.\n\nNarrowing to the single best diagnosis: although the case prominently features struma ovarii, the postoperative endocrine data show that the patient’s persistent subclinical hyperthyroidism is best explained by an autonomously functioning thyroid nodule in the left thyroid lobe. The ovarian lesion may have coexisted and potentially contributed before surgery, but it does not explain the continued TSH suppression after removal. Therefore the most likely diagnosis is subclinical hyperthyroidism due to a toxic adenoma (autonomously functioning thyroid nodule).",
+      "differentialDiagnoses": [
+        {
+          "condition": "Autonomously functioning thyroid nodule (toxic adenoma)",
+          "likelihood": "high",
+          "supportingEvidence": "Persistent TSH suppression 2 months after oophorectomy plus thyroid scintigraphy showing focal uptake in the left lobe with suppression of the rest of the gland, classic for a hyperfunctioning nodule."
+        },
+        {
+          "condition": "Functioning struma ovarii",
+          "likelihood": "medium",
+          "supportingEvidence": "Histopathology confirmed benign cystic struma ovarii, and ectopic thyroid tissue can cause thyrotoxicosis; however, persistence after tumor removal argues against it as the sole cause."
+        },
+        {
+          "condition": "Graves disease",
+          "likelihood": "low",
+          "supportingEvidence": "Suppressed TSH is compatible, but scintigraphy was focal rather than diffuse, and there was no reported diffuse goiter or ophthalmopathy."
+        },
+        {
+          "condition": "Thyroiditis",
+          "likelihood": "low",
+          "supportingEvidence": "Would more typically show low/absent uptake diffusely rather than focal uptake in one lobe with suppression elsewhere."
+        }
+      ],
+      "finalDiagnosis": "Autonomously functioning thyroid nodule causing subclinical hyperthyroidism"
+    }
+  }
+}

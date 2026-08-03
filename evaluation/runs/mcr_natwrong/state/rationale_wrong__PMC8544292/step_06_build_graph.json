@@ -1,0 +1,1163 @@
+{
+  "name": "build_graph",
+  "passed": false,
+  "score": 0.9286,
+  "reasoning": "Graph built with 63 node(s) and 54 edge(s). 9 disconnected node(s): n10, n11, n12, n3, n37, n45, n52, n8, n9. The graph centers on two competing explanatory threads: ocular myasthenia gravis, supported by fluctuating ptosis, cold responsiveness, and a positive ice pack test; and a third nerve palsy/compressive aneurysmal process, supported by pupil dilation and pain. The final diagnosis node is linked to the MG thread, while the pupil/pain findings remain as tension points that are not fully reconciled.",
+  "data": {
+    "nodes": [
+      {
+        "id": "n1",
+        "text": "The chief complaint is progressive left eyelid drooping over 4–5 months.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Reference says progressive left-eyelid drooping over the previous 4–5 months.",
+        "cluster_idx": 0,
+        "cluster_label": "history_taking"
+      },
+      {
+        "id": "n2",
+        "text": "The chief complaint includes intermittent diplopia over 4–5 months.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Reference explicitly notes intermittent diplopia over 4–5 months.",
+        "cluster_idx": 0,
+        "cluster_label": "history_taking"
+      },
+      {
+        "id": "n3",
+        "text": "The chief complaint is accompanied by excessive tearing.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Presentation includes excessive tearing of the left eye.",
+        "cluster_idx": 0,
+        "cluster_label": "history_taking"
+      },
+      {
+        "id": "n4",
+        "text": "The chief complaint is accompanied by mild ocular pain.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Presentation includes mild ocular pain.",
+        "cluster_idx": 0,
+        "cluster_label": "history_taking"
+      },
+      {
+        "id": "n5",
+        "text": "The patient observed fluctuation of the ptosis during the day.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Patient reported ptosis fluctuated during the day.",
+        "cluster_idx": 0,
+        "cluster_label": "history_taking"
+      },
+      {
+        "id": "n6",
+        "text": "The patient observed marked improvement with cold water.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Patient reported marked improvement when washing his face with cold water.",
+        "cluster_idx": 0,
+        "cluster_label": "history_taking"
+      },
+      {
+        "id": "n7",
+        "text": "Fatigable ptosis and cold-induced improvement are classic clues for myasthenia gravis.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Fatigable ptosis and cold/ice responsiveness are classic bedside clues for ocular myasthenia gravis.",
+        "cluster_idx": 1,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n8",
+        "text": "Salient positive findings include unilateral ptosis.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Exam showed the left eyelid was ptotic, i.e., unilateral ptosis.",
+        "cluster_idx": 1,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n9",
+        "text": "Salient positive findings include intermittent diplopia.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Intermittent diplopia is directly stated in the case.",
+        "cluster_idx": 1,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n10",
+        "text": "Salient positive findings include ophthalmoplegia affecting adduction of the left eye.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Exam documented limitation of adduction of the left eye.",
+        "cluster_idx": 1,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n11",
+        "text": "Salient positive findings include ophthalmoplegia affecting elevation of the left eye.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Exam documented limitation of elevation of the left eye.",
+        "cluster_idx": 1,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n12",
+        "text": "Salient positive findings include ophthalmoplegia affecting depression of the left eye.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Exam documented limitation of depression of the left eye.",
+        "cluster_idx": 1,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n13",
+        "text": "The ptosis fluctuates during the day.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Ptosis fluctuated during the day per patient report.",
+        "cluster_idx": 1,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n14",
+        "text": "The ptosis fluctuates during the day, suggesting fatigability.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Diurnal fluctuation is a standard clinical indicator of fatigability in myasthenia gravis.",
+        "cluster_idx": 1,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n15",
+        "text": "The ice pack test produced significant temporary improvement.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Ice pack test led to significant temporary improvement.",
+        "cluster_idx": 2,
+        "cluster_label": "examination"
+      },
+      {
+        "id": "n16",
+        "text": "The ice pack test produced near-complete eyelid opening after 2 minutes.",
+        "category": "statistical",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Reference states near-complete eyelid opening after 2 minutes.",
+        "cluster_idx": 2,
+        "cluster_label": "examination"
+      },
+      {
+        "id": "n17",
+        "text": "The ice pack test strongly supports myasthenia gravis.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "A strongly positive ice pack test is a classic supportive test for myasthenia gravis.",
+        "cluster_idx": 2,
+        "cluster_label": "examination"
+      },
+      {
+        "id": "n18",
+        "text": "Visual acuity was normal.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Visual acuity was normal.",
+        "cluster_idx": 2,
+        "cluster_label": "examination"
+      },
+      {
+        "id": "n19",
+        "text": "Intraocular pressure was normal.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Intraocular pressure was normal.",
+        "cluster_idx": 2,
+        "cluster_label": "examination"
+      },
+      {
+        "id": "n20",
+        "text": "Funduscopy was normal.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Funduscopy was normal.",
+        "cluster_idx": 2,
+        "cluster_label": "examination"
+      },
+      {
+        "id": "n21",
+        "text": "Fluorescein angiography was normal.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Fluorescein angiography was unremarkable/normal.",
+        "cluster_idx": 2,
+        "cluster_label": "examination"
+      },
+      {
+        "id": "n22",
+        "text": "Indocyanine green chorioangiography was normal.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Indocyanine green chorioangiography was unremarkable/normal.",
+        "cluster_idx": 2,
+        "cluster_label": "examination"
+      },
+      {
+        "id": "n23",
+        "text": "OCT was normal.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Optical coherence tomography was unremarkable/normal.",
+        "cluster_idx": 2,
+        "cluster_label": "examination"
+      },
+      {
+        "id": "n24",
+        "text": "The normal ocular testing argues against primary retinal or intraocular pathology.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Normal ocular structural testing argues against primary retinal or intraocular pathology.",
+        "cluster_idx": 2,
+        "cluster_label": "examination"
+      },
+      {
+        "id": "n25",
+        "text": "No other neurological deficits were found.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Reference explicitly says no other neurological deficits were found.",
+        "cluster_idx": 2,
+        "cluster_label": "examination"
+      },
+      {
+        "id": "n26",
+        "text": "The absence of other neurological deficits is compatible with ocular myasthenia gravis.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Isolated ocular findings without other neurologic deficits are compatible with ocular myasthenia gravis.",
+        "cluster_idx": 2,
+        "cluster_label": "examination"
+      },
+      {
+        "id": "n27",
+        "text": "The left pupil was dilated.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Exam documented a dilated left pupil.",
+        "cluster_idx": 2,
+        "cluster_label": "examination"
+      },
+      {
+        "id": "n28",
+        "text": "Myasthenia gravis does not affect the pupil.",
+        "category": "factual",
+        "verified": true,
+        "score": 0.6,
+        "reasoning": "This is standard medical knowledge, but the reference data does not directly state the general rule about MG and pupils.",
+        "cluster_idx": 2,
+        "cluster_label": "examination"
+      },
+      {
+        "id": "n29",
+        "text": "Limitation of adduction with ptosis and mydriasis is a classic pattern for left oculomotor nerve palsy.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Ptosis plus adduction deficit and mydriasis is a classic third-nerve palsy pattern.",
+        "cluster_idx": 3,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n30",
+        "text": "Limitation of elevation with ptosis and mydriasis is a classic pattern for left oculomotor nerve palsy.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Ptosis plus elevation deficit and mydriasis fits an oculomotor nerve palsy pattern.",
+        "cluster_idx": 3,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n31",
+        "text": "Limitation of depression with ptosis and mydriasis is a classic pattern for left oculomotor nerve palsy.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Ptosis plus depression deficit and mydriasis also fits a third nerve palsy pattern.",
+        "cluster_idx": 3,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n32",
+        "text": "Mild ocular pain fits a compressive or inflammatory third nerve process more than myasthenia gravis.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Mild ocular pain can be more suggestive of compressive/inflammatory third nerve pathology than MG, though this is an inference.",
+        "cluster_idx": 3,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n33",
+        "text": "The fluctuation of ptosis is difficult to explain by a fixed structural third nerve palsy alone.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "A fixed structural third nerve palsy would not typically show fluctuating ptosis.",
+        "cluster_idx": 3,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n34",
+        "text": "The strongly positive ice pack response is difficult to explain by a fixed structural third nerve palsy alone.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "A fixed structural third nerve palsy would not typically produce a strongly positive ice pack response.",
+        "cluster_idx": 3,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n35",
+        "text": "There were no other neurological deficits to suggest a broader brainstem lesion.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "No other neurologic deficits makes a broader brainstem lesion less likely/suggestive, though this is inferential.",
+        "cluster_idx": 3,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n36",
+        "text": "The remote mild head trauma occurred 1.5 years earlier.",
+        "category": "statistical",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Reference states the mild left-sided head trauma was 1.5 years earlier.",
+        "cluster_idx": 3,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n37",
+        "text": "The symptom onset was 4–5 months ago.",
+        "category": "statistical",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Reference states symptoms were present over the previous 4–5 months.",
+        "cluster_idx": 3,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n38",
+        "text": "The remote mild head trauma is temporally weak support for traumatic cranial neuropathy.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Because trauma was mild and remote relative to symptom onset, it is weak support for traumatic cranial neuropathy.",
+        "cluster_idx": 3,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n39",
+        "text": "Ocular myasthenia gravis fits the fluctuating ptosis.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Fluctuating ptosis is a classic feature of ocular myasthenia gravis.",
+        "cluster_idx": 4,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n40",
+        "text": "Ocular myasthenia gravis fits the intermittent diplopia.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Intermittent diplopia is a common manifestation of ocular myasthenia gravis.",
+        "cluster_idx": 4,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n41",
+        "text": "Ocular myasthenia gravis fits the dramatic transient improvement with cold water.",
+        "category": "causal",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Reference data says ptosis improved markedly when washing his face with cold water.",
+        "cluster_idx": 4,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n42",
+        "text": "Ocular myasthenia gravis fits the ice pack testing.",
+        "category": "causal",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Ice pack for 2 minutes caused significant improvement with near-complete eyelid opening.",
+        "cluster_idx": 4,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n43",
+        "text": "These are the strongest diagnostic clues in the case.",
+        "category": "factual",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "The trace explicitly treats cold-water response and ice-pack response as the key diagnostic clues; this is a reasonable summary.",
+        "cluster_idx": 4,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n44",
+        "text": "Left oculomotor nerve palsy fits the pattern of extraocular movement limitation and ptosis.",
+        "category": "causal",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Exam showed ptosis plus limitation of adduction, elevation, and depression of the left eye, matching a third nerve pattern.",
+        "cluster_idx": 4,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n45",
+        "text": "Left oculomotor nerve palsy fits the dilated pupil.",
+        "category": "causal",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Reference data explicitly notes a dilated left pupil.",
+        "cluster_idx": 4,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n46",
+        "text": "Pain also supports a third nerve lesion.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Mild ocular pain is present; pain can support a third nerve lesion, though this is an inference rather than a stated fact.",
+        "cluster_idx": 4,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n47",
+        "text": "Isolated third nerve palsy would not usually show clear fatigability.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Fluctuating fatigable ptosis is not typical for a fixed isolated third nerve palsy; this is a standard clinical inference.",
+        "cluster_idx": 4,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n48",
+        "text": "Isolated third nerve palsy would not usually show a positive ice pack test.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "A positive ice pack test is a classic MG finding and not expected in isolated third nerve palsy; this is a sound inference.",
+        "cluster_idx": 4,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n49",
+        "text": "Compressive aneurysmal third nerve palsy is an important subtype.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "The trace explicitly names compressive aneurysmal third nerve palsy as an important subtype.",
+        "cluster_idx": 4,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n50",
+        "text": "Pupil involvement raises concern for compressive aneurysmal third nerve palsy.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Pupil involvement is a classic red flag for compressive aneurysmal third nerve palsy; this follows standard neuro-ophthalmology.",
+        "cluster_idx": 4,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n51",
+        "text": "Pain raises concern for compressive aneurysmal third nerve palsy.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Pain with third nerve dysfunction raises concern for compression/aneurysm; this is a standard inference.",
+        "cluster_idx": 4,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n52",
+        "text": "The case summary emphasizes the bedside findings pointing toward myasthenia gravis rather than an acute painful aneurysmal presentation.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "The trace weighs the bedside fluctuation and ice-pack response toward MG over aneurysmal palsy; this is a legitimate summary.",
+        "cluster_idx": 4,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n53",
+        "text": "Traumatic third nerve palsy is possible given prior left-sided head trauma.",
+        "category": "causal",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Reference data includes a mild left-sided head trauma 1.5 years earlier.",
+        "cluster_idx": 5,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n54",
+        "text": "The trauma was mild.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "The trauma is explicitly described as mild.",
+        "cluster_idx": 5,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n55",
+        "text": "The trauma was remote.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "The trauma occurred 1.5 years earlier, which is remote relative to the current presentation.",
+        "cluster_idx": 5,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n56",
+        "text": "The trauma makes traumatic third nerve palsy less convincing.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Given the mild, remote trauma and symptom onset only 4–5 months ago, traumatic third nerve palsy is less convincing.",
+        "cluster_idx": 5,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n57",
+        "text": "The most specific dynamic feature in the case is the fluctuating ptosis with marked improvement after cold exposure and a positive ice pack test.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Reference data states fluctuating ptosis, marked improvement with cold water, and a positive ice pack test with near-complete opening.",
+        "cluster_idx": 6,
+        "cluster_label": "final_decision"
+      },
+      {
+        "id": "n58",
+        "text": "Those findings strongly indicate myasthenia gravis.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Those findings are classic for myasthenia gravis and strongly support it.",
+        "cluster_idx": 6,
+        "cluster_label": "final_decision"
+      },
+      {
+        "id": "n59",
+        "text": "Those findings strongly indicate ocular myasthenia gravis.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Because the ocular findings localize to the eye muscles and the trace is discussing ocular symptoms, the inference to ocular MG is appropriate.",
+        "cluster_idx": 6,
+        "cluster_label": "final_decision"
+      },
+      {
+        "id": "n60",
+        "text": "The dilated pupil is atypical for myasthenia gravis.",
+        "category": "factual",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "MG does not affect the pupil; a dilated pupil is therefore atypical for MG.",
+        "cluster_idx": 6,
+        "cluster_label": "final_decision"
+      },
+      {
+        "id": "n61",
+        "text": "The dilated pupil suggests a concurrent or alternative third nerve process.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "A dilated pupil with ophthalmoplegia suggests an alternative or concurrent third nerve process.",
+        "cluster_idx": 6,
+        "cluster_label": "final_decision"
+      },
+      {
+        "id": "n62",
+        "text": "Based strictly on the presented bedside diagnostic response and symptom fluctuation, the single most likely diagnosis is ocular myasthenia gravis.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Given the fluctuating ptosis and positive ice-pack response, ocular myasthenia gravis is the most likely diagnosis in the trace.",
+        "cluster_idx": 6,
+        "cluster_label": "final_decision"
+      },
+      {
+        "id": "n63",
+        "text": "The final diagnosis is ocular myasthenia gravis.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "The trace explicitly states the final diagnosis is ocular myasthenia gravis.",
+        "cluster_idx": 6,
+        "cluster_label": "final_decision"
+      }
+    ],
+    "edges": [
+      {
+        "source": "n5",
+        "target": "n7",
+        "kind": "supports",
+        "explanation": "Fluctuating ptosis during the day is a classic fatigability clue for myasthenia gravis."
+      },
+      {
+        "source": "n6",
+        "target": "n7",
+        "kind": "supports",
+        "explanation": "Marked improvement with cold exposure is a classic bedside clue for myasthenia gravis."
+      },
+      {
+        "source": "n15",
+        "target": "n17",
+        "kind": "supports",
+        "explanation": "A strongly positive ice pack test is direct bedside evidence supporting myasthenia gravis."
+      },
+      {
+        "source": "n16",
+        "target": "n17",
+        "kind": "supports",
+        "explanation": "Near-complete eyelid opening after ice application is a classic positive ice pack response supporting myasthenia gravis."
+      },
+      {
+        "source": "n18",
+        "target": "n24",
+        "kind": "supports",
+        "explanation": "Normal visual acuity helps argue against primary intraocular disease."
+      },
+      {
+        "source": "n19",
+        "target": "n24",
+        "kind": "supports",
+        "explanation": "Normal intraocular pressure argues against an intraocular cause."
+      },
+      {
+        "source": "n20",
+        "target": "n24",
+        "kind": "supports",
+        "explanation": "Normal funduscopy argues against retinal pathology."
+      },
+      {
+        "source": "n21",
+        "target": "n24",
+        "kind": "supports",
+        "explanation": "Normal fluorescein angiography argues against retinal vascular pathology."
+      },
+      {
+        "source": "n22",
+        "target": "n24",
+        "kind": "supports",
+        "explanation": "Normal indocyanine green chorioangiography argues against choroidal pathology."
+      },
+      {
+        "source": "n23",
+        "target": "n24",
+        "kind": "supports",
+        "explanation": "Normal OCT argues against structural retinal or macular disease."
+      },
+      {
+        "source": "n25",
+        "target": "n26",
+        "kind": "supports",
+        "explanation": "Absence of other neurologic deficits is compatible with ocular myasthenia gravis."
+      },
+      {
+        "source": "n27",
+        "target": "n29",
+        "kind": "supports",
+        "explanation": "A dilated pupil is part of the classic third nerve palsy pattern described here."
+      },
+      {
+        "source": "n27",
+        "target": "n30",
+        "kind": "supports",
+        "explanation": "A dilated pupil supports concern for oculomotor nerve palsy in the elevation-limitation pattern."
+      },
+      {
+        "source": "n27",
+        "target": "n31",
+        "kind": "supports",
+        "explanation": "A dilated pupil supports concern for oculomotor nerve palsy in the depression-limitation pattern."
+      },
+      {
+        "source": "n28",
+        "target": "n60",
+        "kind": "supports",
+        "explanation": "If myasthenia gravis does not affect the pupil, a dilated pupil is atypical for MG."
+      },
+      {
+        "source": "n29",
+        "target": "n44",
+        "kind": "supports",
+        "explanation": "The classic third nerve palsy pattern with adduction limitation and ptosis supports left oculomotor nerve palsy."
+      },
+      {
+        "source": "n30",
+        "target": "n44",
+        "kind": "supports",
+        "explanation": "The classic third nerve palsy pattern with elevation limitation and ptosis supports left oculomotor nerve palsy."
+      },
+      {
+        "source": "n31",
+        "target": "n44",
+        "kind": "supports",
+        "explanation": "The classic third nerve palsy pattern with depression limitation and ptosis supports left oculomotor nerve palsy."
+      },
+      {
+        "source": "n4",
+        "target": "n46",
+        "kind": "supports",
+        "explanation": "Mild ocular pain supports a third nerve lesion."
+      },
+      {
+        "source": "n27",
+        "target": "n50",
+        "kind": "supports",
+        "explanation": "Pupil involvement raises concern for compressive aneurysmal third nerve palsy."
+      },
+      {
+        "source": "n4",
+        "target": "n51",
+        "kind": "supports",
+        "explanation": "Pain raises concern for compressive aneurysmal third nerve palsy."
+      },
+      {
+        "source": "n13",
+        "target": "n14",
+        "kind": "supports",
+        "explanation": "Day-to-day fluctuation of ptosis suggests fatigability."
+      },
+      {
+        "source": "n14",
+        "target": "n39",
+        "kind": "supports",
+        "explanation": "Fatigable ptosis fits ocular myasthenia gravis."
+      },
+      {
+        "source": "n2",
+        "target": "n40",
+        "kind": "supports",
+        "explanation": "Intermittent diplopia is compatible with ocular myasthenia gravis."
+      },
+      {
+        "source": "n6",
+        "target": "n41",
+        "kind": "supports",
+        "explanation": "Marked improvement with cold water is a classic MG clue."
+      },
+      {
+        "source": "n15",
+        "target": "n42",
+        "kind": "supports",
+        "explanation": "A positive ice pack test fits ocular myasthenia gravis."
+      },
+      {
+        "source": "n43",
+        "target": "n57",
+        "kind": "supports",
+        "explanation": "The case's strongest clues are the fluctuating ptosis, cold response, and positive ice pack test."
+      },
+      {
+        "source": "n57",
+        "target": "n58",
+        "kind": "supports",
+        "explanation": "Those dynamic bedside findings strongly indicate myasthenia gravis."
+      },
+      {
+        "source": "n58",
+        "target": "n59",
+        "kind": "supports",
+        "explanation": "In this ocular presentation, the MG indication specifically points to ocular myasthenia gravis."
+      },
+      {
+        "source": "n60",
+        "target": "n61",
+        "kind": "supports",
+        "explanation": "Because pupil dilation is atypical for MG, it suggests an alternative or concurrent third nerve process."
+      },
+      {
+        "source": "n1",
+        "target": "n62",
+        "kind": "supports",
+        "explanation": "Progressive unilateral ptosis is part of the overall bedside picture used to reach the diagnosis."
+      },
+      {
+        "source": "n5",
+        "target": "n62",
+        "kind": "supports",
+        "explanation": "Fluctuating ptosis is a key bedside feature supporting ocular myasthenia gravis."
+      },
+      {
+        "source": "n6",
+        "target": "n62",
+        "kind": "supports",
+        "explanation": "Improvement with cold exposure supports ocular myasthenia gravis."
+      },
+      {
+        "source": "n15",
+        "target": "n62",
+        "kind": "supports",
+        "explanation": "The positive ice pack test supports the final diagnostic conclusion."
+      },
+      {
+        "source": "n39",
+        "target": "n62",
+        "kind": "supports",
+        "explanation": "Ocular myasthenia gravis fitting the fluctuating ptosis supports the final diagnosis."
+      },
+      {
+        "source": "n40",
+        "target": "n62",
+        "kind": "supports",
+        "explanation": "Ocular myasthenia gravis fitting the intermittent diplopia supports the final diagnosis."
+      },
+      {
+        "source": "n41",
+        "target": "n62",
+        "kind": "supports",
+        "explanation": "Ocular myasthenia gravis fitting the cold-response supports the final diagnosis."
+      },
+      {
+        "source": "n42",
+        "target": "n62",
+        "kind": "supports",
+        "explanation": "Ocular myasthenia gravis fitting the ice pack response supports the final diagnosis."
+      },
+      {
+        "source": "n62",
+        "target": "n63",
+        "kind": "supports",
+        "explanation": "The stated most likely diagnosis directly supports the final diagnosis."
+      },
+      {
+        "source": "n27",
+        "target": "n61",
+        "kind": "supports",
+        "explanation": "A dilated pupil suggests a concurrent or alternative third nerve process."
+      },
+      {
+        "source": "n4",
+        "target": "n32",
+        "kind": "supports",
+        "explanation": "Mild ocular pain is the feature that makes a compressive or inflammatory third nerve process more plausible than MG."
+      },
+      {
+        "source": "n13",
+        "target": "n33",
+        "kind": "supports",
+        "explanation": "Fluctuating ptosis is difficult to explain by a fixed structural third nerve palsy."
+      },
+      {
+        "source": "n15",
+        "target": "n34",
+        "kind": "supports",
+        "explanation": "A strongly positive ice pack response is difficult to explain by a fixed structural third nerve palsy."
+      },
+      {
+        "source": "n25",
+        "target": "n35",
+        "kind": "supports",
+        "explanation": "No other neurologic deficits makes a broader brainstem lesion less likely."
+      },
+      {
+        "source": "n36",
+        "target": "n38",
+        "kind": "supports",
+        "explanation": "A remote mild head trauma provides only weak temporal support for traumatic cranial neuropathy."
+      },
+      {
+        "source": "n54",
+        "target": "n56",
+        "kind": "supports",
+        "explanation": "Mild trauma makes traumatic third nerve palsy less convincing."
+      },
+      {
+        "source": "n55",
+        "target": "n56",
+        "kind": "supports",
+        "explanation": "Remote trauma makes traumatic third nerve palsy less convincing."
+      },
+      {
+        "source": "n53",
+        "target": "n56",
+        "kind": "supports",
+        "explanation": "Although possible, the traumatic third nerve palsy explanation is weakened by the trauma characteristics."
+      },
+      {
+        "source": "n47",
+        "target": "n44",
+        "kind": "supports",
+        "explanation": "The lack of fatigability argues against isolated third nerve palsy and therefore supports MG over it."
+      },
+      {
+        "source": "n48",
+        "target": "n44",
+        "kind": "supports",
+        "explanation": "A positive ice pack test is not typical for isolated third nerve palsy, making that diagnosis less fitting."
+      },
+      {
+        "source": "n49",
+        "target": "n50",
+        "kind": "depends_on",
+        "explanation": "The concern for compressive aneurysmal third nerve palsy depends on recognizing this subtype as clinically important."
+      },
+      {
+        "source": "n49",
+        "target": "n51",
+        "kind": "depends_on",
+        "explanation": "The concern for compressive aneurysmal third nerve palsy depends on recognizing this subtype as clinically important."
+      },
+      {
+        "source": "n7",
+        "target": "n39",
+        "kind": "supports",
+        "explanation": "Classic MG clues support the interpretation that fluctuating ptosis fits ocular myasthenia gravis."
+      },
+      {
+        "source": "n7",
+        "target": "n41",
+        "kind": "supports",
+        "explanation": "Classic MG clues support the interpretation that cold-induced improvement fits ocular myasthenia gravis."
+      }
+    ],
+    "disconnected": [
+      "n10",
+      "n11",
+      "n12",
+      "n3",
+      "n37",
+      "n45",
+      "n52",
+      "n8",
+      "n9"
+    ],
+    "clusters": [
+      {
+        "cluster_id": "c1",
+        "label": "history_taking",
+        "statement_indices": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "summary": "Initial symptom history of progressive fluctuating ptosis, diplopia, tearing, pain, and cold responsiveness.",
+        "salience": 0.78
+      },
+      {
+        "cluster_id": "c2",
+        "label": "differential_generation",
+        "statement_indices": [
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14
+        ],
+        "summary": "Early interpretation of findings as classic myasthenia gravis features with ocular motility deficits and fatigable ptosis.",
+        "salience": 0.82
+      },
+      {
+        "cluster_id": "c3",
+        "label": "examination",
+        "statement_indices": [
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28
+        ],
+        "summary": "Bedside and ocular exam findings, including positive ice pack test, normal ocular studies, no other neurologic deficits, and pupil dilation.",
+        "salience": 0.9
+      },
+      {
+        "cluster_id": "c4",
+        "label": "differential_generation",
+        "statement_indices": [
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38
+        ],
+        "summary": "Reasoning that weighs third nerve palsy, pain, trauma, and lack of broader neurologic signs against the fluctuating course.",
+        "salience": 0.86
+      },
+      {
+        "cluster_id": "c5",
+        "label": "differential_generation",
+        "statement_indices": [
+          39,
+          40,
+          41,
+          42,
+          43,
+          44,
+          45,
+          46,
+          47,
+          48,
+          49,
+          50,
+          51,
+          52
+        ],
+        "summary": "Comparison of ocular myasthenia gravis versus compressive aneurysmal third nerve palsy, emphasizing dynamic fatigable features as most specific.",
+        "salience": 0.95
+      },
+      {
+        "cluster_id": "c6",
+        "label": "differential_generation",
+        "statement_indices": [
+          53,
+          54,
+          55,
+          56
+        ],
+        "summary": "Assessment of remote mild trauma as a weak explanation for traumatic third nerve palsy.",
+        "salience": 0.42
+      },
+      {
+        "cluster_id": "c7",
+        "label": "final_decision",
+        "statement_indices": [
+          57,
+          58,
+          59,
+          60,
+          61,
+          62,
+          63
+        ],
+        "summary": "Concludes that fluctuating ptosis with cold/ice response most strongly supports ocular myasthenia gravis despite atypical pupil dilation.",
+        "salience": 1.0
+      }
+    ],
+    "node_ranks": {
+      "n1": 0.25,
+      "n2": 0.175,
+      "n3": 0.25,
+      "n4": 0.325,
+      "n5": 0.1,
+      "n6": 0.1,
+      "n7": 0.275,
+      "n8": 0.35,
+      "n9": 0.35,
+      "n10": 0.35,
+      "n11": 0.35,
+      "n12": 0.35,
+      "n13": 0.2,
+      "n14": 0.275,
+      "n15": 0.375,
+      "n16": 0.525,
+      "n17": 0.6,
+      "n18": 0.525,
+      "n19": 0.525,
+      "n20": 0.525,
+      "n21": 0.525,
+      "n22": 0.525,
+      "n23": 0.525,
+      "n24": 0.6,
+      "n25": 0.525,
+      "n26": 0.6,
+      "n27": 0.45,
+      "n28": 0.45,
+      "n29": 0.625,
+      "n30": 0.625,
+      "n31": 0.625,
+      "n32": 0.7,
+      "n33": 0.7,
+      "n34": 0.7,
+      "n35": 0.7,
+      "n36": 0.625,
+      "n37": 0.55,
+      "n38": 0.7,
+      "n39": 0.65,
+      "n40": 0.65,
+      "n41": 0.65,
+      "n42": 0.65,
+      "n43": 0.575,
+      "n44": 0.8,
+      "n45": 0.65,
+      "n46": 0.8,
+      "n47": 0.725,
+      "n48": 0.725,
+      "n49": 0.725,
+      "n50": 0.8,
+      "n51": 0.8,
+      "n52": 0.65,
+      "n53": 0.825,
+      "n54": 0.825,
+      "n55": 0.825,
+      "n56": 0.9,
+      "n57": 0.85,
+      "n58": 0.925,
+      "n59": 1.0,
+      "n60": 0.925,
+      "n61": 1.0,
+      "n62": 0.925,
+      "n63": 1.0
+    }
+  }
+}

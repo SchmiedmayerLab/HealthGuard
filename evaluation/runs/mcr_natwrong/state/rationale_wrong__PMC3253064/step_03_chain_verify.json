@@ -1,0 +1,10 @@
+{
+  "name": "chain_verify",
+  "passed": true,
+  "score": 1.0,
+  "reasoning": "All logical chains are internally consistent. The statements form a coherent diagnostic chain: postoperative persistent suppressed TSH with normal T4/T3 supports subclinical hyperthyroidism, and focal thyroid uptake with suppression of the remainder of the gland is classic for an autonomously functioning thyroid nodule. The struma ovarii findings are relevant but do not conflict with the conclusion because persistence after resection argues against it being the sole cause.",
+  "data": {
+    "has_chain_dependencies": true,
+    "issues": []
+  }
+}

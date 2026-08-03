@@ -1,0 +1,40 @@
+{
+  "input": {
+    "resourceType": "clinicalCaseDiagnosis",
+    "id": "PMC11625114",
+    "origin": "testdata/streamlined/clinical-cases-cot/extracted/PMC11625114.json",
+    "groundTruthDiagnosis": "Polycythemia vera",
+    "rawInput": {
+      "complaint": "A 73-year-old man with a history of heart failure with recovered ejection fraction (60%), hypertension, hyperlipidemia, and diabetes mellitus presented with 2 days of severe, exertional, pressure-like chest pain rated 9/10. His physical examination was unremarkable. Vital signs were: heart rate 60 bpm, blood pressure 119/58 mm Hg, respiratory rate 18 breaths/min. An electrocardiogram showed normal sinus rhythm. Initial laboratory tests revealed hemoglobin 16 g/dL, platelet count 380 K/cm3, white-cell count 8.1 K/cm3, creatinine 2 mg/dL, high-sensitivity troponin >5000 ng/L, and B-type natriuretic peptide 2810 pg/mL. He was admitted for management of non–ST–elevation myocardial infarction and started on a heparin drip and antiplatelet therapy. \n\nOn hospital day 2, he developed severe left lower abdominal and thigh pain. CT of the abdomen and pelvis showed marked swelling of the left psoas and iliacus muscles with heterogeneous density, consistent with hemorrhage. Anticoagulation and antiplatelet agents were discontinued, and a CT angiogram revealed active contrast extravasation into the left psoas muscle. Interventional radiology performed angiography, which showed no arterial source of active bleeding. After stabilization, his hemoglobin rose to 18 g/dL.",
+      "metadata": {
+        "presentation": "A 73-year-old man with a history of heart failure with recovered ejection fraction (60%), hypertension, hyperlipidemia, and diabetes mellitus presented with 2 days of severe, exertional, pressure-like chest pain rated 9/10. His physical examination was unremarkable. Vital signs were: heart rate 60 bpm, blood pressure 119/58 mm Hg, respiratory rate 18 breaths/min. An electrocardiogram showed normal sinus rhythm. Initial laboratory tests revealed hemoglobin 16 g/dL, platelet count 380 K/cm3, white-cell count 8.1 K/cm3, creatinine 2 mg/dL, high-sensitivity troponin >5000 ng/L, and B-type natriuretic peptide 2810 pg/mL. He was admitted for management of non–ST–elevation myocardial infarction and started on a heparin drip and antiplatelet therapy. \n\nOn hospital day 2, he developed severe left lower abdominal and thigh pain. CT of the abdomen and pelvis showed marked swelling of the left psoas and iliacus muscles with heterogeneous density, consistent with hemorrhage. Anticoagulation and antiplatelet agents were discontinued, and a CT angiogram revealed active contrast extravasation into the left psoas muscle. Interventional radiology performed angiography, which showed no arterial source of active bleeding. After stabilization, his hemoglobin rose to 18 g/dL."
+      }
+    },
+    "cotDiagnosis": {
+      "reasoning": "The case begins with a 73-year-old man whose chief concern on presentation was 2 days of severe exertional, pressure-like chest pain, rated 9/10. The initial workup strongly supports an acute coronary syndrome: markedly elevated high-sensitivity troponin >5000 ng/L and a clinical presentation consistent with ischemic chest pain, despite a normal-sinus-rhythm ECG without ST elevation. This fits non–ST-elevation myocardial infarction, for which he was appropriately started on heparin and antiplatelet therapy.\n\nThe key diagnostic issue then shifts on hospital day 2, when he developed new severe left lower abdominal and thigh pain. The salient positive findings are: sudden severe pain in the left lower abdomen/thigh while receiving anticoagulation and antiplatelet therapy; CT abdomen/pelvis showing marked swelling of the left psoas and iliacus muscles with heterogeneous density consistent with hemorrhage; CT angiogram showing active contrast extravasation into the left psoas muscle; and angiography showing no arterial source of active bleeding. These findings indicate a retroperitoneal intramuscular bleed centered in the iliopsoas compartment. The absence of an arterial source on angiography makes a venous or small-vessel spontaneous bleed more likely than a major arterial injury. The temporal relationship to heparin/antiplatelet treatment is highly significant.\n\nPertinent negatives and contextual features help narrow this further. There is no mention of trauma, falls, invasive femoral access complication, abdominal mass, fever, leukocytosis, or signs suggesting infection or abscess. The physical exam at presentation was unremarkable, and later imaging specifically described hemorrhage rather than another mass lesion. Platelets were normal-high at 380 K/cm3, arguing against thrombocytopenic bleeding. The hemoglobin was initially 16 g/dL and later rose to 18 g/dL after stabilization, which is unusual for a major hemorrhage but can occur with hemoconcentration and does not negate the imaging-proven bleed. The CTA finding of active extravasation confirms true hemorrhage regardless of hemoglobin trend.\n\nCandidate differentials for the new abdominal/thigh pain include: (1) iliopsoas hematoma/retroperitoneal hemorrhage due to anticoagulation, which fits best because of heparin/antiplatelet exposure and classic imaging findings; (2) femoral-access or catheterization-related retroperitoneal bleed, but no catheterization or femoral access is described, making this less likely; (3) psoas abscess, which can cause psoas enlargement and pain, but the acute onset, heterogeneous hemorrhagic density, active contrast extravasation, and lack of infectious features argue strongly against it; (4) spontaneous muscle infarction or diabetic myonecrosis, which can cause thigh pain in diabetics, but imaging showed hemorrhage with extravasation rather than infarction; and (5) aortic or iliac vascular catastrophe, but angiography found no arterial source and CT localized the process to intramuscular hemorrhage.\n\nPutting the case together, the most likely diagnosis for the complication is a spontaneous iliopsoas hematoma (retroperitoneal hemorrhage) precipitated by anticoagulation/antiplatelet therapy during NSTEMI treatment. This diagnosis best explains the abrupt severe left lower abdominal and thigh pain, CT evidence of psoas/iliacus hemorrhage, CTA extravasation, and the need to stop antithrombotic therapy.",
+      "differentialDiagnoses": [
+        {
+          "condition": "Anticoagulation-associated iliopsoas hematoma (retroperitoneal hemorrhage)",
+          "likelihood": "high",
+          "supportingEvidence": "Developed severe left lower abdominal and thigh pain on hospital day 2 while on heparin and antiplatelet therapy; CT showed swelling of the left psoas and iliacus with heterogeneous density consistent with hemorrhage; CTA showed active extravasation."
+        },
+        {
+          "condition": "Femoral-access related retroperitoneal bleed",
+          "likelihood": "medium",
+          "supportingEvidence": "Retroperitoneal bleeding can occur in ACS care, but the case does not describe catheterization or femoral arterial access, making this less supported than spontaneous anticoagulation-related hemorrhage."
+        },
+        {
+          "condition": "Psoas abscess",
+          "likelihood": "low",
+          "supportingEvidence": "Could cause psoas enlargement and pain, but there is no fever or leukocytosis, and imaging specifically showed hemorrhage with active contrast extravasation rather than abscess."
+        },
+        {
+          "condition": "Diabetic myonecrosis or muscle infarction",
+          "likelihood": "low",
+          "supportingEvidence": "Diabetes and thigh pain are present, but CT demonstrated hemorrhage and active extravasation, which is not typical for diabetic myonecrosis."
+        }
+      ],
+      "finalDiagnosis": "Anticoagulation-associated iliopsoas hematoma"
+    }
+  }
+}

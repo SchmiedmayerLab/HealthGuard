@@ -1,0 +1,2361 @@
+{
+  "name": "build_graph",
+  "passed": false,
+  "score": 0.8556,
+  "reasoning": "Graph built with 142 node(s) and 93 edge(s). 41 disconnected node(s): n10, n11, n12, n13, n14, n15, n16, n17, n18, n19, n20, n21, n22, n23, n24, n25, n26, n27, n28, n32, n33, n34, n35, n36, n37, n38, n39, n4, n40, n41, n49, n50, n51, n52, n53, n54, n6, n63, n64, n7, n9. The graph centers on recurrent systemic sarcoidosis/neurosarcoidosis as the final diagnosis, supported by prior sarcoid history, pulmonary findings, cranial neuropathies, neuropathy, and inflammatory myopathy, while alternative differentials (GBS, vasculitis, myasthenia gravis, isolated inflammatory myopathy, paraneoplastic disease) are each supported by some features but weakened by contradictory findings.",
+  "data": {
+    "nodes": [
+      {
+        "id": "n1",
+        "text": "The chief complaint is a subacute neuromuscular syndrome with prominent cranial neuropathies.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Trace explicitly describes a subacute neuromuscular syndrome with prominent cranial neuropathies.",
+        "cluster_idx": 0,
+        "cluster_label": "history_taking"
+      },
+      {
+        "id": "n2",
+        "text": "The patient has four days of binocular diplopia and left ptosis.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Reference data states four-day history of binocular diplopia and left eyelid ptosis.",
+        "cluster_idx": 0,
+        "cluster_label": "history_taking"
+      },
+      {
+        "id": "n3",
+        "text": "The patient has distal paresthesias.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Presentation includes numbness and tingling in both hands and feet.",
+        "cluster_idx": 0,
+        "cluster_label": "history_taking"
+      },
+      {
+        "id": "n4",
+        "text": "The patient has one month of profound fatigue.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Reference says one month of profound fatigue.",
+        "cluster_idx": 0,
+        "cluster_label": "history_taking"
+      },
+      {
+        "id": "n5",
+        "text": "The patient has progressive proximal weakness severe enough to prevent ambulation.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "He had progressive proximal weakness to the point of being unable to ambulate.",
+        "cluster_idx": 0,
+        "cluster_label": "history_taking"
+      },
+      {
+        "id": "n6",
+        "text": "The patient has a 30-pound weight loss over six months.",
+        "category": "statistical",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Reference data states 30-pound weight loss over six months.",
+        "cluster_idx": 0,
+        "cluster_label": "history_taking"
+      },
+      {
+        "id": "n7",
+        "text": "The patient has a chronic dry cough.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Reference explicitly notes a chronic dry cough.",
+        "cluster_idx": 0,
+        "cluster_label": "history_taking"
+      },
+      {
+        "id": "n8",
+        "text": "The patient has remote biopsy-proven sarcoidosis.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "History is notable for biopsy-proven sarcoidosis treated with steroids in 1970.",
+        "cluster_idx": 0,
+        "cluster_label": "history_taking"
+      },
+      {
+        "id": "n9",
+        "text": "The patient has a multisystem inflammatory disorder affecting muscle, peripheral nerve, and cranial nerves.",
+        "category": "factual",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "This is a synthesis of biopsy-proven myopathy, polyneuropathy, and cranial neuropathies; not verbatim but a reasonable summary.",
+        "cluster_idx": 1,
+        "cluster_label": "examination"
+      },
+      {
+        "id": "n10",
+        "text": "The patient has bilateral ophthalmoplegia.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Exam showed impaired adduction, abduction, and upward gaze bilaterally, consistent with bilateral ophthalmoplegia.",
+        "cluster_idx": 1,
+        "cluster_label": "examination"
+      },
+      {
+        "id": "n11",
+        "text": "The patient has partial right III palsy.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Reference states partial right III nerve palsy.",
+        "cluster_idx": 1,
+        "cluster_label": "examination"
+      },
+      {
+        "id": "n12",
+        "text": "The patient has near-complete left III palsy.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Reference states almost complete left III nerve palsy.",
+        "cluster_idx": 1,
+        "cluster_label": "examination"
+      },
+      {
+        "id": "n13",
+        "text": "The patient has partial right VI palsy.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Reference states partial right VI nerve palsy.",
+        "cluster_idx": 1,
+        "cluster_label": "examination"
+      },
+      {
+        "id": "n14",
+        "text": "The patient has near-complete left VI palsy.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Reference states almost complete left VI nerve palsy.",
+        "cluster_idx": 1,
+        "cluster_label": "examination"
+      },
+      {
+        "id": "n15",
+        "text": "The patient has left ptosis.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Reference explicitly notes significant left eyelid ptosis.",
+        "cluster_idx": 1,
+        "cluster_label": "examination"
+      },
+      {
+        "id": "n16",
+        "text": "The patient has subtle bilateral facial weakness.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Reference states subtle bilateral facial weakness.",
+        "cluster_idx": 1,
+        "cluster_label": "examination"
+      },
+      {
+        "id": "n17",
+        "text": "The patient has decreased left facial sensation.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Reference states decreased left facial sensation to pinprick.",
+        "cluster_idx": 1,
+        "cluster_label": "examination"
+      },
+      {
+        "id": "n18",
+        "text": "The patient has proximal muscle atrophy and weakness.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Reference notes proximal muscle atrophy with weakness.",
+        "cluster_idx": 1,
+        "cluster_label": "examination"
+      },
+      {
+        "id": "n19",
+        "text": "The patient has 4/5 strength in the shoulders and hips.",
+        "category": "statistical",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Reference gives 4/5 strength in shoulders and hips.",
+        "cluster_idx": 1,
+        "cluster_label": "examination"
+      },
+      {
+        "id": "n20",
+        "text": "The patient has 3/5 strength in the lower extremities.",
+        "category": "statistical",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Reference gives 3/5 strength in lower extremities.",
+        "cluster_idx": 1,
+        "cluster_label": "examination"
+      },
+      {
+        "id": "n21",
+        "text": "The patient has preserved distal strength.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Reference states preserved distal strength.",
+        "cluster_idx": 1,
+        "cluster_label": "examination"
+      },
+      {
+        "id": "n22",
+        "text": "The patient has decreased to absent reflexes.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Reference states decreased to absent reflexes bilaterally.",
+        "cluster_idx": 1,
+        "cluster_label": "examination"
+      },
+      {
+        "id": "n23",
+        "text": "The patient has mild distal sensory loss.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Reference notes mildly decreased distal leg sensation.",
+        "cluster_idx": 1,
+        "cluster_label": "examination"
+      },
+      {
+        "id": "n24",
+        "text": "Electrodiagnostics show a diffuse predominantly axonal length-dependent sensorimotor polyneuropathy.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "EMG/NCS showed a diffuse, predominantly axonal, length-dependent sensory-motor polyneuropathy.",
+        "cluster_idx": 2,
+        "cluster_label": "test_ordering"
+      },
+      {
+        "id": "n25",
+        "text": "Electrodiagnostics show myopathic features.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Reference explicitly says EMG revealed myopathic features.",
+        "cluster_idx": 2,
+        "cluster_label": "test_ordering"
+      },
+      {
+        "id": "n26",
+        "text": "The electrodiagnostic findings support combined neuropathic and myopathic involvement rather than a pure neuromuscular junction disorder.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Combined axonal neuropathy plus myopathic features reasonably supports mixed neuropathic/myopathic involvement and argues against a pure NMJ disorder.",
+        "cluster_idx": 2,
+        "cluster_label": "test_ordering"
+      },
+      {
+        "id": "n27",
+        "text": "Muscle biopsy confirms inflammatory myopathy.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Muscle biopsy showed inflammatory myopathy.",
+        "cluster_idx": 2,
+        "cluster_label": "test_ordering"
+      },
+      {
+        "id": "n28",
+        "text": "Muscle biopsy shows fiber atrophy and regeneration.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Muscle biopsy showed fiber atrophy and regeneration.",
+        "cluster_idx": 2,
+        "cluster_label": "test_ordering"
+      },
+      {
+        "id": "n29",
+        "text": "CSF protein is elevated to 105 mg/dL.",
+        "category": "statistical",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "CSF protein was 105 mg/dL.",
+        "cluster_idx": 2,
+        "cluster_label": "test_ordering"
+      },
+      {
+        "id": "n30",
+        "text": "CSF findings show albuminocytologic dissociation.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Reference states albuminocytologic dissociation.",
+        "cluster_idx": 2,
+        "cluster_label": "test_ordering"
+      },
+      {
+        "id": "n31",
+        "text": "Albuminocytologic dissociation can occur in inflammatory neuropathies.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Standard medical knowledge; elevated CSF protein with normal cell count can occur in inflammatory neuropathies.",
+        "cluster_idx": 2,
+        "cluster_label": "test_ordering"
+      },
+      {
+        "id": "n32",
+        "text": "Albuminocytologic dissociation is not specific.",
+        "category": "factual",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Albuminocytologic dissociation is a nonspecific finding; this is a reasonable clinical inference.",
+        "cluster_idx": 2,
+        "cluster_label": "test_ordering"
+      },
+      {
+        "id": "n33",
+        "text": "ESR is elevated at 66 mm/hr.",
+        "category": "statistical",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "ESR was 66 mm/hr.",
+        "cluster_idx": 2,
+        "cluster_label": "test_ordering"
+      },
+      {
+        "id": "n34",
+        "text": "There is new 3+ proteinuria.",
+        "category": "statistical",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Urinalysis revealed 3+ proteinuria and it was new compared with six months earlier.",
+        "cluster_idx": 2,
+        "cluster_label": "test_ordering"
+      },
+      {
+        "id": "n35",
+        "text": "The patient has anemia.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Hemoglobin 10.9 g/dL indicates anemia.",
+        "cluster_idx": 2,
+        "cluster_label": "test_ordering"
+      },
+      {
+        "id": "n36",
+        "text": "The hemoglobin is 10.9 g/dL.",
+        "category": "statistical",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Reference gives hemoglobin as 10.9 g/dL.",
+        "cluster_idx": 2,
+        "cluster_label": "test_ordering"
+      },
+      {
+        "id": "n37",
+        "text": "The patient has chest CT abnormalities.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Chest CT abnormalities are explicitly described.",
+        "cluster_idx": 2,
+        "cluster_label": "test_ordering"
+      },
+      {
+        "id": "n38",
+        "text": "Chest CT shows multiple calcified nodules.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Chest CT showed multiple calcified nodules.",
+        "cluster_idx": 2,
+        "cluster_label": "test_ordering"
+      },
+      {
+        "id": "n39",
+        "text": "Chest CT shows a new right lower lobe infiltrate.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Chest CT showed a new right lower lobe infiltrate.",
+        "cluster_idx": 2,
+        "cluster_label": "test_ordering"
+      },
+      {
+        "id": "n40",
+        "text": "Sural nerve biopsy did not show acute changes.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Sural nerve biopsy revealed no acute abnormality.",
+        "cluster_idx": 2,
+        "cluster_label": "test_ordering"
+      },
+      {
+        "id": "n41",
+        "text": "Sural nerve biopsy showed possible old vasculitis.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Reference data states sural nerve biopsy showed no acute abnormality but evidence of possible old vasculitis.",
+        "cluster_idx": 2,
+        "cluster_label": "test_ordering"
+      },
+      {
+        "id": "n42",
+        "text": "The patient has a history of sarcoidosis.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "History is biopsy-proven sarcoidosis treated with steroids in 1970.",
+        "cluster_idx": 2,
+        "cluster_label": "test_ordering"
+      },
+      {
+        "id": "n43",
+        "text": "The history of sarcoidosis raises the possibility of recurrence with neurologic and muscular involvement.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Given prior sarcoidosis plus current neurologic/muscular syndrome, recurrence is a reasonable clinical inference, though not directly stated.",
+        "cluster_idx": 2,
+        "cluster_label": "test_ordering"
+      },
+      {
+        "id": "n44",
+        "text": "Brain MRI/MRA including orbits with gadolinium was unremarkable.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Brain MRI/MRA including orbits with gadolinium was unremarkable.",
+        "cluster_idx": 2,
+        "cluster_label": "test_ordering"
+      },
+      {
+        "id": "n45",
+        "text": "The unremarkable brain MRI/MRA argues against a compressive lesion causing the multiple cranial neuropathies.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "A normal MRI/MRA makes a compressive lesion less likely as a cause of multiple cranial neuropathies, though not absolutely excluded.",
+        "cluster_idx": 2,
+        "cluster_label": "test_ordering"
+      },
+      {
+        "id": "n46",
+        "text": "The unremarkable brain MRI/MRA argues against an ischemic brainstem lesion causing the multiple cranial neuropathies.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Unremarkable MRI/MRA argues against an ischemic brainstem lesion, but this is an inference rather than a direct finding.",
+        "cluster_idx": 2,
+        "cluster_label": "test_ordering"
+      },
+      {
+        "id": "n47",
+        "text": "The unremarkable brain MRI/MRA argues against a cavernous sinus lesion causing the multiple cranial neuropathies.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Normal MRI/MRA argues against cavernous sinus pathology causing the cranial neuropathies, as an inference from imaging.",
+        "cluster_idx": 2,
+        "cluster_label": "test_ordering"
+      },
+      {
+        "id": "n48",
+        "text": "The unremarkable brain MRI/MRA argues against an orbital apex lesion causing the multiple cranial neuropathies.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Normal MRI/MRA including orbits makes orbital apex lesion less likely; this is a reasonable inference.",
+        "cluster_idx": 2,
+        "cluster_label": "test_ordering"
+      },
+      {
+        "id": "n49",
+        "text": "Head CT was normal.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Head CT was reported normal.",
+        "cluster_idx": 2,
+        "cluster_label": "test_ordering"
+      },
+      {
+        "id": "n50",
+        "text": "Normal muscle enzymes make some inflammatory myopathies less obvious.",
+        "category": "causal",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Muscle enzymes were normal, which can make inflammatory myopathies less obvious.",
+        "cluster_idx": 2,
+        "cluster_label": "test_ordering"
+      },
+      {
+        "id": "n51",
+        "text": "Muscle biopsy proves myositis despite normal enzymes.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Muscle biopsy showed inflammatory myopathy with fiber atrophy/regeneration, so it supports myositis despite normal enzymes.",
+        "cluster_idx": 2,
+        "cluster_label": "test_ordering"
+      },
+      {
+        "id": "n52",
+        "text": "HIV testing was unrevealing.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "HIV serology was normal/unrevealing.",
+        "cluster_idx": 2,
+        "cluster_label": "test_ordering"
+      },
+      {
+        "id": "n53",
+        "text": "B12 testing was unrevealing.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Vitamin B12 was normal/unrevealing.",
+        "cluster_idx": 2,
+        "cluster_label": "test_ordering"
+      },
+      {
+        "id": "n54",
+        "text": "Folate testing was unrevealing.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Folate was normal/unrevealing.",
+        "cluster_idx": 2,
+        "cluster_label": "test_ordering"
+      },
+      {
+        "id": "n55",
+        "text": "Infectious serologies were unrevealing.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Infectious serologies were unrevealing per the reference data.",
+        "cluster_idx": 2,
+        "cluster_label": "test_ordering"
+      },
+      {
+        "id": "n56",
+        "text": "The unrevealing infectious studies make infectious neuropathy or myopathy less likely.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Negative infectious studies reasonably make infectious neuropathy/myopathy less likely.",
+        "cluster_idx": 2,
+        "cluster_label": "test_ordering"
+      },
+      {
+        "id": "n57",
+        "text": "Calcium was normal.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Calcium was normal.",
+        "cluster_idx": 2,
+        "cluster_label": "test_ordering"
+      },
+      {
+        "id": "n58",
+        "text": "Renal function was normal.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Renal function was normal.",
+        "cluster_idx": 2,
+        "cluster_label": "test_ordering"
+      },
+      {
+        "id": "n59",
+        "text": "The normal calcium and renal function do not support metabolic causes.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Normal calcium and renal function do not support metabolic causes; this is a standard inference.",
+        "cluster_idx": 2,
+        "cluster_label": "test_ordering"
+      },
+      {
+        "id": "n60",
+        "text": "Fine-needle aspiration of the lung infiltrate showed inflammatory cells and plasma cells.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Lung FNA showed inflammatory cells and plasma cells.",
+        "cluster_idx": 2,
+        "cluster_label": "test_ordering"
+      },
+      {
+        "id": "n61",
+        "text": "Fine-needle aspiration of the lung infiltrate showed no granulomas.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Lung FNA showed no granulomas.",
+        "cluster_idx": 2,
+        "cluster_label": "test_ordering"
+      },
+      {
+        "id": "n62",
+        "text": "There was no tissue confirmation of active pulmonary sarcoid from the lung FNA site.",
+        "category": "factual",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "No granulomas on lung FNA means there was no tissue confirmation of active pulmonary sarcoid from that site.",
+        "cluster_idx": 2,
+        "cluster_label": "test_ordering"
+      },
+      {
+        "id": "n63",
+        "text": "Joints were unremarkable.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Joints were described as unremarkable.",
+        "cluster_idx": 2,
+        "cluster_label": "test_ordering"
+      },
+      {
+        "id": "n64",
+        "text": "The unremarkable joints make a classic systemic rheumatologic vasculitis less clinically obvious.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Unremarkable joints make classic systemic rheumatologic vasculitis less clinically obvious, though not excluded.",
+        "cluster_idx": 2,
+        "cluster_label": "test_ordering"
+      },
+      {
+        "id": "n65",
+        "text": "The first major differential is neurosarcoidosis with sarcoid myopathy and peripheral neuropathy.",
+        "category": "recommendation",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "This is the trace's leading diagnostic synthesis, not a factual claim.",
+        "cluster_idx": 3,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n66",
+        "text": "This diagnosis fits the remote biopsy-proven sarcoidosis.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Remote biopsy-proven sarcoidosis supports neurosarcoidosis as a fit; this is a diagnostic inference.",
+        "cluster_idx": 3,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n67",
+        "text": "This diagnosis fits the chronic cough.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Chronic cough is compatible with sarcoid involvement, but this is inferential rather than directly stated.",
+        "cluster_idx": 3,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n68",
+        "text": "This diagnosis fits the pulmonary nodules and infiltrate.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Pulmonary nodules/infiltrate are compatible with sarcoidosis; this is a reasonable inference.",
+        "cluster_idx": 3,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n69",
+        "text": "This diagnosis fits the weight loss.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Weight loss is a systemic feature that fits sarcoidosis, but this is inferential.",
+        "cluster_idx": 3,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n70",
+        "text": "This diagnosis fits the multiple cranial neuropathies.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Multiple cranial neuropathies are a classic neurosarcoid manifestation.",
+        "cluster_idx": 3,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n71",
+        "text": "This diagnosis fits the inflammatory myopathy on biopsy.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Inflammatory myopathy on biopsy fits sarcoid myopathy.",
+        "cluster_idx": 3,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n72",
+        "text": "This diagnosis fits the peripheral neuropathy.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Peripheral neuropathy is part of the proposed neurosarcoid syndrome.",
+        "cluster_idx": 3,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n73",
+        "text": "Sarcoidosis is well known to cause cranial neuropathies.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Sarcoidosis is known to cause cranial neuropathies; standard medical knowledge.",
+        "cluster_idx": 3,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n74",
+        "text": "Sarcoidosis can involve muscle.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Sarcoidosis can involve muscle; standard medical knowledge.",
+        "cluster_idx": 3,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n75",
+        "text": "Sarcoidosis can involve peripheral nerves.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Sarcoidosis can involve peripheral nerves; standard medical knowledge.",
+        "cluster_idx": 3,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n76",
+        "text": "The normal MRI does not exclude neurosarcoidosis.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "The trace explicitly notes the normal MRI does not exclude neurosarcoidosis.",
+        "cluster_idx": 3,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n77",
+        "text": "The elevated ESR is compatible with systemic inflammation.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "ESR 66 mm/hr is elevated and compatible with systemic inflammation.",
+        "cluster_idx": 3,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n78",
+        "text": "The proteinuria is compatible with systemic inflammation.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Proteinuria can accompany systemic inflammatory disease; this is an inference, not a direct finding.",
+        "cluster_idx": 3,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n79",
+        "text": "The lack of granulomas on lung FNA is against this diagnosis.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Absence of granulomas on lung FNA weighs against active sarcoid at that site, but does not exclude the diagnosis overall.",
+        "cluster_idx": 3,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n80",
+        "text": "The sural nerve biopsy showing only possible old vasculitis is against granulomatous inflammation.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Possible old vasculitis on sural biopsy is not granulomatous inflammation, so it argues against granulomatous pathology at that site.",
+        "cluster_idx": 3,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n81",
+        "text": "Sampling error is common.",
+        "category": "factual",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "The lung FNA was negative for granulomas despite inflammatory cells/plasma cells; saying sampling error is common is a standard inference, not directly stated.",
+        "cluster_idx": 3,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n82",
+        "text": "Sarcoid can still be the unifying diagnosis.",
+        "category": "factual",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Given prior biopsy-proven sarcoidosis plus compatible neurologic, pulmonary, and systemic findings, sarcoid remains a plausible unifying diagnosis.",
+        "cluster_idx": 3,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n83",
+        "text": "A second differential is Guillain-Barré syndrome or a GBS variant such as Miller-Fisher overlap.",
+        "category": "recommendation",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "The trace explicitly lists GBS or Miller-Fisher overlap as a second differential.",
+        "cluster_idx": 3,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n84",
+        "text": "Supporting features for GBS or a GBS variant include subacute weakness.",
+        "category": "causal",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "The case had subacute weakness over about one month.",
+        "cluster_idx": 3,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n85",
+        "text": "Supporting features for GBS or a GBS variant include areflexia.",
+        "category": "causal",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Exam showed decreased to absent reflexes bilaterally.",
+        "cluster_idx": 3,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n86",
+        "text": "Supporting features for GBS or a GBS variant include sensory symptoms.",
+        "category": "causal",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "He had numbness and tingling in both hands and feet, i.e. sensory symptoms.",
+        "cluster_idx": 3,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n87",
+        "text": "Supporting features for GBS or a GBS variant include cranial nerve involvement.",
+        "category": "causal",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "He had binocular diplopia, ptosis, and multiple cranial nerve palsies/facial involvement.",
+        "cluster_idx": 3,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n88",
+        "text": "Supporting features for GBS or a GBS variant include albuminocytologic dissociation.",
+        "category": "causal",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "CSF protein was 105 mg/dL with albuminocytologic dissociation.",
+        "cluster_idx": 3,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n89",
+        "text": "Several findings argue against GBS as the primary diagnosis.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "This is a differential-pruning summary based on the listed discordant features; it follows from the trace.",
+        "cluster_idx": 3,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n90",
+        "text": "The weakness had been progressive over a month.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Reference data states one month of profound fatigue and progressive proximal weakness.",
+        "cluster_idx": 3,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n91",
+        "text": "The patient had marked proximal atrophy.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Exam documented proximal muscle atrophy.",
+        "cluster_idx": 3,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n92",
+        "text": "EMG showed axonal length-dependent polyneuropathy with myopathic features rather than a typical acute demyelinating process.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "EMG/NCS showed a diffuse predominantly axonal length-dependent sensory-motor polyneuropathy with myopathic features.",
+        "cluster_idx": 3,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n93",
+        "text": "Muscle biopsy showed inflammatory myopathy.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Muscle biopsy showed inflammatory myopathy with fiber atrophy and regeneration.",
+        "cluster_idx": 3,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n94",
+        "text": "The systemic features are not explained by GBS.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "GBS does not typically explain weight loss, proteinuria, elevated ESR, or pulmonary infiltrate/nodules; this is a sound clinical inference.",
+        "cluster_idx": 3,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n95",
+        "text": "The presumed GBS-like syndrome was an understandable initial impression.",
+        "category": "factual",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Given the acute/subacute areflexic neuropathic presentation and CSF dissociation, an initial GBS-like impression is clinically understandable.",
+        "cluster_idx": 3,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n96",
+        "text": "The presumed GBS-like syndrome does not best unify the case.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "This is a synthesis that GBS does not unify the multisystem findings; it follows from the trace.",
+        "cluster_idx": 3,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n97",
+        "text": "A third differential is systemic vasculitic neuropathy with inflammatory myopathy.",
+        "category": "recommendation",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "The trace explicitly names systemic vasculitic neuropathy with inflammatory myopathy as a third differential.",
+        "cluster_idx": 3,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n98",
+        "text": "This diagnosis is supported by weight loss.",
+        "category": "causal",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "He lost 30 pounds over six months.",
+        "cluster_idx": 3,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n99",
+        "text": "This diagnosis is supported by elevated ESR.",
+        "category": "causal",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "ESR was 66 mm/hr.",
+        "cluster_idx": 3,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n100",
+        "text": "This diagnosis is supported by new proteinuria.",
+        "category": "causal",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Urinalysis revealed 3+ proteinuria.",
+        "cluster_idx": 3,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n101",
+        "text": "This diagnosis is supported by neuropathy.",
+        "category": "causal",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "He had a diffuse sensory-motor polyneuropathy on EMG/NCS.",
+        "cluster_idx": 3,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n102",
+        "text": "This diagnosis is supported by cranial neuropathies.",
+        "category": "causal",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "He had multiple cranial neuropathies including III, VI, and facial/trigeminal involvement.",
+        "cluster_idx": 3,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n103",
+        "text": "This diagnosis is supported by sural nerve biopsy evidence of possible old vasculitis.",
+        "category": "causal",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Sural nerve biopsy showed evidence of possible old vasculitis.",
+        "cluster_idx": 3,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n104",
+        "text": "Vasculitis can produce mononeuritis multiplex.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Vasculitic neuropathy classically can present as mononeuritis multiplex; standard medical knowledge.",
+        "cluster_idx": 3,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n105",
+        "text": "Vasculitis can produce axonal neuropathy.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Axonal neuropathy is a common pattern in vasculitic neuropathy; standard medical knowledge.",
+        "cluster_idx": 3,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n106",
+        "text": "Vasculitis can involve muscle.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Vasculitis can involve muscle; standard medical knowledge and consistent with the differential.",
+        "cluster_idx": 3,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n107",
+        "text": "The neuropathy was described as diffuse length-dependent rather than classic asymmetric mononeuritis multiplex.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "The EMG/NCS was described as diffuse, predominantly axonal, length-dependent rather than classic asymmetric mononeuritis multiplex.",
+        "cluster_idx": 3,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n108",
+        "text": "Muscle biopsy showed no vasculitis.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Muscle biopsy showed inflammatory myopathy without vasculitis.",
+        "cluster_idx": 3,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n109",
+        "text": "The prior history of sarcoidosis plus pulmonary findings make sarcoidosis a more cohesive explanation.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Given prior sarcoidosis and pulmonary findings, sarcoidosis is a more cohesive explanation; this is a reasonable synthesis.",
+        "cluster_idx": 3,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n110",
+        "text": "Vasculitis remains plausible.",
+        "category": "factual",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Despite being less favored, the trace says vasculitis remains plausible.",
+        "cluster_idx": 3,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n111",
+        "text": "Sarcoid-associated vasculitic change remains plausible.",
+        "category": "factual",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "The trace explicitly frames sarcoid-associated vasculitic change as plausible.",
+        "cluster_idx": 3,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n112",
+        "text": "Vasculitis is less likely as the primary standalone diagnosis.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "This is a comparative diagnostic conclusion from the trace, not a direct factual claim.",
+        "cluster_idx": 3,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n113",
+        "text": "Myasthenia gravis could explain ptosis and ophthalmoplegia.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Ptosis and ophthalmoplegia are compatible with myasthenia gravis as a clinical inference.",
+        "cluster_idx": 3,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n114",
+        "text": "Myasthenia gravis does not explain areflexia.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "MG does not cause areflexia; this is standard clinical reasoning.",
+        "cluster_idx": 3,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n115",
+        "text": "Myasthenia gravis does not explain sensory loss.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "MG does not explain sensory loss; standard clinical reasoning.",
+        "cluster_idx": 3,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n116",
+        "text": "Myasthenia gravis does not explain axonal polyneuropathy.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "MG does not explain axonal polyneuropathy; standard clinical reasoning.",
+        "cluster_idx": 3,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n117",
+        "text": "Myasthenia gravis does not explain inflammatory myopathy on biopsy.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "MG does not explain inflammatory myopathy on biopsy; standard clinical reasoning.",
+        "cluster_idx": 3,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n118",
+        "text": "Myasthenia gravis does not explain CSF protein elevation.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "MG does not typically explain elevated CSF protein; standard clinical reasoning.",
+        "cluster_idx": 3,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n119",
+        "text": "Myasthenia gravis does not explain proteinuria.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "MG does not explain proteinuria; standard clinical reasoning.",
+        "cluster_idx": 3,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n120",
+        "text": "Myasthenia gravis does not explain systemic inflammatory or pulmonary findings.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "MG does not account for the systemic inflammatory/pulmonary findings; standard differential reasoning.",
+        "cluster_idx": 3,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n121",
+        "text": "An isolated idiopathic inflammatory myopathy such as polymyositis would fit proximal weakness.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Proximal weakness is a classic feature of polymyositis/idiopathic inflammatory myopathy and matches the case's proximal weakness.",
+        "cluster_idx": 3,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n122",
+        "text": "An isolated idiopathic inflammatory myopathy such as polymyositis would fit biopsy findings.",
+        "category": "causal",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Muscle biopsy showed inflammatory myopathy with fiber atrophy and regeneration.",
+        "cluster_idx": 3,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n123",
+        "text": "An isolated idiopathic inflammatory myopathy such as polymyositis would not explain the multiple cranial neuropathies.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Polymyositis does not typically cause multiple cranial neuropathies; this is a sound differential-pruning inference.",
+        "cluster_idx": 3,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n124",
+        "text": "An isolated idiopathic inflammatory myopathy such as polymyositis would not explain sensory-motor polyneuropathy.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "An isolated inflammatory myopathy would not explain the documented sensory-motor polyneuropathy.",
+        "cluster_idx": 3,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n125",
+        "text": "Paraneoplastic disease is conceivable given weight loss and lung infiltrate.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Weight loss and a lung infiltrate make malignancy a reasonable consideration, though not proven.",
+        "cluster_idx": 3,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n126",
+        "text": "Available pathology showed no malignancy.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Reference data states lung FNA showed inflammatory cells/plasma cells without granulomas and cultures were negative; no malignancy was reported in available pathology.",
+        "cluster_idx": 3,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n127",
+        "text": "The known sarcoidosis history offers a stronger explanation.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Given prior biopsy-proven sarcoidosis and the multisystem pattern, sarcoidosis is a stronger unifying explanation than paraneoplastic disease.",
+        "cluster_idx": 3,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n128",
+        "text": "The most likely diagnosis is recurrent systemic sarcoidosis with neurosarcoid involvement causing multiple cranial neuropathies, peripheral neuropathy, and sarcoid inflammatory myopathy.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "This matches the stated final diagnosis exactly.",
+        "cluster_idx": 4,
+        "cluster_label": "final_decision"
+      },
+      {
+        "id": "n129",
+        "text": "This diagnosis best integrates the prior biopsy-proven sarcoidosis.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "The prior biopsy-proven sarcoidosis is a key part of the unifying diagnosis and is explicitly cited in the trace.",
+        "cluster_idx": 4,
+        "cluster_label": "final_decision"
+      },
+      {
+        "id": "n130",
+        "text": "This diagnosis best integrates the pulmonary abnormalities.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Pulmonary nodules/infiltrate are part of the multisystem sarcoid picture and are reasonably integrated by the diagnosis.",
+        "cluster_idx": 4,
+        "cluster_label": "final_decision"
+      },
+      {
+        "id": "n131",
+        "text": "This diagnosis best integrates the constitutional symptoms.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Weight loss and chronic cough are constitutional/pulmonary features that fit systemic sarcoidosis.",
+        "cluster_idx": 4,
+        "cluster_label": "final_decision"
+      },
+      {
+        "id": "n132",
+        "text": "This diagnosis best integrates the bilateral ophthalmoplegia and ptosis with other cranial nerve deficits.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "The diagnosis accounts for the bilateral ophthalmoplegia, ptosis, and other cranial nerve deficits as neurosarcoid involvement.",
+        "cluster_idx": 4,
+        "cluster_label": "final_decision"
+      },
+      {
+        "id": "n133",
+        "text": "This diagnosis best integrates the inflammatory myopathy on muscle biopsy.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Inflammatory myopathy on muscle biopsy is directly integrated by sarcoid myopathy.",
+        "cluster_idx": 4,
+        "cluster_label": "final_decision"
+      },
+      {
+        "id": "n134",
+        "text": "This diagnosis best integrates the mixed axonal neuropathy.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Diffuse predominantly axonal length-dependent sensorimotor polyneuropathy is compatible with peripheral neuropathy in sarcoidosis.",
+        "cluster_idx": 4,
+        "cluster_label": "final_decision"
+      },
+      {
+        "id": "n135",
+        "text": "The GBS-like features are better viewed as overlapping manifestations within a broader sarcoid-related inflammatory neuropathy/myopathy syndrome.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "The trace explicitly reframes the GBS-like syndrome as overlapping manifestations within a broader sarcoid-related syndrome.",
+        "cluster_idx": 4,
+        "cluster_label": "final_decision"
+      },
+      {
+        "id": "n136",
+        "text": "The possible old vasculitis is better viewed as an overlapping manifestation within a broader sarcoid-related inflammatory neuropathy/myopathy syndrome.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Possible old vasculitis is discussed as potentially overlapping with the broader sarcoid-related inflammatory syndrome.",
+        "cluster_idx": 4,
+        "cluster_label": "final_decision"
+      },
+      {
+        "id": "n137",
+        "text": "The first differential diagnosis is neurosarcoidosis with sarcoid myopathy and peripheral neuropathy.",
+        "category": "recommendation",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "This is listed in the differential diagnoses with high likelihood.",
+        "cluster_idx": 4,
+        "cluster_label": "final_decision"
+      },
+      {
+        "id": "n138",
+        "text": "The second differential diagnosis is Guillain-Barré syndrome or Miller-Fisher overlap.",
+        "category": "recommendation",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "This is listed in the differential diagnoses with medium likelihood.",
+        "cluster_idx": 4,
+        "cluster_label": "final_decision"
+      },
+      {
+        "id": "n139",
+        "text": "The third differential diagnosis is systemic vasculitic neuropathy with inflammatory myopathy.",
+        "category": "recommendation",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "This is listed in the differential diagnoses with medium likelihood.",
+        "cluster_idx": 4,
+        "cluster_label": "final_decision"
+      },
+      {
+        "id": "n140",
+        "text": "The fourth differential diagnosis is myasthenia gravis.",
+        "category": "recommendation",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "This is listed in the differential diagnoses with low likelihood.",
+        "cluster_idx": 4,
+        "cluster_label": "final_decision"
+      },
+      {
+        "id": "n141",
+        "text": "The fifth differential diagnosis is idiopathic inflammatory myopathy such as polymyositis.",
+        "category": "recommendation",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "This is listed in the differential diagnoses with low likelihood.",
+        "cluster_idx": 4,
+        "cluster_label": "final_decision"
+      },
+      {
+        "id": "n142",
+        "text": "The final diagnosis is neurosarcoidosis with sarcoid myopathy and peripheral neuropathy.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "The reference data explicitly states the final diagnosis is neurosarcoidosis with sarcoid myopathy and peripheral neuropathy.",
+        "cluster_idx": 4,
+        "cluster_label": "final_decision"
+      }
+    ],
+    "edges": [
+      {
+        "source": "n2",
+        "target": "n1",
+        "kind": "supports",
+        "explanation": "Binocular diplopia and ptosis are part of the prominent cranial neuropathy syndrome."
+      },
+      {
+        "source": "n3",
+        "target": "n1",
+        "kind": "supports",
+        "explanation": "Distal paresthesias support a peripheral neuropathic component of the syndrome."
+      },
+      {
+        "source": "n5",
+        "target": "n1",
+        "kind": "supports",
+        "explanation": "Progressive proximal weakness contributes to the subacute neuromuscular syndrome."
+      },
+      {
+        "source": "n8",
+        "target": "n43",
+        "kind": "supports",
+        "explanation": "A prior biopsy-proven history of sarcoidosis makes recurrence a plausible explanation."
+      },
+      {
+        "source": "n42",
+        "target": "n43",
+        "kind": "supports",
+        "explanation": "Known sarcoidosis history raises concern for recurrent neurologic and muscular involvement."
+      },
+      {
+        "source": "n44",
+        "target": "n45",
+        "kind": "supports",
+        "explanation": "An unremarkable MRI/MRA argues against a compressive lesion."
+      },
+      {
+        "source": "n44",
+        "target": "n46",
+        "kind": "supports",
+        "explanation": "An unremarkable MRI/MRA argues against an ischemic brainstem lesion."
+      },
+      {
+        "source": "n44",
+        "target": "n47",
+        "kind": "supports",
+        "explanation": "An unremarkable MRI/MRA argues against a cavernous sinus lesion."
+      },
+      {
+        "source": "n44",
+        "target": "n48",
+        "kind": "supports",
+        "explanation": "An unremarkable MRI/MRA argues against an orbital apex lesion."
+      },
+      {
+        "source": "n29",
+        "target": "n30",
+        "kind": "supports",
+        "explanation": "Elevated CSF protein supports albuminocytologic dissociation."
+      },
+      {
+        "source": "n30",
+        "target": "n31",
+        "kind": "supports",
+        "explanation": "Albuminocytologic dissociation is a recognized pattern in inflammatory neuropathies."
+      },
+      {
+        "source": "n55",
+        "target": "n56",
+        "kind": "supports",
+        "explanation": "Unrevealing infectious serologies make infectious neuropathy or myopathy less likely."
+      },
+      {
+        "source": "n57",
+        "target": "n59",
+        "kind": "supports",
+        "explanation": "Normal calcium does not support a metabolic cause."
+      },
+      {
+        "source": "n58",
+        "target": "n59",
+        "kind": "supports",
+        "explanation": "Normal renal function does not support a metabolic cause."
+      },
+      {
+        "source": "n60",
+        "target": "n62",
+        "kind": "supports",
+        "explanation": "Inflammatory cells and plasma cells without granulomas mean there is no tissue confirmation of active pulmonary sarcoid."
+      },
+      {
+        "source": "n61",
+        "target": "n62",
+        "kind": "supports",
+        "explanation": "Absence of granulomas on lung FNA means active pulmonary sarcoid was not tissue-confirmed."
+      },
+      {
+        "source": "n65",
+        "target": "n128",
+        "kind": "supports",
+        "explanation": "The leading differential is the same disease entity as the final diagnosis."
+      },
+      {
+        "source": "n66",
+        "target": "n65",
+        "kind": "supports",
+        "explanation": "Remote biopsy-proven sarcoidosis supports neurosarcoidosis as the leading diagnosis."
+      },
+      {
+        "source": "n67",
+        "target": "n65",
+        "kind": "supports",
+        "explanation": "Chronic cough is compatible with sarcoid recurrence."
+      },
+      {
+        "source": "n68",
+        "target": "n65",
+        "kind": "supports",
+        "explanation": "Pulmonary nodules and infiltrate support sarcoidosis."
+      },
+      {
+        "source": "n69",
+        "target": "n65",
+        "kind": "supports",
+        "explanation": "Weight loss supports a systemic inflammatory process such as sarcoidosis."
+      },
+      {
+        "source": "n70",
+        "target": "n65",
+        "kind": "supports",
+        "explanation": "Multiple cranial neuropathies are a classic neurosarcoid feature."
+      },
+      {
+        "source": "n71",
+        "target": "n65",
+        "kind": "supports",
+        "explanation": "Inflammatory myopathy on biopsy supports sarcoid myopathy."
+      },
+      {
+        "source": "n72",
+        "target": "n65",
+        "kind": "supports",
+        "explanation": "Peripheral neuropathy supports neurosarcoidosis with peripheral nerve involvement."
+      },
+      {
+        "source": "n73",
+        "target": "n65",
+        "kind": "supports",
+        "explanation": "Sarcoidosis is known to cause cranial neuropathies."
+      },
+      {
+        "source": "n74",
+        "target": "n65",
+        "kind": "supports",
+        "explanation": "Sarcoidosis can involve muscle."
+      },
+      {
+        "source": "n75",
+        "target": "n65",
+        "kind": "supports",
+        "explanation": "Sarcoidosis can involve peripheral nerves."
+      },
+      {
+        "source": "n76",
+        "target": "n65",
+        "kind": "supports",
+        "explanation": "A normal MRI does not exclude neurosarcoidosis."
+      },
+      {
+        "source": "n77",
+        "target": "n65",
+        "kind": "supports",
+        "explanation": "Elevated ESR is compatible with systemic inflammation from sarcoidosis."
+      },
+      {
+        "source": "n78",
+        "target": "n65",
+        "kind": "supports",
+        "explanation": "Proteinuria is compatible with systemic inflammatory disease."
+      },
+      {
+        "source": "n79",
+        "target": "n65",
+        "kind": "contradicts",
+        "explanation": "Lack of granulomas on lung FNA argues against active sarcoidosis."
+      },
+      {
+        "source": "n80",
+        "target": "n65",
+        "kind": "contradicts",
+        "explanation": "Sural nerve biopsy without granulomatous inflammation argues against sarcoidosis."
+      },
+      {
+        "source": "n81",
+        "target": "n82",
+        "kind": "supports",
+        "explanation": "Sampling error makes sarcoidosis still plausible despite nondiagnostic tissue."
+      },
+      {
+        "source": "n82",
+        "target": "n65",
+        "kind": "supports",
+        "explanation": "Sarcoid can still unify the presentation."
+      },
+      {
+        "source": "n83",
+        "target": "n138",
+        "kind": "supports",
+        "explanation": "The stated second differential is GBS or a Miller-Fisher overlap."
+      },
+      {
+        "source": "n84",
+        "target": "n83",
+        "kind": "supports",
+        "explanation": "Subacute weakness supports consideration of GBS."
+      },
+      {
+        "source": "n85",
+        "target": "n83",
+        "kind": "supports",
+        "explanation": "Areflexia supports consideration of GBS."
+      },
+      {
+        "source": "n86",
+        "target": "n83",
+        "kind": "supports",
+        "explanation": "Sensory symptoms support consideration of GBS variants."
+      },
+      {
+        "source": "n87",
+        "target": "n83",
+        "kind": "supports",
+        "explanation": "Cranial nerve involvement supports consideration of Miller-Fisher overlap."
+      },
+      {
+        "source": "n88",
+        "target": "n83",
+        "kind": "supports",
+        "explanation": "Albuminocytologic dissociation supports GBS."
+      },
+      {
+        "source": "n89",
+        "target": "n83",
+        "kind": "contradicts",
+        "explanation": "Several findings argue against GBS as the primary diagnosis."
+      },
+      {
+        "source": "n90",
+        "target": "n89",
+        "kind": "supports",
+        "explanation": "A month-long progression is less typical for classic acute GBS."
+      },
+      {
+        "source": "n91",
+        "target": "n89",
+        "kind": "supports",
+        "explanation": "Marked proximal atrophy suggests a chronic myopathic process rather than GBS."
+      },
+      {
+        "source": "n92",
+        "target": "n89",
+        "kind": "supports",
+        "explanation": "Electrodiagnostics were not typical for acute demyelinating GBS."
+      },
+      {
+        "source": "n93",
+        "target": "n89",
+        "kind": "supports",
+        "explanation": "Inflammatory myopathy on biopsy is not explained by GBS."
+      },
+      {
+        "source": "n94",
+        "target": "n89",
+        "kind": "supports",
+        "explanation": "Systemic features are not explained by GBS."
+      },
+      {
+        "source": "n95",
+        "target": "n83",
+        "kind": "supports",
+        "explanation": "The GBS-like syndrome was a reasonable initial impression."
+      },
+      {
+        "source": "n96",
+        "target": "n83",
+        "kind": "supports",
+        "explanation": "Despite overlap, GBS does not best unify the case."
+      },
+      {
+        "source": "n97",
+        "target": "n139",
+        "kind": "supports",
+        "explanation": "The stated third differential is systemic vasculitic neuropathy with inflammatory myopathy."
+      },
+      {
+        "source": "n98",
+        "target": "n97",
+        "kind": "supports",
+        "explanation": "Weight loss supports vasculitis."
+      },
+      {
+        "source": "n99",
+        "target": "n97",
+        "kind": "supports",
+        "explanation": "Elevated ESR supports vasculitis."
+      },
+      {
+        "source": "n100",
+        "target": "n97",
+        "kind": "supports",
+        "explanation": "Proteinuria supports systemic vasculitis."
+      },
+      {
+        "source": "n101",
+        "target": "n97",
+        "kind": "supports",
+        "explanation": "Neuropathy supports vasculitic neuropathy."
+      },
+      {
+        "source": "n102",
+        "target": "n97",
+        "kind": "supports",
+        "explanation": "Cranial neuropathies can occur in vasculitis."
+      },
+      {
+        "source": "n103",
+        "target": "n97",
+        "kind": "supports",
+        "explanation": "Possible old vasculitis on sural biopsy supports vasculitis."
+      },
+      {
+        "source": "n104",
+        "target": "n97",
+        "kind": "supports",
+        "explanation": "Vasculitis can produce mononeuritis multiplex."
+      },
+      {
+        "source": "n105",
+        "target": "n97",
+        "kind": "supports",
+        "explanation": "Vasculitis can produce axonal neuropathy."
+      },
+      {
+        "source": "n106",
+        "target": "n97",
+        "kind": "supports",
+        "explanation": "Vasculitis can involve muscle."
+      },
+      {
+        "source": "n107",
+        "target": "n97",
+        "kind": "contradicts",
+        "explanation": "A diffuse length-dependent neuropathy is less classic for vasculitic mononeuritis multiplex."
+      },
+      {
+        "source": "n108",
+        "target": "n97",
+        "kind": "contradicts",
+        "explanation": "No vasculitis on muscle biopsy argues against active vasculitis."
+      },
+      {
+        "source": "n109",
+        "target": "n97",
+        "kind": "contradicts",
+        "explanation": "Sarcoidosis with pulmonary findings offers a more cohesive alternative than primary vasculitis."
+      },
+      {
+        "source": "n110",
+        "target": "n97",
+        "kind": "supports",
+        "explanation": "Vasculitis remains plausible despite incomplete confirmation."
+      },
+      {
+        "source": "n111",
+        "target": "n97",
+        "kind": "supports",
+        "explanation": "Sarcoid-associated vasculitic change keeps vasculitis in the differential."
+      },
+      {
+        "source": "n112",
+        "target": "n97",
+        "kind": "supports",
+        "explanation": "Overall, vasculitis is less likely as the primary standalone diagnosis."
+      },
+      {
+        "source": "n113",
+        "target": "n140",
+        "kind": "supports",
+        "explanation": "Ptosis and ophthalmoplegia are compatible with myasthenia gravis."
+      },
+      {
+        "source": "n114",
+        "target": "n140",
+        "kind": "contradicts",
+        "explanation": "Areflexia is not explained by myasthenia gravis."
+      },
+      {
+        "source": "n115",
+        "target": "n140",
+        "kind": "contradicts",
+        "explanation": "Sensory loss is not explained by myasthenia gravis."
+      },
+      {
+        "source": "n116",
+        "target": "n140",
+        "kind": "contradicts",
+        "explanation": "Axonal polyneuropathy is not explained by myasthenia gravis."
+      },
+      {
+        "source": "n117",
+        "target": "n140",
+        "kind": "contradicts",
+        "explanation": "Inflammatory myopathy on biopsy is not explained by myasthenia gravis."
+      },
+      {
+        "source": "n118",
+        "target": "n140",
+        "kind": "contradicts",
+        "explanation": "CSF protein elevation is not explained by myasthenia gravis."
+      },
+      {
+        "source": "n119",
+        "target": "n140",
+        "kind": "contradicts",
+        "explanation": "Proteinuria is not explained by myasthenia gravis."
+      },
+      {
+        "source": "n120",
+        "target": "n140",
+        "kind": "contradicts",
+        "explanation": "Systemic inflammatory and pulmonary findings are not explained by myasthenia gravis."
+      },
+      {
+        "source": "n121",
+        "target": "n141",
+        "kind": "supports",
+        "explanation": "Proximal weakness fits an idiopathic inflammatory myopathy."
+      },
+      {
+        "source": "n122",
+        "target": "n141",
+        "kind": "supports",
+        "explanation": "Biopsy findings fit an idiopathic inflammatory myopathy."
+      },
+      {
+        "source": "n123",
+        "target": "n141",
+        "kind": "contradicts",
+        "explanation": "Multiple cranial neuropathies are not explained by isolated polymyositis."
+      },
+      {
+        "source": "n124",
+        "target": "n141",
+        "kind": "contradicts",
+        "explanation": "Sensory-motor polyneuropathy is not explained by isolated polymyositis."
+      },
+      {
+        "source": "n125",
+        "target": "n128",
+        "kind": "supports",
+        "explanation": "Paraneoplastic disease is considered but is less favored than sarcoidosis."
+      },
+      {
+        "source": "n126",
+        "target": "n128",
+        "kind": "supports",
+        "explanation": "No malignancy on available pathology makes a paraneoplastic explanation less likely."
+      },
+      {
+        "source": "n127",
+        "target": "n128",
+        "kind": "supports",
+        "explanation": "The known sarcoidosis history offers the stronger unifying explanation."
+      },
+      {
+        "source": "n129",
+        "target": "n128",
+        "kind": "supports",
+        "explanation": "The final diagnosis is justified by prior biopsy-proven sarcoidosis."
+      },
+      {
+        "source": "n130",
+        "target": "n128",
+        "kind": "supports",
+        "explanation": "Pulmonary abnormalities are integrated by recurrent sarcoidosis."
+      },
+      {
+        "source": "n131",
+        "target": "n128",
+        "kind": "supports",
+        "explanation": "Constitutional symptoms are integrated by systemic sarcoidosis."
+      },
+      {
+        "source": "n132",
+        "target": "n128",
+        "kind": "supports",
+        "explanation": "Bilateral ophthalmoplegia, ptosis, and other cranial nerve deficits fit neurosarcoidosis."
+      },
+      {
+        "source": "n133",
+        "target": "n128",
+        "kind": "supports",
+        "explanation": "Inflammatory myopathy on biopsy fits sarcoid myopathy."
+      },
+      {
+        "source": "n134",
+        "target": "n128",
+        "kind": "supports",
+        "explanation": "Mixed axonal neuropathy fits peripheral nerve involvement from sarcoidosis."
+      },
+      {
+        "source": "n135",
+        "target": "n128",
+        "kind": "supports",
+        "explanation": "GBS-like features can be understood as part of the broader sarcoid syndrome."
+      },
+      {
+        "source": "n136",
+        "target": "n128",
+        "kind": "supports",
+        "explanation": "Possible old vasculitic change can be incorporated into the broader sarcoid syndrome."
+      },
+      {
+        "source": "n137",
+        "target": "n65",
+        "kind": "supports",
+        "explanation": "This restates the first differential diagnosis."
+      },
+      {
+        "source": "n138",
+        "target": "n83",
+        "kind": "supports",
+        "explanation": "This restates the second differential diagnosis."
+      },
+      {
+        "source": "n139",
+        "target": "n97",
+        "kind": "supports",
+        "explanation": "This restates the third differential diagnosis."
+      },
+      {
+        "source": "n140",
+        "target": "n113",
+        "kind": "supports",
+        "explanation": "Myasthenia gravis is the differential that explains ptosis and ophthalmoplegia."
+      },
+      {
+        "source": "n141",
+        "target": "n121",
+        "kind": "supports",
+        "explanation": "Idiopathic inflammatory myopathy is the differential that fits proximal weakness."
+      },
+      {
+        "source": "n142",
+        "target": "n128",
+        "kind": "supports",
+        "explanation": "The final diagnosis is the concluding synthesis."
+      }
+    ],
+    "disconnected": [
+      "n10",
+      "n11",
+      "n12",
+      "n13",
+      "n14",
+      "n15",
+      "n16",
+      "n17",
+      "n18",
+      "n19",
+      "n20",
+      "n21",
+      "n22",
+      "n23",
+      "n24",
+      "n25",
+      "n26",
+      "n27",
+      "n28",
+      "n32",
+      "n33",
+      "n34",
+      "n35",
+      "n36",
+      "n37",
+      "n38",
+      "n39",
+      "n4",
+      "n40",
+      "n41",
+      "n49",
+      "n50",
+      "n51",
+      "n52",
+      "n53",
+      "n54",
+      "n6",
+      "n63",
+      "n64",
+      "n7",
+      "n9"
+    ],
+    "clusters": [
+      {
+        "cluster_id": "c1",
+        "label": "history_taking",
+        "statement_indices": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "summary": "Initial symptom history and relevant past sarcoidosis history.",
+        "salience": 0.9
+      },
+      {
+        "cluster_id": "c2",
+        "label": "examination",
+        "statement_indices": [
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23
+        ],
+        "summary": "Neurologic and systemic examination findings showing cranial neuropathies, weakness, areflexia, and sensory loss.",
+        "salience": 0.95
+      },
+      {
+        "cluster_id": "c3",
+        "label": "test_ordering",
+        "statement_indices": [
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40,
+          41,
+          42,
+          43,
+          44,
+          45,
+          46,
+          47,
+          48,
+          49,
+          50,
+          51,
+          52,
+          53,
+          54,
+          55,
+          56,
+          57,
+          58,
+          59,
+          60,
+          61,
+          62,
+          63,
+          64
+        ],
+        "summary": "Diagnostic studies and biopsy results evaluating neuropathy, myopathy, inflammation, and pulmonary/systemic disease.",
+        "salience": 0.9
+      },
+      {
+        "cluster_id": "c4",
+        "label": "differential_generation",
+        "statement_indices": [
+          65,
+          66,
+          67,
+          68,
+          69,
+          70,
+          71,
+          72,
+          73,
+          74,
+          75,
+          76,
+          77,
+          78,
+          79,
+          80,
+          81,
+          82,
+          83,
+          84,
+          85,
+          86,
+          87,
+          88,
+          89,
+          90,
+          91,
+          92,
+          93,
+          94,
+          95,
+          96,
+          97,
+          98,
+          99,
+          100,
+          101,
+          102,
+          103,
+          104,
+          105,
+          106,
+          107,
+          108,
+          109,
+          110,
+          111,
+          112,
+          113,
+          114,
+          115,
+          116,
+          117,
+          118,
+          119,
+          120,
+          121,
+          122,
+          123,
+          124,
+          125,
+          126,
+          127
+        ],
+        "summary": "Broad differential diagnosis comparing neurosarcoidosis with GBS, vasculitis, myasthenia, inflammatory myopathy, and paraneoplastic disease.",
+        "salience": 0.85
+      },
+      {
+        "cluster_id": "c5",
+        "label": "final_decision",
+        "statement_indices": [
+          128,
+          129,
+          130,
+          131,
+          132,
+          133,
+          134,
+          135,
+          136,
+          137,
+          138,
+          139,
+          140,
+          141,
+          142
+        ],
+        "summary": "Final synthesis concluding recurrent systemic sarcoidosis with neurosarcoid, myopathic, and neuropathic involvement.",
+        "salience": 1.0
+      }
+    ],
+    "node_ranks": {
+      "n1": 0.44,
+      "n2": 0.34,
+      "n3": 0.34,
+      "n4": 0.29,
+      "n5": 0.34,
+      "n6": 0.29,
+      "n7": 0.29,
+      "n8": 0.34,
+      "n9": 0.43,
+      "n10": 0.43,
+      "n11": 0.43,
+      "n12": 0.43,
+      "n13": 0.43,
+      "n14": 0.43,
+      "n15": 0.43,
+      "n16": 0.43,
+      "n17": 0.43,
+      "n18": 0.43,
+      "n19": 0.43,
+      "n20": 0.43,
+      "n21": 0.43,
+      "n22": 0.43,
+      "n23": 0.43,
+      "n24": 0.57,
+      "n25": 0.57,
+      "n26": 0.57,
+      "n27": 0.57,
+      "n28": 0.57,
+      "n29": 0.52,
+      "n30": 0.62,
+      "n31": 0.72,
+      "n32": 0.57,
+      "n33": 0.57,
+      "n34": 0.57,
+      "n35": 0.57,
+      "n36": 0.57,
+      "n37": 0.57,
+      "n38": 0.57,
+      "n39": 0.57,
+      "n40": 0.57,
+      "n41": 0.57,
+      "n42": 0.62,
+      "n43": 0.72,
+      "n44": 0.62,
+      "n45": 0.72,
+      "n46": 0.72,
+      "n47": 0.72,
+      "n48": 0.72,
+      "n49": 0.57,
+      "n50": 0.57,
+      "n51": 0.57,
+      "n52": 0.57,
+      "n53": 0.57,
+      "n54": 0.57,
+      "n55": 0.62,
+      "n56": 0.72,
+      "n57": 0.62,
+      "n58": 0.62,
+      "n59": 0.72,
+      "n60": 0.62,
+      "n61": 0.62,
+      "n62": 0.72,
+      "n63": 0.57,
+      "n64": 0.57,
+      "n65": 0.76,
+      "n66": 0.66,
+      "n67": 0.66,
+      "n68": 0.66,
+      "n69": 0.66,
+      "n70": 0.66,
+      "n71": 0.66,
+      "n72": 0.66,
+      "n73": 0.66,
+      "n74": 0.66,
+      "n75": 0.66,
+      "n76": 0.66,
+      "n77": 0.66,
+      "n78": 0.66,
+      "n79": 0.66,
+      "n80": 0.66,
+      "n81": 0.56,
+      "n82": 0.66,
+      "n83": 0.71,
+      "n84": 0.71,
+      "n85": 0.71,
+      "n86": 0.71,
+      "n87": 0.71,
+      "n88": 0.71,
+      "n89": 0.71,
+      "n90": 0.71,
+      "n91": 0.71,
+      "n92": 0.71,
+      "n93": 0.71,
+      "n94": 0.71,
+      "n95": 0.71,
+      "n96": 0.71,
+      "n97": 0.71,
+      "n98": 0.71,
+      "n99": 0.71,
+      "n100": 0.71,
+      "n101": 0.71,
+      "n102": 0.71,
+      "n103": 0.71,
+      "n104": 0.71,
+      "n105": 0.71,
+      "n106": 0.71,
+      "n107": 0.71,
+      "n108": 0.71,
+      "n109": 0.71,
+      "n110": 0.71,
+      "n111": 0.71,
+      "n112": 0.71,
+      "n113": 0.71,
+      "n114": 0.71,
+      "n115": 0.71,
+      "n116": 0.71,
+      "n117": 0.71,
+      "n118": 0.71,
+      "n119": 0.71,
+      "n120": 0.71,
+      "n121": 0.71,
+      "n122": 0.71,
+      "n123": 0.71,
+      "n124": 0.71,
+      "n125": 0.76,
+      "n126": 0.76,
+      "n127": 0.76,
+      "n128": 1.0,
+      "n129": 0.9,
+      "n130": 0.9,
+      "n131": 0.9,
+      "n132": 0.9,
+      "n133": 0.9,
+      "n134": 0.9,
+      "n135": 0.9,
+      "n136": 0.9,
+      "n137": 0.8,
+      "n138": 0.85,
+      "n139": 0.85,
+      "n140": 0.85,
+      "n141": 0.85,
+      "n142": 0.9
+    }
+  }
+}

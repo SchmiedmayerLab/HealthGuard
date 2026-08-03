@@ -1,0 +1,20 @@
+{
+  "ollama/gemma2:9b-instruct-q4_K_M/baseline": {
+    "gpt41": 20.3,
+    "claude": 26.2,
+    "delta_gpt41": 0.0,
+    "delta_claude": 0.0
+  },
+  "ollama/gemma2:9b-instruct-q4_K_M/self_refine": {
+    "gpt41": 25.5,
+    "claude": 29.4,
+    "delta_gpt41": 5.2,
+    "delta_claude": 3.2
+  },
+  "ollama/gemma2:9b-instruct-q4_K_M/healthguard": {
+    "gpt41": 27.3,
+    "claude": 31.1,
+    "delta_gpt41": 7.0,
+    "delta_claude": 4.8
+  }
+}

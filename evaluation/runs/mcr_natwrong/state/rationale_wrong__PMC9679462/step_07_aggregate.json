@@ -1,0 +1,42 @@
+{
+  "name": "aggregate",
+  "passed": false,
+  "score": 0.8987,
+  "reasoning": "Failed. The verification found an internal inconsistency in the diagnostic chain: the text acknowledges that treatment-refractory bilateral retinal vasculitis should raise concern for a masquerade syndrome, yet it still presents idiopathic/autoimmune uveitis as fitting without fully reconciling the poor response to immunosuppression. The overall evidence supports suspicion for vitreoretinal lymphoma, but the final diagnosis is stated with more certainty than the available data justify. Weighted aggregate score: 0.8987.",
+  "data": {
+    "weighted_score": 0.8987,
+    "all_passed": false,
+    "step_scores": {
+      "static_rules": {
+        "score": 1.0,
+        "passed": true,
+        "weight": 0.1
+      },
+      "decompose": {
+        "score": 1.0,
+        "passed": true,
+        "weight": 0.05
+      },
+      "chain_verify": {
+        "score": 0.10000000000000009,
+        "passed": false,
+        "weight": 0.1
+      },
+      "classify": {
+        "score": 1.0,
+        "passed": true,
+        "weight": 0.0
+      },
+      "expert_verify": {
+        "score": 1.0,
+        "passed": true,
+        "weight": 0.65
+      },
+      "build_graph": {
+        "score": 0.8873,
+        "passed": false,
+        "weight": 0.1
+      }
+    }
+  }
+}

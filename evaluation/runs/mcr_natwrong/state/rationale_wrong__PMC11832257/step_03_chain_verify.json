@@ -1,0 +1,10 @@
+{
+  "name": "chain_verify",
+  "passed": true,
+  "score": 1.0,
+  "reasoning": "All logical chains are internally consistent. The statements form several coherent diagnostic chains: symptoms and exam findings support localization to the iliopsoas/hip flexor region; imaging and lack of trauma/lab inflammation support a calcified soft-tissue neoplasm rather than infection or benign post-traumatic processes; and the concluding diagnosis is consistent with the preceding differential reasoning. No logical dependency appears broken.",
+  "data": {
+    "has_chain_dependencies": true,
+    "issues": []
+  }
+}

@@ -1,0 +1,638 @@
+{
+  "name": "expert_verify",
+  "passed": true,
+  "score": 1.0,
+  "reasoning": "No contradictions among 69 statement(s) (31 supported, 37 valid inferences, 1 unverifiable).",
+  "data": {
+    "verifications": [
+      {
+        "text": "The chief complaint is a 2-month history of sore throat, cough, hoarseness, and marked 10-kg weight loss.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Reference data states a 2-month history of sore throat, cough, hoarseness, and 10-kg weight loss."
+      },
+      {
+        "text": "The patient’s main concern is an upper aerodigestive/laryngeal process causing persistent throat symptoms plus systemic weight loss.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.86,
+        "reasoning": "This is a clinical synthesis of the throat symptoms and weight loss; not verbatim but consistent with the case."
+      },
+      {
+        "text": "The patient has chronic immunosuppression from prednisone 15 mg/day for 5 years.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.98,
+        "reasoning": "She was treated with oral prednisone 15 mg/day for 5 years, which is chronic immunosuppression."
+      },
+      {
+        "text": "The patient is also taking hydroxychloroquine.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Reference data explicitly lists hydroxychloroquine 400 mg/day."
+      },
+      {
+        "text": "The patient has stage II pulmonary sarcoidosis.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "The case states stage II pulmonary sarcoidosis."
+      },
+      {
+        "text": "Laryngoscopy showed multifocal supraglottic mucosal disease.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.98,
+        "reasoning": "Flexible laryngoscopy showed multiple supraglottic lesions involving the epiglottis and arytenoid mucosa."
+      },
+      {
+        "text": "Laryngoscopy showed a centimetric polylobulated lesion on the free border of the epiglottis.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Reference data: a centimetric polylobulated lesion on the free border of the epiglottis."
+      },
+      {
+        "text": "Laryngoscopy showed additional tiny lesions on the laryngeal surface of the epiglottis.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.98,
+        "reasoning": "Reference data describes inframillimetric lesions on the laryngeal surface of the epiglottis."
+      },
+      {
+        "text": "Laryngoscopy showed a small ulcerated area on the right arytenoid mucosa.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Reference data states a millimetric ulcerated area on the right arytenoid mucosa."
+      },
+      {
+        "text": "Vocal-fold and arytenoid motility are preserved.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Vocal-fold and arytenoid motility were preserved."
+      },
+      {
+        "text": "The neck exam is normal.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Neck examination was normal."
+      },
+      {
+        "text": "The preserved vocal-fold and arytenoid motility and normal neck exam argue against bulky invasive laryngeal cancer with regional spread.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.9,
+        "reasoning": "Preserved mobility and normal neck exam reasonably argue against bulky invasive laryngeal cancer with regional spread."
+      },
+      {
+        "text": "MRI showed only a small low-enhanced epiglottic lesion.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.98,
+        "reasoning": "MRI showed a small low-enhanced lesion of the epiglottic border."
+      },
+      {
+        "text": "MRI showed no other laryngeal enhancement.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.97,
+        "reasoning": "MRI reported no other laryngeal enhancements."
+      },
+      {
+        "text": "The MRI findings suggest superficial mucosal rather than deeply infiltrative disease.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.88,
+        "reasoning": "A small low-enhanced lesion without other enhancement reasonably suggests superficial rather than deeply infiltrative disease."
+      },
+      {
+        "text": "PET-CT showed multiple ground-glass lung masses.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "PET-CT revealed multiple ground-glass lung masses."
+      },
+      {
+        "text": "PET-CT showed bilateral nodules increased from prior imaging.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "PET-CT showed bilateral nodules increased from prior imaging."
+      },
+      {
+        "text": "The PET-CT findings indicate active pulmonary pathology beyond a stable baseline sarcoidosis pattern.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.9,
+        "reasoning": "Increased pulmonary lesions on PET-CT indicate active pulmonary pathology beyond stable baseline sarcoidosis."
+      },
+      {
+        "text": "The CBC is normal.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "CBC was reported normal."
+      },
+      {
+        "text": "The metabolic panel is normal.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Metabolic panel was reported normal."
+      },
+      {
+        "text": "There are no neck masses.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Neck examination was normal, implying no neck masses were found."
+      },
+      {
+        "text": "There is no impaired laryngeal mobility.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Vocal-fold and arytenoid motility were preserved, so there was no impaired laryngeal mobility."
+      },
+      {
+        "text": "The patient is a never-smoker.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "The patient is explicitly described as a never-smoker."
+      },
+      {
+        "text": "Never-smoking lowers but does not eliminate the likelihood of primary laryngeal squamous cell carcinoma.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.92,
+        "reasoning": "Never-smoking lowers the likelihood of primary laryngeal SCC but does not exclude it."
+      },
+      {
+        "text": "The absence of a neck mass and preserved mobility make advanced laryngeal malignancy less likely.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.91,
+        "reasoning": "Normal neck exam and preserved mobility reasonably make advanced laryngeal malignancy less likely."
+      },
+      {
+        "text": "Normal routine labs do not strongly support a severe bacterial infection or hematologic malignancy.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.84,
+        "reasoning": "Normal CBC/metabolic panel do not strongly support severe bacterial infection or hematologic malignancy; this is a reasonable clinical inference."
+      },
+      {
+        "text": "The lesions are multifocal.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.98,
+        "reasoning": "The laryngoscopic findings include multiple lesions at different sites, i.e., multifocal disease."
+      },
+      {
+        "text": "The lesions include ulceration.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "An ulcerated area on the right arytenoid mucosa is explicitly described."
+      },
+      {
+        "text": "The multifocal lesions and ulceration broaden consideration to inflammatory, granulomatous, infectious, and neoplastic causes.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.9,
+        "reasoning": "Multifocal ulcerative lesions appropriately broaden the differential to inflammatory, granulomatous, infectious, and neoplastic causes."
+      },
+      {
+        "text": "The first major differential is laryngeal carcinoma.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.95,
+        "reasoning": "The trace explicitly lists laryngeal carcinoma as the first major differential."
+      },
+      {
+        "text": "Hoarseness, sore throat, weight loss, and an epiglottic lesion are compatible with supraglottic cancer.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.93,
+        "reasoning": "Hoarseness, sore throat, weight loss, and an epiglottic lesion are compatible with supraglottic cancer."
+      },
+      {
+        "text": "Prior breast cancer raises concern for malignancy in general.",
+        "category": "causal",
+        "verdict": "unverifiable",
+        "verified": true,
+        "score": 0.6,
+        "confidence": 0.55,
+        "reasoning": "The reference data mentions prior ductal carcinoma but not specifically breast cancer; the malignancy concern is a general inference."
+      },
+      {
+        "text": "She is a never-smoker.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "She is explicitly described as a never-smoker."
+      },
+      {
+        "text": "The neck exam is normal.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Neck examination was normal."
+      },
+      {
+        "text": "Vocal-fold and arytenoid motility is preserved.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Vocal-fold and arytenoid motility were preserved."
+      },
+      {
+        "text": "MRI shows only a small low-enhanced lesion without broader infiltrative enhancement.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.97,
+        "reasoning": "MRI showed a small low-enhanced epiglottic lesion without other laryngeal enhancements."
+      },
+      {
+        "text": "The laryngoscopic pattern is multifocal with tiny additional lesions and ulceration rather than a single dominant invasive mass.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.9,
+        "reasoning": "The described laryngoscopic pattern is indeed multifocal with tiny lesions and ulceration rather than a single dominant invasive mass."
+      },
+      {
+        "text": "Pulmonary PET-CT findings of multiple ground-glass masses and bilateral nodules are not the classic pattern for primary laryngeal cancer metastasis.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.82,
+        "reasoning": "This is a differential-pruning statement about the PET-CT pattern; it is a reasonable inference, not a direct factual claim."
+      },
+      {
+        "text": "The second differential is laryngeal sarcoidosis.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.96,
+        "reasoning": "The trace explicitly names laryngeal sarcoidosis as the second differential."
+      },
+      {
+        "text": "She has known pulmonary sarcoidosis.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Reference data states known pulmonary sarcoidosis."
+      },
+      {
+        "text": "Sarcoidosis can involve the supraglottis, especially the epiglottis.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.95,
+        "reasoning": "Known clinical fact; the case has pulmonary sarcoidosis and the trace uses this to support possible supraglottic/epiglottic involvement."
+      },
+      {
+        "text": "Sarcoidosis could explain epiglottic lesions and hoarseness.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.93,
+        "reasoning": "Reasonable inference from known sarcoidosis plus epiglottic lesions and hoarseness, though not stated verbatim in the reference."
+      },
+      {
+        "text": "She has been on long-term prednisone and hydroxychloroquine.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 1.0,
+        "reasoning": "Reference data states hydroxychloroquine 400 mg/day and oral prednisone 15 mg/day for 5 years."
+      },
+      {
+        "text": "Long-term prednisone and hydroxychloroquine would usually suppress sarcoid activity.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.9,
+        "reasoning": "Standard clinical inference that chronic prednisone/hydroxychloroquine would tend to suppress sarcoid activity; not directly stated but reasonable."
+      },
+      {
+        "text": "The lesion description includes ulceration and multifocal mucosal lesions.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 1.0,
+        "reasoning": "Laryngoscopy showed a polylobulated epiglottic lesion, inframillimetric lesions on the epiglottic surface, and a millimetric ulcerated arytenoid lesion."
+      },
+      {
+        "text": "Ulceration and multifocal mucosal lesions are less typical than diffuse edematous supraglottic swelling.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.88,
+        "reasoning": "Comparative characterization of the lesion pattern versus typical sarcoid swelling is interpretive, not directly stated, but clinically reasonable."
+      },
+      {
+        "text": "The concurrent worsening pulmonary imaging with ground-glass masses and nodules in an immunosuppressed patient raises concern for opportunistic infection rather than simple sarcoid progression.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.92,
+        "reasoning": "Immunosuppression plus worsening pulmonary ground-glass masses/nodules reasonably raises concern for opportunistic infection over simple sarcoid progression."
+      },
+      {
+        "text": "The third differential is laryngeal tuberculosis or another granulomatous infection.",
+        "category": "factual",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.98,
+        "reasoning": "This is a differential diagnosis statement derived from the trace, not a direct fact from the case."
+      },
+      {
+        "text": "Weight loss, cough, laryngeal ulcerative lesions, and pulmonary abnormalities could fit TB.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.9,
+        "reasoning": "Weight loss, cough, laryngeal ulceration, and pulmonary abnormalities are compatible with TB as a differential."
+      },
+      {
+        "text": "The pulmonary imaging described as multiple ground-glass masses and bilateral nodules is not specifically classic for TB.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.86,
+        "reasoning": "Interpretive statement about imaging pattern not being classic for TB; plausible but not directly verifiable from the case."
+      },
+      {
+        "text": "There is no mention of fever, night sweats, hemoptysis, or epidemiologic risk factors.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 1.0,
+        "reasoning": "The reference data does not mention fever, night sweats, hemoptysis, or epidemiologic risk factors."
+      },
+      {
+        "text": "TB remains plausible but not the best fit from the provided data.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.95,
+        "reasoning": "A differential-pruning conclusion based on the provided data; not an error."
+      },
+      {
+        "text": "A fourth and stronger differential is laryngeal fungal infection, particularly cryptococcosis.",
+        "category": "factual",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.98,
+        "reasoning": "This is a diagnostic prioritization statement from the trace, not a directly stated case fact."
+      },
+      {
+        "text": "Chronic corticosteroid use is a major risk factor for opportunistic fungal infection.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.99,
+        "reasoning": "Chronic corticosteroid use is standard risk for opportunistic fungal infection; sound medical inference."
+      },
+      {
+        "text": "Laryngeal cryptococcosis can present with sore throat and hoarseness.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.98,
+        "reasoning": "Known presentation of laryngeal cryptococcosis; clinically valid inference."
+      },
+      {
+        "text": "Laryngeal cryptococcosis often mimics laryngeal cancer on endoscopy with polypoid or ulcerative supraglottic lesions.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.98,
+        "reasoning": "Known mimicry of laryngeal cancer by cryptococcosis is standard medical knowledge."
+      },
+      {
+        "text": "Pulmonary cryptococcosis can produce nodules or mass-like/ground-glass lesions.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.98,
+        "reasoning": "Pulmonary cryptococcosis can present with nodules or ground-glass/mass-like lesions; standard knowledge."
+      },
+      {
+        "text": "The pulmonary cryptococcosis pattern fits the PET-CT description of multiple ground-glass lung masses and bilateral nodules.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.9,
+        "reasoning": "Reasonable fit between the described PET-CT lung findings and pulmonary cryptococcosis, though not directly proven."
+      },
+      {
+        "text": "The multifocal superficial laryngeal lesions, low-enhancement small lesion on MRI, normal neck exam, and preserved laryngeal mobility all favor an infectious mucosal process over invasive cancer.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.96,
+        "reasoning": "The combination of superficial multifocal lesions, low-enhancement MRI, normal neck exam, and preserved mobility reasonably favors infection over invasive cancer."
+      },
+      {
+        "text": "In an immunosuppressed patient with worsening pulmonary lesions and laryngeal involvement, disseminated or concomitant pulmonary-laryngeal cryptococcosis is the most coherent explanation.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.95,
+        "reasoning": "A coherent synthesis of immunosuppression, pulmonary lesions, and laryngeal involvement; not directly stated but clinically sound."
+      },
+      {
+        "text": "The combination of long-term prednisone exposure, multifocal supraglottic polylobulated/ulcerative lesions, constitutional weight loss, cough, and worsening pulmonary nodular/ground-glass lesions most strongly supports laryngeal cryptococcosis with pulmonary involvement rather than malignancy or sarcoid flare.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.96,
+        "reasoning": "This is the trace's overall diagnostic synthesis; it follows from the provided findings and reasoning."
+      },
+      {
+        "text": "Among fungal causes, cryptococcosis is especially known to mimic laryngeal carcinoma.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.97,
+        "reasoning": "Cryptococcosis is well known to mimic laryngeal carcinoma; standard medical knowledge."
+      },
+      {
+        "text": "Among fungal causes, cryptococcosis is especially known to occur in steroid-treated patients.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.97,
+        "reasoning": "Steroid-treated patients are at increased risk for cryptococcosis; standard medical knowledge."
+      },
+      {
+        "text": "The single most likely diagnosis is laryngeal cryptococcosis.",
+        "category": "factual",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.99,
+        "reasoning": "This is the trace's final diagnostic conclusion, not a directly observed fact."
+      },
+      {
+        "text": "Laryngeal cryptococcosis is a high-probability differential diagnosis.",
+        "category": "factual",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.98,
+        "reasoning": "Probability ranking is a reasoning output from the trace, not a case fact."
+      },
+      {
+        "text": "Supraglottic laryngeal squamous cell carcinoma is a medium-probability differential diagnosis.",
+        "category": "factual",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.98,
+        "reasoning": "Probability ranking is a reasoning output from the trace, not a case fact."
+      },
+      {
+        "text": "Laryngeal sarcoidosis is a medium-probability differential diagnosis.",
+        "category": "factual",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.98,
+        "reasoning": "Probability ranking is a reasoning output from the trace, not a case fact."
+      },
+      {
+        "text": "Laryngeal tuberculosis is a low-probability differential diagnosis.",
+        "category": "factual",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.98,
+        "reasoning": "Probability ranking is a reasoning output from the trace, not a case fact."
+      },
+      {
+        "text": "The final diagnosis is laryngeal cryptococcosis.",
+        "category": "factual",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.99,
+        "reasoning": "This repeats the final diagnosis from the trace; it is a conclusion, not a directly observed fact."
+      }
+    ],
+    "verdict_counts": {
+      "contradicted": 0,
+      "supported": 31,
+      "valid_inference": 37,
+      "unverifiable": 1
+    },
+    "contradictions": 0
+  }
+}

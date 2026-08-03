@@ -1,0 +1,4142 @@
+[
+  {
+    "trace_id": "PMC10112701",
+    "label": "sound",
+    "y": 1.0,
+    "soundness": 1.0,
+    "n_flagged": 0,
+    "n_incorrect": 0,
+    "n_claims": 22,
+    "hgA": 0.9985
+  },
+  {
+    "trace_id": "PMC10113930",
+    "label": "sound",
+    "y": 1.0,
+    "soundness": 0.9079999999999999,
+    "n_flagged": 3,
+    "n_incorrect": 1,
+    "n_claims": 25,
+    "hgA": 0.9868
+  },
+  {
+    "trace_id": "PMC10073084",
+    "label": "flawed",
+    "y": 0.0,
+    "soundness": 0.9514705882352942,
+    "n_flagged": 2,
+    "n_incorrect": 1,
+    "n_claims": 34,
+    "hgA": 0.751
+  },
+  {
+    "trace_id": "PMC10073084",
+    "label": "sound",
+    "y": 1.0,
+    "soundness": 1.0,
+    "n_flagged": 0,
+    "n_incorrect": 0,
+    "n_claims": 39,
+    "hgA": 0.9388
+  },
+  {
+    "trace_id": "PMC10112701",
+    "label": "flawed",
+    "y": 0.0,
+    "soundness": 0.9459459459459459,
+    "n_flagged": 2,
+    "n_incorrect": 2,
+    "n_claims": 37,
+    "hgA": 0.5987
+  },
+  {
+    "trace_id": "PMC10189604",
+    "label": "flawed",
+    "y": 0.0,
+    "soundness": 0.8954545454545454,
+    "n_flagged": 3,
+    "n_incorrect": 1,
+    "n_claims": 22,
+    "hgA": 0.5891
+  },
+  {
+    "trace_id": "PMC10191493",
+    "label": "sound",
+    "y": 1.0,
+    "soundness": 0.9657894736842106,
+    "n_flagged": 1,
+    "n_incorrect": 0,
+    "n_claims": 19,
+    "hgA": 0.9984
+  },
+  {
+    "trace_id": "PMC10189604",
+    "label": "sound",
+    "y": 1.0,
+    "soundness": 0.9409090909090909,
+    "n_flagged": 2,
+    "n_incorrect": 0,
+    "n_claims": 22,
+    "hgA": 0.9493
+  },
+  {
+    "trace_id": "PMC10191493",
+    "label": "flawed",
+    "y": 0.0,
+    "soundness": 0.93125,
+    "n_flagged": 2,
+    "n_incorrect": 1,
+    "n_claims": 24,
+    "hgA": 0.7999
+  },
+  {
+    "trace_id": "PMC10225816",
+    "label": "sound",
+    "y": 1.0,
+    "soundness": 1.0,
+    "n_flagged": 0,
+    "n_incorrect": 0,
+    "n_claims": 34,
+    "hgA": 0.9994
+  },
+  {
+    "trace_id": "PMC10310937",
+    "label": "sound",
+    "y": 1.0,
+    "soundness": 1.0,
+    "n_flagged": 0,
+    "n_incorrect": 0,
+    "n_claims": 20,
+    "hgA": 0.9877
+  },
+  {
+    "trace_id": "PMC10113930",
+    "label": "flawed",
+    "y": 0.0,
+    "soundness": 0.8083333333333332,
+    "n_flagged": 6,
+    "n_incorrect": 2,
+    "n_claims": 24,
+    "hgA": 0.2602
+  },
+  {
+    "trace_id": "PMC10225816",
+    "label": "flawed",
+    "y": 0.0,
+    "soundness": 0.9648648648648649,
+    "n_flagged": 2,
+    "n_incorrect": 0,
+    "n_claims": 37,
+    "hgA": 0.9966
+  },
+  {
+    "trace_id": "PMC10310937",
+    "label": "flawed",
+    "y": 0.0,
+    "soundness": 0.95,
+    "n_flagged": 2,
+    "n_incorrect": 0,
+    "n_claims": 26,
+    "hgA": 0.9933
+  },
+  {
+    "trace_id": "PMC10338165",
+    "label": "flawed",
+    "y": 0.0,
+    "soundness": 0.9750000000000001,
+    "n_flagged": 1,
+    "n_incorrect": 0,
+    "n_claims": 26,
+    "hgA": 0.9944
+  },
+  {
+    "trace_id": "PMC10406452",
+    "label": "flawed",
+    "y": 0.0,
+    "soundness": 0.8675,
+    "n_flagged": 3,
+    "n_incorrect": 2,
+    "n_claims": 20,
+    "hgA": 0.7521
+  },
+  {
+    "trace_id": "PMC10338165",
+    "label": "sound",
+    "y": 1.0,
+    "soundness": 1.0,
+    "n_flagged": 0,
+    "n_incorrect": 0,
+    "n_claims": 25,
+    "hgA": 0.9965
+  },
+  {
+    "trace_id": "PMC10407195",
+    "label": "flawed",
+    "y": 0.0,
+    "soundness": 0.975925925925926,
+    "n_flagged": 1,
+    "n_incorrect": 0,
+    "n_claims": 27,
+    "hgA": 0.9434
+  },
+  {
+    "trace_id": "PMC10406452",
+    "label": "sound",
+    "y": 1.0,
+    "soundness": 0.9729166666666668,
+    "n_flagged": 1,
+    "n_incorrect": 0,
+    "n_claims": 24,
+    "hgA": 0.9985
+  },
+  {
+    "trace_id": "PMC10407195",
+    "label": "sound",
+    "y": 1.0,
+    "soundness": 0.975925925925926,
+    "n_flagged": 1,
+    "n_incorrect": 0,
+    "n_claims": 27,
+    "hgA": 0.9784
+  },
+  {
+    "trace_id": "PMC10481824",
+    "label": "sound",
+    "y": 1.0,
+    "soundness": 1.0,
+    "n_flagged": 0,
+    "n_incorrect": 0,
+    "n_claims": 21,
+    "hgA": 0.9967
+  },
+  {
+    "trace_id": "PMC10481824",
+    "label": "flawed",
+    "y": 0.0,
+    "soundness": 0.9178571428571428,
+    "n_flagged": 3,
+    "n_incorrect": 1,
+    "n_claims": 28,
+    "hgA": 0.7919
+  },
+  {
+    "trace_id": "PMC10551103",
+    "label": "sound",
+    "y": 1.0,
+    "soundness": 0.875,
+    "n_flagged": 5,
+    "n_incorrect": 0,
+    "n_claims": 26,
+    "hgA": 0.7449
+  },
+  {
+    "trace_id": "PMC10499291",
+    "label": "sound",
+    "y": 1.0,
+    "soundness": 1.0,
+    "n_flagged": 0,
+    "n_incorrect": 0,
+    "n_claims": 38,
+    "hgA": 0.9915
+  },
+  {
+    "trace_id": "PMC10551103",
+    "label": "flawed",
+    "y": 0.0,
+    "soundness": 0.8375,
+    "n_flagged": 7,
+    "n_incorrect": 0,
+    "n_claims": 28,
+    "hgA": 0.7479
+  },
+  {
+    "trace_id": "PMC10602372",
+    "label": "sound",
+    "y": 1.0,
+    "soundness": 0.9380952380952381,
+    "n_flagged": 2,
+    "n_incorrect": 0,
+    "n_claims": 21,
+    "hgA": 0.9949
+  },
+  {
+    "trace_id": "PMC10577159",
+    "label": "flawed",
+    "y": 0.0,
+    "soundness": 0.8795454545454546,
+    "n_flagged": 3,
+    "n_incorrect": 2,
+    "n_claims": 22,
+    "hgA": 0.5504
+  },
+  {
+    "trace_id": "PMC10577159",
+    "label": "sound",
+    "y": 1.0,
+    "soundness": 0.9690476190476192,
+    "n_flagged": 1,
+    "n_incorrect": 0,
+    "n_claims": 21,
+    "hgA": 0.9965
+  },
+  {
+    "trace_id": "PMC10602372",
+    "label": "flawed",
+    "y": 0.0,
+    "soundness": 0.9717391304347827,
+    "n_flagged": 1,
+    "n_incorrect": 0,
+    "n_claims": 23,
+    "hgA": 0.763
+  },
+  {
+    "trace_id": "PMC10622404",
+    "label": "sound",
+    "y": 1.0,
+    "soundness": 0.9458333333333333,
+    "n_flagged": 2,
+    "n_incorrect": 0,
+    "n_claims": 24,
+    "hgA": 0.9838
+  },
+  {
+    "trace_id": "PMC10714326",
+    "label": "sound",
+    "y": 1.0,
+    "soundness": 1.0,
+    "n_flagged": 0,
+    "n_incorrect": 0,
+    "n_claims": 20,
+    "hgA": 0.5985
+  },
+  {
+    "trace_id": "PMC10714326",
+    "label": "flawed",
+    "y": 0.0,
+    "soundness": 0.8795454545454546,
+    "n_flagged": 3,
+    "n_incorrect": 2,
+    "n_claims": 22,
+    "hgA": 0.2663
+  },
+  {
+    "trace_id": "PMC10622404",
+    "label": "flawed",
+    "y": 0.0,
+    "soundness": 0.9450000000000001,
+    "n_flagged": 2,
+    "n_incorrect": 1,
+    "n_claims": 30,
+    "hgA": 0.5938
+  },
+  {
+    "trace_id": "PMC10626292",
+    "label": "sound",
+    "y": 1.0,
+    "soundness": 1.0,
+    "n_flagged": 0,
+    "n_incorrect": 0,
+    "n_claims": 28,
+    "hgA": 0.9432
+  },
+  {
+    "trace_id": "PMC10626292",
+    "label": "flawed",
+    "y": 0.0,
+    "soundness": 0.9666666666666667,
+    "n_flagged": 1,
+    "n_incorrect": 1,
+    "n_claims": 30,
+    "hgA": 0.555
+  },
+  {
+    "trace_id": "PMC10849070",
+    "label": "sound",
+    "y": 1.0,
+    "soundness": 0.8973684210526316,
+    "n_flagged": 3,
+    "n_incorrect": 0,
+    "n_claims": 19,
+    "hgA": 0.9981
+  },
+  {
+    "trace_id": "PMC10725598",
+    "label": "flawed",
+    "y": 0.0,
+    "soundness": 0.8695652173913043,
+    "n_flagged": 3,
+    "n_incorrect": 3,
+    "n_claims": 23,
+    "hgA": 0.553
+  },
+  {
+    "trace_id": "PMC10725598",
+    "label": "sound",
+    "y": 1.0,
+    "soundness": 1.0,
+    "n_flagged": 0,
+    "n_incorrect": 0,
+    "n_claims": 31,
+    "hgA": 0.9455
+  },
+  {
+    "trace_id": "PMC10849070",
+    "label": "flawed",
+    "y": 0.0,
+    "soundness": 0.9086206896551725,
+    "n_flagged": 3,
+    "n_incorrect": 2,
+    "n_claims": 29,
+    "hgA": 0.7478
+  },
+  {
+    "trace_id": "PMC10873692",
+    "label": "sound",
+    "y": 1.0,
+    "soundness": 1.0,
+    "n_flagged": 0,
+    "n_incorrect": 0,
+    "n_claims": 44,
+    "hgA": 0.9748
+  },
+  {
+    "trace_id": "PMC10901261",
+    "label": "sound",
+    "y": 1.0,
+    "soundness": 1.0,
+    "n_flagged": 0,
+    "n_incorrect": 0,
+    "n_claims": 27,
+    "hgA": 0.9878
+  },
+  {
+    "trace_id": "PMC10873692",
+    "label": "flawed",
+    "y": 0.0,
+    "soundness": 0.8971428571428571,
+    "n_flagged": 5,
+    "n_incorrect": 1,
+    "n_claims": 35,
+    "hgA": 0.3327
+  },
+  {
+    "trace_id": "PMC10901261",
+    "label": "flawed",
+    "y": 0.0,
+    "soundness": 0.9767857142857144,
+    "n_flagged": 1,
+    "n_incorrect": 0,
+    "n_claims": 28,
+    "hgA": 0.7951
+  },
+  {
+    "trace_id": "PMC10971827",
+    "label": "sound",
+    "y": 1.0,
+    "soundness": 0.9790322580645162,
+    "n_flagged": 1,
+    "n_incorrect": 0,
+    "n_claims": 31,
+    "hgA": 0.9279
+  },
+  {
+    "trace_id": "PMC10999549",
+    "label": "sound",
+    "y": 1.0,
+    "soundness": 1.0,
+    "n_flagged": 0,
+    "n_incorrect": 0,
+    "n_claims": 17,
+    "hgA": 0.9889
+  },
+  {
+    "trace_id": "PMC10971827",
+    "label": "flawed",
+    "y": 0.0,
+    "soundness": 0.9390625,
+    "n_flagged": 3,
+    "n_incorrect": 0,
+    "n_claims": 32,
+    "hgA": 0.5494
+  },
+  {
+    "trace_id": "PMC11018330",
+    "label": "sound",
+    "y": 1.0,
+    "soundness": 1.0,
+    "n_flagged": 0,
+    "n_incorrect": 0,
+    "n_claims": 22,
+    "hgA": 0.9924
+  },
+  {
+    "trace_id": "PMC10999549",
+    "label": "flawed",
+    "y": 0.0,
+    "soundness": 0.9277777777777777,
+    "n_flagged": 2,
+    "n_incorrect": 0,
+    "n_claims": 18,
+    "hgA": 0.9966
+  },
+  {
+    "trace_id": "PMC11018330",
+    "label": "flawed",
+    "y": 0.0,
+    "soundness": 0.93125,
+    "n_flagged": 2,
+    "n_incorrect": 1,
+    "n_claims": 24,
+    "hgA": 0.7975
+  },
+  {
+    "trace_id": "PMC11077173",
+    "label": "sound",
+    "y": 1.0,
+    "soundness": 1.0,
+    "n_flagged": 0,
+    "n_incorrect": 0,
+    "n_claims": 27,
+    "hgA": 0.9936
+  },
+  {
+    "trace_id": "PMC11042575",
+    "label": "sound",
+    "y": 1.0,
+    "soundness": 0.963888888888889,
+    "n_flagged": 2,
+    "n_incorrect": 0,
+    "n_claims": 36,
+    "hgA": 0.9982
+  },
+  {
+    "trace_id": "PMC11042575",
+    "label": "flawed",
+    "y": 0.0,
+    "soundness": 0.9243589743589743,
+    "n_flagged": 4,
+    "n_incorrect": 1,
+    "n_claims": 39,
+    "hgA": 0.9404
+  },
+  {
+    "trace_id": "PMC11077173",
+    "label": "flawed",
+    "y": 0.0,
+    "soundness": 0.9583333333333334,
+    "n_flagged": 1,
+    "n_incorrect": 1,
+    "n_claims": 24,
+    "hgA": 0.553
+  },
+  {
+    "trace_id": "PMC11079535",
+    "label": "sound",
+    "y": 1.0,
+    "soundness": 1.0,
+    "n_flagged": 0,
+    "n_incorrect": 0,
+    "n_claims": 37,
+    "hgA": 0.9786
+  },
+  {
+    "trace_id": "PMC11097741",
+    "label": "sound",
+    "y": 1.0,
+    "soundness": 0.9675,
+    "n_flagged": 1,
+    "n_incorrect": 0,
+    "n_claims": 20,
+    "hgA": 0.9937
+  },
+  {
+    "trace_id": "PMC11079535",
+    "label": "flawed",
+    "y": 0.0,
+    "soundness": 1.0,
+    "n_flagged": 0,
+    "n_incorrect": 0,
+    "n_claims": 38,
+    "hgA": 0.7928
+  },
+  {
+    "trace_id": "PMC11097741",
+    "label": "flawed",
+    "y": 0.0,
+    "soundness": 0.9565217391304348,
+    "n_flagged": 1,
+    "n_incorrect": 1,
+    "n_claims": 23,
+    "hgA": 0.7963
+  },
+  {
+    "trace_id": "PMC11126872",
+    "label": "sound",
+    "y": 1.0,
+    "soundness": 0.975925925925926,
+    "n_flagged": 1,
+    "n_incorrect": 0,
+    "n_claims": 27,
+    "hgA": 0.937
+  },
+  {
+    "trace_id": "PMC11126872",
+    "label": "flawed",
+    "y": 0.0,
+    "soundness": 0.8789473684210526,
+    "n_flagged": 6,
+    "n_incorrect": 2,
+    "n_claims": 38,
+    "hgA": 0.5497
+  },
+  {
+    "trace_id": "PMC11154768",
+    "label": "sound",
+    "y": 1.0,
+    "soundness": 1.0,
+    "n_flagged": 0,
+    "n_incorrect": 0,
+    "n_claims": 20,
+    "hgA": 0.9938
+  },
+  {
+    "trace_id": "PMC11133391",
+    "label": "flawed",
+    "y": 0.0,
+    "soundness": 0.8636363636363636,
+    "n_flagged": 3,
+    "n_incorrect": 3,
+    "n_claims": 22,
+    "hgA": 0.3147
+  },
+  {
+    "trace_id": "PMC10499291",
+    "label": "flawed",
+    "y": 0.0,
+    "soundness": 0.9783333333333334,
+    "n_flagged": 1,
+    "n_incorrect": 0,
+    "n_claims": 30,
+    "hgA": 0.9348
+  },
+  {
+    "trace_id": "PMC11202767",
+    "label": "flawed",
+    "y": 0.0,
+    "soundness": 0.9775862068965517,
+    "n_flagged": 1,
+    "n_incorrect": 0,
+    "n_claims": 29,
+    "hgA": 0.9486
+  },
+  {
+    "trace_id": "PMC11154768",
+    "label": "flawed",
+    "y": 0.0,
+    "soundness": 0.938888888888889,
+    "n_flagged": 2,
+    "n_incorrect": 1,
+    "n_claims": 27,
+    "hgA": 0.5877
+  },
+  {
+    "trace_id": "PMC11133391",
+    "label": "sound",
+    "y": 1.0,
+    "soundness": 1.0,
+    "n_flagged": 0,
+    "n_incorrect": 0,
+    "n_claims": 26,
+    "hgA": 0.9919
+  },
+  {
+    "trace_id": "PMC11282747",
+    "label": "flawed",
+    "y": 0.0,
+    "soundness": 1.0,
+    "n_flagged": 0,
+    "n_incorrect": 0,
+    "n_claims": 27,
+    "hgA": 0.836
+  },
+  {
+    "trace_id": "PMC11282747",
+    "label": "sound",
+    "y": 1.0,
+    "soundness": 1.0,
+    "n_flagged": 0,
+    "n_incorrect": 0,
+    "n_claims": 21,
+    "hgA": 0.9405
+  },
+  {
+    "trace_id": "PMC11294736",
+    "label": "sound",
+    "y": 1.0,
+    "soundness": 0.9704545454545456,
+    "n_flagged": 1,
+    "n_incorrect": 0,
+    "n_claims": 22,
+    "hgA": 0.9385
+  },
+  {
+    "trace_id": "PMC11202767",
+    "label": "sound",
+    "y": 1.0,
+    "soundness": 0.9161290322580645,
+    "n_flagged": 4,
+    "n_incorrect": 0,
+    "n_claims": 31,
+    "hgA": 0.9447
+  },
+  {
+    "trace_id": "PMC11333128",
+    "label": "sound",
+    "y": 1.0,
+    "soundness": 1.0,
+    "n_flagged": 0,
+    "n_incorrect": 0,
+    "n_claims": 12,
+    "hgA": 0.9825
+  },
+  {
+    "trace_id": "PMC11294736",
+    "label": "flawed",
+    "y": 0.0,
+    "soundness": 0.9545454545454546,
+    "n_flagged": 1,
+    "n_incorrect": 1,
+    "n_claims": 22,
+    "hgA": 0.7949
+  },
+  {
+    "trace_id": "PMC11387283",
+    "label": "sound",
+    "y": 1.0,
+    "soundness": 0.9315789473684211,
+    "n_flagged": 2,
+    "n_incorrect": 0,
+    "n_claims": 19,
+    "hgA": 0.9979
+  },
+  {
+    "trace_id": "PMC11337001",
+    "label": "sound",
+    "y": 1.0,
+    "soundness": 0.9729166666666668,
+    "n_flagged": 1,
+    "n_incorrect": 0,
+    "n_claims": 24,
+    "hgA": 0.9931
+  },
+  {
+    "trace_id": "PMC11337001",
+    "label": "flawed",
+    "y": 0.0,
+    "soundness": 0.9187500000000001,
+    "n_flagged": 3,
+    "n_incorrect": 0,
+    "n_claims": 24,
+    "hgA": 0.7484
+  },
+  {
+    "trace_id": "PMC11333128",
+    "label": "flawed",
+    "y": 0.0,
+    "soundness": 0.8941176470588235,
+    "n_flagged": 5,
+    "n_incorrect": 1,
+    "n_claims": 34,
+    "hgA": 0.4012
+  },
+  {
+    "trace_id": "PMC11387283",
+    "label": "flawed",
+    "y": 0.0,
+    "soundness": 0.9029411764705882,
+    "n_flagged": 2,
+    "n_incorrect": 1,
+    "n_claims": 17,
+    "hgA": 0.992
+  },
+  {
+    "trace_id": "PMC11424769",
+    "label": "sound",
+    "y": 1.0,
+    "soundness": 0.9566666666666667,
+    "n_flagged": 1,
+    "n_incorrect": 0,
+    "n_claims": 15,
+    "hgA": 0.9469
+  },
+  {
+    "trace_id": "PMC11447760",
+    "label": "sound",
+    "y": 1.0,
+    "soundness": 1.0,
+    "n_flagged": 0,
+    "n_incorrect": 0,
+    "n_claims": 16,
+    "hgA": 0.9788
+  },
+  {
+    "trace_id": "PMC11447760",
+    "label": "flawed",
+    "y": 0.0,
+    "soundness": 0.8973684210526316,
+    "n_flagged": 3,
+    "n_incorrect": 0,
+    "n_claims": 19,
+    "hgA": 0.9471
+  },
+  {
+    "trace_id": "PMC11424769",
+    "label": "flawed",
+    "y": 0.0,
+    "soundness": 0.8869565217391304,
+    "n_flagged": 4,
+    "n_incorrect": 0,
+    "n_claims": 23,
+    "hgA": 0.5523
+  },
+  {
+    "trace_id": "PMC11535749",
+    "label": "sound",
+    "y": 1.0,
+    "soundness": 0.9617647058823531,
+    "n_flagged": 1,
+    "n_incorrect": 0,
+    "n_claims": 17,
+    "hgA": 0.9957
+  },
+  {
+    "trace_id": "PMC11452241",
+    "label": "sound",
+    "y": 1.0,
+    "soundness": 0.9606060606060606,
+    "n_flagged": 2,
+    "n_incorrect": 0,
+    "n_claims": 33,
+    "hgA": 0.9989
+  },
+  {
+    "trace_id": "PMC11452241",
+    "label": "flawed",
+    "y": 0.0,
+    "soundness": 0.9342857142857144,
+    "n_flagged": 3,
+    "n_incorrect": 1,
+    "n_claims": 35,
+    "hgA": 0.7539
+  },
+  {
+    "trace_id": "PMC11552163",
+    "label": "sound",
+    "y": 1.0,
+    "soundness": 0.9409090909090909,
+    "n_flagged": 2,
+    "n_incorrect": 0,
+    "n_claims": 22,
+    "hgA": 0.9436
+  },
+  {
+    "trace_id": "PMC11573733",
+    "label": "sound",
+    "y": 1.0,
+    "soundness": 0.963888888888889,
+    "n_flagged": 1,
+    "n_incorrect": 0,
+    "n_claims": 18,
+    "hgA": 0.9875
+  },
+  {
+    "trace_id": "PMC11552163",
+    "label": "flawed",
+    "y": 0.0,
+    "soundness": 0.9178571428571428,
+    "n_flagged": 3,
+    "n_incorrect": 1,
+    "n_claims": 28,
+    "hgA": 0.7951
+  },
+  {
+    "trace_id": "PMC11602436",
+    "label": "sound",
+    "y": 1.0,
+    "soundness": 1.0,
+    "n_flagged": 0,
+    "n_incorrect": 0,
+    "n_claims": 23,
+    "hgA": 0.9887
+  },
+  {
+    "trace_id": "PMC11573733",
+    "label": "flawed",
+    "y": 0.0,
+    "soundness": 1.0,
+    "n_flagged": 0,
+    "n_incorrect": 0,
+    "n_claims": 23,
+    "hgA": 0.8033
+  },
+  {
+    "trace_id": "PMC11602436",
+    "label": "flawed",
+    "y": 0.0,
+    "soundness": 1.0,
+    "n_flagged": 0,
+    "n_incorrect": 0,
+    "n_claims": 26,
+    "hgA": 0.459
+  },
+  {
+    "trace_id": "PMC11624566",
+    "label": "flawed",
+    "y": 0.0,
+    "soundness": 0.9303571428571429,
+    "n_flagged": 3,
+    "n_incorrect": 0,
+    "n_claims": 28,
+    "hgA": 0.7529
+  },
+  {
+    "trace_id": "PMC11654271",
+    "label": "sound",
+    "y": 1.0,
+    "soundness": 0.93125,
+    "n_flagged": 2,
+    "n_incorrect": 1,
+    "n_claims": 24,
+    "hgA": 0.9405
+  },
+  {
+    "trace_id": "PMC11624566",
+    "label": "sound",
+    "y": 1.0,
+    "soundness": 0.9535714285714285,
+    "n_flagged": 2,
+    "n_incorrect": 0,
+    "n_claims": 28,
+    "hgA": 0.9418
+  },
+  {
+    "trace_id": "PMC11654271",
+    "label": "flawed",
+    "y": 0.0,
+    "soundness": 0.9615384615384616,
+    "n_flagged": 1,
+    "n_incorrect": 1,
+    "n_claims": 26,
+    "hgA": 0.7959
+  },
+  {
+    "trace_id": "PMC11671661",
+    "label": "sound",
+    "y": 1.0,
+    "soundness": 1.0,
+    "n_flagged": 0,
+    "n_incorrect": 0,
+    "n_claims": 22,
+    "hgA": 0.9446
+  },
+  {
+    "trace_id": "PMC11535749",
+    "label": "flawed",
+    "y": 0.0,
+    "soundness": 0.95,
+    "n_flagged": 2,
+    "n_incorrect": 0,
+    "n_claims": 26,
+    "hgA": 0.7423
+  },
+  {
+    "trace_id": "PMC11671661",
+    "label": "flawed",
+    "y": 0.0,
+    "soundness": 0.8947368421052632,
+    "n_flagged": 2,
+    "n_incorrect": 2,
+    "n_claims": 19,
+    "hgA": 0.7511
+  },
+  {
+    "trace_id": "PMC11821356",
+    "label": "sound",
+    "y": 1.0,
+    "soundness": 0.9790322580645162,
+    "n_flagged": 1,
+    "n_incorrect": 0,
+    "n_claims": 31,
+    "hgA": 0.725
+  },
+  {
+    "trace_id": "PMC11821356",
+    "label": "flawed",
+    "y": 0.0,
+    "soundness": 0.9410714285714287,
+    "n_flagged": 2,
+    "n_incorrect": 1,
+    "n_claims": 28,
+    "hgA": 0.5469
+  },
+  {
+    "trace_id": "PMC11843684",
+    "label": "sound",
+    "y": 1.0,
+    "soundness": 0.9551724137931035,
+    "n_flagged": 2,
+    "n_incorrect": 0,
+    "n_claims": 29,
+    "hgA": 0.95
+  },
+  {
+    "trace_id": "PMC12010641",
+    "label": "sound",
+    "y": 1.0,
+    "soundness": 1.0,
+    "n_flagged": 0,
+    "n_incorrect": 0,
+    "n_claims": 32,
+    "hgA": 0.7941
+  },
+  {
+    "trace_id": "PMC11843684",
+    "label": "flawed",
+    "y": 0.0,
+    "soundness": 0.913235294117647,
+    "n_flagged": 4,
+    "n_incorrect": 1,
+    "n_claims": 34,
+    "hgA": 0.3615
+  },
+  {
+    "trace_id": "PMC12010641",
+    "label": "flawed",
+    "y": 0.0,
+    "soundness": 0.9808823529411765,
+    "n_flagged": 1,
+    "n_incorrect": 0,
+    "n_claims": 34,
+    "hgA": 0.5846
+  },
+  {
+    "trace_id": "PMC1948010",
+    "label": "sound",
+    "y": 1.0,
+    "soundness": 1.0,
+    "n_flagged": 0,
+    "n_incorrect": 0,
+    "n_claims": 18,
+    "hgA": 0.9854
+  },
+  {
+    "trace_id": "PMC12014310",
+    "label": "flawed",
+    "y": 0.0,
+    "soundness": 0.9018518518518519,
+    "n_flagged": 3,
+    "n_incorrect": 2,
+    "n_claims": 27,
+    "hgA": 0.2902
+  },
+  {
+    "trace_id": "PMC12014310",
+    "label": "sound",
+    "y": 1.0,
+    "soundness": 0.9814285714285714,
+    "n_flagged": 1,
+    "n_incorrect": 0,
+    "n_claims": 35,
+    "hgA": 0.9873
+  },
+  {
+    "trace_id": "PMC1948010",
+    "label": "flawed",
+    "y": 0.0,
+    "soundness": 0.9115384615384615,
+    "n_flagged": 3,
+    "n_incorrect": 1,
+    "n_claims": 26,
+    "hgA": 0.7368
+  },
+  {
+    "trace_id": "PMC2394532",
+    "label": "sound",
+    "y": 1.0,
+    "soundness": 1.0,
+    "n_flagged": 0,
+    "n_incorrect": 0,
+    "n_claims": 21,
+    "hgA": 0.9963
+  },
+  {
+    "trace_id": "PMC2396655",
+    "label": "flawed",
+    "y": 0.0,
+    "soundness": 0.8947368421052632,
+    "n_flagged": 2,
+    "n_incorrect": 2,
+    "n_claims": 19,
+    "hgA": 0.6016
+  },
+  {
+    "trace_id": "PMC2394532",
+    "label": "flawed",
+    "y": 0.0,
+    "soundness": 0.9277777777777778,
+    "n_flagged": 3,
+    "n_incorrect": 0,
+    "n_claims": 27,
+    "hgA": 0.7915
+  },
+  {
+    "trace_id": "PMC2914667",
+    "label": "sound",
+    "y": 1.0,
+    "soundness": 0.9740000000000001,
+    "n_flagged": 1,
+    "n_incorrect": 0,
+    "n_claims": 25,
+    "hgA": 0.9828
+  },
+  {
+    "trace_id": "PMC2396655",
+    "label": "sound",
+    "y": 1.0,
+    "soundness": 1.0,
+    "n_flagged": 0,
+    "n_incorrect": 0,
+    "n_claims": 14,
+    "hgA": 0.9946
+  },
+  {
+    "trace_id": "PMC2914667",
+    "label": "flawed",
+    "y": 0.0,
+    "soundness": 0.9767857142857144,
+    "n_flagged": 1,
+    "n_incorrect": 0,
+    "n_claims": 28,
+    "hgA": 0.9865
+  },
+  {
+    "trace_id": "PMC2934912",
+    "label": "sound",
+    "y": 1.0,
+    "soundness": 0.9277777777777778,
+    "n_flagged": 3,
+    "n_incorrect": 0,
+    "n_claims": 27,
+    "hgA": 0.9884
+  },
+  {
+    "trace_id": "PMC2934912",
+    "label": "flawed",
+    "y": 0.0,
+    "soundness": 0.9115384615384615,
+    "n_flagged": 3,
+    "n_incorrect": 1,
+    "n_claims": 26,
+    "hgA": 0.9831
+  },
+  {
+    "trace_id": "PMC3138437",
+    "label": "sound",
+    "y": 1.0,
+    "soundness": 0.9675,
+    "n_flagged": 1,
+    "n_incorrect": 0,
+    "n_claims": 20,
+    "hgA": 0.95
+  },
+  {
+    "trace_id": "PMC3138437",
+    "label": "flawed",
+    "y": 0.0,
+    "soundness": 0.8789473684210526,
+    "n_flagged": 3,
+    "n_incorrect": 1,
+    "n_claims": 19,
+    "hgA": 0.7536
+  },
+  {
+    "trace_id": "PMC3170347",
+    "label": "flawed",
+    "y": 0.0,
+    "soundness": 1.0,
+    "n_flagged": 0,
+    "n_incorrect": 0,
+    "n_claims": 30,
+    "hgA": 0.7432
+  },
+  {
+    "trace_id": "PMC3271452",
+    "label": "sound",
+    "y": 1.0,
+    "soundness": 0.9690476190476192,
+    "n_flagged": 1,
+    "n_incorrect": 0,
+    "n_claims": 21,
+    "hgA": 0.9913
+  },
+  {
+    "trace_id": "PMC3170347",
+    "label": "sound",
+    "y": 1.0,
+    "soundness": 0.9824324324324325,
+    "n_flagged": 1,
+    "n_incorrect": 0,
+    "n_claims": 37,
+    "hgA": 0.9423
+  },
+  {
+    "trace_id": "PMC3263537",
+    "label": "flawed",
+    "y": 0.0,
+    "soundness": 0.9431034482758621,
+    "n_flagged": 2,
+    "n_incorrect": 1,
+    "n_claims": 29,
+    "hgA": 0.7509
+  },
+  {
+    "trace_id": "PMC3263537",
+    "label": "sound",
+    "y": 1.0,
+    "soundness": 1.0,
+    "n_flagged": 0,
+    "n_incorrect": 0,
+    "n_claims": 20,
+    "hgA": 0.9459
+  },
+  {
+    "trace_id": "PMC3271452",
+    "label": "flawed",
+    "y": 0.0,
+    "soundness": 0.95,
+    "n_flagged": 2,
+    "n_incorrect": 0,
+    "n_claims": 26,
+    "hgA": 0.8004
+  },
+  {
+    "trace_id": "PMC3350282",
+    "label": "flawed",
+    "y": 0.0,
+    "soundness": 0.9409090909090909,
+    "n_flagged": 2,
+    "n_incorrect": 0,
+    "n_claims": 22,
+    "hgA": 0.9976
+  },
+  {
+    "trace_id": "PMC3423660",
+    "label": "sound",
+    "y": 1.0,
+    "soundness": 0.9025000000000001,
+    "n_flagged": 3,
+    "n_incorrect": 0,
+    "n_claims": 20,
+    "hgA": 0.7442
+  },
+  {
+    "trace_id": "PMC3423776",
+    "label": "sound",
+    "y": 1.0,
+    "soundness": 0.9657894736842106,
+    "n_flagged": 1,
+    "n_incorrect": 0,
+    "n_claims": 19,
+    "hgA": 0.9937
+  },
+  {
+    "trace_id": "PMC3423660",
+    "label": "flawed",
+    "y": 0.0,
+    "soundness": 0.8365384615384616,
+    "n_flagged": 6,
+    "n_incorrect": 1,
+    "n_claims": 26,
+    "hgA": 0.4476
+  },
+  {
+    "trace_id": "PMC3423776",
+    "label": "flawed",
+    "y": 0.0,
+    "soundness": 0.865909090909091,
+    "n_flagged": 4,
+    "n_incorrect": 1,
+    "n_claims": 22,
+    "hgA": 0.7513
+  },
+  {
+    "trace_id": "PMC3459730",
+    "label": "sound",
+    "y": 1.0,
+    "soundness": 0.9675,
+    "n_flagged": 1,
+    "n_incorrect": 0,
+    "n_claims": 20,
+    "hgA": 0.948
+  },
+  {
+    "trace_id": "PMC3459806",
+    "label": "sound",
+    "y": 1.0,
+    "soundness": 1.0,
+    "n_flagged": 0,
+    "n_incorrect": 0,
+    "n_claims": 19,
+    "hgA": 0.9925
+  },
+  {
+    "trace_id": "PMC3459730",
+    "label": "flawed",
+    "y": 0.0,
+    "soundness": 0.7777777777777778,
+    "n_flagged": 6,
+    "n_incorrect": 6,
+    "n_claims": 27,
+    "hgA": 0.7401
+  },
+  {
+    "trace_id": "PMC3543206",
+    "label": "sound",
+    "y": 1.0,
+    "soundness": 1.0,
+    "n_flagged": 0,
+    "n_incorrect": 0,
+    "n_claims": 11,
+    "hgA": 0.9933
+  },
+  {
+    "trace_id": "PMC3543206",
+    "label": "flawed",
+    "y": 0.0,
+    "soundness": 1.0,
+    "n_flagged": 0,
+    "n_incorrect": 0,
+    "n_claims": 11,
+    "hgA": 0.9335
+  },
+  {
+    "trace_id": "PMC3459806",
+    "label": "flawed",
+    "y": 0.0,
+    "soundness": 0.9566666666666667,
+    "n_flagged": 2,
+    "n_incorrect": 0,
+    "n_claims": 30,
+    "hgA": 0.7985
+  },
+  {
+    "trace_id": "PMC3544661",
+    "label": "sound",
+    "y": 1.0,
+    "soundness": 1.0,
+    "n_flagged": 0,
+    "n_incorrect": 0,
+    "n_claims": 16,
+    "hgA": 0.939
+  },
+  {
+    "trace_id": "PMC3544661",
+    "label": "flawed",
+    "y": 0.0,
+    "soundness": 1.0,
+    "n_flagged": 0,
+    "n_incorrect": 0,
+    "n_claims": 21,
+    "hgA": 0.606
+  },
+  {
+    "trace_id": "PMC3673371",
+    "label": "sound",
+    "y": 1.0,
+    "soundness": 1.0,
+    "n_flagged": 0,
+    "n_incorrect": 0,
+    "n_claims": 26,
+    "hgA": 0.9914
+  },
+  {
+    "trace_id": "PMC3657244",
+    "label": "flawed",
+    "y": 0.0,
+    "soundness": 0.91875,
+    "n_flagged": 4,
+    "n_incorrect": 0,
+    "n_claims": 32,
+    "hgA": 0.7959
+  },
+  {
+    "trace_id": "PMC3884960",
+    "label": "sound",
+    "y": 1.0,
+    "soundness": 0.9333333333333333,
+    "n_flagged": 1,
+    "n_incorrect": 1,
+    "n_claims": 15,
+    "hgA": 0.7435
+  },
+  {
+    "trace_id": "PMC3350282",
+    "label": "sound",
+    "y": 1.0,
+    "soundness": 0.9518518518518518,
+    "n_flagged": 2,
+    "n_incorrect": 0,
+    "n_claims": 27,
+    "hgA": 0.9852
+  },
+  {
+    "trace_id": "PMC3884960",
+    "label": "flawed",
+    "y": 0.0,
+    "soundness": 0.9090909090909091,
+    "n_flagged": 2,
+    "n_incorrect": 2,
+    "n_claims": 22,
+    "hgA": 0.6826
+  },
+  {
+    "trace_id": "PMC3892129",
+    "label": "flawed",
+    "y": 0.0,
+    "soundness": 0.9375,
+    "n_flagged": 1,
+    "n_incorrect": 1,
+    "n_claims": 16,
+    "hgA": 0.75
+  },
+  {
+    "trace_id": "PMC3892129",
+    "label": "sound",
+    "y": 1.0,
+    "soundness": 1.0,
+    "n_flagged": 0,
+    "n_incorrect": 0,
+    "n_claims": 15,
+    "hgA": 0.9393
+  },
+  {
+    "trace_id": "PMC3934446",
+    "label": "sound",
+    "y": 1.0,
+    "soundness": 1.0,
+    "n_flagged": 0,
+    "n_incorrect": 0,
+    "n_claims": 20,
+    "hgA": 0.9976
+  },
+  {
+    "trace_id": "PMC3657244",
+    "label": "sound",
+    "y": 1.0,
+    "soundness": 0.959375,
+    "n_flagged": 2,
+    "n_incorrect": 0,
+    "n_claims": 32,
+    "hgA": 0.998
+  },
+  {
+    "trace_id": "PMC3934455",
+    "label": "flawed",
+    "y": 0.0,
+    "soundness": 0.9,
+    "n_flagged": 3,
+    "n_incorrect": 3,
+    "n_claims": 30,
+    "hgA": 0.7437
+  },
+  {
+    "trace_id": "PMC3934455",
+    "label": "sound",
+    "y": 1.0,
+    "soundness": 1.0,
+    "n_flagged": 0,
+    "n_incorrect": 0,
+    "n_claims": 31,
+    "hgA": 0.9418
+  },
+  {
+    "trace_id": "PMC3934446",
+    "label": "flawed",
+    "y": 0.0,
+    "soundness": 0.9458333333333333,
+    "n_flagged": 2,
+    "n_incorrect": 0,
+    "n_claims": 24,
+    "hgA": 0.9948
+  },
+  {
+    "trace_id": "PMC3961933",
+    "label": "flawed",
+    "y": 0.0,
+    "soundness": 0.8959999999999999,
+    "n_flagged": 4,
+    "n_incorrect": 0,
+    "n_claims": 25,
+    "hgA": 0.9987
+  },
+  {
+    "trace_id": "PMC3961933",
+    "label": "sound",
+    "y": 1.0,
+    "soundness": 1.0,
+    "n_flagged": 0,
+    "n_incorrect": 0,
+    "n_claims": 24,
+    "hgA": 0.9712
+  },
+  {
+    "trace_id": "PMC4008396",
+    "label": "sound",
+    "y": 1.0,
+    "soundness": 0.9434782608695652,
+    "n_flagged": 2,
+    "n_incorrect": 0,
+    "n_claims": 23,
+    "hgA": 0.9931
+  },
+  {
+    "trace_id": "PMC4008396",
+    "label": "flawed",
+    "y": 0.0,
+    "soundness": 0.9740000000000001,
+    "n_flagged": 1,
+    "n_incorrect": 0,
+    "n_claims": 25,
+    "hgA": 0.9481
+  },
+  {
+    "trace_id": "PMC4020529",
+    "label": "sound",
+    "y": 1.0,
+    "soundness": 1.0,
+    "n_flagged": 0,
+    "n_incorrect": 0,
+    "n_claims": 30,
+    "hgA": 0.9901
+  },
+  {
+    "trace_id": "PMC4052038",
+    "label": "sound",
+    "y": 1.0,
+    "soundness": 0.9657894736842106,
+    "n_flagged": 1,
+    "n_incorrect": 0,
+    "n_claims": 19,
+    "hgA": 0.9972
+  },
+  {
+    "trace_id": "PMC3673371",
+    "label": "flawed",
+    "y": 0.0,
+    "soundness": 0.9704545454545456,
+    "n_flagged": 1,
+    "n_incorrect": 0,
+    "n_claims": 22,
+    "hgA": 0.7369
+  },
+  {
+    "trace_id": "PMC4020529",
+    "label": "flawed",
+    "y": 0.0,
+    "soundness": 0.9145161290322581,
+    "n_flagged": 3,
+    "n_incorrect": 2,
+    "n_claims": 31,
+    "hgA": 0.5987
+  },
+  {
+    "trace_id": "PMC4052038",
+    "label": "flawed",
+    "y": 0.0,
+    "soundness": 0.9175000000000001,
+    "n_flagged": 2,
+    "n_incorrect": 1,
+    "n_claims": 20,
+    "hgA": 0.5561
+  },
+  {
+    "trace_id": "PMC4054582",
+    "label": "sound",
+    "y": 1.0,
+    "soundness": 1.0,
+    "n_flagged": 0,
+    "n_incorrect": 0,
+    "n_claims": 22,
+    "hgA": 0.9898
+  },
+  {
+    "trace_id": "PMC4140119",
+    "label": "sound",
+    "y": 1.0,
+    "soundness": 0.9675,
+    "n_flagged": 1,
+    "n_incorrect": 0,
+    "n_claims": 20,
+    "hgA": 0.9419
+  },
+  {
+    "trace_id": "PMC4147826",
+    "label": "sound",
+    "y": 1.0,
+    "soundness": 1.0,
+    "n_flagged": 0,
+    "n_incorrect": 0,
+    "n_claims": 28,
+    "hgA": 0.9943
+  },
+  {
+    "trace_id": "PMC4147826",
+    "label": "flawed",
+    "y": 0.0,
+    "soundness": 0.882,
+    "n_flagged": 4,
+    "n_incorrect": 1,
+    "n_claims": 25,
+    "hgA": 0.5428
+  },
+  {
+    "trace_id": "PMC4054582",
+    "label": "flawed",
+    "y": 0.0,
+    "soundness": 0.9523809523809523,
+    "n_flagged": 1,
+    "n_incorrect": 1,
+    "n_claims": 21,
+    "hgA": 0.9892
+  },
+  {
+    "trace_id": "PMC4223599",
+    "label": "flawed",
+    "y": 0.0,
+    "soundness": 0.9303571428571429,
+    "n_flagged": 3,
+    "n_incorrect": 0,
+    "n_claims": 28,
+    "hgA": 0.9475
+  },
+  {
+    "trace_id": "PMC4223599",
+    "label": "sound",
+    "y": 1.0,
+    "soundness": 0.9767857142857144,
+    "n_flagged": 1,
+    "n_incorrect": 0,
+    "n_claims": 28,
+    "hgA": 0.9987
+  },
+  {
+    "trace_id": "PMC4280803",
+    "label": "sound",
+    "y": 1.0,
+    "soundness": 1.0,
+    "n_flagged": 0,
+    "n_incorrect": 0,
+    "n_claims": 19,
+    "hgA": 0.9417
+  },
+  {
+    "trace_id": "PMC4280803",
+    "label": "flawed",
+    "y": 0.0,
+    "soundness": 0.8946428571428572,
+    "n_flagged": 4,
+    "n_incorrect": 1,
+    "n_claims": 28,
+    "hgA": 0.7485
+  },
+  {
+    "trace_id": "PMC4300562",
+    "label": "sound",
+    "y": 1.0,
+    "soundness": 1.0,
+    "n_flagged": 0,
+    "n_incorrect": 0,
+    "n_claims": 17,
+    "hgA": 0.9956
+  },
+  {
+    "trace_id": "PMC4300562",
+    "label": "flawed",
+    "y": 0.0,
+    "soundness": 0.9704545454545456,
+    "n_flagged": 1,
+    "n_incorrect": 0,
+    "n_claims": 22,
+    "hgA": 0.7458
+  },
+  {
+    "trace_id": "PMC4323579",
+    "label": "sound",
+    "y": 1.0,
+    "soundness": 0.9729166666666668,
+    "n_flagged": 1,
+    "n_incorrect": 0,
+    "n_claims": 24,
+    "hgA": 0.9418
+  },
+  {
+    "trace_id": "PMC4323579",
+    "label": "flawed",
+    "y": 0.0,
+    "soundness": 0.8847826086956523,
+    "n_flagged": 3,
+    "n_incorrect": 2,
+    "n_claims": 23,
+    "hgA": 0.5523
+  },
+  {
+    "trace_id": "PMC4374329",
+    "label": "sound",
+    "y": 1.0,
+    "soundness": 1.0,
+    "n_flagged": 0,
+    "n_incorrect": 0,
+    "n_claims": 27,
+    "hgA": 0.9929
+  },
+  {
+    "trace_id": "PMC4374329",
+    "label": "flawed",
+    "y": 0.0,
+    "soundness": 0.9365384615384615,
+    "n_flagged": 2,
+    "n_incorrect": 1,
+    "n_claims": 26,
+    "hgA": 0.8009
+  },
+  {
+    "trace_id": "PMC4140119",
+    "label": "flawed",
+    "y": 0.0,
+    "soundness": 0.85625,
+    "n_flagged": 3,
+    "n_incorrect": 1,
+    "n_claims": 16,
+    "hgA": 0.2945
+  },
+  {
+    "trace_id": "PMC4446922",
+    "label": "flawed",
+    "y": 0.0,
+    "soundness": 0.9545454545454546,
+    "n_flagged": 1,
+    "n_incorrect": 1,
+    "n_claims": 22,
+    "hgA": 0.5999
+  },
+  {
+    "trace_id": "PMC4470191",
+    "label": "flawed",
+    "y": 0.0,
+    "soundness": 0.8464285714285714,
+    "n_flagged": 5,
+    "n_incorrect": 3,
+    "n_claims": 28,
+    "hgA": 0.2928
+  },
+  {
+    "trace_id": "PMC4501462",
+    "label": "sound",
+    "y": 1.0,
+    "soundness": 0.9434782608695652,
+    "n_flagged": 2,
+    "n_incorrect": 0,
+    "n_claims": 23,
+    "hgA": 0.996
+  },
+  {
+    "trace_id": "PMC4506805",
+    "label": "sound",
+    "y": 1.0,
+    "soundness": 0.9349999999999999,
+    "n_flagged": 2,
+    "n_incorrect": 0,
+    "n_claims": 20,
+    "hgA": 0.9389
+  },
+  {
+    "trace_id": "PMC4501462",
+    "label": "flawed",
+    "y": 0.0,
+    "soundness": 0.8907407407407407,
+    "n_flagged": 4,
+    "n_incorrect": 1,
+    "n_claims": 27,
+    "hgA": 0.9919
+  },
+  {
+    "trace_id": "PMC4446922",
+    "label": "sound",
+    "y": 1.0,
+    "soundness": 0.963888888888889,
+    "n_flagged": 1,
+    "n_incorrect": 0,
+    "n_claims": 18,
+    "hgA": 0.993
+  },
+  {
+    "trace_id": "PMC4470191",
+    "label": "sound",
+    "y": 1.0,
+    "soundness": 0.962857142857143,
+    "n_flagged": 2,
+    "n_incorrect": 0,
+    "n_claims": 35,
+    "hgA": 0.9988
+  },
+  {
+    "trace_id": "PMC4506805",
+    "label": "flawed",
+    "y": 0.0,
+    "soundness": 0.896875,
+    "n_flagged": 2,
+    "n_incorrect": 1,
+    "n_claims": 16,
+    "hgA": 0.738
+  },
+  {
+    "trace_id": "PMC4539463",
+    "label": "sound",
+    "y": 1.0,
+    "soundness": 1.0,
+    "n_flagged": 0,
+    "n_incorrect": 0,
+    "n_claims": 10,
+    "hgA": 0.9892
+  },
+  {
+    "trace_id": "PMC4506815",
+    "label": "sound",
+    "y": 1.0,
+    "soundness": 0.9458333333333333,
+    "n_flagged": 2,
+    "n_incorrect": 0,
+    "n_claims": 24,
+    "hgA": 0.9638
+  },
+  {
+    "trace_id": "PMC4506815",
+    "label": "flawed",
+    "y": 0.0,
+    "soundness": 0.9175000000000001,
+    "n_flagged": 2,
+    "n_incorrect": 1,
+    "n_claims": 20,
+    "hgA": 0.7981
+  },
+  {
+    "trace_id": "PMC4539463",
+    "label": "flawed",
+    "y": 0.0,
+    "soundness": 0.885,
+    "n_flagged": 3,
+    "n_incorrect": 1,
+    "n_claims": 20,
+    "hgA": 0.7991
+  },
+  {
+    "trace_id": "PMC4664794",
+    "label": "sound",
+    "y": 1.0,
+    "soundness": 1.0,
+    "n_flagged": 0,
+    "n_incorrect": 0,
+    "n_claims": 28,
+    "hgA": 0.9562
+  },
+  {
+    "trace_id": "PMC4664794",
+    "label": "flawed",
+    "y": 0.0,
+    "soundness": 0.9722222222222222,
+    "n_flagged": 1,
+    "n_incorrect": 1,
+    "n_claims": 36,
+    "hgA": 0.9286
+  },
+  {
+    "trace_id": "PMC4689918",
+    "label": "sound",
+    "y": 1.0,
+    "soundness": 0.925,
+    "n_flagged": 3,
+    "n_incorrect": 0,
+    "n_claims": 26,
+    "hgA": 0.9459
+  },
+  {
+    "trace_id": "PMC4707795",
+    "label": "sound",
+    "y": 1.0,
+    "soundness": 0.9566666666666667,
+    "n_flagged": 1,
+    "n_incorrect": 0,
+    "n_claims": 15,
+    "hgA": 0.9846
+  },
+  {
+    "trace_id": "PMC4707795",
+    "label": "flawed",
+    "y": 0.0,
+    "soundness": 0.89,
+    "n_flagged": 2,
+    "n_incorrect": 1,
+    "n_claims": 15,
+    "hgA": 0.7533
+  },
+  {
+    "trace_id": "PMC4689918",
+    "label": "flawed",
+    "y": 0.0,
+    "soundness": 0.9303571428571429,
+    "n_flagged": 3,
+    "n_incorrect": 0,
+    "n_claims": 28,
+    "hgA": 0.9943
+  },
+  {
+    "trace_id": "PMC4862300",
+    "label": "sound",
+    "y": 1.0,
+    "soundness": 1.0,
+    "n_flagged": 0,
+    "n_incorrect": 0,
+    "n_claims": 13,
+    "hgA": 0.9905
+  },
+  {
+    "trace_id": "PMC4862300",
+    "label": "flawed",
+    "y": 0.0,
+    "soundness": 1.0,
+    "n_flagged": 0,
+    "n_incorrect": 0,
+    "n_claims": 15,
+    "hgA": 0.7307
+  },
+  {
+    "trace_id": "PMC5054479",
+    "label": "sound",
+    "y": 1.0,
+    "soundness": 0.8916666666666667,
+    "n_flagged": 3,
+    "n_incorrect": 0,
+    "n_claims": 18,
+    "hgA": 0.9405
+  },
+  {
+    "trace_id": "PMC4929803",
+    "label": "flawed",
+    "y": 0.0,
+    "soundness": 0.9315789473684211,
+    "n_flagged": 2,
+    "n_incorrect": 0,
+    "n_claims": 19,
+    "hgA": 0.7416
+  },
+  {
+    "trace_id": "PMC5237164",
+    "label": "sound",
+    "y": 1.0,
+    "soundness": 1.0,
+    "n_flagged": 0,
+    "n_incorrect": 0,
+    "n_claims": 14,
+    "hgA": 0.9472
+  },
+  {
+    "trace_id": "PMC5237164",
+    "label": "flawed",
+    "y": 0.0,
+    "soundness": 0.9444444444444444,
+    "n_flagged": 1,
+    "n_incorrect": 1,
+    "n_claims": 18,
+    "hgA": 0.5471
+  },
+  {
+    "trace_id": "PMC5054479",
+    "label": "flawed",
+    "y": 0.0,
+    "soundness": 0.9740000000000001,
+    "n_flagged": 1,
+    "n_incorrect": 0,
+    "n_claims": 25,
+    "hgA": 0.9494
+  },
+  {
+    "trace_id": "PMC5304560",
+    "label": "sound",
+    "y": 1.0,
+    "soundness": 0.938888888888889,
+    "n_flagged": 2,
+    "n_incorrect": 1,
+    "n_claims": 27,
+    "hgA": 0.9913
+  },
+  {
+    "trace_id": "PMC5340649",
+    "label": "sound",
+    "y": 1.0,
+    "soundness": 1.0,
+    "n_flagged": 0,
+    "n_incorrect": 0,
+    "n_claims": 16,
+    "hgA": 0.9915
+  },
+  {
+    "trace_id": "PMC5382461",
+    "label": "sound",
+    "y": 1.0,
+    "soundness": 1.0,
+    "n_flagged": 0,
+    "n_incorrect": 0,
+    "n_claims": 21,
+    "hgA": 0.9441
+  },
+  {
+    "trace_id": "PMC5304560",
+    "label": "flawed",
+    "y": 0.0,
+    "soundness": 0.882,
+    "n_flagged": 4,
+    "n_incorrect": 1,
+    "n_claims": 25,
+    "hgA": 0.9981
+  },
+  {
+    "trace_id": "PMC5340649",
+    "label": "flawed",
+    "y": 0.0,
+    "soundness": 0.8954545454545454,
+    "n_flagged": 3,
+    "n_incorrect": 1,
+    "n_claims": 22,
+    "hgA": 0.453
+  },
+  {
+    "trace_id": "PMC5382461",
+    "label": "flawed",
+    "y": 0.0,
+    "soundness": 0.9690476190476192,
+    "n_flagged": 1,
+    "n_incorrect": 0,
+    "n_claims": 21,
+    "hgA": 0.5567
+  },
+  {
+    "trace_id": "PMC4929803",
+    "label": "sound",
+    "y": 1.0,
+    "soundness": 1.0,
+    "n_flagged": 0,
+    "n_incorrect": 0,
+    "n_claims": 18,
+    "hgA": 0.9777
+  },
+  {
+    "trace_id": "PMC5484965",
+    "label": "sound",
+    "y": 1.0,
+    "soundness": 1.0,
+    "n_flagged": 0,
+    "n_incorrect": 0,
+    "n_claims": 26,
+    "hgA": 0.9401
+  },
+  {
+    "trace_id": "PMC5676292",
+    "label": "sound",
+    "y": 1.0,
+    "soundness": 0.9767857142857144,
+    "n_flagged": 1,
+    "n_incorrect": 0,
+    "n_claims": 28,
+    "hgA": 0.8765
+  },
+  {
+    "trace_id": "PMC5676292",
+    "label": "flawed",
+    "y": 0.0,
+    "soundness": 0.9655172413793104,
+    "n_flagged": 1,
+    "n_incorrect": 1,
+    "n_claims": 29,
+    "hgA": 0.7337
+  },
+  {
+    "trace_id": "PMC5731179",
+    "label": "flawed",
+    "y": 0.0,
+    "soundness": 0.9235294117647058,
+    "n_flagged": 2,
+    "n_incorrect": 0,
+    "n_claims": 17,
+    "hgA": 0.7444
+  },
+  {
+    "trace_id": "PMC5484965",
+    "label": "flawed",
+    "y": 0.0,
+    "soundness": 0.9828947368421053,
+    "n_flagged": 1,
+    "n_incorrect": 0,
+    "n_claims": 38,
+    "hgA": 0.749
+  },
+  {
+    "trace_id": "PMC5731179",
+    "label": "sound",
+    "y": 1.0,
+    "soundness": 1.0,
+    "n_flagged": 0,
+    "n_incorrect": 0,
+    "n_claims": 31,
+    "hgA": 0.9429
+  },
+  {
+    "trace_id": "PMC5799069",
+    "label": "sound",
+    "y": 1.0,
+    "soundness": 1.0,
+    "n_flagged": 0,
+    "n_incorrect": 0,
+    "n_claims": 23,
+    "hgA": 0.9403
+  },
+  {
+    "trace_id": "PMC5807253",
+    "label": "sound",
+    "y": 1.0,
+    "soundness": 1.0,
+    "n_flagged": 0,
+    "n_incorrect": 0,
+    "n_claims": 25,
+    "hgA": 0.9493
+  },
+  {
+    "trace_id": "PMC5807253",
+    "label": "flawed",
+    "y": 0.0,
+    "soundness": 0.9409090909090909,
+    "n_flagged": 2,
+    "n_incorrect": 0,
+    "n_claims": 22,
+    "hgA": 0.7534
+  },
+  {
+    "trace_id": "PMC5977048",
+    "label": "sound",
+    "y": 1.0,
+    "soundness": 0.8916666666666667,
+    "n_flagged": 3,
+    "n_incorrect": 0,
+    "n_claims": 18,
+    "hgA": 0.9798
+  },
+  {
+    "trace_id": "PMC5799069",
+    "label": "flawed",
+    "y": 0.0,
+    "soundness": 0.9342857142857144,
+    "n_flagged": 3,
+    "n_incorrect": 1,
+    "n_claims": 35,
+    "hgA": 0.5532
+  },
+  {
+    "trace_id": "PMC5821965",
+    "label": "sound",
+    "y": 1.0,
+    "soundness": 0.9666666666666668,
+    "n_flagged": 2,
+    "n_incorrect": 0,
+    "n_claims": 39,
+    "hgA": 0.8013
+  },
+  {
+    "trace_id": "PMC5977048",
+    "label": "flawed",
+    "y": 0.0,
+    "soundness": 0.8973684210526316,
+    "n_flagged": 3,
+    "n_incorrect": 0,
+    "n_claims": 19,
+    "hgA": 0.7332
+  },
+  {
+    "trace_id": "PMC5821965",
+    "label": "flawed",
+    "y": 0.0,
+    "soundness": 1.0,
+    "n_flagged": 0,
+    "n_incorrect": 0,
+    "n_claims": 38,
+    "hgA": 0.5984
+  },
+  {
+    "trace_id": "PMC6101595",
+    "label": "sound",
+    "y": 1.0,
+    "soundness": 1.0,
+    "n_flagged": 0,
+    "n_incorrect": 0,
+    "n_claims": 15,
+    "hgA": 0.9971
+  },
+  {
+    "trace_id": "PMC6047986",
+    "label": "flawed",
+    "y": 0.0,
+    "soundness": 0.9302631578947369,
+    "n_flagged": 3,
+    "n_incorrect": 2,
+    "n_claims": 38,
+    "hgA": 0.3462
+  },
+  {
+    "trace_id": "PMC6101595",
+    "label": "flawed",
+    "y": 0.0,
+    "soundness": 0.8795454545454546,
+    "n_flagged": 3,
+    "n_incorrect": 2,
+    "n_claims": 22,
+    "hgA": 0.8002
+  },
+  {
+    "trace_id": "PMC6047986",
+    "label": "sound",
+    "y": 1.0,
+    "soundness": 0.9814285714285714,
+    "n_flagged": 1,
+    "n_incorrect": 0,
+    "n_claims": 35,
+    "hgA": 0.9919
+  },
+  {
+    "trace_id": "PMC6151222",
+    "label": "sound",
+    "y": 1.0,
+    "soundness": 1.0,
+    "n_flagged": 0,
+    "n_incorrect": 0,
+    "n_claims": 39,
+    "hgA": 0.9457
+  },
+  {
+    "trace_id": "PMC6176474",
+    "label": "sound",
+    "y": 1.0,
+    "soundness": 0.9315789473684211,
+    "n_flagged": 2,
+    "n_incorrect": 0,
+    "n_claims": 19,
+    "hgA": 0.9959
+  },
+  {
+    "trace_id": "PMC6177042",
+    "label": "sound",
+    "y": 1.0,
+    "soundness": 0.9617647058823531,
+    "n_flagged": 1,
+    "n_incorrect": 0,
+    "n_claims": 17,
+    "hgA": 0.95
+  },
+  {
+    "trace_id": "PMC6177042",
+    "label": "flawed",
+    "y": 0.0,
+    "soundness": 0.896875,
+    "n_flagged": 2,
+    "n_incorrect": 1,
+    "n_claims": 16,
+    "hgA": 0.7509
+  },
+  {
+    "trace_id": "PMC6176474",
+    "label": "flawed",
+    "y": 0.0,
+    "soundness": 0.8907407407407407,
+    "n_flagged": 4,
+    "n_incorrect": 1,
+    "n_claims": 27,
+    "hgA": 0.9414
+  },
+  {
+    "trace_id": "PMC6192136",
+    "label": "flawed",
+    "y": 0.0,
+    "soundness": 0.9472972972972972,
+    "n_flagged": 3,
+    "n_incorrect": 0,
+    "n_claims": 37,
+    "hgA": 0.7469
+  },
+  {
+    "trace_id": "PMC6241168",
+    "label": "sound",
+    "y": 1.0,
+    "soundness": 1.0,
+    "n_flagged": 0,
+    "n_incorrect": 0,
+    "n_claims": 21,
+    "hgA": 1.0
+  },
+  {
+    "trace_id": "PMC6192136",
+    "label": "sound",
+    "y": 1.0,
+    "soundness": 0.9808823529411765,
+    "n_flagged": 1,
+    "n_incorrect": 0,
+    "n_claims": 34,
+    "hgA": 0.9905
+  },
+  {
+    "trace_id": "PMC6241168",
+    "label": "flawed",
+    "y": 0.0,
+    "soundness": 0.9583333333333334,
+    "n_flagged": 1,
+    "n_incorrect": 1,
+    "n_claims": 24,
+    "hgA": 0.8011
+  },
+  {
+    "trace_id": "PMC6243317",
+    "label": "sound",
+    "y": 1.0,
+    "soundness": 0.9657894736842106,
+    "n_flagged": 1,
+    "n_incorrect": 0,
+    "n_claims": 19,
+    "hgA": 0.9437
+  },
+  {
+    "trace_id": "PMC6282426",
+    "label": "sound",
+    "y": 1.0,
+    "soundness": 1.0,
+    "n_flagged": 0,
+    "n_incorrect": 0,
+    "n_claims": 25,
+    "hgA": 0.9939
+  },
+  {
+    "trace_id": "PMC6282426",
+    "label": "flawed",
+    "y": 0.0,
+    "soundness": 1.0,
+    "n_flagged": 0,
+    "n_incorrect": 0,
+    "n_claims": 21,
+    "hgA": 0.7517
+  },
+  {
+    "trace_id": "PMC6151222",
+    "label": "flawed",
+    "y": 0.0,
+    "soundness": 0.9616279069767443,
+    "n_flagged": 2,
+    "n_incorrect": 1,
+    "n_claims": 43,
+    "hgA": 0.2034
+  },
+  {
+    "trace_id": "PMC6335789",
+    "label": "sound",
+    "y": 1.0,
+    "soundness": 0.9775862068965517,
+    "n_flagged": 1,
+    "n_incorrect": 0,
+    "n_claims": 29,
+    "hgA": 1.0
+  },
+  {
+    "trace_id": "PMC6335789",
+    "label": "flawed",
+    "y": 0.0,
+    "soundness": 0.9048387096774194,
+    "n_flagged": 4,
+    "n_incorrect": 1,
+    "n_claims": 31,
+    "hgA": 0.2991
+  },
+  {
+    "trace_id": "PMC6421145",
+    "label": "sound",
+    "y": 1.0,
+    "soundness": 0.9675,
+    "n_flagged": 1,
+    "n_incorrect": 0,
+    "n_claims": 20,
+    "hgA": 0.9973
+  },
+  {
+    "trace_id": "PMC6342725",
+    "label": "flawed",
+    "y": 0.0,
+    "soundness": 0.8846153846153846,
+    "n_flagged": 3,
+    "n_incorrect": 3,
+    "n_claims": 26,
+    "hgA": 0.361
+  },
+  {
+    "trace_id": "PMC6342725",
+    "label": "sound",
+    "y": 1.0,
+    "soundness": 1.0,
+    "n_flagged": 0,
+    "n_incorrect": 0,
+    "n_claims": 28,
+    "hgA": 0.9982
+  },
+  {
+    "trace_id": "PMC6519488",
+    "label": "sound",
+    "y": 1.0,
+    "soundness": 1.0,
+    "n_flagged": 0,
+    "n_incorrect": 0,
+    "n_claims": 18,
+    "hgA": 0.9476
+  },
+  {
+    "trace_id": "PMC6421145",
+    "label": "flawed",
+    "y": 0.0,
+    "soundness": 0.967741935483871,
+    "n_flagged": 1,
+    "n_incorrect": 1,
+    "n_claims": 31,
+    "hgA": 0.7489
+  },
+  {
+    "trace_id": "PMC6519488",
+    "label": "flawed",
+    "y": 0.0,
+    "soundness": 0.8795454545454546,
+    "n_flagged": 3,
+    "n_incorrect": 2,
+    "n_claims": 22,
+    "hgA": 0.5564
+  },
+  {
+    "trace_id": "PMC6557017",
+    "label": "sound",
+    "y": 1.0,
+    "soundness": 0.9729166666666668,
+    "n_flagged": 1,
+    "n_incorrect": 0,
+    "n_claims": 24,
+    "hgA": 0.9399
+  },
+  {
+    "trace_id": "PMC6556260",
+    "label": "sound",
+    "y": 1.0,
+    "soundness": 1.0,
+    "n_flagged": 0,
+    "n_incorrect": 0,
+    "n_claims": 33,
+    "hgA": 0.9901
+  },
+  {
+    "trace_id": "PMC6557017",
+    "label": "flawed",
+    "y": 0.0,
+    "soundness": 0.9666666666666667,
+    "n_flagged": 1,
+    "n_incorrect": 1,
+    "n_claims": 30,
+    "hgA": 0.7429
+  },
+  {
+    "trace_id": "PMC6556260",
+    "label": "flawed",
+    "y": 0.0,
+    "soundness": 0.9783333333333334,
+    "n_flagged": 1,
+    "n_incorrect": 0,
+    "n_claims": 30,
+    "hgA": 0.7475
+  },
+  {
+    "trace_id": "PMC6656673",
+    "label": "sound",
+    "y": 1.0,
+    "soundness": 0.963888888888889,
+    "n_flagged": 1,
+    "n_incorrect": 0,
+    "n_claims": 18,
+    "hgA": 0.9872
+  },
+  {
+    "trace_id": "PMC6709319",
+    "label": "sound",
+    "y": 1.0,
+    "soundness": 1.0,
+    "n_flagged": 0,
+    "n_incorrect": 0,
+    "n_claims": 17,
+    "hgA": 0.9941
+  },
+  {
+    "trace_id": "PMC6656673",
+    "label": "flawed",
+    "y": 0.0,
+    "soundness": 0.85,
+    "n_flagged": 4,
+    "n_incorrect": 2,
+    "n_claims": 22,
+    "hgA": 0.7955
+  },
+  {
+    "trace_id": "PMC6709319",
+    "label": "flawed",
+    "y": 0.0,
+    "soundness": 0.9434782608695652,
+    "n_flagged": 2,
+    "n_incorrect": 0,
+    "n_claims": 23,
+    "hgA": 0.749
+  },
+  {
+    "trace_id": "PMC6726168",
+    "label": "sound",
+    "y": 1.0,
+    "soundness": 0.975925925925926,
+    "n_flagged": 1,
+    "n_incorrect": 0,
+    "n_claims": 27,
+    "hgA": 0.9878
+  },
+  {
+    "trace_id": "PMC6726168",
+    "label": "flawed",
+    "y": 0.0,
+    "soundness": 0.9018518518518519,
+    "n_flagged": 3,
+    "n_incorrect": 2,
+    "n_claims": 27,
+    "hgA": 0.6935
+  },
+  {
+    "trace_id": "PMC6726171",
+    "label": "sound",
+    "y": 1.0,
+    "soundness": 0.9327586206896552,
+    "n_flagged": 3,
+    "n_incorrect": 0,
+    "n_claims": 29,
+    "hgA": 0.9864
+  },
+  {
+    "trace_id": "PMC6735545",
+    "label": "sound",
+    "y": 1.0,
+    "soundness": 1.0,
+    "n_flagged": 0,
+    "n_incorrect": 0,
+    "n_claims": 25,
+    "hgA": 0.9467
+  },
+  {
+    "trace_id": "PMC6726171",
+    "label": "flawed",
+    "y": 0.0,
+    "soundness": 0.8879310344827587,
+    "n_flagged": 5,
+    "n_incorrect": 0,
+    "n_claims": 29,
+    "hgA": 0.9767
+  },
+  {
+    "trace_id": "PMC6737792",
+    "label": "sound",
+    "y": 1.0,
+    "soundness": 1.0,
+    "n_flagged": 0,
+    "n_incorrect": 0,
+    "n_claims": 28,
+    "hgA": 0.9829
+  },
+  {
+    "trace_id": "PMC6735545",
+    "label": "flawed",
+    "y": 0.0,
+    "soundness": 0.9629629629629629,
+    "n_flagged": 1,
+    "n_incorrect": 1,
+    "n_claims": 27,
+    "hgA": 0.7971
+  },
+  {
+    "trace_id": "PMC6737792",
+    "label": "flawed",
+    "y": 0.0,
+    "soundness": 0.9303030303030303,
+    "n_flagged": 3,
+    "n_incorrect": 1,
+    "n_claims": 33,
+    "hgA": 0.7448
+  },
+  {
+    "trace_id": "PMC6815408",
+    "label": "sound",
+    "y": 1.0,
+    "soundness": 1.0,
+    "n_flagged": 0,
+    "n_incorrect": 0,
+    "n_claims": 28,
+    "hgA": 0.9449
+  },
+  {
+    "trace_id": "PMC6928534",
+    "label": "sound",
+    "y": 1.0,
+    "soundness": 0.9277777777777777,
+    "n_flagged": 2,
+    "n_incorrect": 0,
+    "n_claims": 18,
+    "hgA": 0.9919
+  },
+  {
+    "trace_id": "PMC6815408",
+    "label": "flawed",
+    "y": 0.0,
+    "soundness": 0.962857142857143,
+    "n_flagged": 2,
+    "n_incorrect": 0,
+    "n_claims": 35,
+    "hgA": 0.7521
+  },
+  {
+    "trace_id": "PMC6928534",
+    "label": "flawed",
+    "y": 0.0,
+    "soundness": 0.8954545454545454,
+    "n_flagged": 3,
+    "n_incorrect": 1,
+    "n_claims": 22,
+    "hgA": 0.6034
+  },
+  {
+    "trace_id": "PMC7036531",
+    "label": "sound",
+    "y": 1.0,
+    "soundness": 1.0,
+    "n_flagged": 0,
+    "n_incorrect": 0,
+    "n_claims": 16,
+    "hgA": 0.9964
+  },
+  {
+    "trace_id": "PMC7036447",
+    "label": "sound",
+    "y": 1.0,
+    "soundness": 1.0,
+    "n_flagged": 0,
+    "n_incorrect": 0,
+    "n_claims": 27,
+    "hgA": 0.9774
+  },
+  {
+    "trace_id": "PMC7036531",
+    "label": "flawed",
+    "y": 0.0,
+    "soundness": 0.9518518518518518,
+    "n_flagged": 2,
+    "n_incorrect": 0,
+    "n_claims": 27,
+    "hgA": 0.9945
+  },
+  {
+    "trace_id": "PMC7036447",
+    "label": "flawed",
+    "y": 0.0,
+    "soundness": 0.8846153846153846,
+    "n_flagged": 3,
+    "n_incorrect": 3,
+    "n_claims": 26,
+    "hgA": 0.5534
+  },
+  {
+    "trace_id": "PMC7103037",
+    "label": "sound",
+    "y": 1.0,
+    "soundness": 1.0,
+    "n_flagged": 0,
+    "n_incorrect": 0,
+    "n_claims": 20,
+    "hgA": 0.9472
+  },
+  {
+    "trace_id": "PMC6243317",
+    "label": "flawed",
+    "y": 0.0,
+    "soundness": 0.9212121212121211,
+    "n_flagged": 4,
+    "n_incorrect": 0,
+    "n_claims": 33,
+    "hgA": 0.937
+  },
+  {
+    "trace_id": "PMC7103037",
+    "label": "flawed",
+    "y": 0.0,
+    "soundness": 0.96,
+    "n_flagged": 1,
+    "n_incorrect": 1,
+    "n_claims": 25,
+    "hgA": 0.7467
+  },
+  {
+    "trace_id": "PMC7141725",
+    "label": "sound",
+    "y": 1.0,
+    "soundness": 1.0,
+    "n_flagged": 0,
+    "n_incorrect": 0,
+    "n_claims": 25,
+    "hgA": 0.9366
+  },
+  {
+    "trace_id": "PMC7141725",
+    "label": "flawed",
+    "y": 0.0,
+    "soundness": 0.9450000000000001,
+    "n_flagged": 2,
+    "n_incorrect": 1,
+    "n_claims": 30,
+    "hgA": 0.5392
+  },
+  {
+    "trace_id": "PMC7205540",
+    "label": "sound",
+    "y": 1.0,
+    "soundness": 1.0,
+    "n_flagged": 0,
+    "n_incorrect": 0,
+    "n_claims": 26,
+    "hgA": 0.9457
+  },
+  {
+    "trace_id": "PMC7284055",
+    "label": "sound",
+    "y": 1.0,
+    "soundness": 0.9824324324324325,
+    "n_flagged": 1,
+    "n_incorrect": 0,
+    "n_claims": 37,
+    "hgA": 0.945
+  },
+  {
+    "trace_id": "PMC7205540",
+    "label": "flawed",
+    "y": 0.0,
+    "soundness": 0.9242857142857144,
+    "n_flagged": 3,
+    "n_incorrect": 2,
+    "n_claims": 35,
+    "hgA": 0.9863
+  },
+  {
+    "trace_id": "PMC7362425",
+    "label": "sound",
+    "y": 1.0,
+    "soundness": 1.0,
+    "n_flagged": 0,
+    "n_incorrect": 0,
+    "n_claims": 27,
+    "hgA": 0.971
+  },
+  {
+    "trace_id": "PMC7284055",
+    "label": "flawed",
+    "y": 0.0,
+    "soundness": 0.9675,
+    "n_flagged": 2,
+    "n_incorrect": 0,
+    "n_claims": 40,
+    "hgA": 0.9206
+  },
+  {
+    "trace_id": "PMC7362425",
+    "label": "flawed",
+    "y": 0.0,
+    "soundness": 0.9142857142857143,
+    "n_flagged": 5,
+    "n_incorrect": 1,
+    "n_claims": 42,
+    "hgA": 0.786
+  },
+  {
+    "trace_id": "PMC7443985",
+    "label": "sound",
+    "y": 1.0,
+    "soundness": 1.0,
+    "n_flagged": 0,
+    "n_incorrect": 0,
+    "n_claims": 31,
+    "hgA": 0.9891
+  },
+  {
+    "trace_id": "PMC7443985",
+    "label": "flawed",
+    "y": 0.0,
+    "soundness": 0.9790322580645162,
+    "n_flagged": 1,
+    "n_incorrect": 0,
+    "n_claims": 31,
+    "hgA": 0.7923
+  },
+  {
+    "trace_id": "PMC7463383",
+    "label": "sound",
+    "y": 1.0,
+    "soundness": 0.9775862068965517,
+    "n_flagged": 1,
+    "n_incorrect": 0,
+    "n_claims": 29,
+    "hgA": 0.936
+  },
+  {
+    "trace_id": "PMC7463383",
+    "label": "flawed",
+    "y": 0.0,
+    "soundness": 0.92,
+    "n_flagged": 2,
+    "n_incorrect": 2,
+    "n_claims": 25,
+    "hgA": 0.2513
+  },
+  {
+    "trace_id": "PMC7501920",
+    "label": "sound",
+    "y": 1.0,
+    "soundness": 1.0,
+    "n_flagged": 0,
+    "n_incorrect": 0,
+    "n_claims": 13,
+    "hgA": 0.9917
+  },
+  {
+    "trace_id": "PMC7546059",
+    "label": "flawed",
+    "y": 0.0,
+    "soundness": 0.885,
+    "n_flagged": 3,
+    "n_incorrect": 1,
+    "n_claims": 20,
+    "hgA": 0.294
+  },
+  {
+    "trace_id": "PMC7546059",
+    "label": "sound",
+    "y": 1.0,
+    "soundness": 1.0,
+    "n_flagged": 0,
+    "n_incorrect": 0,
+    "n_claims": 30,
+    "hgA": 0.9456
+  },
+  {
+    "trace_id": "PMC7568165",
+    "label": "flawed",
+    "y": 0.0,
+    "soundness": 0.9090909090909091,
+    "n_flagged": 2,
+    "n_incorrect": 2,
+    "n_claims": 22,
+    "hgA": 0.7943
+  },
+  {
+    "trace_id": "PMC7676809",
+    "label": "sound",
+    "y": 1.0,
+    "soundness": 1.0,
+    "n_flagged": 0,
+    "n_incorrect": 0,
+    "n_claims": 19,
+    "hgA": 0.975
+  },
+  {
+    "trace_id": "PMC7568165",
+    "label": "sound",
+    "y": 1.0,
+    "soundness": 0.9717391304347827,
+    "n_flagged": 1,
+    "n_incorrect": 0,
+    "n_claims": 23,
+    "hgA": 0.9476
+  },
+  {
+    "trace_id": "PMC7501920",
+    "label": "flawed",
+    "y": 0.0,
+    "soundness": 0.8986111111111111,
+    "n_flagged": 4,
+    "n_incorrect": 3,
+    "n_claims": 36,
+    "hgA": 0.7482
+  },
+  {
+    "trace_id": "PMC7676809",
+    "label": "flawed",
+    "y": 0.0,
+    "soundness": 0.9657894736842106,
+    "n_flagged": 1,
+    "n_incorrect": 0,
+    "n_claims": 19,
+    "hgA": 0.9869
+  },
+  {
+    "trace_id": "PMC7752573",
+    "label": "sound",
+    "y": 1.0,
+    "soundness": 1.0,
+    "n_flagged": 0,
+    "n_incorrect": 0,
+    "n_claims": 31,
+    "hgA": 0.9959
+  },
+  {
+    "trace_id": "PMC7752573",
+    "label": "flawed",
+    "y": 0.0,
+    "soundness": 0.9819444444444445,
+    "n_flagged": 1,
+    "n_incorrect": 0,
+    "n_claims": 36,
+    "hgA": 0.7344
+  },
+  {
+    "trace_id": "PMC7813055",
+    "label": "flawed",
+    "y": 0.0,
+    "soundness": 0.96875,
+    "n_flagged": 1,
+    "n_incorrect": 1,
+    "n_claims": 32,
+    "hgA": 0.554
+  },
+  {
+    "trace_id": "PMC7813055",
+    "label": "sound",
+    "y": 1.0,
+    "soundness": 1.0,
+    "n_flagged": 0,
+    "n_incorrect": 0,
+    "n_claims": 34,
+    "hgA": 0.9452
+  },
+  {
+    "trace_id": "PMC7845154",
+    "label": "sound",
+    "y": 1.0,
+    "soundness": 1.0,
+    "n_flagged": 0,
+    "n_incorrect": 0,
+    "n_claims": 28,
+    "hgA": 0.9957
+  },
+  {
+    "trace_id": "PMC7845154",
+    "label": "flawed",
+    "y": 0.0,
+    "soundness": 1.0,
+    "n_flagged": 0,
+    "n_incorrect": 0,
+    "n_claims": 19,
+    "hgA": 0.9966
+  },
+  {
+    "trace_id": "PMC7924145",
+    "label": "sound",
+    "y": 1.0,
+    "soundness": 0.9657894736842106,
+    "n_flagged": 1,
+    "n_incorrect": 0,
+    "n_claims": 19,
+    "hgA": 0.9772
+  },
+  {
+    "trace_id": "PMC7850611",
+    "label": "sound",
+    "y": 1.0,
+    "soundness": 0.9819444444444445,
+    "n_flagged": 1,
+    "n_incorrect": 0,
+    "n_claims": 36,
+    "hgA": 0.9992
+  },
+  {
+    "trace_id": "PMC7873790",
+    "label": "sound",
+    "y": 1.0,
+    "soundness": 1.0,
+    "n_flagged": 0,
+    "n_incorrect": 0,
+    "n_claims": 23,
+    "hgA": 0.3459
+  },
+  {
+    "trace_id": "PMC7873790",
+    "label": "flawed",
+    "y": 0.0,
+    "soundness": 0.9310344827586207,
+    "n_flagged": 2,
+    "n_incorrect": 2,
+    "n_claims": 29,
+    "hgA": 0.7321
+  },
+  {
+    "trace_id": "PMC7850611",
+    "label": "flawed",
+    "y": 0.0,
+    "soundness": 0.9743589743589743,
+    "n_flagged": 1,
+    "n_incorrect": 1,
+    "n_claims": 39,
+    "hgA": 0.9373
+  },
+  {
+    "trace_id": "PMC7924145",
+    "label": "flawed",
+    "y": 0.0,
+    "soundness": 0.9472972972972972,
+    "n_flagged": 3,
+    "n_incorrect": 0,
+    "n_claims": 37,
+    "hgA": 0.945
+  },
+  {
+    "trace_id": "PMC7954390",
+    "label": "sound",
+    "y": 1.0,
+    "soundness": 1.0,
+    "n_flagged": 0,
+    "n_incorrect": 0,
+    "n_claims": 26,
+    "hgA": 0.9425
+  },
+  {
+    "trace_id": "PMC7937576",
+    "label": "sound",
+    "y": 1.0,
+    "soundness": 1.0,
+    "n_flagged": 0,
+    "n_incorrect": 0,
+    "n_claims": 24,
+    "hgA": 0.9967
+  },
+  {
+    "trace_id": "PMC7981723",
+    "label": "sound",
+    "y": 1.0,
+    "soundness": 1.0,
+    "n_flagged": 0,
+    "n_incorrect": 0,
+    "n_claims": 28,
+    "hgA": 0.9994
+  },
+  {
+    "trace_id": "PMC7954390",
+    "label": "flawed",
+    "y": 0.0,
+    "soundness": 1.0,
+    "n_flagged": 0,
+    "n_incorrect": 0,
+    "n_claims": 30,
+    "hgA": 0.9375
+  },
+  {
+    "trace_id": "PMC7937576",
+    "label": "flawed",
+    "y": 0.0,
+    "soundness": 0.9354838709677419,
+    "n_flagged": 2,
+    "n_incorrect": 2,
+    "n_claims": 31,
+    "hgA": 0.7932
+  },
+  {
+    "trace_id": "PMC7981723",
+    "label": "flawed",
+    "y": 0.0,
+    "soundness": 1.0,
+    "n_flagged": 0,
+    "n_incorrect": 0,
+    "n_claims": 31,
+    "hgA": 0.7536
+  },
+  {
+    "trace_id": "PMC7993351",
+    "label": "sound",
+    "y": 1.0,
+    "soundness": 0.975925925925926,
+    "n_flagged": 1,
+    "n_incorrect": 0,
+    "n_claims": 27,
+    "hgA": 0.9457
+  },
+  {
+    "trace_id": "PMC7993351",
+    "label": "flawed",
+    "y": 0.0,
+    "soundness": 0.9115384615384615,
+    "n_flagged": 3,
+    "n_incorrect": 1,
+    "n_claims": 26,
+    "hgA": 0.7515
+  },
+  {
+    "trace_id": "PMC8032522",
+    "label": "sound",
+    "y": 1.0,
+    "soundness": 0.9434782608695652,
+    "n_flagged": 2,
+    "n_incorrect": 0,
+    "n_claims": 23,
+    "hgA": 0.9286
+  },
+  {
+    "trace_id": "PMC8032522",
+    "label": "flawed",
+    "y": 0.0,
+    "soundness": 0.8717391304347827,
+    "n_flagged": 4,
+    "n_incorrect": 1,
+    "n_claims": 23,
+    "hgA": 0.5592
+  },
+  {
+    "trace_id": "PMC8053279",
+    "label": "sound",
+    "y": 1.0,
+    "soundness": 0.9657894736842106,
+    "n_flagged": 1,
+    "n_incorrect": 0,
+    "n_claims": 19,
+    "hgA": 0.9403
+  },
+  {
+    "trace_id": "PMC8046473",
+    "label": "flawed",
+    "y": 0.0,
+    "soundness": 0.8980769230769231,
+    "n_flagged": 3,
+    "n_incorrect": 2,
+    "n_claims": 26,
+    "hgA": 0.557
+  },
+  {
+    "trace_id": "PMC8123563",
+    "label": "sound",
+    "y": 1.0,
+    "soundness": 0.9409090909090909,
+    "n_flagged": 2,
+    "n_incorrect": 0,
+    "n_claims": 22,
+    "hgA": 0.996
+  },
+  {
+    "trace_id": "PMC8123563",
+    "label": "flawed",
+    "y": 0.0,
+    "soundness": 0.935,
+    "n_flagged": 3,
+    "n_incorrect": 0,
+    "n_claims": 30,
+    "hgA": 0.9954
+  },
+  {
+    "trace_id": "PMC8053279",
+    "label": "flawed",
+    "y": 0.0,
+    "soundness": 0.9242857142857144,
+    "n_flagged": 3,
+    "n_incorrect": 2,
+    "n_claims": 35,
+    "hgA": 0.7419
+  },
+  {
+    "trace_id": "PMC8186929",
+    "label": "sound",
+    "y": 1.0,
+    "soundness": 1.0,
+    "n_flagged": 0,
+    "n_incorrect": 0,
+    "n_claims": 17,
+    "hgA": 0.9973
+  },
+  {
+    "trace_id": "PMC8186929",
+    "label": "flawed",
+    "y": 0.0,
+    "soundness": 1.0,
+    "n_flagged": 0,
+    "n_incorrect": 0,
+    "n_claims": 18,
+    "hgA": 0.9961
+  },
+  {
+    "trace_id": "PMC8138282",
+    "label": "flawed",
+    "y": 0.0,
+    "soundness": 0.9803030303030303,
+    "n_flagged": 1,
+    "n_incorrect": 0,
+    "n_claims": 33,
+    "hgA": 0.9165
+  },
+  {
+    "trace_id": "PMC8138282",
+    "label": "sound",
+    "y": 1.0,
+    "soundness": 0.9855555555555556,
+    "n_flagged": 1,
+    "n_incorrect": 0,
+    "n_claims": 45,
+    "hgA": 0.9434
+  },
+  {
+    "trace_id": "PMC8190582",
+    "label": "sound",
+    "y": 1.0,
+    "soundness": 1.0,
+    "n_flagged": 0,
+    "n_incorrect": 0,
+    "n_claims": 22,
+    "hgA": 0.9798
+  },
+  {
+    "trace_id": "PMC8046473",
+    "label": "sound",
+    "y": 1.0,
+    "soundness": 1.0,
+    "n_flagged": 0,
+    "n_incorrect": 0,
+    "n_claims": 23,
+    "hgA": 0.9961
+  },
+  {
+    "trace_id": "PMC8190582",
+    "label": "flawed",
+    "y": 0.0,
+    "soundness": 0.9115384615384615,
+    "n_flagged": 3,
+    "n_incorrect": 1,
+    "n_claims": 26,
+    "hgA": 0.7368
+  },
+  {
+    "trace_id": "PMC8265096",
+    "label": "sound",
+    "y": 1.0,
+    "soundness": 0.975925925925926,
+    "n_flagged": 1,
+    "n_incorrect": 0,
+    "n_claims": 27,
+    "hgA": 0.9935
+  },
+  {
+    "trace_id": "PMC8265096",
+    "label": "flawed",
+    "y": 0.0,
+    "soundness": 0.9409090909090909,
+    "n_flagged": 2,
+    "n_incorrect": 0,
+    "n_claims": 22,
+    "hgA": 0.689
+  },
+  {
+    "trace_id": "PMC8243071",
+    "label": "sound",
+    "y": 1.0,
+    "soundness": 0.9666666666666668,
+    "n_flagged": 2,
+    "n_incorrect": 0,
+    "n_claims": 39,
+    "hgA": 0.9351
+  },
+  {
+    "trace_id": "PMC8294152",
+    "label": "sound",
+    "y": 1.0,
+    "soundness": 1.0,
+    "n_flagged": 0,
+    "n_incorrect": 0,
+    "n_claims": 24,
+    "hgA": 0.9729
+  },
+  {
+    "trace_id": "PMC8243071",
+    "label": "flawed",
+    "y": 0.0,
+    "soundness": 0.9394736842105263,
+    "n_flagged": 3,
+    "n_incorrect": 1,
+    "n_claims": 38,
+    "hgA": 0.5451
+  },
+  {
+    "trace_id": "PMC8294152",
+    "label": "flawed",
+    "y": 0.0,
+    "soundness": 0.9767857142857144,
+    "n_flagged": 1,
+    "n_incorrect": 0,
+    "n_claims": 28,
+    "hgA": 0.7462
+  },
+  {
+    "trace_id": "PMC8367851",
+    "label": "sound",
+    "y": 1.0,
+    "soundness": 1.0,
+    "n_flagged": 0,
+    "n_incorrect": 0,
+    "n_claims": 15,
+    "hgA": 0.9161
+  },
+  {
+    "trace_id": "PMC8299630",
+    "label": "sound",
+    "y": 1.0,
+    "soundness": 0.9458333333333333,
+    "n_flagged": 2,
+    "n_incorrect": 0,
+    "n_claims": 24,
+    "hgA": 0.8778
+  },
+  {
+    "trace_id": "PMC8367851",
+    "label": "flawed",
+    "y": 0.0,
+    "soundness": 0.95,
+    "n_flagged": 1,
+    "n_incorrect": 1,
+    "n_claims": 20,
+    "hgA": 0.9352
+  },
+  {
+    "trace_id": "PMC8378370",
+    "label": "sound",
+    "y": 1.0,
+    "soundness": 0.9365384615384615,
+    "n_flagged": 2,
+    "n_incorrect": 1,
+    "n_claims": 26,
+    "hgA": 0.986
+  },
+  {
+    "trace_id": "PMC8378370",
+    "label": "flawed",
+    "y": 0.0,
+    "soundness": 0.9704545454545456,
+    "n_flagged": 1,
+    "n_incorrect": 0,
+    "n_claims": 22,
+    "hgA": 0.9917
+  },
+  {
+    "trace_id": "PMC8299630",
+    "label": "flawed",
+    "y": 0.0,
+    "soundness": 0.9775862068965517,
+    "n_flagged": 1,
+    "n_incorrect": 0,
+    "n_claims": 29,
+    "hgA": 0.6755
+  },
+  {
+    "trace_id": "PMC8420661",
+    "label": "sound",
+    "y": 1.0,
+    "soundness": 0.9297297297297297,
+    "n_flagged": 4,
+    "n_incorrect": 0,
+    "n_claims": 37,
+    "hgA": 0.9947
+  },
+  {
+    "trace_id": "PMC8436279",
+    "label": "sound",
+    "y": 1.0,
+    "soundness": 1.0,
+    "n_flagged": 0,
+    "n_incorrect": 0,
+    "n_claims": 30,
+    "hgA": 0.9455
+  },
+  {
+    "trace_id": "PMC8436279",
+    "label": "flawed",
+    "y": 0.0,
+    "soundness": 0.9057142857142857,
+    "n_flagged": 4,
+    "n_incorrect": 2,
+    "n_claims": 35,
+    "hgA": 0.362
+  },
+  {
+    "trace_id": "PMC8461971",
+    "label": "sound",
+    "y": 1.0,
+    "soundness": 0.9729166666666668,
+    "n_flagged": 1,
+    "n_incorrect": 0,
+    "n_claims": 24,
+    "hgA": 0.9916
+  },
+  {
+    "trace_id": "PMC8536869",
+    "label": "sound",
+    "y": 1.0,
+    "soundness": 1.0,
+    "n_flagged": 0,
+    "n_incorrect": 0,
+    "n_claims": 19,
+    "hgA": 0.9372
+  },
+  {
+    "trace_id": "PMC8536869",
+    "label": "flawed",
+    "y": 0.0,
+    "soundness": 0.82,
+    "n_flagged": 5,
+    "n_incorrect": 1,
+    "n_claims": 20,
+    "hgA": 0.9467
+  },
+  {
+    "trace_id": "PMC8557694",
+    "label": "sound",
+    "y": 1.0,
+    "soundness": 1.0,
+    "n_flagged": 0,
+    "n_incorrect": 0,
+    "n_claims": 22,
+    "hgA": 0.9928
+  },
+  {
+    "trace_id": "PMC8461971",
+    "label": "flawed",
+    "y": 0.0,
+    "soundness": 0.9365384615384615,
+    "n_flagged": 2,
+    "n_incorrect": 1,
+    "n_claims": 26,
+    "hgA": 0.5524
+  },
+  {
+    "trace_id": "PMC8557694",
+    "label": "flawed",
+    "y": 0.0,
+    "soundness": 1.0,
+    "n_flagged": 0,
+    "n_incorrect": 0,
+    "n_claims": 23,
+    "hgA": 0.7535
+  },
+  {
+    "trace_id": "PMC8627342",
+    "label": "sound",
+    "y": 1.0,
+    "soundness": 1.0,
+    "n_flagged": 0,
+    "n_incorrect": 0,
+    "n_claims": 15,
+    "hgA": 0.9978
+  },
+  {
+    "trace_id": "PMC8420661",
+    "label": "flawed",
+    "y": 0.0,
+    "soundness": 0.95875,
+    "n_flagged": 2,
+    "n_incorrect": 1,
+    "n_claims": 40,
+    "hgA": 0.983
+  },
+  {
+    "trace_id": "PMC8577092",
+    "label": "flawed",
+    "y": 0.0,
+    "soundness": 1.0,
+    "n_flagged": 0,
+    "n_incorrect": 0,
+    "n_claims": 21,
+    "hgA": 0.7431
+  },
+  {
+    "trace_id": "PMC8577092",
+    "label": "sound",
+    "y": 1.0,
+    "soundness": 1.0,
+    "n_flagged": 0,
+    "n_incorrect": 0,
+    "n_claims": 20,
+    "hgA": 0.9911
+  },
+  {
+    "trace_id": "PMC8627342",
+    "label": "flawed",
+    "y": 0.0,
+    "soundness": 0.8847826086956523,
+    "n_flagged": 3,
+    "n_incorrect": 2,
+    "n_claims": 23,
+    "hgA": 0.6402
+  },
+  {
+    "trace_id": "PMC8731213",
+    "label": "sound",
+    "y": 1.0,
+    "soundness": 1.0,
+    "n_flagged": 0,
+    "n_incorrect": 0,
+    "n_claims": 20,
+    "hgA": 0.9866
+  },
+  {
+    "trace_id": "PMC8777167",
+    "label": "sound",
+    "y": 1.0,
+    "soundness": 1.0,
+    "n_flagged": 0,
+    "n_incorrect": 0,
+    "n_claims": 26,
+    "hgA": 0.9897
+  },
+  {
+    "trace_id": "PMC8777167",
+    "label": "flawed",
+    "y": 0.0,
+    "soundness": 0.8980769230769231,
+    "n_flagged": 3,
+    "n_incorrect": 2,
+    "n_claims": 26,
+    "hgA": 0.6076
+  },
+  {
+    "trace_id": "PMC8784702",
+    "label": "sound",
+    "y": 1.0,
+    "soundness": 1.0,
+    "n_flagged": 0,
+    "n_incorrect": 0,
+    "n_claims": 26,
+    "hgA": 0.9448
+  },
+  {
+    "trace_id": "PMC8731213",
+    "label": "flawed",
+    "y": 0.0,
+    "soundness": 0.9606060606060606,
+    "n_flagged": 2,
+    "n_incorrect": 0,
+    "n_claims": 33,
+    "hgA": 0.9959
+  },
+  {
+    "trace_id": "PMC8832220",
+    "label": "sound",
+    "y": 1.0,
+    "soundness": 1.0,
+    "n_flagged": 0,
+    "n_incorrect": 0,
+    "n_claims": 27,
+    "hgA": 0.9476
+  },
+  {
+    "trace_id": "PMC8832220",
+    "label": "flawed",
+    "y": 0.0,
+    "soundness": 0.9750000000000001,
+    "n_flagged": 1,
+    "n_incorrect": 0,
+    "n_claims": 26,
+    "hgA": 0.8021
+  },
+  {
+    "trace_id": "PMC8840641",
+    "label": "sound",
+    "y": 1.0,
+    "soundness": 1.0,
+    "n_flagged": 0,
+    "n_incorrect": 0,
+    "n_claims": 25,
+    "hgA": 1.0
+  },
+  {
+    "trace_id": "PMC8840641",
+    "label": "flawed",
+    "y": 0.0,
+    "soundness": 0.9365384615384615,
+    "n_flagged": 2,
+    "n_incorrect": 1,
+    "n_claims": 26,
+    "hgA": 0.7441
+  },
+  {
+    "trace_id": "PMC8895532",
+    "label": "sound",
+    "y": 1.0,
+    "soundness": 0.9037037037037037,
+    "n_flagged": 4,
+    "n_incorrect": 0,
+    "n_claims": 27,
+    "hgA": 0.9672
+  },
+  {
+    "trace_id": "PMC8895532",
+    "label": "flawed",
+    "y": 0.0,
+    "soundness": 0.9535714285714285,
+    "n_flagged": 2,
+    "n_incorrect": 0,
+    "n_claims": 28,
+    "hgA": 0.9952
+  },
+  {
+    "trace_id": "PMC8957291",
+    "label": "sound",
+    "y": 1.0,
+    "soundness": 0.9566666666666667,
+    "n_flagged": 2,
+    "n_incorrect": 0,
+    "n_claims": 30,
+    "hgA": 0.9448
+  },
+  {
+    "trace_id": "PMC8962241",
+    "label": "sound",
+    "y": 1.0,
+    "soundness": 0.9380952380952381,
+    "n_flagged": 2,
+    "n_incorrect": 0,
+    "n_claims": 21,
+    "hgA": 0.9948
+  },
+  {
+    "trace_id": "PMC8957291",
+    "label": "flawed",
+    "y": 0.0,
+    "soundness": 0.9565789473684211,
+    "n_flagged": 2,
+    "n_incorrect": 1,
+    "n_claims": 38,
+    "hgA": 0.7932
+  },
+  {
+    "trace_id": "PMC8933725",
+    "label": "sound",
+    "y": 1.0,
+    "soundness": 0.9783333333333334,
+    "n_flagged": 1,
+    "n_incorrect": 0,
+    "n_claims": 30,
+    "hgA": 1.0
+  },
+  {
+    "trace_id": "PMC8962241",
+    "label": "flawed",
+    "y": 0.0,
+    "soundness": 0.9,
+    "n_flagged": 3,
+    "n_incorrect": 1,
+    "n_claims": 23,
+    "hgA": 0.9436
+  },
+  {
+    "trace_id": "PMC8933725",
+    "label": "flawed",
+    "y": 0.0,
+    "soundness": 0.9394736842105263,
+    "n_flagged": 3,
+    "n_incorrect": 1,
+    "n_claims": 38,
+    "hgA": 0.8036
+  },
+  {
+    "trace_id": "PMC8784702",
+    "label": "flawed",
+    "y": 0.0,
+    "soundness": 0.8947368421052632,
+    "n_flagged": 2,
+    "n_incorrect": 2,
+    "n_claims": 19,
+    "hgA": 0.9468
+  },
+  {
+    "trace_id": "PMC9009014",
+    "label": "sound",
+    "y": 1.0,
+    "soundness": 0.963888888888889,
+    "n_flagged": 2,
+    "n_incorrect": 0,
+    "n_claims": 36,
+    "hgA": 0.9839
+  },
+  {
+    "trace_id": "PMC9127846",
+    "label": "sound",
+    "y": 1.0,
+    "soundness": 1.0,
+    "n_flagged": 0,
+    "n_incorrect": 0,
+    "n_claims": 26,
+    "hgA": 0.9988
+  },
+  {
+    "trace_id": "PMC9009014",
+    "label": "flawed",
+    "y": 0.0,
+    "soundness": 0.9302631578947369,
+    "n_flagged": 3,
+    "n_incorrect": 2,
+    "n_claims": 38,
+    "hgA": 0.7961
+  },
+  {
+    "trace_id": "PMC9127846",
+    "label": "flawed",
+    "y": 0.0,
+    "soundness": 1.0,
+    "n_flagged": 0,
+    "n_incorrect": 0,
+    "n_claims": 28,
+    "hgA": 0.7539
+  },
+  {
+    "trace_id": "PMC9166963",
+    "label": "sound",
+    "y": 1.0,
+    "soundness": 0.9814285714285714,
+    "n_flagged": 1,
+    "n_incorrect": 0,
+    "n_claims": 35,
+    "hgA": 0.935
+  },
+  {
+    "trace_id": "PMC9176094",
+    "label": "sound",
+    "y": 1.0,
+    "soundness": 0.9775862068965517,
+    "n_flagged": 1,
+    "n_incorrect": 0,
+    "n_claims": 29,
+    "hgA": 0.9992
+  },
+  {
+    "trace_id": "PMC9201294",
+    "label": "sound",
+    "y": 1.0,
+    "soundness": 1.0,
+    "n_flagged": 0,
+    "n_incorrect": 0,
+    "n_claims": 23,
+    "hgA": 0.7463
+  },
+  {
+    "trace_id": "PMC9166963",
+    "label": "flawed",
+    "y": 0.0,
+    "soundness": 0.953061224489796,
+    "n_flagged": 3,
+    "n_incorrect": 1,
+    "n_claims": 49,
+    "hgA": 0.7341
+  },
+  {
+    "trace_id": "PMC9176094",
+    "label": "flawed",
+    "y": 0.0,
+    "soundness": 0.913235294117647,
+    "n_flagged": 4,
+    "n_incorrect": 1,
+    "n_claims": 34,
+    "hgA": 0.8039
+  },
+  {
+    "trace_id": "PMC9201294",
+    "label": "flawed",
+    "y": 0.0,
+    "soundness": 0.8424242424242424,
+    "n_flagged": 8,
+    "n_incorrect": 0,
+    "n_claims": 33,
+    "hgA": 0.9287
+  },
+  {
+    "trace_id": "PMC9334930",
+    "label": "sound",
+    "y": 1.0,
+    "soundness": 1.0,
+    "n_flagged": 0,
+    "n_incorrect": 0,
+    "n_claims": 23,
+    "hgA": 0.9846
+  },
+  {
+    "trace_id": "PMC9334930",
+    "label": "flawed",
+    "y": 0.0,
+    "soundness": 0.9690476190476192,
+    "n_flagged": 1,
+    "n_incorrect": 0,
+    "n_claims": 21,
+    "hgA": 0.7896
+  },
+  {
+    "trace_id": "PMC9361795",
+    "label": "sound",
+    "y": 1.0,
+    "soundness": 0.9675,
+    "n_flagged": 1,
+    "n_incorrect": 0,
+    "n_claims": 20,
+    "hgA": 0.984
+  },
+  {
+    "trace_id": "PMC9361795",
+    "label": "flawed",
+    "y": 0.0,
+    "soundness": 0.9657894736842106,
+    "n_flagged": 1,
+    "n_incorrect": 0,
+    "n_claims": 19,
+    "hgA": 0.7899
+  },
+  {
+    "trace_id": "PMC9405725",
+    "label": "sound",
+    "y": 1.0,
+    "soundness": 1.0,
+    "n_flagged": 0,
+    "n_incorrect": 0,
+    "n_claims": 24,
+    "hgA": 0.9951
+  },
+  {
+    "trace_id": "PMC9361461",
+    "label": "sound",
+    "y": 1.0,
+    "soundness": 0.9551724137931035,
+    "n_flagged": 2,
+    "n_incorrect": 0,
+    "n_claims": 29,
+    "hgA": 0.9481
+  },
+  {
+    "trace_id": "PMC9405725",
+    "label": "flawed",
+    "y": 0.0,
+    "soundness": 0.8770833333333333,
+    "n_flagged": 4,
+    "n_incorrect": 1,
+    "n_claims": 24,
+    "hgA": 0.7203
+  },
+  {
+    "trace_id": "PMC9420635",
+    "label": "flawed",
+    "y": 0.0,
+    "soundness": 0.9175000000000001,
+    "n_flagged": 2,
+    "n_incorrect": 1,
+    "n_claims": 20,
+    "hgA": 0.9426
+  },
+  {
+    "trace_id": "PMC9420635",
+    "label": "sound",
+    "y": 1.0,
+    "soundness": 0.9551724137931035,
+    "n_flagged": 2,
+    "n_incorrect": 0,
+    "n_claims": 29,
+    "hgA": 0.9471
+  },
+  {
+    "trace_id": "PMC9440340",
+    "label": "sound",
+    "y": 1.0,
+    "soundness": 1.0,
+    "n_flagged": 0,
+    "n_incorrect": 0,
+    "n_claims": 26,
+    "hgA": 0.5519
+  },
+  {
+    "trace_id": "PMC9440340",
+    "label": "flawed",
+    "y": 0.0,
+    "soundness": 1.0,
+    "n_flagged": 0,
+    "n_incorrect": 0,
+    "n_claims": 28,
+    "hgA": 0.7968
+  },
+  {
+    "trace_id": "PMC9470109",
+    "label": "sound",
+    "y": 1.0,
+    "soundness": 1.0,
+    "n_flagged": 0,
+    "n_incorrect": 0,
+    "n_claims": 20,
+    "hgA": 0.9882
+  },
+  {
+    "trace_id": "PMC9470109",
+    "label": "flawed",
+    "y": 0.0,
+    "soundness": 0.9410714285714287,
+    "n_flagged": 2,
+    "n_incorrect": 1,
+    "n_claims": 28,
+    "hgA": 0.9967
+  },
+  {
+    "trace_id": "PMC9533799",
+    "label": "sound",
+    "y": 1.0,
+    "soundness": 1.0,
+    "n_flagged": 0,
+    "n_incorrect": 0,
+    "n_claims": 28,
+    "hgA": 0.9386
+  },
+  {
+    "trace_id": "PMC9361461",
+    "label": "flawed",
+    "y": 0.0,
+    "soundness": 0.9037037037037037,
+    "n_flagged": 4,
+    "n_incorrect": 0,
+    "n_claims": 27,
+    "hgA": 0.7481
+  },
+  {
+    "trace_id": "PMC9544847",
+    "label": "sound",
+    "y": 1.0,
+    "soundness": 1.0,
+    "n_flagged": 0,
+    "n_incorrect": 0,
+    "n_claims": 25,
+    "hgA": 0.9957
+  },
+  {
+    "trace_id": "PMC9544847",
+    "label": "flawed",
+    "y": 0.0,
+    "soundness": 1.0,
+    "n_flagged": 0,
+    "n_incorrect": 0,
+    "n_claims": 24,
+    "hgA": 0.7962
+  },
+  {
+    "trace_id": "PMC9533799",
+    "label": "flawed",
+    "y": 0.0,
+    "soundness": 0.9500000000000001,
+    "n_flagged": 2,
+    "n_incorrect": 1,
+    "n_claims": 33,
+    "hgA": 0.5352
+  },
+  {
+    "trace_id": "PMC9676116",
+    "label": "sound",
+    "y": 1.0,
+    "soundness": 0.9767857142857144,
+    "n_flagged": 1,
+    "n_incorrect": 0,
+    "n_claims": 28,
+    "hgA": 0.9942
+  },
+  {
+    "trace_id": "PMC9675078",
+    "label": "sound",
+    "y": 1.0,
+    "soundness": 0.8607142857142858,
+    "n_flagged": 6,
+    "n_incorrect": 0,
+    "n_claims": 28,
+    "hgA": 0.8509
+  },
+  {
+    "trace_id": "PMC9801570",
+    "label": "sound",
+    "y": 1.0,
+    "soundness": 0.9750000000000001,
+    "n_flagged": 1,
+    "n_incorrect": 0,
+    "n_claims": 26,
+    "hgA": 0.944
+  },
+  {
+    "trace_id": "PMC9675078",
+    "label": "flawed",
+    "y": 0.0,
+    "soundness": 0.818,
+    "n_flagged": 7,
+    "n_incorrect": 0,
+    "n_claims": 25,
+    "hgA": 0.9435
+  },
+  {
+    "trace_id": "PMC9676116",
+    "label": "flawed",
+    "y": 0.0,
+    "soundness": 0.9606060606060606,
+    "n_flagged": 2,
+    "n_incorrect": 0,
+    "n_claims": 33,
+    "hgA": 0.5944
+  },
+  {
+    "trace_id": "PMC9801570",
+    "label": "flawed",
+    "y": 0.0,
+    "soundness": 0.7394736842105264,
+    "n_flagged": 6,
+    "n_incorrect": 3,
+    "n_claims": 19,
+    "hgA": 0.2952
+  },
+  {
+    "trace_id": "PMC9832730",
+    "label": "sound",
+    "y": 1.0,
+    "soundness": 0.9704545454545456,
+    "n_flagged": 1,
+    "n_incorrect": 0,
+    "n_claims": 22,
+    "hgA": 0.981
+  },
+  {
+    "trace_id": "PMC9832730",
+    "label": "flawed",
+    "y": 0.0,
+    "soundness": 0.9704545454545456,
+    "n_flagged": 1,
+    "n_incorrect": 0,
+    "n_claims": 22,
+    "hgA": 0.9292
+  },
+  {
+    "trace_id": "PMC9834917",
+    "label": "sound",
+    "y": 1.0,
+    "soundness": 1.0,
+    "n_flagged": 0,
+    "n_incorrect": 0,
+    "n_claims": 21,
+    "hgA": 0.9895
+  },
+  {
+    "trace_id": "PMC9834917",
+    "label": "flawed",
+    "y": 0.0,
+    "soundness": 0.9704545454545456,
+    "n_flagged": 1,
+    "n_incorrect": 0,
+    "n_claims": 22,
+    "hgA": 0.4084
+  },
+  {
+    "trace_id": "PMC9943934",
+    "label": "flawed",
+    "y": 0.0,
+    "soundness": 0.9032258064516129,
+    "n_flagged": 3,
+    "n_incorrect": 3,
+    "n_claims": 31,
+    "hgA": 0.5543
+  },
+  {
+    "trace_id": "PMC9969826",
+    "label": "sound",
+    "y": 1.0,
+    "soundness": 1.0,
+    "n_flagged": 0,
+    "n_incorrect": 0,
+    "n_claims": 26,
+    "hgA": 1.0
+  },
+  {
+    "trace_id": "PMC9969826",
+    "label": "flawed",
+    "y": 0.0,
+    "soundness": 0.9717391304347827,
+    "n_flagged": 1,
+    "n_incorrect": 0,
+    "n_claims": 23,
+    "hgA": 0.9982
+  },
+  {
+    "trace_id": "PMC9976724",
+    "label": "sound",
+    "y": 1.0,
+    "soundness": 0.9717391304347827,
+    "n_flagged": 1,
+    "n_incorrect": 0,
+    "n_claims": 23,
+    "hgA": 0.9419
+  },
+  {
+    "trace_id": "PMC9976724",
+    "label": "flawed",
+    "y": 0.0,
+    "soundness": 0.938888888888889,
+    "n_flagged": 2,
+    "n_incorrect": 1,
+    "n_claims": 27,
+    "hgA": 0.7493
+  },
+  {
+    "trace_id": "PMC9990263",
+    "label": "sound",
+    "y": 1.0,
+    "soundness": 0.9629629629629629,
+    "n_flagged": 1,
+    "n_incorrect": 1,
+    "n_claims": 27,
+    "hgA": 0.9895
+  },
+  {
+    "trace_id": "PMC9943934",
+    "label": "sound",
+    "y": 1.0,
+    "soundness": 1.0,
+    "n_flagged": 0,
+    "n_incorrect": 0,
+    "n_claims": 30,
+    "hgA": 0.9986
+  },
+  {
+    "trace_id": "PMC9990263",
+    "label": "flawed",
+    "y": 0.0,
+    "soundness": 0.8821428571428571,
+    "n_flagged": 4,
+    "n_incorrect": 2,
+    "n_claims": 28,
+    "hgA": 0.5966
+  }
+]

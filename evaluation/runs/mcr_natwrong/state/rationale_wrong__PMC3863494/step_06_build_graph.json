@@ -1,0 +1,1203 @@
+{
+  "name": "build_graph",
+  "passed": false,
+  "score": 0.9493,
+  "reasoning": "Graph built with 69 node(s) and 57 edge(s). 7 disconnected node(s): n1, n2, n3, n4, n5, n6, n7. The graph centers on a diagnostic chain leading to Hansen disease, with strongest support from biopsy findings showing granulomatous dermatitis, rare acid-fast bacilli, and peripheral nerve involvement. Additional edges capture supportive epidemiology and immunosuppression, while alternative diagnoses are weakened by negative PAS, lack of caseation, and nerve involvement. The final diagnosis is tuberculoid leprosy.",
+  "data": {
+    "nodes": [
+      {
+        "id": "n1",
+        "text": "The chief complaint is a 4-month asymptomatic rash with swelling over the right thigh in an immunosuppressed renal transplant recipient.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Reference data states 4-month history of asymptomatic rash and swelling over the right thigh in a renal transplant recipient on immunosuppression.",
+        "cluster_idx": 0,
+        "cluster_label": "unsegmented"
+      },
+      {
+        "id": "n2",
+        "text": "The patient’s own concern is a progressive unilateral eruption.",
+        "category": "factual",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "The eruption is described as unilateral on the right thigh/residual limb and progressive from distal to proximal, which supports this paraphrase.",
+        "cluster_idx": 0,
+        "cluster_label": "unsegmented"
+      },
+      {
+        "id": "n3",
+        "text": "The eruption began distally on the residual limb.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "The eruption began distally on his residual limb.",
+        "cluster_idx": 0,
+        "cluster_label": "unsegmented"
+      },
+      {
+        "id": "n4",
+        "text": "The eruption spread proximally.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "The eruption spread proximally.",
+        "cluster_idx": 0,
+        "cluster_label": "unsegmented"
+      },
+      {
+        "id": "n5",
+        "text": "Empiric antifungal therapy failed.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Empiric antifungal cream was ineffective.",
+        "cluster_idx": 0,
+        "cluster_label": "unsegmented"
+      },
+      {
+        "id": "n6",
+        "text": "Topical corticosteroids worsened the eruption.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Topical corticosteroid worsened the lesions.",
+        "cluster_idx": 0,
+        "cluster_label": "unsegmented"
+      },
+      {
+        "id": "n7",
+        "text": "The salient positive findings strongly point toward an infectious granulomatous dermatosis with neural involvement.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Granulomatous dermatitis plus rare acid-fast bacilli and peripheral nerve involvement reasonably point to an infectious granulomatous process with neural involvement.",
+        "cluster_idx": 0,
+        "cluster_label": "unsegmented"
+      },
+      {
+        "id": "n8",
+        "text": "He is chronically immunosuppressed after cadaveric renal transplant.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "He had a cadaveric renal transplant six years earlier and is maintained on immunosuppressive therapy.",
+        "cluster_idx": 0,
+        "cluster_label": "unsegmented"
+      },
+      {
+        "id": "n9",
+        "text": "He takes cyclosporine.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Cyclosporine is explicitly listed among his medications.",
+        "cluster_idx": 0,
+        "cluster_label": "unsegmented"
+      },
+      {
+        "id": "n10",
+        "text": "He takes mycophenolic acid.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Mycophenolic acid is explicitly listed among his medications.",
+        "cluster_idx": 0,
+        "cluster_label": "unsegmented"
+      },
+      {
+        "id": "n11",
+        "text": "He takes prednisone.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Prednisone is explicitly listed among his medications.",
+        "cluster_idx": 0,
+        "cluster_label": "unsegmented"
+      },
+      {
+        "id": "n12",
+        "text": "This immunosuppression increases susceptibility to atypical infections.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Chronic transplant immunosuppression is standardly associated with increased susceptibility to atypical/opportunistic infections.",
+        "cluster_idx": 0,
+        "cluster_label": "unsegmented"
+      },
+      {
+        "id": "n13",
+        "text": "He has travel exposure to Thailand.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Travel to Thailand is explicitly stated.",
+        "cluster_idx": 0,
+        "cluster_label": "unsegmented"
+      },
+      {
+        "id": "n14",
+        "text": "He has travel exposure to Vietnam.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Travel to Vietnam is explicitly stated.",
+        "cluster_idx": 0,
+        "cluster_label": "unsegmented"
+      },
+      {
+        "id": "n15",
+        "text": "He has travel exposure to Panama.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Travel to Panama is explicitly stated.",
+        "cluster_idx": 0,
+        "cluster_label": "unsegmented"
+      },
+      {
+        "id": "n16",
+        "text": "Leprosy can occur in Thailand, Vietnam, and Panama.",
+        "category": "factual",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "The trace notes these are regions where leprosy can occur; this is a reasonable epidemiologic inference, though not directly stated in the reference data.",
+        "cluster_idx": 0,
+        "cluster_label": "unsegmented"
+      },
+      {
+        "id": "n17",
+        "text": "The lesions are multiple erythematous papules and plaques.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Examination showed multiple erythematous papules and plaques.",
+        "cluster_idx": 0,
+        "cluster_label": "unsegmented"
+      },
+      {
+        "id": "n18",
+        "text": "Some of the lesions are annular.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Some lesions were coalescing into an annular pattern.",
+        "cluster_idx": 0,
+        "cluster_label": "unsegmented"
+      },
+      {
+        "id": "n19",
+        "text": "The lesions are localized to the right thigh/residual limb.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "The eruption was on the right thigh and residual limb.",
+        "cluster_idx": 0,
+        "cluster_label": "unsegmented"
+      },
+      {
+        "id": "n20",
+        "text": "Histology shows dermal nonnecrotizing tuberculoid granulomas with lymphocytes and rare neutrophils.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Biopsy showed dermal nonnecrotizing tuberculoid granulomas with lymphocytes and rare neutrophils.",
+        "cluster_idx": 0,
+        "cluster_label": "unsegmented"
+      },
+      {
+        "id": "n21",
+        "text": "Acid-fast stain shows rare acid-fast bacilli.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Acid-fast staining revealed rare acid-fast bacilli.",
+        "cluster_idx": 0,
+        "cluster_label": "unsegmented"
+      },
+      {
+        "id": "n22",
+        "text": "Acid-fast stain shows granulomatous involvement of a peripheral nerve bundle.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Acid-fast staining demonstrated granulomatous involvement of a peripheral nerve bundle.",
+        "cluster_idx": 0,
+        "cluster_label": "unsegmented"
+      },
+      {
+        "id": "n23",
+        "text": "Peripheral nerve involvement in a granulomatous dermatitis is a classic clue for Hansen disease.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Peripheral nerve involvement in granulomatous dermatitis is a classic diagnostic clue for Hansen disease.",
+        "cluster_idx": 0,
+        "cluster_label": "unsegmented"
+      },
+      {
+        "id": "n24",
+        "text": "The presence of only rare bacilli with tuberculoid granulomas supports the paucibacillary/tuberculoid end of the spectrum rather than lepromatous disease.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Rare bacilli with tuberculoid granulomas is consistent with paucibacillary/tuberculoid leprosy rather than lepromatous disease.",
+        "cluster_idx": 0,
+        "cluster_label": "unsegmented"
+      },
+      {
+        "id": "n25",
+        "text": "PAS stain is negative for fungal elements.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "PAS stain was negative for fungal elements.",
+        "cluster_idx": 0,
+        "cluster_label": "unsegmented"
+      },
+      {
+        "id": "n26",
+        "text": "The negative PAS stain argues against dermatophyte infection.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "A negative PAS stain reasonably argues against dermatophyte infection in this context.",
+        "cluster_idx": 0,
+        "cluster_label": "unsegmented"
+      },
+      {
+        "id": "n27",
+        "text": "The negative PAS stain argues against deep fungal infection.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "A negative PAS stain also argues against many deep fungal infections, though not absolutely excluding them.",
+        "cluster_idx": 0,
+        "cluster_label": "unsegmented"
+      },
+      {
+        "id": "n28",
+        "text": "Antifungal cream was ineffective.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Empiric antifungal cream was ineffective.",
+        "cluster_idx": 0,
+        "cluster_label": "unsegmented"
+      },
+      {
+        "id": "n29",
+        "text": "Topical corticosteroid worsened the lesions.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Topical corticosteroid worsened the lesions.",
+        "cluster_idx": 0,
+        "cluster_label": "unsegmented"
+      },
+      {
+        "id": "n30",
+        "text": "This pattern is compatible with an untreated infection rather than eczema or inflammatory dermatosis.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Failure of antifungal therapy and worsening with steroid is compatible with an untreated infection rather than eczema or inflammatory dermatosis.",
+        "cluster_idx": 0,
+        "cluster_label": "unsegmented"
+      },
+      {
+        "id": "n31",
+        "text": "The biopsy showed nonnecrotizing granulomas rather than caseating granulomas.",
+        "category": "factual",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "The biopsy is described as nonnecrotizing tuberculoid granulomas, which contrasts with classic caseating granulomas of tuberculosis.",
+        "cluster_idx": 0,
+        "cluster_label": "unsegmented"
+      },
+      {
+        "id": "n32",
+        "text": "This finding makes classic cutaneous tuberculosis less fitting.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Because the histology is nonnecrotizing and nerve involvement favors leprosy, classic cutaneous tuberculosis is less fitting.",
+        "cluster_idx": 0,
+        "cluster_label": "unsegmented"
+      },
+      {
+        "id": "n33",
+        "text": "The eruption is asymptomatic.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "The presentation explicitly says the rash was asymptomatic.",
+        "cluster_idx": 0,
+        "cluster_label": "unsegmented"
+      },
+      {
+        "id": "n34",
+        "text": "An asymptomatic eruption is less typical for bacterial cellulitis.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "An asymptomatic eruption is generally less typical for cellulitis.",
+        "cluster_idx": 0,
+        "cluster_label": "unsegmented"
+      },
+      {
+        "id": "n35",
+        "text": "An asymptomatic eruption is less typical for inflammatory contact dermatitis.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "An asymptomatic eruption is less typical for inflammatory contact dermatitis.",
+        "cluster_idx": 0,
+        "cluster_label": "unsegmented"
+      },
+      {
+        "id": "n36",
+        "text": "There is no mention of systemic symptoms.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "The reference data does not mention systemic symptoms.",
+        "cluster_idx": 0,
+        "cluster_label": "unsegmented"
+      },
+      {
+        "id": "n37",
+        "text": "There is no mention of ulceration.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "The reference data does not mention ulceration.",
+        "cluster_idx": 0,
+        "cluster_label": "unsegmented"
+      },
+      {
+        "id": "n38",
+        "text": "There is no mention of purulence.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "The reference data does not mention purulence.",
+        "cluster_idx": 0,
+        "cluster_label": "unsegmented"
+      },
+      {
+        "id": "n39",
+        "text": "Hansen disease fits best among the differential diagnoses.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Given the nerve bundle involvement, rare acid-fast bacilli, tuberculoid granulomas, and travel history, Hansen disease is the best fit among the listed differentials.",
+        "cluster_idx": 0,
+        "cluster_label": "unsegmented"
+      },
+      {
+        "id": "n40",
+        "text": "Travel to endemic areas supports Hansen disease.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Travel to Thailand, Vietnam, and Panama is epidemiologically supportive of Hansen disease, though the reference data itself does not explicitly state endemicity.",
+        "cluster_idx": 0,
+        "cluster_label": "unsegmented"
+      },
+      {
+        "id": "n41",
+        "text": "Chronic immunosuppression supports Hansen disease.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Chronic immunosuppression is documented (cyclosporine, mycophenolic acid, prednisone after renal transplant) and is a standard risk factor supporting Hansen disease.",
+        "cluster_idx": 0,
+        "cluster_label": "unsegmented"
+      },
+      {
+        "id": "n42",
+        "text": "Granulomatous dermatitis supports Hansen disease.",
+        "category": "causal",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Biopsy showed dermal nonnecrotizing tuberculoid granulomas with lymphocytes and rare neutrophils.",
+        "cluster_idx": 0,
+        "cluster_label": "unsegmented"
+      },
+      {
+        "id": "n43",
+        "text": "Acid-fast bacilli support Hansen disease.",
+        "category": "causal",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Acid-fast staining revealed rare acid-fast bacilli.",
+        "cluster_idx": 0,
+        "cluster_label": "unsegmented"
+      },
+      {
+        "id": "n44",
+        "text": "Granulomatous involvement of a peripheral nerve bundle supports Hansen disease.",
+        "category": "causal",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Biopsy demonstrated granulomatous involvement of a peripheral nerve bundle.",
+        "cluster_idx": 0,
+        "cluster_label": "unsegmented"
+      },
+      {
+        "id": "n45",
+        "text": "The annular papules and plaques are consistent with tuberculoid or borderline tuberculoid disease.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Annular papules/plaques plus tuberculoid granulomatous histology are consistent with tuberculoid or borderline tuberculoid leprosy.",
+        "cluster_idx": 0,
+        "cluster_label": "unsegmented"
+      },
+      {
+        "id": "n46",
+        "text": "The paucity of organisms is consistent with tuberculoid or borderline tuberculoid disease.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Rare organisms on AFB stain fit the paucibacillary/tuberculoid end of the leprosy spectrum.",
+        "cluster_idx": 0,
+        "cluster_label": "unsegmented"
+      },
+      {
+        "id": "n47",
+        "text": "Cutaneous nontuberculous mycobacterial infection is plausible.",
+        "category": "factual",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Given immunosuppression, chronic plaques, and AFB positivity, cutaneous NTM is a reasonable differential consideration.",
+        "cluster_idx": 0,
+        "cluster_label": "unsegmented"
+      },
+      {
+        "id": "n48",
+        "text": "He is immunosuppressed.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "He is maintained on cyclosporine, mycophenolic acid, and prednisone after renal transplant.",
+        "cluster_idx": 0,
+        "cluster_label": "unsegmented"
+      },
+      {
+        "id": "n49",
+        "text": "He has chronic plaques.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "The eruption is described as a 4-month history of rash and swelling with chronic localized plaques.",
+        "cluster_idx": 0,
+        "cluster_label": "unsegmented"
+      },
+      {
+        "id": "n50",
+        "text": "He has rare acid-fast bacilli on stain.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Rare acid-fast bacilli were seen on stain.",
+        "cluster_idx": 0,
+        "cluster_label": "unsegmented"
+      },
+      {
+        "id": "n51",
+        "text": "Peripheral nerve involvement is not typical for cutaneous nontuberculous mycobacterial infection.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Peripheral nerve involvement is not a typical feature of cutaneous NTM and is used here as a discriminator.",
+        "cluster_idx": 0,
+        "cluster_label": "unsegmented"
+      },
+      {
+        "id": "n52",
+        "text": "Peripheral nerve involvement is a major discriminator against cutaneous nontuberculous mycobacterial infection.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "This is a stronger differential-pruning inference from the biopsy pattern; nerve involvement argues against NTM.",
+        "cluster_idx": 0,
+        "cluster_label": "unsegmented"
+      },
+      {
+        "id": "n53",
+        "text": "Cutaneous tuberculosis could produce granulomas.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Cutaneous tuberculosis can present with granulomatous inflammation, so this is a reasonable differential statement.",
+        "cluster_idx": 0,
+        "cluster_label": "unsegmented"
+      },
+      {
+        "id": "n54",
+        "text": "Cutaneous tuberculosis could produce acid-fast organisms.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Mycobacterial disease including cutaneous TB can show acid-fast organisms.",
+        "cluster_idx": 0,
+        "cluster_label": "unsegmented"
+      },
+      {
+        "id": "n55",
+        "text": "Peripheral nerve bundle involvement is not characteristic of cutaneous tuberculosis.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Peripheral nerve bundle involvement is a classic leprosy clue and not characteristic of cutaneous TB.",
+        "cluster_idx": 0,
+        "cluster_label": "unsegmented"
+      },
+      {
+        "id": "n56",
+        "text": "The histology is described as tuberculoid granulomas with rare bacilli rather than caseating granulomas.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "The biopsy is explicitly described as dermal nonnecrotizing tuberculoid granulomas with rare bacilli, not caseating granulomas.",
+        "cluster_idx": 0,
+        "cluster_label": "unsegmented"
+      },
+      {
+        "id": "n57",
+        "text": "Deep fungal infection or tinea is less likely.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Negative PAS and failed antifungal therapy make deep fungal infection/tinea less likely.",
+        "cluster_idx": 0,
+        "cluster_label": "unsegmented"
+      },
+      {
+        "id": "n58",
+        "text": "PAS is negative.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "PAS stain was negative for fungal elements.",
+        "cluster_idx": 0,
+        "cluster_label": "unsegmented"
+      },
+      {
+        "id": "n59",
+        "text": "Antifungal treatment failed.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Empiric antifungal cream was ineffective.",
+        "cluster_idx": 0,
+        "cluster_label": "unsegmented"
+      },
+      {
+        "id": "n60",
+        "text": "Granuloma annulare could produce annular plaques and granulomas.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Granuloma annulare can present with annular plaques and granulomatous histology, though this is a differential inference rather than a case fact.",
+        "cluster_idx": 0,
+        "cluster_label": "unsegmented"
+      },
+      {
+        "id": "n61",
+        "text": "Sarcoidosis could produce annular plaques and granulomas.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Sarcoidosis can also produce annular plaques and granulomatous inflammation, making it a plausible differential.",
+        "cluster_idx": 0,
+        "cluster_label": "unsegmented"
+      },
+      {
+        "id": "n62",
+        "text": "Granuloma annulare would not explain acid-fast bacilli.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Granuloma annulare does not explain acid-fast bacilli; this is standard differential reasoning.",
+        "cluster_idx": 0,
+        "cluster_label": "unsegmented"
+      },
+      {
+        "id": "n63",
+        "text": "Sarcoidosis would not explain acid-fast bacilli.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Sarcoidosis would not account for acid-fast bacilli on biopsy.",
+        "cluster_idx": 0,
+        "cluster_label": "unsegmented"
+      },
+      {
+        "id": "n64",
+        "text": "Granuloma annulare would not explain nerve involvement.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Granuloma annulare would not explain granulomatous peripheral nerve involvement.",
+        "cluster_idx": 0,
+        "cluster_label": "unsegmented"
+      },
+      {
+        "id": "n65",
+        "text": "Sarcoidosis would not explain nerve involvement.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Sarcoidosis would not explain the biopsy-proven peripheral nerve bundle involvement in this context.",
+        "cluster_idx": 0,
+        "cluster_label": "unsegmented"
+      },
+      {
+        "id": "n66",
+        "text": "The single most likely diagnosis is Hansen disease.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Given the biopsy with AFB and peripheral nerve involvement, Hansen disease is the most likely diagnosis.",
+        "cluster_idx": 0,
+        "cluster_label": "unsegmented"
+      },
+      {
+        "id": "n67",
+        "text": "The biopsy finding of acid-fast bacilli within a granulomatous dermatitis involving a peripheral nerve bundle is the decisive feature.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "AFB within granulomatous dermatitis involving a peripheral nerve bundle is the key diagnostic feature supporting Hansen disease.",
+        "cluster_idx": 0,
+        "cluster_label": "unsegmented"
+      },
+      {
+        "id": "n68",
+        "text": "Given the tuberculoid granulomas and rare organisms, this is most consistent with tuberculoid leprosy on the paucibacillary end of the spectrum.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Tuberculoid granulomas with rare organisms fit paucibacillary/tuberculoid leprosy.",
+        "cluster_idx": 0,
+        "cluster_label": "unsegmented"
+      },
+      {
+        "id": "n69",
+        "text": "The final diagnosis is tuberculoid leprosy.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "The trace explicitly states the final diagnosis is tuberculoid leprosy.",
+        "cluster_idx": 0,
+        "cluster_label": "unsegmented"
+      }
+    ],
+    "edges": [
+      {
+        "source": "n8",
+        "target": "n12",
+        "kind": "causes",
+        "explanation": "Chronic post-transplant immunosuppression increases susceptibility to atypical infections."
+      },
+      {
+        "source": "n9",
+        "target": "n8",
+        "kind": "supports",
+        "explanation": "Cyclosporine is part of the chronic immunosuppressive regimen after transplant."
+      },
+      {
+        "source": "n10",
+        "target": "n8",
+        "kind": "supports",
+        "explanation": "Mycophenolic acid is part of the chronic immunosuppressive regimen after transplant."
+      },
+      {
+        "source": "n11",
+        "target": "n8",
+        "kind": "supports",
+        "explanation": "Prednisone is part of the chronic immunosuppressive regimen after transplant."
+      },
+      {
+        "source": "n12",
+        "target": "n41",
+        "kind": "supports",
+        "explanation": "Increased susceptibility to atypical infections supports Hansen disease in this context."
+      },
+      {
+        "source": "n13",
+        "target": "n40",
+        "kind": "supports",
+        "explanation": "Travel to Thailand supports exposure to an endemic area for Hansen disease."
+      },
+      {
+        "source": "n14",
+        "target": "n40",
+        "kind": "supports",
+        "explanation": "Travel to Vietnam supports exposure to an endemic area for Hansen disease."
+      },
+      {
+        "source": "n15",
+        "target": "n40",
+        "kind": "supports",
+        "explanation": "Travel to Panama supports exposure to an endemic area for Hansen disease."
+      },
+      {
+        "source": "n16",
+        "target": "n40",
+        "kind": "supports",
+        "explanation": "Leprosy occurring in these countries makes the travel history diagnostically relevant."
+      },
+      {
+        "source": "n17",
+        "target": "n42",
+        "kind": "supports",
+        "explanation": "Multiple erythematous papules and plaques are compatible with a granulomatous dermatitis."
+      },
+      {
+        "source": "n18",
+        "target": "n45",
+        "kind": "supports",
+        "explanation": "Annular morphology supports tuberculoid or borderline tuberculoid disease."
+      },
+      {
+        "source": "n19",
+        "target": "n44",
+        "kind": "supports",
+        "explanation": "Localization to the affected limb is consistent with a focal process that can involve peripheral nerves."
+      },
+      {
+        "source": "n20",
+        "target": "n42",
+        "kind": "supports",
+        "explanation": "Nonnecrotizing tuberculoid granulomas support granulomatous dermatitis."
+      },
+      {
+        "source": "n20",
+        "target": "n68",
+        "kind": "supports",
+        "explanation": "Tuberculoid granulomas with rare organisms fit tuberculoid leprosy on the paucibacillary end."
+      },
+      {
+        "source": "n21",
+        "target": "n43",
+        "kind": "supports",
+        "explanation": "Rare acid-fast bacilli directly support Hansen disease."
+      },
+      {
+        "source": "n22",
+        "target": "n44",
+        "kind": "supports",
+        "explanation": "Granulomatous involvement of a peripheral nerve bundle is a classic supportive feature of Hansen disease."
+      },
+      {
+        "source": "n23",
+        "target": "n44",
+        "kind": "supports",
+        "explanation": "The stated classic clue links peripheral nerve involvement to Hansen disease."
+      },
+      {
+        "source": "n24",
+        "target": "n46",
+        "kind": "supports",
+        "explanation": "Rare bacilli with tuberculoid granulomas indicate the paucibacillary/tuberculoid spectrum."
+      },
+      {
+        "source": "n25",
+        "target": "n26",
+        "kind": "supports",
+        "explanation": "A negative PAS stain argues against dermatophyte infection."
+      },
+      {
+        "source": "n25",
+        "target": "n27",
+        "kind": "supports",
+        "explanation": "A negative PAS stain argues against deep fungal infection."
+      },
+      {
+        "source": "n28",
+        "target": "n30",
+        "kind": "supports",
+        "explanation": "Failure of antifungal cream supports an untreated infectious process rather than eczema."
+      },
+      {
+        "source": "n29",
+        "target": "n30",
+        "kind": "supports",
+        "explanation": "Worsening with topical corticosteroid supports an untreated infection rather than an inflammatory dermatosis."
+      },
+      {
+        "source": "n31",
+        "target": "n32",
+        "kind": "supports",
+        "explanation": "Nonnecrotizing granulomas make classic cutaneous tuberculosis less fitting."
+      },
+      {
+        "source": "n33",
+        "target": "n34",
+        "kind": "supports",
+        "explanation": "An asymptomatic eruption is less typical for bacterial cellulitis."
+      },
+      {
+        "source": "n33",
+        "target": "n35",
+        "kind": "supports",
+        "explanation": "An asymptomatic eruption is less typical for inflammatory contact dermatitis."
+      },
+      {
+        "source": "n36",
+        "target": "n39",
+        "kind": "supports",
+        "explanation": "Absence of systemic symptoms does not suggest an alternative systemic diagnosis and is compatible with Hansen disease."
+      },
+      {
+        "source": "n37",
+        "target": "n39",
+        "kind": "supports",
+        "explanation": "No ulceration is compatible with Hansen disease and does not favor ulcerative alternatives."
+      },
+      {
+        "source": "n38",
+        "target": "n39",
+        "kind": "supports",
+        "explanation": "No purulence is compatible with Hansen disease and argues against suppurative infection."
+      },
+      {
+        "source": "n40",
+        "target": "n39",
+        "kind": "supports",
+        "explanation": "Endemic travel exposure supports Hansen disease."
+      },
+      {
+        "source": "n41",
+        "target": "n39",
+        "kind": "supports",
+        "explanation": "Chronic immunosuppression supports Hansen disease."
+      },
+      {
+        "source": "n42",
+        "target": "n39",
+        "kind": "supports",
+        "explanation": "Granulomatous dermatitis supports Hansen disease."
+      },
+      {
+        "source": "n43",
+        "target": "n39",
+        "kind": "supports",
+        "explanation": "Acid-fast bacilli support Hansen disease."
+      },
+      {
+        "source": "n44",
+        "target": "n39",
+        "kind": "supports",
+        "explanation": "Peripheral nerve bundle involvement strongly supports Hansen disease."
+      },
+      {
+        "source": "n45",
+        "target": "n68",
+        "kind": "supports",
+        "explanation": "Annular papules and plaques are consistent with tuberculoid or borderline tuberculoid disease."
+      },
+      {
+        "source": "n46",
+        "target": "n68",
+        "kind": "supports",
+        "explanation": "Paucity of organisms is consistent with tuberculoid or borderline tuberculoid disease."
+      },
+      {
+        "source": "n47",
+        "target": "n51",
+        "kind": "supports",
+        "explanation": "If cutaneous nontuberculous mycobacterial infection is considered, peripheral nerve involvement argues against it."
+      },
+      {
+        "source": "n48",
+        "target": "n47",
+        "kind": "supports",
+        "explanation": "Immunosuppression makes cutaneous nontuberculous mycobacterial infection plausible."
+      },
+      {
+        "source": "n49",
+        "target": "n47",
+        "kind": "supports",
+        "explanation": "Chronic plaques are compatible with cutaneous nontuberculous mycobacterial infection."
+      },
+      {
+        "source": "n50",
+        "target": "n47",
+        "kind": "supports",
+        "explanation": "Rare acid-fast bacilli make cutaneous nontuberculous mycobacterial infection plausible."
+      },
+      {
+        "source": "n51",
+        "target": "n52",
+        "kind": "supports",
+        "explanation": "Peripheral nerve involvement being atypical strengthens the discriminator against cutaneous nontuberculous mycobacterial infection."
+      },
+      {
+        "source": "n52",
+        "target": "n47",
+        "kind": "contradicts",
+        "explanation": "Peripheral nerve involvement argues against cutaneous nontuberculous mycobacterial infection."
+      },
+      {
+        "source": "n53",
+        "target": "n55",
+        "kind": "supports",
+        "explanation": "Although cutaneous tuberculosis can produce granulomas, nerve bundle involvement is not characteristic."
+      },
+      {
+        "source": "n54",
+        "target": "n53",
+        "kind": "supports",
+        "explanation": "Acid-fast organisms are compatible with cutaneous tuberculosis."
+      },
+      {
+        "source": "n55",
+        "target": "n53",
+        "kind": "contradicts",
+        "explanation": "Peripheral nerve bundle involvement is not characteristic of cutaneous tuberculosis."
+      },
+      {
+        "source": "n56",
+        "target": "n68",
+        "kind": "supports",
+        "explanation": "Tuberculoid granulomas with rare bacilli rather than caseation support tuberculoid leprosy."
+      },
+      {
+        "source": "n57",
+        "target": "n39",
+        "kind": "contradicts",
+        "explanation": "Deep fungal infection or tinea is less likely than Hansen disease."
+      },
+      {
+        "source": "n58",
+        "target": "n57",
+        "kind": "supports",
+        "explanation": "Negative PAS staining makes deep fungal infection or tinea less likely."
+      },
+      {
+        "source": "n59",
+        "target": "n57",
+        "kind": "supports",
+        "explanation": "Failure of antifungal treatment makes deep fungal infection or tinea less likely."
+      },
+      {
+        "source": "n60",
+        "target": "n39",
+        "kind": "contradicts",
+        "explanation": "Granuloma annulare is an alternative explanation that does not fit the acid-fast and nerve findings."
+      },
+      {
+        "source": "n61",
+        "target": "n39",
+        "kind": "contradicts",
+        "explanation": "Sarcoidosis is an alternative explanation that does not fit the acid-fast and nerve findings."
+      },
+      {
+        "source": "n62",
+        "target": "n60",
+        "kind": "supports",
+        "explanation": "Granuloma annulare would not explain acid-fast bacilli."
+      },
+      {
+        "source": "n63",
+        "target": "n61",
+        "kind": "supports",
+        "explanation": "Sarcoidosis would not explain acid-fast bacilli."
+      },
+      {
+        "source": "n64",
+        "target": "n60",
+        "kind": "supports",
+        "explanation": "Granuloma annulare would not explain nerve involvement."
+      },
+      {
+        "source": "n65",
+        "target": "n61",
+        "kind": "supports",
+        "explanation": "Sarcoidosis would not explain nerve involvement."
+      },
+      {
+        "source": "n66",
+        "target": "n69",
+        "kind": "supports",
+        "explanation": "The single most likely diagnosis directly supports the final diagnosis."
+      },
+      {
+        "source": "n67",
+        "target": "n66",
+        "kind": "supports",
+        "explanation": "The decisive biopsy feature supports Hansen disease as the leading diagnosis."
+      },
+      {
+        "source": "n68",
+        "target": "n69",
+        "kind": "supports",
+        "explanation": "Tuberculoid leprosy on the paucibacillary end is the final diagnosis."
+      }
+    ],
+    "disconnected": [
+      "n1",
+      "n2",
+      "n3",
+      "n4",
+      "n5",
+      "n6",
+      "n7"
+    ],
+    "clusters": [
+      {
+        "cluster_id": "c1",
+        "label": "unsegmented",
+        "statement_indices": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40,
+          41,
+          42,
+          43,
+          44,
+          45,
+          46,
+          47,
+          48,
+          49,
+          50,
+          51,
+          52,
+          53,
+          54,
+          55,
+          56,
+          57,
+          58,
+          59,
+          60,
+          61,
+          62,
+          63,
+          64,
+          65,
+          66,
+          67,
+          68,
+          69
+        ],
+        "summary": "",
+        "salience": 0.0
+      }
+    ],
+    "node_ranks": {
+      "n1": 0.5,
+      "n2": 0.5,
+      "n3": 0.5,
+      "n4": 0.5,
+      "n5": 0.5,
+      "n6": 0.5,
+      "n7": 0.5,
+      "n8": 0.25,
+      "n9": 0.0,
+      "n10": 0.0,
+      "n11": 0.0,
+      "n12": 0.5,
+      "n13": 0.5,
+      "n14": 0.5,
+      "n15": 0.5,
+      "n16": 0.5,
+      "n17": 0.5,
+      "n18": 0.25,
+      "n19": 0.5,
+      "n20": 0.5,
+      "n21": 0.5,
+      "n22": 0.5,
+      "n23": 0.5,
+      "n24": 0.25,
+      "n25": 0.75,
+      "n26": 1.0,
+      "n27": 1.0,
+      "n28": 0.75,
+      "n29": 0.75,
+      "n30": 1.0,
+      "n31": 0.75,
+      "n32": 1.0,
+      "n33": 0.75,
+      "n34": 1.0,
+      "n35": 1.0,
+      "n36": 0.75,
+      "n37": 0.75,
+      "n38": 0.75,
+      "n39": 1.0,
+      "n40": 0.75,
+      "n41": 0.75,
+      "n42": 0.75,
+      "n43": 0.75,
+      "n44": 0.75,
+      "n45": 0.5,
+      "n46": 0.5,
+      "n47": 0.5,
+      "n48": 0.5,
+      "n49": 0.5,
+      "n50": 0.5,
+      "n51": 0.5,
+      "n52": 0.5,
+      "n53": 0.5,
+      "n54": 0.5,
+      "n55": 0.5,
+      "n56": 0.5,
+      "n57": 0.75,
+      "n58": 0.5,
+      "n59": 0.5,
+      "n60": 0.75,
+      "n61": 0.75,
+      "n62": 0.5,
+      "n63": 0.5,
+      "n64": 0.5,
+      "n65": 0.5,
+      "n66": 0.75,
+      "n67": 0.5,
+      "n68": 0.75,
+      "n69": 1.0
+    }
+  }
+}

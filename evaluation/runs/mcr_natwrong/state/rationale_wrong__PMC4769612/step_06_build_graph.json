@@ -1,0 +1,1155 @@
+{
+  "name": "build_graph",
+  "passed": true,
+  "score": 1.0,
+  "reasoning": "Graph built with 61 node(s) and 61 edge(s). The graph centers on a symptomatic left skull base/jugular foramen lesion with lower cranial neuropathies and CPA extension. Imaging and exam findings support a jugular foramen mass, with multiple features favoring glomus jugulare paraganglioma over schwannoma or meningioma. The final diagnosis is supported by the cumulative pattern.",
+  "data": {
+    "nodes": [
+      {
+        "id": "n1",
+        "text": "The chief concern is a progressively symptomatic skull base/posterior fossa lesion causing lower cranial neuropathies.",
+        "category": "factual",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Summarizes the case as a skull base/posterior fossa lesion with lower cranial neuropathies, which follows from the jugular foramen mass and CN VIII-XII deficits.",
+        "cluster_idx": 0,
+        "cluster_label": "history_taking"
+      },
+      {
+        "id": "n2",
+        "text": "The patient has a long history of occipital headaches.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Reference data states an 11-year history of chronic occipital headaches.",
+        "cluster_idx": 0,
+        "cluster_label": "history_taking"
+      },
+      {
+        "id": "n3",
+        "text": "Over the past year, the patient developed worsening speech difficulty.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Reference data says a 1-year history of increasing difficulty with speech.",
+        "cluster_idx": 0,
+        "cluster_label": "history_taking"
+      },
+      {
+        "id": "n4",
+        "text": "Over the past year, the patient developed inability to reach high notes when singing.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Reference data says difficulty reaching high notes when singing for 1 year.",
+        "cluster_idx": 0,
+        "cluster_label": "history_taking"
+      },
+      {
+        "id": "n5",
+        "text": "Over the past year, the patient developed dysphagia.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Reference data explicitly reports progressive difficulty swallowing.",
+        "cluster_idx": 0,
+        "cluster_label": "history_taking"
+      },
+      {
+        "id": "n6",
+        "text": "Over the past year, the patient developed left facial spasms.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Reference data explicitly reports left-sided facial spasms.",
+        "cluster_idx": 0,
+        "cluster_label": "history_taking"
+      },
+      {
+        "id": "n7",
+        "text": "Over the past year, the patient developed left hearing loss.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Reference data explicitly reports left-sided hearing loss.",
+        "cluster_idx": 0,
+        "cluster_label": "history_taking"
+      },
+      {
+        "id": "n8",
+        "text": "Over the past year, the patient developed tinnitus.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Reference data explicitly reports tinnitus.",
+        "cluster_idx": 0,
+        "cluster_label": "history_taking"
+      },
+      {
+        "id": "n9",
+        "text": "Over the past year, the patient developed dizziness.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Reference data explicitly reports dizziness.",
+        "cluster_idx": 0,
+        "cluster_label": "history_taking"
+      },
+      {
+        "id": "n10",
+        "text": "These symptoms localize to the left jugular foramen/cerebellopontine angle region.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "The symptom cluster and imaging localize to the left jugular foramen/cerebellopontine angle region; this is a sound clinical localization.",
+        "cluster_idx": 1,
+        "cluster_label": "examination"
+      },
+      {
+        "id": "n11",
+        "text": "These symptoms involve multiple cranial nerves.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Reference data states deficits of cranial nerves VIII through XII on the left.",
+        "cluster_idx": 1,
+        "cluster_label": "examination"
+      },
+      {
+        "id": "n12",
+        "text": "These symptoms especially involve cranial nerves IX, X, XI, and XII.",
+        "category": "factual",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "CN IX-XII involvement is implied by the lower cranial neuropathy pattern and the trace’s localization, though not listed verbatim in the reference.",
+        "cluster_idx": 1,
+        "cluster_label": "examination"
+      },
+      {
+        "id": "n13",
+        "text": "These symptoms also involve cranial nerve VIII.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "CN VIII deficit is included in the documented VIII through XII deficits.",
+        "cluster_idx": 1,
+        "cluster_label": "examination"
+      },
+      {
+        "id": "n14",
+        "text": "Salient positive findings strongly support a jugular foramen mass.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "A jugular foramen mass is a reasonable synthesis of the CT/MRI findings and cranial neuropathies.",
+        "cluster_idx": 1,
+        "cluster_label": "examination"
+      },
+      {
+        "id": "n15",
+        "text": "Examination showed deficits of cranial nerves VIII through XII on the left.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Reference data states deficits of cranial nerves VIII through XII on the left side.",
+        "cluster_idx": 1,
+        "cluster_label": "examination"
+      },
+      {
+        "id": "n16",
+        "text": "CT demonstrated a mildly enhancing soft-tissue mass.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "CT described a mildly enhancing soft-tissue mass.",
+        "cluster_idx": 2,
+        "cluster_label": "test_ordering"
+      },
+      {
+        "id": "n17",
+        "text": "CT demonstrated scalloped expansion of the left jugular foramen.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "CT described scalloped expansion of the left jugular foramen.",
+        "cluster_idx": 2,
+        "cluster_label": "test_ordering"
+      },
+      {
+        "id": "n18",
+        "text": "CT demonstrated intracranial extension into the cerebellopontine angle.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "CT described intracranial extension into the cerebellopontine angle.",
+        "cluster_idx": 2,
+        "cluster_label": "test_ordering"
+      },
+      {
+        "id": "n19",
+        "text": "CT demonstrated extracranial extension into the carotid space.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "CT described extracranial extension into the carotid space.",
+        "cluster_idx": 2,
+        "cluster_label": "test_ordering"
+      },
+      {
+        "id": "n20",
+        "text": "MRI showed a 3.8 cm dumbbell-shaped lesion centered at the jugular foramen.",
+        "category": "statistical",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "MRI showed a 3.8 × 3.5 × 3.5 cm dumbbell-shaped lesion centered at the jugular foramen; 3.8 cm is supported as the largest dimension.",
+        "cluster_idx": 2,
+        "cluster_label": "test_ordering"
+      },
+      {
+        "id": "n21",
+        "text": "MRI showed a classic “salt & pepper” appearance on T2-weighted imaging.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Reference data explicitly states a salt & pepper appearance on T2-weighted images.",
+        "cluster_idx": 2,
+        "cluster_label": "test_ordering"
+      },
+      {
+        "id": "n22",
+        "text": "MRI showed avid enhancement.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Reference data explicitly states avid postcontrast enhancement.",
+        "cluster_idx": 2,
+        "cluster_label": "test_ordering"
+      },
+      {
+        "id": "n23",
+        "text": "The lesion is a highly vascular tumor.",
+        "category": "factual",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "A salt-and-pepper, avidly enhancing jugular foramen lesion with vessel effects is consistent with a highly vascular tumor.",
+        "cluster_idx": 2,
+        "cluster_label": "test_ordering"
+      },
+      {
+        "id": "n24",
+        "text": "There was mass effect on the left medulla.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Reference data states mass effect on the left medulla.",
+        "cluster_idx": 2,
+        "cluster_label": "test_ordering"
+      },
+      {
+        "id": "n25",
+        "text": "There was mass effect on the anterior inferior cerebellum.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Reference data states mass effect on the anterior inferior cerebellum.",
+        "cluster_idx": 2,
+        "cluster_label": "test_ordering"
+      },
+      {
+        "id": "n26",
+        "text": "There was obscuration of left cranial nerves VII through XII.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Reference data states obscuration of left cranial nerves VII through XII.",
+        "cluster_idx": 2,
+        "cluster_label": "test_ordering"
+      },
+      {
+        "id": "n27",
+        "text": "There was narrowing of the adjacent left cervical internal carotid artery.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Reference data states the left cervical internal carotid artery was asymmetrically narrowed.",
+        "cluster_idx": 2,
+        "cluster_label": "test_ordering"
+      },
+      {
+        "id": "n28",
+        "text": "There was nonvisualization of the left internal jugular vein.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Reference data states the left internal jugular vein was not visualized.",
+        "cluster_idx": 2,
+        "cluster_label": "test_ordering"
+      },
+      {
+        "id": "n29",
+        "text": "This pattern is characteristic of a paraganglioma arising in the jugular foramen region.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "The jugular foramen epicenter, salt-and-pepper MRI, avid enhancement, and vascular effects are characteristic of a jugular foramen paraganglioma.",
+        "cluster_idx": 2,
+        "cluster_label": "test_ordering"
+      },
+      {
+        "id": "n30",
+        "text": "There is no description of internal auditory canal-centered disease.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "The reference data does not describe internal auditory canal-centered disease.",
+        "cluster_idx": 3,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n31",
+        "text": "Internal auditory canal-centered disease would favor vestibular schwannoma.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Internal auditory canal-centered disease is a standard imaging feature that would favor vestibular schwannoma.",
+        "cluster_idx": 3,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n32",
+        "text": "The lesion causes scalloped expansion of the jugular foramen.",
+        "category": "causal",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "CT explicitly showed scalloped expansion of the left jugular foramen.",
+        "cluster_idx": 3,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n33",
+        "text": "The lesion does not cause hyperostosis.",
+        "category": "factual",
+        "verified": true,
+        "score": 0.6,
+        "reasoning": "The reference data does not mention hyperostosis, so absence cannot be confirmed from the case.",
+        "cluster_idx": 3,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n34",
+        "text": "The lesion does not cause a dural tail.",
+        "category": "factual",
+        "verified": true,
+        "score": 0.6,
+        "reasoning": "The reference data does not mention a dural tail, so this absence is not directly verifiable.",
+        "cluster_idx": 3,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n35",
+        "text": "These findings argue against meningioma.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Scalloped jugular foramen expansion and vascular MRI features argue against meningioma, which is a reasonable differential conclusion.",
+        "cluster_idx": 3,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n36",
+        "text": "The marked vascular imaging appearance is less typical for schwannoma.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Marked vascularity and salt-and-pepper appearance are less typical for schwannoma, a standard differential inference.",
+        "cluster_idx": 3,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n37",
+        "text": "The lesion extends both intracranially and extracranially in a dumbbell configuration through the jugular foramen.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Reference data states intracranial extension into the CPA and extracranial extension into the carotid space, i.e., a dumbbell configuration through the jugular foramen.",
+        "cluster_idx": 3,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n38",
+        "text": "This configuration is classic for glomus jugulare rather than a primary CPA tumor.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "A dumbbell lesion through the jugular foramen is classic for glomus jugulare rather than a primary CPA tumor.",
+        "cluster_idx": 3,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n39",
+        "text": "Glomus jugulare paraganglioma fits extremely well.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Given the imaging and cranial neuropathies, glomus jugulare paraganglioma is an excellent fit; this is a diagnostic inference.",
+        "cluster_idx": 3,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n40",
+        "text": "These tumors arise at the jugular foramen.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Paragangliomas/glomus jugulare tumors arise at the jugular foramen region.",
+        "cluster_idx": 3,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n41",
+        "text": "These tumors are hypervascular.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "The trace explicitly describes these tumors as a highly vascular tumor and notes hypervascular imaging features.",
+        "cluster_idx": 3,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n42",
+        "text": "These tumors show salt-and-pepper MRI signal.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Reference MRI states a classic “salt & pepper” appearance on T2-weighted imaging.",
+        "cluster_idx": 3,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n43",
+        "text": "These tumors show avid enhancement.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Reference MRI reports avid postcontrast enhancement.",
+        "cluster_idx": 3,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n44",
+        "text": "These tumors show jugular foramen expansion.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "CT showed scalloped expansion of the left jugular foramen.",
+        "cluster_idx": 3,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n45",
+        "text": "These tumors cause lower cranial nerve palsies with tinnitus/hearing symptoms.",
+        "category": "causal",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Presentation includes dysphagia, speech difficulty, hearing loss, tinnitus, dizziness, and CN VIII-XII deficits, which fits lower cranial nerve palsies with otologic symptoms.",
+        "cluster_idx": 3,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n46",
+        "text": "Jugular foramen schwannoma is plausible.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "The trace presents jugular foramen schwannoma as a plausible differential diagnosis.",
+        "cluster_idx": 3,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n47",
+        "text": "Jugular foramen schwannoma can produce a dumbbell-shaped jugular foramen mass.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "The trace states jugular foramen schwannoma can present as a dumbbell-shaped jugular foramen mass.",
+        "cluster_idx": 3,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n48",
+        "text": "Jugular foramen schwannoma can produce multiple cranial neuropathies.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "The trace states it can produce multiple cranial neuropathies.",
+        "cluster_idx": 3,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n49",
+        "text": "Jugular foramen schwannoma can produce CPA extension.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "The trace states it can have CPA extension.",
+        "cluster_idx": 3,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n50",
+        "text": "Jugular foramen schwannoma is usually less vascular.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "The trace explicitly says jugular foramen schwannoma is usually less vascular.",
+        "cluster_idx": 3,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n51",
+        "text": "Jugular foramen schwannoma lacks the classic salt-and-pepper appearance.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "The trace explicitly says the classic salt-and-pepper appearance is less typical for schwannoma, i.e. it lacks that classic pattern.",
+        "cluster_idx": 3,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n52",
+        "text": "Meningioma could occur at the skull base.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "The trace states meningioma could occur at the skull base.",
+        "cluster_idx": 3,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n53",
+        "text": "Meningioma can enhance strongly.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "The trace states meningioma could enhance strongly.",
+        "cluster_idx": 3,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n54",
+        "text": "Meningioma more often causes sclerotic bony change.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "The trace says meningioma more often causes sclerotic bony change.",
+        "cluster_idx": 3,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n55",
+        "text": "Meningioma more often causes a dural tail.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "The trace says meningioma more often causes a dural tail.",
+        "cluster_idx": 3,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n56",
+        "text": "These features are less typical than scalloped jugular foramen expansion and prominent vascular flow-void pattern.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "This is a comparative summary from the trace: scalloped jugular foramen expansion and vascular flow-void/salt-and-pepper features are more characteristic of paraganglioma than meningioma.",
+        "cluster_idx": 3,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n57",
+        "text": "Other CPA lesions such as vestibular schwannoma fit the hearing loss, tinnitus, and dizziness.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Vestibular schwannoma commonly fits hearing loss, tinnitus, and dizziness; this is a standard differential inference consistent with the trace.",
+        "cluster_idx": 3,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n58",
+        "text": "Other CPA lesions such as vestibular schwannoma do not explain the jugular foramen expansion as well.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "A vestibular schwannoma centered in the IAC/CPA would not explain jugular foramen expansion as well; this is a sound differential-pruning inference.",
+        "cluster_idx": 3,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n59",
+        "text": "Other CPA lesions such as vestibular schwannoma do not explain the extensive IX-XII deficits as well.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Vestibular schwannoma does not typically account for extensive IX-XII deficits as well as a jugular foramen lesion; this follows from the localization.",
+        "cluster_idx": 3,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n60",
+        "text": "The combination of jugular foramen epicenter, dumbbell morphology with intracranial and extracranial extension, lower cranial nerve deficits, tinnitus/hearing symptoms, avid enhancement, and especially the MRI “salt & pepper” appearance makes glomus jugulare paraganglioma the most likely diagnosis.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "This is the trace’s diagnostic synthesis and conclusion based on the imaging and cranial neuropathies.",
+        "cluster_idx": 4,
+        "cluster_label": "final_decision"
+      },
+      {
+        "id": "n61",
+        "text": "Glomus jugulare paraganglioma is the final diagnosis.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "The trace explicitly states the final diagnosis is glomus jugulare paraganglioma.",
+        "cluster_idx": 4,
+        "cluster_label": "final_decision"
+      }
+    ],
+    "edges": [
+      {
+        "source": "n2",
+        "target": "n1",
+        "kind": "supports",
+        "explanation": "Longstanding occipital headaches support a symptomatic skull base/posterior fossa process."
+      },
+      {
+        "source": "n3",
+        "target": "n1",
+        "kind": "supports",
+        "explanation": "Progressive speech difficulty supports a lesion causing lower cranial neuropathies."
+      },
+      {
+        "source": "n4",
+        "target": "n1",
+        "kind": "supports",
+        "explanation": "Loss of high singing notes suggests vagal/lower cranial nerve involvement from the lesion."
+      },
+      {
+        "source": "n5",
+        "target": "n1",
+        "kind": "supports",
+        "explanation": "Dysphagia supports lower cranial nerve dysfunction from a skull base lesion."
+      },
+      {
+        "source": "n6",
+        "target": "n1",
+        "kind": "supports",
+        "explanation": "Left facial spasms support a focal skull base/cerebellopontine angle process."
+      },
+      {
+        "source": "n7",
+        "target": "n1",
+        "kind": "supports",
+        "explanation": "Left hearing loss supports a lesion in the skull base/CPA region."
+      },
+      {
+        "source": "n8",
+        "target": "n1",
+        "kind": "supports",
+        "explanation": "Tinnitus supports involvement of the skull base/CPA region."
+      },
+      {
+        "source": "n9",
+        "target": "n1",
+        "kind": "supports",
+        "explanation": "Dizziness supports a posterior fossa/CPA lesion."
+      },
+      {
+        "source": "n15",
+        "target": "n11",
+        "kind": "supports",
+        "explanation": "Deficits of cranial nerves VIII through XII directly show multiple cranial nerve involvement."
+      },
+      {
+        "source": "n15",
+        "target": "n12",
+        "kind": "supports",
+        "explanation": "The exam findings specifically include lower cranial nerves IX, X, XI, and XII."
+      },
+      {
+        "source": "n15",
+        "target": "n13",
+        "kind": "supports",
+        "explanation": "The exam findings include cranial nerve VIII involvement."
+      },
+      {
+        "source": "n11",
+        "target": "n10",
+        "kind": "supports",
+        "explanation": "Multiple cranial nerve involvement helps localize the process to the jugular foramen/CPA region."
+      },
+      {
+        "source": "n12",
+        "target": "n10",
+        "kind": "supports",
+        "explanation": "Predominant IX-XII involvement localizes to the jugular foramen region."
+      },
+      {
+        "source": "n13",
+        "target": "n10",
+        "kind": "supports",
+        "explanation": "CN VIII involvement supports extension to the cerebellopontine angle."
+      },
+      {
+        "source": "n16",
+        "target": "n14",
+        "kind": "supports",
+        "explanation": "A mildly enhancing soft-tissue mass is a salient positive imaging finding supporting a jugular foramen mass."
+      },
+      {
+        "source": "n17",
+        "target": "n14",
+        "kind": "supports",
+        "explanation": "Scalloped expansion of the jugular foramen strongly supports a jugular foramen mass."
+      },
+      {
+        "source": "n18",
+        "target": "n14",
+        "kind": "supports",
+        "explanation": "Intracranial extension into the CPA supports a jugular foramen mass."
+      },
+      {
+        "source": "n19",
+        "target": "n14",
+        "kind": "supports",
+        "explanation": "Extracranial extension into the carotid space supports a jugular foramen mass."
+      },
+      {
+        "source": "n20",
+        "target": "n14",
+        "kind": "supports",
+        "explanation": "A dumbbell-shaped lesion centered at the jugular foramen supports a jugular foramen mass."
+      },
+      {
+        "source": "n21",
+        "target": "n23",
+        "kind": "supports",
+        "explanation": "The salt-and-pepper MRI appearance supports a highly vascular tumor."
+      },
+      {
+        "source": "n22",
+        "target": "n23",
+        "kind": "supports",
+        "explanation": "Avid enhancement supports a highly vascular tumor."
+      },
+      {
+        "source": "n23",
+        "target": "n29",
+        "kind": "supports",
+        "explanation": "A highly vascular tumor with the described imaging pattern is characteristic of jugular foramen paraganglioma."
+      },
+      {
+        "source": "n24",
+        "target": "n29",
+        "kind": "supports",
+        "explanation": "Mass effect on the medulla supports a jugular foramen lesion with local extension."
+      },
+      {
+        "source": "n25",
+        "target": "n29",
+        "kind": "supports",
+        "explanation": "Mass effect on the anterior inferior cerebellum supports a jugular foramen/CPA lesion."
+      },
+      {
+        "source": "n26",
+        "target": "n29",
+        "kind": "supports",
+        "explanation": "Obscuration of cranial nerves VII through XII supports a lesion arising in the jugular foramen region."
+      },
+      {
+        "source": "n27",
+        "target": "n29",
+        "kind": "supports",
+        "explanation": "Narrowing of the adjacent internal carotid artery supports a locally invasive jugular foramen mass."
+      },
+      {
+        "source": "n28",
+        "target": "n29",
+        "kind": "supports",
+        "explanation": "Nonvisualization of the internal jugular vein supports a jugular foramen paraganglioma."
+      },
+      {
+        "source": "n30",
+        "target": "n31",
+        "kind": "supports",
+        "explanation": "Absence of internal auditory canal-centered disease argues against vestibular schwannoma and makes that diagnosis less favored."
+      },
+      {
+        "source": "n17",
+        "target": "n32",
+        "kind": "supports",
+        "explanation": "Scalloped expansion of the jugular foramen indicates the lesion is causing that bony change."
+      },
+      {
+        "source": "n33",
+        "target": "n35",
+        "kind": "supports",
+        "explanation": "Lack of hyperostosis argues against meningioma."
+      },
+      {
+        "source": "n34",
+        "target": "n35",
+        "kind": "supports",
+        "explanation": "Lack of a dural tail argues against meningioma."
+      },
+      {
+        "source": "n21",
+        "target": "n36",
+        "kind": "supports",
+        "explanation": "The marked vascular appearance is less typical for schwannoma."
+      },
+      {
+        "source": "n37",
+        "target": "n38",
+        "kind": "supports",
+        "explanation": "A dumbbell lesion extending both intracranially and extracranially through the jugular foramen is classic for glomus jugulare rather than a primary CPA tumor."
+      },
+      {
+        "source": "n40",
+        "target": "n39",
+        "kind": "supports",
+        "explanation": "Arising at the jugular foramen is a defining feature of glomus jugulare paraganglioma."
+      },
+      {
+        "source": "n41",
+        "target": "n39",
+        "kind": "supports",
+        "explanation": "Hypervascularity supports glomus jugulare paraganglioma."
+      },
+      {
+        "source": "n42",
+        "target": "n39",
+        "kind": "supports",
+        "explanation": "Salt-and-pepper MRI signal supports glomus jugulare paraganglioma."
+      },
+      {
+        "source": "n43",
+        "target": "n39",
+        "kind": "supports",
+        "explanation": "Avid enhancement supports glomus jugulare paraganglioma."
+      },
+      {
+        "source": "n44",
+        "target": "n39",
+        "kind": "supports",
+        "explanation": "Jugular foramen expansion supports glomus jugulare paraganglioma."
+      },
+      {
+        "source": "n45",
+        "target": "n39",
+        "kind": "supports",
+        "explanation": "Lower cranial nerve palsies with tinnitus/hearing symptoms are typical for glomus jugulare paraganglioma."
+      },
+      {
+        "source": "n47",
+        "target": "n46",
+        "kind": "supports",
+        "explanation": "A dumbbell-shaped jugular foramen mass is compatible with jugular foramen schwannoma."
+      },
+      {
+        "source": "n48",
+        "target": "n46",
+        "kind": "supports",
+        "explanation": "Multiple cranial neuropathies are compatible with jugular foramen schwannoma."
+      },
+      {
+        "source": "n49",
+        "target": "n46",
+        "kind": "supports",
+        "explanation": "CPA extension is compatible with jugular foramen schwannoma."
+      },
+      {
+        "source": "n50",
+        "target": "n46",
+        "kind": "supports",
+        "explanation": "Less vascular imaging features make schwannoma plausible but less favored."
+      },
+      {
+        "source": "n51",
+        "target": "n46",
+        "kind": "supports",
+        "explanation": "Absence of the classic salt-and-pepper appearance is compatible with schwannoma."
+      },
+      {
+        "source": "n52",
+        "target": "n56",
+        "kind": "supports",
+        "explanation": "Skull base meningioma is a competing diagnosis whose typical features differ from the observed pattern."
+      },
+      {
+        "source": "n53",
+        "target": "n56",
+        "kind": "supports",
+        "explanation": "Strong enhancement alone is not specific and is less discriminating than the observed vascular/jugular foramen pattern."
+      },
+      {
+        "source": "n54",
+        "target": "n56",
+        "kind": "supports",
+        "explanation": "Meningioma more often causes sclerotic bony change, unlike the scalloped expansion seen here."
+      },
+      {
+        "source": "n55",
+        "target": "n56",
+        "kind": "supports",
+        "explanation": "A dural tail would favor meningioma, so its absence makes meningioma less typical."
+      },
+      {
+        "source": "n57",
+        "target": "n58",
+        "kind": "supports",
+        "explanation": "Vestibular schwannoma can explain hearing symptoms but not the jugular foramen expansion as well."
+      },
+      {
+        "source": "n57",
+        "target": "n59",
+        "kind": "supports",
+        "explanation": "Vestibular schwannoma can explain hearing symptoms but not the extensive IX-XII deficits as well."
+      },
+      {
+        "source": "n39",
+        "target": "n60",
+        "kind": "supports",
+        "explanation": "The diagnosis of glomus jugulare paraganglioma directly supports the overall conclusion."
+      },
+      {
+        "source": "n14",
+        "target": "n60",
+        "kind": "supports",
+        "explanation": "Evidence for a jugular foramen mass supports the final diagnostic synthesis."
+      },
+      {
+        "source": "n29",
+        "target": "n60",
+        "kind": "supports",
+        "explanation": "Characteristic paraganglioma imaging pattern supports the final diagnosis."
+      },
+      {
+        "source": "n35",
+        "target": "n60",
+        "kind": "supports",
+        "explanation": "Findings arguing against meningioma strengthen the final diagnosis."
+      },
+      {
+        "source": "n36",
+        "target": "n60",
+        "kind": "supports",
+        "explanation": "Less typical schwannoma features support the final diagnosis over schwannoma."
+      },
+      {
+        "source": "n38",
+        "target": "n60",
+        "kind": "supports",
+        "explanation": "Classic dumbbell configuration for glomus jugulare supports the final diagnosis."
+      },
+      {
+        "source": "n46",
+        "target": "n60",
+        "kind": "supports",
+        "explanation": "Schwannoma is a differential diagnosis, but the overall pattern favors glomus jugulare instead."
+      },
+      {
+        "source": "n56",
+        "target": "n60",
+        "kind": "supports",
+        "explanation": "Features less typical for meningioma support the final diagnosis by exclusion."
+      },
+      {
+        "source": "n58",
+        "target": "n60",
+        "kind": "supports",
+        "explanation": "Failure of vestibular schwannoma to explain the bony expansion supports the final diagnosis."
+      },
+      {
+        "source": "n59",
+        "target": "n60",
+        "kind": "supports",
+        "explanation": "Failure of vestibular schwannoma to explain the lower cranial nerve deficits supports the final diagnosis."
+      },
+      {
+        "source": "n60",
+        "target": "n61",
+        "kind": "supports",
+        "explanation": "The diagnostic synthesis supports the final diagnosis statement."
+      }
+    ],
+    "disconnected": [],
+    "clusters": [
+      {
+        "cluster_id": "c1",
+        "label": "history_taking",
+        "statement_indices": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "summary": "Progressive skull base symptoms and lower cranial neuropathy complaints are elicited.",
+        "salience": 0.82
+      },
+      {
+        "cluster_id": "c2",
+        "label": "examination",
+        "statement_indices": [
+          10,
+          11,
+          12,
+          13,
+          14,
+          15
+        ],
+        "summary": "Localization and neurologic exam support a left jugular foramen lesion with multiple cranial nerve deficits.",
+        "salience": 0.9
+      },
+      {
+        "cluster_id": "c3",
+        "label": "test_ordering",
+        "statement_indices": [
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29
+        ],
+        "summary": "Imaging demonstrates a hypervascular dumbbell-shaped jugular foramen mass with intracranial and extracranial extension and mass effect.",
+        "salience": 0.95
+      },
+      {
+        "cluster_id": "c4",
+        "label": "differential_generation",
+        "statement_indices": [
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40,
+          41,
+          42,
+          43,
+          44,
+          45,
+          46,
+          47,
+          48,
+          49,
+          50,
+          51,
+          52,
+          53,
+          54,
+          55,
+          56,
+          57,
+          58,
+          59
+        ],
+        "summary": "Differential diagnosis is weighed against imaging and clinical features, favoring glomus jugulare over schwannoma, meningioma, or other CPA lesions.",
+        "salience": 0.93
+      },
+      {
+        "cluster_id": "c5",
+        "label": "final_decision",
+        "statement_indices": [
+          60,
+          61
+        ],
+        "summary": "The reasoning culminates in glomus jugulare paraganglioma as the most likely and final diagnosis.",
+        "salience": 1.0
+      }
+    ],
+    "node_ranks": {
+      "n1": 0.44,
+      "n2": 0.365,
+      "n3": 0.365,
+      "n4": 0.365,
+      "n5": 0.365,
+      "n6": 0.365,
+      "n7": 0.365,
+      "n8": 0.365,
+      "n9": 0.365,
+      "n10": 0.58,
+      "n11": 0.505,
+      "n12": 0.505,
+      "n13": 0.505,
+      "n14": 0.43,
+      "n15": 0.43,
+      "n16": 0.495,
+      "n17": 0.495,
+      "n18": 0.495,
+      "n19": 0.495,
+      "n20": 0.495,
+      "n21": 0.42,
+      "n22": 0.42,
+      "n23": 0.495,
+      "n24": 0.495,
+      "n25": 0.495,
+      "n26": 0.495,
+      "n27": 0.495,
+      "n28": 0.495,
+      "n29": 0.57,
+      "n30": 0.785,
+      "n31": 0.86,
+      "n32": 0.86,
+      "n33": 0.635,
+      "n34": 0.635,
+      "n35": 0.71,
+      "n36": 0.71,
+      "n37": 0.635,
+      "n38": 0.71,
+      "n39": 0.71,
+      "n40": 0.635,
+      "n41": 0.635,
+      "n42": 0.635,
+      "n43": 0.635,
+      "n44": 0.635,
+      "n45": 0.635,
+      "n46": 0.71,
+      "n47": 0.635,
+      "n48": 0.635,
+      "n49": 0.635,
+      "n50": 0.635,
+      "n51": 0.635,
+      "n52": 0.635,
+      "n53": 0.635,
+      "n54": 0.635,
+      "n55": 0.635,
+      "n56": 0.71,
+      "n57": 0.635,
+      "n58": 0.71,
+      "n59": 0.71,
+      "n60": 0.925,
+      "n61": 1.0
+    }
+  }
+}

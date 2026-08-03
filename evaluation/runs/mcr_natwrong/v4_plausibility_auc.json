@@ -1,0 +1,12 @@
+{
+  "n_correct": 90,
+  "n_wrong": 62,
+  "auc_plausibility": 0.713,
+  "ci95": [
+    0.627,
+    0.789
+  ],
+  "auc_panel_agreement_only": 0.709,
+  "plausibility_mean_correct": 0.855,
+  "plausibility_mean_wrong": 0.609
+}

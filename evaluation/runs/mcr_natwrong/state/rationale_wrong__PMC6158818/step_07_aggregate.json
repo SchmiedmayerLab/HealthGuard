@@ -1,0 +1,42 @@
+{
+  "name": "aggregate",
+  "passed": false,
+  "score": 0.9899,
+  "reasoning": "Failed overall. The main issue was the build_graph step, which reported 21 disconnected nodes despite the rest of the verification pipeline passing and the diagnostic reasoning remaining internally consistent. The weighted aggregate score was 0.9899.",
+  "data": {
+    "weighted_score": 0.9899,
+    "all_passed": false,
+    "step_scores": {
+      "static_rules": {
+        "score": 1.0,
+        "passed": true,
+        "weight": 0.1
+      },
+      "decompose": {
+        "score": 1.0,
+        "passed": true,
+        "weight": 0.05
+      },
+      "chain_verify": {
+        "score": 1.0,
+        "passed": true,
+        "weight": 0.1
+      },
+      "classify": {
+        "score": 1.0,
+        "passed": true,
+        "weight": 0.0
+      },
+      "expert_verify": {
+        "score": 1.0,
+        "passed": true,
+        "weight": 0.65
+      },
+      "build_graph": {
+        "score": 0.899,
+        "passed": false,
+        "weight": 0.1
+      }
+    }
+  }
+}

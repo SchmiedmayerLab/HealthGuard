@@ -1,0 +1,1102 @@
+{
+  "name": "build_graph",
+  "passed": false,
+  "score": 0.9355,
+  "reasoning": "Graph built with 62 node(s) and 50 edge(s). 8 disconnected node(s): n19, n20, n21, n22, n25, n51, n7, n8. The graph centers on a chronic recurrent lumbar canal mass causing cauda equina-type symptoms. Imaging and long-term recurrence most strongly support cellular schwannoma, while paraganglioma, metastatic prostate cancer, and myxopapillary ependymoma are considered but weakened by the imaging pattern and clinical course. The final diagnosis is cellular schwannoma.",
+  "data": {
+    "nodes": [
+      {
+        "id": "n1",
+        "text": "The chief concern is a slowly progressive neurologic syndrome localized to the lumbosacral spine.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "The presentation is a slowly progressive neurologic syndrome involving the lumbosacral region, with years-long weakness/numbness and back pain.",
+        "cluster_idx": 0,
+        "cluster_label": "history_taking"
+      },
+      {
+        "id": "n2",
+        "text": "The neurologic syndrome includes worsening left greater than right lower-extremity weakness and numbness over several years.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Reference data states progressive left lower-extremity weakness and numbness over several years; exam shows left worse than right weakness.",
+        "cluster_idx": 0,
+        "cluster_label": "history_taking"
+      },
+      {
+        "id": "n3",
+        "text": "The neurologic syndrome includes chronic low back pain.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Chronic low back pain is explicitly listed in the presentation.",
+        "cluster_idx": 0,
+        "cluster_label": "history_taking"
+      },
+      {
+        "id": "n4",
+        "text": "The neurologic syndrome includes constipation.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Constipation is explicitly present in the reference presentation.",
+        "cluster_idx": 0,
+        "cluster_label": "history_taking"
+      },
+      {
+        "id": "n5",
+        "text": "These symptoms suggest a chronic compressive or infiltrative lesion affecting the lumbar spinal canal or cauda equina region rather than an acute vascular or inflammatory process.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "A chronic, slowly progressive cauda equina/lumbosacral syndrome reasonably suggests compressive or infiltrative pathology rather than acute vascular/inflammatory disease.",
+        "cluster_idx": 0,
+        "cluster_label": "history_taking"
+      },
+      {
+        "id": "n6",
+        "text": "The patient has a prior history of a lumbar spinal tumor resected in 1992.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "He had resection of a lumbar spinal tumor in 1992.",
+        "cluster_idx": 0,
+        "cluster_label": "history_taking"
+      },
+      {
+        "id": "n7",
+        "text": "The lumbar spinal tumor was diagnosed at that time as paraganglioma.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "The prior lumbar tumor was originally diagnosed as paraganglioma.",
+        "cluster_idx": 0,
+        "cluster_label": "history_taking"
+      },
+      {
+        "id": "n8",
+        "text": "The patient received radiation therapy in 2002.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Radiation therapy in 2002 is stated in the reference data.",
+        "cluster_idx": 0,
+        "cluster_label": "history_taking"
+      },
+      {
+        "id": "n9",
+        "text": "Surveillance imaging showed interval enlargement of the lumbar lesion.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Surveillance imaging suggested interval increase/enlargement of the lumbar lesion over time.",
+        "cluster_idx": 0,
+        "cluster_label": "history_taking"
+      },
+      {
+        "id": "n10",
+        "text": "Current CT shows expansion of the spinal canal by an isodense soft-tissue mass.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "CT showed expansion of the spinal canal by an isodense soft-tissue mass.",
+        "cluster_idx": 1,
+        "cluster_label": "examination"
+      },
+      {
+        "id": "n11",
+        "text": "Current CT shows osseous destruction.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "CT also showed accompanying osseous destruction.",
+        "cluster_idx": 1,
+        "cluster_label": "examination"
+      },
+      {
+        "id": "n12",
+        "text": "MRI shows a mass that is hypointense on both T1-weighted and T2-weighted sequences.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "MRI demonstrated the mass was hypointense on both T1- and T2-weighted imaging.",
+        "cluster_idx": 1,
+        "cluster_label": "examination"
+      },
+      {
+        "id": "n13",
+        "text": "MRI shows homogeneous postcontrast enhancement.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "MRI showed homogeneous enhancement on postcontrast T1-weighted images.",
+        "cluster_idx": 1,
+        "cluster_label": "examination"
+      },
+      {
+        "id": "n14",
+        "text": "There is focal sensory loss in the left groin, anterior thigh, and calf.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Exam documented diminished sensation in the left groin, anterior thigh, and calf.",
+        "cluster_idx": 1,
+        "cluster_label": "examination"
+      },
+      {
+        "id": "n15",
+        "text": "There is bilateral leg weakness.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Strength was 4/5 in the right lower extremity and 3/5 in the left lower extremity, so bilateral weakness is present.",
+        "cluster_idx": 1,
+        "cluster_label": "examination"
+      },
+      {
+        "id": "n16",
+        "text": "The bilateral leg weakness is worse on the left.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "The left lower extremity was weaker than the right (3/5 vs 4/5).",
+        "cluster_idx": 1,
+        "cluster_label": "examination"
+      },
+      {
+        "id": "n17",
+        "text": "The focal sensory loss and bilateral leg weakness support mass effect on lumbar nerve roots or conus/cauda equina structures.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "The sensory loss and bilateral weakness are consistent with mass effect on lumbar roots or conus/cauda equina structures.",
+        "cluster_idx": 1,
+        "cluster_label": "examination"
+      },
+      {
+        "id": "n18",
+        "text": "Constipation supports chronic neural compromise.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Constipation can reflect chronic cauda equina/autonomic involvement, so this is a reasonable clinical inference.",
+        "cluster_idx": 1,
+        "cluster_label": "examination"
+      },
+      {
+        "id": "n19",
+        "text": "There is no mention of acute onset.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "The case describes a progressive course over several years; no acute onset is mentioned.",
+        "cluster_idx": 2,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n20",
+        "text": "There is no mention of fever.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Fever is not mentioned in the reference data.",
+        "cluster_idx": 2,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n21",
+        "text": "There is no mention of systemic infection.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Systemic infection is not mentioned in the reference data.",
+        "cluster_idx": 2,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n22",
+        "text": "There is no mention of inflammatory symptoms.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Inflammatory symptoms are not mentioned in the reference data.",
+        "cluster_idx": 2,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n23",
+        "text": "The course is over years.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "The symptoms are described as progressive over several years.",
+        "cluster_idx": 2,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n24",
+        "text": "The course over years argues strongly against acute disc herniation or hematoma.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "A years-long course argues against acute disc herniation or hematoma, which are typically abrupt.",
+        "cluster_idx": 2,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n25",
+        "text": "The patient has a history of prostate cancer.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "The reference presentation explicitly states a history of treated prostate cancer.",
+        "cluster_idx": 2,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n26",
+        "text": "The lesion appears to be a long-standing recurrent lumbar canal mass at the site of a previously resected tumor.",
+        "category": "factual",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Given prior lumbar tumor resection at the same site and interval enlargement over time, this is a reasonable synthesis of the case.",
+        "cluster_idx": 2,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n27",
+        "text": "The lesion appears to be a long-standing recurrent lumbar canal mass at the site of a previously resected tumor, making a new metastatic lesion less likely.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "A long-standing local recurrent mass at the prior tumor bed makes a new metastatic lesion less likely; this is a differential-pruning inference.",
+        "cluster_idx": 2,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n28",
+        "text": "The MRI pattern is not typical for many common intradural tumors such as myxopapillary ependymoma.",
+        "category": "factual",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "The MRI pattern is less typical for myxopapillary ependymoma, which is a reasonable comparative inference rather than a directly stated fact.",
+        "cluster_idx": 2,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n29",
+        "text": "Myxopapillary ependymoma more often shows T2 hyperintensity rather than marked T2 hypointensity.",
+        "category": "factual",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Myxopapillary ependymoma more often being T2 hyperintense is standard radiologic knowledge and fits the comparison made.",
+        "cluster_idx": 2,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n30",
+        "text": "The combination of osseous destruction and very delayed recurrence after prior surgery and radiation raises concern that the original diagnosis may have been incorrect.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Osseous destruction plus very delayed recurrence after surgery/radiation reasonably raises concern that the original diagnosis may have been incorrect.",
+        "cluster_idx": 2,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n31",
+        "text": "Recurrent spinal paraganglioma fits the prior diagnosis.",
+        "category": "factual",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "The trace explicitly considers recurrent spinal paraganglioma as a differential that fits the prior diagnosis.",
+        "cluster_idx": 2,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n32",
+        "text": "Recurrent spinal paraganglioma fits the location in the lumbar canal.",
+        "category": "factual",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "A lumbar canal location is compatible with spinal paraganglioma; this is a reasonable inference from the differential discussion.",
+        "cluster_idx": 2,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n33",
+        "text": "Recurrent spinal paraganglioma fits homogeneous enhancement.",
+        "category": "factual",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Homogeneous enhancement is compatible with paraganglioma, though not uniquely diagnostic.",
+        "cluster_idx": 2,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n34",
+        "text": "Recurrent spinal paraganglioma fits slow progression over years.",
+        "category": "factual",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Slow progression over years is compatible with recurrent spinal paraganglioma.",
+        "cluster_idx": 2,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n35",
+        "text": "Spinal paragangliomas are typically highly vascular.",
+        "category": "factual",
+        "verified": true,
+        "score": 0.6,
+        "reasoning": "This is general medical knowledge about paragangliomas, but vascularity is not directly established by the case data.",
+        "cluster_idx": 2,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n36",
+        "text": "Spinal paragangliomas are often T2 hyperintense or show a salt-and-pepper appearance rather than uniformly T2 hypointense.",
+        "category": "factual",
+        "verified": true,
+        "score": 0.6,
+        "reasoning": "This is a general imaging characterization of spinal paragangliomas, not directly verifiable from the provided case data.",
+        "cluster_idx": 2,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n37",
+        "text": "Osseous destruction is less characteristic of spinal paraganglioma.",
+        "category": "factual",
+        "verified": true,
+        "score": 0.6,
+        "reasoning": "Whether osseous destruction is less characteristic of paraganglioma is comparative medical knowledge not directly confirmed by the case data.",
+        "cluster_idx": 2,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n38",
+        "text": "Cellular schwannoma of the lumbar spine can present as a slow-growing cauda equina or lumbar canal mass causing chronic radiculopathy, weakness, sensory loss, and bowel dysfunction.",
+        "category": "factual",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "This is a plausible summary of why cellular schwannoma fits the clinical syndrome and imaging pattern.",
+        "cluster_idx": 2,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n39",
+        "text": "Cellular schwannomas can erode adjacent bone.",
+        "category": "factual",
+        "verified": true,
+        "score": 0.6,
+        "reasoning": "Bone erosion by cellular schwannomas is standard knowledge but not directly verifiable from the case data.",
+        "cluster_idx": 2,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n40",
+        "text": "Cellular schwannomas may be mistaken histologically for other spindle-cell or neuroendocrine tumors, especially in older pathology.",
+        "category": "factual",
+        "verified": true,
+        "score": 0.6,
+        "reasoning": "Histologic misclassification in older pathology is a plausible general point, but not verifiable from the provided data.",
+        "cluster_idx": 2,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n41",
+        "text": "MRI often shows iso- to hypointensity on T1-weighted sequences in cellular schwannoma.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "The trace states cellular schwannomas can show iso- to hypointensity on T1-weighted MRI; this matches the claim.",
+        "cluster_idx": 2,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n42",
+        "text": "MRI often shows relatively low T2 signal compared with conventional schwannoma because of hypercellularity in cellular schwannoma.",
+        "category": "causal",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "The trace explicitly says cellular schwannomas often have relatively low T2 signal because of hypercellularity.",
+        "cluster_idx": 2,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n43",
+        "text": "MRI often shows homogeneous enhancement in cellular schwannoma.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "The trace states homogeneous enhancement is typical for cellular schwannoma.",
+        "cluster_idx": 2,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n44",
+        "text": "The history of a lesion originally called paraganglioma but recurring locally over decades with these imaging features strongly supports cellular schwannoma.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "This is the trace’s diagnostic synthesis: prior paraganglioma label plus decades-long recurrence and imaging features support cellular schwannoma.",
+        "cluster_idx": 2,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n45",
+        "text": "Prostate cancer can cause back pain, weakness, and osseous involvement.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "The trace explicitly notes prostate cancer can cause back pain, weakness, and osseous involvement.",
+        "cluster_idx": 2,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n46",
+        "text": "This lesion is centered in the spinal canal at the site of a previously resected tumor.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Reference data show a lumbar spinal tumor resected previously and the current lesion is in the lumbar spinal canal at that site.",
+        "cluster_idx": 2,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n47",
+        "text": "This lesion has a decades-long local recurrence pattern rather than typical multifocal vertebral metastatic disease.",
+        "category": "factual",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "The reference shows a lesion present since 1992 with interval enlargement over time, which supports a decades-long local recurrence pattern rather than multifocal metastases.",
+        "cluster_idx": 2,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n48",
+        "text": "The location and chronic symptoms fit myxopapillary ependymoma or another cauda equina tumor.",
+        "category": "factual",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "The trace says location and chronic symptoms fit a cauda equina tumor; this is a differential consideration rather than a directly stated fact.",
+        "cluster_idx": 2,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n49",
+        "text": "The imaging description of T2 hypointensity and osseous destruction is less typical for myxopapillary ependymoma or another cauda equina tumor.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "The trace explicitly says T2 hypointensity and osseous destruction are less typical for myxopapillary ependymoma or another cauda equina tumor.",
+        "cluster_idx": 2,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n50",
+        "text": "The most compelling synthesis is a recurrent cellular schwannoma of the lumbar spine.",
+        "category": "factual",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "This is the stated narrowing to the single best diagnosis in the trace.",
+        "cluster_idx": 2,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n51",
+        "text": "The lesion was previously labeled paraganglioma.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Reference data state the lumbar spinal tumor was originally diagnosed as a paraganglioma.",
+        "cluster_idx": 2,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n52",
+        "text": "The very slow indolent course is a decisive clue.",
+        "category": "factual",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "The case spans from 1992 with slow progression over years, so describing the course as very slow/indolent is a sound inference.",
+        "cluster_idx": 2,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n53",
+        "text": "The lesion is a recurrent lumbar canal mass causing chronic cauda equina-type deficits.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Reference data describe a lumbar spinal canal mass with progressive weakness/numbness and constipation consistent with cauda equina-type deficits.",
+        "cluster_idx": 2,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n54",
+        "text": "CT evidence of spinal canal expansion with osseous destruction is a decisive clue.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "CT showed expansion of the spinal canal by an isodense soft-tissue mass with osseous destruction.",
+        "cluster_idx": 2,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n55",
+        "text": "MRI showing T1 and T2 hypointensity with homogeneous enhancement is a decisive clue.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "MRI demonstrated hypointensity on both T1- and T2-weighted imaging with homogeneous postcontrast enhancement.",
+        "cluster_idx": 2,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n56",
+        "text": "These features are characteristic of a hypercellular schwannoma.",
+        "category": "factual",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Given the imaging pattern and the trace’s discussion, calling these features characteristic of a hypercellular schwannoma is a reasonable diagnostic inference.",
+        "cluster_idx": 2,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n57",
+        "text": "These features are less typical for paraganglioma or metastatic disease.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "The trace explicitly states these features are less typical for paraganglioma or metastatic disease.",
+        "cluster_idx": 2,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n58",
+        "text": "The differential diagnosis includes cellular schwannoma of the lumbar spine.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Cellular schwannoma of the lumbar spine is listed as a differential diagnosis in the trace.",
+        "cluster_idx": 2,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n59",
+        "text": "The differential diagnosis includes recurrent spinal paraganglioma.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Recurrent spinal paraganglioma is listed as a differential diagnosis in the trace.",
+        "cluster_idx": 2,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n60",
+        "text": "The differential diagnosis includes metastatic prostate cancer to the lumbar spine.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Metastatic prostate cancer to the lumbar spine is listed as a differential diagnosis in the trace.",
+        "cluster_idx": 2,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n61",
+        "text": "The differential diagnosis includes myxopapillary ependymoma.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Myxopapillary ependymoma is listed as a differential diagnosis in the trace.",
+        "cluster_idx": 2,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n62",
+        "text": "The final diagnosis is cellular schwannoma.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "The trace explicitly states the final diagnosis is cellular schwannoma.",
+        "cluster_idx": 3,
+        "cluster_label": "final_decision"
+      }
+    ],
+    "edges": [
+      {
+        "source": "n2",
+        "target": "n1",
+        "kind": "supports",
+        "explanation": "Progressive lower-extremity weakness and numbness are part of the described neurologic syndrome."
+      },
+      {
+        "source": "n3",
+        "target": "n1",
+        "kind": "supports",
+        "explanation": "Chronic low back pain is part of the localized lumbosacral syndrome."
+      },
+      {
+        "source": "n4",
+        "target": "n1",
+        "kind": "supports",
+        "explanation": "Constipation is included among the syndrome features."
+      },
+      {
+        "source": "n1",
+        "target": "n5",
+        "kind": "supports",
+        "explanation": "A slowly progressive lumbosacral syndrome supports a chronic compressive or infiltrative process."
+      },
+      {
+        "source": "n6",
+        "target": "n26",
+        "kind": "supports",
+        "explanation": "Prior lumbar tumor resection supports the interpretation of the current lesion as a recurrent mass at the same site."
+      },
+      {
+        "source": "n9",
+        "target": "n26",
+        "kind": "supports",
+        "explanation": "Interval enlargement on surveillance imaging supports a long-standing recurrent lesion."
+      },
+      {
+        "source": "n10",
+        "target": "n53",
+        "kind": "supports",
+        "explanation": "CT showing canal expansion by a soft-tissue mass supports a recurrent lumbar canal mass."
+      },
+      {
+        "source": "n11",
+        "target": "n54",
+        "kind": "supports",
+        "explanation": "Osseous destruction is part of the decisive CT clue."
+      },
+      {
+        "source": "n12",
+        "target": "n55",
+        "kind": "supports",
+        "explanation": "T1 and T2 hypointensity is part of the decisive MRI clue."
+      },
+      {
+        "source": "n13",
+        "target": "n55",
+        "kind": "supports",
+        "explanation": "Homogeneous enhancement is part of the decisive MRI clue."
+      },
+      {
+        "source": "n14",
+        "target": "n17",
+        "kind": "supports",
+        "explanation": "Focal sensory loss supports mass effect on lumbar nerve roots or cauda equina structures."
+      },
+      {
+        "source": "n15",
+        "target": "n17",
+        "kind": "supports",
+        "explanation": "Bilateral leg weakness supports mass effect on lumbar nerve roots or cauda equina structures."
+      },
+      {
+        "source": "n16",
+        "target": "n15",
+        "kind": "supports",
+        "explanation": "Left-worse-than-right weakness is a refinement of the bilateral leg weakness."
+      },
+      {
+        "source": "n4",
+        "target": "n18",
+        "kind": "supports",
+        "explanation": "Constipation supports chronic neural compromise."
+      },
+      {
+        "source": "n23",
+        "target": "n24",
+        "kind": "supports",
+        "explanation": "A course over years argues against acute disc herniation or hematoma."
+      },
+      {
+        "source": "n26",
+        "target": "n27",
+        "kind": "supports",
+        "explanation": "A long-standing recurrent mass at the prior surgical site makes a new metastatic lesion less likely."
+      },
+      {
+        "source": "n28",
+        "target": "n49",
+        "kind": "supports",
+        "explanation": "If the MRI pattern is not typical for myxopapillary ependymoma, that diagnosis becomes less likely."
+      },
+      {
+        "source": "n29",
+        "target": "n28",
+        "kind": "supports",
+        "explanation": "Myxopapillary ependymoma more often being T2 hyperintense explains why marked T2 hypointensity is atypical."
+      },
+      {
+        "source": "n30",
+        "target": "n44",
+        "kind": "supports",
+        "explanation": "Concern that the original diagnosis may have been incorrect supports reclassification toward cellular schwannoma."
+      },
+      {
+        "source": "n31",
+        "target": "n59",
+        "kind": "supports",
+        "explanation": "Recurrent spinal paraganglioma is a plausible differential because it fits the prior diagnosis."
+      },
+      {
+        "source": "n32",
+        "target": "n59",
+        "kind": "supports",
+        "explanation": "The lumbar canal location supports recurrent spinal paraganglioma as a differential."
+      },
+      {
+        "source": "n33",
+        "target": "n59",
+        "kind": "supports",
+        "explanation": "Homogeneous enhancement supports recurrent spinal paraganglioma as a differential."
+      },
+      {
+        "source": "n34",
+        "target": "n59",
+        "kind": "supports",
+        "explanation": "Slow progression over years supports recurrent spinal paraganglioma as a differential."
+      },
+      {
+        "source": "n35",
+        "target": "n57",
+        "kind": "supports",
+        "explanation": "High vascularity is a feature that helps distinguish paraganglioma from the current lesion's pattern."
+      },
+      {
+        "source": "n36",
+        "target": "n57",
+        "kind": "supports",
+        "explanation": "Typical T2 hyperintensity or salt-and-pepper appearance makes the current uniformly T2 hypointense lesion less typical for paraganglioma."
+      },
+      {
+        "source": "n37",
+        "target": "n57",
+        "kind": "supports",
+        "explanation": "Less characteristic osseous destruction makes paraganglioma less likely."
+      },
+      {
+        "source": "n38",
+        "target": "n58",
+        "kind": "supports",
+        "explanation": "Cellular schwannoma can present as a slow-growing cauda equina or lumbar canal mass with the described symptoms."
+      },
+      {
+        "source": "n39",
+        "target": "n58",
+        "kind": "supports",
+        "explanation": "Bone erosion is compatible with cellular schwannoma."
+      },
+      {
+        "source": "n40",
+        "target": "n44",
+        "kind": "supports",
+        "explanation": "Histologic misclassification of cellular schwannoma supports the possibility that the prior paraganglioma label was incorrect."
+      },
+      {
+        "source": "n41",
+        "target": "n58",
+        "kind": "supports",
+        "explanation": "Iso- to hypointensity on T1 is compatible with cellular schwannoma."
+      },
+      {
+        "source": "n42",
+        "target": "n56",
+        "kind": "supports",
+        "explanation": "Hypercellularity explains the relatively low T2 signal characteristic of cellular schwannoma."
+      },
+      {
+        "source": "n43",
+        "target": "n58",
+        "kind": "supports",
+        "explanation": "Homogeneous enhancement is compatible with cellular schwannoma."
+      },
+      {
+        "source": "n44",
+        "target": "n50",
+        "kind": "supports",
+        "explanation": "The synthesis favoring cellular schwannoma directly supports the final diagnosis."
+      },
+      {
+        "source": "n45",
+        "target": "n60",
+        "kind": "supports",
+        "explanation": "Prostate cancer can produce back pain, weakness, and osseous involvement, so it belongs in the differential."
+      },
+      {
+        "source": "n46",
+        "target": "n53",
+        "kind": "supports",
+        "explanation": "A lesion centered in the spinal canal at the prior resection site supports a recurrent canal mass."
+      },
+      {
+        "source": "n47",
+        "target": "n27",
+        "kind": "supports",
+        "explanation": "A decades-long local recurrence pattern makes a new metastatic lesion less likely."
+      },
+      {
+        "source": "n48",
+        "target": "n61",
+        "kind": "supports",
+        "explanation": "The location and chronic symptoms make myxopapillary ependymoma or another cauda equina tumor a reasonable differential."
+      },
+      {
+        "source": "n49",
+        "target": "n61",
+        "kind": "supports",
+        "explanation": "The imaging pattern being less typical weakens but still frames myxopapillary ependymoma as a differential consideration."
+      },
+      {
+        "source": "n52",
+        "target": "n44",
+        "kind": "supports",
+        "explanation": "A very slow indolent course is a key clue supporting cellular schwannoma."
+      },
+      {
+        "source": "n53",
+        "target": "n50",
+        "kind": "supports",
+        "explanation": "A recurrent lumbar canal mass with chronic cauda equina-type deficits supports the final diagnosis."
+      },
+      {
+        "source": "n54",
+        "target": "n50",
+        "kind": "supports",
+        "explanation": "CT evidence of canal expansion with osseous destruction supports the final diagnosis."
+      },
+      {
+        "source": "n55",
+        "target": "n56",
+        "kind": "supports",
+        "explanation": "The MRI pattern is characteristic of a hypercellular schwannoma."
+      },
+      {
+        "source": "n56",
+        "target": "n50",
+        "kind": "supports",
+        "explanation": "Characteristic hypercellular schwannoma imaging features support the final diagnosis."
+      },
+      {
+        "source": "n57",
+        "target": "n59",
+        "kind": "contradicts",
+        "explanation": "Features less typical for paraganglioma argue against that diagnosis."
+      },
+      {
+        "source": "n57",
+        "target": "n60",
+        "kind": "contradicts",
+        "explanation": "The lesion's features are less typical for metastatic prostate cancer."
+      },
+      {
+        "source": "n58",
+        "target": "n50",
+        "kind": "supports",
+        "explanation": "Cellular schwannoma is the leading differential and supports the final diagnosis."
+      },
+      {
+        "source": "n59",
+        "target": "n50",
+        "kind": "contradicts",
+        "explanation": "Recurrent spinal paraganglioma is considered but is not the final favored diagnosis."
+      },
+      {
+        "source": "n60",
+        "target": "n50",
+        "kind": "contradicts",
+        "explanation": "Metastatic prostate cancer is in the differential but is not the final favored diagnosis."
+      },
+      {
+        "source": "n61",
+        "target": "n50",
+        "kind": "contradicts",
+        "explanation": "Myxopapillary ependymoma is considered but is not the final favored diagnosis."
+      },
+      {
+        "source": "n62",
+        "target": "n50",
+        "kind": "supports",
+        "explanation": "The final diagnosis statement directly confirms the synthesis."
+      }
+    ],
+    "disconnected": [
+      "n19",
+      "n20",
+      "n21",
+      "n22",
+      "n25",
+      "n51",
+      "n7",
+      "n8"
+    ],
+    "clusters": [
+      {
+        "cluster_id": "c1",
+        "label": "history_taking",
+        "statement_indices": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "summary": "Progressive chronic lumbosacral neurologic symptoms with prior lumbar paraganglioma resection, radiation, and interval lesion growth.",
+        "salience": 0.92
+      },
+      {
+        "cluster_id": "c2",
+        "label": "examination",
+        "statement_indices": [
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18
+        ],
+        "summary": "Current imaging and neurologic deficits show a lumbar canal mass causing cauda equina-type compression.",
+        "salience": 0.95
+      },
+      {
+        "cluster_id": "c3",
+        "label": "differential_generation",
+        "statement_indices": [
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40,
+          41,
+          42,
+          43,
+          44,
+          45,
+          46,
+          47,
+          48,
+          49,
+          50,
+          51,
+          52,
+          53,
+          54,
+          55,
+          56,
+          57,
+          58,
+          59,
+          60,
+          61
+        ],
+        "summary": "Weighs alternative diagnoses and argues that the chronic recurrent lumbar canal mass with this imaging pattern best fits cellular schwannoma over paraganglioma, metastasis, or ependymoma.",
+        "salience": 0.98
+      },
+      {
+        "cluster_id": "c4",
+        "label": "final_decision",
+        "statement_indices": [
+          62
+        ],
+        "summary": "Final diagnosis: cellular schwannoma.",
+        "salience": 1.0
+      }
+    ],
+    "node_ranks": {
+      "n1": 0.4,
+      "n2": 0.325,
+      "n3": 0.325,
+      "n4": 0.325,
+      "n5": 0.475,
+      "n6": 0.325,
+      "n7": 0.325,
+      "n8": 0.325,
+      "n9": 0.325,
+      "n10": 0.5,
+      "n11": 0.5,
+      "n12": 0.425,
+      "n13": 0.425,
+      "n14": 0.575,
+      "n15": 0.575,
+      "n16": 0.5,
+      "n17": 0.65,
+      "n18": 0.65,
+      "n19": 0.675,
+      "n20": 0.675,
+      "n21": 0.675,
+      "n22": 0.675,
+      "n23": 0.75,
+      "n24": 0.825,
+      "n25": 0.675,
+      "n26": 0.75,
+      "n27": 0.825,
+      "n28": 0.6,
+      "n29": 0.525,
+      "n30": 0.675,
+      "n31": 0.675,
+      "n32": 0.675,
+      "n33": 0.675,
+      "n34": 0.675,
+      "n35": 0.6,
+      "n36": 0.6,
+      "n37": 0.6,
+      "n38": 0.675,
+      "n39": 0.675,
+      "n40": 0.675,
+      "n41": 0.675,
+      "n42": 0.675,
+      "n43": 0.675,
+      "n44": 0.75,
+      "n45": 0.675,
+      "n46": 0.675,
+      "n47": 0.75,
+      "n48": 0.675,
+      "n49": 0.675,
+      "n50": 0.825,
+      "n51": 0.675,
+      "n52": 0.675,
+      "n53": 0.75,
+      "n54": 0.75,
+      "n55": 0.675,
+      "n56": 0.75,
+      "n57": 0.675,
+      "n58": 0.75,
+      "n59": 0.75,
+      "n60": 0.75,
+      "n61": 0.75,
+      "n62": 0.925
+    }
+  }
+}

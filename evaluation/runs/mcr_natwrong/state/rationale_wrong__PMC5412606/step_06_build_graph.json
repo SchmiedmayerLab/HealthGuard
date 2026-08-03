@@ -1,0 +1,1213 @@
+{
+  "name": "build_graph",
+  "passed": false,
+  "score": 0.9773,
+  "reasoning": "Graph built with 66 node(s) and 56 edge(s). 3 disconnected node(s): n4, n6, n7. The graph separates the original wide-complex ILVT from the new narrow-complex tachycardia. Evidence nodes about the initial arrhythmia support fascicular VT/ILVT, while the narrow tachycardia features and procedural timing support a separate supraventricular mechanism, most strongly typical slow-fast AVNRT. Competing alternatives such as orthodromic AVRT, focal atrial tachycardia, and junctional tachycardia are downweighted by the absence of accessory pathway evidence, concentric atrial activation, short VA interval, and the sustained regular pattern during ablation.",
+  "data": {
+    "nodes": [
+      {
+        "id": "n1",
+        "text": "The key question is not the initial wide-complex tachycardia.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "The trace explicitly says the key question is the new narrow-complex tachycardia, not the initial wide-complex tachycardia.",
+        "cluster_idx": 0,
+        "cluster_label": "other"
+      },
+      {
+        "id": "n2",
+        "text": "The initial wide-complex tachycardia is already well characterized as left posterior fascicular idiopathic left ventricular tachycardia (ILVT).",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Reference data states the clinical tachycardia was diagnosed as left posterior fascicular variant of ILVT.",
+        "cluster_idx": 0,
+        "cluster_label": "other"
+      },
+      {
+        "id": "n3",
+        "text": "The key question is the mechanism of the new narrow-complex tachycardia.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "The trace explicitly frames the key question as the mechanism of the new narrow-complex tachycardia.",
+        "cluster_idx": 0,
+        "cluster_label": "other"
+      },
+      {
+        "id": "n4",
+        "text": "The new narrow-complex tachycardia appeared abruptly during radiofrequency ablation.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Reference data says the wide-complex tachycardia abruptly transitioned to narrow-complex tachycardia immediately during RF delivery.",
+        "cluster_idx": 0,
+        "cluster_label": "other"
+      },
+      {
+        "id": "n5",
+        "text": "Salient findings for the original arrhythmia strongly support fascicular VT.",
+        "category": "factual",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "The listed EP features are classic for fascicular VT and the trace concludes they strongly support it.",
+        "cluster_idx": 0,
+        "cluster_label": "other"
+      },
+      {
+        "id": "n6",
+        "text": "The heart is structurally normal.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Transthoracic echocardiography showed a structurally normal heart.",
+        "cluster_idx": 1,
+        "cluster_label": "history_taking"
+      },
+      {
+        "id": "n7",
+        "text": "The patient had recurrent palpitations.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Presentation states a 5-year history of recurrent palpitations.",
+        "cluster_idx": 1,
+        "cluster_label": "history_taking"
+      },
+      {
+        "id": "n8",
+        "text": "The original arrhythmia was a wide-complex tachycardia with right bundle branch block morphology and left-axis deviation.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "ECGs showed wide-complex tachycardia with RBBB morphology and left-axis deviation.",
+        "cluster_idx": 2,
+        "cluster_label": "examination"
+      },
+      {
+        "id": "n9",
+        "text": "The original arrhythmia was reproducibly inducible with RV burst pacing and isoprenaline.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "The clinical tachycardia was reproducibly induced by RV burst pacing and isoprenaline infusion.",
+        "cluster_idx": 2,
+        "cluster_label": "examination"
+      },
+      {
+        "id": "n10",
+        "text": "The original arrhythmia was sensitive to verapamil.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Intravenous verapamil consistently terminated the tachycardia.",
+        "cluster_idx": 2,
+        "cluster_label": "examination"
+      },
+      {
+        "id": "n11",
+        "text": "The original arrhythmia had a negative HV interval.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Reference data explicitly notes a negative HV interval.",
+        "cluster_idx": 2,
+        "cluster_label": "examination"
+      },
+      {
+        "id": "n12",
+        "text": "Atrial dissociation from ventricular activity was present during rapid atrial pacing.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Atrial pacing dissociated atrial from ventricular activity.",
+        "cluster_idx": 2,
+        "cluster_label": "examination"
+      },
+      {
+        "id": "n13",
+        "text": "Progressive fusion during atrial overdrive pacing is consistent with ventricular tachycardia.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Progressive fusion during atrial overdrive pacing is described as consistent with entrainment, which supports VT.",
+        "cluster_idx": 2,
+        "cluster_label": "examination"
+      },
+      {
+        "id": "n14",
+        "text": "Mapping showed presystolic Purkinje potentials in the left posterior septum.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Presystolic Purkinje potentials were recorded 28 ms before QRS onset in the distal third of the left posterior apical septum.",
+        "cluster_idx": 2,
+        "cluster_label": "examination"
+      },
+      {
+        "id": "n15",
+        "text": "Ablation was delivered in the left posterior septum.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "RF energy was applied to the mid-apical posterior interventricular septum.",
+        "cluster_idx": 3,
+        "cluster_label": "other"
+      },
+      {
+        "id": "n16",
+        "text": "The narrow-complex tachycardia emerged immediately during RF delivery at the fascicular VT site.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "The narrow-complex tachycardia began immediately during energy delivery.",
+        "cluster_idx": 3,
+        "cluster_label": "other"
+      },
+      {
+        "id": "n17",
+        "text": "The narrow-complex tachycardia had a regular narrow QRS of 85 ms.",
+        "category": "statistical",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Reference data gives QRS width 85 ms and describes it as regular narrow-complex tachycardia.",
+        "cluster_idx": 3,
+        "cluster_label": "other"
+      },
+      {
+        "id": "n18",
+        "text": "The narrow-complex tachycardia had a cycle length of 281 ms.",
+        "category": "statistical",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Reference data states cycle length was 281 ms.",
+        "cluster_idx": 3,
+        "cluster_label": "other"
+      },
+      {
+        "id": "n19",
+        "text": "The narrow-complex tachycardia had 1:1 ventriculoatrial conduction.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Reference data states 1:1 ventriculoatrial conduction.",
+        "cluster_idx": 3,
+        "cluster_label": "other"
+      },
+      {
+        "id": "n20",
+        "text": "The narrow-complex tachycardia had a relatively short VA interval.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Reference data explicitly says there was a relatively short VA interval.",
+        "cluster_idx": 3,
+        "cluster_label": "other"
+      },
+      {
+        "id": "n21",
+        "text": "The narrow-complex tachycardia had concentric atrial activation.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Reference data explicitly says atrial activation was concentric.",
+        "cluster_idx": 3,
+        "cluster_label": "other"
+      },
+      {
+        "id": "n22",
+        "text": "These findings point toward a supraventricular tachycardia using the AV node/His region rather than ongoing ventricular tachycardia.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Narrow QRS, short VA, and concentric atrial activation favor a supraventricular mechanism over ongoing VT.",
+        "cluster_idx": 3,
+        "cluster_label": "other"
+      },
+      {
+        "id": "n23",
+        "text": "A narrow QRS with short VA and concentric atrial activation is most typical of AV nodal reentrant tachycardia (AVNRT).",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Short VA interval with concentric atrial activation is a standard pattern favoring typical AVNRT.",
+        "cluster_idx": 3,
+        "cluster_label": "other"
+      },
+      {
+        "id": "n24",
+        "text": "A narrow QRS with short VA and concentric atrial activation is less commonly typical of orthodromic AV reentrant tachycardia using a septal accessory pathway.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Orthodromic AVRT via a septal accessory pathway can present with narrow QRS and short VA, though less classically than AVNRT.",
+        "cluster_idx": 3,
+        "cluster_label": "other"
+      },
+      {
+        "id": "n25",
+        "text": "A narrow QRS with short VA and concentric atrial activation is less commonly typical of atrial tachycardia.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Atrial tachycardia is less typical with short VA and concentric activation than AVNRT.",
+        "cluster_idx": 3,
+        "cluster_label": "other"
+      },
+      {
+        "id": "n26",
+        "text": "Baseline EP study showed no manifest preexcitation.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Baseline conduction intervals showed no manifest preexcitation.",
+        "cluster_idx": 4,
+        "cluster_label": "test_ordering"
+      },
+      {
+        "id": "n27",
+        "text": "Baseline EP study showed no concealed accessory pathway conduction.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Baseline EP study showed no concealed accessory pathway conduction.",
+        "cluster_idx": 4,
+        "cluster_label": "test_ordering"
+      },
+      {
+        "id": "n28",
+        "text": "The absence of manifest preexcitation argues against orthodromic AVRT.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "No manifest preexcitation makes orthodromic AVRT less likely, though not impossible by itself.",
+        "cluster_idx": 4,
+        "cluster_label": "test_ordering"
+      },
+      {
+        "id": "n29",
+        "text": "The absence of concealed accessory pathway conduction argues against orthodromic AVRT.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "No concealed accessory pathway conduction argues against orthodromic AVRT.",
+        "cluster_idx": 4,
+        "cluster_label": "test_ordering"
+      },
+      {
+        "id": "n30",
+        "text": "Earliest atrial activation in the narrow tachycardia is described as concentric rather than eccentric.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Reference data says atrial activation was concentric.",
+        "cluster_idx": 4,
+        "cluster_label": "test_ordering"
+      },
+      {
+        "id": "n31",
+        "text": "Concentric atrial activation argues against most accessory pathways.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Concentric atrial activation generally argues against most accessory pathways.",
+        "cluster_idx": 4,
+        "cluster_label": "test_ordering"
+      },
+      {
+        "id": "n32",
+        "text": "Atrial tachycardia is less likely because the VA interval was relatively short.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "A relatively short VA interval makes focal atrial tachycardia less likely than AV nodal reentry.",
+        "cluster_idx": 4,
+        "cluster_label": "test_ordering"
+      },
+      {
+        "id": "n33",
+        "text": "Atrial tachycardia is less likely because the pattern arose abruptly during ablation in a setting where AV nodal reentry can be triggered by catheter/thermal effects.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Abrupt onset during ablation is compatible with catheter/thermal triggering of AV nodal reentry, making atrial tachycardia less favored.",
+        "cluster_idx": 4,
+        "cluster_label": "test_ordering"
+      },
+      {
+        "id": "n34",
+        "text": "The baseline study reportedly showed no dual AV nodal physiology.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Baseline study reportedly showed no dual AV nodal physiology.",
+        "cluster_idx": 4,
+        "cluster_label": "test_ordering"
+      },
+      {
+        "id": "n35",
+        "text": "Absence of demonstrable dual AV nodal physiology does not exclude AVNRT.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Absence of demonstrable dual AV nodal physiology does not exclude AVNRT is standard EP knowledge.",
+        "cluster_idx": 4,
+        "cluster_label": "test_ordering"
+      },
+      {
+        "id": "n36",
+        "text": "The ablation location was the mid-apical posterior interventricular septum.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Reference data states RF was applied to the mid-apical posterior interventricular septum.",
+        "cluster_idx": 5,
+        "cluster_label": "other"
+      },
+      {
+        "id": "n37",
+        "text": "The ablation location was near the left posterior fascicle/Purkinje network.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "That location is near the left posterior fascicle/Purkinje network as described in the trace.",
+        "cluster_idx": 5,
+        "cluster_label": "other"
+      },
+      {
+        "id": "n38",
+        "text": "During ablation of ILVT, interruption of the ventricular reentry circuit can terminate the VT.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Ablation of fascicular VT can interrupt the reentry circuit and terminate VT; this is a standard mechanistic inference.",
+        "cluster_idx": 5,
+        "cluster_label": "other"
+      },
+      {
+        "id": "n39",
+        "text": "The resulting retrograde conduction to the atrium may permit initiation of a coincident supraventricular reentry.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "The proposed retrograde conduction permitting initiation of a supraventricular reentry is a plausible mechanistic inference, but not directly shown in the data.",
+        "cluster_idx": 5,
+        "cluster_label": "other"
+      },
+      {
+        "id": "n40",
+        "text": "The narrow-complex rhythm is best explained not as a transformed fascicular VT.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "The trace explicitly concludes the narrow rhythm is best explained as a separate supraventricular tachycardia rather than transformed fascicular VT.",
+        "cluster_idx": 5,
+        "cluster_label": "other"
+      },
+      {
+        "id": "n41",
+        "text": "The narrow-complex rhythm is best explained as a separate supraventricular tachycardia unmasked or induced during RF delivery.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "The narrow tachycardia appeared immediately during RF delivery and had narrow QRS, short VA, and concentric atrial activation, which supports a separate SVT induced/unmasked during ablation.",
+        "cluster_idx": 5,
+        "cluster_label": "other"
+      },
+      {
+        "id": "n42",
+        "text": "Typical slow-fast AVNRT fits best because of the narrow QRS.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Narrow QRS is compatible with AVNRT, but this is an inference from the tachycardia features rather than a directly stated fact.",
+        "cluster_idx": 6,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n43",
+        "text": "Typical slow-fast AVNRT fits best because of the short VA interval.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "The reference tachycardia had a relatively short VA interval; short VA is a classic feature favoring AVNRT.",
+        "cluster_idx": 6,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n44",
+        "text": "Typical slow-fast AVNRT fits best because of concentric atrial activation.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "The narrow tachycardia had concentric atrial activation, which is a standard feature favoring AVNRT.",
+        "cluster_idx": 6,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n45",
+        "text": "Typical slow-fast AVNRT fits best because of the lack of evidence for an accessory pathway.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Baseline EP study showed no manifest preexcitation or concealed accessory pathway conduction, so lack of accessory pathway evidence supports AVNRT.",
+        "cluster_idx": 6,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n46",
+        "text": "Orthodromic AVRT is less likely because there was no evidence of manifest accessory pathway conduction at baseline.",
+        "category": "causal",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Baseline study showed no manifest preexcitation.",
+        "cluster_idx": 6,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n47",
+        "text": "Orthodromic AVRT is less likely because there was no evidence of concealed accessory pathway conduction at baseline.",
+        "category": "causal",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Baseline study showed no concealed accessory pathway conduction.",
+        "cluster_idx": 6,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n48",
+        "text": "Orthodromic AVRT is less likely because the atrial activation was concentric.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Concentric atrial activation argues against orthodromic AVRT via most accessory pathways.",
+        "cluster_idx": 6,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n49",
+        "text": "Atrial tachycardia is less likely because short VA/concentric activation favors AV nodal reentry over a focal atrial source.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Short VA interval and concentric activation are classic features favoring AV nodal reentry over focal atrial tachycardia.",
+        "cluster_idx": 6,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n50",
+        "text": "Junctional tachycardia could produce a narrow complex with short VA, especially during ablation.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Thermal/catheter manipulation during ablation can provoke junctional rhythms; this is standard electrophysiology knowledge, though not explicitly stated in the reference data.",
+        "cluster_idx": 6,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n51",
+        "text": "The description of a sustained regular tachycardia with 1:1 VA conduction after abrupt transition is more in keeping with AVNRT than transient accelerated junctional rhythm.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "A sustained regular narrow tachycardia with 1:1 VA conduction is more consistent with AVNRT than a transient accelerated junctional rhythm.",
+        "cluster_idx": 6,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n52",
+        "text": "The most likely mechanism is AV nodal reentry.",
+        "category": "factual",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "The trace concludes the mechanism is AV nodal reentry; this is the diagnostic inference from the EP findings.",
+        "cluster_idx": 7,
+        "cluster_label": "final_decision"
+      },
+      {
+        "id": "n53",
+        "text": "The most likely mechanism is specifically typical slow-fast AVNRT.",
+        "category": "factual",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "The trace specifically identifies typical slow-fast AVNRT as the final diagnosis.",
+        "cluster_idx": 7,
+        "cluster_label": "final_decision"
+      },
+      {
+        "id": "n54",
+        "text": "Typical slow-fast AVNRT was induced coincidentally during RF ablation of the fascicular VT.",
+        "category": "factual",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "The narrow-complex tachycardia began immediately during RF delivery at the fascicular VT ablation site, so it was induced coincidentally during ablation.",
+        "cluster_idx": 7,
+        "cluster_label": "final_decision"
+      },
+      {
+        "id": "n55",
+        "text": "Abrupt onset of regular narrow-complex tachycardia during RF delivery supports typical AVNRT.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Abrupt onset during RF delivery with narrow QRS, short VA, and concentric atrial activation supports AVNRT.",
+        "cluster_idx": 7,
+        "cluster_label": "final_decision"
+      },
+      {
+        "id": "n56",
+        "text": "Short VA interval supports typical AVNRT.",
+        "category": "causal",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "The reference data explicitly states a relatively short VA interval.",
+        "cluster_idx": 7,
+        "cluster_label": "final_decision"
+      },
+      {
+        "id": "n57",
+        "text": "1:1 VA conduction supports typical AVNRT.",
+        "category": "causal",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "The reference data explicitly states 1:1 ventriculoatrial conduction/association.",
+        "cluster_idx": 7,
+        "cluster_label": "final_decision"
+      },
+      {
+        "id": "n58",
+        "text": "Concentric atrial activation supports typical AVNRT.",
+        "category": "causal",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "The reference data explicitly states concentric atrial activation.",
+        "cluster_idx": 7,
+        "cluster_label": "final_decision"
+      },
+      {
+        "id": "n59",
+        "text": "There was no evidence of accessory pathway conduction.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Baseline conduction showed no manifest preexcitation or concealed accessory pathway conduction.",
+        "cluster_idx": 7,
+        "cluster_label": "final_decision"
+      },
+      {
+        "id": "n60",
+        "text": "Orthodromic AV reentrant tachycardia via a concealed septal accessory pathway can cause narrow-complex tachycardia with 1:1 VA conduction.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Orthodromic AVRT via a concealed septal accessory pathway can indeed present as narrow-complex tachycardia with 1:1 VA conduction; this is standard electrophysiology knowledge.",
+        "cluster_idx": 7,
+        "cluster_label": "final_decision"
+      },
+      {
+        "id": "n61",
+        "text": "Orthodromic AV reentrant tachycardia via a concealed septal accessory pathway is less likely in this case.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Given no concealed accessory pathway conduction and concentric atrial activation, orthodromic AVRT is less likely.",
+        "cluster_idx": 7,
+        "cluster_label": "final_decision"
+      },
+      {
+        "id": "n62",
+        "text": "Focal atrial tachycardia could present as narrow-complex tachycardia.",
+        "category": "factual",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Focal atrial tachycardia can present as a narrow-complex tachycardia; this is standard clinical knowledge.",
+        "cluster_idx": 7,
+        "cluster_label": "final_decision"
+      },
+      {
+        "id": "n63",
+        "text": "Focal atrial tachycardia is less likely in this case.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Short VA interval and concentric activation make focal atrial tachycardia less likely than AVNRT.",
+        "cluster_idx": 7,
+        "cluster_label": "final_decision"
+      },
+      {
+        "id": "n64",
+        "text": "Thermal injury during ablation can provoke junctional rhythms.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Junctional rhythms can be provoked during ablation/thermal injury; this is standard EP knowledge.",
+        "cluster_idx": 7,
+        "cluster_label": "final_decision"
+      },
+      {
+        "id": "n65",
+        "text": "The sustained regular tachycardia pattern with 1:1 VA conduction is more characteristic of AVNRT than junctional tachycardia.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "A sustained regular tachycardia with 1:1 VA conduction is more characteristic of AVNRT than transient accelerated junctional rhythm.",
+        "cluster_idx": 7,
+        "cluster_label": "final_decision"
+      },
+      {
+        "id": "n66",
+        "text": "The final diagnosis is typical AV nodal reentrant tachycardia (slow-fast AVNRT).",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "The reference case explicitly asks for and the trace concludes typical AV nodal reentrant tachycardia (slow-fast AVNRT) as the final diagnosis.",
+        "cluster_idx": 7,
+        "cluster_label": "final_decision"
+      }
+    ],
+    "edges": [
+      {
+        "source": "n2",
+        "target": "n1",
+        "kind": "supports",
+        "explanation": "If the initial wide-complex tachycardia is already characterized as ILVT, then it is not the main diagnostic question."
+      },
+      {
+        "source": "n3",
+        "target": "n1",
+        "kind": "supports",
+        "explanation": "The statement that the key question is the new narrow-complex tachycardia directly supports the claim that the initial wide-complex tachycardia is not the key question."
+      },
+      {
+        "source": "n5",
+        "target": "n2",
+        "kind": "supports",
+        "explanation": "Findings supporting fascicular VT support the characterization of the initial arrhythmia as ILVT."
+      },
+      {
+        "source": "n8",
+        "target": "n5",
+        "kind": "supports",
+        "explanation": "RBBB morphology with left-axis deviation is a classic pattern supporting fascicular VT."
+      },
+      {
+        "source": "n9",
+        "target": "n5",
+        "kind": "supports",
+        "explanation": "Reproducible inducibility with RV burst pacing and isoprenaline supports a true ventricular tachycardia mechanism."
+      },
+      {
+        "source": "n10",
+        "target": "n5",
+        "kind": "supports",
+        "explanation": "Verapamil sensitivity is characteristic of fascicular VT."
+      },
+      {
+        "source": "n11",
+        "target": "n5",
+        "kind": "supports",
+        "explanation": "A negative HV interval supports a fascicular ventricular origin."
+      },
+      {
+        "source": "n12",
+        "target": "n13",
+        "kind": "supports",
+        "explanation": "Atrial dissociation during rapid atrial pacing is consistent with ventricular tachycardia, which is the basis of the fusion interpretation."
+      },
+      {
+        "source": "n13",
+        "target": "n5",
+        "kind": "supports",
+        "explanation": "Progressive fusion during atrial overdrive pacing supports the diagnosis of ventricular tachycardia."
+      },
+      {
+        "source": "n14",
+        "target": "n5",
+        "kind": "supports",
+        "explanation": "Presystolic Purkinje potentials in the left posterior septum support fascicular VT."
+      },
+      {
+        "source": "n15",
+        "target": "n16",
+        "kind": "supports",
+        "explanation": "Ablation in the left posterior septum provides the procedural context for the narrow tachycardia emerging at the VT site."
+      },
+      {
+        "source": "n16",
+        "target": "n41",
+        "kind": "supports",
+        "explanation": "Immediate emergence of the narrow-complex tachycardia during RF delivery supports a separate supraventricular tachycardia being induced or unmasked."
+      },
+      {
+        "source": "n17",
+        "target": "n22",
+        "kind": "supports",
+        "explanation": "A regular narrow QRS supports a supraventricular mechanism rather than ongoing ventricular tachycardia."
+      },
+      {
+        "source": "n18",
+        "target": "n22",
+        "kind": "supports",
+        "explanation": "The cycle length contributes to the characterization of the narrow tachycardia as a supraventricular rhythm."
+      },
+      {
+        "source": "n19",
+        "target": "n22",
+        "kind": "supports",
+        "explanation": "1:1 ventriculoatrial conduction supports a supraventricular tachycardia using the AV node/His region."
+      },
+      {
+        "source": "n20",
+        "target": "n22",
+        "kind": "supports",
+        "explanation": "A relatively short VA interval supports an AV node/His-dependent supraventricular tachycardia."
+      },
+      {
+        "source": "n21",
+        "target": "n22",
+        "kind": "supports",
+        "explanation": "Concentric atrial activation supports a supraventricular tachycardia using the AV node/His region."
+      },
+      {
+        "source": "n22",
+        "target": "n40",
+        "kind": "supports",
+        "explanation": "If the rhythm is supraventricular and AV node/His-dependent, it is not best explained as transformed fascicular VT."
+      },
+      {
+        "source": "n23",
+        "target": "n52",
+        "kind": "supports",
+        "explanation": "AVNRT is the leading specific supraventricular mechanism suggested by the narrow QRS, short VA, and concentric activation pattern."
+      },
+      {
+        "source": "n24",
+        "target": "n61",
+        "kind": "supports",
+        "explanation": "Although possible in general, orthodromic AVRT via a septal accessory pathway is less favored by the described pattern."
+      },
+      {
+        "source": "n25",
+        "target": "n63",
+        "kind": "supports",
+        "explanation": "The described narrow-tachycardia pattern is less typical of focal atrial tachycardia."
+      },
+      {
+        "source": "n26",
+        "target": "n28",
+        "kind": "supports",
+        "explanation": "No manifest preexcitation argues against orthodromic AVRT."
+      },
+      {
+        "source": "n27",
+        "target": "n29",
+        "kind": "supports",
+        "explanation": "No concealed accessory pathway conduction argues against orthodromic AVRT."
+      },
+      {
+        "source": "n30",
+        "target": "n31",
+        "kind": "supports",
+        "explanation": "Concentric rather than eccentric atrial activation argues against most accessory pathways."
+      },
+      {
+        "source": "n31",
+        "target": "n61",
+        "kind": "supports",
+        "explanation": "If most accessory pathways are unlikely, concealed septal AVRT is also less likely."
+      },
+      {
+        "source": "n32",
+        "target": "n63",
+        "kind": "supports",
+        "explanation": "A relatively short VA interval makes focal atrial tachycardia less likely."
+      },
+      {
+        "source": "n33",
+        "target": "n63",
+        "kind": "supports",
+        "explanation": "Abrupt onset during ablation in a setting favoring AV nodal reentry makes atrial tachycardia less likely."
+      },
+      {
+        "source": "n34",
+        "target": "n35",
+        "kind": "supports",
+        "explanation": "Absence of demonstrable dual AV nodal physiology does not exclude AVNRT."
+      },
+      {
+        "source": "n36",
+        "target": "n37",
+        "kind": "supports",
+        "explanation": "The mid-apical posterior interventricular septum is anatomically near the left posterior fascicle/Purkinje network."
+      },
+      {
+        "source": "n37",
+        "target": "n16",
+        "kind": "supports",
+        "explanation": "Ablation near the left posterior fascicle/Purkinje network contextualizes the narrow tachycardia emerging at the fascicular VT site."
+      },
+      {
+        "source": "n38",
+        "target": "n39",
+        "kind": "causes",
+        "explanation": "Interrupting the ILVT circuit can create conditions that allow retrograde conduction to the atrium and initiation of another reentry."
+      },
+      {
+        "source": "n39",
+        "target": "n41",
+        "kind": "supports",
+        "explanation": "Retrograde conduction permitting initiation of supraventricular reentry supports a separate SVT being induced during RF delivery."
+      },
+      {
+        "source": "n40",
+        "target": "n41",
+        "kind": "supports",
+        "explanation": "If the rhythm is not transformed fascicular VT, the alternative explanation is a separate supraventricular tachycardia."
+      },
+      {
+        "source": "n42",
+        "target": "n53",
+        "kind": "supports",
+        "explanation": "Narrow QRS is one feature supporting typical slow-fast AVNRT."
+      },
+      {
+        "source": "n43",
+        "target": "n53",
+        "kind": "supports",
+        "explanation": "Short VA interval supports typical slow-fast AVNRT."
+      },
+      {
+        "source": "n44",
+        "target": "n53",
+        "kind": "supports",
+        "explanation": "Concentric atrial activation supports typical slow-fast AVNRT."
+      },
+      {
+        "source": "n45",
+        "target": "n53",
+        "kind": "supports",
+        "explanation": "Lack of evidence for an accessory pathway supports AVNRT over AVRT."
+      },
+      {
+        "source": "n46",
+        "target": "n61",
+        "kind": "supports",
+        "explanation": "No manifest accessory pathway conduction makes orthodromic AVRT less likely."
+      },
+      {
+        "source": "n47",
+        "target": "n61",
+        "kind": "supports",
+        "explanation": "No concealed accessory pathway conduction makes orthodromic AVRT less likely."
+      },
+      {
+        "source": "n48",
+        "target": "n61",
+        "kind": "supports",
+        "explanation": "Concentric atrial activation makes orthodromic AVRT less likely."
+      },
+      {
+        "source": "n49",
+        "target": "n63",
+        "kind": "supports",
+        "explanation": "Short VA with concentric activation favors AV nodal reentry over focal atrial tachycardia."
+      },
+      {
+        "source": "n50",
+        "target": "n65",
+        "kind": "supports",
+        "explanation": "Junctional tachycardia can mimic the observed narrow-complex pattern, so it is a competing explanation."
+      },
+      {
+        "source": "n51",
+        "target": "n65",
+        "kind": "supports",
+        "explanation": "A sustained regular tachycardia with 1:1 VA conduction after abrupt transition is more characteristic of AVNRT than junctional tachycardia."
+      },
+      {
+        "source": "n52",
+        "target": "n66",
+        "kind": "supports",
+        "explanation": "The diagnosis of AV nodal reentry directly supports the final diagnosis."
+      },
+      {
+        "source": "n53",
+        "target": "n66",
+        "kind": "supports",
+        "explanation": "Specific identification of typical slow-fast AVNRT directly supports the final diagnosis."
+      },
+      {
+        "source": "n54",
+        "target": "n53",
+        "kind": "supports",
+        "explanation": "Coincident induction during RF ablation supports the specific diagnosis of typical slow-fast AVNRT."
+      },
+      {
+        "source": "n55",
+        "target": "n53",
+        "kind": "supports",
+        "explanation": "Abrupt onset of regular narrow-complex tachycardia during RF delivery supports typical AVNRT."
+      },
+      {
+        "source": "n56",
+        "target": "n53",
+        "kind": "supports",
+        "explanation": "Short VA interval supports typical AVNRT."
+      },
+      {
+        "source": "n57",
+        "target": "n53",
+        "kind": "supports",
+        "explanation": "1:1 VA conduction supports typical AVNRT."
+      },
+      {
+        "source": "n58",
+        "target": "n53",
+        "kind": "supports",
+        "explanation": "Concentric atrial activation supports typical AVNRT."
+      },
+      {
+        "source": "n59",
+        "target": "n45",
+        "kind": "supports",
+        "explanation": "No evidence of accessory pathway conduction supports the AVNRT interpretation over AVRT."
+      },
+      {
+        "source": "n60",
+        "target": "n61",
+        "kind": "supports",
+        "explanation": "Although AVRT can produce this pattern in general, the case features make it less likely here."
+      },
+      {
+        "source": "n62",
+        "target": "n63",
+        "kind": "supports",
+        "explanation": "While focal atrial tachycardia can be narrow-complex, the case features argue against it."
+      },
+      {
+        "source": "n64",
+        "target": "n50",
+        "kind": "supports",
+        "explanation": "Thermal injury during ablation can provoke junctional rhythms."
+      },
+      {
+        "source": "n65",
+        "target": "n52",
+        "kind": "supports",
+        "explanation": "If the sustained regular tachycardia is more characteristic of AVNRT than junctional tachycardia, that supports AV nodal reentry."
+      },
+      {
+        "source": "n66",
+        "target": "n52",
+        "kind": "supports",
+        "explanation": "The final diagnosis of typical AVNRT implies AV nodal reentry."
+      }
+    ],
+    "disconnected": [
+      "n4",
+      "n6",
+      "n7"
+    ],
+    "clusters": [
+      {
+        "cluster_id": "c1",
+        "label": "other",
+        "statement_indices": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "summary": "Frames the diagnostic question as a new narrow-complex tachycardia arising during ablation, distinct from the already characterized fascicular VT.",
+        "salience": 0.72
+      },
+      {
+        "cluster_id": "c2",
+        "label": "history_taking",
+        "statement_indices": [
+          6,
+          7
+        ],
+        "summary": "Provides background clinical context of a structurally normal heart and recurrent palpitations.",
+        "salience": 0.18
+      },
+      {
+        "cluster_id": "c3",
+        "label": "examination",
+        "statement_indices": [
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14
+        ],
+        "summary": "Summarizes EP and arrhythmia features supporting the original diagnosis of fascicular VT.",
+        "salience": 0.78
+      },
+      {
+        "cluster_id": "c4",
+        "label": "other",
+        "statement_indices": [
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25
+        ],
+        "summary": "Describes the new narrow-complex tachycardia during RF delivery and interprets its ECG/EP features as favoring a supraventricular mechanism, especially AVNRT.",
+        "salience": 0.9
+      },
+      {
+        "cluster_id": "c5",
+        "label": "test_ordering",
+        "statement_indices": [
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35
+        ],
+        "summary": "Uses baseline EP findings and activation pattern to argue against accessory pathway-mediated AVRT and notes that lack of dual AV nodal physiology does not exclude AVNRT.",
+        "salience": 0.7
+      },
+      {
+        "cluster_id": "c6",
+        "label": "other",
+        "statement_indices": [
+          36,
+          37,
+          38,
+          39,
+          40,
+          41
+        ],
+        "summary": "Links the ablation site near the fascicular network to possible induction of a separate supraventricular tachycardia rather than transformed VT.",
+        "salience": 0.82
+      },
+      {
+        "cluster_id": "c7",
+        "label": "differential_generation",
+        "statement_indices": [
+          42,
+          43,
+          44,
+          45,
+          46,
+          47,
+          48,
+          49,
+          50,
+          51
+        ],
+        "summary": "Compares AVNRT with AVRT, atrial tachycardia, and junctional tachycardia, concluding AVNRT best fits the observed features.",
+        "salience": 0.88
+      },
+      {
+        "cluster_id": "c8",
+        "label": "final_decision",
+        "statement_indices": [
+          52,
+          53,
+          54,
+          55,
+          56,
+          57,
+          58,
+          59,
+          60,
+          61,
+          62,
+          63,
+          64,
+          65,
+          66
+        ],
+        "summary": "States the final mechanism as typical slow-fast AVNRT induced during fascicular VT ablation, with supporting exclusions of alternative mechanisms.",
+        "salience": 0.98
+      }
+    ],
+    "node_ranks": {
+      "n1": 0.3875,
+      "n2": 0.3125,
+      "n3": 0.3125,
+      "n4": 0.2375,
+      "n5": 0.2375,
+      "n6": 0.325,
+      "n7": 0.325,
+      "n8": 0.3375,
+      "n9": 0.3375,
+      "n10": 0.3375,
+      "n11": 0.3375,
+      "n12": 0.2625,
+      "n13": 0.3375,
+      "n14": 0.3375,
+      "n15": 0.5,
+      "n16": 0.575,
+      "n17": 0.425,
+      "n18": 0.425,
+      "n19": 0.425,
+      "n20": 0.425,
+      "n21": 0.425,
+      "n22": 0.5,
+      "n23": 0.5,
+      "n24": 0.575,
+      "n25": 0.575,
+      "n26": 0.6625,
+      "n27": 0.6625,
+      "n28": 0.7375,
+      "n29": 0.7375,
+      "n30": 0.5875,
+      "n31": 0.6625,
+      "n32": 0.6625,
+      "n33": 0.6625,
+      "n34": 0.6625,
+      "n35": 0.7375,
+      "n36": 0.6,
+      "n37": 0.675,
+      "n38": 0.675,
+      "n39": 0.75,
+      "n40": 0.75,
+      "n41": 0.825,
+      "n42": 0.7625,
+      "n43": 0.7625,
+      "n44": 0.7625,
+      "n45": 0.7625,
+      "n46": 0.8375,
+      "n47": 0.8375,
+      "n48": 0.8375,
+      "n49": 0.8375,
+      "n50": 0.7625,
+      "n51": 0.7625,
+      "n52": 0.85,
+      "n53": 0.85,
+      "n54": 0.85,
+      "n55": 0.85,
+      "n56": 0.85,
+      "n57": 0.85,
+      "n58": 0.85,
+      "n59": 0.85,
+      "n60": 0.925,
+      "n61": 1.0,
+      "n62": 0.925,
+      "n63": 1.0,
+      "n64": 0.85,
+      "n65": 0.85,
+      "n66": 0.85
+    }
+  }
+}

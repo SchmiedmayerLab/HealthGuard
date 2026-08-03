@@ -1,0 +1,42 @@
+{
+  "name": "aggregate",
+  "passed": false,
+  "score": 0.95,
+  "reasoning": "Failed overall. The main issue was a decomposition completeness failure: several important relationships from the source text were not fully preserved, including the bilateral-but-asymmetric nature of the disease, the B-scan vitreous/chorioretinal findings, and key reasoning contrasts for the differential diagnoses. The weighted aggregate score was 0.95, and despite otherwise consistent logical verification, the pipeline did not pass because of these missing and partially fabricated statement-level details.",
+  "data": {
+    "weighted_score": 0.95,
+    "all_passed": false,
+    "step_scores": {
+      "static_rules": {
+        "score": 1.0,
+        "passed": true,
+        "weight": 0.1
+      },
+      "decompose": {
+        "score": 0.0,
+        "passed": false,
+        "weight": 0.05
+      },
+      "chain_verify": {
+        "score": 1.0,
+        "passed": true,
+        "weight": 0.1
+      },
+      "classify": {
+        "score": 1.0,
+        "passed": true,
+        "weight": 0.0
+      },
+      "expert_verify": {
+        "score": 1.0,
+        "passed": true,
+        "weight": 0.65
+      },
+      "build_graph": {
+        "score": 1.0,
+        "passed": true,
+        "weight": 0.1
+      }
+    }
+  }
+}

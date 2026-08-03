@@ -1,0 +1,168 @@
+digraph ReasoningGraph {
+  rankdir="LR";
+  compound=true;
+  node [shape=box, style="rounded,filled"];
+  subgraph cluster_0 {
+    label="history_taking (c1)";
+    style="rounded,dashed";
+    color="#9e9e9e";
+    n1 [label="n1: The chief complaint is progressively worsening blurry vision.\\n[factual]", fillcolor="#c8e6c9"];
+    n2 [label="n2: The blurry vision is worse in the right eye.\\n[factual]", fillcolor="#c8e6c9"];
+    n3 [label="n3: The patient is a 69-year-old woman.\\n[statistical]", fillcolor="#c8e6c9"];
+    n4 [label="n4: The patient has prior bilateral epiretinal membranes.\\n[factual]", fillcolor="#c8e6c9"];
+    n5 [label="n5: The patient’s own concern is visual decline.\\n[factual]", fillcolor="#c8e6c9"];
+  }
+  subgraph cluster_1 {
+    label="examination (c2)";
+    style="rounded,dashed";
+    color="#9e9e9e";
+    n6 [label="n6: The examination points to an inflammatory retinal vascular process rather than macular structural disease alone.\\n[causal]", fillcolor="#c8e6c9"];
+    n7 [label="n7: There is bilateral posterior segment inflammation.\\n[factual]", fillcolor="#c8e6c9"];
+    n8 [label="n8: There is 0.5+ vitreous haze in both eyes.\\n[statistical]", fillcolor="#c8e6c9"];
+    n9 [label="n9: There is mild bilateral peripheral perivascular leakage on wide-angle fluorescein angiography.\\n[factual]", fillcolor="#c8e6c9"];
+    n10 [label="n10: There is mild vessel attenuation in both eyes.\\n[factual]", fillcolor="#c8e6c9"];
+    n11 [label="n11: OCT showed preserved foveal contour.\\n[factual]", fillcolor="#c8e6c9"];
+    n12 [label="n12: OCT showed no subretinal fluid.\\n[factual]", fillcolor="#c8e6c9"];
+    n13 [label="n13: OCT showed no intraretinal fluid.\\n[factual]", fillcolor="#c8e6c9"];
+    n14 [label="n14: The OCT findings argue against cystoid macular edema as the cause of blur.\\n[causal]", fillcolor="#c8e6c9"];
+    n15 [label="n15: Slit lamp showed no anterior chamber cell.\\n[factual]", fillcolor="#c8e6c9"];
+    n16 [label="n16: Slit lamp showed no anterior chamber flare.\\n[factual]", fillcolor="#c8e6c9"];
+    n17 [label="n17: The condition is not primarily anterior uveitis.\\n[causal]", fillcolor="#c8e6c9"];
+    n18 [label="n18: Visual acuity was 20/40 in the right eye initially.\\n[statistical]", fillcolor="#c8e6c9"];
+    n19 [label="n19: Visual acuity was 20/25 in the left eye initially.\\n[statistical]", fillcolor="#c8e6c9"];
+  }
+  subgraph cluster_2 {
+    label="history_taking (c3)";
+    style="rounded,dashed";
+    color="#9e9e9e";
+    n20 [label="n20: The patient has nonspecific joint disease.\\n[factual]", fillcolor="#c8e6c9"];
+    n21 [label="n21: The patient has pulmonary symptoms of unclear etiology.\\n[factual]", fillcolor="#c8e6c9"];
+    n22 [label="n22: The patient’s joint disease and pulmonary symptoms were treated with prednisone.\\n[factual]", fillcolor="#c8e6c9"];
+    n23 [label="n23: The patient has prior methotrexate use.\\n[factual]", fillcolor="#c8e6c9"];
+  }
+  subgraph cluster_3 {
+    label="test_ordering (c4)";
+    style="rounded,dashed";
+    color="#9e9e9e";
+    n24 [label="n24: ACE was normal.\\n[factual]", fillcolor="#c8e6c9"];
+    n25 [label="n25: Lysozyme was normal.\\n[factual]", fillcolor="#c8e6c9"];
+    n26 [label="n26: QuantiFERON was normal.\\n[factual]", fillcolor="#c8e6c9"];
+    n27 [label="n27: Syphilis serologies were normal.\\n[factual]", fillcolor="#c8e6c9"];
+    n28 [label="n28: Anti-dsDNA was normal.\\n[factual]", fillcolor="#c8e6c9"];
+    n29 [label="n29: Chest radiography was normal.\\n[factual]", fillcolor="#c8e6c9"];
+    n30 [label="n30: ANA was weakly positive at 1:80.\\n[statistical]", fillcolor="#c8e6c9"];
+    n31 [label="n31: CBC showed leukocytosis.\\n[factual]", fillcolor="#c8e6c9"];
+    n32 [label="n32: CBC showed anemia.\\n[factual]", fillcolor="#c8e6c9"];
+  }
+  subgraph cluster_4 {
+    label="treatment_planning (c5)";
+    style="rounded,dashed";
+    color="#9e9e9e";
+    n33 [label="n33: Despite escalation of immunosuppression to mycophenolate mofetil 1000 mg twice daily and prednisone 20 mg daily, fluorescein angiography worsened over 2 months.\\n[causal]", fillcolor="#c8e6c9"];
+    n34 [label="n34: Fluorescein angiography showed progression of peripheral perivascular leakage over 2 months.\\n[factual]", fillcolor="#c8e6c9"];
+    n35 [label="n35: There was no anterior chamber inflammation.\\n[factual]", fillcolor="#c8e6c9"];
+    n36 [label="n36: There was no macular edema on OCT.\\n[factual]", fillcolor="#c8e6c9"];
+    n37 [label="n37: There was no infectious screening evidence for tuberculosis.\\n[factual]", fillcolor="#c8e6c9"];
+    n38 [label="n38: There was no infectious screening evidence for syphilis.\\n[factual]", fillcolor="#c8e6c9"];
+    n39 [label="n39: There was no supportive evidence for sarcoidosis on ACE, lysozyme, or chest radiography.\\n[causal]", fillcolor="#c8e6c9"];
+    n40 [label="n40: Anti-dsDNA was negative.\\n[factual]", fillcolor="#c8e6c9"];
+    n41 [label="n41: Active lupus is less supported despite the low-titer ANA.\\n[causal]", fillcolor="#c8e6c9"];
+  }
+  subgraph cluster_5 {
+    label="differential_generation (c6)";
+    style="rounded,dashed";
+    color="#9e9e9e";
+    n42 [label="n42: The bilateral process and angiographic perivascular leakage support retinal vasculitis or intermediate-posterior uveitis rather than cataract or epiretinal membrane as the primary explanation.\\n[causal]", fillcolor="#c8e6c9"];
+    n43 [label="n43: The lack of response to corticosteroid and steroid-sparing immunosuppression argues against a straightforward autoimmune idiopathic retinal vasculitis.\\n[causal]", fillcolor="#c8e6c9"];
+    n44 [label="n44: The lack of response and apparent worsening on treatment raises concern for a masquerade syndrome.\\n[causal]", fillcolor="#c8e6c9"];
+    n45 [label="n45: Idiopathic or autoimmune retinal vasculitis/intermediate uveitis fits the vitreous haze, peripheral vascular leakage, and history of systemic inflammatory symptoms or joint disease.\\n[causal]", fillcolor="#c8e6c9"];
+    n46 [label="n46: The workup is largely negative.\\n[factual]", fillcolor="#c8e6c9"];
+    n47 [label="n47: There is no clear defined rheumatologic diagnosis.\\n[factual]", fillcolor="#c8e6c9"];
+    n48 [label="n48: The angiographic leakage worsened despite prednisone and mycophenolate.\\n[causal]", fillcolor="#c8e6c9"];
+    n49 [label="n49: Sarcoid-associated uveitis or retinal vasculitis could fit the pulmonary symptoms and ocular vasculitis.\\n[causal]", fillcolor="#c8e6c9"];
+    n50 [label="n50: ACE, lysozyme, and chest radiography were normal, making sarcoid-associated uveitis or retinal vasculitis less likely from the provided data.\\n[causal]", fillcolor="#c8e6c9"];
+    n51 [label="n51: Infectious retinal vasculitis such as tuberculosis or syphilis can cause bilateral vasculitis and vitreous haze.\\n[causal]", fillcolor="#c8e6c9"];
+    n52 [label="n52: QuantiFERON and syphilis serologies were negative.\\n[factual]", fillcolor="#c8e6c9"];
+    n53 [label="n53: Infectious retinal vasculitis such as tuberculosis or syphilis is unlikely.\\n[causal]", fillcolor="#c8e6c9"];
+    n54 [label="n54: Systemic lupus erythematosus or other connective tissue disease-associated retinal vasculitis could be suggested by joint disease and positive ANA.\\n[causal]", fillcolor="#c8e6c9"];
+    n55 [label="n55: ANA 1:80 is nonspecific.\\n[factual]", fillcolor="#c8e6c9"];
+    n56 [label="n56: Anti-dsDNA was negative.\\n[factual]", fillcolor="#c8e6c9"];
+    n57 [label="n57: There are no other lupus-specific findings provided.\\n[factual]", fillcolor="#c8e6c9"];
+  }
+  subgraph cluster_6 {
+    label="differential_generation (c7)";
+    style="rounded,dashed";
+    color="#9e9e9e";
+    n58 [label="n58: Intraocular or vitreoretinal lymphoma masquerading as uveitis is a concern because of the older age.\\n[causal]", fillcolor="#c8e6c9"];
+    n59 [label="n59: Intraocular or vitreoretinal lymphoma masquerading as uveitis is a concern because of the mild vitreous haze.\\n[causal]", fillcolor="#c8e6c9"];
+    n60 [label="n60: Intraocular or vitreoretinal lymphoma masquerading as uveitis is a concern because of the bilateral involvement.\\n[causal]", fillcolor="#c8e6c9"];
+    n61 [label="n61: Intraocular or vitreoretinal lymphoma masquerading as uveitis is a concern because of progression despite immunosuppression.\\n[causal]", fillcolor="#c8e6c9"];
+    n62 [label="n62: The concurrent anemia raises concern for an underlying hematologic or systemic neoplastic process.\\n[causal]", fillcolor="#c8e6c9"];
+    n63 [label="n63: The pulmonary symptoms of unclear etiology raise concern for an underlying hematologic or systemic neoplastic process.\\n[causal]", fillcolor="#c8e6c9"];
+    n64 [label="n64: An underlying hematologic or systemic neoplastic process is a concern rather than isolated autoimmune disease.\\n[causal]", fillcolor="#c8e6c9"];
+    n65 [label="n65: In an older patient with apparent retinal vasculitis that worsens on treatment, lymphoma becomes the leading diagnosis.\\n[causal]", fillcolor="#c8e6c9"];
+    n66 [label="n66: The key discriminator is treatment-refractory, progressive bilateral retinal vasculitis or intermediate uveitis in an older patient with negative standard inflammatory and infectious workup.\\n[factual]", fillcolor="#c8e6c9"];
+    n67 [label="n67: That pattern is classic for a masquerade syndrome.\\n[causal]", fillcolor="#c8e6c9"];
+    n68 [label="n68: Among masqueraders, vitreoretinal lymphoma is the most likely.\\n[causal]", fillcolor="#c8e6c9"];
+    n69 [label="n69: The anemia and systemic symptoms further support an occult lymphoproliferative disorder.\\n[causal]", fillcolor="#c8e6c9"];
+  }
+  subgraph cluster_7 {
+    label="final_decision (c8)";
+    style="rounded,dashed";
+    color="#9e9e9e";
+    n70 [label="n70: The most likely diagnosis is vitreoretinal lymphoma presenting as retinal vasculitis.\\n[causal]", fillcolor="#c8e6c9"];
+    n71 [label="n71: Vitreoretinal lymphoma is the final diagnosis.\\n[factual]", fillcolor="#c8e6c9"];
+  }
+  n1 -> n42 [label="supports: Progressively worsening blurry vision is part of the clinical picture prompting the retinal vasculitis/intermediate uveitis differential."];
+  n2 -> n42 [label="supports: Asymmetric blur, worse in the right eye, is compatible with an ocular inflammatory process rather than a purely refractive complaint."];
+  n8 -> n42 [label="supports: Bilateral vitreous haze supports posterior segment inflammation/uveitis."];
+  n9 -> n42 [label="supports: Peripheral perivascular leakage on fluorescein angiography supports retinal vasculitis."];
+  n11 -> n14 [label="supports: Preserved foveal contour argues against macular structural distortion as the main cause of blur."];
+  n12 -> n14 [label="supports: No subretinal fluid makes cystoid or exudative macular pathology less likely."];
+  n13 -> n14 [label="supports: No intraretinal fluid argues against cystoid macular edema as the cause of blur."];
+  n15 -> n17 [label="supports: Absence of anterior chamber cell argues against primary anterior uveitis."];
+  n16 -> n17 [label="supports: Absence of anterior chamber flare further argues against primary anterior uveitis."];
+  n24 -> n39 [label="supports: Normal ACE reduces support for sarcoidosis."];
+  n25 -> n39 [label="supports: Normal lysozyme reduces support for sarcoidosis."];
+  n29 -> n39 [label="supports: Normal chest radiography reduces support for sarcoidosis."];
+  n26 -> n53 [label="supports: Negative QuantiFERON makes tuberculosis-related retinal vasculitis less likely."];
+  n27 -> n53 [label="supports: Negative syphilis serologies make syphilitic retinal vasculitis less likely."];
+  n52 -> n53 [label="supports: Negative TB and syphilis screening supports the conclusion that infectious retinal vasculitis is unlikely."];
+  n30 -> n41 [label="supports: A low-titer ANA alone is weak evidence for active lupus."];
+  n40 -> n41 [label="supports: Negative anti-dsDNA reduces support for active lupus."];
+  n55 -> n41 [label="supports: ANA 1:80 is nonspecific and weakens the lupus hypothesis."];
+  n56 -> n41 [label="supports: Negative anti-dsDNA argues against active lupus."];
+  n57 -> n41 [label="supports: Lack of other lupus-specific findings further weakens active lupus."];
+  n7 -> n45 [label="supports: Bilateral posterior segment inflammation fits idiopathic or autoimmune retinal vasculitis/intermediate uveitis."];
+  n8 -> n45 [label="supports: Vitreous haze is compatible with intermediate uveitis."];
+  n9 -> n45 [label="supports: Peripheral vascular leakage supports retinal vasculitis."];
+  n20 -> n45 [label="supports: Joint disease provides systemic inflammatory context that can fit autoimmune uveitis."];
+  n21 -> n49 [label="supports: Pulmonary symptoms make sarcoid-associated ocular inflammation a consideration."];
+  n31 -> n62 [label="supports: Anemia raises concern for an underlying hematologic or systemic neoplastic process."];
+  n21 -> n63 [label="supports: Unexplained pulmonary symptoms can be seen with systemic neoplastic disease."];
+  n33 -> n44 [label="supports: Worsening despite escalation of immunosuppression supports concern for a masquerade syndrome."];
+  n34 -> n48 [label="supports: Progression of peripheral perivascular leakage over 2 months documents worsening angiographic disease."];
+  n48 -> n44 [label="supports: Worsening leakage despite treatment supports a masquerade process."];
+  n39 -> n50 [label="supports: Normal ACE, lysozyme, and chest radiography make sarcoid-associated uveitis less likely."];
+  n50 -> n49 [label="contradicts: If sarcoid-associated uveitis is less likely from the provided data, that weakens the claim that it could fit best."];
+  n53 -> n51 [label="contradicts: Negative infectious screening conflicts with the general statement that TB or syphilis can explain the vasculitis in this case."];
+  n41 -> n54 [label="contradicts: Active lupus is less supported, which weakens the connective tissue disease-associated vasculitis hypothesis."];
+  n58 -> n65 [label="supports: Older age is a classic clue favoring lymphoma over routine inflammatory uveitis."];
+  n59 -> n65 [label="supports: Mild vitreous haze is compatible with vitreoretinal lymphoma masquerading as uveitis."];
+  n60 -> n65 [label="supports: Bilateral involvement is a feature that can be seen in vitreoretinal lymphoma."];
+  n61 -> n65 [label="supports: Progression despite immunosuppression strongly raises suspicion for lymphoma."];
+  n62 -> n64 [label="supports: Anemia supports concern for a hematologic or systemic neoplastic process rather than isolated autoimmune disease."];
+  n63 -> n64 [label="supports: Unexplained pulmonary symptoms also support concern for systemic neoplastic disease."];
+  n64 -> n65 [label="supports: Concern for a systemic neoplastic process supports lymphoma becoming the leading diagnosis."];
+  n66 -> n67 [label="supports: Treatment-refractory progressive bilateral retinal vasculitis/intermediate uveitis with negative workup is the classic masquerade pattern."];
+  n67 -> n68 [label="supports: If the pattern is classic for a masquerade syndrome, vitreoretinal lymphoma is the most likely masquerader."];
+  n68 -> n70 [label="supports: Among masqueraders, vitreoretinal lymphoma supports the final diagnostic conclusion."];
+  n70 -> n71 [label="supports: The stated most likely diagnosis is presented as the final diagnosis."];
+  n4 -> n42 [label="contradicts: Prior epiretinal membranes offer an alternative structural explanation that the inflammatory findings argue against as primary."];
+  n6 -> n42 [label="supports: This statement explicitly summarizes the inflammatory interpretation over macular structural disease."];
+  n14 -> n42 [label="supports: Arguing against cystoid macular edema strengthens the inflammatory retinal vasculitis interpretation."];
+  n17 -> n42 [label="supports: Not being primarily anterior uveitis supports a posterior segment inflammatory process."];
+  n43 -> n44 [label="supports: Failure of corticosteroid and steroid-sparing therapy supports concern for masquerade syndrome."];
+  n44 -> n68 [label="supports: A masquerade syndrome concern points toward vitreoretinal lymphoma among masqueraders."];
+  n45 -> n42 [label="contradicts: Idiopathic/autoimmune retinal vasculitis is in tension with the broader conclusion that the exam points to inflammatory retinal vascular disease rather than a purely structural cause; it is a competing explanatory frame."];
+}

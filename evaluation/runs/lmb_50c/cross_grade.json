@@ -1,0 +1,2102 @@
+[
+  {
+    "case_id": 4944,
+    "model": "gpt-5.4",
+    "condition": "baseline",
+    "gpt41_score": 0.56,
+    "claude_score": 0.16
+  },
+  {
+    "case_id": 4903,
+    "model": "gpt-5.4",
+    "condition": "baseline",
+    "gpt41_score": 0.6333,
+    "claude_score": 0.8667
+  },
+  {
+    "case_id": 4914,
+    "model": "gpt-5.4",
+    "condition": "baseline",
+    "gpt41_score": 0.8689,
+    "claude_score": 0.8689
+  },
+  {
+    "case_id": 4896,
+    "model": "gpt-5.4",
+    "condition": "baseline",
+    "gpt41_score": 0.72,
+    "claude_score": 0.72
+  },
+  {
+    "case_id": 4921,
+    "model": "gpt-5.4",
+    "condition": "baseline",
+    "gpt41_score": -0.0488,
+    "claude_score": 0.1951
+  },
+  {
+    "case_id": 4929,
+    "model": "gpt-5.4",
+    "condition": "baseline",
+    "gpt41_score": 1.0,
+    "claude_score": 1.0
+  },
+  {
+    "case_id": 4936,
+    "model": "gpt-5.4",
+    "condition": "baseline",
+    "gpt41_score": 0.6618,
+    "claude_score": 0.6618
+  },
+  {
+    "case_id": 4959,
+    "model": "gpt-5.4",
+    "condition": "baseline",
+    "gpt41_score": 0.625,
+    "claude_score": 0.625
+  },
+  {
+    "case_id": 4989,
+    "model": "gpt-5.4",
+    "condition": "baseline",
+    "gpt41_score": 1.0,
+    "claude_score": 1.0
+  },
+  {
+    "case_id": 4952,
+    "model": "gpt-5.4",
+    "condition": "baseline",
+    "gpt41_score": 0.8636,
+    "claude_score": 0.8636
+  },
+  {
+    "case_id": 4967,
+    "model": "gpt-5.4",
+    "condition": "baseline",
+    "gpt41_score": 0.4848,
+    "claude_score": 0.4848
+  },
+  {
+    "case_id": 5015,
+    "model": "gpt-5.4",
+    "condition": "baseline",
+    "gpt41_score": 0.7368,
+    "claude_score": 1.0
+  },
+  {
+    "case_id": 4982,
+    "model": "gpt-5.4",
+    "condition": "baseline",
+    "gpt41_score": 0.0488,
+    "claude_score": 0.0488
+  },
+  {
+    "case_id": 4974,
+    "model": "gpt-5.4",
+    "condition": "baseline",
+    "gpt41_score": 0.8444,
+    "claude_score": 0.8222
+  },
+  {
+    "case_id": 5008,
+    "model": "gpt-5.4",
+    "condition": "baseline",
+    "gpt41_score": 0.775,
+    "claude_score": 0.775
+  },
+  {
+    "case_id": 4998,
+    "model": "gpt-5.4",
+    "condition": "baseline",
+    "gpt41_score": -0.7222,
+    "claude_score": -0.0556
+  },
+  {
+    "case_id": 5023,
+    "model": "gpt-5.4",
+    "condition": "baseline",
+    "gpt41_score": 0.3947,
+    "claude_score": 0.3947
+  },
+  {
+    "case_id": 5078,
+    "model": "gpt-5.4",
+    "condition": "baseline",
+    "gpt41_score": 0.7143,
+    "claude_score": 0.7143
+  },
+  {
+    "case_id": 5032,
+    "model": "gpt-5.4",
+    "condition": "baseline",
+    "gpt41_score": 0.3023,
+    "claude_score": 0.2326
+  },
+  {
+    "case_id": 5063,
+    "model": "gpt-5.4",
+    "condition": "baseline",
+    "gpt41_score": 0.25,
+    "claude_score": 0.25
+  },
+  {
+    "case_id": 5040,
+    "model": "gpt-5.4",
+    "condition": "baseline",
+    "gpt41_score": 1.0,
+    "claude_score": 1.0
+  },
+  {
+    "case_id": 5048,
+    "model": "gpt-5.4",
+    "condition": "baseline",
+    "gpt41_score": 0.85,
+    "claude_score": 1.0
+  },
+  {
+    "case_id": 5085,
+    "model": "gpt-5.4",
+    "condition": "baseline",
+    "gpt41_score": 0.7353,
+    "claude_score": 0.5
+  },
+  {
+    "case_id": 5070,
+    "model": "gpt-5.4",
+    "condition": "baseline",
+    "gpt41_score": 0.4706,
+    "claude_score": 0.4706
+  },
+  {
+    "case_id": 5101,
+    "model": "gpt-5.4",
+    "condition": "baseline",
+    "gpt41_score": 0.5278,
+    "claude_score": 0.25
+  },
+  {
+    "case_id": 5109,
+    "model": "gpt-5.4",
+    "condition": "baseline",
+    "gpt41_score": 0.8611,
+    "claude_score": 0.6944
+  },
+  {
+    "case_id": 5093,
+    "model": "gpt-5.4",
+    "condition": "baseline",
+    "gpt41_score": 0.8611,
+    "claude_score": 0.7778
+  },
+  {
+    "case_id": 5140,
+    "model": "gpt-5.4",
+    "condition": "baseline",
+    "gpt41_score": 0.5357,
+    "claude_score": 0.5357
+  },
+  {
+    "case_id": 5055,
+    "model": "gpt-5.4",
+    "condition": "baseline",
+    "gpt41_score": 0.6441,
+    "claude_score": 0.5593
+  },
+  {
+    "case_id": 5156,
+    "model": "gpt-5.4",
+    "condition": "baseline",
+    "gpt41_score": 0.3939,
+    "claude_score": 0.3939
+  },
+  {
+    "case_id": 5124,
+    "model": "gpt-5.4",
+    "condition": "baseline",
+    "gpt41_score": 0.0,
+    "claude_score": -1.0
+  },
+  {
+    "case_id": 5148,
+    "model": "gpt-5.4",
+    "condition": "baseline",
+    "gpt41_score": 0.6286,
+    "claude_score": 0.2857
+  },
+  {
+    "case_id": 5186,
+    "model": "gpt-5.4",
+    "condition": "baseline",
+    "gpt41_score": 0.25,
+    "claude_score": 0.6667
+  },
+  {
+    "case_id": 5133,
+    "model": "gpt-5.4",
+    "condition": "baseline",
+    "gpt41_score": 0.4364,
+    "claude_score": 0.4364
+  },
+  {
+    "case_id": 5163,
+    "model": "gpt-5.4",
+    "condition": "baseline",
+    "gpt41_score": 0.75,
+    "claude_score": 0.75
+  },
+  {
+    "case_id": 5212,
+    "model": "gpt-5.4",
+    "condition": "baseline",
+    "gpt41_score": 0.2979,
+    "claude_score": 0.2979
+  },
+  {
+    "case_id": 5178,
+    "model": "gpt-5.4",
+    "condition": "baseline",
+    "gpt41_score": 1.0,
+    "claude_score": 0.8889
+  },
+  {
+    "case_id": 5117,
+    "model": "gpt-5.4",
+    "condition": "baseline",
+    "gpt41_score": 0.84,
+    "claude_score": 0.52
+  },
+  {
+    "case_id": 5196,
+    "model": "gpt-5.4",
+    "condition": "baseline",
+    "gpt41_score": 0.0882,
+    "claude_score": 0.0882
+  },
+  {
+    "case_id": 5171,
+    "model": "gpt-5.4",
+    "condition": "baseline",
+    "gpt41_score": 0.1154,
+    "claude_score": 0.1154
+  },
+  {
+    "case_id": 5204,
+    "model": "gpt-5.4",
+    "condition": "baseline",
+    "gpt41_score": 0.8444,
+    "claude_score": 0.8444
+  },
+  {
+    "case_id": 5235,
+    "model": "gpt-5.4",
+    "condition": "baseline",
+    "gpt41_score": 1.0,
+    "claude_score": 1.0
+  },
+  {
+    "case_id": 5243,
+    "model": "gpt-5.4",
+    "condition": "baseline",
+    "gpt41_score": 1.0,
+    "claude_score": 1.0
+  },
+  {
+    "case_id": 5228,
+    "model": "gpt-5.4",
+    "condition": "baseline",
+    "gpt41_score": 0.68,
+    "claude_score": 0.68
+  },
+  {
+    "case_id": 5220,
+    "model": "gpt-5.4",
+    "condition": "baseline",
+    "gpt41_score": 0.5,
+    "claude_score": 0.5
+  },
+  {
+    "case_id": 5258,
+    "model": "gpt-5.4",
+    "condition": "baseline",
+    "gpt41_score": 0.4103,
+    "claude_score": 0.4103
+  },
+  {
+    "case_id": 5281,
+    "model": "gpt-5.4",
+    "condition": "baseline",
+    "gpt41_score": 0.5484,
+    "claude_score": 0.5484
+  },
+  {
+    "case_id": 4903,
+    "model": "gpt-5.4-mini",
+    "condition": "baseline",
+    "gpt41_score": 0.8667,
+    "claude_score": 0.8667
+  },
+  {
+    "case_id": 5266,
+    "model": "gpt-5.4",
+    "condition": "baseline",
+    "gpt41_score": 0.2407,
+    "claude_score": 0.5
+  },
+  {
+    "case_id": 5251,
+    "model": "gpt-5.4",
+    "condition": "baseline",
+    "gpt41_score": 0.907,
+    "claude_score": 0.907
+  },
+  {
+    "case_id": 4914,
+    "model": "gpt-5.4-mini",
+    "condition": "baseline",
+    "gpt41_score": 0.8689,
+    "claude_score": 0.8689
+  },
+  {
+    "case_id": 4929,
+    "model": "gpt-5.4-mini",
+    "condition": "baseline",
+    "gpt41_score": 0.6667,
+    "claude_score": 1.0
+  },
+  {
+    "case_id": 4921,
+    "model": "gpt-5.4-mini",
+    "condition": "baseline",
+    "gpt41_score": 0.1951,
+    "claude_score": 0.0
+  },
+  {
+    "case_id": 5273,
+    "model": "gpt-5.4",
+    "condition": "baseline",
+    "gpt41_score": 0.6905,
+    "claude_score": 0.6905
+  },
+  {
+    "case_id": 4959,
+    "model": "gpt-5.4-mini",
+    "condition": "baseline",
+    "gpt41_score": 0.625,
+    "claude_score": 0.625
+  },
+  {
+    "case_id": 4952,
+    "model": "gpt-5.4-mini",
+    "condition": "baseline",
+    "gpt41_score": 0.8636,
+    "claude_score": 0.8636
+  },
+  {
+    "case_id": 4936,
+    "model": "gpt-5.4-mini",
+    "condition": "baseline",
+    "gpt41_score": 0.7353,
+    "claude_score": 0.3971
+  },
+  {
+    "case_id": 4967,
+    "model": "gpt-5.4-mini",
+    "condition": "baseline",
+    "gpt41_score": 0.4848,
+    "claude_score": 0.6364
+  },
+  {
+    "case_id": 4896,
+    "model": "gpt-5.4-mini",
+    "condition": "baseline",
+    "gpt41_score": 0.72,
+    "claude_score": 0.72
+  },
+  {
+    "case_id": 4974,
+    "model": "gpt-5.4-mini",
+    "condition": "baseline",
+    "gpt41_score": 0.4222,
+    "claude_score": 0.4222
+  },
+  {
+    "case_id": 4944,
+    "model": "gpt-5.4-mini",
+    "condition": "baseline",
+    "gpt41_score": 0.56,
+    "claude_score": -0.16
+  },
+  {
+    "case_id": 4982,
+    "model": "gpt-5.4-mini",
+    "condition": "baseline",
+    "gpt41_score": 0.2439,
+    "claude_score": 0.0488
+  },
+  {
+    "case_id": 4989,
+    "model": "gpt-5.4-mini",
+    "condition": "baseline",
+    "gpt41_score": 0.28,
+    "claude_score": 0.6
+  },
+  {
+    "case_id": 5008,
+    "model": "gpt-5.4-mini",
+    "condition": "baseline",
+    "gpt41_score": 0.525,
+    "claude_score": 0.325
+  },
+  {
+    "case_id": 5015,
+    "model": "gpt-5.4-mini",
+    "condition": "baseline",
+    "gpt41_score": 0.7632,
+    "claude_score": 1.0
+  },
+  {
+    "case_id": 5032,
+    "model": "gpt-5.4-mini",
+    "condition": "baseline",
+    "gpt41_score": 0.4186,
+    "claude_score": 0.2326
+  },
+  {
+    "case_id": 5023,
+    "model": "gpt-5.4-mini",
+    "condition": "baseline",
+    "gpt41_score": 0.3947,
+    "claude_score": 0.2368
+  },
+  {
+    "case_id": 4998,
+    "model": "gpt-5.4-mini",
+    "condition": "baseline",
+    "gpt41_score": 0.3889,
+    "claude_score": 0.1111
+  },
+  {
+    "case_id": 5040,
+    "model": "gpt-5.4-mini",
+    "condition": "baseline",
+    "gpt41_score": 0.7143,
+    "claude_score": 0.7143
+  },
+  {
+    "case_id": 5078,
+    "model": "gpt-5.4-mini",
+    "condition": "baseline",
+    "gpt41_score": 0.2857,
+    "claude_score": 0.2857
+  },
+  {
+    "case_id": 5063,
+    "model": "gpt-5.4-mini",
+    "condition": "baseline",
+    "gpt41_score": 0.25,
+    "claude_score": 0.25
+  },
+  {
+    "case_id": 5085,
+    "model": "gpt-5.4-mini",
+    "condition": "baseline",
+    "gpt41_score": 0.6765,
+    "claude_score": 0.5294
+  },
+  {
+    "case_id": 5070,
+    "model": "gpt-5.4-mini",
+    "condition": "baseline",
+    "gpt41_score": 0.4706,
+    "claude_score": 0.4706
+  },
+  {
+    "case_id": 5048,
+    "model": "gpt-5.4-mini",
+    "condition": "baseline",
+    "gpt41_score": 1.0,
+    "claude_score": 1.0
+  },
+  {
+    "case_id": 5055,
+    "model": "gpt-5.4-mini",
+    "condition": "baseline",
+    "gpt41_score": 0.6441,
+    "claude_score": 0.3898
+  },
+  {
+    "case_id": 5109,
+    "model": "gpt-5.4-mini",
+    "condition": "baseline",
+    "gpt41_score": 0.8611,
+    "claude_score": 0.6944
+  },
+  {
+    "case_id": 5101,
+    "model": "gpt-5.4-mini",
+    "condition": "baseline",
+    "gpt41_score": 0.3889,
+    "claude_score": 0.1111
+  },
+  {
+    "case_id": 5148,
+    "model": "gpt-5.4-mini",
+    "condition": "baseline",
+    "gpt41_score": 0.3429,
+    "claude_score": 0.1429
+  },
+  {
+    "case_id": 5093,
+    "model": "gpt-5.4-mini",
+    "condition": "baseline",
+    "gpt41_score": 0.8611,
+    "claude_score": 0.7778
+  },
+  {
+    "case_id": 5140,
+    "model": "gpt-5.4-mini",
+    "condition": "baseline",
+    "gpt41_score": 0.1786,
+    "claude_score": 0.1786
+  },
+  {
+    "case_id": 5133,
+    "model": "gpt-5.4-mini",
+    "condition": "baseline",
+    "gpt41_score": 0.3636,
+    "claude_score": 0.4364
+  },
+  {
+    "case_id": 5124,
+    "model": "gpt-5.4-mini",
+    "condition": "baseline",
+    "gpt41_score": 0.0,
+    "claude_score": 0.0
+  },
+  {
+    "case_id": 5117,
+    "model": "gpt-5.4-mini",
+    "condition": "baseline",
+    "gpt41_score": 0.84,
+    "claude_score": 0.32
+  },
+  {
+    "case_id": 5156,
+    "model": "gpt-5.4-mini",
+    "condition": "baseline",
+    "gpt41_score": 0.3939,
+    "claude_score": 0.3939
+  },
+  {
+    "case_id": 5163,
+    "model": "gpt-5.4-mini",
+    "condition": "baseline",
+    "gpt41_score": 0.75,
+    "claude_score": 0.75
+  },
+  {
+    "case_id": 5212,
+    "model": "gpt-5.4-mini",
+    "condition": "baseline",
+    "gpt41_score": 0.1064,
+    "claude_score": 0.1064
+  },
+  {
+    "case_id": 5186,
+    "model": "gpt-5.4-mini",
+    "condition": "baseline",
+    "gpt41_score": 0.25,
+    "claude_score": 0.6667
+  },
+  {
+    "case_id": 5178,
+    "model": "gpt-5.4-mini",
+    "condition": "baseline",
+    "gpt41_score": 1.0,
+    "claude_score": 0.8889
+  },
+  {
+    "case_id": 5220,
+    "model": "gpt-5.4-mini",
+    "condition": "baseline",
+    "gpt41_score": 0.6389,
+    "claude_score": 0.6389
+  },
+  {
+    "case_id": 5171,
+    "model": "gpt-5.4-mini",
+    "condition": "baseline",
+    "gpt41_score": 0.5,
+    "claude_score": 0.5
+  },
+  {
+    "case_id": 5204,
+    "model": "gpt-5.4-mini",
+    "condition": "baseline",
+    "gpt41_score": 0.6222,
+    "claude_score": 0.6222
+  },
+  {
+    "case_id": 5235,
+    "model": "gpt-5.4-mini",
+    "condition": "baseline",
+    "gpt41_score": 1.0,
+    "claude_score": 1.0
+  },
+  {
+    "case_id": 5243,
+    "model": "gpt-5.4-mini",
+    "condition": "baseline",
+    "gpt41_score": 1.0,
+    "claude_score": 1.0
+  },
+  {
+    "case_id": 5196,
+    "model": "gpt-5.4-mini",
+    "condition": "baseline",
+    "gpt41_score": 0.0882,
+    "claude_score": 0.0882
+  },
+  {
+    "case_id": 5281,
+    "model": "gpt-5.4-mini",
+    "condition": "baseline",
+    "gpt41_score": 0.5484,
+    "claude_score": 0.5484
+  },
+  {
+    "case_id": 5258,
+    "model": "gpt-5.4-mini",
+    "condition": "baseline",
+    "gpt41_score": 0.5385,
+    "claude_score": 0.4103
+  },
+  {
+    "case_id": 5228,
+    "model": "gpt-5.4-mini",
+    "condition": "baseline",
+    "gpt41_score": 0.68,
+    "claude_score": 0.68
+  },
+  {
+    "case_id": 5251,
+    "model": "gpt-5.4-mini",
+    "condition": "baseline",
+    "gpt41_score": 0.907,
+    "claude_score": 0.907
+  },
+  {
+    "case_id": 5266,
+    "model": "gpt-5.4-mini",
+    "condition": "baseline",
+    "gpt41_score": 0.2407,
+    "claude_score": 0.0926
+  },
+  {
+    "case_id": 5273,
+    "model": "gpt-5.4-mini",
+    "condition": "baseline",
+    "gpt41_score": 0.4286,
+    "claude_score": 0.4286
+  },
+  {
+    "case_id": 4914,
+    "model": "gpt-5.4",
+    "condition": "self_refine",
+    "gpt41_score": 0.8689,
+    "claude_score": 0.8689
+  },
+  {
+    "case_id": 4914,
+    "model": "gpt-5.4",
+    "condition": "healthguard",
+    "gpt41_score": 0.8689,
+    "claude_score": 0.8689
+  },
+  {
+    "case_id": 4936,
+    "model": "gpt-5.4",
+    "condition": "self_refine",
+    "gpt41_score": 0.7353,
+    "claude_score": 0.6618
+  },
+  {
+    "case_id": 4903,
+    "model": "gpt-5.4",
+    "condition": "healthguard",
+    "gpt41_score": 0.7667,
+    "claude_score": 1.0
+  },
+  {
+    "case_id": 4936,
+    "model": "gpt-5.4",
+    "condition": "healthguard",
+    "gpt41_score": 0.6618,
+    "claude_score": 0.6618
+  },
+  {
+    "case_id": 4896,
+    "model": "gpt-5.4",
+    "condition": "self_refine",
+    "gpt41_score": 0.72,
+    "claude_score": 0.72
+  },
+  {
+    "case_id": 4903,
+    "model": "gpt-5.4",
+    "condition": "self_refine",
+    "gpt41_score": 0.6333,
+    "claude_score": 0.6333
+  },
+  {
+    "case_id": 4929,
+    "model": "gpt-5.4",
+    "condition": "healthguard",
+    "gpt41_score": 1.0,
+    "claude_score": 1.0
+  },
+  {
+    "case_id": 4929,
+    "model": "gpt-5.4",
+    "condition": "self_refine",
+    "gpt41_score": 1.0,
+    "claude_score": 1.0
+  },
+  {
+    "case_id": 4921,
+    "model": "gpt-5.4",
+    "condition": "self_refine",
+    "gpt41_score": 0.1951,
+    "claude_score": 0.1951
+  },
+  {
+    "case_id": 4952,
+    "model": "gpt-5.4",
+    "condition": "self_refine",
+    "gpt41_score": 0.8636,
+    "claude_score": 0.8636
+  },
+  {
+    "case_id": 4952,
+    "model": "gpt-5.4",
+    "condition": "healthguard",
+    "gpt41_score": 0.8636,
+    "claude_score": 0.8636
+  },
+  {
+    "case_id": 4944,
+    "model": "gpt-5.4",
+    "condition": "self_refine",
+    "gpt41_score": 0.24,
+    "claude_score": -0.16
+  },
+  {
+    "case_id": 4944,
+    "model": "gpt-5.4",
+    "condition": "healthguard",
+    "gpt41_score": 0.6,
+    "claude_score": 1.0
+  },
+  {
+    "case_id": 4959,
+    "model": "gpt-5.4",
+    "condition": "self_refine",
+    "gpt41_score": 0.625,
+    "claude_score": 0.625
+  },
+  {
+    "case_id": 4967,
+    "model": "gpt-5.4",
+    "condition": "self_refine",
+    "gpt41_score": 0.4848,
+    "claude_score": 0.6364
+  },
+  {
+    "case_id": 4967,
+    "model": "gpt-5.4",
+    "condition": "healthguard",
+    "gpt41_score": 0.6364,
+    "claude_score": 0.6364
+  },
+  {
+    "case_id": 4896,
+    "model": "gpt-5.4",
+    "condition": "healthguard",
+    "gpt41_score": 0.72,
+    "claude_score": 0.72
+  },
+  {
+    "case_id": 4974,
+    "model": "gpt-5.4",
+    "condition": "self_refine",
+    "gpt41_score": 0.8444,
+    "claude_score": 0.8222
+  },
+  {
+    "case_id": 4959,
+    "model": "gpt-5.4",
+    "condition": "healthguard",
+    "gpt41_score": 0.85,
+    "claude_score": 0.85
+  },
+  {
+    "case_id": 4921,
+    "model": "gpt-5.4",
+    "condition": "healthguard",
+    "gpt41_score": 0.3171,
+    "claude_score": 0.3171
+  },
+  {
+    "case_id": 4974,
+    "model": "gpt-5.4",
+    "condition": "healthguard",
+    "gpt41_score": 0.6444,
+    "claude_score": 0.4667
+  },
+  {
+    "case_id": 4982,
+    "model": "gpt-5.4",
+    "condition": "self_refine",
+    "gpt41_score": 0.0488,
+    "claude_score": 0.0488
+  },
+  {
+    "case_id": 4982,
+    "model": "gpt-5.4",
+    "condition": "healthguard",
+    "gpt41_score": 0.0488,
+    "claude_score": 0.0488
+  },
+  {
+    "case_id": 5008,
+    "model": "gpt-5.4",
+    "condition": "healthguard",
+    "gpt41_score": 0.525,
+    "claude_score": 0.525
+  },
+  {
+    "case_id": 4989,
+    "model": "gpt-5.4",
+    "condition": "self_refine",
+    "gpt41_score": 0.08,
+    "claude_score": 0.4
+  },
+  {
+    "case_id": 5008,
+    "model": "gpt-5.4",
+    "condition": "self_refine",
+    "gpt41_score": 0.525,
+    "claude_score": 0.525
+  },
+  {
+    "case_id": 4989,
+    "model": "gpt-5.4",
+    "condition": "healthguard",
+    "gpt41_score": 1.0,
+    "claude_score": 1.0
+  },
+  {
+    "case_id": 5023,
+    "model": "gpt-5.4",
+    "condition": "self_refine",
+    "gpt41_score": 0.3947,
+    "claude_score": 0.2368
+  },
+  {
+    "case_id": 5023,
+    "model": "gpt-5.4",
+    "condition": "healthguard",
+    "gpt41_score": 0.3947,
+    "claude_score": 0.3947
+  },
+  {
+    "case_id": 5032,
+    "model": "gpt-5.4",
+    "condition": "healthguard",
+    "gpt41_score": 0.3023,
+    "claude_score": 0.2326
+  },
+  {
+    "case_id": 5032,
+    "model": "gpt-5.4",
+    "condition": "self_refine",
+    "gpt41_score": 0.3023,
+    "claude_score": 0.3023
+  },
+  {
+    "case_id": 5015,
+    "model": "gpt-5.4",
+    "condition": "self_refine",
+    "gpt41_score": 1.0,
+    "claude_score": 1.0
+  },
+  {
+    "case_id": 5015,
+    "model": "gpt-5.4",
+    "condition": "healthguard",
+    "gpt41_score": 1.0,
+    "claude_score": 1.0
+  },
+  {
+    "case_id": 4998,
+    "model": "gpt-5.4",
+    "condition": "healthguard",
+    "gpt41_score": 1.0,
+    "claude_score": 1.0
+  },
+  {
+    "case_id": 5055,
+    "model": "gpt-5.4",
+    "condition": "healthguard",
+    "gpt41_score": 0.8136,
+    "claude_score": 0.5593
+  },
+  {
+    "case_id": 5040,
+    "model": "gpt-5.4",
+    "condition": "self_refine",
+    "gpt41_score": 1.0,
+    "claude_score": 1.0
+  },
+  {
+    "case_id": 5055,
+    "model": "gpt-5.4",
+    "condition": "self_refine",
+    "gpt41_score": 0.8136,
+    "claude_score": 0.4576
+  },
+  {
+    "case_id": 5070,
+    "model": "gpt-5.4",
+    "condition": "self_refine",
+    "gpt41_score": 0.7059,
+    "claude_score": 0.7059
+  },
+  {
+    "case_id": 5070,
+    "model": "gpt-5.4",
+    "condition": "healthguard",
+    "gpt41_score": 0.7059,
+    "claude_score": 0.4706
+  },
+  {
+    "case_id": 5040,
+    "model": "gpt-5.4",
+    "condition": "healthguard",
+    "gpt41_score": 1.0,
+    "claude_score": 1.0
+  },
+  {
+    "case_id": 5063,
+    "model": "gpt-5.4",
+    "condition": "self_refine",
+    "gpt41_score": 0.25,
+    "claude_score": 0.25
+  },
+  {
+    "case_id": 5048,
+    "model": "gpt-5.4",
+    "condition": "self_refine",
+    "gpt41_score": 1.0,
+    "claude_score": 1.0
+  },
+  {
+    "case_id": 5063,
+    "model": "gpt-5.4",
+    "condition": "healthguard",
+    "gpt41_score": 0.4167,
+    "claude_score": 0.25
+  },
+  {
+    "case_id": 5048,
+    "model": "gpt-5.4",
+    "condition": "healthguard",
+    "gpt41_score": 0.85,
+    "claude_score": 1.0
+  },
+  {
+    "case_id": 5078,
+    "model": "gpt-5.4",
+    "condition": "self_refine",
+    "gpt41_score": 1.0,
+    "claude_score": 1.0
+  },
+  {
+    "case_id": 5078,
+    "model": "gpt-5.4",
+    "condition": "healthguard",
+    "gpt41_score": 1.0,
+    "claude_score": 1.0
+  },
+  {
+    "case_id": 5109,
+    "model": "gpt-5.4",
+    "condition": "self_refine",
+    "gpt41_score": 0.8611,
+    "claude_score": 0.6944
+  },
+  {
+    "case_id": 5109,
+    "model": "gpt-5.4",
+    "condition": "healthguard",
+    "gpt41_score": 0.8611,
+    "claude_score": 0.8333
+  },
+  {
+    "case_id": 5085,
+    "model": "gpt-5.4",
+    "condition": "self_refine",
+    "gpt41_score": 0.7353,
+    "claude_score": 0.5
+  },
+  {
+    "case_id": 5093,
+    "model": "gpt-5.4",
+    "condition": "self_refine",
+    "gpt41_score": 0.8611,
+    "claude_score": 1.0
+  },
+  {
+    "case_id": 5093,
+    "model": "gpt-5.4",
+    "condition": "healthguard",
+    "gpt41_score": 1.0,
+    "claude_score": 1.0
+  },
+  {
+    "case_id": 5101,
+    "model": "gpt-5.4",
+    "condition": "healthguard",
+    "gpt41_score": 0.75,
+    "claude_score": 0.4722
+  },
+  {
+    "case_id": 5117,
+    "model": "gpt-5.4",
+    "condition": "healthguard",
+    "gpt41_score": 0.84,
+    "claude_score": 0.66
+  },
+  {
+    "case_id": 5085,
+    "model": "gpt-5.4",
+    "condition": "healthguard",
+    "gpt41_score": 0.8824,
+    "claude_score": 0.6471
+  },
+  {
+    "case_id": 5117,
+    "model": "gpt-5.4",
+    "condition": "self_refine",
+    "gpt41_score": 0.84,
+    "claude_score": 0.52
+  },
+  {
+    "case_id": 5140,
+    "model": "gpt-5.4",
+    "condition": "self_refine",
+    "gpt41_score": 0.6429,
+    "claude_score": 0.6429
+  },
+  {
+    "case_id": 4998,
+    "model": "gpt-5.4",
+    "condition": "self_refine",
+    "gpt41_score": -0.7222,
+    "claude_score": -0.1667
+  },
+  {
+    "case_id": 5124,
+    "model": "gpt-5.4",
+    "condition": "self_refine",
+    "gpt41_score": -0.5,
+    "claude_score": -1.0
+  },
+  {
+    "case_id": 5133,
+    "model": "gpt-5.4",
+    "condition": "self_refine",
+    "gpt41_score": 0.5455,
+    "claude_score": 0.4364
+  },
+  {
+    "case_id": 5140,
+    "model": "gpt-5.4",
+    "condition": "healthguard",
+    "gpt41_score": 0.6429,
+    "claude_score": 0.6429
+  },
+  {
+    "case_id": 5124,
+    "model": "gpt-5.4",
+    "condition": "healthguard",
+    "gpt41_score": 0.0,
+    "claude_score": -1.0
+  },
+  {
+    "case_id": 5148,
+    "model": "gpt-5.4",
+    "condition": "self_refine",
+    "gpt41_score": 0.6286,
+    "claude_score": 0.2857
+  },
+  {
+    "case_id": 5133,
+    "model": "gpt-5.4",
+    "condition": "healthguard",
+    "gpt41_score": 0.8182,
+    "claude_score": 0.6727
+  },
+  {
+    "case_id": 5101,
+    "model": "gpt-5.4",
+    "condition": "self_refine",
+    "gpt41_score": 0.5278,
+    "claude_score": 0.25
+  },
+  {
+    "case_id": 5156,
+    "model": "gpt-5.4",
+    "condition": "self_refine",
+    "gpt41_score": 0.3939,
+    "claude_score": 0.3939
+  },
+  {
+    "case_id": 5148,
+    "model": "gpt-5.4",
+    "condition": "healthguard",
+    "gpt41_score": 0.6286,
+    "claude_score": 0.2857
+  },
+  {
+    "case_id": 5156,
+    "model": "gpt-5.4",
+    "condition": "healthguard",
+    "gpt41_score": 0.3939,
+    "claude_score": 0.3939
+  },
+  {
+    "case_id": 5163,
+    "model": "gpt-5.4",
+    "condition": "self_refine",
+    "gpt41_score": 0.75,
+    "claude_score": 0.75
+  },
+  {
+    "case_id": 5163,
+    "model": "gpt-5.4",
+    "condition": "healthguard",
+    "gpt41_score": 0.75,
+    "claude_score": 0.75
+  },
+  {
+    "case_id": 5186,
+    "model": "gpt-5.4",
+    "condition": "self_refine",
+    "gpt41_score": 0.6667,
+    "claude_score": 0.6667
+  },
+  {
+    "case_id": 5186,
+    "model": "gpt-5.4",
+    "condition": "healthguard",
+    "gpt41_score": 0.25,
+    "claude_score": 0.6667
+  },
+  {
+    "case_id": 5171,
+    "model": "gpt-5.4",
+    "condition": "healthguard",
+    "gpt41_score": 0.1154,
+    "claude_score": 0.1154
+  },
+  {
+    "case_id": 5178,
+    "model": "gpt-5.4",
+    "condition": "healthguard",
+    "gpt41_score": 1.0,
+    "claude_score": 1.0
+  },
+  {
+    "case_id": 5178,
+    "model": "gpt-5.4",
+    "condition": "self_refine",
+    "gpt41_score": 1.0,
+    "claude_score": 1.0
+  },
+  {
+    "case_id": 5196,
+    "model": "gpt-5.4",
+    "condition": "healthguard",
+    "gpt41_score": 0.3529,
+    "claude_score": 0.0882
+  },
+  {
+    "case_id": 5196,
+    "model": "gpt-5.4",
+    "condition": "self_refine",
+    "gpt41_score": 0.0882,
+    "claude_score": 0.0882
+  },
+  {
+    "case_id": 5204,
+    "model": "gpt-5.4",
+    "condition": "self_refine",
+    "gpt41_score": 0.8444,
+    "claude_score": 0.8444
+  },
+  {
+    "case_id": 5235,
+    "model": "gpt-5.4",
+    "condition": "self_refine",
+    "gpt41_score": 1.0,
+    "claude_score": 1.0
+  },
+  {
+    "case_id": 5171,
+    "model": "gpt-5.4",
+    "condition": "self_refine",
+    "gpt41_score": 0.1154,
+    "claude_score": 0.3077
+  },
+  {
+    "case_id": 5204,
+    "model": "gpt-5.4",
+    "condition": "healthguard",
+    "gpt41_score": 0.8444,
+    "claude_score": 1.0
+  },
+  {
+    "case_id": 5235,
+    "model": "gpt-5.4",
+    "condition": "healthguard",
+    "gpt41_score": 1.0,
+    "claude_score": 1.0
+  },
+  {
+    "case_id": 5212,
+    "model": "gpt-5.4",
+    "condition": "self_refine",
+    "gpt41_score": 0.4043,
+    "claude_score": 0.6596
+  },
+  {
+    "case_id": 5212,
+    "model": "gpt-5.4",
+    "condition": "healthguard",
+    "gpt41_score": 1.0,
+    "claude_score": 1.0
+  },
+  {
+    "case_id": 5243,
+    "model": "gpt-5.4",
+    "condition": "healthguard",
+    "gpt41_score": 1.0,
+    "claude_score": 1.0
+  },
+  {
+    "case_id": 5243,
+    "model": "gpt-5.4",
+    "condition": "self_refine",
+    "gpt41_score": 1.0,
+    "claude_score": 1.0
+  },
+  {
+    "case_id": 5220,
+    "model": "gpt-5.4",
+    "condition": "self_refine",
+    "gpt41_score": 0.5,
+    "claude_score": 0.5
+  },
+  {
+    "case_id": 5220,
+    "model": "gpt-5.4",
+    "condition": "healthguard",
+    "gpt41_score": 1.0,
+    "claude_score": 0.8056
+  },
+  {
+    "case_id": 5228,
+    "model": "gpt-5.4",
+    "condition": "healthguard",
+    "gpt41_score": 0.68,
+    "claude_score": 0.68
+  },
+  {
+    "case_id": 5251,
+    "model": "gpt-5.4",
+    "condition": "self_refine",
+    "gpt41_score": 0.907,
+    "claude_score": 0.907
+  },
+  {
+    "case_id": 5251,
+    "model": "gpt-5.4",
+    "condition": "healthguard",
+    "gpt41_score": 0.8837,
+    "claude_score": 1.0
+  },
+  {
+    "case_id": 5228,
+    "model": "gpt-5.4",
+    "condition": "self_refine",
+    "gpt41_score": 0.68,
+    "claude_score": 0.68
+  },
+  {
+    "case_id": 5258,
+    "model": "gpt-5.4",
+    "condition": "self_refine",
+    "gpt41_score": 0.4103,
+    "claude_score": 0.4103
+  },
+  {
+    "case_id": 5281,
+    "model": "gpt-5.4",
+    "condition": "healthguard",
+    "gpt41_score": 0.7419,
+    "claude_score": 0.7419
+  },
+  {
+    "case_id": 4903,
+    "model": "gpt-5.4-mini",
+    "condition": "healthguard",
+    "gpt41_score": 0.8667,
+    "claude_score": 0.8667
+  },
+  {
+    "case_id": 5281,
+    "model": "gpt-5.4",
+    "condition": "self_refine",
+    "gpt41_score": 0.5484,
+    "claude_score": 0.5484
+  },
+  {
+    "case_id": 4903,
+    "model": "gpt-5.4-mini",
+    "condition": "self_refine",
+    "gpt41_score": 0.8667,
+    "claude_score": 0.8667
+  },
+  {
+    "case_id": 5258,
+    "model": "gpt-5.4",
+    "condition": "healthguard",
+    "gpt41_score": 0.4103,
+    "claude_score": 0.4103
+  },
+  {
+    "case_id": 5266,
+    "model": "gpt-5.4",
+    "condition": "self_refine",
+    "gpt41_score": 0.2407,
+    "claude_score": 0.3333
+  },
+  {
+    "case_id": 5266,
+    "model": "gpt-5.4",
+    "condition": "healthguard",
+    "gpt41_score": 0.2407,
+    "claude_score": 0.3333
+  },
+  {
+    "case_id": 4914,
+    "model": "gpt-5.4-mini",
+    "condition": "self_refine",
+    "gpt41_score": 0.8689,
+    "claude_score": 0.8689
+  },
+  {
+    "case_id": 4914,
+    "model": "gpt-5.4-mini",
+    "condition": "healthguard",
+    "gpt41_score": 0.8689,
+    "claude_score": 0.8689
+  },
+  {
+    "case_id": 4896,
+    "model": "gpt-5.4-mini",
+    "condition": "healthguard",
+    "gpt41_score": 0.72,
+    "claude_score": 0.4
+  },
+  {
+    "case_id": 4944,
+    "model": "gpt-5.4-mini",
+    "condition": "self_refine",
+    "gpt41_score": 0.24,
+    "claude_score": -0.16
+  },
+  {
+    "case_id": 4921,
+    "model": "gpt-5.4-mini",
+    "condition": "self_refine",
+    "gpt41_score": 0.1951,
+    "claude_score": 0.1951
+  },
+  {
+    "case_id": 4944,
+    "model": "gpt-5.4-mini",
+    "condition": "healthguard",
+    "gpt41_score": 0.24,
+    "claude_score": 0.24
+  },
+  {
+    "case_id": 4936,
+    "model": "gpt-5.4-mini",
+    "condition": "self_refine",
+    "gpt41_score": 0.5882,
+    "claude_score": 0.5147
+  },
+  {
+    "case_id": 4921,
+    "model": "gpt-5.4-mini",
+    "condition": "healthguard",
+    "gpt41_score": 0.3171,
+    "claude_score": 0.4878
+  },
+  {
+    "case_id": 4896,
+    "model": "gpt-5.4-mini",
+    "condition": "self_refine",
+    "gpt41_score": 0.72,
+    "claude_score": 0.72
+  },
+  {
+    "case_id": 4936,
+    "model": "gpt-5.4-mini",
+    "condition": "healthguard",
+    "gpt41_score": 0.7353,
+    "claude_score": 0.5147
+  },
+  {
+    "case_id": 4952,
+    "model": "gpt-5.4-mini",
+    "condition": "self_refine",
+    "gpt41_score": 0.8636,
+    "claude_score": 0.8636
+  },
+  {
+    "case_id": 4929,
+    "model": "gpt-5.4-mini",
+    "condition": "self_refine",
+    "gpt41_score": 0.6667,
+    "claude_score": 0.6667
+  },
+  {
+    "case_id": 4952,
+    "model": "gpt-5.4-mini",
+    "condition": "healthguard",
+    "gpt41_score": 0.8636,
+    "claude_score": 0.8636
+  },
+  {
+    "case_id": 4929,
+    "model": "gpt-5.4-mini",
+    "condition": "healthguard",
+    "gpt41_score": 1.0,
+    "claude_score": 1.0
+  },
+  {
+    "case_id": 4959,
+    "model": "gpt-5.4-mini",
+    "condition": "self_refine",
+    "gpt41_score": 0.625,
+    "claude_score": 0.625
+  },
+  {
+    "case_id": 4959,
+    "model": "gpt-5.4-mini",
+    "condition": "healthguard",
+    "gpt41_score": 0.85,
+    "claude_score": 0.85
+  },
+  {
+    "case_id": 5273,
+    "model": "gpt-5.4",
+    "condition": "self_refine",
+    "gpt41_score": 0.5476,
+    "claude_score": 0.6905
+  },
+  {
+    "case_id": 4974,
+    "model": "gpt-5.4-mini",
+    "condition": "self_refine",
+    "gpt41_score": 0.6,
+    "claude_score": 0.4222
+  },
+  {
+    "case_id": 5273,
+    "model": "gpt-5.4",
+    "condition": "healthguard",
+    "gpt41_score": 0.6905,
+    "claude_score": 0.6905
+  },
+  {
+    "case_id": 4974,
+    "model": "gpt-5.4-mini",
+    "condition": "healthguard",
+    "gpt41_score": 0.4222,
+    "claude_score": 0.4222
+  },
+  {
+    "case_id": 4967,
+    "model": "gpt-5.4-mini",
+    "condition": "self_refine",
+    "gpt41_score": 0.6364,
+    "claude_score": 0.6364
+  },
+  {
+    "case_id": 4967,
+    "model": "gpt-5.4-mini",
+    "condition": "healthguard",
+    "gpt41_score": 0.6364,
+    "claude_score": 0.6364
+  },
+  {
+    "case_id": 4989,
+    "model": "gpt-5.4-mini",
+    "condition": "healthguard",
+    "gpt41_score": 0.4,
+    "claude_score": 0.6
+  },
+  {
+    "case_id": 4982,
+    "model": "gpt-5.4-mini",
+    "condition": "healthguard",
+    "gpt41_score": 0.0488,
+    "claude_score": 0.0488
+  },
+  {
+    "case_id": 4989,
+    "model": "gpt-5.4-mini",
+    "condition": "self_refine",
+    "gpt41_score": 0.4,
+    "claude_score": 0.4
+  },
+  {
+    "case_id": 5008,
+    "model": "gpt-5.4-mini",
+    "condition": "self_refine",
+    "gpt41_score": 0.525,
+    "claude_score": 0.325
+  },
+  {
+    "case_id": 5008,
+    "model": "gpt-5.4-mini",
+    "condition": "healthguard",
+    "gpt41_score": 0.525,
+    "claude_score": 0.325
+  },
+  {
+    "case_id": 4998,
+    "model": "gpt-5.4-mini",
+    "condition": "self_refine",
+    "gpt41_score": 0.6667,
+    "claude_score": -0.6111
+  },
+  {
+    "case_id": 4998,
+    "model": "gpt-5.4-mini",
+    "condition": "healthguard",
+    "gpt41_score": 0.7222,
+    "claude_score": 0.5556
+  },
+  {
+    "case_id": 5015,
+    "model": "gpt-5.4-mini",
+    "condition": "self_refine",
+    "gpt41_score": 0.7632,
+    "claude_score": 0.7632
+  },
+  {
+    "case_id": 5015,
+    "model": "gpt-5.4-mini",
+    "condition": "healthguard",
+    "gpt41_score": 1.0,
+    "claude_score": 1.0
+  },
+  {
+    "case_id": 5032,
+    "model": "gpt-5.4-mini",
+    "condition": "healthguard",
+    "gpt41_score": 0.4186,
+    "claude_score": 0.2326
+  },
+  {
+    "case_id": 4982,
+    "model": "gpt-5.4-mini",
+    "condition": "self_refine",
+    "gpt41_score": 0.0488,
+    "claude_score": 0.2439
+  },
+  {
+    "case_id": 5032,
+    "model": "gpt-5.4-mini",
+    "condition": "self_refine",
+    "gpt41_score": 0.4186,
+    "claude_score": 0.2326
+  },
+  {
+    "case_id": 5023,
+    "model": "gpt-5.4-mini",
+    "condition": "self_refine",
+    "gpt41_score": 0.3947,
+    "claude_score": 0.2368
+  },
+  {
+    "case_id": 5040,
+    "model": "gpt-5.4-mini",
+    "condition": "self_refine",
+    "gpt41_score": 0.7143,
+    "claude_score": 0.7143
+  },
+  {
+    "case_id": 5023,
+    "model": "gpt-5.4-mini",
+    "condition": "healthguard",
+    "gpt41_score": 0.3947,
+    "claude_score": 0.2368
+  },
+  {
+    "case_id": 5055,
+    "model": "gpt-5.4-mini",
+    "condition": "self_refine",
+    "gpt41_score": 0.8136,
+    "claude_score": 0.5593
+  },
+  {
+    "case_id": 5048,
+    "model": "gpt-5.4-mini",
+    "condition": "self_refine",
+    "gpt41_score": 1.0,
+    "claude_score": 1.0
+  },
+  {
+    "case_id": 5040,
+    "model": "gpt-5.4-mini",
+    "condition": "healthguard",
+    "gpt41_score": 0.7143,
+    "claude_score": 0.7143
+  },
+  {
+    "case_id": 5055,
+    "model": "gpt-5.4-mini",
+    "condition": "healthguard",
+    "gpt41_score": 0.6441,
+    "claude_score": 0.4746
+  },
+  {
+    "case_id": 5048,
+    "model": "gpt-5.4-mini",
+    "condition": "healthguard",
+    "gpt41_score": 1.0,
+    "claude_score": 1.0
+  },
+  {
+    "case_id": 5078,
+    "model": "gpt-5.4-mini",
+    "condition": "self_refine",
+    "gpt41_score": 0.5714,
+    "claude_score": 1.0
+  },
+  {
+    "case_id": 5063,
+    "model": "gpt-5.4-mini",
+    "condition": "self_refine",
+    "gpt41_score": 0.25,
+    "claude_score": 0.25
+  },
+  {
+    "case_id": 5078,
+    "model": "gpt-5.4-mini",
+    "condition": "healthguard",
+    "gpt41_score": 0.2857,
+    "claude_score": 0.2857
+  },
+  {
+    "case_id": 5063,
+    "model": "gpt-5.4-mini",
+    "condition": "healthguard",
+    "gpt41_score": 0.4167,
+    "claude_score": 0.25
+  },
+  {
+    "case_id": 5070,
+    "model": "gpt-5.4-mini",
+    "condition": "self_refine",
+    "gpt41_score": 0.4706,
+    "claude_score": 0.4706
+  },
+  {
+    "case_id": 5070,
+    "model": "gpt-5.4-mini",
+    "condition": "healthguard",
+    "gpt41_score": 0.4706,
+    "claude_score": 0.4706
+  },
+  {
+    "case_id": 5085,
+    "model": "gpt-5.4-mini",
+    "condition": "self_refine",
+    "gpt41_score": 0.6765,
+    "claude_score": 0.6765
+  },
+  {
+    "case_id": 5085,
+    "model": "gpt-5.4-mini",
+    "condition": "healthguard",
+    "gpt41_score": 0.8824,
+    "claude_score": 0.8824
+  },
+  {
+    "case_id": 5093,
+    "model": "gpt-5.4-mini",
+    "condition": "self_refine",
+    "gpt41_score": 0.8611,
+    "claude_score": 1.0
+  },
+  {
+    "case_id": 5109,
+    "model": "gpt-5.4-mini",
+    "condition": "self_refine",
+    "gpt41_score": 0.8611,
+    "claude_score": 0.6944
+  },
+  {
+    "case_id": 5093,
+    "model": "gpt-5.4-mini",
+    "condition": "healthguard",
+    "gpt41_score": 0.8611,
+    "claude_score": 0.7778
+  },
+  {
+    "case_id": 5109,
+    "model": "gpt-5.4-mini",
+    "condition": "healthguard",
+    "gpt41_score": 0.8611,
+    "claude_score": 0.6944
+  },
+  {
+    "case_id": 5101,
+    "model": "gpt-5.4-mini",
+    "condition": "healthguard",
+    "gpt41_score": 0.5556,
+    "claude_score": 0.5556
+  },
+  {
+    "case_id": 5117,
+    "model": "gpt-5.4-mini",
+    "condition": "self_refine",
+    "gpt41_score": 0.26,
+    "claude_score": 0.32
+  },
+  {
+    "case_id": 5101,
+    "model": "gpt-5.4-mini",
+    "condition": "self_refine",
+    "gpt41_score": 0.3889,
+    "claude_score": 0.3889
+  },
+  {
+    "case_id": 5124,
+    "model": "gpt-5.4-mini",
+    "condition": "healthguard",
+    "gpt41_score": 0.0,
+    "claude_score": 0.0
+  },
+  {
+    "case_id": 5124,
+    "model": "gpt-5.4-mini",
+    "condition": "self_refine",
+    "gpt41_score": 0.0,
+    "claude_score": 0.0
+  },
+  {
+    "case_id": 5133,
+    "model": "gpt-5.4-mini",
+    "condition": "self_refine",
+    "gpt41_score": 0.5455,
+    "claude_score": 0.5455
+  },
+  {
+    "case_id": 5133,
+    "model": "gpt-5.4-mini",
+    "condition": "healthguard",
+    "gpt41_score": 0.3636,
+    "claude_score": 0.4364
+  },
+  {
+    "case_id": 5140,
+    "model": "gpt-5.4-mini",
+    "condition": "self_refine",
+    "gpt41_score": 0.5357,
+    "claude_score": 0.1786
+  },
+  {
+    "case_id": 5140,
+    "model": "gpt-5.4-mini",
+    "condition": "healthguard",
+    "gpt41_score": 0.6429,
+    "claude_score": 0.6429
+  },
+  {
+    "case_id": 5156,
+    "model": "gpt-5.4-mini",
+    "condition": "self_refine",
+    "gpt41_score": 0.3939,
+    "claude_score": 0.3939
+  },
+  {
+    "case_id": 5148,
+    "model": "gpt-5.4-mini",
+    "condition": "self_refine",
+    "gpt41_score": 0.3429,
+    "claude_score": 0.1429
+  },
+  {
+    "case_id": 5148,
+    "model": "gpt-5.4-mini",
+    "condition": "healthguard",
+    "gpt41_score": 0.6286,
+    "claude_score": 0.1429
+  },
+  {
+    "case_id": 5156,
+    "model": "gpt-5.4-mini",
+    "condition": "healthguard",
+    "gpt41_score": 0.3939,
+    "claude_score": 0.3939
+  },
+  {
+    "case_id": 5163,
+    "model": "gpt-5.4-mini",
+    "condition": "self_refine",
+    "gpt41_score": 0.75,
+    "claude_score": 0.75
+  },
+  {
+    "case_id": 5163,
+    "model": "gpt-5.4-mini",
+    "condition": "healthguard",
+    "gpt41_score": 0.75,
+    "claude_score": 0.75
+  },
+  {
+    "case_id": 5171,
+    "model": "gpt-5.4-mini",
+    "condition": "self_refine",
+    "gpt41_score": 0.5,
+    "claude_score": 0.5
+  },
+  {
+    "case_id": 5171,
+    "model": "gpt-5.4-mini",
+    "condition": "healthguard",
+    "gpt41_score": 0.5,
+    "claude_score": 0.5
+  },
+  {
+    "case_id": 5186,
+    "model": "gpt-5.4-mini",
+    "condition": "self_refine",
+    "gpt41_score": 0.25,
+    "claude_score": 0.6667
+  },
+  {
+    "case_id": 5178,
+    "model": "gpt-5.4-mini",
+    "condition": "self_refine",
+    "gpt41_score": 1.0,
+    "claude_score": 0.8889
+  },
+  {
+    "case_id": 5186,
+    "model": "gpt-5.4-mini",
+    "condition": "healthguard",
+    "gpt41_score": 0.6667,
+    "claude_score": 0.6667
+  },
+  {
+    "case_id": 5178,
+    "model": "gpt-5.4-mini",
+    "condition": "healthguard",
+    "gpt41_score": 1.0,
+    "claude_score": 0.8889
+  },
+  {
+    "case_id": 5196,
+    "model": "gpt-5.4-mini",
+    "condition": "self_refine",
+    "gpt41_score": 0.0882,
+    "claude_score": 0.0882
+  },
+  {
+    "case_id": 5117,
+    "model": "gpt-5.4-mini",
+    "condition": "healthguard",
+    "gpt41_score": 0.32,
+    "claude_score": 0.32
+  },
+  {
+    "case_id": 5196,
+    "model": "gpt-5.4-mini",
+    "condition": "healthguard",
+    "gpt41_score": 0.0882,
+    "claude_score": 0.0882
+  },
+  {
+    "case_id": 5204,
+    "model": "gpt-5.4-mini",
+    "condition": "self_refine",
+    "gpt41_score": 0.6222,
+    "claude_score": 0.6222
+  },
+  {
+    "case_id": 5204,
+    "model": "gpt-5.4-mini",
+    "condition": "healthguard",
+    "gpt41_score": 0.8444,
+    "claude_score": 0.8444
+  },
+  {
+    "case_id": 5243,
+    "model": "gpt-5.4-mini",
+    "condition": "self_refine",
+    "gpt41_score": 1.0,
+    "claude_score": 1.0
+  },
+  {
+    "case_id": 5243,
+    "model": "gpt-5.4-mini",
+    "condition": "healthguard",
+    "gpt41_score": 1.0,
+    "claude_score": 1.0
+  },
+  {
+    "case_id": 5235,
+    "model": "gpt-5.4-mini",
+    "condition": "healthguard",
+    "gpt41_score": 1.0,
+    "claude_score": 1.0
+  },
+  {
+    "case_id": 5212,
+    "model": "gpt-5.4-mini",
+    "condition": "healthguard",
+    "gpt41_score": 1.0,
+    "claude_score": 1.0
+  },
+  {
+    "case_id": 5212,
+    "model": "gpt-5.4-mini",
+    "condition": "self_refine",
+    "gpt41_score": 0.2979,
+    "claude_score": 0.2979
+  },
+  {
+    "case_id": 5235,
+    "model": "gpt-5.4-mini",
+    "condition": "self_refine",
+    "gpt41_score": 1.0,
+    "claude_score": 1.0
+  },
+  {
+    "case_id": 5220,
+    "model": "gpt-5.4-mini",
+    "condition": "self_refine",
+    "gpt41_score": 0.6389,
+    "claude_score": 0.6389
+  },
+  {
+    "case_id": 5251,
+    "model": "gpt-5.4-mini",
+    "condition": "self_refine",
+    "gpt41_score": 0.907,
+    "claude_score": 0.907
+  },
+  {
+    "case_id": 5251,
+    "model": "gpt-5.4-mini",
+    "condition": "healthguard",
+    "gpt41_score": 0.907,
+    "claude_score": 0.907
+  },
+  {
+    "case_id": 5228,
+    "model": "gpt-5.4-mini",
+    "condition": "self_refine",
+    "gpt41_score": 0.68,
+    "claude_score": 0.68
+  },
+  {
+    "case_id": 5228,
+    "model": "gpt-5.4-mini",
+    "condition": "healthguard",
+    "gpt41_score": 0.68,
+    "claude_score": 0.68
+  },
+  {
+    "case_id": 5220,
+    "model": "gpt-5.4-mini",
+    "condition": "healthguard",
+    "gpt41_score": 0.8333,
+    "claude_score": 0.6389
+  },
+  {
+    "case_id": 5281,
+    "model": "gpt-5.4-mini",
+    "condition": "self_refine",
+    "gpt41_score": 0.5484,
+    "claude_score": 0.5484
+  },
+  {
+    "case_id": 5281,
+    "model": "gpt-5.4-mini",
+    "condition": "healthguard",
+    "gpt41_score": 0.7419,
+    "claude_score": 0.7419
+  },
+  {
+    "case_id": 5258,
+    "model": "gpt-5.4-mini",
+    "condition": "healthguard",
+    "gpt41_score": 0.5385,
+    "claude_score": 0.5385
+  },
+  {
+    "case_id": 5258,
+    "model": "gpt-5.4-mini",
+    "condition": "self_refine",
+    "gpt41_score": 0.5385,
+    "claude_score": 0.4103
+  },
+  {
+    "case_id": 5273,
+    "model": "gpt-5.4-mini",
+    "condition": "healthguard",
+    "gpt41_score": 0.4286,
+    "claude_score": 0.4286
+  },
+  {
+    "case_id": 5273,
+    "model": "gpt-5.4-mini",
+    "condition": "self_refine",
+    "gpt41_score": 0.4286,
+    "claude_score": 0.4286
+  },
+  {
+    "case_id": 5266,
+    "model": "gpt-5.4-mini",
+    "condition": "self_refine",
+    "gpt41_score": 0.0926,
+    "claude_score": 0.2407
+  },
+  {
+    "case_id": 5266,
+    "model": "gpt-5.4-mini",
+    "condition": "healthguard",
+    "gpt41_score": 0.0926,
+    "claude_score": 0.1852
+  }
+]

@@ -1,0 +1,20 @@
+{
+  "n_correct": 90,
+  "n_wrong": 62,
+  "auc_by_signal": {
+    "agreement": 0.686,
+    "coverage": 0.63,
+    "blind": 0.542,
+    "plausibility": 0.725
+  },
+  "confident_subset": {
+    "threshold": 0.75,
+    "n": 96,
+    "n_wrong_confident": 26,
+    "auc": {
+      "coverage": 0.64,
+      "blind": 0.5,
+      "plausibility": 0.636
+    }
+  }
+}

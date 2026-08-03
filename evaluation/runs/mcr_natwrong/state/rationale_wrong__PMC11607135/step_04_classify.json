@@ -1,0 +1,410 @@
+{
+  "name": "classify",
+  "passed": true,
+  "score": 1.0,
+  "reasoning": "Classified 80 statement(s): 19 causal, 53 factual, 1 recommendation, 7 statistical.",
+  "data": {
+    "classified": [
+      {
+        "text": "The chief complaint is gradual-onset abdominal pain with non-bilious vomiting over 2 days in a 3-year-old girl.",
+        "category": "factual",
+        "rationale": "This is a direct clinical description of the patient's presenting symptoms and demographics."
+      },
+      {
+        "text": "The patient’s immediate clinical problem is an upper gastrointestinal/duodenal obstructive-type presentation rather than systemic illness.",
+        "category": "causal",
+        "rationale": "It links the symptom pattern to a presumed obstructive mechanism rather than simply stating a finding."
+      },
+      {
+        "text": "The patient is irritable but active.",
+        "category": "factual",
+        "rationale": "This describes the patient's observed clinical state."
+      },
+      {
+        "text": "The patient is afebrile.",
+        "category": "factual",
+        "rationale": "This is a direct statement about the patient's temperature status."
+      },
+      {
+        "text": "The patient is hemodynamically stable.",
+        "category": "factual",
+        "rationale": "This states a measurable clinical condition of stability."
+      },
+      {
+        "text": "The patient has a soft, non-tender abdomen with normal bowel sounds.",
+        "category": "factual",
+        "rationale": "This is a physical exam finding."
+      },
+      {
+        "text": "Salient positive findings include abdominal pain and non-bilious vomiting.",
+        "category": "factual",
+        "rationale": "This lists observed positive symptoms."
+      },
+      {
+        "text": "Salient positive findings include severe anemia with hemoglobin 7.3 g/dL.",
+        "category": "statistical",
+        "rationale": "It includes a specific numeric laboratory value."
+      },
+      {
+        "text": "Salient positive findings include mild leukocytosis of 16.1×10^9/L.",
+        "category": "statistical",
+        "rationale": "It reports a specific numeric lab result."
+      },
+      {
+        "text": "Salient positive findings include elevated AST of 337 U/L.",
+        "category": "statistical",
+        "rationale": "It reports a specific numeric laboratory value."
+      },
+      {
+        "text": "Salient positive findings include elevated CRP of 43 U/L.",
+        "category": "statistical",
+        "rationale": "It reports a specific numeric laboratory value."
+      },
+      {
+        "text": "Imaging evidence is the most important salient positive finding.",
+        "category": "factual",
+        "rationale": "This is an evaluative statement about which finding is most important."
+      },
+      {
+        "text": "Ultrasound excluded intussusception.",
+        "category": "factual",
+        "rationale": "This states an imaging result."
+      },
+      {
+        "text": "Ultrasound showed a rounded hypo- to isoechoic lobulated avascular area near the porta hepatis/pancreatic head.",
+        "category": "factual",
+        "rationale": "This describes a specific imaging finding."
+      },
+      {
+        "text": "Contrast CT demonstrated a large intramural/submucosal duodenal hematoma extending along the duodenum.",
+        "category": "factual",
+        "rationale": "This states a definitive CT finding."
+      },
+      {
+        "text": "The duodenal hematoma caused luminal narrowing.",
+        "category": "causal",
+        "rationale": "It describes a cause-and-effect relationship between the hematoma and narrowing."
+      },
+      {
+        "text": "The imaging finding directly explains the vomiting and abdominal pain.",
+        "category": "causal",
+        "rationale": "It asserts that the imaging abnormality causes the symptoms."
+      },
+      {
+        "text": "There was no fever.",
+        "category": "factual",
+        "rationale": "This is a direct negative clinical finding."
+      },
+      {
+        "text": "There was no diarrhea.",
+        "category": "factual",
+        "rationale": "This is a direct negative clinical finding."
+      },
+      {
+        "text": "There was no dysuria.",
+        "category": "factual",
+        "rationale": "This is a direct negative clinical finding."
+      },
+      {
+        "text": "There was no trauma.",
+        "category": "factual",
+        "rationale": "This is a direct negative history finding."
+      },
+      {
+        "text": "There were no prior similar episodes.",
+        "category": "factual",
+        "rationale": "This states a historical absence of prior episodes."
+      },
+      {
+        "text": "The abdomen was not tender.",
+        "category": "factual",
+        "rationale": "This is a physical exam finding."
+      },
+      {
+        "text": "The abdomen was not distended.",
+        "category": "factual",
+        "rationale": "This is a physical exam finding."
+      },
+      {
+        "text": "The abdomen showed no overt signs of bowel obstruction.",
+        "category": "factual",
+        "rationale": "This states an exam-based clinical finding."
+      },
+      {
+        "text": "Coagulation screening was normal.",
+        "category": "factual",
+        "rationale": "This reports a laboratory assessment result."
+      },
+      {
+        "text": "The prothrombin time was 12.7 s.",
+        "category": "statistical",
+        "rationale": "It gives a specific numeric lab value."
+      },
+      {
+        "text": "The activated partial thromboplastin time was 27 s.",
+        "category": "statistical",
+        "rationale": "It gives a specific numeric lab value."
+      },
+      {
+        "text": "The bleeding time was 2 min.",
+        "category": "statistical",
+        "rationale": "It gives a specific numeric lab value."
+      },
+      {
+        "text": "Platelets were at the lower end of normal rather than frankly low.",
+        "category": "factual",
+        "rationale": "This describes the platelet status qualitatively."
+      },
+      {
+        "text": "Family history was negative for bleeding disorders or GI disease.",
+        "category": "factual",
+        "rationale": "This is a historical negative finding."
+      },
+      {
+        "text": "These findings make infectious gastroenteritis less likely as a primary explanation.",
+        "category": "causal",
+        "rationale": "It infers a differential diagnosis relationship from the findings."
+      },
+      {
+        "text": "These findings make urinary infection less likely as a primary explanation.",
+        "category": "causal",
+        "rationale": "It links the findings to reduced likelihood of a diagnosis."
+      },
+      {
+        "text": "These findings make traumatic injury less likely as a primary explanation.",
+        "category": "causal",
+        "rationale": "It links the findings to reduced likelihood of a diagnosis."
+      },
+      {
+        "text": "These findings make common coagulopathies less likely as a primary explanation.",
+        "category": "causal",
+        "rationale": "It links the findings to reduced likelihood of a diagnosis."
+      },
+      {
+        "text": "Intramural duodenal hematoma fits best.",
+        "category": "factual",
+        "rationale": "This states the favored diagnosis."
+      },
+      {
+        "text": "CT explicitly shows a large intramural/submucosal duodenal hematoma with luminal narrowing.",
+        "category": "factual",
+        "rationale": "This restates a specific imaging diagnosis."
+      },
+      {
+        "text": "The symptoms of abdominal pain plus non-bilious vomiting are classic for proximal bowel narrowing or obstruction.",
+        "category": "causal",
+        "rationale": "It relates symptoms to an underlying obstructive mechanism."
+      },
+      {
+        "text": "Intussusception was a reasonable early consideration in a young child with abdominal pain and vomiting.",
+        "category": "factual",
+        "rationale": "This describes a diagnostic consideration based on the presentation."
+      },
+      {
+        "text": "Ultrasound showed no intussusception.",
+        "category": "factual",
+        "rationale": "This is an imaging result."
+      },
+      {
+        "text": "The abdomen lacked typical episodic severe pain.",
+        "category": "factual",
+        "rationale": "This states an absent clinical feature."
+      },
+      {
+        "text": "The abdomen lacked bloody stool.",
+        "category": "factual",
+        "rationale": "This states an absent clinical feature."
+      },
+      {
+        "text": "A pancreatic or periportal mass/cystic lesion could be considered from the ultrasound description of an avascular lobulated area near the pancreatic head/porta hepatis.",
+        "category": "causal",
+        "rationale": "It explains why the ultrasound appearance could suggest a mass-like lesion."
+      },
+      {
+        "text": "CT clarified that the ultrasound finding represented duodenal wall hematoma rather than a solid or cystic mass.",
+        "category": "factual",
+        "rationale": "This states the interpretive imaging conclusion."
+      },
+      {
+        "text": "Infectious gastroenteritis is less likely because there is no fever.",
+        "category": "causal",
+        "rationale": "It gives a reasoned relationship between absent fever and lower likelihood of gastroenteritis."
+      },
+      {
+        "text": "Infectious gastroenteritis is less likely because there is no diarrhea.",
+        "category": "causal",
+        "rationale": "It gives a reasoned relationship between absent diarrhea and lower likelihood of gastroenteritis."
+      },
+      {
+        "text": "Imaging identifies a structural lesion causing symptoms.",
+        "category": "causal",
+        "rationale": "It asserts a causal relationship between the lesion and symptoms."
+      },
+      {
+        "text": "Nonaccidental or accidental traumatic duodenal hematoma is a known cause of duodenal hematoma in children.",
+        "category": "factual",
+        "rationale": "This is a general clinical fact about etiology."
+      },
+      {
+        "text": "The history specifically reports no trauma.",
+        "category": "factual",
+        "rationale": "This is a direct historical statement."
+      },
+      {
+        "text": "Occult trauma cannot be fully excluded from the summary alone.",
+        "category": "factual",
+        "rationale": "This states a limitation of the available history."
+      },
+      {
+        "text": "The diagnosis to commit to is the lesion itself rather than an unproven etiology.",
+        "category": "recommendation",
+        "rationale": "It advises what diagnostic conclusion should be adopted."
+      },
+      {
+        "text": "Underlying bleeding disorder is a possible cause of spontaneous duodenal hematoma.",
+        "category": "causal",
+        "rationale": "It states a possible etiologic relationship."
+      },
+      {
+        "text": "Severe anemia is present.",
+        "category": "factual",
+        "rationale": "This is a direct clinical/laboratory finding."
+      },
+      {
+        "text": "Factor XIII and von Willebrand testing were pending.",
+        "category": "factual",
+        "rationale": "This states the status of ordered tests."
+      },
+      {
+        "text": "Routine coagulation studies are normal.",
+        "category": "factual",
+        "rationale": "This reports a laboratory finding."
+      },
+      {
+        "text": "No bleeding history is provided.",
+        "category": "factual",
+        "rationale": "This states the absence of reported history in the summary."
+      },
+      {
+        "text": "The case data support the presence of a duodenal hematoma more strongly than any specific hemostatic disorder.",
+        "category": "causal",
+        "rationale": "It compares evidence strength and implies the data favor one explanation over another."
+      },
+      {
+        "text": "The decisive evidence is the contrast-enhanced CT scan showing a large intramural/submucosal duodenal hematoma along the entire duodenum causing luminal narrowing.",
+        "category": "factual",
+        "rationale": "This states the key imaging evidence."
+      },
+      {
+        "text": "This finding directly accounts for the child’s symptoms.",
+        "category": "causal",
+        "rationale": "It asserts that the imaging finding causes the symptoms."
+      },
+      {
+        "text": "This finding supersedes less specific differentials raised by the initial presentation.",
+        "category": "causal",
+        "rationale": "It describes how the finding changes the diagnostic interpretation."
+      },
+      {
+        "text": "The most likely diagnosis is intramural duodenal hematoma.",
+        "category": "factual",
+        "rationale": "This states the leading diagnosis."
+      },
+      {
+        "text": "Intramural duodenal hematoma is the high-probability differential.",
+        "category": "factual",
+        "rationale": "This states a diagnostic likelihood."
+      },
+      {
+        "text": "The CT abdomen demonstrated a large intramural/submucosal duodenal hematoma along the entire duodenum with luminal narrowing.",
+        "category": "factual",
+        "rationale": "This is a direct imaging result."
+      },
+      {
+        "text": "The hematoma explains abdominal pain and non-bilious vomiting.",
+        "category": "causal",
+        "rationale": "It links the hematoma to the symptoms."
+      },
+      {
+        "text": "Intussusception is a low-probability differential.",
+        "category": "factual",
+        "rationale": "This states a diagnostic likelihood."
+      },
+      {
+        "text": "The patient is a young child with abdominal pain and vomiting.",
+        "category": "factual",
+        "rationale": "This is a direct description of the presentation."
+      },
+      {
+        "text": "Ultrasound specifically showed no intussusception.",
+        "category": "factual",
+        "rationale": "This is an imaging result."
+      },
+      {
+        "text": "Imaging identified an alternative lesion.",
+        "category": "factual",
+        "rationale": "This states an imaging-based conclusion."
+      },
+      {
+        "text": "Pancreatic/periportal mass lesion is a low-probability differential.",
+        "category": "factual",
+        "rationale": "This states a diagnostic likelihood."
+      },
+      {
+        "text": "Ultrasound showed an avascular lobulated area adjacent to the porta hepatis and pancreatic head.",
+        "category": "factual",
+        "rationale": "This describes a specific imaging finding."
+      },
+      {
+        "text": "CT clarified that this was duodenal wall hematoma rather than a true mass.",
+        "category": "factual",
+        "rationale": "This states the imaging interpretation."
+      },
+      {
+        "text": "Infectious gastroenteritis is a low-probability differential.",
+        "category": "factual",
+        "rationale": "This states a diagnostic likelihood."
+      },
+      {
+        "text": "Vomiting and abdominal pain could suggest gastroenteritis.",
+        "category": "causal",
+        "rationale": "It links symptoms to a possible diagnosis."
+      },
+      {
+        "text": "There was no fever or diarrhea.",
+        "category": "factual",
+        "rationale": "This is a direct negative clinical finding."
+      },
+      {
+        "text": "CT showed a structural obstructive cause.",
+        "category": "factual",
+        "rationale": "This states an imaging-based structural finding."
+      },
+      {
+        "text": "Bleeding diathesis causing spontaneous gastrointestinal hematoma is a medium-probability differential.",
+        "category": "factual",
+        "rationale": "This states a diagnostic likelihood."
+      },
+      {
+        "text": "Spontaneous hematoma in a child without trauma raises concern for an underlying bleeding disorder.",
+        "category": "causal",
+        "rationale": "It explains why the history suggests a bleeding disorder."
+      },
+      {
+        "text": "Factor XIII and von Willebrand testing were pending.",
+        "category": "factual",
+        "rationale": "This states the status of pending tests."
+      },
+      {
+        "text": "PT, aPTT, and bleeding time were normal.",
+        "category": "factual",
+        "rationale": "This reports laboratory results."
+      },
+      {
+        "text": "The final diagnosis is intramural duodenal hematoma.",
+        "category": "factual",
+        "rationale": "This states the final diagnosis directly."
+      }
+    ]
+  }
+}

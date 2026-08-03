@@ -1,0 +1,355 @@
+{
+  "name": "classify",
+  "passed": true,
+  "score": 1.0,
+  "reasoning": "Classified 69 statement(s): 30 causal, 39 factual.",
+  "data": {
+    "classified": [
+      {
+        "text": "The chief complaint is a 2-month history of sore throat, cough, hoarseness, and marked 10-kg weight loss.",
+        "category": "factual",
+        "rationale": "It states observed patient history and symptoms."
+      },
+      {
+        "text": "The patient’s main concern is an upper aerodigestive/laryngeal process causing persistent throat symptoms plus systemic weight loss.",
+        "category": "causal",
+        "rationale": "It proposes a relationship between a process and the symptoms it is causing."
+      },
+      {
+        "text": "The patient has chronic immunosuppression from prednisone 15 mg/day for 5 years.",
+        "category": "factual",
+        "rationale": "It asserts a patient attribute and medication exposure."
+      },
+      {
+        "text": "The patient is also taking hydroxychloroquine.",
+        "category": "factual",
+        "rationale": "It states a medication the patient is taking."
+      },
+      {
+        "text": "The patient has stage II pulmonary sarcoidosis.",
+        "category": "factual",
+        "rationale": "It asserts a diagnosed condition."
+      },
+      {
+        "text": "Laryngoscopy showed multifocal supraglottic mucosal disease.",
+        "category": "factual",
+        "rationale": "It reports an endoscopic finding."
+      },
+      {
+        "text": "Laryngoscopy showed a centimetric polylobulated lesion on the free border of the epiglottis.",
+        "category": "factual",
+        "rationale": "It reports a specific observed lesion."
+      },
+      {
+        "text": "Laryngoscopy showed additional tiny lesions on the laryngeal surface of the epiglottis.",
+        "category": "factual",
+        "rationale": "It reports additional observed lesions."
+      },
+      {
+        "text": "Laryngoscopy showed a small ulcerated area on the right arytenoid mucosa.",
+        "category": "factual",
+        "rationale": "It reports a specific observed mucosal abnormality."
+      },
+      {
+        "text": "Vocal-fold and arytenoid motility are preserved.",
+        "category": "factual",
+        "rationale": "It states an exam finding about mobility."
+      },
+      {
+        "text": "The neck exam is normal.",
+        "category": "factual",
+        "rationale": "It states a physical exam finding."
+      },
+      {
+        "text": "The preserved vocal-fold and arytenoid motility and normal neck exam argue against bulky invasive laryngeal cancer with regional spread.",
+        "category": "causal",
+        "rationale": "It infers a diagnostic implication from the exam findings."
+      },
+      {
+        "text": "MRI showed only a small low-enhanced epiglottic lesion.",
+        "category": "factual",
+        "rationale": "It reports an imaging finding."
+      },
+      {
+        "text": "MRI showed no other laryngeal enhancement.",
+        "category": "factual",
+        "rationale": "It reports an imaging finding."
+      },
+      {
+        "text": "The MRI findings suggest superficial mucosal rather than deeply infiltrative disease.",
+        "category": "causal",
+        "rationale": "It interprets imaging findings as indicating a disease pattern."
+      },
+      {
+        "text": "PET-CT showed multiple ground-glass lung masses.",
+        "category": "factual",
+        "rationale": "It reports an imaging finding."
+      },
+      {
+        "text": "PET-CT showed bilateral nodules increased from prior imaging.",
+        "category": "factual",
+        "rationale": "It reports an imaging comparison finding."
+      },
+      {
+        "text": "The PET-CT findings indicate active pulmonary pathology beyond a stable baseline sarcoidosis pattern.",
+        "category": "causal",
+        "rationale": "It interprets the imaging as implying active disease rather than baseline sarcoidosis."
+      },
+      {
+        "text": "The CBC is normal.",
+        "category": "factual",
+        "rationale": "It states a laboratory result."
+      },
+      {
+        "text": "The metabolic panel is normal.",
+        "category": "factual",
+        "rationale": "It states a laboratory result."
+      },
+      {
+        "text": "There are no neck masses.",
+        "category": "factual",
+        "rationale": "It states a negative physical finding."
+      },
+      {
+        "text": "There is no impaired laryngeal mobility.",
+        "category": "factual",
+        "rationale": "It states a negative mobility finding."
+      },
+      {
+        "text": "The patient is a never-smoker.",
+        "category": "factual",
+        "rationale": "It states a patient history attribute."
+      },
+      {
+        "text": "Never-smoking lowers but does not eliminate the likelihood of primary laryngeal squamous cell carcinoma.",
+        "category": "causal",
+        "rationale": "It describes how smoking status affects disease likelihood."
+      },
+      {
+        "text": "The absence of a neck mass and preserved mobility make advanced laryngeal malignancy less likely.",
+        "category": "causal",
+        "rationale": "It links exam findings to reduced likelihood of advanced malignancy."
+      },
+      {
+        "text": "Normal routine labs do not strongly support a severe bacterial infection or hematologic malignancy.",
+        "category": "causal",
+        "rationale": "It interprets normal labs as arguing against certain diagnoses."
+      },
+      {
+        "text": "The lesions are multifocal.",
+        "category": "factual",
+        "rationale": "It states a descriptive lesion characteristic."
+      },
+      {
+        "text": "The lesions include ulceration.",
+        "category": "factual",
+        "rationale": "It states a descriptive lesion characteristic."
+      },
+      {
+        "text": "The multifocal lesions and ulceration broaden consideration to inflammatory, granulomatous, infectious, and neoplastic causes.",
+        "category": "causal",
+        "rationale": "It links lesion features to a broader differential diagnosis."
+      },
+      {
+        "text": "The first major differential is laryngeal carcinoma.",
+        "category": "factual",
+        "rationale": "It states a differential diagnosis being considered."
+      },
+      {
+        "text": "Hoarseness, sore throat, weight loss, and an epiglottic lesion are compatible with supraglottic cancer.",
+        "category": "causal",
+        "rationale": "It relates symptoms and lesion location to compatibility with cancer."
+      },
+      {
+        "text": "Prior breast cancer raises concern for malignancy in general.",
+        "category": "causal",
+        "rationale": "It links cancer history to increased concern for malignancy."
+      },
+      {
+        "text": "She is a never-smoker.",
+        "category": "factual",
+        "rationale": "It states a patient history attribute."
+      },
+      {
+        "text": "The neck exam is normal.",
+        "category": "factual",
+        "rationale": "It states a physical exam finding."
+      },
+      {
+        "text": "Vocal-fold and arytenoid motility is preserved.",
+        "category": "factual",
+        "rationale": "It states a mobility finding."
+      },
+      {
+        "text": "MRI shows only a small low-enhanced lesion without broader infiltrative enhancement.",
+        "category": "factual",
+        "rationale": "It reports imaging findings."
+      },
+      {
+        "text": "The laryngoscopic pattern is multifocal with tiny additional lesions and ulceration rather than a single dominant invasive mass.",
+        "category": "causal",
+        "rationale": "It compares the observed pattern to an invasive mass pattern."
+      },
+      {
+        "text": "Pulmonary PET-CT findings of multiple ground-glass masses and bilateral nodules are not the classic pattern for primary laryngeal cancer metastasis.",
+        "category": "causal",
+        "rationale": "It interprets imaging as not fitting a typical metastasis pattern."
+      },
+      {
+        "text": "The second differential is laryngeal sarcoidosis.",
+        "category": "factual",
+        "rationale": "It states another differential diagnosis."
+      },
+      {
+        "text": "She has known pulmonary sarcoidosis.",
+        "category": "factual",
+        "rationale": "It states a known diagnosis."
+      },
+      {
+        "text": "Sarcoidosis can involve the supraglottis, especially the epiglottis.",
+        "category": "causal",
+        "rationale": "It describes a disease involvement relationship."
+      },
+      {
+        "text": "Sarcoidosis could explain epiglottic lesions and hoarseness.",
+        "category": "causal",
+        "rationale": "It proposes sarcoidosis as a cause of the symptoms and lesions."
+      },
+      {
+        "text": "She has been on long-term prednisone and hydroxychloroquine.",
+        "category": "factual",
+        "rationale": "It states medication exposure history."
+      },
+      {
+        "text": "Long-term prednisone and hydroxychloroquine would usually suppress sarcoid activity.",
+        "category": "causal",
+        "rationale": "It describes the expected effect of treatment on sarcoid activity."
+      },
+      {
+        "text": "The lesion description includes ulceration and multifocal mucosal lesions.",
+        "category": "factual",
+        "rationale": "It states observed lesion characteristics."
+      },
+      {
+        "text": "Ulceration and multifocal mucosal lesions are less typical than diffuse edematous supraglottic swelling.",
+        "category": "causal",
+        "rationale": "It compares lesion morphology to a typical sarcoid pattern."
+      },
+      {
+        "text": "The concurrent worsening pulmonary imaging with ground-glass masses and nodules in an immunosuppressed patient raises concern for opportunistic infection rather than simple sarcoid progression.",
+        "category": "causal",
+        "rationale": "It links imaging plus immunosuppression to a diagnostic concern."
+      },
+      {
+        "text": "The third differential is laryngeal tuberculosis or another granulomatous infection.",
+        "category": "factual",
+        "rationale": "It states a differential diagnosis being considered."
+      },
+      {
+        "text": "Weight loss, cough, laryngeal ulcerative lesions, and pulmonary abnormalities could fit TB.",
+        "category": "causal",
+        "rationale": "It relates the symptom and imaging pattern to TB compatibility."
+      },
+      {
+        "text": "The pulmonary imaging described as multiple ground-glass masses and bilateral nodules is not specifically classic for TB.",
+        "category": "causal",
+        "rationale": "It interprets the imaging pattern as not classic for TB."
+      },
+      {
+        "text": "There is no mention of fever, night sweats, hemoptysis, or epidemiologic risk factors.",
+        "category": "factual",
+        "rationale": "It states the absence of reported associated features."
+      },
+      {
+        "text": "TB remains plausible but not the best fit from the provided data.",
+        "category": "causal",
+        "rationale": "It gives a comparative diagnostic assessment based on the data."
+      },
+      {
+        "text": "A fourth and stronger differential is laryngeal fungal infection, particularly cryptococcosis.",
+        "category": "factual",
+        "rationale": "It states a differential diagnosis and relative strength."
+      },
+      {
+        "text": "Chronic corticosteroid use is a major risk factor for opportunistic fungal infection.",
+        "category": "causal",
+        "rationale": "It links steroid use to increased fungal infection risk."
+      },
+      {
+        "text": "Laryngeal cryptococcosis can present with sore throat and hoarseness.",
+        "category": "causal",
+        "rationale": "It describes symptom compatibility with the infection."
+      },
+      {
+        "text": "Laryngeal cryptococcosis often mimics laryngeal cancer on endoscopy with polypoid or ulcerative supraglottic lesions.",
+        "category": "causal",
+        "rationale": "It describes a known mimicry relationship and endoscopic pattern."
+      },
+      {
+        "text": "Pulmonary cryptococcosis can produce nodules or mass-like/ground-glass lesions.",
+        "category": "causal",
+        "rationale": "It describes the pulmonary imaging manifestations of cryptococcosis."
+      },
+      {
+        "text": "The pulmonary cryptococcosis pattern fits the PET-CT description of multiple ground-glass lung masses and bilateral nodules.",
+        "category": "causal",
+        "rationale": "It matches the imaging findings to cryptococcal disease."
+      },
+      {
+        "text": "The multifocal superficial laryngeal lesions, low-enhancement small lesion on MRI, normal neck exam, and preserved laryngeal mobility all favor an infectious mucosal process over invasive cancer.",
+        "category": "causal",
+        "rationale": "It synthesizes findings into a diagnostic inference."
+      },
+      {
+        "text": "In an immunosuppressed patient with worsening pulmonary lesions and laryngeal involvement, disseminated or concomitant pulmonary-laryngeal cryptococcosis is the most coherent explanation.",
+        "category": "causal",
+        "rationale": "It proposes a unifying causal explanation for the findings."
+      },
+      {
+        "text": "The combination of long-term prednisone exposure, multifocal supraglottic polylobulated/ulcerative lesions, constitutional weight loss, cough, and worsening pulmonary nodular/ground-glass lesions most strongly supports laryngeal cryptococcosis with pulmonary involvement rather than malignancy or sarcoid flare.",
+        "category": "causal",
+        "rationale": "It argues that the combined findings support one diagnosis over alternatives."
+      },
+      {
+        "text": "Among fungal causes, cryptococcosis is especially known to mimic laryngeal carcinoma.",
+        "category": "causal",
+        "rationale": "It states a relationship between cryptococcosis and cancer mimicry."
+      },
+      {
+        "text": "Among fungal causes, cryptococcosis is especially known to occur in steroid-treated patients.",
+        "category": "causal",
+        "rationale": "It links steroid treatment to cryptococcosis risk."
+      },
+      {
+        "text": "The single most likely diagnosis is laryngeal cryptococcosis.",
+        "category": "factual",
+        "rationale": "It states a diagnostic conclusion."
+      },
+      {
+        "text": "Laryngeal cryptococcosis is a high-probability differential diagnosis.",
+        "category": "factual",
+        "rationale": "It states the probability level of a differential diagnosis."
+      },
+      {
+        "text": "Supraglottic laryngeal squamous cell carcinoma is a medium-probability differential diagnosis.",
+        "category": "factual",
+        "rationale": "It states the probability level of a differential diagnosis."
+      },
+      {
+        "text": "Laryngeal sarcoidosis is a medium-probability differential diagnosis.",
+        "category": "factual",
+        "rationale": "It states the probability level of a differential diagnosis."
+      },
+      {
+        "text": "Laryngeal tuberculosis is a low-probability differential diagnosis.",
+        "category": "factual",
+        "rationale": "It states the probability level of a differential diagnosis."
+      },
+      {
+        "text": "The final diagnosis is laryngeal cryptococcosis.",
+        "category": "factual",
+        "rationale": "It states the final diagnosis."
+      }
+    ]
+  }
+}

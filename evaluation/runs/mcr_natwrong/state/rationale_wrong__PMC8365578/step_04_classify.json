@@ -1,0 +1,455 @@
+{
+  "name": "classify",
+  "passed": true,
+  "score": 1.0,
+  "reasoning": "Classified 89 statement(s): 40 causal, 47 factual, 2 statistical.",
+  "data": {
+    "classified": [
+      {
+        "text": "The chief concern is a systemic febrile illness with neurologic and ocular involvement in an immunomodulated 30-year-old man.",
+        "category": "factual",
+        "rationale": "It states a clinical description of the patient's presentation and immune status."
+      },
+      {
+        "text": "The patient has had two weeks of intermittent fevers and headaches.",
+        "category": "factual",
+        "rationale": "It asserts reported symptoms over a time period."
+      },
+      {
+        "text": "The patient has had chronic 10-lb weight loss over 9 months.",
+        "category": "statistical",
+        "rationale": "It contains a specific numerical weight-loss claim and duration."
+      },
+      {
+        "text": "After travel to Mexico, the patient progressed to persistent fever, worsening headache, left facial paresis, and loss of taste.",
+        "category": "factual",
+        "rationale": "It describes a sequence of clinical events and symptoms after travel."
+      },
+      {
+        "text": "Ophthalmically, the patient has bilateral multifocal choroidal infiltrates.",
+        "category": "factual",
+        "rationale": "It reports an observed ocular finding."
+      },
+      {
+        "text": "The choroidal infiltrates are described as dozens of small round creamy yellow-white lesions in both fundi.",
+        "category": "statistical",
+        "rationale": "It includes a quantified description using 'dozens' and lesion characteristics."
+      },
+      {
+        "text": "The patient has reduced vision in the left eye.",
+        "category": "factual",
+        "rationale": "It states a patient symptom/attribute."
+      },
+      {
+        "text": "The patient has no vitritis.",
+        "category": "factual",
+        "rationale": "It asserts absence of a clinical finding."
+      },
+      {
+        "text": "The patient has no vasculitis.",
+        "category": "factual",
+        "rationale": "It asserts absence of a clinical finding."
+      },
+      {
+        "text": "The patient has no optic nerve edema.",
+        "category": "factual",
+        "rationale": "It asserts absence of a clinical finding."
+      },
+      {
+        "text": "The patient has no anterior chamber inflammation.",
+        "category": "factual",
+        "rationale": "It asserts absence of a clinical finding."
+      },
+      {
+        "text": "This pattern strongly suggests a hematogenous disseminated choroiditis rather than primary retinal vasculitis or anterior uveitis.",
+        "category": "causal",
+        "rationale": "It infers a diagnostic relationship from the observed pattern to a likely mechanism."
+      },
+      {
+        "text": "The patient has long-term adalimumab use for psoriatic arthritis.",
+        "category": "factual",
+        "rationale": "It states a medication history and underlying condition."
+      },
+      {
+        "text": "Long-term adalimumab use increases the risk of granulomatous and opportunistic infections.",
+        "category": "causal",
+        "rationale": "It describes a risk relationship between treatment exposure and infection."
+      },
+      {
+        "text": "The patient recently traveled to Mexico.",
+        "category": "factual",
+        "rationale": "It states a travel exposure."
+      },
+      {
+        "text": "Mexico is an endemic area for coccidioidomycosis.",
+        "category": "factual",
+        "rationale": "It is a factual geographic epidemiology statement."
+      },
+      {
+        "text": "The patient has constitutional symptoms.",
+        "category": "factual",
+        "rationale": "It states the presence of a symptom cluster."
+      },
+      {
+        "text": "The constitutional symptoms include fever.",
+        "category": "factual",
+        "rationale": "It specifies one component of the symptom cluster."
+      },
+      {
+        "text": "The constitutional symptoms include weight loss.",
+        "category": "factual",
+        "rationale": "It specifies one component of the symptom cluster."
+      },
+      {
+        "text": "The patient has lymphocytic CSF pleocytosis.",
+        "category": "factual",
+        "rationale": "It reports a cerebrospinal fluid finding."
+      },
+      {
+        "text": "The patient has cranial neuropathy.",
+        "category": "factual",
+        "rationale": "It states a neurologic finding."
+      },
+      {
+        "text": "The cranial neuropathy includes left seventh-nerve palsy.",
+        "category": "factual",
+        "rationale": "It specifies the involved cranial nerve."
+      },
+      {
+        "text": "MRI shows facial nerve enhancement.",
+        "category": "factual",
+        "rationale": "It reports an imaging finding."
+      },
+      {
+        "text": "The CSF pleocytosis and cranial neuropathy suggest meningitic or inflammatory CNS involvement.",
+        "category": "causal",
+        "rationale": "It links findings to a proposed CNS process."
+      },
+      {
+        "text": "Chest CT shows mediastinal lymphadenopathy.",
+        "category": "factual",
+        "rationale": "It reports an imaging finding."
+      },
+      {
+        "text": "Mediastinal lymphadenopathy supports a disseminated granulomatous or infectious process.",
+        "category": "causal",
+        "rationale": "It interprets the finding as supporting a broader disease process."
+      },
+      {
+        "text": "Bilateral multifocal choroidal infiltrates are classic for disseminated fungal or mycobacterial seeding of the choroid.",
+        "category": "causal",
+        "rationale": "It asserts a relationship between the ocular lesions and infectious seeding."
+      },
+      {
+        "text": "Serum testing was negative for Lyme disease.",
+        "category": "factual",
+        "rationale": "It reports a test result."
+      },
+      {
+        "text": "Serum testing was negative for syphilis.",
+        "category": "factual",
+        "rationale": "It reports a test result."
+      },
+      {
+        "text": "Negative Lyme disease testing makes neuroborreliosis less likely.",
+        "category": "causal",
+        "rationale": "It links a negative test result to reduced likelihood of a diagnosis."
+      },
+      {
+        "text": "Negative syphilis testing makes syphilis less likely.",
+        "category": "causal",
+        "rationale": "It links a negative test result to reduced likelihood of a diagnosis."
+      },
+      {
+        "text": "Tuberculosis testing was negative.",
+        "category": "factual",
+        "rationale": "It reports a test result."
+      },
+      {
+        "text": "Negative tuberculosis testing argues against TB.",
+        "category": "causal",
+        "rationale": "It links a negative test result to reduced likelihood of TB."
+      },
+      {
+        "text": "West Nile testing was negative.",
+        "category": "factual",
+        "rationale": "It reports a test result."
+      },
+      {
+        "text": "CSF had only mild lymphocytic pleocytosis.",
+        "category": "factual",
+        "rationale": "It reports a cerebrospinal fluid finding with a qualitative degree."
+      },
+      {
+        "text": "CSF glucose was normal.",
+        "category": "factual",
+        "rationale": "It reports a laboratory result."
+      },
+      {
+        "text": "CSF protein was normal.",
+        "category": "factual",
+        "rationale": "It reports a laboratory result."
+      },
+      {
+        "text": "CSF cryptococcal antigen was negative.",
+        "category": "factual",
+        "rationale": "It reports a test result."
+      },
+      {
+        "text": "Other organisms were negative in the CSF.",
+        "category": "factual",
+        "rationale": "It reports negative CSF testing for other organisms."
+      },
+      {
+        "text": "These CSF findings make cryptococcal meningitis less likely.",
+        "category": "causal",
+        "rationale": "It infers diagnostic likelihood from CSF results."
+      },
+      {
+        "text": "There was no vitritis.",
+        "category": "factual",
+        "rationale": "It asserts absence of a clinical finding."
+      },
+      {
+        "text": "There was no retinal vasculitis.",
+        "category": "factual",
+        "rationale": "It asserts absence of a clinical finding."
+      },
+      {
+        "text": "The absence of vitritis or retinal vasculitis makes acute retinal necrosis less fitting.",
+        "category": "causal",
+        "rationale": "It relates absent findings to reduced fit for a diagnosis."
+      },
+      {
+        "text": "The absence of vitritis or retinal vasculitis makes toxoplasmosis less fitting.",
+        "category": "causal",
+        "rationale": "It relates absent findings to reduced fit for a diagnosis."
+      },
+      {
+        "text": "The absence of vitritis or retinal vasculitis makes endogenous bacterial endophthalmitis less fitting.",
+        "category": "causal",
+        "rationale": "It relates absent findings to reduced fit for a diagnosis."
+      },
+      {
+        "text": "No optic nerve edema is reported.",
+        "category": "factual",
+        "rationale": "It asserts absence of a clinical finding."
+      },
+      {
+        "text": "No anterior uveitis is reported.",
+        "category": "factual",
+        "rationale": "It asserts absence of a clinical finding."
+      },
+      {
+        "text": "The absence of optic nerve edema or anterior uveitis is less supportive of VKH or sarcoid uveitis patterns.",
+        "category": "causal",
+        "rationale": "It links absent findings to reduced support for certain diagnoses."
+      },
+      {
+        "text": "The leading differential is disseminated coccidioidomycosis with choroidal involvement and coccidioidal meningitis or cranial neuropathy.",
+        "category": "factual",
+        "rationale": "It states the leading diagnostic impression."
+      },
+      {
+        "text": "This diagnosis fits the travel to Mexico.",
+        "category": "causal",
+        "rationale": "It explains why the diagnosis is compatible with the exposure."
+      },
+      {
+        "text": "This diagnosis fits TNF-alpha inhibitor exposure.",
+        "category": "causal",
+        "rationale": "It links the diagnosis to the medication risk factor."
+      },
+      {
+        "text": "This diagnosis fits constitutional symptoms.",
+        "category": "causal",
+        "rationale": "It links the diagnosis to the symptom pattern."
+      },
+      {
+        "text": "This diagnosis fits mediastinal lymphadenopathy.",
+        "category": "causal",
+        "rationale": "It links the diagnosis to the imaging finding."
+      },
+      {
+        "text": "This diagnosis fits the lymphocytic CSF profile.",
+        "category": "causal",
+        "rationale": "It links the diagnosis to the CSF pattern."
+      },
+      {
+        "text": "This diagnosis fits cranial nerve VII involvement.",
+        "category": "causal",
+        "rationale": "It links the diagnosis to the neurologic finding."
+      },
+      {
+        "text": "This diagnosis fits bilateral multifocal creamy choroidal lesions.",
+        "category": "causal",
+        "rationale": "It links the diagnosis to the ocular lesion pattern."
+      },
+      {
+        "text": "Coccidioides commonly disseminates in immunosuppressed hosts.",
+        "category": "causal",
+        "rationale": "It states a host-pathogen relationship affecting dissemination."
+      },
+      {
+        "text": "Coccidioides can involve the meninges.",
+        "category": "causal",
+        "rationale": "It states a disease-organ relationship."
+      },
+      {
+        "text": "Coccidioides can involve the choroid.",
+        "category": "causal",
+        "rationale": "It states a disease-organ relationship."
+      },
+      {
+        "text": "A second consideration is disseminated tuberculosis with choroidal tubercles and CNS involvement.",
+        "category": "factual",
+        "rationale": "It states an alternative differential diagnosis."
+      },
+      {
+        "text": "TB can cause fever.",
+        "category": "causal",
+        "rationale": "It links tuberculosis to a symptom."
+      },
+      {
+        "text": "TB can cause weight loss.",
+        "category": "causal",
+        "rationale": "It links tuberculosis to a symptom."
+      },
+      {
+        "text": "TB can cause mediastinal adenopathy.",
+        "category": "causal",
+        "rationale": "It links tuberculosis to a clinical finding."
+      },
+      {
+        "text": "TB can cause lymphocytic CSF.",
+        "category": "causal",
+        "rationale": "It links tuberculosis to a CSF pattern."
+      },
+      {
+        "text": "TB can cause cranial neuropathies.",
+        "category": "causal",
+        "rationale": "It links tuberculosis to a neurologic complication."
+      },
+      {
+        "text": "TB can cause multifocal choroidal lesions.",
+        "category": "causal",
+        "rationale": "It links tuberculosis to an ocular manifestation."
+      },
+      {
+        "text": "The reported TB testing was negative.",
+        "category": "factual",
+        "rationale": "It reports a test result."
+      },
+      {
+        "text": "The travel and immunosuppression context more specifically points toward endemic fungal disease.",
+        "category": "causal",
+        "rationale": "It infers a diagnostic direction from exposure and immune status."
+      },
+      {
+        "text": "Sarcoidosis is another possibility.",
+        "category": "factual",
+        "rationale": "It states an alternative diagnosis."
+      },
+      {
+        "text": "Sarcoidosis can present with mediastinal lymphadenopathy.",
+        "category": "causal",
+        "rationale": "It links sarcoidosis to a clinical finding."
+      },
+      {
+        "text": "Sarcoidosis can present with cranial neuropathy.",
+        "category": "causal",
+        "rationale": "It links sarcoidosis to a neurologic manifestation."
+      },
+      {
+        "text": "Sarcoidosis can present with choroidal granulomas.",
+        "category": "causal",
+        "rationale": "It links sarcoidosis to an ocular manifestation."
+      },
+      {
+        "text": "The patient has persistent fever.",
+        "category": "factual",
+        "rationale": "It states a symptom."
+      },
+      {
+        "text": "The patient has weight loss.",
+        "category": "factual",
+        "rationale": "It states a symptom."
+      },
+      {
+        "text": "The patient has travel exposure.",
+        "category": "factual",
+        "rationale": "It states an exposure history."
+      },
+      {
+        "text": "The patient has TNF-inhibitor-associated infection risk.",
+        "category": "factual",
+        "rationale": "It states a risk attribute based on medication exposure."
+      },
+      {
+        "text": "These features favor infection over inflammatory sarcoid.",
+        "category": "causal",
+        "rationale": "It compares features and infers a more likely etiology."
+      },
+      {
+        "text": "The bilateral numerous creamy choroidal infiltrates with systemic febrile illness are more suggestive of disseminated infection.",
+        "category": "causal",
+        "rationale": "It infers a disease category from the combined findings."
+      },
+      {
+        "text": "Other fungal infections such as histoplasmosis could produce choroidal lesions and systemic disease.",
+        "category": "causal",
+        "rationale": "It states a possible disease-effect relationship."
+      },
+      {
+        "text": "The travel to Mexico and meningeal or cranial nerve pattern are more characteristic of coccidioidomycosis.",
+        "category": "causal",
+        "rationale": "It links the exposure and clinical pattern to a specific diagnosis."
+      },
+      {
+        "text": "Cryptococcus is less likely.",
+        "category": "factual",
+        "rationale": "It states a diagnostic likelihood assessment."
+      },
+      {
+        "text": "Negative CSF cryptococcal antigen supports cryptococcus being less likely.",
+        "category": "causal",
+        "rationale": "It links a negative test to reduced likelihood of cryptococcosis."
+      },
+      {
+        "text": "The ocular pattern also supports cryptococcus being less likely.",
+        "category": "causal",
+        "rationale": "It links the ocular findings to reduced likelihood of cryptococcosis."
+      },
+      {
+        "text": "The combination of TNF-alpha inhibitor use, travel to an endemic region, constitutional symptoms, mediastinal lymphadenopathy, lymphocytic meningitic picture with facial nerve enhancement, and bilateral disseminated choroidal infiltrates most strongly supports disseminated coccidioidomycosis with ocular and neurologic involvement.",
+        "category": "causal",
+        "rationale": "It synthesizes multiple findings into a diagnostic conclusion."
+      },
+      {
+        "text": "Among single-condition diagnoses, the best final diagnosis is disseminated coccidioidomycosis.",
+        "category": "factual",
+        "rationale": "It states the final diagnostic conclusion."
+      },
+      {
+        "text": "Disseminated coccidioidomycosis is listed as a high-probability differential diagnosis.",
+        "category": "factual",
+        "rationale": "It reports the probability ranking of a diagnosis."
+      },
+      {
+        "text": "Disseminated tuberculosis with choroidal tubercles is listed as a medium-probability differential diagnosis.",
+        "category": "factual",
+        "rationale": "It reports the probability ranking of a diagnosis."
+      },
+      {
+        "text": "Sarcoidosis is listed as a low-probability differential diagnosis.",
+        "category": "factual",
+        "rationale": "It reports the probability ranking of a diagnosis."
+      },
+      {
+        "text": "The final diagnosis is disseminated coccidioidomycosis.",
+        "category": "factual",
+        "rationale": "It states the final diagnosis directly."
+      }
+    ]
+  }
+}

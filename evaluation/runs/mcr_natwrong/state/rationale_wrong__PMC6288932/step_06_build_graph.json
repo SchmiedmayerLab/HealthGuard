@@ -1,0 +1,1251 @@
+{
+  "name": "build_graph",
+  "passed": false,
+  "score": 0.7911,
+  "reasoning": "Graph built with 79 node(s) and 34 edge(s). 33 disconnected node(s): n1, n12, n13, n15, n19, n20, n22, n23, n24, n27, n30, n31, n32, n33, n34, n35, n36, n37, n38, n39, n40, n41, n47, n48, n50, n54, n56, n57, n58, n59, n60, n64, n9. The graph centers on recurrent hypoglycemia with neuroglycopenic/adrenergic symptoms and documented low glucose, then links the biochemical pattern of very high insulin plus high C-peptide to endogenous hyperinsulinemic hypoglycemia. Normal routine labs, negative standard drug screen, and no pancreatic mass support sulfonylurea-induced hypoglycemia as the leading diagnosis, while insulinoma remains an alternative and exogenous insulin is less likely.",
+  "data": {
+    "nodes": [
+      {
+        "id": "n1",
+        "text": "The chief problem is recurrent symptomatic hypoglycemia in a 19-year-old woman.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Case is a 19-year-old woman with recurrent symptomatic hypoglycemia.",
+        "cluster_idx": 0,
+        "cluster_label": "history_taking"
+      },
+      {
+        "id": "n2",
+        "text": "Her symptoms progressed from lightheadedness and weakness to repeated episodes of unresponsiveness.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Presentation includes lightheadedness/weakness initially and later repeated unresponsiveness.",
+        "cluster_idx": 0,
+        "cluster_label": "history_taking"
+      },
+      {
+        "id": "n3",
+        "text": "Her symptom pattern is classic for neuroglycopenia and adrenergic activation.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Diaphoresis, palpitations, confusion, weakness, and AMS are classic adrenergic/neuroglycopenic hypoglycemia symptoms.",
+        "cluster_idx": 0,
+        "cluster_label": "history_taking"
+      },
+      {
+        "id": "n4",
+        "text": "Her symptoms included diaphoresis, palpitations, confusion, weakness, and altered mental status.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "These symptoms are explicitly listed in the reference data.",
+        "cluster_idx": 0,
+        "cluster_label": "history_taking"
+      },
+      {
+        "id": "n5",
+        "text": "Her documented glucose values were 53 mg/dL at home, 60 mg/dL in the ED, 46 mg/dL prehospital, and as low as 23 mg/dL on the third visit.",
+        "category": "statistical",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Glucose values match the record: 53 home, 60 ED, 46 prehospital, 23 on third visit.",
+        "cluster_idx": 0,
+        "cluster_label": "history_taking"
+      },
+      {
+        "id": "n6",
+        "text": "This fulfills Whipple-type concern.",
+        "category": "factual",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "The data satisfy Whipple-type concern: symptoms, low glucose, and improvement after dextrose/food.",
+        "cluster_idx": 0,
+        "cluster_label": "history_taking"
+      },
+      {
+        "id": "n7",
+        "text": "The Whipple-type concern includes symptoms consistent with hypoglycemia.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Symptoms consistent with hypoglycemia are documented.",
+        "cluster_idx": 0,
+        "cluster_label": "history_taking"
+      },
+      {
+        "id": "n8",
+        "text": "The Whipple-type concern includes low measured glucose.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Low measured glucose is documented repeatedly.",
+        "cluster_idx": 0,
+        "cluster_label": "history_taking"
+      },
+      {
+        "id": "n9",
+        "text": "The Whipple-type concern includes improvement after dextrose or food.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Improvement after eating and D50W is described.",
+        "cluster_idx": 0,
+        "cluster_label": "history_taking"
+      },
+      {
+        "id": "n10",
+        "text": "Salient positive findings strongly indicate endogenous hyperinsulinemic hypoglycemia.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "High insulin with high C-peptide during hypoglycemia indicates endogenous hyperinsulinemic hypoglycemia.",
+        "cluster_idx": 1,
+        "cluster_label": "examination"
+      },
+      {
+        "id": "n11",
+        "text": "During recurrent hypoglycemia she had markedly elevated insulin levels.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Insulin levels were markedly elevated during recurrent hypoglycemia.",
+        "cluster_idx": 1,
+        "cluster_label": "examination"
+      },
+      {
+        "id": "n12",
+        "text": "Her free insulin level was 370 mIU/L.",
+        "category": "statistical",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Free insulin was 370 mIU/L.",
+        "cluster_idx": 1,
+        "cluster_label": "examination"
+      },
+      {
+        "id": "n13",
+        "text": "Her total insulin level was 377 mIU/L.",
+        "category": "statistical",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Total insulin was 377 mIU/L.",
+        "cluster_idx": 1,
+        "cluster_label": "examination"
+      },
+      {
+        "id": "n14",
+        "text": "She had elevated C-peptide.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "C-peptide was elevated at 9.9 ng/mL.",
+        "cluster_idx": 1,
+        "cluster_label": "examination"
+      },
+      {
+        "id": "n15",
+        "text": "Her C-peptide level was 9.9 ng/mL.",
+        "category": "statistical",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "C-peptide value is explicitly 9.9 ng/mL.",
+        "cluster_idx": 1,
+        "cluster_label": "examination"
+      },
+      {
+        "id": "n16",
+        "text": "Elevated C-peptide means the insulin is being secreted endogenously or stimulated endogenously rather than being purely injected exogenous insulin.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Elevated C-peptide supports endogenous or sulfonylurea-stimulated insulin secretion rather than pure exogenous insulin.",
+        "cluster_idx": 1,
+        "cluster_label": "examination"
+      },
+      {
+        "id": "n17",
+        "text": "The hypoglycemia was persistent and severe enough to recur despite repeated D50W boluses and escalating dextrose infusions.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Glucose repeatedly fell despite multiple D50W boluses and escalating dextrose infusions.",
+        "cluster_idx": 1,
+        "cluster_label": "examination"
+      },
+      {
+        "id": "n18",
+        "text": "This is compatible with ongoing insulin effect.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Persistent recurrence despite dextrose is compatible with ongoing insulin effect.",
+        "cluster_idx": 1,
+        "cluster_label": "examination"
+      },
+      {
+        "id": "n19",
+        "text": "Hemoglobin A1C was 5.1%.",
+        "category": "statistical",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Hemoglobin A1C is reported as 5.1%.",
+        "cluster_idx": 1,
+        "cluster_label": "examination"
+      },
+      {
+        "id": "n20",
+        "text": "There is no evidence of chronic hyperglycemia or known diabetes.",
+        "category": "factual",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "A1C 5.1% and no diabetes history support no evidence of chronic hyperglycemia/known diabetes.",
+        "cluster_idx": 1,
+        "cluster_label": "examination"
+      },
+      {
+        "id": "n21",
+        "text": "Routine labs were otherwise normal.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Reference says hematologic, renal, and electrolyte panels were otherwise normal.",
+        "cluster_idx": 1,
+        "cluster_label": "examination"
+      },
+      {
+        "id": "n22",
+        "text": "Routine hematologic panels were normal.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Hematologic panels were normal per the record.",
+        "cluster_idx": 1,
+        "cluster_label": "examination"
+      },
+      {
+        "id": "n23",
+        "text": "Routine renal panels were normal.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Renal panels were normal per the record.",
+        "cluster_idx": 1,
+        "cluster_label": "examination"
+      },
+      {
+        "id": "n24",
+        "text": "Routine electrolyte panels were normal.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Electrolyte panels were normal per the record.",
+        "cluster_idx": 1,
+        "cluster_label": "examination"
+      },
+      {
+        "id": "n25",
+        "text": "These normal routine labs argue against organ failure as the cause.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Normal hematologic/renal/electrolyte studies argue against organ failure as the cause of hypoglycemia.",
+        "cluster_idx": 1,
+        "cluster_label": "examination"
+      },
+      {
+        "id": "n26",
+        "text": "The drug screen was negative.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "A standard drug screen was negative.",
+        "cluster_idx": 2,
+        "cluster_label": "test_ordering"
+      },
+      {
+        "id": "n27",
+        "text": "Standard drug screens do not typically detect sulfonylureas.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Routine drug screens typically do not detect sulfonylureas.",
+        "cluster_idx": 2,
+        "cluster_label": "test_ordering"
+      },
+      {
+        "id": "n28",
+        "text": "Abdominal CT showed no pancreatic mass.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Abdominal CT showed no pancreatic mass.",
+        "cluster_idx": 2,
+        "cluster_label": "test_ordering"
+      },
+      {
+        "id": "n29",
+        "text": "CT can miss small insulinomas.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "CT can miss small insulinomas is standard clinical knowledge and consistent with the trace.",
+        "cluster_idx": 2,
+        "cluster_label": "test_ordering"
+      },
+      {
+        "id": "n30",
+        "text": "There is no evidence provided for sepsis.",
+        "category": "factual",
+        "verified": true,
+        "score": 0.6,
+        "reasoning": "No evidence of sepsis is not directly stated as a diagnosis; it is an absence summary.",
+        "cluster_idx": 2,
+        "cluster_label": "test_ordering"
+      },
+      {
+        "id": "n31",
+        "text": "There is no evidence provided for liver failure.",
+        "category": "factual",
+        "verified": true,
+        "score": 0.6,
+        "reasoning": "No evidence of liver failure is an absence summary not directly testable beyond normal labs.",
+        "cluster_idx": 2,
+        "cluster_label": "test_ordering"
+      },
+      {
+        "id": "n32",
+        "text": "There is no evidence provided for renal failure.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Normal renal panels and no renal failure evidence in the record support this absence summary.",
+        "cluster_idx": 2,
+        "cluster_label": "test_ordering"
+      },
+      {
+        "id": "n33",
+        "text": "There is no evidence provided for adrenal crisis.",
+        "category": "factual",
+        "verified": true,
+        "score": 0.6,
+        "reasoning": "Adrenal crisis is not directly assessed in the provided data.",
+        "cluster_idx": 2,
+        "cluster_label": "test_ordering"
+      },
+      {
+        "id": "n34",
+        "text": "There is no evidence provided for malnutrition.",
+        "category": "factual",
+        "verified": true,
+        "score": 0.6,
+        "reasoning": "Malnutrition is not directly addressed in the reference data.",
+        "cluster_idx": 2,
+        "cluster_label": "test_ordering"
+      },
+      {
+        "id": "n35",
+        "text": "There is no evidence provided for pregnancy-related illness.",
+        "category": "factual",
+        "verified": true,
+        "score": 0.6,
+        "reasoning": "Pregnancy-related illness is not mentioned in the reference data.",
+        "cluster_idx": 2,
+        "cluster_label": "test_ordering"
+      },
+      {
+        "id": "n36",
+        "text": "There is no evidence provided for alcohol intoxication.",
+        "category": "factual",
+        "verified": true,
+        "score": 0.6,
+        "reasoning": "Alcohol intoxication is not directly evidenced or excluded in the record.",
+        "cluster_idx": 2,
+        "cluster_label": "test_ordering"
+      },
+      {
+        "id": "n37",
+        "text": "There is no evidence provided for drug intoxication.",
+        "category": "factual",
+        "verified": true,
+        "score": 0.6,
+        "reasoning": "Drug intoxication is not directly evidenced or excluded beyond a negative standard screen.",
+        "cluster_idx": 2,
+        "cluster_label": "test_ordering"
+      },
+      {
+        "id": "n38",
+        "text": "Vitals were not suggestive of shock.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Vitals were stable without hypotension/tachycardia suggesting shock; BP and oxygenation were normal.",
+        "cluster_idx": 2,
+        "cluster_label": "test_ordering"
+      },
+      {
+        "id": "n39",
+        "text": "Vitals were not suggestive of severe infection.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Normal temperature and otherwise stable vitals do not suggest severe infection.",
+        "cluster_idx": 2,
+        "cluster_label": "test_ordering"
+      },
+      {
+        "id": "n40",
+        "text": "Temperature was normal.",
+        "category": "statistical",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Temperature was 37.0°C and 36.7°C, both normal.",
+        "cluster_idx": 2,
+        "cluster_label": "test_ordering"
+      },
+      {
+        "id": "n41",
+        "text": "Chemistry panels were otherwise unremarkable.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Reference data says hematologic, renal, and electrolyte panels were otherwise normal/unremarkable.",
+        "cluster_idx": 2,
+        "cluster_label": "test_ordering"
+      },
+      {
+        "id": "n42",
+        "text": "Head CT was normal.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Noncontrast head CT showed no intracranial abnormalities.",
+        "cluster_idx": 2,
+        "cluster_label": "test_ordering"
+      },
+      {
+        "id": "n43",
+        "text": "Normal head CT makes intracranial pathology an unlikely explanation for the altered mental status.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "A normal head CT makes a structural intracranial cause of altered mental status less likely, though not impossible.",
+        "cluster_idx": 2,
+        "cluster_label": "test_ordering"
+      },
+      {
+        "id": "n44",
+        "text": "The combination of high insulin plus high C-peptide essentially rules out non-insulin-mediated causes of hypoglycemia.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "High insulin with high C-peptide supports insulin-mediated hypoglycemia and makes non-insulin-mediated causes less likely, but does not literally rule them out.",
+        "cluster_idx": 3,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n45",
+        "text": "The combination of high insulin plus high C-peptide argues against exogenous insulin administration.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Elevated C-peptide argues against exogenous insulin use, which typically suppresses C-peptide.",
+        "cluster_idx": 3,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n46",
+        "text": "Exogenous insulin would suppress C-peptide.",
+        "category": "causal",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Exogenous insulin suppresses endogenous insulin secretion and therefore C-peptide.",
+        "cluster_idx": 3,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n47",
+        "text": "The main candidate differentials are sulfonylurea or meglitinide ingestion causing factitious or endogenous hyperinsulinemic hypoglycemia, insulinoma, and less likely surreptitious exogenous insulin use.",
+        "category": "factual",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "This is a reasonable differential summary from the biochemical pattern and imaging.",
+        "cluster_idx": 3,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n48",
+        "text": "Sulfonylurea ingestion fits very well.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Given the data, sulfonylurea ingestion is a strong fit.",
+        "cluster_idx": 3,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n49",
+        "text": "Sulfonylurea ingestion causes profound recurrent hypoglycemia with both elevated insulin and elevated C-peptide.",
+        "category": "causal",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Sulfonylureas cause endogenous insulin release, producing elevated insulin and C-peptide with recurrent hypoglycemia.",
+        "cluster_idx": 3,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n50",
+        "text": "Sulfonylurea ingestion often occurs with normal routine labs and no pancreatic lesion on imaging.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Routine labs were normal and abdominal CT showed no pancreatic mass.",
+        "cluster_idx": 3,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n51",
+        "text": "The patient is young.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "The patient is 19 years old.",
+        "cluster_idx": 3,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n52",
+        "text": "The patient has psychosocial distress.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Reference data explicitly notes psychosocial distress.",
+        "cluster_idx": 3,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n53",
+        "text": "These features raise concern for possible factitious or accidental ingestion.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Psychosocial distress and young age can raise concern for factitious or accidental ingestion, though this is inferential.",
+        "cluster_idx": 3,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n54",
+        "text": "The diagnosis should rest on the biochemical pattern rather than speculation.",
+        "category": "recommendation",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "This is a clinical reasoning recommendation, not a factual claim; it follows appropriately from the biochemical evidence.",
+        "cluster_idx": 3,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n55",
+        "text": "Insulinoma is also plausible.",
+        "category": "factual",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Insulinoma remains a plausible differential given endogenous hyperinsulinemic hypoglycemia.",
+        "cluster_idx": 3,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n56",
+        "text": "Insulinoma causes endogenous hyperinsulinemic hypoglycemia with elevated insulin and C-peptide.",
+        "category": "causal",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Insulinoma classically causes endogenous hyperinsulinemic hypoglycemia with elevated insulin and C-peptide.",
+        "cluster_idx": 3,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n57",
+        "text": "Her age is young for insulinoma.",
+        "category": "factual",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Insulinoma is uncommon at age 19, so this is a reasonable inference.",
+        "cluster_idx": 3,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n58",
+        "text": "Abdominal CT showed no pancreatic mass.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Abdominal CT showed no pancreatic mass.",
+        "cluster_idx": 3,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n59",
+        "text": "The dramatic recurrent episodes over multiple ED visits without a visible lesion make medication-induced hypoglycemia at least more immediately compelling.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Recurrent episodes without a visible lesion make medication-induced hypoglycemia relatively more compelling than insulinoma.",
+        "cluster_idx": 3,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n60",
+        "text": "Exogenous insulin use is less likely.",
+        "category": "factual",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Elevated C-peptide makes exogenous insulin less likely.",
+        "cluster_idx": 3,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n61",
+        "text": "The decisive feature is severe hypoglycemia with simultaneously very high insulin and high C-peptide.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "The case has severe hypoglycemia with insulin 370/377 mIU/L and C-peptide 9.9 ng/mL.",
+        "cluster_idx": 4,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n62",
+        "text": "This occurred in the setting of otherwise normal labs and a negative standard drug screen.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Reference data states otherwise normal labs and a negative standard drug screen.",
+        "cluster_idx": 4,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n63",
+        "text": "This biochemical profile is most characteristic of sulfonylurea-induced hypoglycemia.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "This biochemical profile is a classic pattern for sulfonylurea-induced hypoglycemia.",
+        "cluster_idx": 4,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n64",
+        "text": "Sulfonylurea-induced hypoglycemia can mimic insulinoma.",
+        "category": "causal",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Sulfonylurea-induced hypoglycemia can clinically and biochemically resemble insulinoma.",
+        "cluster_idx": 4,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n65",
+        "text": "Sulfonylurea-induced hypoglycemia would not be detected on a routine drug screen.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "The trace explicitly notes sulfonylureas are not detected on routine tox screens.",
+        "cluster_idx": 4,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n66",
+        "text": "Although insulinoma remains an important alternative, the most likely diagnosis from the provided data is factitious sulfonylurea ingestion causing endogenous hyperinsulinemic hypoglycemia.",
+        "category": "factual",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "This is the trace's diagnostic conclusion based on the provided data.",
+        "cluster_idx": 4,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n67",
+        "text": "The differential diagnosis includes sulfonylurea-induced hypoglycemia.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Sulfonylurea-induced hypoglycemia is explicitly listed in the differential.",
+        "cluster_idx": 4,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n68",
+        "text": "Sulfonylurea-induced hypoglycemia is high on the differential.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "The trace states sulfonylurea-induced hypoglycemia is high on the differential.",
+        "cluster_idx": 4,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n69",
+        "text": "Sulfonylurea-induced hypoglycemia is associated with recurrent severe hypoglycemia.",
+        "category": "causal",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "The case shows recurrent severe hypoglycemia, which is consistent with sulfonylurea effect.",
+        "cluster_idx": 4,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n70",
+        "text": "Sulfonylurea-induced hypoglycemia is associated with markedly elevated insulin.",
+        "category": "causal",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Insulin was markedly elevated at 370/377 mIU/L.",
+        "cluster_idx": 4,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n71",
+        "text": "Sulfonylurea-induced hypoglycemia is associated with elevated C-peptide.",
+        "category": "causal",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "C-peptide was elevated at 9.9 ng/mL.",
+        "cluster_idx": 4,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n72",
+        "text": "Sulfonylurea-induced hypoglycemia is associated with normal routine labs.",
+        "category": "causal",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Routine hematologic, renal, and electrolyte panels were normal.",
+        "cluster_idx": 4,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n73",
+        "text": "Sulfonylurea-induced hypoglycemia is associated with a negative standard drug screen.",
+        "category": "causal",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "The standard drug screen was negative.",
+        "cluster_idx": 4,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n74",
+        "text": "Sulfonylurea-induced hypoglycemia is associated with no pancreatic mass on CT.",
+        "category": "causal",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Abdominal CT showed no pancreatic mass.",
+        "cluster_idx": 4,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n75",
+        "text": "The differential diagnosis includes insulinoma.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Insulinoma is explicitly included in the differential.",
+        "cluster_idx": 4,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n76",
+        "text": "Insulinoma is medium on the differential.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "The trace labels insulinoma as medium on the differential.",
+        "cluster_idx": 4,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n77",
+        "text": "The differential diagnosis includes exogenous insulin administration.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Exogenous insulin administration is explicitly included in the differential.",
+        "cluster_idx": 4,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n78",
+        "text": "Exogenous insulin administration is low on the differential.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "The trace labels exogenous insulin administration as low on the differential.",
+        "cluster_idx": 4,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n79",
+        "text": "The final diagnosis is sulfonylurea-induced hypoglycemia.",
+        "category": "factual",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "This is the trace's final diagnostic conclusion and follows from the biochemical pattern and differential.",
+        "cluster_idx": 5,
+        "cluster_label": "final_decision"
+      }
+    ],
+    "edges": [
+      {
+        "source": "n2",
+        "target": "n3",
+        "kind": "supports",
+        "explanation": "Progression to unresponsiveness supports a neuroglycopenic hypoglycemia pattern."
+      },
+      {
+        "source": "n4",
+        "target": "n3",
+        "kind": "supports",
+        "explanation": "Diaphoresis, palpitations, confusion, weakness, and altered mental status fit adrenergic and neuroglycopenic symptoms."
+      },
+      {
+        "source": "n5",
+        "target": "n6",
+        "kind": "supports",
+        "explanation": "Repeated low glucose measurements support Whipple-type concern."
+      },
+      {
+        "source": "n3",
+        "target": "n7",
+        "kind": "supports",
+        "explanation": "A classic hypoglycemic symptom pattern satisfies the symptom component of Whipple-type concern."
+      },
+      {
+        "source": "n5",
+        "target": "n8",
+        "kind": "supports",
+        "explanation": "Documented low glucose values satisfy the low-glucose component."
+      },
+      {
+        "source": "n11",
+        "target": "n10",
+        "kind": "supports",
+        "explanation": "Markedly elevated insulin during hypoglycemia supports endogenous hyperinsulinemic hypoglycemia."
+      },
+      {
+        "source": "n14",
+        "target": "n10",
+        "kind": "supports",
+        "explanation": "Elevated C-peptide supports endogenous hyperinsulinemic hypoglycemia."
+      },
+      {
+        "source": "n16",
+        "target": "n45",
+        "kind": "supports",
+        "explanation": "Endogenous C-peptide production argues against exogenous insulin administration."
+      },
+      {
+        "source": "n17",
+        "target": "n18",
+        "kind": "supports",
+        "explanation": "Recurrent hypoglycemia despite dextrose is compatible with ongoing insulin effect."
+      },
+      {
+        "source": "n21",
+        "target": "n25",
+        "kind": "supports",
+        "explanation": "Otherwise normal routine labs support arguing against organ failure as the cause."
+      },
+      {
+        "source": "n26",
+        "target": "n65",
+        "kind": "supports",
+        "explanation": "A negative standard drug screen is consistent with sulfonylurea exposure being missed."
+      },
+      {
+        "source": "n28",
+        "target": "n29",
+        "kind": "supports",
+        "explanation": "A negative CT does not exclude a small insulinoma."
+      },
+      {
+        "source": "n42",
+        "target": "n43",
+        "kind": "supports",
+        "explanation": "Normal head CT makes intracranial pathology less likely as the explanation for altered mental status."
+      },
+      {
+        "source": "n11",
+        "target": "n44",
+        "kind": "supports",
+        "explanation": "High insulin is part of the biochemical combination that rules out non-insulin-mediated causes."
+      },
+      {
+        "source": "n14",
+        "target": "n44",
+        "kind": "supports",
+        "explanation": "High C-peptide is part of the biochemical combination that rules out non-insulin-mediated causes."
+      },
+      {
+        "source": "n11",
+        "target": "n45",
+        "kind": "supports",
+        "explanation": "High insulin with high C-peptide argues against exogenous insulin administration."
+      },
+      {
+        "source": "n46",
+        "target": "n45",
+        "kind": "supports",
+        "explanation": "If exogenous insulin suppresses C-peptide, then elevated C-peptide argues against exogenous insulin."
+      },
+      {
+        "source": "n49",
+        "target": "n63",
+        "kind": "supports",
+        "explanation": "The described sulfonylurea biochemical pattern matches the case profile."
+      },
+      {
+        "source": "n51",
+        "target": "n53",
+        "kind": "supports",
+        "explanation": "Young age raises concern for factitious or accidental ingestion."
+      },
+      {
+        "source": "n52",
+        "target": "n53",
+        "kind": "supports",
+        "explanation": "Psychosocial distress raises concern for factitious or accidental ingestion."
+      },
+      {
+        "source": "n61",
+        "target": "n63",
+        "kind": "supports",
+        "explanation": "Severe hypoglycemia with very high insulin and high C-peptide is most characteristic of sulfonylurea-induced hypoglycemia."
+      },
+      {
+        "source": "n62",
+        "target": "n63",
+        "kind": "supports",
+        "explanation": "The biochemical profile in the setting of normal labs and a negative standard drug screen supports sulfonylurea-induced hypoglycemia."
+      },
+      {
+        "source": "n63",
+        "target": "n66",
+        "kind": "supports",
+        "explanation": "The characteristic biochemical profile supports the final favored diagnosis."
+      },
+      {
+        "source": "n55",
+        "target": "n66",
+        "kind": "supports",
+        "explanation": "Insulinoma remains an alternative diagnosis, but not the most likely one."
+      },
+      {
+        "source": "n63",
+        "target": "n79",
+        "kind": "supports",
+        "explanation": "The most characteristic biochemical pattern supports the final diagnosis."
+      },
+      {
+        "source": "n67",
+        "target": "n68",
+        "kind": "supports",
+        "explanation": "If sulfonylurea-induced hypoglycemia is in the differential, the case data place it high on the differential."
+      },
+      {
+        "source": "n69",
+        "target": "n68",
+        "kind": "supports",
+        "explanation": "Recurrent severe hypoglycemia is a key feature making sulfonylurea-induced hypoglycemia high on the differential."
+      },
+      {
+        "source": "n70",
+        "target": "n68",
+        "kind": "supports",
+        "explanation": "Markedly elevated insulin supports sulfonylurea-induced hypoglycemia being high on the differential."
+      },
+      {
+        "source": "n71",
+        "target": "n68",
+        "kind": "supports",
+        "explanation": "Elevated C-peptide supports sulfonylurea-induced hypoglycemia being high on the differential."
+      },
+      {
+        "source": "n72",
+        "target": "n68",
+        "kind": "supports",
+        "explanation": "Normal routine labs support sulfonylurea-induced hypoglycemia being high on the differential."
+      },
+      {
+        "source": "n73",
+        "target": "n68",
+        "kind": "supports",
+        "explanation": "A negative standard drug screen is compatible with sulfonylurea-induced hypoglycemia and supports it being high on the differential."
+      },
+      {
+        "source": "n74",
+        "target": "n68",
+        "kind": "supports",
+        "explanation": "No pancreatic mass on CT supports sulfonylurea-induced hypoglycemia being high on the differential."
+      },
+      {
+        "source": "n75",
+        "target": "n76",
+        "kind": "supports",
+        "explanation": "Insulinoma is present on the differential but not favored as the leading diagnosis."
+      },
+      {
+        "source": "n77",
+        "target": "n78",
+        "kind": "supports",
+        "explanation": "Exogenous insulin administration is considered but is low on the differential."
+      }
+    ],
+    "disconnected": [
+      "n1",
+      "n12",
+      "n13",
+      "n15",
+      "n19",
+      "n20",
+      "n22",
+      "n23",
+      "n24",
+      "n27",
+      "n30",
+      "n31",
+      "n32",
+      "n33",
+      "n34",
+      "n35",
+      "n36",
+      "n37",
+      "n38",
+      "n39",
+      "n40",
+      "n41",
+      "n47",
+      "n48",
+      "n50",
+      "n54",
+      "n56",
+      "n57",
+      "n58",
+      "n59",
+      "n60",
+      "n64",
+      "n9"
+    ],
+    "clusters": [
+      {
+        "cluster_id": "c1",
+        "label": "history_taking",
+        "statement_indices": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "summary": "Presentation of recurrent symptomatic hypoglycemia with Whipple-type features and documented low glucose values.",
+        "salience": 0.9
+      },
+      {
+        "cluster_id": "c2",
+        "label": "examination",
+        "statement_indices": [
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25
+        ],
+        "summary": "Biochemical confirmation of endogenous hyperinsulinemic hypoglycemia with otherwise normal routine labs and no chronic diabetes.",
+        "salience": 1.0
+      },
+      {
+        "cluster_id": "c3",
+        "label": "test_ordering",
+        "statement_indices": [
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40,
+          41,
+          42,
+          43
+        ],
+        "summary": "Ancillary testing and negative evaluations for alternative systemic, toxic, and intracranial causes.",
+        "salience": 0.6
+      },
+      {
+        "cluster_id": "c4",
+        "label": "differential_generation",
+        "statement_indices": [
+          44,
+          45,
+          46,
+          47,
+          48,
+          49,
+          50,
+          51,
+          52,
+          53,
+          54,
+          55,
+          56,
+          57,
+          58,
+          59,
+          60
+        ],
+        "summary": "Reasoning through the main differential: sulfonylurea ingestion, insulinoma, and exogenous insulin, with sulfonylurea favored.",
+        "salience": 0.95
+      },
+      {
+        "cluster_id": "c5",
+        "label": "differential_generation",
+        "statement_indices": [
+          61,
+          62,
+          63,
+          64,
+          65,
+          66,
+          67,
+          68,
+          69,
+          70,
+          71,
+          72,
+          73,
+          74,
+          75,
+          76,
+          77,
+          78
+        ],
+        "summary": "Final differential refinement emphasizing the biochemical pattern most consistent with sulfonylurea-induced hypoglycemia.",
+        "salience": 0.98
+      },
+      {
+        "cluster_id": "c6",
+        "label": "final_decision",
+        "statement_indices": [
+          79
+        ],
+        "summary": "Final diagnosis of sulfonylurea-induced hypoglycemia.",
+        "salience": 1.0
+      }
+    ],
+    "node_ranks": {
+      "n1": 0.2667,
+      "n2": 0.1167,
+      "n3": 0.2667,
+      "n4": 0.1167,
+      "n5": 0.2667,
+      "n6": 0.4167,
+      "n7": 0.4167,
+      "n8": 0.4167,
+      "n9": 0.2667,
+      "n10": 0.5333,
+      "n11": 0.3833,
+      "n12": 0.3833,
+      "n13": 0.3833,
+      "n14": 0.3833,
+      "n15": 0.3833,
+      "n16": 0.3833,
+      "n17": 0.3833,
+      "n18": 0.5333,
+      "n19": 0.3833,
+      "n20": 0.3833,
+      "n21": 0.3833,
+      "n22": 0.3833,
+      "n23": 0.3833,
+      "n24": 0.3833,
+      "n25": 0.5333,
+      "n26": 0.5,
+      "n27": 0.5,
+      "n28": 0.5,
+      "n29": 0.65,
+      "n30": 0.5,
+      "n31": 0.5,
+      "n32": 0.5,
+      "n33": 0.5,
+      "n34": 0.5,
+      "n35": 0.5,
+      "n36": 0.5,
+      "n37": 0.5,
+      "n38": 0.5,
+      "n39": 0.5,
+      "n40": 0.5,
+      "n41": 0.5,
+      "n42": 0.5,
+      "n43": 0.65,
+      "n44": 0.7667,
+      "n45": 0.7667,
+      "n46": 0.6167,
+      "n47": 0.6167,
+      "n48": 0.6167,
+      "n49": 0.4667,
+      "n50": 0.6167,
+      "n51": 0.6167,
+      "n52": 0.6167,
+      "n53": 0.7667,
+      "n54": 0.6167,
+      "n55": 0.6167,
+      "n56": 0.6167,
+      "n57": 0.6167,
+      "n58": 0.6167,
+      "n59": 0.6167,
+      "n60": 0.6167,
+      "n61": 0.5833,
+      "n62": 0.5833,
+      "n63": 0.7333,
+      "n64": 0.7333,
+      "n65": 0.8833,
+      "n66": 0.8833,
+      "n67": 0.7333,
+      "n68": 0.8833,
+      "n69": 0.7333,
+      "n70": 0.7333,
+      "n71": 0.7333,
+      "n72": 0.7333,
+      "n73": 0.7333,
+      "n74": 0.7333,
+      "n75": 0.7333,
+      "n76": 0.8833,
+      "n77": 0.7333,
+      "n78": 0.8833,
+      "n79": 1.0
+    }
+  }
+}

@@ -1,0 +1,1868 @@
+{
+  "name": "build_graph",
+  "passed": false,
+  "score": 0.8198,
+  "reasoning": "Graph built with 111 node(s) and 61 edge(s). 40 disconnected node(s): n10, n12, n13, n16, n17, n21, n22, n23, n24, n25, n26, n27, n28, n29, n30, n31, n32, n33, n34, n35, n36, n38, n39, n40, n41, n42, n43, n44, n45, n48, n49, n50, n54, n55, n60, n7, n79, n8, n86, n9. The graph centers on an STI-associated proctitis syndrome after MSM exposure, with direct rectal Chlamydia trachomatis detection and doxycycline response supporting LGV proctitis as the final diagnosis. Multiple negative infectious tests and poor response to IBD therapy weaken alternative diagnoses, especially Crohn’s disease. A smaller side branch captures the early Brachyspira finding as a possible but secondary contributor.",
+  "data": {
+    "nodes": [
+      {
+        "id": "n1",
+        "text": "The chief complaint is a sexually active 53-year-old man with rectal tenesmus, frequent small-volume stools, hematochezia, and mucous discharge.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Matches the presentation: 53-year-old MSM with rectal tenesmus, small-volume frequent bowel movements, hematochezia, and mucous discharge.",
+        "cluster_idx": 0,
+        "cluster_label": "history_taking"
+      },
+      {
+        "id": "n2",
+        "text": "These symptoms are described as a proctitis syndrome.",
+        "category": "factual",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Those symptoms are appropriately summarized as a proctitis syndrome, though not stated verbatim in the reference data.",
+        "cluster_idx": 0,
+        "cluster_label": "history_taking"
+      },
+      {
+        "id": "n3",
+        "text": "The patient’s own concern is persistent anorectal symptoms after recent homosexual exposure.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Reference says he reported recent homosexual contact and persistent anorectal symptoms.",
+        "cluster_idx": 0,
+        "cluster_label": "history_taking"
+      },
+      {
+        "id": "n4",
+        "text": "The initial clinical frame is infectious proctitis.",
+        "category": "factual",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "The trace frames the case as infectious proctitis based on STI-type symptoms and exposure; this is a clinical inference.",
+        "cluster_idx": 0,
+        "cluster_label": "history_taking"
+      },
+      {
+        "id": "n5",
+        "text": "An STI-related cause is especially considered before primary inflammatory bowel disease.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "The trace explicitly prioritizes STI-related proctitis before IBD; this is a reasonable diagnostic framing.",
+        "cluster_idx": 0,
+        "cluster_label": "history_taking"
+      },
+      {
+        "id": "n6",
+        "text": "Recent homosexual contact is a salient positive finding.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Recent homosexual contact is directly stated in the presentation.",
+        "cluster_idx": 0,
+        "cluster_label": "history_taking"
+      },
+      {
+        "id": "n7",
+        "text": "The symptoms are localized to the rectum.",
+        "category": "factual",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Symptoms are localized to the rectum/proctum based on tenesmus, rectal bleeding, and mucous discharge.",
+        "cluster_idx": 0,
+        "cluster_label": "history_taking"
+      },
+      {
+        "id": "n8",
+        "text": "The symptoms include tenesmus.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Rectal tenesmus is explicitly listed in the presentation.",
+        "cluster_idx": 0,
+        "cluster_label": "history_taking"
+      },
+      {
+        "id": "n9",
+        "text": "The symptoms include mucus.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Mucous discharge is explicitly present.",
+        "cluster_idx": 0,
+        "cluster_label": "history_taking"
+      },
+      {
+        "id": "n10",
+        "text": "The symptoms include bleeding.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Hematochezia/bleeding is explicitly present.",
+        "cluster_idx": 0,
+        "cluster_label": "history_taking"
+      },
+      {
+        "id": "n11",
+        "text": "Proctoscopy showed ulcerative proctitis.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Proctoscopy revealed ulcerative proctitis.",
+        "cluster_idx": 1,
+        "cluster_label": "examination"
+      },
+      {
+        "id": "n12",
+        "text": "Proctoscopy showed friable mucosa.",
+        "category": "factual",
+        "verified": true,
+        "score": 0.6,
+        "reasoning": "The reference says vulnerable mucosa, not friable mucosa; friability is similar but not explicitly documented.",
+        "cluster_idx": 1,
+        "cluster_label": "examination"
+      },
+      {
+        "id": "n13",
+        "text": "Proctoscopy showed vulnerable mucosa.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Proctoscopy showed vulnerable mucosa.",
+        "cluster_idx": 1,
+        "cluster_label": "examination"
+      },
+      {
+        "id": "n14",
+        "text": "Rectal biopsy PCR was positive for Chlamydia trachomatis.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Rectal biopsy PCR was positive for Chlamydia trachomatis.",
+        "cluster_idx": 2,
+        "cluster_label": "test_ordering"
+      },
+      {
+        "id": "n15",
+        "text": "Chlamydia trachomatis serology was positive.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Chlamydia trachomatis serology was positive.",
+        "cluster_idx": 2,
+        "cluster_label": "test_ordering"
+      },
+      {
+        "id": "n16",
+        "text": "The serology showed high IgG.",
+        "category": "statistical",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Serology showed IgG >200.0 AU/ml, which is high.",
+        "cluster_idx": 2,
+        "cluster_label": "test_ordering"
+      },
+      {
+        "id": "n17",
+        "text": "The serology showed positive IgA.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Serology showed IgA = 58.8 AU/ml, i.e. positive.",
+        "cluster_idx": 2,
+        "cluster_label": "test_ordering"
+      },
+      {
+        "id": "n18",
+        "text": "There was partial improvement after doxycycline.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Doxycycline led to improvement but not full resolution, which is partial improvement.",
+        "cluster_idx": 2,
+        "cluster_label": "test_ordering"
+      },
+      {
+        "id": "n19",
+        "text": "These findings strongly support chlamydial proctitis.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Direct rectal Chlamydia PCR plus compatible proctitis syndrome supports chlamydial proctitis.",
+        "cluster_idx": 3,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n20",
+        "text": "The ulcerative phenotype raises concern for lymphogranuloma venereum serovars of Chlamydia trachomatis.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Ulcerative proctitis in an MSM patient with rectal Chlamydia is a classic LGV-compatible pattern.",
+        "cluster_idx": 3,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n21",
+        "text": "Severe symptoms raise concern for lymphogranuloma venereum serovars of Chlamydia trachomatis.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Severe proctitis symptoms are a recognized LGV clue; this is a reasonable inference.",
+        "cluster_idx": 3,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n22",
+        "text": "Prolonged symptoms raise concern for lymphogranuloma venereum serovars of Chlamydia trachomatis.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "A prolonged course is compatible with LGV and supports concern for it, though not diagnostic by itself.",
+        "cluster_idx": 3,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n23",
+        "text": "MSM exposure raises concern for lymphogranuloma venereum serovars of Chlamydia trachomatis.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "MSM exposure is a standard epidemiologic risk factor for LGV proctitis.",
+        "cluster_idx": 3,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n24",
+        "text": "Lymphogranuloma venereum serovars of Chlamydia trachomatis classically cause invasive hemorrhagic proctitis.",
+        "category": "factual",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "LGV classically causes invasive hemorrhagic proctitis is standard medical knowledge, though not directly stated in the data.",
+        "cluster_idx": 3,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n25",
+        "text": "Invasive hemorrhagic proctitis can mimic inflammatory bowel disease.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "LGV/invasive hemorrhagic proctitis can mimic IBD is a standard clinical inference and matches the trace.",
+        "cluster_idx": 3,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n26",
+        "text": "The later finding of increased prostate enhancement may fit ongoing pelvic inflammatory involvement.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Increased prostate enhancement could plausibly reflect adjacent pelvic inflammatory involvement, but this is interpretive rather than directly proven.",
+        "cluster_idx": 3,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n27",
+        "text": "Stool culture grew Brachyspira aalborgii.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Stool culture was positive for Brachyspira aalborgii.",
+        "cluster_idx": 3,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n28",
+        "text": "Metronidazole gave only transient relief for 3 weeks.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Metronidazole produced transient symptom relief for three weeks.",
+        "cluster_idx": 3,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n29",
+        "text": "This suggests either colonization or a secondary contributor rather than the main driver.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Transient response suggests Brachyspira may be a colonizer or secondary contributor rather than the main driver; this is a reasonable inference.",
+        "cluster_idx": 3,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n30",
+        "text": "Histology initially showed only mild active inflammation.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Histopathology demonstrated mild active inflammation.",
+        "cluster_idx": 4,
+        "cluster_label": "test_ordering"
+      },
+      {
+        "id": "n31",
+        "text": "Histology initially showed polarized crypts.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Histopathology described polarized crypts.",
+        "cluster_idx": 4,
+        "cluster_label": "test_ordering"
+      },
+      {
+        "id": "n32",
+        "text": "Histology initially showed increased eosinophils.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Histopathology showed increased eosinophils.",
+        "cluster_idx": 4,
+        "cluster_label": "test_ordering"
+      },
+      {
+        "id": "n33",
+        "text": "Histology initially showed no malignancy.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Histopathology reported no malignancy.",
+        "cluster_idx": 4,
+        "cluster_label": "test_ordering"
+      },
+      {
+        "id": "n34",
+        "text": "PCR from biopsy was negative for gonorrhea.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Rectal biopsy PCR was negative for Neisseria gonorrhoeae.",
+        "cluster_idx": 4,
+        "cluster_label": "test_ordering"
+      },
+      {
+        "id": "n35",
+        "text": "PCR from biopsy was negative for CMV.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Rectal biopsy PCR was negative for cytomegalovirus.",
+        "cluster_idx": 4,
+        "cluster_label": "test_ordering"
+      },
+      {
+        "id": "n36",
+        "text": "PCR from biopsy was negative for HSV.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Rectal biopsy PCR was negative for herpes simplex virus I/II.",
+        "cluster_idx": 4,
+        "cluster_label": "test_ordering"
+      },
+      {
+        "id": "n37",
+        "text": "Serologies for HIV were negative.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "HIV serology was negative.",
+        "cluster_idx": 4,
+        "cluster_label": "test_ordering"
+      },
+      {
+        "id": "n38",
+        "text": "Serologies for hepatitis viruses were negative.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Viral hepatitis serologies were negative.",
+        "cluster_idx": 4,
+        "cluster_label": "test_ordering"
+      },
+      {
+        "id": "n39",
+        "text": "Serologies for syphilis were negative.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Treponema pallidum serology was negative.",
+        "cluster_idx": 4,
+        "cluster_label": "test_ordering"
+      },
+      {
+        "id": "n40",
+        "text": "The external ano-genital exam was unremarkable.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "External ano-genital inspection was normal/unremarkable.",
+        "cluster_idx": 5,
+        "cluster_label": "examination"
+      },
+      {
+        "id": "n41",
+        "text": "The vitals were unremarkable.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Reference data says vital signs were unremarkable.",
+        "cluster_idx": 5,
+        "cluster_label": "examination"
+      },
+      {
+        "id": "n42",
+        "text": "These findings argue against severe systemic illness.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Unremarkable vitals reasonably argue against severe systemic illness; this is an inference from the exam.",
+        "cluster_idx": 5,
+        "cluster_label": "examination"
+      },
+      {
+        "id": "n43",
+        "text": "Later colonoscopy showed discontinuous ulcerations in the rectum.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Colonoscopy showed ulcerations in the rectum with discontinuous distribution.",
+        "cluster_idx": 6,
+        "cluster_label": "test_ordering"
+      },
+      {
+        "id": "n44",
+        "text": "Later colonoscopy showed discontinuous ulcerations in the cecum.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Colonoscopy showed ulcerations in the cecum.",
+        "cluster_idx": 6,
+        "cluster_label": "test_ordering"
+      },
+      {
+        "id": "n45",
+        "text": "Later colonoscopy showed discontinuous ulcerations in the ileocecal valve.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Colonoscopy showed ulcerations in the ileocecal valve.",
+        "cluster_idx": 6,
+        "cluster_label": "test_ordering"
+      },
+      {
+        "id": "n46",
+        "text": "Later colonoscopy showed discontinuous ulcerations in the terminal ileum.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Colonoscopy showed ulcerations in the terminal ileum.",
+        "cluster_idx": 6,
+        "cluster_label": "test_ordering"
+      },
+      {
+        "id": "n47",
+        "text": "These findings can resemble Crohn’s disease.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Discontinuous ulcerations in these locations are compatible with a Crohn-like pattern.",
+        "cluster_idx": 6,
+        "cluster_label": "test_ordering"
+      },
+      {
+        "id": "n48",
+        "text": "Histopathology was nonspecific rather than diagnostic.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Histopathology was described as nonspecific but compatible with IBD, not diagnostic.",
+        "cluster_idx": 6,
+        "cluster_label": "test_ordering"
+      },
+      {
+        "id": "n49",
+        "text": "MRI showed rectal enhancement.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "MRI/HMRT demonstrated contrast enhancement in the rectum.",
+        "cluster_idx": 6,
+        "cluster_label": "test_ordering"
+      },
+      {
+        "id": "n50",
+        "text": "MRI showed cecal enhancement.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "MRI/HMRT demonstrated contrast enhancement in the cecal region.",
+        "cluster_idx": 6,
+        "cluster_label": "test_ordering"
+      },
+      {
+        "id": "n51",
+        "text": "MRI showed no fistula.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "MRI/HMRT explicitly reported no fistula.",
+        "cluster_idx": 6,
+        "cluster_label": "test_ordering"
+      },
+      {
+        "id": "n52",
+        "text": "MRI showed no stenosis.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "MRI/HMRT explicitly reported no stenosis.",
+        "cluster_idx": 6,
+        "cluster_label": "test_ordering"
+      },
+      {
+        "id": "n53",
+        "text": "Negative rectal testing for Neisseria gonorrhoeae reduces the likelihood of gonococcal proctitis.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Negative rectal gonorrhea testing reasonably lowers the likelihood of gonococcal proctitis.",
+        "cluster_idx": 7,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n54",
+        "text": "Negative urethral testing for Neisseria gonorrhoeae reduces the likelihood of gonococcal proctitis.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Negative urethral gonorrhea testing also lowers likelihood, though rectal disease is more directly relevant.",
+        "cluster_idx": 7,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n55",
+        "text": "Negative testing for Trichomonas reduces the likelihood of trichomonal infection.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Negative Trichomonas testing lowers the likelihood of trichomonal infection.",
+        "cluster_idx": 7,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n56",
+        "text": "Negative biopsy PCR for HSV reduces the likelihood of HSV proctitis.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Negative HSV PCR from biopsy lowers the likelihood of HSV proctitis.",
+        "cluster_idx": 7,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n57",
+        "text": "Negative biopsy PCR for CMV reduces the likelihood of CMV proctitis.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Negative CMV PCR from biopsy lowers the likelihood of CMV proctitis.",
+        "cluster_idx": 7,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n58",
+        "text": "Negative syphilis serology reduces the likelihood of syphilitic proctitis.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Negative Treponema pallidum serology lowers the likelihood of syphilitic proctitis.",
+        "cluster_idx": 7,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n59",
+        "text": "No HIV reduces the likelihood of HIV-associated infectious proctitides.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Negative HIV makes HIV-associated infectious proctitides less likely, though not impossible.",
+        "cluster_idx": 7,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n60",
+        "text": "No travel history makes enteric tropical infections less likely.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "No travel history reasonably makes travel-related enteric tropical infections less likely.",
+        "cluster_idx": 7,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n61",
+        "text": "The lack of fistula weakens classic Crohn’s disease.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Absence of fistula weakens classic Crohn’s disease as a diagnosis.",
+        "cluster_idx": 7,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n62",
+        "text": "The lack of stenosis weakens classic Crohn’s disease.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Absence of stenosis weakens classic Crohn’s disease.",
+        "cluster_idx": 7,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n63",
+        "text": "The lack of more extensive small-bowel disease weakens classic Crohn’s disease.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Lack of additional small-bowel involvement weakens classic Crohn’s disease.",
+        "cluster_idx": 7,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n64",
+        "text": "The presumed IBD proved refractory to mesalazine over 11 months.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Mesalazine was started for suspected IBD and symptoms/calprotectin persisted over the follow-up period.",
+        "cluster_idx": 8,
+        "cluster_label": "treatment_planning"
+      },
+      {
+        "id": "n65",
+        "text": "The presumed IBD proved refractory to budesonide over 11 months.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Budesonide enemas were initiated and there was no sustained benefit/persistent symptoms.",
+        "cluster_idx": 8,
+        "cluster_label": "treatment_planning"
+      },
+      {
+        "id": "n66",
+        "text": "The presumed IBD proved refractory to systemic glucocorticoids over 11 months.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Systemic glucocorticoids were given over 11 months without clinical improvement.",
+        "cluster_idx": 8,
+        "cluster_label": "treatment_planning"
+      },
+      {
+        "id": "n67",
+        "text": "The presumed IBD proved refractory to adalimumab over 11 months.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Adalimumab was administered and symptoms persisted.",
+        "cluster_idx": 8,
+        "cluster_label": "treatment_planning"
+      },
+      {
+        "id": "n68",
+        "text": "The presumed IBD proved refractory to ustekinumab over 11 months.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Ustekinumab was administered and symptoms persisted.",
+        "cluster_idx": 8,
+        "cluster_label": "treatment_planning"
+      },
+      {
+        "id": "n69",
+        "text": "This argues against straightforward Crohn’s disease.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Failure of multiple IBD-directed therapies argues against straightforward Crohn’s disease.",
+        "cluster_idx": 8,
+        "cluster_label": "treatment_planning"
+      },
+      {
+        "id": "n70",
+        "text": "This suggests an alternative untreated cause.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "If presumed IBD is refractory, an alternative untreated cause is a reasonable inference.",
+        "cluster_idx": 8,
+        "cluster_label": "treatment_planning"
+      },
+      {
+        "id": "n71",
+        "text": "Lymphogranuloma venereum proctitis due to Chlamydia trachomatis fits best.",
+        "category": "factual",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Given the microbiologic evidence and STI-type proctitis, LGV proctitis due to C. trachomatis is the best-fitting diagnosis.",
+        "cluster_idx": 9,
+        "cluster_label": "final_decision"
+      },
+      {
+        "id": "n72",
+        "text": "MSM exposure supports lymphogranuloma venereum proctitis due to Chlamydia trachomatis.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Recent MSM exposure is a classic epidemiologic risk factor supporting LGV proctitis.",
+        "cluster_idx": 9,
+        "cluster_label": "final_decision"
+      },
+      {
+        "id": "n73",
+        "text": "Hemorrhagic ulcerative proctitis with tenesmus and mucus supports lymphogranuloma venereum proctitis due to Chlamydia trachomatis.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Tenesmus, mucus, hematochezia, and ulcerative proctitis are characteristic of LGV-type proctitis.",
+        "cluster_idx": 9,
+        "cluster_label": "final_decision"
+      },
+      {
+        "id": "n74",
+        "text": "Rectal biopsy PCR positivity for Chlamydia trachomatis supports lymphogranuloma venereum proctitis due to Chlamydia trachomatis.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Rectal biopsy PCR positive for C. trachomatis strongly supports chlamydial/LGV proctitis.",
+        "cluster_idx": 9,
+        "cluster_label": "final_decision"
+      },
+      {
+        "id": "n75",
+        "text": "Positive chlamydial serology supports lymphogranuloma venereum proctitis due to Chlamydia trachomatis.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Positive chlamydial serology supports chlamydial infection, though serology alone is not definitive for LGV.",
+        "cluster_idx": 9,
+        "cluster_label": "final_decision"
+      },
+      {
+        "id": "n76",
+        "text": "Partial response to doxycycline supports lymphogranuloma venereum proctitis due to Chlamydia trachomatis.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Improvement after doxycycline is consistent with chlamydial proctitis and supports the diagnosis.",
+        "cluster_idx": 9,
+        "cluster_label": "final_decision"
+      },
+      {
+        "id": "n77",
+        "text": "Lymphogranuloma venereum is well known to mimic inflammatory bowel disease.",
+        "category": "factual",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "LGV is a recognized IBD mimic; this is standard clinical knowledge and consistent with the trace.",
+        "cluster_idx": 9,
+        "cluster_label": "final_decision"
+      },
+      {
+        "id": "n78",
+        "text": "Lymphogranuloma venereum can cause chronic ulcerative proctitis if not adequately recognized.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Untreated or inadequately recognized LGV can present as chronic ulcerative proctitis.",
+        "cluster_idx": 9,
+        "cluster_label": "final_decision"
+      },
+      {
+        "id": "n79",
+        "text": "Lymphogranuloma venereum can cause chronic ulcerative proctitis if reinfection occurs.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.6,
+        "reasoning": "Reinfection is mentioned in the trace as a possibility, but the reference data do not establish that it occurred.",
+        "cluster_idx": 9,
+        "cluster_label": "final_decision"
+      },
+      {
+        "id": "n80",
+        "text": "Lymphogranuloma venereum can cause chronic ulcerative proctitis if persistent infection occurs.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Persistent infection can plausibly cause chronic ulcerative proctitis and fits the prolonged course.",
+        "cluster_idx": 9,
+        "cluster_label": "final_decision"
+      },
+      {
+        "id": "n81",
+        "text": "The prolonged course despite treatment does not negate lymphogranuloma venereum.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "The case shows prolonged symptoms despite treatment; saying this does not exclude LGV is a reasonable clinical inference, not contradicted by the data.",
+        "cluster_idx": 9,
+        "cluster_label": "final_decision"
+      },
+      {
+        "id": "n82",
+        "text": "The prolonged course suggests persistent or inadequately eradicated invasive chlamydial infection.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Persistent symptoms after partial doxycycline response and positive rectal Chlamydia PCR support the inference of persistent or inadequately eradicated chlamydial infection.",
+        "cluster_idx": 9,
+        "cluster_label": "final_decision"
+      },
+      {
+        "id": "n83",
+        "text": "The discontinuous ulcerations involving the rectum, cecum, ileocecal valve, and terminal ileum are compatible with Crohn’s disease.",
+        "category": "causal",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Colonoscopy showed discontinuous ulcerations in the rectum, cecum, ileocecal valve, and terminal ileum, which is compatible with Crohn’s disease.",
+        "cluster_idx": 10,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n84",
+        "text": "Fecal calprotectin remained elevated.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "The reference data explicitly states that elevated fecal calprotectin persisted.",
+        "cluster_idx": 10,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n85",
+        "text": "The illness began as a classic STI-associated proctitis after sexual exposure.",
+        "category": "causal",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Presentation began after recent homosexual contact with rectal tenesmus, hematochezia, and mucous discharge, fitting STI-associated proctitis.",
+        "cluster_idx": 10,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n86",
+        "text": "There was direct microbiologic evidence of rectal chlamydial infection.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Rectal biopsy PCR was positive for Chlamydia trachomatis, which is direct microbiologic evidence.",
+        "cluster_idx": 10,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n87",
+        "text": "Histology was nonspecific.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Histopathology is described as mild active inflammation with polarized crypts and increased eosinophils, and later as nonspecific.",
+        "cluster_idx": 10,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n88",
+        "text": "There was failure of multiple IBD-directed therapies.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "The patient failed mesalazine, budesonide enemas, systemic glucocorticoids, adalimumab, and ustekinumab.",
+        "cluster_idx": 10,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n89",
+        "text": "These points make Crohn’s disease less likely as the primary diagnosis.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Given the STI onset, positive rectal Chlamydia PCR, nonspecific histology, and poor response to IBD therapy, Crohn’s is less likely as the primary diagnosis.",
+        "cluster_idx": 10,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n90",
+        "text": "Stool culture was positive for Brachyspira aalborgii.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Stool culture was positive for Brachyspira aalborgii.",
+        "cluster_idx": 11,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n91",
+        "text": "Metronidazole briefly helped.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "A 7-day course of metronidazole led to transient symptom relief for three weeks.",
+        "cluster_idx": 11,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n92",
+        "text": "This made intestinal spirochetosis or Brachyspira aalborgii-associated proctocolitis a plausible early explanation.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "A positive stool culture plus transient metronidazole response makes Brachyspira-associated proctocolitis a plausible early explanation.",
+        "cluster_idx": 11,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n93",
+        "text": "The transient response only makes intestinal spirochetosis or Brachyspira aalborgii-associated proctocolitis less likely to be the main diagnosis.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Transient-only response and stronger evidence for chlamydial proctitis reasonably make Brachyspira/spirochetosis less likely as the main diagnosis.",
+        "cluster_idx": 11,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n94",
+        "text": "Gonococcal proctitis was considered because it can cause ulcerative proctitis in MSM.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Gonorrhea is a standard differential for ulcerative proctitis in MSM; the trace explicitly says it was considered.",
+        "cluster_idx": 12,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n95",
+        "text": "HSV proctitis was considered because it can cause ulcerative proctitis in MSM.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "HSV is a standard differential for ulcerative proctitis in MSM; the trace explicitly says it was considered.",
+        "cluster_idx": 12,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n96",
+        "text": "CMV proctitis was considered because it can cause ulcerative proctitis in MSM.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "CMV is a standard differential for ulcerative proctitis in immunologic/infectious workups; the trace explicitly says it was considered.",
+        "cluster_idx": 12,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n97",
+        "text": "Syphilitic proctitis was considered because it can cause ulcerative proctitis in MSM.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Syphilis is a standard differential for proctitis in MSM; the trace explicitly says it was considered.",
+        "cluster_idx": 12,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n98",
+        "text": "Testing for gonorrhea was negative.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Urethral and anal swabs were negative for Neisseria gonorrhoeae.",
+        "cluster_idx": 12,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n99",
+        "text": "Testing for HSV was negative.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Rectal biopsy PCR was negative for herpes simplex virus I/II.",
+        "cluster_idx": 12,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n100",
+        "text": "Testing for CMV was negative.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Rectal biopsy PCR was negative for cytomegalovirus.",
+        "cluster_idx": 12,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n101",
+        "text": "Testing for syphilis was negative.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Treponema pallidum serology was negative.",
+        "cluster_idx": 12,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n102",
+        "text": "The strongest and most specific evidence is direct detection of Chlamydia trachomatis in rectal biopsy tissue.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Rectal biopsy PCR positivity for Chlamydia trachomatis is the direct microbiologic evidence referenced.",
+        "cluster_idx": 13,
+        "cluster_label": "final_decision"
+      },
+      {
+        "id": "n103",
+        "text": "The patient is a man with classic severe proctitis symptoms after MSM exposure.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "He is a man who has sex with men and presented with classic proctitis symptoms after recent homosexual contact.",
+        "cluster_idx": 13,
+        "cluster_label": "final_decision"
+      },
+      {
+        "id": "n104",
+        "text": "The ulcerative pattern is characteristic of LGV rather than uncomplicated non-LGV chlamydial infection.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Ulcerative proctitis with hemorrhagic symptoms and positive rectal Chlamydia PCR is consistent with LGV rather than uncomplicated chlamydial infection.",
+        "cluster_idx": 13,
+        "cluster_label": "final_decision"
+      },
+      {
+        "id": "n105",
+        "text": "The hemorrhagic pattern is characteristic of LGV rather than uncomplicated non-LGV chlamydial infection.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Hematochezia/hemorrhagic proctitis is a classic LGV pattern; this is a reasonable clinical inference from the case.",
+        "cluster_idx": 13,
+        "cluster_label": "final_decision"
+      },
+      {
+        "id": "n106",
+        "text": "The chronic pattern is characteristic of LGV rather than uncomplicated non-LGV chlamydial infection.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "The prolonged chronic course is compatible with LGV and supports that inference over uncomplicated infection.",
+        "cluster_idx": 13,
+        "cluster_label": "final_decision"
+      },
+      {
+        "id": "n107",
+        "text": "The IBD-mimicking pattern is characteristic of LGV rather than uncomplicated non-LGV chlamydial infection.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "LGV is well known to mimic IBD; this is a standard clinical inference from the presentation and microbiology.",
+        "cluster_idx": 13,
+        "cluster_label": "final_decision"
+      },
+      {
+        "id": "n108",
+        "text": "Although Crohn’s disease was later presumed based on discontinuous lesions, the nonspecific histology makes that diagnosis less convincing.",
+        "category": "causal",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "The trace states Crohn’s was later presumed based on discontinuous lesions, and histopathology was nonspecific, making it less convincing.",
+        "cluster_idx": 13,
+        "cluster_label": "final_decision"
+      },
+      {
+        "id": "n109",
+        "text": "Although Crohn’s disease was later presumed based on discontinuous lesions, the failure of extensive immunosuppression makes that diagnosis less convincing.",
+        "category": "causal",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "The patient had persistent symptoms and elevated fecal calprotectin despite glucocorticoids, adalimumab, and ustekinumab.",
+        "cluster_idx": 13,
+        "cluster_label": "final_decision"
+      },
+      {
+        "id": "n110",
+        "text": "The single most likely diagnosis is lymphogranuloma venereum proctitis.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "The trace explicitly concludes that the single most likely diagnosis is lymphogranuloma venereum proctitis.",
+        "cluster_idx": 13,
+        "cluster_label": "final_decision"
+      },
+      {
+        "id": "n111",
+        "text": "The final diagnosis is lymphogranuloma venereum proctitis.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "The trace explicitly states the final diagnosis is lymphogranuloma venereum proctitis.",
+        "cluster_idx": 13,
+        "cluster_label": "final_decision"
+      }
+    ],
+    "edges": [
+      {
+        "source": "n1",
+        "target": "n2",
+        "kind": "supports",
+        "explanation": "Rectal tenesmus, small-volume stools, hematochezia, and mucus are the classic symptom cluster of proctitis."
+      },
+      {
+        "source": "n1",
+        "target": "n4",
+        "kind": "supports",
+        "explanation": "The presenting syndrome is consistent with an infectious proctitis frame."
+      },
+      {
+        "source": "n3",
+        "target": "n6",
+        "kind": "supports",
+        "explanation": "Recent homosexual exposure is the salient sexual risk factor described."
+      },
+      {
+        "source": "n2",
+        "target": "n4",
+        "kind": "supports",
+        "explanation": "Recognizing the symptom cluster as proctitis supports the initial infectious proctitis frame."
+      },
+      {
+        "source": "n6",
+        "target": "n5",
+        "kind": "supports",
+        "explanation": "Recent MSM exposure increases suspicion for an STI-related cause over primary IBD."
+      },
+      {
+        "source": "n11",
+        "target": "n20",
+        "kind": "supports",
+        "explanation": "Ulcerative proctitis is a phenotype that raises concern for LGV serovars."
+      },
+      {
+        "source": "n11",
+        "target": "n73",
+        "kind": "supports",
+        "explanation": "Ulcerative proctitis supports the LGV explanation when combined with the symptom pattern."
+      },
+      {
+        "source": "n14",
+        "target": "n19",
+        "kind": "supports",
+        "explanation": "Direct rectal PCR positivity for Chlamydia trachomatis is strong microbiologic evidence."
+      },
+      {
+        "source": "n15",
+        "target": "n19",
+        "kind": "supports",
+        "explanation": "Positive chlamydial serology adds supportive evidence for chlamydial proctitis."
+      },
+      {
+        "source": "n18",
+        "target": "n19",
+        "kind": "supports",
+        "explanation": "Partial improvement after doxycycline supports a chlamydial etiology."
+      },
+      {
+        "source": "n14",
+        "target": "n74",
+        "kind": "supports",
+        "explanation": "Biopsy PCR positivity directly supports LGV proctitis due to Chlamydia trachomatis."
+      },
+      {
+        "source": "n15",
+        "target": "n75",
+        "kind": "supports",
+        "explanation": "Positive chlamydial serology supports LGV proctitis."
+      },
+      {
+        "source": "n18",
+        "target": "n76",
+        "kind": "supports",
+        "explanation": "Clinical response to doxycycline supports LGV proctitis."
+      },
+      {
+        "source": "n14",
+        "target": "n102",
+        "kind": "supports",
+        "explanation": "Rectal biopsy PCR positivity is direct detection of Chlamydia trachomatis."
+      },
+      {
+        "source": "n103",
+        "target": "n85",
+        "kind": "supports",
+        "explanation": "Classic severe proctitis symptoms after MSM exposure support an STI-associated onset."
+      },
+      {
+        "source": "n103",
+        "target": "n72",
+        "kind": "supports",
+        "explanation": "MSM exposure with severe proctitis supports LGV proctitis."
+      },
+      {
+        "source": "n73",
+        "target": "n71",
+        "kind": "supports",
+        "explanation": "Hemorrhagic ulcerative proctitis with tenesmus and mucus is characteristic of LGV proctitis."
+      },
+      {
+        "source": "n74",
+        "target": "n71",
+        "kind": "supports",
+        "explanation": "Direct rectal chlamydial detection strongly supports LGV proctitis."
+      },
+      {
+        "source": "n75",
+        "target": "n71",
+        "kind": "supports",
+        "explanation": "Positive chlamydial serology supports the final LGV diagnosis."
+      },
+      {
+        "source": "n76",
+        "target": "n71",
+        "kind": "supports",
+        "explanation": "Partial doxycycline response supports LGV proctitis."
+      },
+      {
+        "source": "n77",
+        "target": "n108",
+        "kind": "supports",
+        "explanation": "LGV's known IBD mimicry explains why Crohn’s was later considered."
+      },
+      {
+        "source": "n77",
+        "target": "n47",
+        "kind": "supports",
+        "explanation": "LGV can resemble Crohn’s disease."
+      },
+      {
+        "source": "n78",
+        "target": "n82",
+        "kind": "supports",
+        "explanation": "Chronic ulcerative proctitis from LGV is consistent with persistent infection."
+      },
+      {
+        "source": "n80",
+        "target": "n82",
+        "kind": "supports",
+        "explanation": "Persistent infection mechanistically explains the prolonged course."
+      },
+      {
+        "source": "n81",
+        "target": "n82",
+        "kind": "supports",
+        "explanation": "A prolonged course despite treatment is compatible with persistent or inadequately eradicated LGV."
+      },
+      {
+        "source": "n82",
+        "target": "n71",
+        "kind": "supports",
+        "explanation": "Persistent invasive chlamydial infection supports LGV proctitis as the best fit."
+      },
+      {
+        "source": "n83",
+        "target": "n47",
+        "kind": "supports",
+        "explanation": "Discontinuous ulcerations involving ileocecal and terminal ileal sites resemble Crohn’s disease."
+      },
+      {
+        "source": "n84",
+        "target": "n89",
+        "kind": "supports",
+        "explanation": "Persistently elevated fecal calprotectin supports ongoing inflammatory disease, but not specifically Crohn’s."
+      },
+      {
+        "source": "n87",
+        "target": "n89",
+        "kind": "supports",
+        "explanation": "Nonspecific histology weakens Crohn’s as the primary diagnosis."
+      },
+      {
+        "source": "n88",
+        "target": "n89",
+        "kind": "supports",
+        "explanation": "Failure of multiple IBD-directed therapies argues against Crohn’s disease as the main diagnosis."
+      },
+      {
+        "source": "n89",
+        "target": "n71",
+        "kind": "supports",
+        "explanation": "If Crohn’s is less likely as the primary diagnosis, LGV becomes the leading explanation."
+      },
+      {
+        "source": "n90",
+        "target": "n92",
+        "kind": "supports",
+        "explanation": "Brachyspira aalborgii growth makes intestinal spirochetosis or related proctocolitis plausible early on."
+      },
+      {
+        "source": "n91",
+        "target": "n92",
+        "kind": "supports",
+        "explanation": "Transient metronidazole response supports a possible spirochetal contributor early in the course."
+      },
+      {
+        "source": "n91",
+        "target": "n93",
+        "kind": "supports",
+        "explanation": "Only transient benefit makes Brachyspira-related disease less likely to be the main diagnosis."
+      },
+      {
+        "source": "n98",
+        "target": "n53",
+        "kind": "supports",
+        "explanation": "Negative rectal gonorrhea testing reduces the likelihood of gonococcal proctitis."
+      },
+      {
+        "source": "n99",
+        "target": "n56",
+        "kind": "supports",
+        "explanation": "Negative HSV testing reduces the likelihood of HSV proctitis."
+      },
+      {
+        "source": "n100",
+        "target": "n57",
+        "kind": "supports",
+        "explanation": "Negative CMV testing reduces the likelihood of CMV proctitis."
+      },
+      {
+        "source": "n101",
+        "target": "n58",
+        "kind": "supports",
+        "explanation": "Negative syphilis testing reduces the likelihood of syphilitic proctitis."
+      },
+      {
+        "source": "n37",
+        "target": "n59",
+        "kind": "supports",
+        "explanation": "Negative HIV serology reduces the likelihood of HIV-associated infectious proctitides."
+      },
+      {
+        "source": "n51",
+        "target": "n61",
+        "kind": "supports",
+        "explanation": "Absence of fistula weakens classic Crohn’s disease."
+      },
+      {
+        "source": "n52",
+        "target": "n62",
+        "kind": "supports",
+        "explanation": "Absence of stenosis weakens classic Crohn’s disease."
+      },
+      {
+        "source": "n46",
+        "target": "n63",
+        "kind": "supports",
+        "explanation": "Lack of more extensive small-bowel disease weakens classic Crohn’s disease."
+      },
+      {
+        "source": "n64",
+        "target": "n69",
+        "kind": "supports",
+        "explanation": "Refractoriness to mesalazine supports that straightforward Crohn’s is unlikely."
+      },
+      {
+        "source": "n65",
+        "target": "n69",
+        "kind": "supports",
+        "explanation": "Refractoriness to budesonide supports that straightforward Crohn’s is unlikely."
+      },
+      {
+        "source": "n66",
+        "target": "n69",
+        "kind": "supports",
+        "explanation": "Refractoriness to systemic glucocorticoids supports that straightforward Crohn’s is unlikely."
+      },
+      {
+        "source": "n67",
+        "target": "n69",
+        "kind": "supports",
+        "explanation": "Refractoriness to adalimumab supports that straightforward Crohn’s is unlikely."
+      },
+      {
+        "source": "n68",
+        "target": "n69",
+        "kind": "supports",
+        "explanation": "Refractoriness to ustekinumab supports that straightforward Crohn’s is unlikely."
+      },
+      {
+        "source": "n69",
+        "target": "n70",
+        "kind": "supports",
+        "explanation": "If straightforward Crohn’s is unlikely, an alternative untreated cause is suggested."
+      },
+      {
+        "source": "n70",
+        "target": "n71",
+        "kind": "supports",
+        "explanation": "An alternative untreated cause points toward LGV proctitis."
+      },
+      {
+        "source": "n94",
+        "target": "n53",
+        "kind": "supports",
+        "explanation": "Gonococcal proctitis was considered because it can present as ulcerative proctitis in MSM."
+      },
+      {
+        "source": "n95",
+        "target": "n56",
+        "kind": "supports",
+        "explanation": "HSV proctitis was considered because it can present as ulcerative proctitis in MSM."
+      },
+      {
+        "source": "n96",
+        "target": "n57",
+        "kind": "supports",
+        "explanation": "CMV proctitis was considered because it can present as ulcerative proctitis in MSM."
+      },
+      {
+        "source": "n97",
+        "target": "n58",
+        "kind": "supports",
+        "explanation": "Syphilitic proctitis was considered because it can present as ulcerative proctitis in MSM."
+      },
+      {
+        "source": "n104",
+        "target": "n71",
+        "kind": "supports",
+        "explanation": "An ulcerative pattern characteristic of LGV supports the final diagnosis."
+      },
+      {
+        "source": "n105",
+        "target": "n71",
+        "kind": "supports",
+        "explanation": "A hemorrhagic pattern characteristic of LGV supports the final diagnosis."
+      },
+      {
+        "source": "n106",
+        "target": "n71",
+        "kind": "supports",
+        "explanation": "A chronic pattern characteristic of LGV supports the final diagnosis."
+      },
+      {
+        "source": "n107",
+        "target": "n71",
+        "kind": "supports",
+        "explanation": "An IBD-mimicking pattern characteristic of LGV supports the final diagnosis."
+      },
+      {
+        "source": "n108",
+        "target": "n89",
+        "kind": "supports",
+        "explanation": "Nonspecific histology makes Crohn’s disease less convincing."
+      },
+      {
+        "source": "n109",
+        "target": "n89",
+        "kind": "supports",
+        "explanation": "Failure of extensive immunosuppression makes Crohn’s disease less convincing."
+      },
+      {
+        "source": "n71",
+        "target": "n110",
+        "kind": "supports",
+        "explanation": "The best-fitting diagnosis is LGV proctitis."
+      },
+      {
+        "source": "n110",
+        "target": "n111",
+        "kind": "supports",
+        "explanation": "The single most likely diagnosis is stated as the final diagnosis."
+      }
+    ],
+    "disconnected": [
+      "n10",
+      "n12",
+      "n13",
+      "n16",
+      "n17",
+      "n21",
+      "n22",
+      "n23",
+      "n24",
+      "n25",
+      "n26",
+      "n27",
+      "n28",
+      "n29",
+      "n30",
+      "n31",
+      "n32",
+      "n33",
+      "n34",
+      "n35",
+      "n36",
+      "n38",
+      "n39",
+      "n40",
+      "n41",
+      "n42",
+      "n43",
+      "n44",
+      "n45",
+      "n48",
+      "n49",
+      "n50",
+      "n54",
+      "n55",
+      "n60",
+      "n7",
+      "n79",
+      "n8",
+      "n86",
+      "n9"
+    ],
+    "clusters": [
+      {
+        "cluster_id": "c1",
+        "label": "history_taking",
+        "statement_indices": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "summary": "Initial symptom description and sexual exposure history frame the illness as infectious proctitis.",
+        "salience": 0.78
+      },
+      {
+        "cluster_id": "c2",
+        "label": "examination",
+        "statement_indices": [
+          11,
+          12,
+          13
+        ],
+        "summary": "Proctoscopy shows ulcerative, friable rectal mucosa consistent with proctitis.",
+        "salience": 0.72
+      },
+      {
+        "cluster_id": "c3",
+        "label": "test_ordering",
+        "statement_indices": [
+          14,
+          15,
+          16,
+          17,
+          18
+        ],
+        "summary": "Rectal biopsy PCR, serology, and doxycycline response support chlamydial infection.",
+        "salience": 0.9
+      },
+      {
+        "cluster_id": "c4",
+        "label": "differential_generation",
+        "statement_indices": [
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29
+        ],
+        "summary": "LGV is raised as a leading explanation; Brachyspira and pelvic inflammatory involvement are considered as alternatives or contributors.",
+        "salience": 0.74
+      },
+      {
+        "cluster_id": "c5",
+        "label": "test_ordering",
+        "statement_indices": [
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39
+        ],
+        "summary": "Histology and infectious serologies/PCRs are largely nonspecific or negative, narrowing the infectious differential.",
+        "salience": 0.83
+      },
+      {
+        "cluster_id": "c6",
+        "label": "examination",
+        "statement_indices": [
+          40,
+          41,
+          42
+        ],
+        "summary": "Normal external exam and vitals argue against severe systemic illness.",
+        "salience": 0.3
+      },
+      {
+        "cluster_id": "c7",
+        "label": "test_ordering",
+        "statement_indices": [
+          43,
+          44,
+          45,
+          46,
+          47,
+          48,
+          49,
+          50,
+          51,
+          52
+        ],
+        "summary": "Colonoscopy and MRI show discontinuous ulcerations and enhancement without fistula or stenosis, raising Crohn-like features but lacking specificity.",
+        "salience": 0.8
+      },
+      {
+        "cluster_id": "c8",
+        "label": "differential_generation",
+        "statement_indices": [
+          53,
+          54,
+          55,
+          56,
+          57,
+          58,
+          59,
+          60,
+          61,
+          62,
+          63
+        ],
+        "summary": "Negative STI testing and absent fistula/stenosis or extensive small-bowel disease reduce alternative infectious causes and classic Crohn’s disease.",
+        "salience": 0.76
+      },
+      {
+        "cluster_id": "c9",
+        "label": "treatment_planning",
+        "statement_indices": [
+          64,
+          65,
+          66,
+          67,
+          68,
+          69,
+          70
+        ],
+        "summary": "Failure of multiple IBD therapies argues against straightforward Crohn’s disease and suggests another untreated cause.",
+        "salience": 0.82
+      },
+      {
+        "cluster_id": "c10",
+        "label": "final_decision",
+        "statement_indices": [
+          71,
+          72,
+          73,
+          74,
+          75,
+          76,
+          77,
+          78,
+          79,
+          80,
+          81,
+          82
+        ],
+        "summary": "LGV proctitis due to Chlamydia trachomatis is favored based on exposure, symptoms, microbiology, serology, and doxycycline response.",
+        "salience": 0.98
+      },
+      {
+        "cluster_id": "c11",
+        "label": "differential_generation",
+        "statement_indices": [
+          83,
+          84,
+          85,
+          86,
+          87,
+          88,
+          89
+        ],
+        "summary": "Crohn’s disease remains a consideration from imaging and calprotectin, but the STI onset, chlamydial evidence, nonspecific histology, and treatment failure make it less likely.",
+        "salience": 0.88
+      },
+      {
+        "cluster_id": "c12",
+        "label": "differential_generation",
+        "statement_indices": [
+          90,
+          91,
+          92,
+          93
+        ],
+        "summary": "Brachyspira aalborgii-associated proctocolitis is considered early but transient metronidazole response makes it less likely as the main diagnosis.",
+        "salience": 0.55
+      },
+      {
+        "cluster_id": "c13",
+        "label": "differential_generation",
+        "statement_indices": [
+          94,
+          95,
+          96,
+          97,
+          98,
+          99,
+          100,
+          101
+        ],
+        "summary": "Other ulcerative proctitis causes in MSM—gonorrhea, HSV, CMV, and syphilis—are considered and then excluded by negative testing.",
+        "salience": 0.7
+      },
+      {
+        "cluster_id": "c14",
+        "label": "final_decision",
+        "statement_indices": [
+          102,
+          103,
+          104,
+          105,
+          106,
+          107,
+          108,
+          109,
+          110,
+          111
+        ],
+        "summary": "Direct rectal Chlamydia detection and the LGV-compatible phenotype outweigh Crohn’s mimics, leading to the final diagnosis of LGV proctitis.",
+        "salience": 0.99
+      }
+    ],
+    "node_ranks": {
+      "n1": 0.23,
+      "n2": 0.29,
+      "n3": 0.23,
+      "n4": 0.35,
+      "n5": 0.35,
+      "n6": 0.29,
+      "n7": 0.2,
+      "n8": 0.2,
+      "n9": 0.2,
+      "n10": 0.2,
+      "n11": 0.16,
+      "n12": 0.25,
+      "n13": 0.25,
+      "n14": 0.21,
+      "n15": 0.21,
+      "n16": 0.3,
+      "n17": 0.3,
+      "n18": 0.21,
+      "n19": 0.5,
+      "n20": 0.5,
+      "n21": 0.35,
+      "n22": 0.35,
+      "n23": 0.35,
+      "n24": 0.35,
+      "n25": 0.35,
+      "n26": 0.35,
+      "n27": 0.35,
+      "n28": 0.35,
+      "n29": 0.35,
+      "n30": 0.4,
+      "n31": 0.4,
+      "n32": 0.4,
+      "n33": 0.4,
+      "n34": 0.4,
+      "n35": 0.4,
+      "n36": 0.4,
+      "n37": 0.49,
+      "n38": 0.4,
+      "n39": 0.4,
+      "n40": 0.45,
+      "n41": 0.45,
+      "n42": 0.45,
+      "n43": 0.5,
+      "n44": 0.5,
+      "n45": 0.5,
+      "n46": 0.59,
+      "n47": 0.65,
+      "n48": 0.5,
+      "n49": 0.5,
+      "n50": 0.5,
+      "n51": 0.59,
+      "n52": 0.59,
+      "n53": 0.7,
+      "n54": 0.55,
+      "n55": 0.55,
+      "n56": 0.7,
+      "n57": 0.7,
+      "n58": 0.7,
+      "n59": 0.7,
+      "n60": 0.55,
+      "n61": 0.7,
+      "n62": 0.7,
+      "n63": 0.7,
+      "n64": 0.45,
+      "n65": 0.45,
+      "n66": 0.45,
+      "n67": 0.45,
+      "n68": 0.45,
+      "n69": 0.51,
+      "n70": 0.57,
+      "n71": 0.68,
+      "n72": 0.8,
+      "n73": 0.62,
+      "n74": 0.62,
+      "n75": 0.62,
+      "n76": 0.62,
+      "n77": 0.5,
+      "n78": 0.56,
+      "n79": 0.65,
+      "n80": 0.56,
+      "n81": 0.56,
+      "n82": 0.62,
+      "n83": 0.79,
+      "n84": 0.61,
+      "n85": 0.85,
+      "n86": 0.7,
+      "n87": 0.61,
+      "n88": 0.61,
+      "n89": 0.67,
+      "n90": 0.84,
+      "n91": 0.84,
+      "n92": 0.9,
+      "n93": 0.9,
+      "n94": 0.89,
+      "n95": 0.89,
+      "n96": 0.89,
+      "n97": 0.89,
+      "n98": 0.89,
+      "n99": 0.89,
+      "n100": 0.89,
+      "n101": 0.89,
+      "n102": 1.0,
+      "n103": 0.94,
+      "n104": 0.82,
+      "n105": 0.82,
+      "n106": 0.82,
+      "n107": 0.82,
+      "n108": 0.76,
+      "n109": 0.76,
+      "n110": 0.94,
+      "n111": 1.0
+    }
+  }
+}

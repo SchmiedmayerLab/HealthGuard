@@ -1,0 +1,10 @@
+{
+  "name": "chain_verify",
+  "passed": true,
+  "score": 1.0,
+  "reasoning": "All logical chains are internally consistent. The statements form a coherent diagnostic chain: postoperative anterior chamber foreign body, steroid-responsive but steroid-dependent recurrent anterior uveitis, and negative systemic/infectious workup together support chronic postoperative anterior uveitis due to retained intraocular foreign material. The intermediate differential statements are logically consistent with the final conclusion, and no broken causal dependency is evident.",
+  "data": {
+    "has_chain_dependencies": true,
+    "issues": []
+  }
+}

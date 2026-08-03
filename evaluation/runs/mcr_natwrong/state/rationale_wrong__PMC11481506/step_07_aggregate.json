@@ -1,0 +1,42 @@
+{
+  "name": "aggregate",
+  "passed": false,
+  "score": 0.9405,
+  "reasoning": "Failed overall. The weighted aggregate score was 0.9405, and the main issue was a decomposition completeness failure, with several source details and causal links not fully preserved in the structured statements. Despite internally consistent reasoning and no major contradiction, the verification did not pass because of these coverage gaps.",
+  "data": {
+    "weighted_score": 0.9405,
+    "all_passed": false,
+    "step_scores": {
+      "static_rules": {
+        "score": 1.0,
+        "passed": true,
+        "weight": 0.1
+      },
+      "decompose": {
+        "score": 0.0,
+        "passed": false,
+        "weight": 0.05
+      },
+      "chain_verify": {
+        "score": 1.0,
+        "passed": true,
+        "weight": 0.1
+      },
+      "classify": {
+        "score": 1.0,
+        "passed": true,
+        "weight": 0.0
+      },
+      "expert_verify": {
+        "score": 1.0,
+        "passed": true,
+        "weight": 0.65
+      },
+      "build_graph": {
+        "score": 0.9054,
+        "passed": false,
+        "weight": 0.1
+      }
+    }
+  }
+}

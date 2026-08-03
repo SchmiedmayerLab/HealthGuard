@@ -1,0 +1,42 @@
+{
+  "name": "aggregate",
+  "passed": false,
+  "score": 0.932,
+  "reasoning": "Overall verdict: failed. The main issue was the decomposition step, which missed several source details and introduced some overstrong paraphrases, although the logical chain and expert verification were otherwise consistent. The weighted aggregate score was 0.932, and the case conclusion of lymphogranuloma venereum proctitis was well supported despite the pipeline failure.",
+  "data": {
+    "weighted_score": 0.932,
+    "all_passed": false,
+    "step_scores": {
+      "static_rules": {
+        "score": 1.0,
+        "passed": true,
+        "weight": 0.1
+      },
+      "decompose": {
+        "score": 0.0,
+        "passed": false,
+        "weight": 0.05
+      },
+      "chain_verify": {
+        "score": 1.0,
+        "passed": true,
+        "weight": 0.1
+      },
+      "classify": {
+        "score": 1.0,
+        "passed": true,
+        "weight": 0.0
+      },
+      "expert_verify": {
+        "score": 1.0,
+        "passed": true,
+        "weight": 0.65
+      },
+      "build_graph": {
+        "score": 0.8198,
+        "passed": false,
+        "weight": 0.1
+      }
+    }
+  }
+}

@@ -1,0 +1,510 @@
+{
+  "name": "classify",
+  "passed": true,
+  "score": 1.0,
+  "reasoning": "Classified 100 statement(s): 38 causal, 48 factual, 14 statistical.",
+  "data": {
+    "classified": [
+      {
+        "text": "The chief concern is chronic urinary abnormalities progressing over many years.",
+        "category": "factual",
+        "rationale": "It states a clinical feature of the patient’s course without making a numerical claim or causal inference."
+      },
+      {
+        "text": "Occult blood has been present in the urine since age 24.",
+        "category": "factual",
+        "rationale": "This is a direct assertion about the patient’s urinalysis history."
+      },
+      {
+        "text": "Hypertension developed at age 37.",
+        "category": "factual",
+        "rationale": "It reports a patient attribute with timing, not a causal or numerical comparison."
+      },
+      {
+        "text": "Proteinuria increased from 0.4 g/g creatinine to 1.16 g/g creatinine over 8 years.",
+        "category": "statistical",
+        "rationale": "It contains specific numeric values and a quantified change over time."
+      },
+      {
+        "text": "At admission, kidney function was preserved.",
+        "category": "factual",
+        "rationale": "This is a descriptive statement about renal status."
+      },
+      {
+        "text": "At admission, persistent glomerular urinary findings were present.",
+        "category": "factual",
+        "rationale": "It asserts the presence of a clinical finding."
+      },
+      {
+        "text": "Urinalysis showed proteinuria of 0.7 g/g creatinine.",
+        "category": "statistical",
+        "rationale": "It reports a specific measured value."
+      },
+      {
+        "text": "Urinalysis showed microscopic hematuria of 10–19 RBCs/HPF.",
+        "category": "statistical",
+        "rationale": "It includes a quantified laboratory result."
+      },
+      {
+        "text": "Urinalysis showed red-cell casts.",
+        "category": "factual",
+        "rationale": "This is a direct report of a urinalysis finding."
+      },
+      {
+        "text": "Red-cell casts strongly localize bleeding to the glomerulus.",
+        "category": "causal",
+        "rationale": "It explains the relationship between red-cell casts and the bleeding source."
+      },
+      {
+        "text": "Hypertension is present at 140/78 mm Hg on losartan and amlodipine.",
+        "category": "statistical",
+        "rationale": "It gives a specific blood pressure measurement."
+      },
+      {
+        "text": "The course is indolent over decades.",
+        "category": "factual",
+        "rationale": "It describes the tempo and duration of the illness."
+      },
+      {
+        "text": "The course began in young adulthood.",
+        "category": "factual",
+        "rationale": "It states when the illness started."
+      },
+      {
+        "text": "Renal function is preserved.",
+        "category": "factual",
+        "rationale": "It is a direct statement about kidney function."
+      },
+      {
+        "text": "Creatinine is 0.69 mg/dL.",
+        "category": "statistical",
+        "rationale": "It reports a specific laboratory value."
+      },
+      {
+        "text": "Cystatin C is 0.74 mg/L.",
+        "category": "statistical",
+        "rationale": "It reports a specific laboratory value."
+      },
+      {
+        "text": "eGFR is 97.6 mL/min/1.73 m^2.",
+        "category": "statistical",
+        "rationale": "It provides a numerical kidney function estimate."
+      },
+      {
+        "text": "Albumin is 4.1 g/dL.",
+        "category": "statistical",
+        "rationale": "It is a specific measured lab value."
+      },
+      {
+        "text": "The kidneys are normal-sized on ultrasound.",
+        "category": "factual",
+        "rationale": "It states an imaging finding."
+      },
+      {
+        "text": "He is obese.",
+        "category": "factual",
+        "rationale": "It is a direct patient attribute."
+      },
+      {
+        "text": "His BMI is 31.5.",
+        "category": "statistical",
+        "rationale": "It gives a specific numeric BMI value."
+      },
+      {
+        "text": "He has been overweight since adolescence.",
+        "category": "factual",
+        "rationale": "It describes a historical patient characteristic."
+      },
+      {
+        "text": "Obesity-related glomerulopathy is a possibility.",
+        "category": "factual",
+        "rationale": "It states a diagnostic consideration rather than a recommendation or numeric claim."
+      },
+      {
+        "text": "Obesity-related glomerulopathy alone would not explain the persistent microscopic hematuria with red-cell casts.",
+        "category": "causal",
+        "rationale": "It asserts a mechanistic/diagnostic relationship between the condition and the findings."
+      },
+      {
+        "text": "He denied gross hematuria.",
+        "category": "factual",
+        "rationale": "It reports a negative symptom history."
+      },
+      {
+        "text": "He denied flank pain.",
+        "category": "factual",
+        "rationale": "It reports a negative symptom history."
+      },
+      {
+        "text": "The denial of gross hematuria and flank pain argues against nephrolithiasis.",
+        "category": "causal",
+        "rationale": "It links the absence of symptoms to a reduced likelihood of a diagnosis."
+      },
+      {
+        "text": "The denial of gross hematuria and flank pain argues against episodic urologic bleeding.",
+        "category": "causal",
+        "rationale": "It explains how symptom absence affects diagnostic reasoning."
+      },
+      {
+        "text": "CRP is normal.",
+        "category": "statistical",
+        "rationale": "It refers to a lab result with an implicit normal range."
+      },
+      {
+        "text": "ANA is normal.",
+        "category": "statistical",
+        "rationale": "It is a laboratory result stated in relation to normality."
+      },
+      {
+        "text": "Complements are normal.",
+        "category": "statistical",
+        "rationale": "It reports a lab status relative to normal."
+      },
+      {
+        "text": "Immunoglobulins are normal.",
+        "category": "statistical",
+        "rationale": "It reports a laboratory status relative to normal."
+      },
+      {
+        "text": "Normal CRP, ANA, complements, and immunoglobulins make systemic inflammatory or immune-complex diseases less likely.",
+        "category": "causal",
+        "rationale": "It states how these test results influence the likelihood of disease categories."
+      },
+      {
+        "text": "Lupus nephritis is less likely.",
+        "category": "factual",
+        "rationale": "It is a diagnostic assessment of probability."
+      },
+      {
+        "text": "Infection-related glomerulonephritis is less likely.",
+        "category": "factual",
+        "rationale": "It is a diagnostic assessment of probability."
+      },
+      {
+        "text": "There is no family history of kidney disease.",
+        "category": "factual",
+        "rationale": "It states a negative family history."
+      },
+      {
+        "text": "The absence of family history makes hereditary nephritis less likely.",
+        "category": "causal",
+        "rationale": "It links family history absence to reduced likelihood of hereditary disease."
+      },
+      {
+        "text": "Alport syndrome is less likely.",
+        "category": "factual",
+        "rationale": "It is a diagnostic probability statement."
+      },
+      {
+        "text": "Thin basement membrane disease is less likely.",
+        "category": "factual",
+        "rationale": "It is a diagnostic probability statement."
+      },
+      {
+        "text": "Normal serum albumin and only subnephrotic proteinuria argue against nephrotic syndromes as the main presentation.",
+        "category": "causal",
+        "rationale": "It explains how lab findings reduce the likelihood of nephrotic syndromes."
+      },
+      {
+        "text": "Primary FSGS is less likely as the main presentation.",
+        "category": "factual",
+        "rationale": "It is a diagnostic probability statement."
+      },
+      {
+        "text": "Membranous nephropathy is less likely as the main presentation.",
+        "category": "factual",
+        "rationale": "It is a diagnostic probability statement."
+      },
+      {
+        "text": "Normal ultrasound with preserved cortical thickness argues against advanced chronic structural kidney disease.",
+        "category": "causal",
+        "rationale": "It links imaging findings to a reduced likelihood of advanced chronic disease."
+      },
+      {
+        "text": "The leading differential is IgA nephropathy.",
+        "category": "factual",
+        "rationale": "It states the leading diagnostic consideration."
+      },
+      {
+        "text": "IgA nephropathy commonly presents with persistent microscopic hematuria.",
+        "category": "factual",
+        "rationale": "It describes a typical clinical feature of the disease."
+      },
+      {
+        "text": "IgA nephropathy commonly presents with variable proteinuria.",
+        "category": "factual",
+        "rationale": "It describes a typical clinical feature of the disease."
+      },
+      {
+        "text": "IgA nephropathy commonly presents with hypertension.",
+        "category": "factual",
+        "rationale": "It describes a typical clinical feature of the disease."
+      },
+      {
+        "text": "IgA nephropathy commonly presents with preserved renal function for years.",
+        "category": "factual",
+        "rationale": "It describes a typical disease course."
+      },
+      {
+        "text": "Red-cell casts support glomerulonephritis.",
+        "category": "causal",
+        "rationale": "It states that a finding supports a particular disease process."
+      },
+      {
+        "text": "The long indolent course from young adulthood fits IgA nephropathy well.",
+        "category": "causal",
+        "rationale": "It relates the clinical course to the likelihood of IgA nephropathy."
+      },
+      {
+        "text": "Serum IgA is normal.",
+        "category": "statistical",
+        "rationale": "It reports a laboratory result relative to normal."
+      },
+      {
+        "text": "There is no history of gross hematuria.",
+        "category": "factual",
+        "rationale": "It states a negative symptom history."
+      },
+      {
+        "text": "Normal serum IgA does not exclude IgA nephropathy.",
+        "category": "causal",
+        "rationale": "It explains the diagnostic relationship between a lab result and disease exclusion."
+      },
+      {
+        "text": "The absence of gross hematuria does not exclude IgA nephropathy.",
+        "category": "causal",
+        "rationale": "It states how the absence of a symptom affects diagnostic exclusion."
+      },
+      {
+        "text": "A second consideration is obesity-related glomerulopathy/FSGS.",
+        "category": "factual",
+        "rationale": "It identifies another diagnostic consideration."
+      },
+      {
+        "text": "Obesity-related glomerulopathy/FSGS is supported by longstanding obesity.",
+        "category": "causal",
+        "rationale": "It links obesity to support for the diagnosis."
+      },
+      {
+        "text": "Obesity-related glomerulopathy/FSGS is supported by hypertension.",
+        "category": "causal",
+        "rationale": "It links hypertension to support for the diagnosis."
+      },
+      {
+        "text": "Obesity-related glomerulopathy/FSGS is supported by proteinuria.",
+        "category": "causal",
+        "rationale": "It links proteinuria to support for the diagnosis."
+      },
+      {
+        "text": "Obesity-related glomerulopathy typically causes proteinuria with bland urine sediment.",
+        "category": "factual",
+        "rationale": "It describes a typical disease pattern."
+      },
+      {
+        "text": "This patient has longstanding microscopic hematuria.",
+        "category": "factual",
+        "rationale": "It states a patient finding."
+      },
+      {
+        "text": "This patient has red-cell casts.",
+        "category": "factual",
+        "rationale": "It states a patient finding."
+      },
+      {
+        "text": "Microscopic hematuria and red-cell casts are much more suggestive of a primary glomerulonephritis.",
+        "category": "causal",
+        "rationale": "It links specific findings to a diagnostic category."
+      },
+      {
+        "text": "Another consideration is thin basement membrane nephropathy.",
+        "category": "factual",
+        "rationale": "It identifies a diagnostic consideration."
+      },
+      {
+        "text": "Another consideration is Alport-spectrum disease.",
+        "category": "factual",
+        "rationale": "It identifies a diagnostic consideration."
+      },
+      {
+        "text": "Young-onset isolated hematuria could fit thin basement membrane nephropathy or Alport-spectrum disease.",
+        "category": "causal",
+        "rationale": "It relates a clinical pattern to possible diagnoses."
+      },
+      {
+        "text": "Progressive proteinuria favors a more inflammatory glomerular disease.",
+        "category": "causal",
+        "rationale": "It explains how proteinuria influences diagnostic likelihood."
+      },
+      {
+        "text": "Hypertension favors a more inflammatory glomerular disease.",
+        "category": "causal",
+        "rationale": "It links hypertension to a diagnostic inference."
+      },
+      {
+        "text": "Red-cell casts favor a more inflammatory glomerular disease.",
+        "category": "causal",
+        "rationale": "It links red-cell casts to a diagnostic inference."
+      },
+      {
+        "text": "There is no family history provided.",
+        "category": "factual",
+        "rationale": "It states the absence of provided family history information."
+      },
+      {
+        "text": "There are no extrarenal features provided.",
+        "category": "factual",
+        "rationale": "It states the absence of provided extrarenal findings."
+      },
+      {
+        "text": "Other immune-complex or systemic glomerulonephritides are less likely.",
+        "category": "factual",
+        "rationale": "It is a diagnostic probability statement."
+      },
+      {
+        "text": "Normal complements make other immune-complex or systemic glomerulonephritides less likely.",
+        "category": "causal",
+        "rationale": "It links complement results to diagnostic likelihood."
+      },
+      {
+        "text": "Negative ANA makes other immune-complex or systemic glomerulonephritides less likely.",
+        "category": "causal",
+        "rationale": "It links ANA results to diagnostic likelihood."
+      },
+      {
+        "text": "The lack of systemic symptoms makes other immune-complex or systemic glomerulonephritides less likely.",
+        "category": "causal",
+        "rationale": "It explains how symptom absence affects diagnostic likelihood."
+      },
+      {
+        "text": "The very chronic stable course makes other immune-complex or systemic glomerulonephritides less likely.",
+        "category": "causal",
+        "rationale": "It links the disease course to diagnostic likelihood."
+      },
+      {
+        "text": "The combination of decades-long microscopic hematuria, subnephrotic but increasing proteinuria, hypertension, red-cell casts, preserved renal function, and absence of systemic disease most strongly supports IgA nephropathy.",
+        "category": "causal",
+        "rationale": "It synthesizes multiple findings into a diagnostic inference."
+      },
+      {
+        "text": "IgA nephropathy is the single most likely diagnosis.",
+        "category": "factual",
+        "rationale": "It states the most likely diagnosis."
+      },
+      {
+        "text": "IgA nephropathy is listed as a high-probability differential diagnosis.",
+        "category": "factual",
+        "rationale": "It reports the diagnostic ranking."
+      },
+      {
+        "text": "Chronic microscopic hematuria since age 24 supports IgA nephropathy.",
+        "category": "causal",
+        "rationale": "It links a clinical feature to support for the diagnosis."
+      },
+      {
+        "text": "Increasing subnephrotic proteinuria supports IgA nephropathy.",
+        "category": "causal",
+        "rationale": "It links proteinuria progression to diagnostic support."
+      },
+      {
+        "text": "Hypertension supports IgA nephropathy.",
+        "category": "causal",
+        "rationale": "It links hypertension to diagnostic support."
+      },
+      {
+        "text": "Red-cell casts indicate glomerular bleeding.",
+        "category": "causal",
+        "rationale": "It states the relationship between red-cell casts and bleeding source."
+      },
+      {
+        "text": "The long indolent course with preserved renal function is typical of IgA nephropathy.",
+        "category": "factual",
+        "rationale": "It describes a typical disease course."
+      },
+      {
+        "text": "Obesity-related glomerulopathy / secondary FSGS is listed as a medium-probability differential diagnosis.",
+        "category": "factual",
+        "rationale": "It reports the diagnostic ranking."
+      },
+      {
+        "text": "BMI 31.5 with longstanding overweight could fit obesity-related glomerulopathy / secondary FSGS.",
+        "category": "causal",
+        "rationale": "It links obesity-related features to a possible diagnosis."
+      },
+      {
+        "text": "Persistent hematuria is less typical of obesity-related glomerulopathy / secondary FSGS.",
+        "category": "factual",
+        "rationale": "It states a comparative diagnostic feature."
+      },
+      {
+        "text": "Red-cell casts are less typical of obesity-related glomerulopathy / secondary FSGS.",
+        "category": "factual",
+        "rationale": "It states a comparative diagnostic feature."
+      },
+      {
+        "text": "Persistent hematuria and red-cell casts argue against obesity-related glomerulopathy / secondary FSGS as the primary diagnosis.",
+        "category": "causal",
+        "rationale": "It explains how findings reduce the likelihood of that diagnosis."
+      },
+      {
+        "text": "Thin basement membrane nephropathy or Alport-spectrum hereditary nephritis is listed as a low-probability differential diagnosis.",
+        "category": "factual",
+        "rationale": "It reports the diagnostic ranking."
+      },
+      {
+        "text": "Young-onset persistent microscopic hematuria could fit thin basement membrane nephropathy or Alport-spectrum hereditary nephritis.",
+        "category": "causal",
+        "rationale": "It links a clinical pattern to possible diagnoses."
+      },
+      {
+        "text": "Progressive proteinuria suggests a more active glomerulonephritis than thin basement membrane nephropathy or Alport-spectrum hereditary nephritis.",
+        "category": "causal",
+        "rationale": "It compares findings to infer a more active disease process."
+      },
+      {
+        "text": "Hypertension suggests a more active glomerulonephritis than thin basement membrane nephropathy or Alport-spectrum hereditary nephritis.",
+        "category": "causal",
+        "rationale": "It compares findings to infer a more active disease process."
+      },
+      {
+        "text": "Red-cell casts suggest a more active glomerulonephritis than thin basement membrane nephropathy or Alport-spectrum hereditary nephritis.",
+        "category": "causal",
+        "rationale": "It compares findings to infer a more active disease process."
+      },
+      {
+        "text": "No family history is given for thin basement membrane nephropathy or Alport-spectrum hereditary nephritis.",
+        "category": "factual",
+        "rationale": "It states that family history information is absent."
+      },
+      {
+        "text": "No extrarenal features are given for thin basement membrane nephropathy or Alport-spectrum hereditary nephritis.",
+        "category": "factual",
+        "rationale": "It states that extrarenal feature information is absent."
+      },
+      {
+        "text": "Other immune-complex glomerulonephritis is listed as a low-probability differential diagnosis.",
+        "category": "factual",
+        "rationale": "It reports the diagnostic ranking."
+      },
+      {
+        "text": "Glomerular hematuria is compatible with other immune-complex glomerulonephritis.",
+        "category": "causal",
+        "rationale": "It links a finding to compatibility with a diagnosis."
+      },
+      {
+        "text": "Proteinuria is compatible with other immune-complex glomerulonephritis.",
+        "category": "causal",
+        "rationale": "It links a finding to compatibility with a diagnosis."
+      },
+      {
+        "text": "Normal ANA, complements, and CRP make lupus nephritis and membranoproliferative GN much less likely.",
+        "category": "causal",
+        "rationale": "It explains how lab results affect the likelihood of those diseases."
+      },
+      {
+        "text": "The final diagnosis is IgA nephropathy.",
+        "category": "factual",
+        "rationale": "It states the final diagnosis directly."
+      }
+    ]
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "name": "chain_verify",
+  "passed": true,
+  "score": 1.0,
+  "reasoning": "All logical chains are internally consistent. The statements form a coherent diagnostic reasoning chain: clinical findings are used to exclude mumps, HIV, HLH, ALPS, and X-linked lymphoproliferative disease, then support APDS as the best-fitting diagnosis. The dependencies are logically consistent and the conclusions are supported by the preceding evidence.",
+  "data": {
+    "has_chain_dependencies": true,
+    "issues": []
+  }
+}

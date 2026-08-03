@@ -1,0 +1,15 @@
+{
+  "n": 152,
+  "full": {
+    "kg": 0.667,
+    "coverage_v4": 0.631,
+    "kg+coverage": 0.664
+  },
+  "confident_subset": {
+    "n": 94,
+    "n_wrong": 28,
+    "kg": 0.603,
+    "coverage_v4": 0.61,
+    "kg+coverage": 0.607
+  }
+}

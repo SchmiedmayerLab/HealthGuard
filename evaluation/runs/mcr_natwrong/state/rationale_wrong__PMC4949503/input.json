@@ -1,0 +1,40 @@
+{
+  "input": {
+    "resourceType": "clinicalCaseDiagnosis",
+    "id": "PMC4949503",
+    "origin": "testdata/streamlined/clinical-cases-cot/extracted/PMC4949503.json",
+    "groundTruthDiagnosis": "UrticarialFixedDrugEruption",
+    "rawInput": {
+      "complaint": "A 72-year-old Caucasian woman with Sézary syndrome, previously treated with interferon alfa-2b and photopheresis, began romidepsin therapy (14 mg/m2 on days 1, 8, and 15) with bexarotene. Five hours after the second infusion, she noted bright, hot, salmon-pink, nonscaly, edematous nummular patches and plaques in body folds, on the face, upper chest, and back. She described her skin as feeling like a heat rash with minimal pruritus. She had no fever, skin pain, lymphadenopathy, mucositis, arthralgia, transaminitis, neutrophilia, or eosinophilia. Topical desonide and triamcinolone were applied. A punch biopsy showed a neutrophilic infiltrate in the papillary and superficial reticular dermis with mild spongiosis and no epidermal necrosis.",
+      "metadata": {
+        "presentation": "A 72-year-old Caucasian woman with Sézary syndrome, previously treated with interferon alfa-2b and photopheresis, began romidepsin therapy (14 mg/m2 on days 1, 8, and 15) with bexarotene. Five hours after the second infusion, she noted bright, hot, salmon-pink, nonscaly, edematous nummular patches and plaques in body folds, on the face, upper chest, and back. She described her skin as feeling like a heat rash with minimal pruritus. She had no fever, skin pain, lymphadenopathy, mucositis, arthralgia, transaminitis, neutrophilia, or eosinophilia. Topical desonide and triamcinolone were applied. A punch biopsy showed a neutrophilic infiltrate in the papillary and superficial reticular dermis with mild spongiosis and no epidermal necrosis."
+      }
+    },
+    "cotDiagnosis": {
+      "reasoning": "The chief issue is an acute cutaneous eruption occurring in close temporal relationship to chemotherapy: 5 hours after the second romidepsin infusion, the patient developed bright, hot, salmon-pink, nonscaly, edematous nummular patches and plaques involving intertriginous areas, face, upper chest, and back. Her own description of the skin feeling like a 'heat rash' with minimal pruritus points to an inflammatory drug eruption rather than painful skin necrosis or severe hypersensitivity.\n\nSalient positive findings are: (1) strong timing with drug exposure, specifically romidepsin infusion; (2) morphology of well-described erythematous edematous plaques/patches; (3) distribution favoring body folds/intertriginous areas with additional face/chest/back involvement; and (4) biopsy showing a neutrophilic infiltrate in the papillary and superficial reticular dermis with mild spongiosis and no epidermal necrosis. The patient has Sézary syndrome, but this eruption is described as new and acute after infusion, making progression of baseline disease less likely. She was also on bexarotene, but the immediate post-infusion onset implicates romidepsin more strongly.\n\nPertinent negatives help exclude more dangerous or alternative diagnoses: no fever, no skin pain, no lymphadenopathy, no mucositis, no arthralgia, no transaminitis, no neutrophilia, and no eosinophilia. Histology showed no epidermal necrosis. These findings argue against Stevens-Johnson syndrome/toxic epidermal necrolysis, DRESS, classic Sweet syndrome, and AGEP. Lack of mucosal involvement and epidermal necrosis is especially important against SJS/TEN. Lack of eosinophilia and systemic organ involvement argues against DRESS. Lack of fever and neutrophilia argues against classic Sweet syndrome, although the biopsy is neutrophilic.\n\nThe leading differential is toxic erythema of chemotherapy (TEC). TEC is a chemotherapy-associated eruption characterized by erythematous edematous patches/plaques, often in intertriginous areas, sometimes described as painful or burning but not necessarily severe, and can occur shortly after chemotherapy exposure. Histology can show interface change, eccrine involvement, or nonspecific inflammatory changes; neutrophilic eccrine hidradenitis lies within the TEC spectrum. The patient's 'heat rash' sensation, fold-predominant distribution, and close temporal association with romidepsin fit this well.\n\nA second consideration is drug-induced Sweet syndrome (acute febrile neutrophilic dermatosis). Supporting features are abrupt onset of bright erythematous edematous plaques and a neutrophilic dermal infiltrate on biopsy. However, it fits less well because she had no fever, no neutrophilia, no arthralgia, and the eruption was minimally pruritic rather than tender/painful. The distribution in body folds and the chemotherapy timing favor TEC over Sweet syndrome.\n\nSymmetric drug-related intertriginous and flexural exanthema (SDRIFE, baboon syndrome) is another possibility because of the flexural involvement and drug trigger. However, the eruption also involved the face, upper chest, and back, and the biopsy showing a neutrophilic infiltrate is less typical. SDRIFE is usually a symmetric flexural erythema without systemic symptoms, so it remains plausible but less convincing.\n\nAGEP is less likely because although it can occur rapidly after drug exposure and may show neutrophilic inflammation, this patient had no pustules, no fever, and no neutrophilia. Morbilliform drug eruption is also less likely because the biopsy is neutrophilic rather than lymphocytic/eosinophilic and the morphology/distribution are more characteristic of chemotherapy-related toxic erythema.\n\nNarrowing to a single diagnosis: the combination of immediate onset after romidepsin infusion, intertriginous/fold-predominant bright edematous plaques, minimal pruritus with 'heat rash' sensation, absence of systemic findings, and neutrophilic superficial dermal infiltrate without epidermal necrosis most strongly supports toxic erythema of chemotherapy induced by romidepsin.",
+      "differentialDiagnoses": [
+        {
+          "condition": "Toxic erythema of chemotherapy",
+          "likelihood": "high",
+          "supportingEvidence": "Occurred 5 hours after romidepsin infusion; bright salmon-pink edematous plaques in body folds with heat-rash sensation; no systemic illness; biopsy showed superficial dermal neutrophilic infiltrate without epidermal necrosis."
+        },
+        {
+          "condition": "Drug-induced Sweet syndrome",
+          "likelihood": "medium",
+          "supportingEvidence": "Abrupt erythematous edematous plaques and neutrophilic dermal infiltrate could fit, but absence of fever, neutrophilia, arthralgia, and tenderness makes it less likely."
+        },
+        {
+          "condition": "Symmetric drug-related intertriginous and flexural exanthema (SDRIFE)",
+          "likelihood": "low",
+          "supportingEvidence": "Drug-triggered flexural eruption without systemic symptoms is compatible, but involvement of face/chest/back and neutrophilic histology are less typical."
+        },
+        {
+          "condition": "Acute generalized exanthematous pustulosis",
+          "likelihood": "low",
+          "supportingEvidence": "Rapid drug eruption with neutrophilic pathology considered, but there were no pustules, fever, or neutrophilia."
+        }
+      ],
+      "finalDiagnosis": "Toxic erythema of chemotherapy"
+    }
+  }
+}

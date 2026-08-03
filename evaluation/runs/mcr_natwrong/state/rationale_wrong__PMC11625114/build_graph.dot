@@ -1,0 +1,166 @@
+digraph ReasoningGraph {
+  rankdir="LR";
+  compound=true;
+  node [shape=box, style="rounded,filled"];
+  subgraph cluster_0 {
+    label="history_taking (c1)";
+    style="rounded,dashed";
+    color="#9e9e9e";
+    n1 [label="n1: The patient is a 73-year-old man.\\n[factual]", fillcolor="#c8e6c9"];
+    n2 [label="n2: His chief concern on presentation was 2 days of severe exertional, pressure-like chest pain.\\n[factual]", fillcolor="#c8e6c9"];
+    n3 [label="n3: His chest pain was rated 9/10.\\n[statistical]", fillcolor="#c8e6c9"];
+  }
+  subgraph cluster_1 {
+    label="test_ordering (c2)";
+    style="rounded,dashed";
+    color="#9e9e9e";
+    n4 [label="n4: The initial workup strongly supports an acute coronary syndrome.\\n[factual]", fillcolor="#c8e6c9"];
+    n5 [label="n5: His high-sensitivity troponin was markedly elevated at greater than 5000 ng/L.\\n[statistical]", fillcolor="#c8e6c9"];
+    n6 [label="n6: His clinical presentation was consistent with ischemic chest pain.\\n[factual]", fillcolor="#c8e6c9"];
+    n7 [label="n7: His ECG showed normal sinus rhythm without ST elevation.\\n[factual]", fillcolor="#c8e6c9"];
+    n8 [label="n8: The presentation fits non–ST-elevation myocardial infarction.\\n[factual]", fillcolor="#c8e6c9"];
+  }
+  subgraph cluster_2 {
+    label="treatment_planning (c3)";
+    style="rounded,dashed";
+    color="#9e9e9e";
+    n9 [label="n9: He was appropriately started on heparin therapy.\\n[recommendation]", fillcolor="#c8e6c9"];
+    n10 [label="n10: He was appropriately started on antiplatelet therapy.\\n[recommendation]", fillcolor="#c8e6c9"];
+  }
+  subgraph cluster_3 {
+    label="history_taking (c4)";
+    style="rounded,dashed";
+    color="#9e9e9e";
+    n11 [label="n11: On hospital day 2, he developed new severe left lower abdominal pain.\\n[factual]", fillcolor="#c8e6c9"];
+    n12 [label="n12: On hospital day 2, he developed new severe thigh pain.\\n[factual]", fillcolor="#c8e6c9"];
+    n13 [label="n13: He developed the new left lower abdominal and thigh pain while receiving anticoagulation therapy.\\n[causal]", fillcolor="#c8e6c9"];
+    n14 [label="n14: He developed the new left lower abdominal and thigh pain while receiving antiplatelet therapy.\\n[causal]", fillcolor="#c8e6c9"];
+    n15 [label="n15: He had sudden severe pain in the left lower abdomen and thigh.\\n[factual]", fillcolor="#c8e6c9"];
+  }
+  subgraph cluster_4 {
+    label="test_ordering (c5)";
+    style="rounded,dashed";
+    color="#9e9e9e";
+    n16 [label="n16: CT abdomen/pelvis showed marked swelling of the left psoas muscle.\\n[factual]", fillcolor="#c8e6c9"];
+    n17 [label="n17: CT abdomen/pelvis showed marked swelling of the left iliacus muscle.\\n[factual]", fillcolor="#c8e6c9"];
+    n18 [label="n18: CT abdomen/pelvis showed heterogeneous density consistent with hemorrhage.\\n[factual]", fillcolor="#c8e6c9"];
+    n19 [label="n19: CT angiogram showed active contrast extravasation into the left psoas muscle.\\n[factual]", fillcolor="#c8e6c9"];
+    n20 [label="n20: Angiography showed no arterial source of active bleeding.\\n[factual]", fillcolor="#c8e6c9"];
+    n21 [label="n21: The findings indicate a retroperitoneal intramuscular bleed centered in the iliopsoas compartment.\\n[factual]", fillcolor="#c8e6c9"];
+    n22 [label="n22: The absence of an arterial source on angiography makes a venous or small-vessel spontaneous bleed more likely than a major arterial injury.\\n[causal]", fillcolor="#c8e6c9"];
+  }
+  subgraph cluster_5 {
+    label="other (c6)";
+    style="rounded,dashed";
+    color="#9e9e9e";
+    n23 [label="n23: The temporal relationship to heparin treatment is highly significant.\\n[causal]", fillcolor="#c8e6c9"];
+    n24 [label="n24: The temporal relationship to antiplatelet treatment is highly significant.\\n[causal]", fillcolor="#c8e6c9"];
+    n25 [label="n25: There is no mention of trauma.\\n[factual]", fillcolor="#c8e6c9"];
+    n26 [label="n26: There is no mention of falls.\\n[factual]", fillcolor="#c8e6c9"];
+    n27 [label="n27: There is no mention of an invasive femoral access complication.\\n[factual]", fillcolor="#c8e6c9"];
+    n28 [label="n28: There is no mention of an abdominal mass.\\n[factual]", fillcolor="#c8e6c9"];
+    n29 [label="n29: There is no mention of fever.\\n[factual]", fillcolor="#c8e6c9"];
+    n30 [label="n30: There is no mention of leukocytosis.\\n[factual]", fillcolor="#c8e6c9"];
+    n31 [label="n31: There is no mention of signs suggesting infection or abscess.\\n[factual]", fillcolor="#c8e6c9"];
+    n32 [label="n32: The physical exam at presentation was unremarkable.\\n[factual]", fillcolor="#c8e6c9"];
+    n33 [label="n33: Later imaging specifically described hemorrhage rather than another mass lesion.\\n[factual]", fillcolor="#c8e6c9"];
+  }
+  subgraph cluster_6 {
+    label="test_ordering (c7)";
+    style="rounded,dashed";
+    color="#9e9e9e";
+    n34 [label="n34: The platelet count was 380 K/cm3.\\n[statistical]", fillcolor="#c8e6c9"];
+    n35 [label="n35: The platelet count argues against thrombocytopenic bleeding.\\n[causal]", fillcolor="#c8e6c9"];
+    n36 [label="n36: The hemoglobin was initially 16 g/dL.\\n[statistical]", fillcolor="#c8e6c9"];
+    n37 [label="n37: The hemoglobin later rose to 18 g/dL after stabilization.\\n[statistical]", fillcolor="#c8e6c9"];
+    n38 [label="n38: A hemoglobin rise after stabilization is unusual for a major hemorrhage.\\n[causal]", fillcolor="#c8e6c9"];
+    n39 [label="n39: A hemoglobin rise after stabilization can occur with hemoconcentration.\\n[causal]", fillcolor="#c8e6c9"];
+    n40 [label="n40: A hemoglobin rise after stabilization does not negate the imaging-proven bleed.\\n[causal]", fillcolor="#c8e6c9"];
+    n41 [label="n41: The CTA finding of active extravasation confirms true hemorrhage.\\n[causal]", fillcolor="#c8e6c9"];
+  }
+  subgraph cluster_7 {
+    label="differential_generation (c8)";
+    style="rounded,dashed";
+    color="#9e9e9e";
+    n42 [label="n42: The case includes anticoagulation-associated iliopsoas hematoma as a candidate differential.\\n[factual]", fillcolor="#c8e6c9"];
+    n43 [label="n43: Anticoagulation-associated iliopsoas hematoma fits best because of heparin and antiplatelet exposure and classic imaging findings.\\n[causal]", fillcolor="#c8e6c9"];
+    n44 [label="n44: Femoral-access or catheterization-related retroperitoneal bleed is a candidate differential.\\n[factual]", fillcolor="#c8e6c9"];
+    n45 [label="n45: No catheterization is described.\\n[factual]", fillcolor="#c8e6c9"];
+    n46 [label="n46: No femoral access is described.\\n[factual]", fillcolor="#c8e6c9"];
+    n47 [label="n47: The lack of catheterization or femoral access makes femoral-access related retroperitoneal bleed less likely.\\n[causal]", fillcolor="#c8e6c9"];
+    n48 [label="n48: Psoas abscess is a candidate differential.\\n[factual]", fillcolor="#c8e6c9"];
+    n49 [label="n49: Psoas abscess can cause psoas enlargement and pain.\\n[causal]", fillcolor="#c8e6c9"];
+    n50 [label="n50: The acute onset argues strongly against psoas abscess.\\n[causal]", fillcolor="#c8e6c9"];
+    n51 [label="n51: The heterogeneous hemorrhagic density argues strongly against psoas abscess.\\n[causal]", fillcolor="#c8e6c9"];
+    n52 [label="n52: Active contrast extravasation argues strongly against psoas abscess.\\n[causal]", fillcolor="#c8e6c9"];
+    n53 [label="n53: The lack of infectious features argues strongly against psoas abscess.\\n[causal]", fillcolor="#c8e6c9"];
+    n54 [label="n54: Spontaneous muscle infarction or diabetic myonecrosis is a candidate differential.\\n[factual]", fillcolor="#c8e6c9"];
+    n55 [label="n55: Spontaneous muscle infarction or diabetic myonecrosis can cause thigh pain in diabetics.\\n[causal]", fillcolor="#c8e6c9"];
+    n56 [label="n56: Imaging showed hemorrhage rather than infarction.\\n[factual]", fillcolor="#c8e6c9"];
+    n57 [label="n57: Imaging showed active extravasation rather than infarction.\\n[factual]", fillcolor="#c8e6c9"];
+    n58 [label="n58: Aortic or iliac vascular catastrophe is a candidate differential.\\n[factual]", fillcolor="#c8e6c9"];
+    n59 [label="n59: Angiography found no arterial source.\\n[factual]", fillcolor="#c8e6c9"];
+    n60 [label="n60: CT localized the process to intramuscular hemorrhage.\\n[factual]", fillcolor="#c8e6c9"];
+  }
+  subgraph cluster_8 {
+    label="final_decision (c9)";
+    style="rounded,dashed";
+    color="#9e9e9e";
+    n61 [label="n61: The most likely diagnosis is a spontaneous iliopsoas hematoma.\\n[factual]", fillcolor="#c8e6c9"];
+    n62 [label="n62: The iliopsoas hematoma is a retroperitoneal hemorrhage.\\n[factual]", fillcolor="#c8e6c9"];
+    n63 [label="n63: The iliopsoas hematoma was precipitated by anticoagulation and antiplatelet therapy during NSTEMI treatment.\\n[causal]", fillcolor="#c8e6c9"];
+    n64 [label="n64: The diagnosis best explains the abrupt severe left lower abdominal and thigh pain.\\n[causal]", fillcolor="#c8e6c9"];
+    n65 [label="n65: The diagnosis best explains the CT evidence of psoas and iliacus hemorrhage.\\n[causal]", fillcolor="#c8e6c9"];
+    n66 [label="n66: The diagnosis best explains the CTA extravasation.\\n[causal]", fillcolor="#c8e6c9"];
+    n67 [label="n67: The diagnosis best explains the need to stop antithrombotic therapy.\\n[causal]", fillcolor="#c8e6c9"];
+    n68 [label="n68: The final diagnosis is anticoagulation-associated iliopsoas hematoma.\\n[factual]", fillcolor="#c8e6c9"];
+  }
+  n2 -> n6 [label="supports: Severe exertional pressure-like chest pain supports an ischemic chest pain interpretation."];
+  n5 -> n4 [label="supports: Marked troponin elevation supports acute coronary syndrome."];
+  n7 -> n8 [label="supports: No ST elevation on ECG supports NSTEMI rather than STEMI."];
+  n4 -> n9 [label="supports: An acute coronary syndrome presentation supports starting heparin."];
+  n4 -> n10 [label="supports: An acute coronary syndrome presentation supports starting antiplatelet therapy."];
+  n13 -> n23 [label="supports: Bleeding developing while on anticoagulation supports the significance of heparin timing."];
+  n14 -> n24 [label="supports: Bleeding developing while on antiplatelet therapy supports the significance of antiplatelet timing."];
+  n16 -> n21 [label="supports: Left psoas swelling supports an iliopsoas compartment bleed."];
+  n17 -> n21 [label="supports: Left iliacus swelling supports an iliopsoas compartment bleed."];
+  n18 -> n21 [label="supports: Heterogeneous density consistent with hemorrhage supports retroperitoneal intramuscular bleeding."];
+  n19 -> n41 [label="supports: Active contrast extravasation on CTA confirms true hemorrhage."];
+  n20 -> n22 [label="supports: No arterial source on angiography supports a venous or small-vessel spontaneous bleed."];
+  n21 -> n61 [label="supports: A retroperitoneal intramuscular bleed centered in the iliopsoas compartment supports spontaneous iliopsoas hematoma."];
+  n23 -> n63 [label="supports: Significant temporal relationship to heparin supports anticoagulation-associated hematoma."];
+  n24 -> n63 [label="supports: Significant temporal relationship to antiplatelet therapy supports anticoagulation-associated hematoma."];
+  n25 -> n47 [label="supports: No trauma makes a femoral-access related bleed less likely."];
+  n26 -> n47 [label="supports: No falls makes a femoral-access related bleed less likely."];
+  n27 -> n47 [label="supports: No invasive femoral access complication makes a femoral-access related bleed less likely."];
+  n29 -> n53 [label="supports: Absence of fever argues against psoas abscess."];
+  n30 -> n53 [label="supports: Absence of leukocytosis argues against psoas abscess."];
+  n31 -> n53 [label="supports: No infectious or abscess features argues against psoas abscess."];
+  n33 -> n51 [label="supports: Imaging describing hemorrhage rather than another mass lesion argues against psoas abscess."];
+  n34 -> n35 [label="supports: Normal-high platelet count argues against thrombocytopenic bleeding."];
+  n37 -> n38 [label="supports: Hemoglobin rising after stabilization is unusual for major hemorrhage."];
+  n37 -> n39 [label="supports: Hemoglobin rise after stabilization can reflect hemoconcentration."];
+  n41 -> n40 [label="supports: Confirmed hemorrhage means a later hemoglobin rise does not negate the bleed."];
+  n42 -> n43 [label="supports: The candidate diagnosis is supported by the exposure history and imaging."];
+  n44 -> n47 [label="supports: The femoral-access bleed differential is weakened by lack of catheterization or femoral access."];
+  n45 -> n47 [label="supports: No catheterization described supports making femoral-access bleed less likely."];
+  n46 -> n47 [label="supports: No femoral access described supports making femoral-access bleed less likely."];
+  n48 -> n50 [label="supports: The psoas abscess differential is weakened by the acute onset."];
+  n49 -> n48 [label="supports: Psoas abscess can present with psoas enlargement and pain, making it a plausible differential."];
+  n50 -> n48 [label="contradicts: Acute onset is incompatible with psoas abscess as the leading explanation."];
+  n51 -> n48 [label="contradicts: Hemorrhagic density argues against psoas abscess."];
+  n52 -> n48 [label="contradicts: Active extravasation argues against psoas abscess."];
+  n53 -> n48 [label="contradicts: Lack of infectious features argues against psoas abscess."];
+  n54 -> n55 [label="supports: The candidate diagnosis is clinically plausible because diabetic myonecrosis can cause thigh pain."];
+  n56 -> n54 [label="contradicts: Imaging showing hemorrhage rather than infarction argues against diabetic myonecrosis."];
+  n57 -> n54 [label="contradicts: Active extravasation is incompatible with infarction as the main process."];
+  n58 -> n59 [label="supports: Aortic or iliac vascular catastrophe is evaluated by angiography."];
+  n59 -> n58 [label="contradicts: No arterial source on angiography argues against a major vascular catastrophe."];
+  n60 -> n58 [label="contradicts: CT localization to intramuscular hemorrhage argues against aortic or iliac catastrophe."];
+  n61 -> n62 [label="supports: An iliopsoas hematoma is a form of retroperitoneal hemorrhage."];
+  n63 -> n68 [label="supports: Anticoagulation-associated iliopsoas hematoma supports the final diagnosis."];
+  n64 -> n61 [label="supports: The abrupt severe pain pattern supports iliopsoas hematoma."];
+  n65 -> n61 [label="supports: CT evidence of psoas and iliacus hemorrhage supports iliopsoas hematoma."];
+  n66 -> n61 [label="supports: CTA extravasation supports iliopsoas hematoma."];
+  n67 -> n61 [label="supports: Need to stop antithrombotic therapy is consistent with a clinically significant hematoma."];
+}

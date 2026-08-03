@@ -1,0 +1,520 @@
+{
+  "name": "classify",
+  "passed": true,
+  "score": 1.0,
+  "reasoning": "Classified 102 statement(s): 26 causal, 71 factual, 5 statistical.",
+  "data": {
+    "classified": [
+      {
+        "text": "The chief complaint is recurrent right upper quadrant abdominal pain.",
+        "category": "factual",
+        "rationale": "It states a patient symptom as a direct clinical fact."
+      },
+      {
+        "text": "The chief complaint includes intermittent fevers.",
+        "category": "factual",
+        "rationale": "It asserts the presence of a symptom in the chief complaint."
+      },
+      {
+        "text": "The chief complaint includes nausea.",
+        "category": "factual",
+        "rationale": "It states a symptom as part of the presentation."
+      },
+      {
+        "text": "The chief complaint includes fatigue.",
+        "category": "factual",
+        "rationale": "It asserts a symptom as part of the presentation."
+      },
+      {
+        "text": "The symptoms evolved over many months into enlarging hepatic lesions.",
+        "category": "causal",
+        "rationale": "It describes a temporal progression from symptoms to lesion enlargement."
+      },
+      {
+        "text": "The symptoms later evolved into multiple hepatic lesions.",
+        "category": "causal",
+        "rationale": "It links symptom evolution with development of additional lesions."
+      },
+      {
+        "text": "The patient’s own major concern is a recurrent painful liver process.",
+        "category": "factual",
+        "rationale": "It reports the patient's stated main concern."
+      },
+      {
+        "text": "The liver process at times appeared mass-like on imaging.",
+        "category": "factual",
+        "rationale": "It describes an imaging appearance of the liver process."
+      },
+      {
+        "text": "The liver process at times appeared malignant on imaging.",
+        "category": "factual",
+        "rationale": "It describes an imaging appearance suggesting malignancy."
+      },
+      {
+        "text": "There are recurrent right upper quadrant pain and fever.",
+        "category": "factual",
+        "rationale": "It states the presence of recurrent symptoms."
+      },
+      {
+        "text": "A 2 cm enhancing right hepatic lesion progressed to a 4.8 × 4.7 cm mass.",
+        "category": "causal",
+        "rationale": "It describes lesion progression over time."
+      },
+      {
+        "text": "A 4.8 × 4.7 cm mass later became multiple low-attenuation lesions in both hepatic lobes.",
+        "category": "causal",
+        "rationale": "It describes a change from one lesion pattern to another."
+      },
+      {
+        "text": "Pathology from hepatectomy showed florid necrotizing granulomatous inflammation.",
+        "category": "factual",
+        "rationale": "It reports a pathology finding."
+      },
+      {
+        "text": "Pathology from hepatectomy showed pseudotumor formation.",
+        "category": "factual",
+        "rationale": "It reports a pathology finding."
+      },
+      {
+        "text": "Later biopsy showed extensive granulomatous hepatitis.",
+        "category": "factual",
+        "rationale": "It reports a biopsy result."
+      },
+      {
+        "text": "Later biopsy showed occasional fibrin rings.",
+        "category": "factual",
+        "rationale": "It reports a histologic finding."
+      },
+      {
+        "text": "AST was 93.",
+        "category": "statistical",
+        "rationale": "It gives a numeric laboratory value."
+      },
+      {
+        "text": "ALT was 74.",
+        "category": "statistical",
+        "rationale": "It gives a numeric laboratory value."
+      },
+      {
+        "text": "Alkaline phosphatase was 193.",
+        "category": "statistical",
+        "rationale": "It gives a numeric laboratory value."
+      },
+      {
+        "text": "Bilirubin was 0.6.",
+        "category": "statistical",
+        "rationale": "It gives a numeric laboratory value."
+      },
+      {
+        "text": "Routine cultures were repeatedly negative.",
+        "category": "factual",
+        "rationale": "It states a repeated test result."
+      },
+      {
+        "text": "Granulomatous hepatitis with fibrin-ring granulomas strongly suggests a limited set of infectious and inflammatory etiologies.",
+        "category": "causal",
+        "rationale": "It makes an interpretive relationship between a pathology pattern and likely etiologies."
+      },
+      {
+        "text": "The pseudotumor presentation is unusual.",
+        "category": "factual",
+        "rationale": "It asserts a qualitative characteristic of the presentation."
+      },
+      {
+        "text": "The pseudotumor presentation can occur with granulomatous infections.",
+        "category": "causal",
+        "rationale": "It states an association between pseudotumor presentation and granulomatous infections."
+      },
+      {
+        "text": "Malignancy was not found on biopsy.",
+        "category": "factual",
+        "rationale": "It reports a negative biopsy finding."
+      },
+      {
+        "text": "Malignancy was not found on resection.",
+        "category": "factual",
+        "rationale": "It reports a negative resection finding."
+      },
+      {
+        "text": "Fungal stains were repeatedly negative.",
+        "category": "factual",
+        "rationale": "It states repeated negative stain results."
+      },
+      {
+        "text": "Fungal cultures were repeatedly negative.",
+        "category": "factual",
+        "rationale": "It states repeated negative culture results."
+      },
+      {
+        "text": "Mycobacterial stains were repeatedly negative.",
+        "category": "factual",
+        "rationale": "It states repeated negative stain results."
+      },
+      {
+        "text": "Mycobacterial cultures were repeatedly negative.",
+        "category": "factual",
+        "rationale": "It states repeated negative culture results."
+      },
+      {
+        "text": "Immunohistochemical stains for CMV were negative.",
+        "category": "factual",
+        "rationale": "It reports a negative test result."
+      },
+      {
+        "text": "Serologic testing was negative for acute viral hepatitis.",
+        "category": "factual",
+        "rationale": "It reports a negative serologic result."
+      },
+      {
+        "text": "Serologic testing was negative for toxoplasmosis.",
+        "category": "factual",
+        "rationale": "It reports a negative serologic result."
+      },
+      {
+        "text": "Serologic testing was negative for HIV.",
+        "category": "factual",
+        "rationale": "It reports a negative serologic result."
+      },
+      {
+        "text": "Serologic testing was negative for Entamoeba histolytica.",
+        "category": "factual",
+        "rationale": "It reports a negative serologic result."
+      },
+      {
+        "text": "Serologic testing was negative for Borrelia.",
+        "category": "factual",
+        "rationale": "It reports a negative serologic result."
+      },
+      {
+        "text": "Serologic testing was negative for Bartonella.",
+        "category": "factual",
+        "rationale": "It reports a negative serologic result."
+      },
+      {
+        "text": "Serologic testing was negative for Histoplasma.",
+        "category": "factual",
+        "rationale": "It reports a negative serologic result."
+      },
+      {
+        "text": "Serologic testing was negative for Blastomyces.",
+        "category": "factual",
+        "rationale": "It reports a negative serologic result."
+      },
+      {
+        "text": "Serologic testing was negative for Cryptococcus.",
+        "category": "factual",
+        "rationale": "It reports a negative serologic result."
+      },
+      {
+        "text": "Tuberculosis testing by PPD was negative.",
+        "category": "factual",
+        "rationale": "It reports a negative test result."
+      },
+      {
+        "text": "Tuberculosis testing by Quantiferon was negative.",
+        "category": "factual",
+        "rationale": "It reports a negative test result."
+      },
+      {
+        "text": "Blood cultures were negative.",
+        "category": "factual",
+        "rationale": "It reports a negative culture result."
+      },
+      {
+        "text": "Urine cultures were negative.",
+        "category": "factual",
+        "rationale": "It reports a negative culture result."
+      },
+      {
+        "text": "Stool cultures were negative.",
+        "category": "factual",
+        "rationale": "It reports a negative culture result."
+      },
+      {
+        "text": "ANA was 1:40.",
+        "category": "statistical",
+        "rationale": "It gives a numeric antibody titer."
+      },
+      {
+        "text": "Antimitochondrial antibody was negative.",
+        "category": "factual",
+        "rationale": "It reports a negative test result."
+      },
+      {
+        "text": "The ANA result does not support a primary autoimmune cholestatic process.",
+        "category": "causal",
+        "rationale": "It interprets the ANA result as arguing against a disease mechanism."
+      },
+      {
+        "text": "There is no provided evidence of pulmonary disease.",
+        "category": "factual",
+        "rationale": "It states absence of evidence in the provided record."
+      },
+      {
+        "text": "There is no provided evidence of hilar adenopathy.",
+        "category": "factual",
+        "rationale": "It states absence of evidence in the provided record."
+      },
+      {
+        "text": "There is no provided evidence of inflammatory bowel disease.",
+        "category": "factual",
+        "rationale": "It states absence of evidence in the provided record."
+      },
+      {
+        "text": "There is no provided evidence of systemic vasculitis.",
+        "category": "factual",
+        "rationale": "It states absence of evidence in the provided record."
+      },
+      {
+        "text": "The liver pathology is the key clue.",
+        "category": "factual",
+        "rationale": "It asserts the importance of a finding."
+      },
+      {
+        "text": "Granulomatous hepatitis with fibrin-ring granulomas strongly suggests a limited set of infectious and inflammatory etiologies.",
+        "category": "causal",
+        "rationale": "It links a pathology pattern to a narrowed etiologic set."
+      },
+      {
+        "text": "Q fever hepatitis fits very well.",
+        "category": "factual",
+        "rationale": "It states a diagnostic fit or impression."
+      },
+      {
+        "text": "Fibrin-ring granulomas are classic for Q fever hepatitis.",
+        "category": "causal",
+        "rationale": "It states a characteristic association between a histologic finding and a diagnosis."
+      },
+      {
+        "text": "Patients with Q fever hepatitis often have fever.",
+        "category": "causal",
+        "rationale": "It describes a symptom association with the disease."
+      },
+      {
+        "text": "Patients with Q fever hepatitis often have right upper quadrant pain.",
+        "category": "causal",
+        "rationale": "It describes a symptom association with the disease."
+      },
+      {
+        "text": "Patients with Q fever hepatitis often have mild transaminitis.",
+        "category": "causal",
+        "rationale": "It describes a laboratory association with the disease."
+      },
+      {
+        "text": "Patients with Q fever hepatitis often have negative routine cultures.",
+        "category": "causal",
+        "rationale": "It describes a test-result association with the disease."
+      },
+      {
+        "text": "Coxiella is not recovered on standard culture.",
+        "category": "factual",
+        "rationale": "It states a microbiologic fact about culture recovery."
+      },
+      {
+        "text": "Granulomatous hepatitis can recur if untreated.",
+        "category": "causal",
+        "rationale": "It states a conditional relationship between treatment and recurrence."
+      },
+      {
+        "text": "Hepatic pseudotumor is uncommon in Q fever hepatitis.",
+        "category": "factual",
+        "rationale": "It states a frequency characteristic of the condition."
+      },
+      {
+        "text": "Hepatic pseudotumor can occur with granulomatous infections.",
+        "category": "causal",
+        "rationale": "It states an association between a presentation and a disease class."
+      },
+      {
+        "text": "Necrotizing granulomatous inflammation can be seen with tuberculosis.",
+        "category": "causal",
+        "rationale": "It states an association between pathology and tuberculosis."
+      },
+      {
+        "text": "Hepatic lesions may be mass-like in tuberculosis.",
+        "category": "causal",
+        "rationale": "It states an association between tuberculosis and imaging appearance."
+      },
+      {
+        "text": "Repeated mycobacterial stains and cultures were negative.",
+        "category": "factual",
+        "rationale": "It reports repeated negative test results."
+      },
+      {
+        "text": "TB testing was negative.",
+        "category": "factual",
+        "rationale": "It reports a negative tuberculosis test result."
+      },
+      {
+        "text": "Fibrin-ring granulomas point more strongly elsewhere than tuberculosis.",
+        "category": "causal",
+        "rationale": "It compares a finding's diagnostic implication against tuberculosis."
+      },
+      {
+        "text": "Granulomatous hepatitis and focal liver lesions are possible in fungal hepatic infection.",
+        "category": "causal",
+        "rationale": "It states an association between fungal infection and these findings."
+      },
+      {
+        "text": "Fungal stains and cultures were negative.",
+        "category": "factual",
+        "rationale": "It reports negative fungal test results."
+      },
+      {
+        "text": "Fungal antigen testing was negative.",
+        "category": "factual",
+        "rationale": "It reports a negative test result."
+      },
+      {
+        "text": "There is no supporting systemic context for fungal hepatic infection.",
+        "category": "factual",
+        "rationale": "It states absence of supportive clinical context."
+      },
+      {
+        "text": "Granulomatous hepatitis with fever can occur in sarcoidosis.",
+        "category": "causal",
+        "rationale": "It states an association between sarcoidosis and the findings."
+      },
+      {
+        "text": "Granulomatous hepatitis with fever can occur in idiopathic granulomatous hepatitis.",
+        "category": "causal",
+        "rationale": "It states an association between the condition and the findings."
+      },
+      {
+        "text": "Necrotizing granulomas are less typical of sarcoidosis.",
+        "category": "factual",
+        "rationale": "It states a comparative diagnostic characteristic."
+      },
+      {
+        "text": "Fibrin rings are less typical of sarcoidosis.",
+        "category": "factual",
+        "rationale": "It states a comparative diagnostic characteristic."
+      },
+      {
+        "text": "The mass-like pseudotumor pattern is less characteristic of sarcoidosis.",
+        "category": "factual",
+        "rationale": "It states a comparative diagnostic characteristic."
+      },
+      {
+        "text": "No extrahepatic sarcoid features are provided.",
+        "category": "factual",
+        "rationale": "It states absence of additional supportive findings."
+      },
+      {
+        "text": "Fibrin-ring granulomas can occur with medications.",
+        "category": "causal",
+        "rationale": "It states an association between medications and the histologic finding."
+      },
+      {
+        "text": "No medication exposure history suggesting an offending agent is provided.",
+        "category": "factual",
+        "rationale": "It states absence of a relevant exposure history."
+      },
+      {
+        "text": "The most discriminating feature is the liver biopsy showing granulomatous hepatitis with occasional fibrin rings.",
+        "category": "factual",
+        "rationale": "It identifies a key diagnostic feature from the biopsy."
+      },
+      {
+        "text": "The liver biopsy finding occurred in the setting of recurrent fever.",
+        "category": "factual",
+        "rationale": "It states a coexisting clinical context."
+      },
+      {
+        "text": "The liver biopsy finding occurred in the setting of right upper quadrant pain.",
+        "category": "factual",
+        "rationale": "It states a coexisting clinical context."
+      },
+      {
+        "text": "The liver biopsy finding occurred in the setting of mild hepatitis and cholestatic enzyme elevation.",
+        "category": "factual",
+        "rationale": "It states a coexisting laboratory context."
+      },
+      {
+        "text": "The liver biopsy finding occurred in the setting of a strikingly negative conventional infectious evaluation.",
+        "category": "factual",
+        "rationale": "It states a coexisting negative workup."
+      },
+      {
+        "text": "Among causes of fibrin-ring granulomas, Q fever is the classic diagnosis.",
+        "category": "causal",
+        "rationale": "It ranks a diagnosis as classically associated with the finding."
+      },
+      {
+        "text": "Among causes of fibrin-ring granulomas, Q fever is the best-fitting diagnosis.",
+        "category": "causal",
+        "rationale": "It infers the best diagnosis from the finding."
+      },
+      {
+        "text": "The repeated failure to identify organisms on routine stains and cultures supports Coxiella.",
+        "category": "causal",
+        "rationale": "It links negative routine microbiology to support for Coxiella."
+      },
+      {
+        "text": "Coxiella is an intracellular pathogen.",
+        "category": "factual",
+        "rationale": "It states a microbiologic property."
+      },
+      {
+        "text": "Coxiella is typically diagnosed serologically rather than by standard cultures.",
+        "category": "causal",
+        "rationale": "It states a diagnostic relationship between organism and testing method."
+      },
+      {
+        "text": "The single most likely diagnosis is Q fever hepatitis due to Coxiella burnetii.",
+        "category": "factual",
+        "rationale": "It states a diagnostic conclusion."
+      },
+      {
+        "text": "The differential diagnosis includes Q fever hepatitis due to Coxiella burnetii.",
+        "category": "factual",
+        "rationale": "It lists a possible diagnosis."
+      },
+      {
+        "text": "The differential diagnosis includes hepatic tuberculosis or atypical mycobacterial infection.",
+        "category": "factual",
+        "rationale": "It lists possible diagnoses."
+      },
+      {
+        "text": "The differential diagnosis includes fungal hepatic infection.",
+        "category": "factual",
+        "rationale": "It lists a possible diagnosis."
+      },
+      {
+        "text": "The differential diagnosis includes sarcoidosis or idiopathic granulomatous hepatitis.",
+        "category": "factual",
+        "rationale": "It lists possible diagnoses."
+      },
+      {
+        "text": "The differential diagnosis includes drug-induced granulomatous hepatitis.",
+        "category": "factual",
+        "rationale": "It lists a possible diagnosis."
+      },
+      {
+        "text": "Q fever hepatitis is high on the differential.",
+        "category": "factual",
+        "rationale": "It states relative diagnostic likelihood."
+      },
+      {
+        "text": "Hepatic tuberculosis or atypical mycobacterial infection is medium on the differential.",
+        "category": "factual",
+        "rationale": "It states relative diagnostic likelihood."
+      },
+      {
+        "text": "Fungal hepatic infection is low on the differential.",
+        "category": "factual",
+        "rationale": "It states relative diagnostic likelihood."
+      },
+      {
+        "text": "Sarcoidosis or idiopathic granulomatous hepatitis is low on the differential.",
+        "category": "factual",
+        "rationale": "It states relative diagnostic likelihood."
+      },
+      {
+        "text": "The final diagnosis is Q fever hepatitis.",
+        "category": "factual",
+        "rationale": "It states the final diagnostic conclusion."
+      }
+    ]
+  }
+}

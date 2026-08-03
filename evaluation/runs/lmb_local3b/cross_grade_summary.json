@@ -1,0 +1,20 @@
+{
+  "ollama/llama3.2:3b/baseline": {
+    "gpt41": 19.6,
+    "claude": 23.4,
+    "delta_gpt41": 0.0,
+    "delta_claude": 0.0
+  },
+  "ollama/llama3.2:3b/self_refine": {
+    "gpt41": 0.7,
+    "claude": 3.2,
+    "delta_gpt41": -18.9,
+    "delta_claude": -20.2
+  },
+  "ollama/llama3.2:3b/healthguard": {
+    "gpt41": 10.0,
+    "claude": 11.6,
+    "delta_gpt41": -9.6,
+    "delta_claude": -11.8
+  }
+}

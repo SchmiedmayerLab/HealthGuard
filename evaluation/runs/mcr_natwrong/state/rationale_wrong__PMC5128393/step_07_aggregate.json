@@ -1,0 +1,42 @@
+{
+  "name": "aggregate",
+  "passed": false,
+  "score": 0.9435,
+  "reasoning": "Failed overall. The main issue was incomplete decomposition coverage, with several explicit clinical and reasoning statements from the source text not captured, and the graph build also reported disconnected nodes. Despite these failures, the clinical conclusion was internally consistent and strongly supported, with a weighted aggregate score of 0.9435.",
+  "data": {
+    "weighted_score": 0.9435,
+    "all_passed": false,
+    "step_scores": {
+      "static_rules": {
+        "score": 1.0,
+        "passed": true,
+        "weight": 0.1
+      },
+      "decompose": {
+        "score": 0.0,
+        "passed": false,
+        "weight": 0.05
+      },
+      "chain_verify": {
+        "score": 1.0,
+        "passed": true,
+        "weight": 0.1
+      },
+      "classify": {
+        "score": 1.0,
+        "passed": true,
+        "weight": 0.0
+      },
+      "expert_verify": {
+        "score": 1.0,
+        "passed": true,
+        "weight": 0.65
+      },
+      "build_graph": {
+        "score": 0.9355,
+        "passed": false,
+        "weight": 0.1
+      }
+    }
+  }
+}

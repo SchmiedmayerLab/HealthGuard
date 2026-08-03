@@ -1,0 +1,953 @@
+{
+  "name": "expert_verify",
+  "passed": true,
+  "score": 1.0,
+  "reasoning": "No contradictions among 104 statement(s) (71 supported, 32 valid inferences, 1 unverifiable).",
+  "data": {
+    "verifications": [
+      {
+        "text": "The chief complaint is chronic, progressive right proximal thigh pain in a 20-year-old woman.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Reference says a 20-year-old woman with constant right proximal thigh pain."
+      },
+      {
+        "text": "The pain has been present for 8 years.",
+        "category": "statistical",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Pain had progressed over 8 years."
+      },
+      {
+        "text": "The pain is severe enough to require daily analgesics.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.98,
+        "reasoning": "She required daily NSAIDs, paracetamol, and weak opioids."
+      },
+      {
+        "text": "The pain is severe enough to cause sick leave.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.98,
+        "reasoning": "Reference explicitly says she was on sick leave due to symptoms."
+      },
+      {
+        "text": "The patient’s main concern is persistent unilateral femoral pain.",
+        "category": "factual",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.86,
+        "reasoning": "Persistent unilateral femoral pain is a fair clinical paraphrase of the right proximal thigh/femoral pain described."
+      },
+      {
+        "text": "The pain is worse at night.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Pain was worse at night."
+      },
+      {
+        "text": "The pain worsened further after minor trauma.",
+        "category": "causal",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.97,
+        "reasoning": "Pain worsened after being hit by a car at knee level, with no fracture diagnosed."
+      },
+      {
+        "text": "There is no evidence of fracture.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.98,
+        "reasoning": "The case states no fracture was diagnosed after the trauma."
+      },
+      {
+        "text": "The duration of the symptoms is very long.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.98,
+        "reasoning": "An 8-year duration is very long in this clinical context."
+      },
+      {
+        "text": "The pain is localized to the right femur.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Symptoms and imaging localize to the right femur/right proximal thigh."
+      },
+      {
+        "text": "MRI demonstrated marked cortical thickening of the right femoral diaphysis.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "MRI showed significant increased cortical thickness of the right femoral diaphysis."
+      },
+      {
+        "text": "PET-CT demonstrated marked cortical thickening of the right femoral diaphysis.",
+        "category": "factual",
+        "verdict": "unverifiable",
+        "verified": true,
+        "score": 0.6,
+        "confidence": 0.62,
+        "reasoning": "PET-CT is mentioned as showing the same lesion, but the reference does not separately attribute the cortical thickening specifically to PET-CT."
+      },
+      {
+        "text": "MRI and PET-CT showed partial obliteration of the medullary canal.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "MRI and PET-CT showed partial medullary obliteration."
+      },
+      {
+        "text": "MRI and PET-CT showed an uneven sclerotic surface.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "MRI and PET-CT showed an uneven sclerotic surface."
+      },
+      {
+        "text": "Bone scan showed increased uptake in most of the right femoral shaft.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Tc-99m bone scan demonstrated increased uptake in most of the right femoral shaft."
+      },
+      {
+        "text": "The increased uptake on bone scan indicates active bone turnover in that segment.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.9,
+        "reasoning": "Increased uptake on bone scan reasonably indicates increased bone turnover/activity in the affected segment."
+      },
+      {
+        "text": "The patient had a mild leg-length discrepancy.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.98,
+        "reasoning": "Reference notes a leg-length discrepancy managed with shoe inserts and slightly unequal leg lengths."
+      },
+      {
+        "text": "The patient had prior childhood hip pain on the same side.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.97,
+        "reasoning": "At age 11 she had hip joint pain on the same side."
+      },
+      {
+        "text": "Histology showed thickened trabeculae with preserved lamellar structure.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Biopsy showed thickened bone trabeculae with preserved lamellar structure."
+      },
+      {
+        "text": "Histology showed accentuated cement lines.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Biopsy showed accentuated cement lines."
+      },
+      {
+        "text": "Histology showed no fibrosis.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Biopsy explicitly reported no fibrosis."
+      },
+      {
+        "text": "Histology showed no inflammation.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Biopsy explicitly reported no inflammation."
+      },
+      {
+        "text": "Histology showed no alcian positivity.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Biopsy explicitly reported no alcian positivity."
+      },
+      {
+        "text": "Histology showed no malignancy.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Biopsy explicitly reported no malignancy."
+      },
+      {
+        "text": "Histology showed no neoplasia.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Biopsy explicitly reported no neoplasia."
+      },
+      {
+        "text": "Bone markers including alkaline phosphatase were normal.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Biochemical bone markers, including alkaline phosphatase, were normal."
+      },
+      {
+        "text": "There were no café-au-lait spots.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Examination found no café-au-lait spots."
+      },
+      {
+        "text": "There were no skin lesions.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Examination found no skin lesions."
+      },
+      {
+        "text": "The absence of café-au-lait spots or skin lesions argues against syndromic McCune-Albright syndrome.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.9,
+        "reasoning": "Absence of café-au-lait spots/skin lesions reasonably argues against syndromic McCune-Albright syndrome."
+      },
+      {
+        "text": "There was no erythema.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Examination found no erythema."
+      },
+      {
+        "text": "There was no heat.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Examination found no heat."
+      },
+      {
+        "text": "There was no swelling.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Examination found no swelling."
+      },
+      {
+        "text": "The absence of erythema, heat, or swelling makes chronic osteomyelitis unlikely.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.88,
+        "reasoning": "No erythema, heat, swelling, and no inflammatory biopsy findings make chronic osteomyelitis less likely."
+      },
+      {
+        "text": "Biopsy showed no inflammation.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Biopsy showed no inflammation."
+      },
+      {
+        "text": "There was no malignancy on biopsy.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Biopsy showed no malignancy."
+      },
+      {
+        "text": "There was no neoplasia on biopsy.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Biopsy showed no neoplasia."
+      },
+      {
+        "text": "The absence of malignancy or neoplasia on biopsy argues against osteosarcoma or another primary bone tumor.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.92,
+        "reasoning": "No malignancy/neoplasia on biopsy reasonably argues against osteosarcoma or another primary bone tumor."
+      },
+      {
+        "text": "The lesion is extensive along most of the femoral shaft.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.98,
+        "reasoning": "The trace states the lesion involves most of the right femoral shaft."
+      },
+      {
+        "text": "The lesion is not a small nidus.",
+        "category": "factual",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.95,
+        "reasoning": "If it involves most of the shaft, it is not a small nidus; this is a reasonable inference."
+      },
+      {
+        "text": "The lesion’s extent argues against osteoid osteoma despite nocturnal pain and NSAID responsiveness.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.93,
+        "reasoning": "Diffuse shaft involvement rather than a focal nidus argues against osteoid osteoma, even with nocturnal pain and NSAID response."
+      },
+      {
+        "text": "SQSTM1 testing was negative.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Reference data explicitly states blood genetic screening for SQSTM1 mutations was negative."
+      },
+      {
+        "text": "The patient is very young.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.98,
+        "reasoning": "Patient is 20 years old, which supports 'very young' in this clinical context."
+      },
+      {
+        "text": "Negative SQSTM1 testing and young age make Paget disease less likely.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.95,
+        "reasoning": "Young age plus negative SQSTM1 reasonably make Paget disease less likely; this is a clinical inference from the data."
+      },
+      {
+        "text": "The main candidate differentials are fibrous dysplasia, Paget disease of bone, chronic sclerosing osteomyelitis, and osteoid osteoma/osteoblastoma.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.97,
+        "reasoning": "These four entities are listed in the trace as the main candidate differentials."
+      },
+      {
+        "text": "Fibrous dysplasia fits several core features best.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.96,
+        "reasoning": "The trace concludes fibrous dysplasia best fits the overall pattern; this is a legitimate synthesis."
+      },
+      {
+        "text": "Fibrous dysplasia onset can occur in childhood or adolescence.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.95,
+        "reasoning": "Fibrous dysplasia is described in the trace as having onset in childhood/adolescence."
+      },
+      {
+        "text": "Fibrous dysplasia can involve a single long bone.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.95,
+        "reasoning": "The trace states fibrous dysplasia can involve a single long bone."
+      },
+      {
+        "text": "Fibrous dysplasia can cause pain.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.95,
+        "reasoning": "Pain is explicitly listed among fitting features of fibrous dysplasia."
+      },
+      {
+        "text": "Fibrous dysplasia can be associated with mild limb asymmetry or leg-length discrepancy.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.95,
+        "reasoning": "The trace states fibrous dysplasia can be associated with mild limb asymmetry/leg-length discrepancy."
+      },
+      {
+        "text": "Fibrous dysplasia can show expansion and sclerosis of the femur on imaging.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.95,
+        "reasoning": "The trace states imaging can show expansion and sclerosis of the femur."
+      },
+      {
+        "text": "Classic fibrous dysplasia often shows fibro-osseous tissue histologically.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.95,
+        "reasoning": "The trace explicitly says classic fibrous dysplasia often shows fibro-osseous tissue histologically."
+      },
+      {
+        "text": "This biopsy showed dense lamellar bone with accentuated cement lines and no fibrosis.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Biopsy showed thickened trabeculae with preserved lamellar structure, accentuated cement lines, and no fibrosis."
+      },
+      {
+        "text": "This biopsy pattern is compatible with the sclerotic pagetoid variant of fibrous dysplasia described in monostotic lesions.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.93,
+        "reasoning": "Given the biopsy pattern and the trace's discussion, compatibility with a sclerotic pagetoid variant is a reasonable inference."
+      },
+      {
+        "text": "The sclerotic pagetoid variant of fibrous dysplasia is described especially in the proximal femur.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.9,
+        "reasoning": "The trace states this variant is described especially in the proximal femur."
+      },
+      {
+        "text": "The absence of a GNAS1 mutation in blood does not exclude fibrous dysplasia.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.98,
+        "reasoning": "The trace explicitly says absence of a GNAS1 mutation in blood does not exclude fibrous dysplasia."
+      },
+      {
+        "text": "GNAS1 mutations in fibrous dysplasia are somatic and mosaic.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.97,
+        "reasoning": "The trace states GNAS1 mutations in fibrous dysplasia are somatic and mosaic."
+      },
+      {
+        "text": "GNAS1 mutations in fibrous dysplasia are often absent in peripheral blood.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.97,
+        "reasoning": "The trace states these mutations are often absent in peripheral blood."
+      },
+      {
+        "text": "Paget disease is a consideration because of cortical thickening.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.92,
+        "reasoning": "Cortical thickening is a recognized feature that can prompt consideration of Paget disease; this follows from the trace."
+      },
+      {
+        "text": "Paget disease is a consideration because of medullary narrowing.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.92,
+        "reasoning": "Medullary narrowing/obliteration is a recognized Paget-like feature and is used in the trace as part of the consideration."
+      },
+      {
+        "text": "Paget disease is a consideration because of increased uptake on bone scan.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.92,
+        "reasoning": "Increased bone-scan uptake is a standard reason Paget disease enters the differential; this is consistent with the trace."
+      },
+      {
+        "text": "Paget disease is a consideration because of accentuated cement lines on histology.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.92,
+        "reasoning": "Accentuated cement lines are discussed in the trace as overlapping with Paget disease, so this is a valid inference."
+      },
+      {
+        "text": "Paget disease is much less likely in a 20-year-old.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.98,
+        "reasoning": "A 20-year-old is much younger than typical Paget disease patients; this is a sound clinical inference."
+      },
+      {
+        "text": "Alkaline phosphatase was normal.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Reference data states alkaline phosphatase was normal."
+      },
+      {
+        "text": "SQSTM1 testing was negative.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Reference data states SQSTM1 mutation testing was negative."
+      },
+      {
+        "text": "The clinical context is childhood onset with a solitary femoral lesion rather than typical adult-onset Paget disease.",
+        "category": "factual",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.94,
+        "reasoning": "The case began in childhood and involves a solitary femoral lesion, which contrasts with typical adult-onset Paget disease."
+      },
+      {
+        "text": "Chronic sclerosing osteomyelitis could cause pain.",
+        "category": "factual",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.9,
+        "reasoning": "Pain can occur in chronic sclerosing osteomyelitis; this is standard differential reasoning."
+      },
+      {
+        "text": "Chronic sclerosing osteomyelitis could cause sclerosis.",
+        "category": "factual",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.9,
+        "reasoning": "Sclerosis is a known feature of chronic sclerosing osteomyelitis; this is a reasonable inference."
+      },
+      {
+        "text": "There are no systemic inflammatory signs.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.98,
+        "reasoning": "No systemic inflammatory signs are documented; the trace notes no erythema, heat, or swelling and no biopsy inflammation."
+      },
+      {
+        "text": "There are no local inflammatory signs.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.98,
+        "reasoning": "No local inflammatory signs are documented: no erythema, heat, or swelling over the thigh."
+      },
+      {
+        "text": "Biopsy showed no inflammation.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Biopsy explicitly showed no inflammation."
+      },
+      {
+        "text": "There is no mention of infectious features.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.96,
+        "reasoning": "The reference data does not mention infectious features; this is a permissible absence summary."
+      },
+      {
+        "text": "Osteoid osteoma is less likely.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.95,
+        "reasoning": "Given diffuse shaft involvement without a nidus, osteoid osteoma is less likely; this follows from the trace."
+      },
+      {
+        "text": "The lesion involves most of the femoral shaft.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.98,
+        "reasoning": "MRI/PET-CT and bone scan show involvement of most of the right femoral shaft."
+      },
+      {
+        "text": "The lesion shows diffuse cortical thickening.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.98,
+        "reasoning": "Imaging explicitly showed significant increased cortical thickness of the right femoral diaphysis."
+      },
+      {
+        "text": "The lesion shows medullary obliteration.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.98,
+        "reasoning": "Imaging explicitly showed partial medullary obliteration."
+      },
+      {
+        "text": "The lesion does not show a focal nidus.",
+        "category": "factual",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.93,
+        "reasoning": "The trace contrasts diffuse shaft involvement with a focal nidus; absence of a nidus is a reasonable inference from the imaging description."
+      },
+      {
+        "text": "The diagnosis that best integrates the age at onset, monostotic unilateral femoral involvement, chronic pain, leg-length discrepancy, imaging pattern, and exclusion of infection and malignancy is monostotic fibrous dysplasia of the femur.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.98,
+        "reasoning": "This is the trace's overall diagnostic synthesis integrating age, lesion pattern, symptoms, and exclusions."
+      },
+      {
+        "text": "The diagnosis is specifically a sclerotic pagetoid variant.",
+        "category": "factual",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.95,
+        "reasoning": "The trace specifically characterizes the lesion as a sclerotic/pagetoid variant; this is a diagnostic conclusion rather than a directly measured fact."
+      },
+      {
+        "text": "Monostotic fibrous dysplasia is the high-probability differential diagnosis.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.98,
+        "reasoning": "The trace explicitly labels monostotic fibrous dysplasia as the high-probability differential."
+      },
+      {
+        "text": "Childhood or adolescent onset supports monostotic fibrous dysplasia.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.96,
+        "reasoning": "Childhood/adolescent onset is a classic supportive feature for monostotic fibrous dysplasia and is used that way in the trace."
+      },
+      {
+        "text": "Solitary right femoral involvement supports monostotic fibrous dysplasia.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.98,
+        "reasoning": "Single-bone unilateral femoral disease is consistent with monostotic fibrous dysplasia, though not stated verbatim."
+      },
+      {
+        "text": "Chronic pain supports monostotic fibrous dysplasia.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.97,
+        "reasoning": "Chronic pain is a common presenting feature and supports the diagnosis, but this is an inference from the case pattern."
+      },
+      {
+        "text": "Mild leg-length discrepancy supports monostotic fibrous dysplasia.",
+        "category": "causal",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.95,
+        "reasoning": "Reference data states a leg-length discrepancy managed with shoe inserts, with slight inequality on exam."
+      },
+      {
+        "text": "Bone scan uptake in the affected shaft supports monostotic fibrous dysplasia.",
+        "category": "causal",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.98,
+        "reasoning": "Bone scan showed increased uptake in most of the right femoral shaft."
+      },
+      {
+        "text": "Biopsy excluding malignancy and inflammation supports monostotic fibrous dysplasia.",
+        "category": "causal",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Biopsy showed no fibrosis, inflammation, malignancy, or neoplasia, which supports a noninfectious, nonmalignant process."
+      },
+      {
+        "text": "Blood GNAS1 negativity does not exclude mosaic fibrous dysplasia.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Blood GNAS1 R201 mutation testing was negative; mosaic fibrous dysplasia can be absent in blood, so the statement is correct."
+      },
+      {
+        "text": "Paget disease of bone is a medium-probability differential diagnosis.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.96,
+        "reasoning": "The trace explicitly lists Paget disease of bone as a medium-probability differential diagnosis."
+      },
+      {
+        "text": "Cortical thickening could resemble Paget disease of bone.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.95,
+        "reasoning": "Cortical thickening is a recognized imaging feature that can resemble Paget disease; this is a reasonable differential inference."
+      },
+      {
+        "text": "Partial medullary obliteration could resemble Paget disease of bone.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.94,
+        "reasoning": "Partial medullary obliteration is compatible with Paget-like remodeling and is a reasonable resemblance statement."
+      },
+      {
+        "text": "Increased uptake could resemble Paget disease of bone.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.95,
+        "reasoning": "Increased uptake on bone scan is a classic feature that can resemble Paget disease."
+      },
+      {
+        "text": "Accentuated cement lines could resemble Paget disease of bone.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.95,
+        "reasoning": "Accentuated cement lines are a histologic feature that can overlap with Paget disease."
+      },
+      {
+        "text": "Age 20 makes Paget disease of bone less likely.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.99,
+        "reasoning": "Age 20 is far younger than typical Paget disease, so this is a sound inference."
+      },
+      {
+        "text": "Normal alkaline phosphatase makes Paget disease of bone less likely.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.98,
+        "reasoning": "Normal alkaline phosphatase makes Paget disease less likely; this follows from standard clinical reasoning and the trace."
+      },
+      {
+        "text": "Negative SQSTM1 makes Paget disease of bone less likely.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.97,
+        "reasoning": "Negative SQSTM1 reduces likelihood of Paget disease; this is a reasonable inference from the trace."
+      },
+      {
+        "text": "Chronic sclerosing osteomyelitis is a low-probability differential diagnosis.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.98,
+        "reasoning": "The trace explicitly labels chronic sclerosing osteomyelitis as a low-probability differential."
+      },
+      {
+        "text": "Chronic sclerosing osteomyelitis can produce painful sclerotic long-bone lesions.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.97,
+        "reasoning": "The trace states chronic sclerosing osteomyelitis can cause painful sclerotic long-bone lesions."
+      },
+      {
+        "text": "There were no inflammatory signs clinically.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Exam showed no erythema, heat, or swelling over the right thigh."
+      },
+      {
+        "text": "Biopsy showed no inflammation.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Biopsy explicitly showed no inflammation."
+      },
+      {
+        "text": "Osteoid osteoma/osteoblastoma is a low-probability differential diagnosis.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.98,
+        "reasoning": "The trace explicitly lists osteoid osteoma/osteoblastoma as a low-probability differential."
+      },
+      {
+        "text": "Night pain is suggestive of osteoid osteoma/osteoblastoma.",
+        "category": "causal",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.98,
+        "reasoning": "Pain worse at night is directly stated in the presentation and is classically suggestive of osteoid osteoma/osteoblastoma."
+      },
+      {
+        "text": "NSAID response is suggestive of osteoid osteoma/osteoblastoma.",
+        "category": "causal",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.97,
+        "reasoning": "The pain was somewhat relieved by activity and cold baths and required daily NSAIDs; NSAID responsiveness is present."
+      },
+      {
+        "text": "Diffuse involvement of most of the femoral shaft without a focal nidus argues against osteoid osteoma/osteoblastoma.",
+        "category": "causal",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Imaging showed diffuse involvement of most of the femoral shaft with cortical thickening and medullary obliteration, not a focal nidus."
+      },
+      {
+        "text": "Biopsy did not show a bone-forming tumor.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.98,
+        "reasoning": "Biopsy showed no malignancy or neoplasia and no bone-forming tumor was identified."
+      },
+      {
+        "text": "The final diagnosis is monostotic fibrous dysplasia of the right femur.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 1.0,
+        "reasoning": "The trace explicitly states the final diagnosis is monostotic fibrous dysplasia of the right femur."
+      }
+    ],
+    "verdict_counts": {
+      "contradicted": 0,
+      "supported": 71,
+      "valid_inference": 32,
+      "unverifiable": 1
+    },
+    "contradictions": 0
+  }
+}

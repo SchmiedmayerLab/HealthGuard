@@ -1,0 +1,935 @@
+{
+  "name": "expert_verify",
+  "passed": true,
+  "score": 1.0,
+  "reasoning": "No contradictions among 102 statement(s) (78 supported, 23 valid inferences, 1 unverifiable).",
+  "data": {
+    "verifications": [
+      {
+        "text": "The chief complaint is recurrent right upper quadrant abdominal pain.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Presentation states 5-day constant sharp RUQ abdominal pain; recurrent RUQ pain is also described later."
+      },
+      {
+        "text": "The chief complaint includes intermittent fevers.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.98,
+        "reasoning": "Initial and later episodes included low-grade fevers and fever up to 102.4 F."
+      },
+      {
+        "text": "The chief complaint includes nausea.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.98,
+        "reasoning": "Nausea is explicitly listed in the initial and later presentations."
+      },
+      {
+        "text": "The chief complaint includes fatigue.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.98,
+        "reasoning": "Fatigue is explicitly part of the initial symptom complex."
+      },
+      {
+        "text": "The symptoms evolved over many months into enlarging hepatic lesions.",
+        "category": "causal",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.95,
+        "reasoning": "Over months, the lesion enlarged from 2 cm to 4.8 x 4.7 cm, consistent with progression into enlarging hepatic lesions."
+      },
+      {
+        "text": "The symptoms later evolved into multiple hepatic lesions.",
+        "category": "causal",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.95,
+        "reasoning": "Later CT showed multiple low-attenuation lesions in both hepatic lobes after the prior solitary mass."
+      },
+      {
+        "text": "The patient’s own major concern is a recurrent painful liver process.",
+        "category": "factual",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.78,
+        "reasoning": "The case centers on recurrent painful hepatic disease; this is a reasonable summary of the patient's main concern, though not stated verbatim."
+      },
+      {
+        "text": "The liver process at times appeared mass-like on imaging.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.97,
+        "reasoning": "CT described a 4.8 x 4.7 cm mass suspicious for malignancy, i.e., mass-like appearance."
+      },
+      {
+        "text": "The liver process at times appeared malignant on imaging.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.97,
+        "reasoning": "The CT explicitly said the mass was suspicious for malignancy."
+      },
+      {
+        "text": "There are recurrent right upper quadrant pain and fever.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Recurrent RUQ pain with fever is repeatedly documented."
+      },
+      {
+        "text": "A 2 cm enhancing right hepatic lesion progressed to a 4.8 × 4.7 cm mass.",
+        "category": "causal",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "MRI showed a 2 cm enhancing right hepatic lesion; later CT showed a 4.8 x 4.7 cm mass."
+      },
+      {
+        "text": "A 4.8 × 4.7 cm mass later became multiple low-attenuation lesions in both hepatic lobes.",
+        "category": "causal",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "The July 2009 CT revealed multiple low-attenuation lesions in both hepatic lobes after the prior mass."
+      },
+      {
+        "text": "Pathology from hepatectomy showed florid necrotizing granulomatous inflammation.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Hepatectomy histopathology showed florid necrotizing granulomatous inflammation."
+      },
+      {
+        "text": "Pathology from hepatectomy showed pseudotumor formation.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "The pathology report included pseudotumor formation."
+      },
+      {
+        "text": "Later biopsy showed extensive granulomatous hepatitis.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "The later percutaneous biopsy showed extensive granulomatous hepatitis."
+      },
+      {
+        "text": "Later biopsy showed occasional fibrin rings.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "The biopsy specifically noted occasional fibrin rings."
+      },
+      {
+        "text": "AST was 93.",
+        "category": "statistical",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "AST was reported as 93 IU/L."
+      },
+      {
+        "text": "ALT was 74.",
+        "category": "statistical",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "ALT was reported as 74 IU/L."
+      },
+      {
+        "text": "Alkaline phosphatase was 193.",
+        "category": "statistical",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Alkaline phosphatase was reported as 193 IU/L."
+      },
+      {
+        "text": "Bilirubin was 0.6.",
+        "category": "statistical",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Total bilirubin was reported as 0.6 mg/dL."
+      },
+      {
+        "text": "Routine cultures were repeatedly negative.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.98,
+        "reasoning": "Blood, urine, and stool cultures were negative; earlier fungal and mycobacterial cultures were also negative."
+      },
+      {
+        "text": "Granulomatous hepatitis with fibrin-ring granulomas strongly suggests a limited set of infectious and inflammatory etiologies.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.93,
+        "reasoning": "This is a standard diagnostic inference from granulomatous hepatitis with fibrin-ring granulomas, which narrows the differential to a limited set of infectious/inflammatory causes."
+      },
+      {
+        "text": "The pseudotumor presentation is unusual.",
+        "category": "factual",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.86,
+        "reasoning": "A hepatic pseudotumor is an unusual presentation; this is a reasonable characterization from the pathology/imaging context."
+      },
+      {
+        "text": "The pseudotumor presentation can occur with granulomatous infections.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.82,
+        "reasoning": "Granulomatous infections can present as pseudotumor-like hepatic lesions; this is a sound clinical inference, not a direct data statement."
+      },
+      {
+        "text": "Malignancy was not found on biopsy.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.98,
+        "reasoning": "Fine-needle biopsy showed no evidence of malignancy."
+      },
+      {
+        "text": "Malignancy was not found on resection.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.97,
+        "reasoning": "The hepatectomy pathology described necrotizing granulomatous inflammation and pseudotumor formation, not malignancy."
+      },
+      {
+        "text": "Fungal stains were repeatedly negative.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.98,
+        "reasoning": "Fungal stains were negative on hepatectomy and special stains remained negative on later biopsy."
+      },
+      {
+        "text": "Fungal cultures were repeatedly negative.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.98,
+        "reasoning": "Fungal cultures were negative on the initial biopsy; later cultures also remained negative."
+      },
+      {
+        "text": "Mycobacterial stains were repeatedly negative.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.98,
+        "reasoning": "Mycobacterial stains were negative on hepatectomy and later special stains remained negative."
+      },
+      {
+        "text": "Mycobacterial cultures were repeatedly negative.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.98,
+        "reasoning": "Mycobacterial cultures were negative on the initial biopsy; later cultures also remained negative."
+      },
+      {
+        "text": "Immunohistochemical stains for CMV were negative.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Immunohistochemical stains for cytomegalovirus were negative."
+      },
+      {
+        "text": "Serologic testing was negative for acute viral hepatitis.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Serologies for acute viral hepatitis were part of the extensive negative workup."
+      },
+      {
+        "text": "Serologic testing was negative for toxoplasmosis.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Serologies for toxoplasmosis were negative."
+      },
+      {
+        "text": "Serologic testing was negative for HIV.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "HIV testing was negative."
+      },
+      {
+        "text": "Serologic testing was negative for Entamoeba histolytica.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Testing for Entamoeba histolytica was negative."
+      },
+      {
+        "text": "Serologic testing was negative for Borrelia.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Borrelia burgdorferi testing was negative."
+      },
+      {
+        "text": "Serologic testing was negative for Bartonella.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Bartonella spp. testing was negative."
+      },
+      {
+        "text": "Serologic testing was negative for Histoplasma.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Urinary Histoplasma antigen testing was negative."
+      },
+      {
+        "text": "Serologic testing was negative for Blastomyces.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Blastomyces antigen testing was negative."
+      },
+      {
+        "text": "Serologic testing was negative for Cryptococcus.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Cryptococcal antigen testing was negative."
+      },
+      {
+        "text": "Tuberculosis testing by PPD was negative.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Reference data states tuberculin skin testing with Quantiferon was entirely negative; PPD is part of TB testing and the trace explicitly mentions tuberculin skin testing."
+      },
+      {
+        "text": "Tuberculosis testing by Quantiferon was negative.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Reference data explicitly says Quantiferon was entirely negative."
+      },
+      {
+        "text": "Blood cultures were negative.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Blood cultures were negative in July 2009."
+      },
+      {
+        "text": "Urine cultures were negative.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Reference data explicitly states urine cultures were negative."
+      },
+      {
+        "text": "Stool cultures were negative.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Reference data explicitly states stool cultures were negative."
+      },
+      {
+        "text": "ANA was 1:40.",
+        "category": "statistical",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "ANA was reported as 1:40."
+      },
+      {
+        "text": "Antimitochondrial antibody was negative.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Anti-mitochondrial antibody was negative."
+      },
+      {
+        "text": "The ANA result does not support a primary autoimmune cholestatic process.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.86,
+        "reasoning": "Low-titer ANA (1:40) with negative AMA does not support a primary autoimmune cholestatic process; this is a reasonable interpretive inference from the labs."
+      },
+      {
+        "text": "There is no provided evidence of pulmonary disease.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.9,
+        "reasoning": "The reference data provides no pulmonary disease findings."
+      },
+      {
+        "text": "There is no provided evidence of hilar adenopathy.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.9,
+        "reasoning": "No hilar adenopathy is mentioned in the reference data."
+      },
+      {
+        "text": "There is no provided evidence of inflammatory bowel disease.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.9,
+        "reasoning": "No inflammatory bowel disease is described in the reference data."
+      },
+      {
+        "text": "There is no provided evidence of systemic vasculitis.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.9,
+        "reasoning": "No systemic vasculitis is described in the reference data."
+      },
+      {
+        "text": "The liver pathology is the key clue.",
+        "category": "factual",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.95,
+        "reasoning": "Given the repeated biopsies and the decisive granulomatous pathology, calling liver pathology the key clue is a sound clinical inference."
+      },
+      {
+        "text": "Granulomatous hepatitis with fibrin-ring granulomas strongly suggests a limited set of infectious and inflammatory etiologies.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.95,
+        "reasoning": "Granulomatous hepatitis with fibrin-ring granulomas is a classic pattern that narrows the differential to a limited set of infectious/inflammatory causes."
+      },
+      {
+        "text": "Q fever hepatitis fits very well.",
+        "category": "factual",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.97,
+        "reasoning": "The biopsy pattern, fever, RUQ pain, mild enzyme elevation, and negative routine workup make Q fever hepatitis a strong fit."
+      },
+      {
+        "text": "Fibrin-ring granulomas are classic for Q fever hepatitis.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.98,
+        "reasoning": "Fibrin-ring granulomas are a classic histologic clue for Q fever hepatitis."
+      },
+      {
+        "text": "Patients with Q fever hepatitis often have fever.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.95,
+        "reasoning": "Fever is a common clinical feature of Q fever hepatitis."
+      },
+      {
+        "text": "Patients with Q fever hepatitis often have right upper quadrant pain.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.95,
+        "reasoning": "RUQ pain is a common presenting symptom in Q fever hepatitis and fits the case."
+      },
+      {
+        "text": "Patients with Q fever hepatitis often have mild transaminitis.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.95,
+        "reasoning": "Mild transaminitis is typical in Q fever hepatitis and matches the AST/ALT elevations."
+      },
+      {
+        "text": "Patients with Q fever hepatitis often have negative routine cultures.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.96,
+        "reasoning": "Negative routine cultures are expected in Coxiella infection because it is not detected on standard culture methods."
+      },
+      {
+        "text": "Coxiella is not recovered on standard culture.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.98,
+        "reasoning": "Coxiella burnetii is not recovered on standard culture; this is standard microbiology."
+      },
+      {
+        "text": "Granulomatous hepatitis can recur if untreated.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.8,
+        "reasoning": "Recurrent granulomatous hepatitis after no treatment is a plausible clinical inference, though not directly stated in the reference data."
+      },
+      {
+        "text": "Hepatic pseudotumor is uncommon in Q fever hepatitis.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.95,
+        "reasoning": "The trace explicitly says hepatic pseudotumor is uncommon in Q fever hepatitis."
+      },
+      {
+        "text": "Hepatic pseudotumor can occur with granulomatous infections.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.9,
+        "reasoning": "Granulomatous infections can present as pseudotumor-like hepatic lesions; this is a reasonable general inference."
+      },
+      {
+        "text": "Necrotizing granulomatous inflammation can be seen with tuberculosis.",
+        "category": "causal",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.95,
+        "reasoning": "Reference data explicitly notes necrotizing granulomatous inflammation can be seen with TB."
+      },
+      {
+        "text": "Hepatic lesions may be mass-like in tuberculosis.",
+        "category": "causal",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.95,
+        "reasoning": "The case had a 4.8 × 4.7 cm mass suspicious for malignancy, so mass-like hepatic lesions can occur in TB is consistent with the differential discussion."
+      },
+      {
+        "text": "Repeated mycobacterial stains and cultures were negative.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Mycobacterial stains/cultures were repeatedly negative on biopsy/resection specimens."
+      },
+      {
+        "text": "TB testing was negative.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "TB testing with tuberculin skin testing and Quantiferon was negative."
+      },
+      {
+        "text": "Fibrin-ring granulomas point more strongly elsewhere than tuberculosis.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.93,
+        "reasoning": "Given the classic fibrin-ring granulomas of Q fever and negative TB studies, it is reasonable that the pathology points more strongly elsewhere."
+      },
+      {
+        "text": "Granulomatous hepatitis and focal liver lesions are possible in fungal hepatic infection.",
+        "category": "causal",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.95,
+        "reasoning": "Granulomatous hepatitis and focal liver lesions are described as possible in fungal hepatic infection."
+      },
+      {
+        "text": "Fungal stains and cultures were negative.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Fungal stains and cultures were negative in the reference data."
+      },
+      {
+        "text": "Fungal antigen testing was negative.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Urinary Histoplasma/Blastomyces antigens and cryptococcal antigens were negative."
+      },
+      {
+        "text": "There is no supporting systemic context for fungal hepatic infection.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.9,
+        "reasoning": "No supporting systemic context for fungal infection is provided in the case."
+      },
+      {
+        "text": "Granulomatous hepatitis with fever can occur in sarcoidosis.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.9,
+        "reasoning": "Sarcoidosis can present with granulomatous hepatitis and fever; this is standard clinical knowledge."
+      },
+      {
+        "text": "Granulomatous hepatitis with fever can occur in idiopathic granulomatous hepatitis.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.9,
+        "reasoning": "Idiopathic granulomatous hepatitis can present with granulomatous hepatitis and fever; this is a reasonable differential statement."
+      },
+      {
+        "text": "Necrotizing granulomas are less typical of sarcoidosis.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.95,
+        "reasoning": "The trace states necrotizing granulomas are less typical of sarcoidosis."
+      },
+      {
+        "text": "Fibrin rings are less typical of sarcoidosis.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.95,
+        "reasoning": "The trace states fibrin rings are less typical of sarcoidosis."
+      },
+      {
+        "text": "The mass-like pseudotumor pattern is less characteristic of sarcoidosis.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.95,
+        "reasoning": "The trace explicitly says the mass-like pseudotumor pattern is less characteristic of sarcoidosis."
+      },
+      {
+        "text": "No extrahepatic sarcoid features are provided.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.95,
+        "reasoning": "No extrahepatic sarcoid features are provided in the reference data."
+      },
+      {
+        "text": "Fibrin-ring granulomas can occur with medications.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.85,
+        "reasoning": "Drug-induced granulomatous hepatitis is a recognized cause of fibrin-ring granulomas, though no culprit medication is identified here."
+      },
+      {
+        "text": "No medication exposure history suggesting an offending agent is provided.",
+        "category": "factual",
+        "verdict": "unverifiable",
+        "verified": true,
+        "score": 0.6,
+        "confidence": 0.93,
+        "reasoning": "The reference data does not provide a medication exposure history; absence of evidence is not a contradiction."
+      },
+      {
+        "text": "The most discriminating feature is the liver biopsy showing granulomatous hepatitis with occasional fibrin rings.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "The biopsy showed \"extensive granulomatous hepatitis with occasional fibrin rings.\""
+      },
+      {
+        "text": "The liver biopsy finding occurred in the setting of recurrent fever.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.98,
+        "reasoning": "The biopsy finding occurred during the July 2009 episode with fevers up to 102.4 °F and later 101.1 °F."
+      },
+      {
+        "text": "The liver biopsy finding occurred in the setting of right upper quadrant pain.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.98,
+        "reasoning": "The same July 2009 episode included recurrent right upper quadrant pain."
+      },
+      {
+        "text": "The liver biopsy finding occurred in the setting of mild hepatitis and cholestatic enzyme elevation.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.95,
+        "reasoning": "AST 93, ALT 74, and alkaline phosphatase 193 indicate mild hepatocellular and cholestatic enzyme elevation."
+      },
+      {
+        "text": "The liver biopsy finding occurred in the setting of a strikingly negative conventional infectious evaluation.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.97,
+        "reasoning": "Extensive serologies, cultures, stains, and TB testing were reported negative."
+      },
+      {
+        "text": "Among causes of fibrin-ring granulomas, Q fever is the classic diagnosis.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.96,
+        "reasoning": "Fibrin-ring granulomas are classically associated with Q fever; this is standard medical knowledge and fits the trace."
+      },
+      {
+        "text": "Among causes of fibrin-ring granulomas, Q fever is the best-fitting diagnosis.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.95,
+        "reasoning": "Given the biopsy pattern plus fever/RUQ pain and negative workup, Q fever is a sound best-fit inference."
+      },
+      {
+        "text": "The repeated failure to identify organisms on routine stains and cultures supports Coxiella.",
+        "category": "causal",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.96,
+        "reasoning": "Routine stains/cultures were repeatedly negative, which is consistent with Coxiella not being recovered on standard culture."
+      },
+      {
+        "text": "Coxiella is an intracellular pathogen.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Coxiella burnetii is an intracellular pathogen."
+      },
+      {
+        "text": "Coxiella is typically diagnosed serologically rather than by standard cultures.",
+        "category": "causal",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.98,
+        "reasoning": "Coxiella is typically diagnosed by serology rather than standard culture."
+      },
+      {
+        "text": "The single most likely diagnosis is Q fever hepatitis due to Coxiella burnetii.",
+        "category": "factual",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.97,
+        "reasoning": "This is the trace's diagnostic conclusion, which follows from the biopsy and negative workup."
+      },
+      {
+        "text": "The differential diagnosis includes Q fever hepatitis due to Coxiella burnetii.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "The trace explicitly lists Q fever hepatitis due to Coxiella burnetii in the differential."
+      },
+      {
+        "text": "The differential diagnosis includes hepatic tuberculosis or atypical mycobacterial infection.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Hepatic tuberculosis or atypical mycobacterial infection is explicitly listed as a differential."
+      },
+      {
+        "text": "The differential diagnosis includes fungal hepatic infection.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Fungal hepatic infection is explicitly listed as a differential."
+      },
+      {
+        "text": "The differential diagnosis includes sarcoidosis or idiopathic granulomatous hepatitis.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Sarcoidosis / idiopathic granulomatous hepatitis is explicitly listed as a differential."
+      },
+      {
+        "text": "The differential diagnosis includes drug-induced granulomatous hepatitis.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Drug-induced granulomatous hepatitis is explicitly listed as a differential."
+      },
+      {
+        "text": "Q fever hepatitis is high on the differential.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.98,
+        "reasoning": "The trace labels Q fever hepatitis as high on the differential."
+      },
+      {
+        "text": "Hepatic tuberculosis or atypical mycobacterial infection is medium on the differential.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.98,
+        "reasoning": "The trace labels hepatic tuberculosis or atypical mycobacterial infection as medium on the differential."
+      },
+      {
+        "text": "Fungal hepatic infection is low on the differential.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.98,
+        "reasoning": "The trace labels fungal hepatic infection as low on the differential."
+      },
+      {
+        "text": "Sarcoidosis or idiopathic granulomatous hepatitis is low on the differential.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.98,
+        "reasoning": "The trace labels sarcoidosis or idiopathic granulomatous hepatitis as low on the differential."
+      },
+      {
+        "text": "The final diagnosis is Q fever hepatitis.",
+        "category": "factual",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.98,
+        "reasoning": "The trace explicitly concludes with final diagnosis: Q fever hepatitis."
+      }
+    ],
+    "verdict_counts": {
+      "contradicted": 0,
+      "supported": 78,
+      "valid_inference": 23,
+      "unverifiable": 1
+    },
+    "contradictions": 0
+  }
+}

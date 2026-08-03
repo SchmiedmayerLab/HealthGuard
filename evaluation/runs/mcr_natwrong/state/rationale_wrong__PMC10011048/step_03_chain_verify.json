@@ -1,0 +1,10 @@
+{
+  "name": "chain_verify",
+  "passed": true,
+  "score": 1.0,
+  "reasoning": "All logical chains are internally consistent. The statements form a coherent diagnostic chain: the clinical description, histology, and immunophenotype consistently support follicular mucinosis, while alternative diagnoses are reasonably argued against by the provided findings. The few differential-diagnosis statements are internally consistent and do not contain broken causal links.",
+  "data": {
+    "has_chain_dependencies": true,
+    "issues": []
+  }
+}

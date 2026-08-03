@@ -1,0 +1,40 @@
+{
+  "input": {
+    "resourceType": "clinicalCaseDiagnosis",
+    "id": "PMC3863494",
+    "origin": "testdata/streamlined/clinical-cases-cot/extracted/PMC3863494.json",
+    "groundTruthDiagnosis": "Mycobacterium haemophilum",
+    "rawInput": {
+      "complaint": "A 67‐year‐old man with type 2 diabetes mellitus and nephropathy presented with a 4‐month history of an asymptomatic rash and swelling over his right thigh. He had undergone a cadaveric renal transplant six years earlier and was maintained on cyclosporine, mycophenolic acid, and prednisone. He wore a prosthetic right lower limb after a below‐knee amputation; the eruption began distally on his residual limb and spread proximally. Empiric antifungal cream was ineffective, and topical corticosteroid worsened the lesions. He had traveled to Thailand, Vietnam, and Panama. \n\nOn examination, there were multiple erythematous papules and plaques, some coalescing into an annular pattern on the right thigh. A punch biopsy showed dermal nonnecrotizing tuberculoid granulomas with lymphocytes and rare neutrophils. Acid‐fast staining revealed rare acid‐fast bacilli and demonstrated granulomatous involvement of a peripheral nerve bundle. Period acid‐Schiff stain was negative for fungal elements.",
+      "metadata": {
+        "presentation": "A 67‐year‐old man with type 2 diabetes mellitus and nephropathy presented with a 4‐month history of an asymptomatic rash and swelling over his right thigh. He had undergone a cadaveric renal transplant six years earlier and was maintained on cyclosporine, mycophenolic acid, and prednisone. He wore a prosthetic right lower limb after a below‐knee amputation; the eruption began distally on his residual limb and spread proximally. Empiric antifungal cream was ineffective, and topical corticosteroid worsened the lesions. He had traveled to Thailand, Vietnam, and Panama. \n\nOn examination, there were multiple erythematous papules and plaques, some coalescing into an annular pattern on the right thigh. A punch biopsy showed dermal nonnecrotizing tuberculoid granulomas with lymphocytes and rare neutrophils. Acid‐fast staining revealed rare acid‐fast bacilli and demonstrated granulomatous involvement of a peripheral nerve bundle. Period acid‐Schiff stain was negative for fungal elements."
+      }
+    },
+    "cotDiagnosis": {
+      "reasoning": "The chief complaint is a 4-month, asymptomatic rash with swelling over the right thigh in an immunosuppressed renal transplant recipient. The patient’s own concern is a progressive unilateral eruption that began distally on the residual limb and spread proximally, with failure of empiric antifungal therapy and worsening after topical corticosteroids.\n\nSalient positive findings strongly point toward an infectious granulomatous dermatosis with neural involvement. He is chronically immunosuppressed after cadaveric renal transplant and takes cyclosporine, mycophenolic acid, and prednisone, which increases susceptibility to atypical infections. He has travel exposure to Thailand, Vietnam, and Panama, all regions where leprosy can occur. The lesions are multiple erythematous papules and plaques, some annular, localized to the right thigh/residual limb. Histology shows dermal nonnecrotizing tuberculoid granulomas with lymphocytes and rare neutrophils. Most importantly, acid-fast stain shows rare acid-fast bacilli and granulomatous involvement of a peripheral nerve bundle. Peripheral nerve involvement in a granulomatous dermatitis is a classic clue for Hansen disease. The presence of only rare bacilli with tuberculoid granulomas supports the paucibacillary/tuberculoid end of the spectrum rather than lepromatous disease.\n\nPertinent negatives also help narrow the diagnosis. PAS stain is negative for fungal elements, arguing against dermatophyte or deep fungal infection. Antifungal cream was ineffective, and topical corticosteroid worsened the lesions, which is compatible with an untreated infection rather than eczema or inflammatory dermatosis. The biopsy showed nonnecrotizing rather than caseating granulomas, which makes classic cutaneous tuberculosis less fitting. The eruption is asymptomatic, which is less typical for bacterial cellulitis or inflammatory contact dermatitis. There is no mention of systemic symptoms, ulceration, or purulence.\n\nDifferential diagnosis:\n1. Hansen disease (leprosy) fits best. Supporting features are travel to endemic areas, chronic immunosuppression, granulomatous dermatitis, acid-fast bacilli, and especially granulomatous involvement of a peripheral nerve bundle. The annular papules/plaques and paucity of organisms are consistent with tuberculoid/borderline tuberculoid disease.\n2. Cutaneous nontuberculous mycobacterial infection is plausible because he is immunosuppressed and has acid-fast bacilli with chronic plaques. However, NTM would not characteristically involve peripheral nerves on biopsy, which is a major discriminator against it.\n3. Cutaneous tuberculosis could produce granulomas and acid-fast organisms, but peripheral nerve bundle involvement is not characteristic, and the histology is described as tuberculoid granulomas with rare bacilli rather than caseating granulomas.\n4. Deep fungal infection or tinea is less likely because PAS is negative and antifungal treatment failed.\n5. Granuloma annulare or sarcoidosis could produce annular plaques and granulomas, but neither would explain acid-fast bacilli or nerve involvement.\n\nThe single most likely diagnosis is Hansen disease. The biopsy finding of acid-fast bacilli within a granulomatous dermatitis involving a peripheral nerve bundle is the decisive feature. Given the tuberculoid granulomas and rare organisms, this is most consistent with tuberculoid leprosy on the paucibacillary end of the spectrum.",
+      "differentialDiagnoses": [
+        {
+          "condition": "Hansen disease (tuberculoid leprosy)",
+          "likelihood": "high",
+          "supportingEvidence": "Travel to endemic regions, chronic immunosuppression, annular erythematous papules/plaques, dermal nonnecrotizing tuberculoid granulomas, rare acid-fast bacilli, and granulomatous involvement of a peripheral nerve bundle."
+        },
+        {
+          "condition": "Cutaneous nontuberculous mycobacterial infection",
+          "likelihood": "medium",
+          "supportingEvidence": "Immunosuppressed transplant recipient with chronic localized plaques and rare acid-fast bacilli on stain, but peripheral nerve involvement is not typical."
+        },
+        {
+          "condition": "Cutaneous tuberculosis",
+          "likelihood": "low",
+          "supportingEvidence": "Granulomatous inflammation and acid-fast organisms could suggest TB, but nonnecrotizing tuberculoid granulomas and nerve bundle involvement favor leprosy."
+        },
+        {
+          "condition": "Deep fungal infection / dermatophytosis",
+          "likelihood": "low",
+          "supportingEvidence": "Annular plaques were initially treated as fungal, but PAS stain was negative and antifungal cream was ineffective."
+        }
+      ],
+      "finalDiagnosis": "Tuberculoid leprosy"
+    }
+  }
+}

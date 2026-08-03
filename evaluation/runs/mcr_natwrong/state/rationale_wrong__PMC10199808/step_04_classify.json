@@ -1,0 +1,565 @@
+{
+  "name": "classify",
+  "passed": true,
+  "score": 1.0,
+  "reasoning": "Classified 111 statement(s): 49 causal, 61 factual, 1 statistical.",
+  "data": {
+    "classified": [
+      {
+        "text": "The chief complaint is a sexually active 53-year-old man with rectal tenesmus, frequent small-volume stools, hematochezia, and mucous discharge.",
+        "category": "factual",
+        "rationale": "It states patient characteristics and symptoms as observed or reported facts."
+      },
+      {
+        "text": "These symptoms are described as a proctitis syndrome.",
+        "category": "factual",
+        "rationale": "It labels the symptom cluster as a clinical syndrome."
+      },
+      {
+        "text": "The patient’s own concern is persistent anorectal symptoms after recent homosexual exposure.",
+        "category": "factual",
+        "rationale": "It reports the patient's concern and exposure history."
+      },
+      {
+        "text": "The initial clinical frame is infectious proctitis.",
+        "category": "factual",
+        "rationale": "It states the initial diagnostic framing."
+      },
+      {
+        "text": "An STI-related cause is especially considered before primary inflammatory bowel disease.",
+        "category": "causal",
+        "rationale": "It expresses a prioritization based on the relationship between exposure pattern and likely cause."
+      },
+      {
+        "text": "Recent homosexual contact is a salient positive finding.",
+        "category": "factual",
+        "rationale": "It identifies a relevant historical finding."
+      },
+      {
+        "text": "The symptoms are localized to the rectum.",
+        "category": "factual",
+        "rationale": "It describes symptom location."
+      },
+      {
+        "text": "The symptoms include tenesmus.",
+        "category": "factual",
+        "rationale": "It lists a symptom present in the patient."
+      },
+      {
+        "text": "The symptoms include mucus.",
+        "category": "factual",
+        "rationale": "It lists a symptom present in the patient."
+      },
+      {
+        "text": "The symptoms include bleeding.",
+        "category": "factual",
+        "rationale": "It lists a symptom present in the patient."
+      },
+      {
+        "text": "Proctoscopy showed ulcerative proctitis.",
+        "category": "factual",
+        "rationale": "It reports an endoscopic finding."
+      },
+      {
+        "text": "Proctoscopy showed friable mucosa.",
+        "category": "factual",
+        "rationale": "It reports an endoscopic finding."
+      },
+      {
+        "text": "Proctoscopy showed vulnerable mucosa.",
+        "category": "factual",
+        "rationale": "It reports an endoscopic finding."
+      },
+      {
+        "text": "Rectal biopsy PCR was positive for Chlamydia trachomatis.",
+        "category": "factual",
+        "rationale": "It reports a microbiologic test result."
+      },
+      {
+        "text": "Chlamydia trachomatis serology was positive.",
+        "category": "factual",
+        "rationale": "It reports a serologic test result."
+      },
+      {
+        "text": "The serology showed high IgG.",
+        "category": "statistical",
+        "rationale": "It specifies a numerical/quantitative laboratory value category."
+      },
+      {
+        "text": "The serology showed positive IgA.",
+        "category": "factual",
+        "rationale": "It reports a qualitative lab result."
+      },
+      {
+        "text": "There was partial improvement after doxycycline.",
+        "category": "factual",
+        "rationale": "It reports a treatment response."
+      },
+      {
+        "text": "These findings strongly support chlamydial proctitis.",
+        "category": "causal",
+        "rationale": "It infers a diagnostic relationship from the findings."
+      },
+      {
+        "text": "The ulcerative phenotype raises concern for lymphogranuloma venereum serovars of Chlamydia trachomatis.",
+        "category": "causal",
+        "rationale": "It links a phenotype to a suspected organism subtype."
+      },
+      {
+        "text": "Severe symptoms raise concern for lymphogranuloma venereum serovars of Chlamydia trachomatis.",
+        "category": "causal",
+        "rationale": "It links symptom severity to a suspected cause."
+      },
+      {
+        "text": "Prolonged symptoms raise concern for lymphogranuloma venereum serovars of Chlamydia trachomatis.",
+        "category": "causal",
+        "rationale": "It links chronicity to a suspected cause."
+      },
+      {
+        "text": "MSM exposure raises concern for lymphogranuloma venereum serovars of Chlamydia trachomatis.",
+        "category": "causal",
+        "rationale": "It links exposure history to a suspected cause."
+      },
+      {
+        "text": "Lymphogranuloma venereum serovars of Chlamydia trachomatis classically cause invasive hemorrhagic proctitis.",
+        "category": "factual",
+        "rationale": "It states a general clinical property of the organism."
+      },
+      {
+        "text": "Invasive hemorrhagic proctitis can mimic inflammatory bowel disease.",
+        "category": "causal",
+        "rationale": "It describes a mimicry relationship between conditions."
+      },
+      {
+        "text": "The later finding of increased prostate enhancement may fit ongoing pelvic inflammatory involvement.",
+        "category": "causal",
+        "rationale": "It interprets an imaging finding as consistent with inflammation."
+      },
+      {
+        "text": "Stool culture grew Brachyspira aalborgii.",
+        "category": "factual",
+        "rationale": "It reports a culture result."
+      },
+      {
+        "text": "Metronidazole gave only transient relief for 3 weeks.",
+        "category": "factual",
+        "rationale": "It reports treatment response over time."
+      },
+      {
+        "text": "This suggests either colonization or a secondary contributor rather than the main driver.",
+        "category": "causal",
+        "rationale": "It infers the role of the organism from the response pattern."
+      },
+      {
+        "text": "Histology initially showed only mild active inflammation.",
+        "category": "factual",
+        "rationale": "It reports a pathology finding."
+      },
+      {
+        "text": "Histology initially showed polarized crypts.",
+        "category": "factual",
+        "rationale": "It reports a pathology finding."
+      },
+      {
+        "text": "Histology initially showed increased eosinophils.",
+        "category": "factual",
+        "rationale": "It reports a pathology finding."
+      },
+      {
+        "text": "Histology initially showed no malignancy.",
+        "category": "factual",
+        "rationale": "It reports a pathology finding."
+      },
+      {
+        "text": "PCR from biopsy was negative for gonorrhea.",
+        "category": "factual",
+        "rationale": "It reports a negative microbiologic test result."
+      },
+      {
+        "text": "PCR from biopsy was negative for CMV.",
+        "category": "factual",
+        "rationale": "It reports a negative microbiologic test result."
+      },
+      {
+        "text": "PCR from biopsy was negative for HSV.",
+        "category": "factual",
+        "rationale": "It reports a negative microbiologic test result."
+      },
+      {
+        "text": "Serologies for HIV were negative.",
+        "category": "factual",
+        "rationale": "It reports a negative serologic result."
+      },
+      {
+        "text": "Serologies for hepatitis viruses were negative.",
+        "category": "factual",
+        "rationale": "It reports a negative serologic result."
+      },
+      {
+        "text": "Serologies for syphilis were negative.",
+        "category": "factual",
+        "rationale": "It reports a negative serologic result."
+      },
+      {
+        "text": "The external ano-genital exam was unremarkable.",
+        "category": "factual",
+        "rationale": "It reports a normal physical exam finding."
+      },
+      {
+        "text": "The vitals were unremarkable.",
+        "category": "factual",
+        "rationale": "It reports normal vital signs."
+      },
+      {
+        "text": "These findings argue against severe systemic illness.",
+        "category": "causal",
+        "rationale": "It infers a lower likelihood of systemic illness from the normal findings."
+      },
+      {
+        "text": "Later colonoscopy showed discontinuous ulcerations in the rectum.",
+        "category": "factual",
+        "rationale": "It reports an endoscopic finding."
+      },
+      {
+        "text": "Later colonoscopy showed discontinuous ulcerations in the cecum.",
+        "category": "factual",
+        "rationale": "It reports an endoscopic finding."
+      },
+      {
+        "text": "Later colonoscopy showed discontinuous ulcerations in the ileocecal valve.",
+        "category": "factual",
+        "rationale": "It reports an endoscopic finding."
+      },
+      {
+        "text": "Later colonoscopy showed discontinuous ulcerations in the terminal ileum.",
+        "category": "factual",
+        "rationale": "It reports an endoscopic finding."
+      },
+      {
+        "text": "These findings can resemble Crohn’s disease.",
+        "category": "causal",
+        "rationale": "It describes a resemblance between findings and a disease pattern."
+      },
+      {
+        "text": "Histopathology was nonspecific rather than diagnostic.",
+        "category": "factual",
+        "rationale": "It reports the interpretive result of pathology."
+      },
+      {
+        "text": "MRI showed rectal enhancement.",
+        "category": "factual",
+        "rationale": "It reports an imaging finding."
+      },
+      {
+        "text": "MRI showed cecal enhancement.",
+        "category": "factual",
+        "rationale": "It reports an imaging finding."
+      },
+      {
+        "text": "MRI showed no fistula.",
+        "category": "factual",
+        "rationale": "It reports a negative imaging finding."
+      },
+      {
+        "text": "MRI showed no stenosis.",
+        "category": "factual",
+        "rationale": "It reports a negative imaging finding."
+      },
+      {
+        "text": "Negative rectal testing for Neisseria gonorrhoeae reduces the likelihood of gonococcal proctitis.",
+        "category": "causal",
+        "rationale": "It states how a negative test affects diagnostic likelihood."
+      },
+      {
+        "text": "Negative urethral testing for Neisseria gonorrhoeae reduces the likelihood of gonococcal proctitis.",
+        "category": "causal",
+        "rationale": "It states how a negative test affects diagnostic likelihood."
+      },
+      {
+        "text": "Negative testing for Trichomonas reduces the likelihood of trichomonal infection.",
+        "category": "causal",
+        "rationale": "It states how a negative test affects diagnostic likelihood."
+      },
+      {
+        "text": "Negative biopsy PCR for HSV reduces the likelihood of HSV proctitis.",
+        "category": "causal",
+        "rationale": "It states how a negative test affects diagnostic likelihood."
+      },
+      {
+        "text": "Negative biopsy PCR for CMV reduces the likelihood of CMV proctitis.",
+        "category": "causal",
+        "rationale": "It states how a negative test affects diagnostic likelihood."
+      },
+      {
+        "text": "Negative syphilis serology reduces the likelihood of syphilitic proctitis.",
+        "category": "causal",
+        "rationale": "It states how a negative test affects diagnostic likelihood."
+      },
+      {
+        "text": "No HIV reduces the likelihood of HIV-associated infectious proctitides.",
+        "category": "causal",
+        "rationale": "It states how absence of HIV affects likelihood of related disease."
+      },
+      {
+        "text": "No travel history makes enteric tropical infections less likely.",
+        "category": "causal",
+        "rationale": "It links travel history to infectious risk."
+      },
+      {
+        "text": "The lack of fistula weakens classic Crohn’s disease.",
+        "category": "causal",
+        "rationale": "It infers reduced likelihood of Crohn’s disease from absent fistula."
+      },
+      {
+        "text": "The lack of stenosis weakens classic Crohn’s disease.",
+        "category": "causal",
+        "rationale": "It infers reduced likelihood of Crohn’s disease from absent stenosis."
+      },
+      {
+        "text": "The lack of more extensive small-bowel disease weakens classic Crohn’s disease.",
+        "category": "causal",
+        "rationale": "It infers reduced likelihood of Crohn’s disease from limited disease extent."
+      },
+      {
+        "text": "The presumed IBD proved refractory to mesalazine over 11 months.",
+        "category": "factual",
+        "rationale": "It reports lack of response to treatment over a time period."
+      },
+      {
+        "text": "The presumed IBD proved refractory to budesonide over 11 months.",
+        "category": "factual",
+        "rationale": "It reports lack of response to treatment over a time period."
+      },
+      {
+        "text": "The presumed IBD proved refractory to systemic glucocorticoids over 11 months.",
+        "category": "factual",
+        "rationale": "It reports lack of response to treatment over a time period."
+      },
+      {
+        "text": "The presumed IBD proved refractory to adalimumab over 11 months.",
+        "category": "factual",
+        "rationale": "It reports lack of response to treatment over a time period."
+      },
+      {
+        "text": "The presumed IBD proved refractory to ustekinumab over 11 months.",
+        "category": "factual",
+        "rationale": "It reports lack of response to treatment over a time period."
+      },
+      {
+        "text": "This argues against straightforward Crohn’s disease.",
+        "category": "causal",
+        "rationale": "It infers a diagnosis is less likely based on treatment failure."
+      },
+      {
+        "text": "This suggests an alternative untreated cause.",
+        "category": "causal",
+        "rationale": "It infers another cause from the clinical course."
+      },
+      {
+        "text": "Lymphogranuloma venereum proctitis due to Chlamydia trachomatis fits best.",
+        "category": "factual",
+        "rationale": "It states the favored diagnosis."
+      },
+      {
+        "text": "MSM exposure supports lymphogranuloma venereum proctitis due to Chlamydia trachomatis.",
+        "category": "causal",
+        "rationale": "It links exposure history to the diagnosis."
+      },
+      {
+        "text": "Hemorrhagic ulcerative proctitis with tenesmus and mucus supports lymphogranuloma venereum proctitis due to Chlamydia trachomatis.",
+        "category": "causal",
+        "rationale": "It links the symptom pattern to the diagnosis."
+      },
+      {
+        "text": "Rectal biopsy PCR positivity for Chlamydia trachomatis supports lymphogranuloma venereum proctitis due to Chlamydia trachomatis.",
+        "category": "causal",
+        "rationale": "It links microbiologic evidence to the diagnosis."
+      },
+      {
+        "text": "Positive chlamydial serology supports lymphogranuloma venereum proctitis due to Chlamydia trachomatis.",
+        "category": "causal",
+        "rationale": "It links serology to the diagnosis."
+      },
+      {
+        "text": "Partial response to doxycycline supports lymphogranuloma venereum proctitis due to Chlamydia trachomatis.",
+        "category": "causal",
+        "rationale": "It links treatment response to the diagnosis."
+      },
+      {
+        "text": "Lymphogranuloma venereum is well known to mimic inflammatory bowel disease.",
+        "category": "factual",
+        "rationale": "It states a general clinical fact."
+      },
+      {
+        "text": "Lymphogranuloma venereum can cause chronic ulcerative proctitis if not adequately recognized.",
+        "category": "causal",
+        "rationale": "It describes a conditional disease mechanism/outcome relationship."
+      },
+      {
+        "text": "Lymphogranuloma venereum can cause chronic ulcerative proctitis if reinfection occurs.",
+        "category": "causal",
+        "rationale": "It describes a conditional disease mechanism/outcome relationship."
+      },
+      {
+        "text": "Lymphogranuloma venereum can cause chronic ulcerative proctitis if persistent infection occurs.",
+        "category": "causal",
+        "rationale": "It describes a conditional disease mechanism/outcome relationship."
+      },
+      {
+        "text": "The prolonged course despite treatment does not negate lymphogranuloma venereum.",
+        "category": "causal",
+        "rationale": "It states that the course does not rule out the diagnosis."
+      },
+      {
+        "text": "The prolonged course suggests persistent or inadequately eradicated invasive chlamydial infection.",
+        "category": "causal",
+        "rationale": "It infers ongoing infection from the prolonged course."
+      },
+      {
+        "text": "The discontinuous ulcerations involving the rectum, cecum, ileocecal valve, and terminal ileum are compatible with Crohn’s disease.",
+        "category": "causal",
+        "rationale": "It relates the lesion pattern to a possible diagnosis."
+      },
+      {
+        "text": "Fecal calprotectin remained elevated.",
+        "category": "factual",
+        "rationale": "It reports a laboratory finding."
+      },
+      {
+        "text": "The illness began as a classic STI-associated proctitis after sexual exposure.",
+        "category": "causal",
+        "rationale": "It links exposure to the initial illness pattern."
+      },
+      {
+        "text": "There was direct microbiologic evidence of rectal chlamydial infection.",
+        "category": "factual",
+        "rationale": "It reports direct test evidence."
+      },
+      {
+        "text": "Histology was nonspecific.",
+        "category": "factual",
+        "rationale": "It reports the pathology interpretation."
+      },
+      {
+        "text": "There was failure of multiple IBD-directed therapies.",
+        "category": "factual",
+        "rationale": "It reports treatment failure."
+      },
+      {
+        "text": "These points make Crohn’s disease less likely as the primary diagnosis.",
+        "category": "causal",
+        "rationale": "It infers reduced likelihood of Crohn’s disease from the accumulated evidence."
+      },
+      {
+        "text": "Stool culture was positive for Brachyspira aalborgii.",
+        "category": "factual",
+        "rationale": "It reports a culture result."
+      },
+      {
+        "text": "Metronidazole briefly helped.",
+        "category": "factual",
+        "rationale": "It reports a treatment response."
+      },
+      {
+        "text": "This made intestinal spirochetosis or Brachyspira aalborgii-associated proctocolitis a plausible early explanation.",
+        "category": "causal",
+        "rationale": "It infers a possible explanation from the culture and response."
+      },
+      {
+        "text": "The transient response only makes intestinal spirochetosis or Brachyspira aalborgii-associated proctocolitis less likely to be the main diagnosis.",
+        "category": "causal",
+        "rationale": "It infers diagnostic weight from the transient response."
+      },
+      {
+        "text": "Gonococcal proctitis was considered because it can cause ulcerative proctitis in MSM.",
+        "category": "causal",
+        "rationale": "It gives a reason for considering the diagnosis."
+      },
+      {
+        "text": "HSV proctitis was considered because it can cause ulcerative proctitis in MSM.",
+        "category": "causal",
+        "rationale": "It gives a reason for considering the diagnosis."
+      },
+      {
+        "text": "CMV proctitis was considered because it can cause ulcerative proctitis in MSM.",
+        "category": "causal",
+        "rationale": "It gives a reason for considering the diagnosis."
+      },
+      {
+        "text": "Syphilitic proctitis was considered because it can cause ulcerative proctitis in MSM.",
+        "category": "causal",
+        "rationale": "It gives a reason for considering the diagnosis."
+      },
+      {
+        "text": "Testing for gonorrhea was negative.",
+        "category": "factual",
+        "rationale": "It reports a negative test result."
+      },
+      {
+        "text": "Testing for HSV was negative.",
+        "category": "factual",
+        "rationale": "It reports a negative test result."
+      },
+      {
+        "text": "Testing for CMV was negative.",
+        "category": "factual",
+        "rationale": "It reports a negative test result."
+      },
+      {
+        "text": "Testing for syphilis was negative.",
+        "category": "factual",
+        "rationale": "It reports a negative test result."
+      },
+      {
+        "text": "The strongest and most specific evidence is direct detection of Chlamydia trachomatis in rectal biopsy tissue.",
+        "category": "factual",
+        "rationale": "It states an evidentiary assessment as a factual claim."
+      },
+      {
+        "text": "The patient is a man with classic severe proctitis symptoms after MSM exposure.",
+        "category": "factual",
+        "rationale": "It summarizes patient features and symptoms."
+      },
+      {
+        "text": "The ulcerative pattern is characteristic of LGV rather than uncomplicated non-LGV chlamydial infection.",
+        "category": "causal",
+        "rationale": "It compares a pattern with a specific disease subtype."
+      },
+      {
+        "text": "The hemorrhagic pattern is characteristic of LGV rather than uncomplicated non-LGV chlamydial infection.",
+        "category": "causal",
+        "rationale": "It compares a pattern with a specific disease subtype."
+      },
+      {
+        "text": "The chronic pattern is characteristic of LGV rather than uncomplicated non-LGV chlamydial infection.",
+        "category": "causal",
+        "rationale": "It compares a pattern with a specific disease subtype."
+      },
+      {
+        "text": "The IBD-mimicking pattern is characteristic of LGV rather than uncomplicated non-LGV chlamydial infection.",
+        "category": "causal",
+        "rationale": "It compares a pattern with a specific disease subtype."
+      },
+      {
+        "text": "Although Crohn’s disease was later presumed based on discontinuous lesions, the nonspecific histology makes that diagnosis less convincing.",
+        "category": "causal",
+        "rationale": "It explains why one diagnosis is less convincing based on pathology."
+      },
+      {
+        "text": "Although Crohn’s disease was later presumed based on discontinuous lesions, the failure of extensive immunosuppression makes that diagnosis less convincing.",
+        "category": "causal",
+        "rationale": "It explains why one diagnosis is less convincing based on treatment failure."
+      },
+      {
+        "text": "The single most likely diagnosis is lymphogranuloma venereum proctitis.",
+        "category": "factual",
+        "rationale": "It states the most likely diagnosis."
+      },
+      {
+        "text": "The final diagnosis is lymphogranuloma venereum proctitis.",
+        "category": "factual",
+        "rationale": "It states the final diagnosis."
+      }
+    ]
+  }
+}

@@ -1,0 +1,175 @@
+digraph ReasoningGraph {
+  rankdir="LR";
+  compound=true;
+  node [shape=box, style="rounded,filled"];
+  subgraph cluster_0 {
+    label="history_taking (c1)";
+    style="rounded,dashed";
+    color="#9e9e9e";
+    n1 [label="n1: The chief complaint is 3 days of upper abdominal pain in a previously healthy 26-year-old man.\\n[factual]", fillcolor="#c8e6c9"];
+  }
+  subgraph cluster_1 {
+    label="examination (c2)";
+    style="rounded,dashed";
+    color="#9e9e9e";
+    n2 [label="n2: The initial bedside concern appears to have been an acute surgical abdomen or biliary disease.\\n[factual]", fillcolor="#c8e6c9"];
+    n3 [label="n3: He had epigastric tenderness with rebound.\\n[factual]", fillcolor="#c8e6c9"];
+    n4 [label="n4: He had a positive Murphy’s sign.\\n[factual]", fillcolor="#c8e6c9"];
+    n5 [label="n5: CT showed a hyperdense gallbladder with mild wall swelling.\\n[factual]", fillcolor="#c8e6c9"];
+    n6 [label="n6: The patient was afebrile.\\n[factual]", fillcolor="#c8e6c9"];
+    n7 [label="n7: Procalcitonin was normal.\\n[factual]", fillcolor="#c8e6c9"];
+    n8 [label="n8: CRP was normal.\\n[factual]", fillcolor="#c8e6c9"];
+    n9 [label="n9: Imaging showed multisystem fluid accumulation in the chest, pericardial sac, and abdomen.\\n[factual]", fillcolor="#c8e6c9"];
+    n10 [label="n10: Salient positive findings are upper abdominal pain.\\n[factual]", fillcolor="#c8e6c9"];
+    n11 [label="n11: Salient positive findings are epigastric tenderness with rebound.\\n[factual]", fillcolor="#c8e6c9"];
+    n12 [label="n12: Salient positive findings are a positive Murphy’s sign.\\n[factual]", fillcolor="#c8e6c9"];
+    n13 [label="n13: Salient positive findings are mild jaundice.\\n[factual]", fillcolor="#c8e6c9"];
+    n14 [label="n14: Salient positive findings are a mildly elevated leukocyte count.\\n[factual]", fillcolor="#c8e6c9"];
+    n15 [label="n15: CT showed mild gallbladder wall swelling.\\n[factual]", fillcolor="#c8e6c9"];
+    n16 [label="n16: CT showed fluid in pleural, pericardial, and peritoneal spaces.\\n[factual]", fillcolor="#c8e6c9"];
+    n17 [label="n17: ECG showed ST-segment depression.\\n[factual]", fillcolor="#c8e6c9"];
+    n18 [label="n18: ECG showed T-wave inversion in V1–4.\\n[factual]", fillcolor="#c8e6c9"];
+    n19 [label="n19: ECG showed prolonged QT.\\n[factual]", fillcolor="#c8e6c9"];
+  }
+  subgraph cluster_2 {
+    label="examination (c3)";
+    style="rounded,dashed";
+    color="#9e9e9e";
+    n20 [label="n20: At laparotomy, there was ascites.\\n[factual]", fillcolor="#c8e6c9"];
+    n21 [label="n21: At laparotomy, there was bowel wall edema.\\n[factual]", fillcolor="#c8e6c9"];
+    n22 [label="n22: At laparotomy, there was no bowel perforation.\\n[factual]", fillcolor="#c8e6c9"];
+    n23 [label="n23: At laparotomy, there was no gallbladder enlargement.\\n[factual]", fillcolor="#c8e6c9"];
+    n24 [label="n24: At laparotomy, there was no cholangitis.\\n[factual]", fillcolor="#c8e6c9"];
+  }
+  subgraph cluster_3 {
+    label="differential_generation (c4)";
+    style="rounded,dashed";
+    color="#9e9e9e";
+    n25 [label="n25: The operative finding of about 1000 mL peritoneal fluid strongly suggests a systemic capillary leak or third-spacing process rather than a focal intra-abdominal infection.\\n[causal]", fillcolor="#c8e6c9"];
+    n26 [label="n26: The operative finding of bowel wall edema strongly suggests a systemic capillary leak or third-spacing process rather than a focal intra-abdominal infection.\\n[causal]", fillcolor="#c8e6c9"];
+    n27 [label="n27: He had no history of hypertension.\\n[factual]", fillcolor="#c8e6c9"];
+    n28 [label="n28: He had no history of heart disease.\\n[factual]", fillcolor="#c8e6c9"];
+    n29 [label="n29: He was afebrile.\\n[factual]", fillcolor="#c8e6c9"];
+    n30 [label="n30: Procalcitonin was normal.\\n[factual]", fillcolor="#c8e6c9"];
+    n31 [label="n31: CRP was normal.\\n[factual]", fillcolor="#c8e6c9"];
+    n32 [label="n32: These findings argue against acute bacterial cholecystitis, cholangitis, or perforated viscus.\\n[causal]", fillcolor="#c8e6c9"];
+    n33 [label="n33: Intraoperatively there was no bowel perforation.\\n[factual]", fillcolor="#c8e6c9"];
+    n34 [label="n34: Intraoperatively there was no gallbladder enlargement.\\n[factual]", fillcolor="#c8e6c9"];
+    n35 [label="n35: Intraoperatively there was no cholangitis.\\n[factual]", fillcolor="#c8e6c9"];
+    n36 [label="n36: These intraoperative findings directly refute the presumed surgical biliary diagnosis.\\n[causal]", fillcolor="#c8e6c9"];
+    n37 [label="n37: The presence of pericardial fluid is atypical for isolated gallbladder disease.\\n[causal]", fillcolor="#c8e6c9"];
+    n38 [label="n38: The presence of pleural fluid is atypical for isolated gallbladder disease.\\n[causal]", fillcolor="#c8e6c9"];
+  }
+  subgraph cluster_4 {
+    label="differential_generation (c5)";
+    style="rounded,dashed";
+    color="#9e9e9e";
+    n39 [label="n39: The first differential is acute cholecystitis or cholangitis.\\n[factual]", fillcolor="#c8e6c9"];
+    n40 [label="n40: The reason for that differential is the positive Murphy’s sign, mild jaundice, leukocytosis, and gallbladder wall changes on CT.\\n[causal]", fillcolor="#c8e6c9"];
+    n41 [label="n41: This differential becomes less likely because the patient was afebrile.\\n[causal]", fillcolor="#c8e6c9"];
+    n42 [label="n42: This differential becomes less likely because inflammatory markers were normal.\\n[causal]", fillcolor="#c8e6c9"];
+    n43 [label="n43: This differential becomes less likely because surgery found no gallbladder enlargement or cholangitis.\\n[causal]", fillcolor="#c8e6c9"];
+    n44 [label="n44: Gallbladder wall edema can be secondary to systemic edema rather than primary gallbladder inflammation.\\n[causal]", fillcolor="#c8e6c9"];
+    n45 [label="n45: A second differential is perforated viscus or other surgical peritonitis.\\n[factual]", fillcolor="#c8e6c9"];
+    n46 [label="n46: The reason for that differential is rebound tenderness and ascites.\\n[causal]", fillcolor="#c8e6c9"];
+    n47 [label="n47: This differential becomes unlikely because laparotomy showed no perforation.\\n[causal]", fillcolor="#c8e6c9"];
+    n48 [label="n48: This differential becomes unlikely because laparotomy showed bowel wall edema and free fluid.\\n[causal]", fillcolor="#c8e6c9"];
+    n49 [label="n49: These findings favor a systemic process.\\n[causal]", fillcolor="#c8e6c9"];
+    n50 [label="n50: A third differential is acute pancreatitis.\\n[factual]", fillcolor="#c8e6c9"];
+    n51 [label="n51: The reason for that differential is that acute pancreatitis can cause epigastric pain, ascites, pleural effusions, and reactive gallbladder changes.\\n[causal]", fillcolor="#c8e6c9"];
+    n52 [label="n52: No pancreatic findings are provided.\\n[factual]", fillcolor="#c8e6c9"];
+    n53 [label="n53: No enzyme abnormalities are provided.\\n[factual]", fillcolor="#c8e6c9"];
+    n54 [label="n54: The ECG abnormalities are not typical core features of acute pancreatitis.\\n[causal]", fillcolor="#c8e6c9"];
+    n55 [label="n55: Pericardial effusion is not a typical core feature of acute pancreatitis.\\n[causal]", fillcolor="#c8e6c9"];
+  }
+  subgraph cluster_5 {
+    label="differential_generation (c6)";
+    style="rounded,dashed";
+    color="#9e9e9e";
+    n56 [label="n56: A fourth and more fitting differential is a systemic capillary leak state.\\n[factual]", fillcolor="#c8e6c9"];
+    n57 [label="n57: This systemic capillary leak state would cause serosal effusions, bowel wall edema, gallbladder wall edema, and abdominal pain.\\n[causal]", fillcolor="#c8e6c9"];
+    n58 [label="n58: In a young patient with pleural, pericardial, and peritoneal effusions plus bowel wall edema and no evidence of infection or perforation, hereditary angioedema with gastrointestinal involvement is a strong fit.\\n[causal]", fillcolor="#c8e6c9"];
+    n59 [label="n59: Hereditary angioedema can present as severe abdominal pain mimicking an acute abdomen.\\n[causal]", fillcolor="#c8e6c9"];
+    n60 [label="n60: Hereditary angioedema can present with ascites.\\n[causal]", fillcolor="#c8e6c9"];
+    n61 [label="n61: Hereditary angioedema can present with bowel wall edema.\\n[causal]", fillcolor="#c8e6c9"];
+    n62 [label="n62: Hereditary angioedema can present with gallbladder wall edema.\\n[causal]", fillcolor="#c8e6c9"];
+    n63 [label="n63: Hereditary angioedema can present with pleural effusions due to increased vascular permeability.\\n[causal]", fillcolor="#c8e6c9"];
+    n64 [label="n64: Hereditary angioedema can present with pericardial effusions due to increased vascular permeability.\\n[causal]", fillcolor="#c8e6c9"];
+    n65 [label="n65: The ECG changes could reflect systemic illness or electrolyte effects.\\n[causal]", fillcolor="#c8e6c9"];
+    n66 [label="n66: The ECG changes could reflect myocardial involvement from the same process.\\n[causal]", fillcolor="#c8e6c9"];
+    n67 [label="n67: The key diagnostic pattern is unexplained multisystem edema and effusions with a negative laparotomy.\\n[factual]", fillcolor="#c8e6c9"];
+    n68 [label="n68: The combination of acute abdominal pain, bowel wall edema, large-volume ascites, pleural and pericardial effusions, mild gallbladder wall edema mimicking cholecystitis, and absence of infectious or surgical pathology most strongly supports hereditary angioedema presenting with an abdominal attack.\\n[causal]", fillcolor="#c8e6c9"];
+    n69 [label="n69: This diagnosis best unifies the false-positive Murphy’s sign, the imaging, and the negative exploratory laparotomy.\\n[causal]", fillcolor="#c8e6c9"];
+  }
+  subgraph cluster_6 {
+    label="final_decision (c7)";
+    style="rounded,dashed";
+    color="#9e9e9e";
+    n70 [label="n70: The high differential diagnosis is hereditary angioedema with abdominal attack.\\n[factual]", fillcolor="#c8e6c9"];
+    n71 [label="n71: The medium differential diagnosis is acute cholecystitis or cholangitis.\\n[factual]", fillcolor="#c8e6c9"];
+    n72 [label="n72: The low differential diagnosis is perforated viscus or generalized surgical peritonitis.\\n[factual]", fillcolor="#c8e6c9"];
+    n73 [label="n73: The low differential diagnosis is acute pancreatitis.\\n[factual]", fillcolor="#c8e6c9"];
+    n74 [label="n74: The final diagnosis is hereditary angioedema with abdominal attack.\\n[factual]", fillcolor="#c8e6c9"];
+  }
+  n1 -> n10 [label="supports: The chief complaint of upper abdominal pain is one of the salient positive findings."];
+  n3 -> n11 [label="supports: Epigastric tenderness with rebound is explicitly listed as a salient positive finding."];
+  n4 -> n12 [label="supports: A positive Murphy’s sign is explicitly listed as a salient positive finding."];
+  n5 -> n15 [label="supports: The CT description of a hyperdense gallbladder with mild wall swelling supports the simplified CT finding of mild gallbladder wall swelling."];
+  n9 -> n16 [label="supports: The multisystem fluid accumulation on imaging corresponds to pleural, pericardial, and peritoneal fluid."];
+  n20 -> n25 [label="supports: Large-volume peritoneal fluid at laparotomy is the operative finding referenced in the causal interpretation."];
+  n21 -> n26 [label="supports: Bowel wall edema at laparotomy is the operative finding referenced in the causal interpretation."];
+  n6 -> n32 [label="supports: Afebrile status argues against acute bacterial infection."];
+  n7 -> n32 [label="supports: Normal procalcitonin argues against acute bacterial cholecystitis or cholangitis."];
+  n8 -> n32 [label="supports: Normal CRP argues against acute bacterial cholecystitis or cholangitis."];
+  n22 -> n32 [label="supports: No bowel perforation argues against perforated viscus."];
+  n23 -> n36 [label="supports: No gallbladder enlargement directly refutes the presumed biliary surgical diagnosis."];
+  n24 -> n36 [label="supports: No cholangitis directly refutes the presumed biliary surgical diagnosis."];
+  n16 -> n37 [label="supports: Pericardial fluid is atypical for isolated gallbladder disease."];
+  n16 -> n38 [label="supports: Pleural fluid is atypical for isolated gallbladder disease."];
+  n4 -> n40 [label="supports: A positive Murphy’s sign is one of the reasons given for the cholecystitis/cholangitis differential."];
+  n13 -> n40 [label="supports: Mild jaundice is one of the reasons given for the cholecystitis/cholangitis differential."];
+  n14 -> n40 [label="supports: Leukocytosis is one of the reasons given for the cholecystitis/cholangitis differential."];
+  n15 -> n40 [label="supports: Gallbladder wall changes on CT are one of the reasons given for the cholecystitis/cholangitis differential."];
+  n6 -> n41 [label="supports: Afebrile status makes acute cholecystitis/cholangitis less likely."];
+  n7 -> n42 [label="supports: Normal procalcitonin makes inflammatory biliary infection less likely."];
+  n8 -> n42 [label="supports: Normal CRP makes inflammatory biliary infection less likely."];
+  n34 -> n43 [label="supports: No gallbladder enlargement at surgery makes the biliary diagnosis less likely."];
+  n35 -> n43 [label="supports: No cholangitis at surgery makes the biliary diagnosis less likely."];
+  n15 -> n44 [label="supports: Gallbladder wall edema on CT can be explained by systemic edema rather than primary inflammation."];
+  n3 -> n46 [label="supports: Rebound tenderness is one of the reasons given for considering perforated viscus or surgical peritonitis."];
+  n20 -> n46 [label="supports: Ascites is one of the reasons given for considering perforated viscus or surgical peritonitis."];
+  n22 -> n47 [label="supports: No perforation at laparotomy makes perforated viscus unlikely."];
+  n21 -> n48 [label="supports: Bowel wall edema at laparotomy is part of the pattern making perforation less likely."];
+  n20 -> n48 [label="supports: Free fluid/ascites at laparotomy is part of the pattern making perforation less likely."];
+  n48 -> n49 [label="supports: Bowel wall edema with free fluid favors a systemic process over a focal perforation."];
+  n3 -> n51 [label="supports: Epigastric pain is one of the features that can occur in pancreatitis."];
+  n16 -> n51 [label="supports: Ascites and pleural effusions are among the features cited as compatible with pancreatitis."];
+  n15 -> n51 [label="supports: Reactive gallbladder changes on CT are cited as compatible with pancreatitis."];
+  n52 -> n54 [label="supports: Lack of pancreatic findings weakens pancreatitis as an explanation for the ECG changes."];
+  n53 -> n54 [label="supports: No enzyme abnormalities weakens pancreatitis as an explanation for the ECG changes."];
+  n16 -> n55 [label="supports: Pericardial effusion is not a typical core feature of acute pancreatitis."];
+  n16 -> n57 [label="supports: Serosal effusions are part of the systemic capillary leak pattern described."];
+  n21 -> n57 [label="supports: Bowel wall edema is part of the systemic capillary leak pattern described."];
+  n15 -> n57 [label="supports: Gallbladder wall edema is part of the systemic capillary leak pattern described."];
+  n1 -> n57 [label="supports: Abdominal pain is one of the manifestations attributed to systemic capillary leak."];
+  n16 -> n58 [label="supports: Pleural, pericardial, and peritoneal effusions are part of the pattern supporting hereditary angioedema."];
+  n21 -> n58 [label="supports: Bowel wall edema supports hereditary angioedema with gastrointestinal involvement."];
+  n22 -> n58 [label="supports: Absence of perforation supports hereditary angioedema over a surgical abdomen."];
+  n24 -> n58 [label="supports: Absence of cholangitis supports hereditary angioedema over infection."];
+  n59 -> n58 [label="supports: Hereditary angioedema causing severe abdominal pain explains the abdominal presentation."];
+  n60 -> n58 [label="supports: Hereditary angioedema can cause ascites, matching the fluid accumulation."];
+  n61 -> n58 [label="supports: Hereditary angioedema can cause bowel wall edema, matching the operative findings."];
+  n62 -> n58 [label="supports: Hereditary angioedema can cause gallbladder wall edema, matching the CT findings."];
+  n63 -> n58 [label="supports: Pleural effusions due to increased vascular permeability fit hereditary angioedema."];
+  n64 -> n58 [label="supports: Pericardial effusions due to increased vascular permeability fit hereditary angioedema."];
+  n65 -> n68 [label="supports: Systemic illness or electrolyte effects can help explain the ECG abnormalities within the broader syndrome."];
+  n66 -> n68 [label="supports: Possible myocardial involvement is offered as a unifying explanation for the ECG abnormalities."];
+  n67 -> n68 [label="supports: The key pattern of unexplained multisystem edema with negative laparotomy directly supports hereditary angioedema."];
+  n68 -> n69 [label="supports: The unifying hereditary angioedema diagnosis explains the false-positive Murphy’s sign, imaging, and negative laparotomy."];
+  n69 -> n70 [label="supports: The best unifying diagnosis is stated as hereditary angioedema with abdominal attack."];
+  n58 -> n70 [label="supports: The strong fit for hereditary angioedema supports the high differential diagnosis."];
+  n40 -> n71 [label="supports: The initial biliary features support the medium differential diagnosis of cholecystitis/cholangitis."];
+  n46 -> n72 [label="supports: Rebound tenderness and ascites support considering perforated viscus or generalized peritonitis."];
+  n51 -> n73 [label="supports: The pancreatitis-compatible symptom and imaging pattern supports that differential."];
+  n58 -> n74 [label="supports: Hereditary angioedema with abdominal attack is supported as the final diagnosis."];
+}

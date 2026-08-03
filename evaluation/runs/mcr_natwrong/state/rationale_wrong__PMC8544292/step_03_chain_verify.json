@@ -1,0 +1,33 @@
+{
+  "name": "chain_verify",
+  "passed": false,
+  "score": 0.4,
+  "reasoning": "Found 2 logical chain issue(s). [The left pupil was dilated., Myasthenia gravis does not affect the pupil., The dilated pupil is atypical for myasthenia gravis., The dilated pupil suggests a concurrent or alternative third nerve process., Based strictly on the presented bedside diagnostic response and symptom fluctuation, the single most likely diagnosis is ocular myasthenia gravis., The final diagnosis is ocular myasthenia gravis.]: The chain mixes a pupil-involving third nerve pattern with a diagnosis of ocular myasthenia gravis. A dilated pupil is not explained by myasthenia gravis and instead points toward an alternative or concurrent oculomotor nerve process, so the final diagnostic conclusion is not fully supported by the preceding statements. | [Limitation of adduction with ptosis and mydriasis is a classic pattern for left oculomotor nerve palsy., Limitation of elevation with ptosis and mydriasis is a classic pattern for left oculomotor nerve palsy., Limitation of depression with ptosis and mydriasis is a classic pattern for left oculomotor nerve palsy., Pain also supports a third nerve lesion., Pupil involvement raises concern for compressive aneurysmal third nerve palsy., Pain raises concern for compressive aneurysmal third nerve palsy.]: These statements correctly support concern for a third nerve palsy, but they conflict with the later conclusion that the case is best explained solely by ocular myasthenia gravis. The pupil involvement and pain are not accounted for by myasthenia gravis. Most statements are internally consistent and many support ocular myasthenia gravis via fluctuating ptosis, intermittent diplopia, cold/ice-pack response, and fatigability. However, the presence of a dilated pupil and pain introduces a competing third nerve palsy pattern that is not reconciled with the final diagnosis, so the overall chain is not fully valid.",
+  "data": {
+    "has_chain_dependencies": true,
+    "issues": [
+      {
+        "statements": [
+          "The left pupil was dilated.",
+          "Myasthenia gravis does not affect the pupil.",
+          "The dilated pupil is atypical for myasthenia gravis.",
+          "The dilated pupil suggests a concurrent or alternative third nerve process.",
+          "Based strictly on the presented bedside diagnostic response and symptom fluctuation, the single most likely diagnosis is ocular myasthenia gravis.",
+          "The final diagnosis is ocular myasthenia gravis."
+        ],
+        "explanation": "The chain mixes a pupil-involving third nerve pattern with a diagnosis of ocular myasthenia gravis. A dilated pupil is not explained by myasthenia gravis and instead points toward an alternative or concurrent oculomotor nerve process, so the final diagnostic conclusion is not fully supported by the preceding statements."
+      },
+      {
+        "statements": [
+          "Limitation of adduction with ptosis and mydriasis is a classic pattern for left oculomotor nerve palsy.",
+          "Limitation of elevation with ptosis and mydriasis is a classic pattern for left oculomotor nerve palsy.",
+          "Limitation of depression with ptosis and mydriasis is a classic pattern for left oculomotor nerve palsy.",
+          "Pain also supports a third nerve lesion.",
+          "Pupil involvement raises concern for compressive aneurysmal third nerve palsy.",
+          "Pain raises concern for compressive aneurysmal third nerve palsy."
+        ],
+        "explanation": "These statements correctly support concern for a third nerve palsy, but they conflict with the later conclusion that the case is best explained solely by ocular myasthenia gravis. The pupil involvement and pain are not accounted for by myasthenia gravis."
+      }
+    ]
+  }
+}

@@ -1,0 +1,692 @@
+{
+  "name": "expert_verify",
+  "passed": true,
+  "score": 1.0,
+  "reasoning": "No contradictions among 75 statement(s) (63 supported, 10 valid inferences, 2 unverifiable).",
+  "data": {
+    "verifications": [
+      {
+        "text": "The chief complaint is chronic left hip pain for 1 year.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Reference states a 1-year history of left hip pain."
+      },
+      {
+        "text": "The left hip pain is worsened by exercise.",
+        "category": "causal",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Pain is described as worse with exercise."
+      },
+      {
+        "text": "The left hip pain is especially worsened by hip flexion.",
+        "category": "causal",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Reference explicitly says worse with hip flexion."
+      },
+      {
+        "text": "The left hip pain has intensified over the past 1 week.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Reference says intensified over the past week."
+      },
+      {
+        "text": "The patient has constitutional symptoms over 2 months.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.98,
+        "reasoning": "Malaise, anorexia, and weight loss are reported over 2 months."
+      },
+      {
+        "text": "The patient has malaise.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Malaise is explicitly listed."
+      },
+      {
+        "text": "The patient has anorexia.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Anorexia is explicitly listed."
+      },
+      {
+        "text": "The patient has lost 6 kg in 1 month.",
+        "category": "statistical",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Reference states a 6-kg weight loss in the previous month."
+      },
+      {
+        "text": "The constitutional symptoms raise concern for a neoplastic rather than purely mechanical musculoskeletal process.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.9,
+        "reasoning": "Constitutional symptoms plus a deep enhancing mass reasonably raise concern for neoplasm; this is a clinical inference."
+      },
+      {
+        "text": "Pain is reproduced when the left hip is flexed beyond 40 degrees.",
+        "category": "statistical",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Reference says pain was elicited when hip flexed beyond 40°."
+      },
+      {
+        "text": "Pain is reproduced particularly when the left hip is flexed against resistance.",
+        "category": "causal",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Reference says pain was elicited especially against resistance."
+      },
+      {
+        "text": "The pain localization suggests pathology in the iliopsoas or hip flexor region.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.93,
+        "reasoning": "Pain with resisted hip flexion localizes to iliopsoas/hip flexor region; this follows clinically from the exam."
+      },
+      {
+        "text": "The patient has numbness in the left lower extremity provoked by hip flexion.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Reference states hip flexion provoked numbness in the left lower extremity."
+      },
+      {
+        "text": "The hip-flexion-provoked numbness suggests local mass effect on adjacent neural structures.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.92,
+        "reasoning": "Numbness provoked by hip flexion suggests local mass effect on nearby neural structures; reasonable inference."
+      },
+      {
+        "text": "The FABER test is positive.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "FABER test is explicitly positive."
+      },
+      {
+        "text": "Imaging shows a discrete soft-tissue mass.",
+        "category": "factual",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.86,
+        "reasoning": "Imaging shows a discrete mass; calling it a soft-tissue mass is a reasonable summary of CT/MRI findings."
+      },
+      {
+        "text": "CT demonstrated a 64×29-mm noninvasive mass posterior to the psoas muscle.",
+        "category": "statistical",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "CT showed a 64×29-mm noninvasive mass posterior to the psoas muscle."
+      },
+      {
+        "text": "The CT mass contains amorphous calcifications.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Reference explicitly notes amorphous calcifications in the CT mass."
+      },
+      {
+        "text": "MRI showed a 72×45×50-mm lobulated mass arising from the left iliopsoas muscle.",
+        "category": "statistical",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "MRI showed a 72×45×50-mm mass arising from the left iliopsoas muscle and lobulated."
+      },
+      {
+        "text": "The MRI mass is sharply marginated.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Reference says the MRI mass had sharp margins."
+      },
+      {
+        "text": "The MRI mass extends along fat planes.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Reference states it extended along fat planes."
+      },
+      {
+        "text": "The MRI mass is T1 hypointense in calcified areas.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Reference says it was T1 hypointense in areas of calcification."
+      },
+      {
+        "text": "The MRI mass is T2 hyperintense.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Reference says the mass was T2 hyperintense."
+      },
+      {
+        "text": "The MRI mass shows marked postcontrast enhancement.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Reference says marked postcontrast enhancement."
+      },
+      {
+        "text": "These imaging features strongly support a calcified soft-tissue neoplasm centered in muscle.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.95,
+        "reasoning": "A calcified, enhancing intramuscular mass is a reasonable inference for a soft-tissue neoplasm centered in muscle."
+      },
+      {
+        "text": "The patient denied trauma.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Reference explicitly says he denied trauma."
+      },
+      {
+        "text": "The absence of trauma argues against post-traumatic myositis ossificans or hematoma.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.9,
+        "reasoning": "Absence of trauma reasonably argues against post-traumatic myositis ossificans or hematoma."
+      },
+      {
+        "text": "CBC was normal.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "CBC was within normal limits."
+      },
+      {
+        "text": "ESR was normal.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "ESR was within normal limits."
+      },
+      {
+        "text": "CRP was normal.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "CRP was within normal limits."
+      },
+      {
+        "text": "Electrolytes were normal.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Electrolytes were within normal limits."
+      },
+      {
+        "text": "Liver tests were normal.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Liver function tests were within normal limits."
+      },
+      {
+        "text": "Renal tests were normal.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Renal function tests were within normal limits."
+      },
+      {
+        "text": "The normal laboratory tests make infection such as psoas abscess unlikely.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.9,
+        "reasoning": "Normal CBC/ESR/CRP and lack of systemic inflammatory markers make psoas abscess less likely; this is a clinical inference."
+      },
+      {
+        "text": "The normal laboratory tests do not support an inflammatory arthropathy.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.84,
+        "reasoning": "Normal inflammatory labs do not support inflammatory arthropathy; reasonable inference."
+      },
+      {
+        "text": "Pelvic radiograph showed no acute osseous abnormality.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Pelvic radiograph showed no acute osseous abnormalities."
+      },
+      {
+        "text": "The normal pelvic radiograph argues against a primary bony lesion extending secondarily.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.86,
+        "reasoning": "A normal pelvic radiograph argues against a primary bony lesion with secondary extension; this is an inference."
+      },
+      {
+        "text": "There was no motor weakness.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Reference explicitly states there was no motor weakness."
+      },
+      {
+        "text": "The gait was normal.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Reference explicitly states gait was normal."
+      },
+      {
+        "text": "The absence of motor weakness and the normal gait suggest localized rather than advanced neurologic compromise.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.9,
+        "reasoning": "No weakness plus normal gait reasonably suggests localized rather than advanced neurologic compromise."
+      },
+      {
+        "text": "The leading differential is extraskeletal osteosarcoma of the iliopsoas.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Trace explicitly states the leading differential is extraskeletal osteosarcoma of the iliopsoas/left iliopsoas muscle."
+      },
+      {
+        "text": "Extraskeletal osteosarcoma fits a painful deep soft-tissue mass with calcifications or ossification.",
+        "category": "causal",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.98,
+        "reasoning": "The trace describes a painful deep soft-tissue mass with calcifications/ossification as fitting extraskeletal osteosarcoma."
+      },
+      {
+        "text": "Extraskeletal osteosarcoma fits marked enhancement and constitutional symptoms.",
+        "category": "causal",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.97,
+        "reasoning": "Trace links marked enhancement and constitutional symptoms (malaise, anorexia, weight loss) to extraskeletal osteosarcoma."
+      },
+      {
+        "text": "Extraskeletal osteosarcoma is a malignant mesenchymal tumor producing osteoid in soft tissue without attachment to bone.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "This is standard definition and is stated in the trace: malignant mesenchymal tumor producing osteoid in soft tissue without bone attachment."
+      },
+      {
+        "text": "The imaging description of an intramuscular calcified mass with no osseous involvement is highly compatible with extraskeletal osteosarcoma.",
+        "category": "causal",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.98,
+        "reasoning": "Reference imaging shows an intramuscular iliopsoas mass with amorphous calcifications and no osseous involvement, matching the trace's compatibility claim."
+      },
+      {
+        "text": "A second consideration is myositis ossificans.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Trace explicitly lists myositis ossificans as a second consideration."
+      },
+      {
+        "text": "Myositis ossificans can present as a calcified intramuscular mass.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.98,
+        "reasoning": "Myositis ossificans can present as a calcified intramuscular mass; this is standard and consistent with the differential discussion."
+      },
+      {
+        "text": "Myositis ossificans can present with pain on motion.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.98,
+        "reasoning": "Pain with motion is a recognized presentation of myositis ossificans and is stated in the trace."
+      },
+      {
+        "text": "Myositis ossificans is less likely because there is no trauma history.",
+        "category": "causal",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Reference data says he denied trauma, which supports the trace's reason for making myositis ossificans less likely."
+      },
+      {
+        "text": "Myositis ossificans is less likely because the course is prolonged with systemic symptoms and weight loss.",
+        "category": "causal",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.97,
+        "reasoning": "The case has 2 months of malaise/anorexia and 6-kg weight loss in 1 month, supporting the statement that the course is prolonged with systemic symptoms and weight loss."
+      },
+      {
+        "text": "Myositis ossificans is less likely because the lesion is described as a lobulated enhancing mass rather than the more typical zonal peripheral ossification pattern.",
+        "category": "causal",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.96,
+        "reasoning": "MRI describes a lobulated, sharply marginated enhancing mass; this reasonably contrasts with the typical zonal peripheral ossification pattern of myositis ossificans."
+      },
+      {
+        "text": "Another differential is synovial sarcoma or another soft-tissue sarcoma with calcification.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Trace explicitly names synovial sarcoma or another soft-tissue sarcoma with calcification as a differential."
+      },
+      {
+        "text": "Synovial sarcoma can occur near joints in younger to middle-aged adults.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.95,
+        "reasoning": "Standard medical knowledge: synovial sarcoma often occurs near joints in adolescents/young to middle-aged adults; this is a valid differential statement."
+      },
+      {
+        "text": "Synovial sarcoma may calcify.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.98,
+        "reasoning": "Synovial sarcoma may calcify is standard and consistent with the trace."
+      },
+      {
+        "text": "Synovial sarcoma can be painful.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.98,
+        "reasoning": "Painful presentation is common for synovial sarcoma and is stated in the trace."
+      },
+      {
+        "text": "The lesion is specifically arising from the iliopsoas muscle.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Reference MRI states the mass is arising from the left iliopsoas muscle."
+      },
+      {
+        "text": "The lesion contains amorphous calcifications suggestive of osteoid matrix.",
+        "category": "causal",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.96,
+        "reasoning": "Amorphous calcifications are described on CT; interpreting them as suggestive of osteoid matrix is a reasonable clinical inference."
+      },
+      {
+        "text": "These findings make extraskeletal osteosarcoma a better fit than synovial sarcoma.",
+        "category": "causal",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.97,
+        "reasoning": "Given intramuscular origin and amorphous calcifications, the trace reasonably concludes extraskeletal osteosarcoma fits better than synovial sarcoma."
+      },
+      {
+        "text": "Tumoral calcinosis is less likely.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Trace explicitly says tumoral calcinosis is less likely."
+      },
+      {
+        "text": "Tumoral calcinosis can present as calcified periarticular masses.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.98,
+        "reasoning": "Calcified periarticular masses are a known presentation of tumoral calcinosis."
+      },
+      {
+        "text": "Tumoral calcinosis is usually composed of lobulated calcific deposits without this pattern of enhancing intramuscular soft-tissue tumor.",
+        "category": "causal",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.96,
+        "reasoning": "This is a reasonable contrast with the case imaging, which shows an enhancing intramuscular soft-tissue mass rather than simple calcific deposits."
+      },
+      {
+        "text": "Tumoral calcinosis is not typically associated with weight loss or progressive pain from hip flexion.",
+        "category": "causal",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.95,
+        "reasoning": "Weight loss and progressive pain with hip flexion are not typical for tumoral calcinosis; this is a valid inference from the differential discussion."
+      },
+      {
+        "text": "Calcific myonecrosis is also unlikely.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Trace explicitly states calcific myonecrosis is also unlikely."
+      },
+      {
+        "text": "Calcific myonecrosis is unlikely given the absence of remote trauma history.",
+        "category": "causal",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.98,
+        "reasoning": "Reference data says he denied trauma, supporting this reason for lowering calcific myonecrosis."
+      },
+      {
+        "text": "Calcific myonecrosis is unlikely given the absence of compartment syndrome history.",
+        "category": "causal",
+        "verdict": "unverifiable",
+        "verified": true,
+        "score": 0.6,
+        "confidence": 0.62,
+        "reasoning": "The reference data does not mention compartment syndrome history, so this cannot be checked."
+      },
+      {
+        "text": "The combination of chronic progressive hip pain localized to the iliopsoas, constitutional symptoms, a sharply marginated enhancing intramuscular mass with amorphous calcifications, and no bone involvement most strongly supports extraskeletal osteosarcoma arising in the left iliopsoas muscle.",
+        "category": "causal",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.98,
+        "reasoning": "This is the trace's overall synthesis and is well supported by the chronic localized pain, constitutional symptoms, calcified enhancing intramuscular mass, and no bone involvement."
+      },
+      {
+        "text": "Extraskeletal osteosarcoma of the left iliopsoas muscle is the high-probability differential diagnosis.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "The trace explicitly labels extraskeletal osteosarcoma of the left iliopsoas muscle as high-probability."
+      },
+      {
+        "text": "Myositis ossificans is a medium-probability differential diagnosis.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "The trace explicitly labels myositis ossificans as medium-probability."
+      },
+      {
+        "text": "Synovial sarcoma is a medium-probability differential diagnosis.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "The trace explicitly labels synovial sarcoma as medium-probability."
+      },
+      {
+        "text": "Psoas abscess is a low-probability differential diagnosis.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "The trace explicitly labels psoas abscess as low-probability."
+      },
+      {
+        "text": "Hip pain with psoas involvement is possible in psoas abscess.",
+        "category": "causal",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.97,
+        "reasoning": "Psoas abscess can present with hip pain and psoas involvement; this is standard clinical knowledge and consistent with the differential."
+      },
+      {
+        "text": "Normal CBC, ESR, and CRP make psoas abscess unlikely.",
+        "category": "causal",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "CBC, ESR, and CRP were all normal in the reference data, supporting that psoas abscess is unlikely."
+      },
+      {
+        "text": "The absence of fever makes psoas abscess unlikely.",
+        "category": "causal",
+        "verdict": "unverifiable",
+        "verified": true,
+        "score": 0.6,
+        "confidence": 0.58,
+        "reasoning": "The reference data does not state whether fever was present or absent."
+      },
+      {
+        "text": "A calcified enhancing mass makes psoas abscess unlikely.",
+        "category": "causal",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.97,
+        "reasoning": "A calcified enhancing mass is not typical for psoas abscess and supports the trace's conclusion that infection is unlikely."
+      },
+      {
+        "text": "The final diagnosis is extraskeletal osteosarcoma of the left iliopsoas muscle.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Reference and trace both state the final diagnosis is extraskeletal osteosarcoma of the left iliopsoas muscle."
+      }
+    ],
+    "verdict_counts": {
+      "contradicted": 0,
+      "supported": 63,
+      "valid_inference": 10,
+      "unverifiable": 2
+    },
+    "contradictions": 0
+  }
+}

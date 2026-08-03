@@ -1,0 +1,310 @@
+{
+  "name": "classify",
+  "passed": true,
+  "score": 1.0,
+  "reasoning": "Classified 60 statement(s): 15 causal, 40 factual, 4 recommendation, 1 statistical.",
+  "data": {
+    "classified": [
+      {
+        "text": "The chief complaint is a slowly enlarging right neck mass present for 1 year in a 32-year-old man.",
+        "category": "factual",
+        "rationale": "This is a direct clinical assertion about the patient's presenting complaint and duration."
+      },
+      {
+        "text": "The patient’s concern is a persistent submandibular-region mass rather than pain, infection, or systemic illness.",
+        "category": "factual",
+        "rationale": "It states the patient's reported concern and associated absence of other symptoms as a factual description."
+      },
+      {
+        "text": "The chronic time course and lack of other symptoms suggest a benign, slow-growing soft tissue or salivary-region neoplasm rather than an acute inflammatory process.",
+        "category": "causal",
+        "rationale": "It infers a relationship between the time course/symptom pattern and the likely underlying process."
+      },
+      {
+        "text": "Salient positive findings include a soft, slightly movable mass in the right submandibular region.",
+        "category": "factual",
+        "rationale": "This describes an observed physical exam finding."
+      },
+      {
+        "text": "Salient positive findings include normal overlying skin.",
+        "category": "factual",
+        "rationale": "This is a direct observation about the skin over the mass."
+      },
+      {
+        "text": "Salient positive findings include an otherwise unremarkable physical examination.",
+        "category": "factual",
+        "rationale": "This states the exam was otherwise normal."
+      },
+      {
+        "text": "CT showed a well-defined 5 × 3 cm mixed-density lesion adjacent to the right submandibular gland.",
+        "category": "statistical",
+        "rationale": "It includes a specific measurement and imaging description that can be numerically verified."
+      },
+      {
+        "text": "Image segmentation suggested that the lesion contains fat, connective tissue, and osteoid.",
+        "category": "factual",
+        "rationale": "This reports an imaging interpretation of the lesion's composition."
+      },
+      {
+        "text": "That combination strongly points toward a mesenchymal tumor with adipose and osseous/chondroid differentiation.",
+        "category": "causal",
+        "rationale": "It links the observed tissue composition to a specific tumor type by inference."
+      },
+      {
+        "text": "The lesion is well circumscribed and clinically mobile.",
+        "category": "factual",
+        "rationale": "This is a direct description of lesion characteristics."
+      },
+      {
+        "text": "The lesion’s well-circumscribed and clinically mobile nature supports a benign process.",
+        "category": "causal",
+        "rationale": "It explains how the lesion's features relate to the likelihood of benignity."
+      },
+      {
+        "text": "Pertinent negatives include no mention of pain.",
+        "category": "factual",
+        "rationale": "This states the absence of a symptom in the record."
+      },
+      {
+        "text": "Pertinent negatives include no mention of tenderness.",
+        "category": "factual",
+        "rationale": "This is a factual absence of tenderness in the documentation."
+      },
+      {
+        "text": "Pertinent negatives include no mention of rapid growth.",
+        "category": "factual",
+        "rationale": "This records the absence of rapid growth as a negative finding."
+      },
+      {
+        "text": "Pertinent negatives include no mention of skin changes.",
+        "category": "factual",
+        "rationale": "This is a factual negative finding from the history/exam."
+      },
+      {
+        "text": "Pertinent negatives include no mention of ulceration.",
+        "category": "factual",
+        "rationale": "This states ulceration was not mentioned."
+      },
+      {
+        "text": "Pertinent negatives include no mention of cranial nerve deficits.",
+        "category": "factual",
+        "rationale": "This is a documented absence of cranial nerve findings."
+      },
+      {
+        "text": "Pertinent negatives include no mention of constitutional symptoms.",
+        "category": "factual",
+        "rationale": "This records the absence of systemic symptoms."
+      },
+      {
+        "text": "Pertinent negatives include no mention of other abnormal examination findings.",
+        "category": "factual",
+        "rationale": "This is a factual statement about the remainder of the exam being unremarkable."
+      },
+      {
+        "text": "These negatives make infectious lymphadenitis less likely.",
+        "category": "causal",
+        "rationale": "It infers reduced likelihood of infection based on the absence of inflammatory features."
+      },
+      {
+        "text": "These negatives make aggressive salivary malignancy less likely.",
+        "category": "causal",
+        "rationale": "It links the negative findings to a lower probability of aggressive malignancy."
+      },
+      {
+        "text": "These negatives make metastatic nodal disease less likely.",
+        "category": "causal",
+        "rationale": "It infers a lower likelihood of metastatic disease from the negative clinical features."
+      },
+      {
+        "text": "There is no history suggesting congenital presentation.",
+        "category": "factual",
+        "rationale": "This states the absence of a congenital history."
+      },
+      {
+        "text": "That lack of congenital history somewhat argues against teratoma.",
+        "category": "causal",
+        "rationale": "It uses the absence of congenital history to infer against teratoma."
+      },
+      {
+        "text": "Adult teratomas can occur.",
+        "category": "factual",
+        "rationale": "This is a general clinical fact about teratomas in adults."
+      },
+      {
+        "text": "Pleomorphic adenoma of the submandibular gland is a reasonable initial consideration.",
+        "category": "recommendation",
+        "rationale": "It suggests an initial diagnostic consideration, functioning as a clinical recommendation."
+      },
+      {
+        "text": "The mass is in the submandibular region.",
+        "category": "factual",
+        "rationale": "This is a direct anatomic description of the mass location."
+      },
+      {
+        "text": "The mass is slow growing.",
+        "category": "factual",
+        "rationale": "This states a clinical characteristic of the mass."
+      },
+      {
+        "text": "The mass is well defined.",
+        "category": "factual",
+        "rationale": "This is a direct description of the lesion's margins."
+      },
+      {
+        "text": "The mass appears clinically benign.",
+        "category": "factual",
+        "rationale": "This states an observed clinical impression."
+      },
+      {
+        "text": "Pleomorphic adenoma can contain myxochondroid stromal elements.",
+        "category": "factual",
+        "rationale": "This is a factual statement about the pathology of pleomorphic adenoma."
+      },
+      {
+        "text": "Pleomorphic adenoma may appear heterogeneous on imaging.",
+        "category": "factual",
+        "rationale": "This describes a known imaging feature of pleomorphic adenoma."
+      },
+      {
+        "text": "The lesion is described as adjacent to the submandibular gland rather than clearly arising within it.",
+        "category": "factual",
+        "rationale": "This is a factual imaging/anatomic description."
+      },
+      {
+        "text": "The imaging segmentation specifically identified fat, connective tissue, and osteoid.",
+        "category": "factual",
+        "rationale": "This reports the segmented tissue components as an observed finding."
+      },
+      {
+        "text": "A substantial fat component is not typical for pleomorphic adenoma.",
+        "category": "factual",
+        "rationale": "This is a factual comparative statement about typical composition."
+      },
+      {
+        "text": "A substantial fat component makes pleomorphic adenoma less fitting overall.",
+        "category": "causal",
+        "rationale": "It infers diagnostic fit from the presence of fat."
+      },
+      {
+        "text": "Teratoma can produce a mixed-density mass containing fat and calcified or osseous elements.",
+        "category": "factual",
+        "rationale": "This states a known characteristic of teratomas."
+      },
+      {
+        "text": "The imaging composition fits teratoma.",
+        "category": "causal",
+        "rationale": "It links the imaging composition to the diagnosis of teratoma."
+      },
+      {
+        "text": "Cervical teratomas are much more typical in infants and children.",
+        "category": "factual",
+        "rationale": "This is a general epidemiologic fact."
+      },
+      {
+        "text": "Adult cervical teratomas are uncommon.",
+        "category": "factual",
+        "rationale": "This states a frequency-related clinical fact."
+      },
+      {
+        "text": "The case provides no additional features of a complex congenital germ cell tumor beyond mixed tissue density.",
+        "category": "factual",
+        "rationale": "This describes the absence of additional supportive features in the case."
+      },
+      {
+        "text": "Teratoma remains plausible.",
+        "category": "factual",
+        "rationale": "This is a diagnostic plausibility statement."
+      },
+      {
+        "text": "Teratoma is less likely than a benign adipocytic tumor with osseous/chondroid metaplasia.",
+        "category": "causal",
+        "rationale": "It compares likelihoods based on the lesion's features."
+      },
+      {
+        "text": "Osteo/chondroid lipoma fits especially well.",
+        "category": "factual",
+        "rationale": "This is a diagnostic fit statement."
+      },
+      {
+        "text": "These rare benign lipomatous tumors are well circumscribed.",
+        "category": "factual",
+        "rationale": "This describes a characteristic feature of the tumor type."
+      },
+      {
+        "text": "These rare benign lipomatous tumors are composed of mature adipose tissue with chondroid and/or osseous matrix.",
+        "category": "factual",
+        "rationale": "This states the histologic composition of the tumor type."
+      },
+      {
+        "text": "The CT suggestion of fat, connective tissue, and osteoid is highly characteristic.",
+        "category": "factual",
+        "rationale": "This is a descriptive statement about the imaging pattern's characteristic nature."
+      },
+      {
+        "text": "The soft, slightly movable, slow-growing nature over 1 year supports a benign lipomatous lesion.",
+        "category": "causal",
+        "rationale": "It infers a benign lipomatous diagnosis from the clinical behavior."
+      },
+      {
+        "text": "The submandibular region is an unusual but recognized soft tissue location for such a tumor.",
+        "category": "factual",
+        "rationale": "This is a factual statement about tumor location patterns."
+      },
+      {
+        "text": "The decisive feature is the lesion composition on imaging.",
+        "category": "factual",
+        "rationale": "This identifies the key diagnostic feature as a factual statement."
+      },
+      {
+        "text": "The lesion composition on imaging is fat plus osteoid/connective tissue in a well-defined benign-appearing neck mass.",
+        "category": "factual",
+        "rationale": "This summarizes the imaging findings as a direct description."
+      },
+      {
+        "text": "Among the listed differentials, osteo/chondroid lipoma best integrates the adipose and osseous/chondroid elements.",
+        "category": "causal",
+        "rationale": "It explains why one diagnosis best matches the observed tissue elements."
+      },
+      {
+        "text": "Among the listed differentials, osteo/chondroid lipoma matches the indolent clinical behavior.",
+        "category": "causal",
+        "rationale": "It links the slow clinical course to the favored diagnosis."
+      },
+      {
+        "text": "Pleomorphic adenoma explains the location but not the fat-rich composition as well.",
+        "category": "causal",
+        "rationale": "It compares how well the diagnosis accounts for the observed features."
+      },
+      {
+        "text": "Teratoma explains mixed tissues but is less typical in this adult presentation.",
+        "category": "causal",
+        "rationale": "It relates the diagnosis to the tissue findings and age-related likelihood."
+      },
+      {
+        "text": "The most likely diagnosis is osteochondrolipoma (osteo/chondroid lipoma).",
+        "category": "factual",
+        "rationale": "This states the final diagnostic conclusion."
+      },
+      {
+        "text": "Differential diagnoses include osteo/chondroid lipoma with high likelihood.",
+        "category": "recommendation",
+        "rationale": "This presents a ranked diagnostic consideration, which functions as a clinical suggestion."
+      },
+      {
+        "text": "Differential diagnoses include pleomorphic adenoma of the submandibular gland with medium likelihood.",
+        "category": "recommendation",
+        "rationale": "This is a suggested differential diagnosis with an implied level of consideration."
+      },
+      {
+        "text": "Differential diagnoses include teratoma with low likelihood.",
+        "category": "recommendation",
+        "rationale": "This is a suggested differential diagnosis with a likelihood assessment."
+      },
+      {
+        "text": "The final diagnosis is osteochondrolipoma.",
+        "category": "factual",
+        "rationale": "This is a direct statement of the final diagnosis."
+      }
+    ]
+  }
+}

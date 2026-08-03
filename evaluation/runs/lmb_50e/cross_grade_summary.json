@@ -1,0 +1,38 @@
+{
+  "gpt-5.4/baseline": {
+    "gpt41": 57.7,
+    "claude": 59.2,
+    "delta_gpt41": 0.0,
+    "delta_claude": 0.0
+  },
+  "gpt-5.4/self_refine": {
+    "gpt41": 59.6,
+    "claude": 60.8,
+    "delta_gpt41": 1.8,
+    "delta_claude": 1.6
+  },
+  "gpt-5.4/healthguard": {
+    "gpt41": 66.1,
+    "claude": 63.6,
+    "delta_gpt41": 8.4,
+    "delta_claude": 4.4
+  },
+  "gpt-5.4-mini/baseline": {
+    "gpt41": 53.2,
+    "claude": 53.8,
+    "delta_gpt41": 0.0,
+    "delta_claude": 0.0
+  },
+  "gpt-5.4-mini/self_refine": {
+    "gpt41": 55.9,
+    "claude": 55.6,
+    "delta_gpt41": 2.7,
+    "delta_claude": 1.7
+  },
+  "gpt-5.4-mini/healthguard": {
+    "gpt41": 57.2,
+    "claude": 61.5,
+    "delta_gpt41": 4.0,
+    "delta_claude": 7.7
+  }
+}

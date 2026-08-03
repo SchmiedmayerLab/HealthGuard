@@ -1,0 +1,395 @@
+{
+  "name": "classify",
+  "passed": true,
+  "score": 1.0,
+  "reasoning": "Classified 77 statement(s): 19 causal, 55 factual, 2 recommendation, 1 statistical.",
+  "data": {
+    "classified": [
+      {
+        "text": "The chief complaint is generalized dry, spiny skin lesions in a 21-year-old woman.",
+        "category": "factual",
+        "rationale": "It states a patient finding and demographic detail that can be directly verified from the record."
+      },
+      {
+        "text": "The patient’s main concern is diffuse follicular roughness.",
+        "category": "factual",
+        "rationale": "This is a direct description of the patient's presenting symptom."
+      },
+      {
+        "text": "The diffuse follicular roughness did not respond to empiric eczema treatment.",
+        "category": "factual",
+        "rationale": "It reports a treatment response outcome from the clinical history."
+      },
+      {
+        "text": "The lesions are multiple minute, digitate, folliculocentric hyperkeratotic papules.",
+        "category": "factual",
+        "rationale": "This is a descriptive clinical morphology statement about the lesions."
+      },
+      {
+        "text": "The papules symmetrically affect the face, neck, trunk, and upper extremities.",
+        "category": "factual",
+        "rationale": "It describes the distribution of the lesions as observed clinically."
+      },
+      {
+        "text": "The widespread symmetric folliculocentric keratotic papules are a salient positive finding.",
+        "category": "factual",
+        "rationale": "This identifies a positive exam finding rather than making an inference or recommendation."
+      },
+      {
+        "text": "The biopsy findings are a salient positive finding.",
+        "category": "factual",
+        "rationale": "It refers to the presence of notable biopsy findings in the case."
+      },
+      {
+        "text": "Histology showed keratin plugs in hair follicle infundibula.",
+        "category": "factual",
+        "rationale": "This is a direct histopathologic observation."
+      },
+      {
+        "text": "Histology showed sparse perifollicular lymphocytes.",
+        "category": "factual",
+        "rationale": "This reports a microscopic finding from the biopsy."
+      },
+      {
+        "text": "Histology showed cystic spaces in the outer root sheath of hair follicles and sebaceous glands.",
+        "category": "factual",
+        "rationale": "It states a specific histologic feature observed on biopsy."
+      },
+      {
+        "text": "The cystic spaces contained mucin on Alcian blue–PAS stain.",
+        "category": "factual",
+        "rationale": "This is a direct stain result from pathology."
+      },
+      {
+        "text": "Immunohistochemistry showed a predominantly T-cell infiltrate.",
+        "category": "factual",
+        "rationale": "It reports an immunophenotypic pathology finding."
+      },
+      {
+        "text": "The infiltrate was mainly composed of CD3-positive small lymphocytes.",
+        "category": "factual",
+        "rationale": "This is a specific immunohistochemical description of the infiltrate."
+      },
+      {
+        "text": "The infiltrate was mainly composed of CD4-positive small lymphocytes.",
+        "category": "factual",
+        "rationale": "This is a specific immunohistochemical description of the infiltrate."
+      },
+      {
+        "text": "There were few CD8-positive cells.",
+        "category": "factual",
+        "rationale": "It states a measured/pathology observation about cell composition."
+      },
+      {
+        "text": "B cells were inconspicuous.",
+        "category": "factual",
+        "rationale": "This is a direct descriptive pathology finding."
+      },
+      {
+        "text": "CD30-positive cells were inconspicuous.",
+        "category": "factual",
+        "rationale": "This is a direct descriptive pathology finding."
+      },
+      {
+        "text": "These findings strongly support follicular mucinosis.",
+        "category": "causal",
+        "rationale": "It links the observed findings to a diagnostic conclusion by evidentiary support."
+      },
+      {
+        "text": "Clinically, the lesions are spiny and keratotic.",
+        "category": "factual",
+        "rationale": "This is a direct clinical description of lesion morphology."
+      },
+      {
+        "text": "Clinically, the lesions are generalized rather than classic plaques.",
+        "category": "factual",
+        "rationale": "It describes the clinical distribution/pattern of the lesions."
+      },
+      {
+        "text": "The spiny and generalized presentation is a recognized follicular spinous variant.",
+        "category": "factual",
+        "rationale": "It asserts a recognized clinical variant classification."
+      },
+      {
+        "text": "Lack of improvement with topical corticosteroid argues against simple eczema.",
+        "category": "causal",
+        "rationale": "It uses treatment nonresponse as evidence against a diagnosis, implying a relationship between response and diagnosis."
+      },
+      {
+        "text": "No atopy or allergies makes atopic dermatitis less likely.",
+        "category": "causal",
+        "rationale": "It relates absence of atopic history to reduced likelihood of a diagnosis."
+      },
+      {
+        "text": "Absence of perilesional erythema makes inflammatory keratoses less likely.",
+        "category": "causal",
+        "rationale": "It connects a negative clinical sign with decreased likelihood of inflammatory keratoses."
+      },
+      {
+        "text": "No palmoplantar keratoderma or signs of nutritional deficiency argues against phrynoderma and some inherited keratodermas.",
+        "category": "causal",
+        "rationale": "It infers diagnostic likelihood from the absence of associated findings."
+      },
+      {
+        "text": "No scarring or alopecia makes classic keratosis pilaris atrophicans and some cicatricial follicular disorders less likely.",
+        "category": "causal",
+        "rationale": "It links absence of scarring/alopecia to lower likelihood of those disorders."
+      },
+      {
+        "text": "No family history argues against inherited generalized keratotic disorders such as lichen spinulosus variants or keratosis pilaris syndromes.",
+        "category": "causal",
+        "rationale": "It uses family history to infer the likelihood of inherited disorders."
+      },
+      {
+        "text": "The leading differential is follicular mucinosis, also called alopecia mucinosa.",
+        "category": "factual",
+        "rationale": "It states the leading diagnostic consideration."
+      },
+      {
+        "text": "Follicular mucinosis is presenting here as generalized follicular spicules or spiny papules.",
+        "category": "factual",
+        "rationale": "It describes the clinical presentation as a form of follicular mucinosis."
+      },
+      {
+        "text": "Mucin within the follicular epithelium and sebaceous structures is the defining histopathologic feature of follicular mucinosis.",
+        "category": "factual",
+        "rationale": "It states a defining diagnostic pathology feature."
+      },
+      {
+        "text": "The perifollicular CD4-predominant T-cell infiltrate is compatible with follicular mucinosis.",
+        "category": "causal",
+        "rationale": "It relates a histologic pattern to compatibility with a diagnosis."
+      },
+      {
+        "text": "In a young adult, primary or idiopathic follicular mucinosis is more likely than lymphoma-associated disease.",
+        "category": "causal",
+        "rationale": "It compares diagnostic likelihood based on age and disease association."
+      },
+      {
+        "text": "The generalized distribution raises the need to consider associated cutaneous T-cell lymphoma.",
+        "category": "recommendation",
+        "rationale": "It suggests a diagnostic consideration that should be pursued based on the presentation."
+      },
+      {
+        "text": "Another candidate diagnosis is lichen spinulosus.",
+        "category": "factual",
+        "rationale": "It states a differential diagnosis under consideration."
+      },
+      {
+        "text": "Lichen spinulosus can present in young people with grouped follicular keratotic spines and generalized roughness.",
+        "category": "factual",
+        "rationale": "It describes a known clinical presentation of lichen spinulosus."
+      },
+      {
+        "text": "The biopsy is not supportive of lichen spinulosus.",
+        "category": "factual",
+        "rationale": "It states an interpretive conclusion about the biopsy findings."
+      },
+      {
+        "text": "Lichen spinulosus would show nonspecific follicular hyperkeratosis and perifollicular inflammation.",
+        "category": "factual",
+        "rationale": "It describes expected histologic features of lichen spinulosus."
+      },
+      {
+        "text": "Lichen spinulosus would not show mucin deposition in the outer root sheath and sebaceous glands.",
+        "category": "factual",
+        "rationale": "It states an expected absence of a histologic feature in that condition."
+      },
+      {
+        "text": "Keratosis pilaris is another consideration because of folliculocentric keratotic papules on the upper trunk and extremities.",
+        "category": "causal",
+        "rationale": "It explains why a diagnosis is being considered based on the clinical pattern."
+      },
+      {
+        "text": "Keratosis pilaris usually favors extensor upper arms and thighs.",
+        "category": "factual",
+        "rationale": "It states a typical distribution pattern for keratosis pilaris."
+      },
+      {
+        "text": "Keratosis pilaris often has a chronic benign pattern.",
+        "category": "factual",
+        "rationale": "It describes the usual clinical course of keratosis pilaris."
+      },
+      {
+        "text": "Keratosis pilaris histology does not show follicular mucin.",
+        "category": "factual",
+        "rationale": "It states a characteristic histologic absence for keratosis pilaris."
+      },
+      {
+        "text": "The generalized digitate spiny eruption argues against keratosis pilaris.",
+        "category": "causal",
+        "rationale": "It uses the eruption pattern to infer that keratosis pilaris is less likely."
+      },
+      {
+        "text": "Phrynoderma could cause generalized follicular hyperkeratotic papules with xerosis.",
+        "category": "factual",
+        "rationale": "It states a possible clinical presentation of phrynoderma."
+      },
+      {
+        "text": "There are no signs of nutritional deficiency.",
+        "category": "factual",
+        "rationale": "It reports the absence of nutritional deficiency signs."
+      },
+      {
+        "text": "The histology is not compatible with phrynoderma.",
+        "category": "factual",
+        "rationale": "It states an interpretive pathology conclusion."
+      },
+      {
+        "text": "Mucin deposition is not a feature of phrynoderma.",
+        "category": "factual",
+        "rationale": "It states a characteristic histologic absence for phrynoderma."
+      },
+      {
+        "text": "Folliculotropic mycosis fungoides must be considered.",
+        "category": "recommendation",
+        "rationale": "It recommends considering a serious diagnostic possibility."
+      },
+      {
+        "text": "Follicular mucinosis can be associated with cutaneous T-cell lymphoma.",
+        "category": "causal",
+        "rationale": "It states an association between two conditions."
+      },
+      {
+        "text": "The infiltrate is CD4 predominant.",
+        "category": "factual",
+        "rationale": "It reports an immunophenotypic finding."
+      },
+      {
+        "text": "The patient is young.",
+        "category": "factual",
+        "rationale": "It states a demographic attribute of the patient."
+      },
+      {
+        "text": "There is no mention of patches, plaques, tumors, alopecia, or more overt atypia.",
+        "category": "factual",
+        "rationale": "It reports the absence of additional described clinical/pathologic features."
+      },
+      {
+        "text": "The infiltrate is described as sparse small lymphocytes.",
+        "category": "factual",
+        "rationale": "It directly describes the biopsy infiltrate."
+      },
+      {
+        "text": "T-cell receptor testing was unsuccessful.",
+        "category": "factual",
+        "rationale": "It reports the result of a diagnostic test."
+      },
+      {
+        "text": "Clonality cannot be assessed.",
+        "category": "factual",
+        "rationale": "It states the current inability to determine clonality from testing."
+      },
+      {
+        "text": "Based strictly on the provided data, the lesion-level diagnosis is follicular mucinosis rather than confirmed folliculotropic mycosis fungoides.",
+        "category": "factual",
+        "rationale": "It gives a diagnostic conclusion based on the provided evidence."
+      },
+      {
+        "text": "The decisive feature is mucin within follicular outer root sheath and sebaceous structures on special stain.",
+        "category": "factual",
+        "rationale": "It identifies a specific observed feature as decisive."
+      },
+      {
+        "text": "That feature establishes follicular mucinosis.",
+        "category": "causal",
+        "rationale": "It links the histologic feature to the diagnosis it supports."
+      },
+      {
+        "text": "The clinical presentation of generalized minute digitate folliculocentric hyperkeratotic papules is an unusual spiny variant.",
+        "category": "factual",
+        "rationale": "It characterizes the presentation as a variant form."
+      },
+      {
+        "text": "The presentation is still best classified as follicular mucinosis.",
+        "category": "factual",
+        "rationale": "It states the preferred classification of the case."
+      },
+      {
+        "text": "Follicular mucinosis is the high-probability differential diagnosis.",
+        "category": "factual",
+        "rationale": "It states the relative likelihood of a diagnosis."
+      },
+      {
+        "text": "Biopsy showed mucin in cystic spaces of the outer root sheath and sebaceous glands on Alcian blue–PAS.",
+        "category": "factual",
+        "rationale": "It reports a specific biopsy and stain finding."
+      },
+      {
+        "text": "The biopsy showed perifollicular CD3-positive and predominantly CD4-positive lymphocytes.",
+        "category": "factual",
+        "rationale": "It reports immunohistochemical biopsy findings."
+      },
+      {
+        "text": "Clinically there were generalized folliculocentric spiny hyperkeratotic papules.",
+        "category": "factual",
+        "rationale": "It describes the observed clinical morphology and distribution."
+      },
+      {
+        "text": "Lichen spinulosus is a medium-probability differential diagnosis.",
+        "category": "factual",
+        "rationale": "It states a ranked differential diagnosis."
+      },
+      {
+        "text": "Young age with minute digitate follicular keratotic papules and generalized roughness could suggest lichen spinulosus.",
+        "category": "causal",
+        "rationale": "It explains why the clinical pattern could point toward that diagnosis."
+      },
+      {
+        "text": "Histology is not supportive of lichen spinulosus because follicular mucin deposition is present.",
+        "category": "causal",
+        "rationale": "It links the histologic finding to why lichen spinulosus is less supported."
+      },
+      {
+        "text": "Keratosis pilaris is a low-probability differential diagnosis.",
+        "category": "factual",
+        "rationale": "It states a ranked differential diagnosis."
+      },
+      {
+        "text": "Folliculocentric hyperkeratotic papules can resemble keratosis pilaris.",
+        "category": "causal",
+        "rationale": "It describes a resemblance between the clinical findings and the diagnosis."
+      },
+      {
+        "text": "The widespread face, neck, and trunk involvement argues strongly against keratosis pilaris.",
+        "category": "causal",
+        "rationale": "It uses distribution to infer that keratosis pilaris is unlikely."
+      },
+      {
+        "text": "Biopsy showing follicular mucin argues strongly against keratosis pilaris.",
+        "category": "causal",
+        "rationale": "It links the biopsy finding to reduced likelihood of keratosis pilaris."
+      },
+      {
+        "text": "Folliculotropic mycosis fungoides is a low-probability differential diagnosis.",
+        "category": "factual",
+        "rationale": "It states a ranked differential diagnosis."
+      },
+      {
+        "text": "CD4-predominant folliculotropic lymphocytes and follicular mucinosis raise concern for CTCL-associated disease.",
+        "category": "causal",
+        "rationale": "It links the immunophenotype and mucinosis to concern for associated lymphoma."
+      },
+      {
+        "text": "The patient is 21 years old.",
+        "category": "statistical",
+        "rationale": "It gives a numerical age value."
+      },
+      {
+        "text": "The infiltrate is sparse.",
+        "category": "factual",
+        "rationale": "It is a descriptive pathology finding."
+      },
+      {
+        "text": "There are no other clinical features of mycosis fungoides provided.",
+        "category": "factual",
+        "rationale": "It states the absence of additional reported features."
+      },
+      {
+        "text": "The final diagnosis is follicular mucinosis.",
+        "category": "factual",
+        "rationale": "It states the final diagnostic conclusion."
+      }
+    ]
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "name": "aggregate",
+  "passed": false,
+  "score": 0.9977,
+  "reasoning": "Failed overall, despite strong internal consistency in most verification steps. The main issue was the build_graph step, which reported 3 disconnected nodes and prevented a full pass, although the diagnostic reasoning remained coherent and the final diagnosis of typical slow-fast AVNRT was well supported. The weighted aggregate score was 0.9977.",
+  "data": {
+    "weighted_score": 0.9977,
+    "all_passed": false,
+    "step_scores": {
+      "static_rules": {
+        "score": 1.0,
+        "passed": true,
+        "weight": 0.1
+      },
+      "decompose": {
+        "score": 1.0,
+        "passed": true,
+        "weight": 0.05
+      },
+      "chain_verify": {
+        "score": 1.0,
+        "passed": true,
+        "weight": 0.1
+      },
+      "classify": {
+        "score": 1.0,
+        "passed": true,
+        "weight": 0.0
+      },
+      "expert_verify": {
+        "score": 1.0,
+        "passed": true,
+        "weight": 0.65
+      },
+      "build_graph": {
+        "score": 0.9773,
+        "passed": false,
+        "weight": 0.1
+      }
+    }
+  }
+}

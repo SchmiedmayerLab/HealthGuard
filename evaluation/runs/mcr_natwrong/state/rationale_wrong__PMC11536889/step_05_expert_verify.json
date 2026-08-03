@@ -1,0 +1,575 @@
+{
+  "name": "expert_verify",
+  "passed": true,
+  "score": 1.0,
+  "reasoning": "No contradictions among 62 statement(s) (35 supported, 27 valid inferences, 0 unverifiable).",
+  "data": {
+    "verifications": [
+      {
+        "text": "The patient is a 36-year-old man.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Reference data states a 36-year-old man."
+      },
+      {
+        "text": "The chief complaint is a 1-week history of persistent cough with sputum production.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Presentation says 1-week persistent cough and sputum production."
+      },
+      {
+        "text": "The cough is worsening with sore throat.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.98,
+        "reasoning": "Reference says symptoms worsened with onset of sore throat 1 day before admission."
+      },
+      {
+        "text": "The patient has palpable subcutaneous emphysema in the neck.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Neck subcutaneous emphysema was palpable on exam."
+      },
+      {
+        "text": "CT confirmed pneumomediastinum.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Chest CT confirmed pneumomediastinum."
+      },
+      {
+        "text": "The key diagnostic task is to determine the cause of the pneumomediastinum and associated left lower lobe obstructive atelectasis.",
+        "category": "factual",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.95,
+        "reasoning": "This is a reasonable diagnostic framing from the case: pneumomediastinum plus left lower lobe obstructive atelectasis require etiologic explanation."
+      },
+      {
+        "text": "The patient has a smoking history of about 20 cigarettes/day for 10 years.",
+        "category": "statistical",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Reference states smoking approximately 20 cigarettes/day for 10 years."
+      },
+      {
+        "text": "The patient has occupational exposure in a barbecue restaurant.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.98,
+        "reasoning": "He works in a barbecue restaurant."
+      },
+      {
+        "text": "The patient has wet rales over the left lung.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Wet rales were auscultated over the left lung."
+      },
+      {
+        "text": "The patient has marked leukocytosis with neutrophilia.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "WBC 25.74×10^9/L with neutrophils 81.8% is marked leukocytosis with neutrophilia."
+      },
+      {
+        "text": "The patient’s white blood cell count is 25.74×10^9/L.",
+        "category": "statistical",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 1.0,
+        "reasoning": "WBC is explicitly reported as 25.74×10^9/L."
+      },
+      {
+        "text": "The patient’s neutrophil percentage is 81.8%.",
+        "category": "statistical",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 1.0,
+        "reasoning": "Neutrophil percentage is explicitly 81.8%."
+      },
+      {
+        "text": "The chest radiography showed obstructive atelectasis in the left lower lobe.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Chest radiography demonstrated obstructive atelectasis in the left lower lobe."
+      },
+      {
+        "text": "CT confirmed left lower lobe atelectasis.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "CT confirmed left lower lobe atelectasis."
+      },
+      {
+        "text": "Bronchoscopy showed congested bronchial mucosa with copious white, viscous secretions in the left main bronchus and left lower lobe segmental bronchi.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Bronchoscopy showed congested mucosa and copious white, viscous secretions in the left main bronchus and left lower lobe segments."
+      },
+      {
+        "text": "These bronchoscopic findings strongly support mucus plugging as the cause of the obstructive atelectasis.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.96,
+        "reasoning": "Mucus plugging is a sound inference from copious viscous secretions with obstructive atelectasis on bronchoscopy."
+      },
+      {
+        "text": "The patient’s vital signs were stable.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Vital signs were stated to be stable."
+      },
+      {
+        "text": "Bronchoscopy showed no airway perforation.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Bronchoscopy showed no airway perforation."
+      },
+      {
+        "text": "Bronchoscopy showed no neoplasm.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Bronchoscopy showed no neoplasm."
+      },
+      {
+        "text": "Bronchoscopy showed no active bleeding.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Bronchoscopy showed no active bleeding."
+      },
+      {
+        "text": "There is no mention of chest trauma.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.9,
+        "reasoning": "The reference data does not mention chest trauma."
+      },
+      {
+        "text": "There is no mention of vomiting.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.9,
+        "reasoning": "The reference data does not mention vomiting."
+      },
+      {
+        "text": "There is no mention of severe chest pain.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.9,
+        "reasoning": "The reference data does not mention severe chest pain."
+      },
+      {
+        "text": "The patient’s CRP is 1.63 mg/L.",
+        "category": "statistical",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 1.0,
+        "reasoning": "CRP is explicitly reported as 1.63 mg/L."
+      },
+      {
+        "text": "The leading differential is spontaneous pneumomediastinum secondary to forceful coughing.",
+        "category": "factual",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.95,
+        "reasoning": "Spontaneous pneumomediastinum secondary to coughing is a legitimate diagnostic conclusion from the cough, subcutaneous emphysema, CT pneumomediastinum, and lack of perforation."
+      },
+      {
+        "text": "This diagnosis fits the history of persistent cough.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.95,
+        "reasoning": "Persistent cough is a plausible supporting feature for cough-induced spontaneous pneumomediastinum."
+      },
+      {
+        "text": "This diagnosis fits the stable vital signs.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.9,
+        "reasoning": "Stable vital signs are compatible with uncomplicated spontaneous pneumomediastinum."
+      },
+      {
+        "text": "This diagnosis fits the palpable neck subcutaneous emphysema.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.95,
+        "reasoning": "Palpable neck subcutaneous emphysema supports pneumomediastinum."
+      },
+      {
+        "text": "This diagnosis fits the CT-confirmed pneumomediastinum without evidence of airway perforation.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.96,
+        "reasoning": "CT pneumomediastinum plus no airway perforation reasonably fits spontaneous pneumomediastinum."
+      },
+      {
+        "text": "The likely mechanism is alveolar rupture from increased intrathoracic pressure during coughing.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.97,
+        "reasoning": "Alveolar rupture from increased intrathoracic pressure during coughing is standard Macklin-effect physiology."
+      },
+      {
+        "text": "Air can dissect into the mediastinum and neck.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.97,
+        "reasoning": "Air dissecting into the mediastinum and neck is standard pathophysiology of pneumomediastinum/subcutaneous emphysema."
+      },
+      {
+        "text": "The concurrent left lower lobe obstructive atelectasis is plausibly due to mucus plugging.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.96,
+        "reasoning": "Copious viscous secretions with obstructive atelectasis make mucus plugging a plausible cause."
+      },
+      {
+        "text": "The cough, sputum, wet rales, leukocytosis, and bronchial mucosal congestion support airway infection or inflammation.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.95,
+        "reasoning": "These findings reasonably support airway infection or inflammation, though not specifically proven as pneumonia."
+      },
+      {
+        "text": "The imaging specifically describes obstructive atelectasis rather than consolidation.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Reference explicitly says chest radiography demonstrated obstructive atelectasis in the left lower lobe."
+      },
+      {
+        "text": "Bronchoscopy identified mucus obstruction rather than a parenchymal infectious focus.",
+        "category": "factual",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.93,
+        "reasoning": "Bronchoscopy directly showed mucus/secretions and did not describe a parenchymal infectious focus; this is a reasonable contrast, though 'parenchymal focus' is not directly assessed by bronchoscopy."
+      },
+      {
+        "text": "Pneumomediastinum is not well explained by uncomplicated pneumonia alone.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.9,
+        "reasoning": "It is a reasonable clinical inference that uncomplicated pneumonia alone does not typically explain pneumomediastinum."
+      },
+      {
+        "text": "Severe coughing could cause pneumomediastinum in the setting of pneumonia.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.95,
+        "reasoning": "Severe coughing can precipitate pneumomediastinum, including in the setting of pneumonia or bronchitis."
+      },
+      {
+        "text": "Endobronchial obstruction from malignancy is another differential because obstructive atelectasis in a smoker can reflect a tumor.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.95,
+        "reasoning": "Obstructive atelectasis in a smoker appropriately raises malignancy as a differential."
+      },
+      {
+        "text": "The patient is relatively young.",
+        "category": "factual",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.9,
+        "reasoning": "At 36 years old, he is relatively young for endobronchial malignancy; this is a standard clinical inference."
+      },
+      {
+        "text": "Bronchoscopy found no neoplasm.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Bronchoscopy explicitly found no neoplasm."
+      },
+      {
+        "text": "Tracheobronchial injury or perforation must be considered whenever pneumomediastinum and subcutaneous emphysema are present.",
+        "category": "recommendation",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.98,
+        "reasoning": "Standard differential consideration for pneumomediastinum/subcutaneous emphysema; consistent with the case and bronchoscopy excluding perforation."
+      },
+      {
+        "text": "There is no trauma history provided.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.97,
+        "reasoning": "Reference data provides no trauma history."
+      },
+      {
+        "text": "There is no procedure history provided.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.97,
+        "reasoning": "Reference data provides no procedure/instrumentation history."
+      },
+      {
+        "text": "Boerhaave syndrome is also unlikely without vomiting, severe chest pain, toxicity, or supportive endoscopic or imaging findings.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.95,
+        "reasoning": "No vomiting, severe chest pain, toxicity, or supportive findings are described; this is a reasonable exclusion, not a contradiction."
+      },
+      {
+        "text": "The most coherent explanation for all findings is spontaneous pneumomediastinum triggered by persistent cough, with associated mucus-plug-induced obstructive atelectasis of the left lower lobe.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.98,
+        "reasoning": "Integrates cough, pneumomediastinum, and mucus plugging/obstructive atelectasis into a coherent diagnosis consistent with the data."
+      },
+      {
+        "text": "The central diagnosis is spontaneous pneumomediastinum.",
+        "category": "factual",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.99,
+        "reasoning": "The trace explicitly narrows to spontaneous pneumomediastinum as the central diagnosis, which follows from the case."
+      },
+      {
+        "text": "Persistent cough preceded the symptoms.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Presentation states a 1-week history of persistent cough before admission and before the sore throat onset."
+      },
+      {
+        "text": "Palpable neck subcutaneous emphysema supports cough-induced spontaneous pneumomediastinum.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.96,
+        "reasoning": "Palpable neck subcutaneous emphysema is a classic supportive finding for spontaneous pneumomediastinum."
+      },
+      {
+        "text": "CT-confirmed pneumomediastinum supports cough-induced spontaneous pneumomediastinum.",
+        "category": "causal",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "CT of the chest confirmed pneumomediastinum."
+      },
+      {
+        "text": "Stable vital signs support cough-induced spontaneous pneumomediastinum.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.9,
+        "reasoning": "Stable vital signs are compatible with uncomplicated spontaneous pneumomediastinum and argue against severe physiology."
+      },
+      {
+        "text": "Bronchoscopy showing no airway perforation or neoplasm supports cough-induced spontaneous pneumomediastinum.",
+        "category": "causal",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Bronchoscopy showed no airway perforation or neoplasm."
+      },
+      {
+        "text": "Chest radiography and CT showed left lower lobe obstructive atelectasis.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Chest radiography demonstrated obstructive atelectasis in the left lower lobe, and CT confirmed left lower lobe atelectasis."
+      },
+      {
+        "text": "Bronchoscopy directly demonstrated copious white, viscous secretions with congested mucosa in the left main bronchus and left lower lobe bronchi.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Bronchoscopy revealed congested mucosa in the left main bronchus and left lower lobe bronchi with copious white, viscous secretions."
+      },
+      {
+        "text": "Cough, sputum production, wet rales, marked leukocytosis with neutrophilia, and bronchial mucosal congestion suggest acute airway or lung infection or inflammation.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.96,
+        "reasoning": "These findings reasonably suggest acute airway/lung inflammation or infection, though not proven as a final diagnosis."
+      },
+      {
+        "text": "Imaging favored obstructive atelectasis rather than primary consolidation.",
+        "category": "factual",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.9,
+        "reasoning": "The imaging description is obstructive atelectasis rather than consolidation; this is an interpretation of the reported imaging."
+      },
+      {
+        "text": "Smoking history and obstructive atelectasis could suggest tumor.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.93,
+        "reasoning": "In a smoker with obstructive atelectasis, endobronchial tumor is a standard differential consideration."
+      },
+      {
+        "text": "The patient is 36 years old.",
+        "category": "statistical",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 1.0,
+        "reasoning": "The reference data explicitly states the patient is 36 years old."
+      },
+      {
+        "text": "Bronchoscopy found no neoplasm.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Bronchoscopy found no neoplasm."
+      },
+      {
+        "text": "Pneumomediastinum and subcutaneous emphysema raise concern for tracheobronchial or esophageal perforation.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.98,
+        "reasoning": "Pneumomediastinum with subcutaneous emphysema appropriately raises concern for perforation."
+      },
+      {
+        "text": "Bronchoscopy showed no airway perforation.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Bronchoscopy showed no airway perforation."
+      },
+      {
+        "text": "There is no history of trauma, instrumentation, or vomiting provided.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.98,
+        "reasoning": "The reference data does not mention trauma, instrumentation, or vomiting."
+      },
+      {
+        "text": "The final diagnosis is spontaneous pneumomediastinum.",
+        "category": "factual",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.99,
+        "reasoning": "This matches the trace’s final diagnostic conclusion and is consistent with the reference case."
+      }
+    ],
+    "verdict_counts": {
+      "contradicted": 0,
+      "supported": 35,
+      "valid_inference": 27,
+      "unverifiable": 0
+    },
+    "contradictions": 0
+  }
+}

@@ -1,0 +1,177 @@
+digraph ReasoningGraph {
+  rankdir="LR";
+  compound=true;
+  node [shape=box, style="rounded,filled"];
+  subgraph cluster_0 {
+    label="history_taking (c1)";
+    style="rounded,dashed";
+    color="#9e9e9e";
+    n1 [label="n1: The chief complaint is gradual-onset abdominal pain with non-bilious vomiting over 2 days in a 3-year-old girl.\\n[factual]", fillcolor="#c8e6c9"];
+    n2 [label="n2: The patient’s immediate clinical problem is an upper gastrointestinal/duodenal obstructive-type presentation rather than systemic illness.\\n[causal]", fillcolor="#c8e6c9"];
+    n3 [label="n3: The patient is irritable but active.\\n[factual]", fillcolor="#c8e6c9"];
+    n4 [label="n4: The patient is afebrile.\\n[factual]", fillcolor="#c8e6c9"];
+    n5 [label="n5: The patient is hemodynamically stable.\\n[factual]", fillcolor="#c8e6c9"];
+  }
+  subgraph cluster_1 {
+    label="examination (c2)";
+    style="rounded,dashed";
+    color="#9e9e9e";
+    n6 [label="n6: The patient has a soft, non-tender abdomen with normal bowel sounds.\\n[factual]", fillcolor="#c8e6c9"];
+    n7 [label="n7: Salient positive findings include abdominal pain and non-bilious vomiting.\\n[factual]", fillcolor="#c8e6c9"];
+    n8 [label="n8: Salient positive findings include severe anemia with hemoglobin 7.3 g/dL.\\n[statistical]", fillcolor="#c8e6c9"];
+    n9 [label="n9: Salient positive findings include mild leukocytosis of 16.1×10^9/L.\\n[statistical]", fillcolor="#c8e6c9"];
+    n10 [label="n10: Salient positive findings include elevated AST of 337 U/L.\\n[statistical]", fillcolor="#c8e6c9"];
+    n11 [label="n11: Salient positive findings include elevated CRP of 43 U/L.\\n[statistical]", fillcolor="#c8e6c9"];
+  }
+  subgraph cluster_2 {
+    label="test_ordering (c3)";
+    style="rounded,dashed";
+    color="#9e9e9e";
+    n12 [label="n12: Imaging evidence is the most important salient positive finding.\\n[factual]", fillcolor="#c8e6c9"];
+    n13 [label="n13: Ultrasound excluded intussusception.\\n[factual]", fillcolor="#c8e6c9"];
+    n14 [label="n14: Ultrasound showed a rounded hypo- to isoechoic lobulated avascular area near the porta hepatis/pancreatic head.\\n[factual]", fillcolor="#c8e6c9"];
+    n15 [label="n15: Contrast CT demonstrated a large intramural/submucosal duodenal hematoma extending along the duodenum.\\n[factual]", fillcolor="#c8e6c9"];
+    n16 [label="n16: The duodenal hematoma caused luminal narrowing.\\n[causal]", fillcolor="#c8e6c9"];
+    n17 [label="n17: The imaging finding directly explains the vomiting and abdominal pain.\\n[causal]", fillcolor="#c8e6c9"];
+  }
+  subgraph cluster_3 {
+    label="history_taking (c4)";
+    style="rounded,dashed";
+    color="#9e9e9e";
+    n18 [label="n18: There was no fever.\\n[factual]", fillcolor="#c8e6c9"];
+    n19 [label="n19: There was no diarrhea.\\n[factual]", fillcolor="#c8e6c9"];
+    n20 [label="n20: There was no dysuria.\\n[factual]", fillcolor="#c8e6c9"];
+    n21 [label="n21: There was no trauma.\\n[factual]", fillcolor="#c8e6c9"];
+    n22 [label="n22: There were no prior similar episodes.\\n[factual]", fillcolor="#c8e6c9"];
+  }
+  subgraph cluster_4 {
+    label="examination (c5)";
+    style="rounded,dashed";
+    color="#9e9e9e";
+    n23 [label="n23: The abdomen was not tender.\\n[factual]", fillcolor="#c8e6c9"];
+    n24 [label="n24: The abdomen was not distended.\\n[factual]", fillcolor="#c8e6c9"];
+    n25 [label="n25: The abdomen showed no overt signs of bowel obstruction.\\n[factual]", fillcolor="#c8e6c9"];
+    n26 [label="n26: Coagulation screening was normal.\\n[factual]", fillcolor="#c8e6c9"];
+    n27 [label="n27: The prothrombin time was 12.7 s.\\n[statistical]", fillcolor="#c8e6c9"];
+    n28 [label="n28: The activated partial thromboplastin time was 27 s.\\n[statistical]", fillcolor="#c8e6c9"];
+    n29 [label="n29: The bleeding time was 2 min.\\n[statistical]", fillcolor="#c8e6c9"];
+    n30 [label="n30: Platelets were at the lower end of normal rather than frankly low.\\n[factual]", fillcolor="#c8e6c9"];
+    n31 [label="n31: Family history was negative for bleeding disorders or GI disease.\\n[factual]", fillcolor="#c8e6c9"];
+  }
+  subgraph cluster_5 {
+    label="differential_generation (c6)";
+    style="rounded,dashed";
+    color="#9e9e9e";
+    n32 [label="n32: These findings make infectious gastroenteritis less likely as a primary explanation.\\n[causal]", fillcolor="#c8e6c9"];
+    n33 [label="n33: These findings make urinary infection less likely as a primary explanation.\\n[causal]", fillcolor="#c8e6c9"];
+    n34 [label="n34: These findings make traumatic injury less likely as a primary explanation.\\n[causal]", fillcolor="#c8e6c9"];
+    n35 [label="n35: These findings make common coagulopathies less likely as a primary explanation.\\n[causal]", fillcolor="#c8e6c9"];
+    n36 [label="n36: Intramural duodenal hematoma fits best.\\n[factual]", fillcolor="#c8e6c9"];
+    n37 [label="n37: CT explicitly shows a large intramural/submucosal duodenal hematoma with luminal narrowing.\\n[factual]", fillcolor="#c8e6c9"];
+    n38 [label="n38: The symptoms of abdominal pain plus non-bilious vomiting are classic for proximal bowel narrowing or obstruction.\\n[causal]", fillcolor="#c8e6c9"];
+  }
+  subgraph cluster_6 {
+    label="differential_generation (c7)";
+    style="rounded,dashed";
+    color="#9e9e9e";
+    n39 [label="n39: Intussusception was a reasonable early consideration in a young child with abdominal pain and vomiting.\\n[factual]", fillcolor="#c8e6c9"];
+    n40 [label="n40: Ultrasound showed no intussusception.\\n[factual]", fillcolor="#c8e6c9"];
+    n41 [label="n41: The abdomen lacked typical episodic severe pain.\\n[factual]", fillcolor="#c8e6c9"];
+    n42 [label="n42: The abdomen lacked bloody stool.\\n[factual]", fillcolor="#c8e6c9"];
+    n43 [label="n43: A pancreatic or periportal mass/cystic lesion could be considered from the ultrasound description of an avascular lobulated area near the pancreatic head/porta hepatis.\\n[causal]", fillcolor="#c8e6c9"];
+    n44 [label="n44: CT clarified that the ultrasound finding represented duodenal wall hematoma rather than a solid or cystic mass.\\n[factual]", fillcolor="#c8e6c9"];
+  }
+  subgraph cluster_7 {
+    label="differential_generation (c8)";
+    style="rounded,dashed";
+    color="#9e9e9e";
+    n45 [label="n45: Infectious gastroenteritis is less likely because there is no fever.\\n[causal]", fillcolor="#c8e6c9"];
+    n46 [label="n46: Infectious gastroenteritis is less likely because there is no diarrhea.\\n[causal]", fillcolor="#c8e6c9"];
+    n47 [label="n47: Imaging identifies a structural lesion causing symptoms.\\n[causal]", fillcolor="#c8e6c9"];
+    n48 [label="n48: Nonaccidental or accidental traumatic duodenal hematoma is a known cause of duodenal hematoma in children.\\n[factual]", fillcolor="#c8e6c9"];
+    n49 [label="n49: The history specifically reports no trauma.\\n[factual]", fillcolor="#c8e6c9"];
+    n50 [label="n50: Occult trauma cannot be fully excluded from the summary alone.\\n[factual]", fillcolor="#c8e6c9"];
+    n51 [label="n51: The diagnosis to commit to is the lesion itself rather than an unproven etiology.\\n[recommendation]", fillcolor="#c8e6c9"];
+  }
+  subgraph cluster_8 {
+    label="differential_generation (c9)";
+    style="rounded,dashed";
+    color="#9e9e9e";
+    n52 [label="n52: Underlying bleeding disorder is a possible cause of spontaneous duodenal hematoma.\\n[causal]", fillcolor="#c8e6c9"];
+    n53 [label="n53: Severe anemia is present.\\n[factual]", fillcolor="#c8e6c9"];
+    n54 [label="n54: Factor XIII and von Willebrand testing were pending.\\n[factual]", fillcolor="#c8e6c9"];
+    n55 [label="n55: Routine coagulation studies are normal.\\n[factual]", fillcolor="#c8e6c9"];
+    n56 [label="n56: No bleeding history is provided.\\n[factual]", fillcolor="#c8e6c9"];
+    n57 [label="n57: The case data support the presence of a duodenal hematoma more strongly than any specific hemostatic disorder.\\n[causal]", fillcolor="#c8e6c9"];
+  }
+  subgraph cluster_9 {
+    label="final_decision (c10)";
+    style="rounded,dashed";
+    color="#9e9e9e";
+    n58 [label="n58: The decisive evidence is the contrast-enhanced CT scan showing a large intramural/submucosal duodenal hematoma along the entire duodenum causing luminal narrowing.\\n[factual]", fillcolor="#c8e6c9"];
+    n59 [label="n59: This finding directly accounts for the child’s symptoms.\\n[causal]", fillcolor="#c8e6c9"];
+    n60 [label="n60: This finding supersedes less specific differentials raised by the initial presentation.\\n[causal]", fillcolor="#c8e6c9"];
+    n61 [label="n61: The most likely diagnosis is intramural duodenal hematoma.\\n[factual]", fillcolor="#c8e6c9"];
+  }
+  subgraph cluster_10 {
+    label="differential_generation (c11)";
+    style="rounded,dashed";
+    color="#9e9e9e";
+    n62 [label="n62: Intramural duodenal hematoma is the high-probability differential.\\n[factual]", fillcolor="#c8e6c9"];
+    n63 [label="n63: The CT abdomen demonstrated a large intramural/submucosal duodenal hematoma along the entire duodenum with luminal narrowing.\\n[factual]", fillcolor="#c8e6c9"];
+    n64 [label="n64: The hematoma explains abdominal pain and non-bilious vomiting.\\n[causal]", fillcolor="#c8e6c9"];
+    n65 [label="n65: Intussusception is a low-probability differential.\\n[factual]", fillcolor="#c8e6c9"];
+    n66 [label="n66: The patient is a young child with abdominal pain and vomiting.\\n[factual]", fillcolor="#c8e6c9"];
+    n67 [label="n67: Ultrasound specifically showed no intussusception.\\n[factual]", fillcolor="#c8e6c9"];
+    n68 [label="n68: Imaging identified an alternative lesion.\\n[factual]", fillcolor="#c8e6c9"];
+    n69 [label="n69: Pancreatic/periportal mass lesion is a low-probability differential.\\n[factual]", fillcolor="#c8e6c9"];
+    n70 [label="n70: Ultrasound showed an avascular lobulated area adjacent to the porta hepatis and pancreatic head.\\n[factual]", fillcolor="#c8e6c9"];
+    n71 [label="n71: CT clarified that this was duodenal wall hematoma rather than a true mass.\\n[factual]", fillcolor="#c8e6c9"];
+    n72 [label="n72: Infectious gastroenteritis is a low-probability differential.\\n[factual]", fillcolor="#c8e6c9"];
+    n73 [label="n73: Vomiting and abdominal pain could suggest gastroenteritis.\\n[causal]", fillcolor="#c8e6c9"];
+    n74 [label="n74: There was no fever or diarrhea.\\n[factual]", fillcolor="#c8e6c9"];
+    n75 [label="n75: CT showed a structural obstructive cause.\\n[factual]", fillcolor="#c8e6c9"];
+    n76 [label="n76: Bleeding diathesis causing spontaneous gastrointestinal hematoma is a medium-probability differential.\\n[factual]", fillcolor="#c8e6c9"];
+    n77 [label="n77: Spontaneous hematoma in a child without trauma raises concern for an underlying bleeding disorder.\\n[causal]", fillcolor="#c8e6c9"];
+    n78 [label="n78: Factor XIII and von Willebrand testing were pending.\\n[factual]", fillcolor="#c8e6c9"];
+    n79 [label="n79: PT, aPTT, and bleeding time were normal.\\n[factual]", fillcolor="#c8e6c9"];
+  }
+  subgraph cluster_11 {
+    label="final_decision (c12)";
+    style="rounded,dashed";
+    color="#9e9e9e";
+    n80 [label="n80: The final diagnosis is intramural duodenal hematoma.\\n[factual]", fillcolor="#c8e6c9"];
+  }
+  n1 -> n2 [label="supports: Gradual abdominal pain with non-bilious vomiting is consistent with an upper GI/duodenal obstructive presentation."];
+  n7 -> n38 [label="supports: The symptom pair of abdominal pain and non-bilious vomiting supports a proximal bowel narrowing/obstruction pattern."];
+  n38 -> n2 [label="supports: A proximal bowel narrowing/obstruction pattern supports the conclusion that the immediate problem is duodenal/upper GI obstruction."];
+  n15 -> n16 [label="causes: A duodenal hematoma mechanically narrows the lumen."];
+  n16 -> n17 [label="causes: Luminal narrowing explains vomiting and abdominal pain."];
+  n15 -> n17 [label="causes: The intramural/submucosal duodenal hematoma is the structural lesion producing the symptoms."];
+  n13 -> n40 [label="supports: Ultrasound excluding intussusception is direct evidence that no intussusception was seen."];
+  n40 -> n65 [label="supports: If ultrasound shows no intussusception, intussusception becomes a low-probability differential."];
+  n70 -> n43 [label="supports: An avascular lobulated area near the pancreatic head/porta hepatis can be interpreted as a possible mass/cystic lesion."];
+  n71 -> n69 [label="supports: CT clarification that the lesion is not a true mass lowers the probability of a pancreatic/periportal mass lesion."];
+  n74 -> n72 [label="supports: Absence of fever or diarrhea makes infectious gastroenteritis less likely."];
+  n26 -> n35 [label="supports: Normal coagulation screening supports that common coagulopathies are less likely."];
+  n49 -> n34 [label="supports: A reported absence of trauma makes traumatic injury less likely as the primary explanation."];
+  n48 -> n52 [label="supports: Known traumatic or nonaccidental causes of duodenal hematoma make a bleeding-related hematoma mechanism plausible."];
+  n53 -> n52 [label="supports: Severe anemia supports consideration of an underlying bleeding disorder as a possible cause."];
+  n54 -> n52 [label="supports: Pending factor XIII and von Willebrand testing indicates evaluation for an underlying bleeding disorder."];
+  n55 -> n35 [label="supports: Normal routine coagulation studies support that common coagulopathies are less likely."];
+  n58 -> n61 [label="supports: The decisive CT finding directly supports the diagnosis of intramural duodenal hematoma."];
+  n58 -> n64 [label="causes: The hematoma with luminal narrowing explains abdominal pain and non-bilious vomiting."];
+  n58 -> n60 [label="supports: A definitive CT lesion supersedes less specific initial differentials."];
+  n61 -> n80 [label="supports: The stated most likely diagnosis supports the final diagnosis."];
+  n63 -> n61 [label="supports: CT demonstration of a large intramural/submucosal duodenal hematoma supports the diagnosis."];
+  n67 -> n65 [label="supports: No intussusception on ultrasound supports intussusception being low probability."];
+  n68 -> n65 [label="supports: Finding an alternative lesion lowers the probability of intussusception."];
+  n71 -> n61 [label="supports: CT clarification that the ultrasound finding was duodenal wall hematoma supports the final diagnosis."];
+  n73 -> n72 [label="supports: Vomiting and abdominal pain can initially suggest gastroenteritis."];
+  n74 -> n45 [label="supports: No fever supports the statement that infectious gastroenteritis is less likely."];
+  n74 -> n46 [label="supports: No diarrhea supports the statement that infectious gastroenteritis is less likely."];
+  n77 -> n76 [label="supports: Spontaneous hematoma without trauma raises concern for a bleeding diathesis differential."];
+  n79 -> n76 [label="supports: Normal PT, aPTT, and bleeding time make the bleeding-diathesis differential more nuanced but still under evaluation."];
+  n12 -> n58 [label="supports: The statement that imaging is the most important salient positive finding points to the decisive CT evidence."];
+  n47 -> n61 [label="supports: A structural lesion causing symptoms supports the diagnosis of intramural duodenal hematoma."];
+}

@@ -1,0 +1,250 @@
+[
+  {
+    "error": "misweighted_evidence",
+    "note": "The reasoning overemphasized postoperative allergic explanations and antihistamine response, while underweighting the broader systemic pattern that fit celiac disease better than alpha-gal syndrome."
+  },
+  {
+    "error": "misweighted_evidence",
+    "note": "Overweighted the classic craniopharyngioma imaging/clinical pattern and underweighted the epidemiologic exposure plus calcified cystic lesion consistent with neurocysticercosis."
+  },
+  {
+    "error": "misweighted_evidence",
+    "note": "Overweighted the apparent gastric wall attachment and classic GIST features, while underweighting the mixed solid-cystic mass with calcifications that better fits solid pseudopapillary epithelial neoplasm."
+  },
+  {
+    "error": "misweighted_evidence",
+    "note": "Overweighted steroid-associated fungal infection and underweighted the pulmonary/laryngeal granulomatous pattern and constitutional symptoms that fit tuberculosis better."
+  },
+  {
+    "error": "misweighted_evidence",
+    "note": "The reasoning over-relied on hypophosphatemia/alkalosis as causal and underweighted the overall pattern favoring a functional neurological disorder."
+  },
+  {
+    "error": "misweighted_evidence",
+    "note": "The reasoning over-relied on biopsy mucin findings and underweighted the classic clinical pattern of grouped minute spiny follicular papules, which fits lichen spinulosus better."
+  },
+  {
+    "error": "ignored_key_finding",
+    "note": "The reasoning centered on obstructive outflow despite imaging showing a uterus/cervix anomaly consistent with MRKH; it dismissed the key anatomic finding that pointed away from a transverse vaginal septum."
+  },
+  {
+    "error": "misweighted_evidence",
+    "note": "The reasoning overemphasized abdominal/serosal edema and a negative laparotomy while underweighting the multispace effusions, ECG changes, and hyperdense gallbladder as signs of heart failure-related congestion."
+  },
+  {
+    "error": "misweighted_evidence",
+    "note": "Overweighted pneumomediastinum/cough and underweighted the infectious clues (marked leukocytosis, sputum, bronchoscopic secretions), leading to a noninfectious diagnosis instead of pneumonia."
+  },
+  {
+    "error": "misweighted_evidence",
+    "note": "Overweighted classic HCC imaging signs (arterial enhancement, washout, capsule) and underweighted the fat-containing lesion in a non-cirrhotic liver, which better fits hepatic angiomyolipoma."
+  },
+  {
+    "error": "ignored_key_finding",
+    "note": "The reasoning focused on anticoagulation-related bleeding and did not account for the key underlying clue that the elevated hemoglobin/hematocrit pointed to polycythemia vera as the true diagnosis."
+  },
+  {
+    "error": "incomplete_differential",
+    "note": "The reasoning focused on common renal masses (RCC, AML, oncocytoma, leiomyoma) but failed to consider schwannoma, the correct rare benign diagnosis for this well-circumscribed exophytic renal mass."
+  },
+  {
+    "error": "ignored_key_finding",
+    "note": "The reasoning centered on STI/LGV evidence and did not account for the key later finding that the true diagnosis was Entamoeba histolytica, making the chlamydia PCR/serology a misleading red herring."
+  },
+  {
+    "error": "ignored_key_finding",
+    "note": "The reasoning focused on the duodenal hematoma as the final diagnosis but did not recognize the key clue that this hematoma was secondary to an underlying bleeding disorder, specifically factor XIII deficiency."
+  },
+  {
+    "error": "misweighted_evidence",
+    "note": "The reasoning over-weighted calcifications and osteoid-like imaging features as extraskeletal osteosarcoma, while under-weighting that the correct diagnosis was a soft-tissue sarcoma (pleomorphic rhabdomyosarcoma) that can also present as a painful enhancing intramuscular mass."
+  },
+  {
+    "error": "ignored_key_finding",
+    "note": "The reasoning fixated on focal thyroid uptake and persistent low TSH, but overlooked the key finding that the thyroid ultrasound was mildly heterogeneous and the correct diagnosis was Hashimoto's thyroiditis."
+  },
+  {
+    "error": "misweighted_evidence",
+    "note": "Overweighted fibrin-ring granulomas as classic for Q fever and underweighted the broader pattern of hepatic mass-like lesions with granulomatous hepatitis that better fits Bartonella."
+  },
+  {
+    "error": "misweighted_evidence",
+    "note": "The reasoning heavily favored a transient infarction/ischemia explanation from troponin, Q waves, and regional dysfunction, but underweighted that normal epicardial coronaries with rapid recovery point more toward microvascular angina."
+  },
+  {
+    "error": "misweighted_evidence",
+    "note": "The reasoning over-weighted the prior sarcoidosis history and compatible cranial neuropathy/myopathy findings, while under-weighting systemic clues like proteinuria, anemia, elevated ESR, and vasculitic neuropathy that better fit SLE."
+  },
+  {
+    "error": "misweighted_evidence",
+    "note": "Overweighted the absence of HIV/systemic disease and the reactive-appearing vascular histology, while underweighting the classic violaceous acral plaques and slitlike vascular spaces that favored Kaposi sarcoma."
+  },
+  {
+    "error": "misweighted_evidence",
+    "note": "The reasoning overemphasized NF1 and multifocal masses as pointing to MPNST, while the overall pattern better fit lymphoma causing porta hepatis obstruction."
+  },
+  {
+    "error": "misweighted_evidence",
+    "note": "Overweighted the nerve involvement and travel history as pathognomonic for leprosy, while underweighting that rare AFB in an immunosuppressed transplant recipient can fit Mycobacterium haemophilum."
+  },
+  {
+    "error": "misweighted_evidence",
+    "note": "The reasoning over-weighted the later breast mass/axillary nodes and metastatic pattern, while under-weighting the TB-consistent spinal findings (fever, ESR elevation, paravertebral masses, vertebral destruction) that supported tuberculosis."
+  },
+  {
+    "error": "ignored_key_finding",
+    "note": "The reasoning centered on ileocecal TB/IRIS and did not adequately account for the key clue of recent cryptococcal meningitis with a focal cryptococcal mass lesion (cryptococcoma), which better explains the presentation."
+  },
+  {
+    "error": "misweighted_evidence",
+    "note": "The reasoning over-weighted the classic salt-and-pepper/vascular jugular foramen features and under-weighted that the correct lesion was a schwannoma, which can also present as a dumbbell-shaped jugular foramen mass with lower cranial neuropathies."
+  },
+  {
+    "error": "misweighted_evidence",
+    "note": "Overweighted the chemotherapy timing and fold-predominant eruption, while underweighting the fixed urticarial morphology and drug-reaction pattern consistent with urticarial fixed drug eruption."
+  },
+  {
+    "error": "misweighted_evidence",
+    "note": "The reasoning favored Rathke cleft cyst based on rim enhancement and sellar location, but underweighted the CSF-like cystic lesion features and the correct arachnoid cyst pattern."
+  },
+  {
+    "error": "ignored_key_finding",
+    "note": "The reasoning centered on TB/inflammatory pseudotumor and did not account for the biopsy clue of whorled histiocytes with chronic inflammation, which fits Rosai-Dorfman disease better than tuberculosis."
+  },
+  {
+    "error": "ignored_key_finding",
+    "note": "The reasoning focused on the narrow-complex tachycardia features and overlooked the key clue that the rhythm was actually upper septal fascicular VT, a fascicular ventricular arrhythmia rather than AVNRT."
+  },
+  {
+    "error": "misweighted_evidence",
+    "note": "Overweighted the recurrent cauda equina mass and T1/T2 hypointense homogeneous enhancement as cellular schwannoma, while underweighting features more suggestive of solitary fibrous tumor such as marked osseous destruction and the atypical imaging/pathology context."
+  },
+  {
+    "error": "misweighted_evidence",
+    "note": "Overweighted the anastomotic fibrinous mass and transplant-related fungal risk, while underweighting the chronic night sweats, hemoptysis, and tree-in-bud pattern that better fit MAC airway infection."
+  },
+  {
+    "error": "misweighted_evidence",
+    "note": "Overweighted the fat/osteoid imaging pattern and benign mobility, while underweighting that the lesion was adjacent to the submandibular gland and better fit ossifying fibromyxoid tumor."
+  },
+  {
+    "error": "misweighted_evidence",
+    "note": "The reasoning over-weighted the immunodeficiency phenotype and under-weighted the focal EBV-associated lymphoproliferative findings (persistent adenopathy/hepatosplenomegaly, pulmonary infiltrates, high EBV load), missing lymphoma as the best fit."
+  },
+  {
+    "error": "misweighted_evidence",
+    "note": "The reasoning over-weighted the classic palatal minor salivary gland tumor pattern and under-weighted the lesion\u2019s benign fibromyxoid/reactive features that fit oral focal mucinosis better."
+  },
+  {
+    "error": "ignored_key_finding",
+    "note": "The reasoning fit fibrous dysplasia but overlooked the key imaging pattern of flowing cortical hyperostosis/segmental sclerosis typical of melorheostosis, which better explains the unilateral femoral cortical thickening and chronic pain."
+  },
+  {
+    "error": "ignored_key_finding",
+    "note": "The reasoning focused on crystal arthritis and tophi, but missed the key clue that the true diagnosis was chronic exertional compartment syndrome rather than an inflammatory crystal flare."
+  },
+  {
+    "error": "misweighted_evidence",
+    "note": "The reasoning over-relied on the biochemical pattern of endogenous hyperinsulinemic hypoglycemia and treated sulfonylurea ingestion as most likely, while underweighting the broader context that the correct diagnosis was factitious disorder."
+  },
+  {
+    "error": "misweighted_evidence",
+    "note": "The reasoning overvalued hematuria/red-cell casts as pointing to IgA nephropathy and underweighted the longstanding obesity, hypertension, and progressive subnephrotic proteinuria that better fit obesity-associated FSGS."
+  },
+  {
+    "error": "ignored_key_finding",
+    "note": "The reasoning fixated on the conjunctival granuloma/foreign-body ultrasound and failed to account for the key syndrome-level clue of unilateral granulomatous conjunctivitis with oculoglandular involvement, which points to Parinaud oculoglandular syndrome."
+  },
+  {
+    "error": "misweighted_evidence",
+    "note": "Overweighted the dominant lung mass as the primary source and underweighted the diffuse lytic skeletal disease/cord compression pattern that better fit plasmablastic myeloma."
+  },
+  {
+    "error": "misweighted_evidence",
+    "note": "Overweighted neurologic/encephalitic features and seizure clues, while the overall presentation was better explained by a functional/dissociative conversion syndrome."
+  },
+  {
+    "error": "misweighted_evidence",
+    "note": "Overweighted the Candida-like vitreous appearance and underweighted the systemic sarcoid-compatible findings (bilateral uveitis/periphlebitis, pulmonary infiltrates) despite normal ACE/lysozyme not excluding sarcoidosis."
+  },
+  {
+    "error": "misweighted_evidence",
+    "note": "The reasoning over-weighted the mass\u2019s retroperitoneal appearance and under-weighted that the correct diagnosis was primary retroperitoneal melanoma, which can present as a heterogeneous pelvic/retroperitoneal mass with venous compression."
+  },
+  {
+    "error": "incomplete_differential",
+    "note": "The reasoning focused on a benign cheek soft-tissue tumor and did not consider the correct diagnosis of a non-pancreatic pseudocyst, so the differential was incomplete."
+  },
+  {
+    "error": "misweighted_evidence",
+    "note": "Overweighted travel/TNF-inhibitor infection risk and endemic fungal clues, while underweighting the mediastinal lymphadenopathy, facial nerve palsy, and choroidal granulomatous pattern that fit sarcoidosis better."
+  },
+  {
+    "error": "misweighted_evidence",
+    "note": "The reasoning overvalued classic myxoma features (septal attachment, calcification, embolic infarcts) and underweighted the inflammatory/infectious context and the possibility of thrombus, leading to the wrong conclusion."
+  },
+  {
+    "error": "ignored_key_finding",
+    "note": "The reasoning centered on a visible foreign body and steroid-dependent recurrence, but it overlooked the key clue that the inflammation began immediately after surgery with a sterile postoperative pattern, which is most consistent with toxic anterior segment syndrome."
+  },
+  {
+    "error": "misweighted_evidence",
+    "note": "Overweighted carcinoid-like flushing/right-heart findings and metastatic pattern, while underweighting the markedly elevated LDH/anemia and gastric lesion that fit primary gastric choriocarcinoma better."
+  },
+  {
+    "error": "misweighted_evidence",
+    "note": "Overweighted fluctuating ptosis and ice-pack response, while underweighting the pupil-involving third nerve palsy pattern and pain that better fit an oculomotor nerve schwannoma."
+  },
+  {
+    "error": "misweighted_evidence",
+    "note": "The reasoning overemphasized the vascular graft as the unifying source and underweighted the infectious syndrome pattern that pointed to Q fever."
+  },
+  {
+    "error": "misweighted_evidence",
+    "note": "The reasoning overvalued the classic unilateral obstructive pattern and bony remodeling for inverted papilloma, while underweighting that the lesion was a smooth homogeneous nasal mass with features more consistent with solitary fibrous tumor."
+  },
+  {
+    "error": "ignored_key_finding",
+    "note": "The reasoning focused on the renal mass imaging but dismissed the key clue of concurrent thyroid nodules/possible thyroid-origin metastasis, leading away from the correct thyroid follicular renal cell carcinoma diagnosis."
+  },
+  {
+    "error": "misweighted_evidence",
+    "note": "The reasoning overfocused on the confirmed Babesia piroplasms and underlying hemolytic disease, while the correct diagnosis was the later acute respiratory distress syndrome causing the clinical endpoint."
+  },
+  {
+    "error": "misweighted_evidence",
+    "note": "The reasoning over-weighted malignant features (age, weight loss, anemia, ulcer, wall thickening) and under-weighted the eventual eosinophilic gastritis diagnosis despite the case context."
+  },
+  {
+    "error": "misweighted_evidence",
+    "note": "The reasoning over-weighted the virilization/testosterone pattern and the adnexal mass, while under-weighting that the lesion was a benign-appearing cystic serous cystadenoma and that the androgen excess could be incidental or from another source."
+  },
+  {
+    "error": "ignored_key_finding",
+    "note": "The reasoning centered on chest/back pain and sudden death, but missed the key clue that the correct diagnosis was TTP, which would require attention to thrombocytopenia/hemolysis-related findings rather than a structural chest-pain syndrome."
+  },
+  {
+    "error": "misweighted_evidence",
+    "note": "The reasoning acknowledged primary CNS lymphoma but over-weighted incidental thyroid nodules and under-weighted the classic multifocal enhancing CNS lesions with inflammatory CSF, which fit lymphoma better than metastatic thyroid cancer."
+  },
+  {
+    "error": "misweighted_evidence",
+    "note": "The reasoning over-weighted the nonspecific chronic inflammatory biopsy and presumed opportunistic fungal infection, while under-weighting that the true pathogen was a non-dermatophyte mold (Fusarium proliferatum) rather than deep dermatophytosis."
+  },
+  {
+    "error": "anchoring",
+    "note": "The reasoning fixated on the childhood mesenchymal hamartoma and its known association with UESL, underweighting the marked CA 19-9 elevation and enhancing solid component that better fit intrahepatic cholangiocarcinoma."
+  },
+  {
+    "error": "incomplete_differential",
+    "note": "The reasoning focused on uveitis/masquerade syndromes and did not consider cold agglutinin disease as the underlying diagnosis."
+  },
+  {
+    "error": "misweighted_evidence",
+    "note": "Overweighted the dominant lung mass and lymphadenopathy as neoplasia, while underweighting the marked eosinophilia/basophilia and airway-centered bronchiolar pattern that better fit eosinophilic pulmonary granulomatosis."
+  },
+  {
+    "error": "misweighted_evidence",
+    "note": "Overweighted post-COVID diabetes/steroid risk for mucormycosis and underweighted the cavitary upper-lobe pattern and subacute cough that favored tuberculosis."
+  }
+]

@@ -1,0 +1,10 @@
+{
+  "name": "chain_verify",
+  "passed": true,
+  "score": 1.0,
+  "reasoning": "All logical chains are internally consistent. The statements form a coherent diagnostic chain: imaging features and clinical context are used to narrow the differential, and the conclusion that hepatocellular carcinoma is the best fit is supported by the described arterial hyperenhancement, washout, capsule enhancement, diffusion restriction, and intralesional fat. The few weaker statements are still compatible with the overall reasoning and do not break the chain.",
+  "data": {
+    "has_chain_dependencies": true,
+    "issues": []
+  }
+}

@@ -1,0 +1,450 @@
+{
+  "name": "classify",
+  "passed": true,
+  "score": 1.0,
+  "reasoning": "Classified 88 statement(s): 35 causal, 51 factual, 2 statistical.",
+  "data": {
+    "classified": [
+      {
+        "text": "The chief complaint is a 4-week progressive cough with recent anorexia in a 7-year-old dog.",
+        "category": "factual",
+        "rationale": "It states patient history and presenting signs as observed or reported."
+      },
+      {
+        "text": "The owner’s main concern is worsening respiratory signs and reduced appetite.",
+        "category": "factual",
+        "rationale": "It describes the owner's reported concern about the patient's condition."
+      },
+      {
+        "text": "The course is subacute and progressive rather than acute.",
+        "category": "factual",
+        "rationale": "It characterizes the time course of illness."
+      },
+      {
+        "text": "There is substantial chronicity suggested by 20% body weight loss since the prior visit 18 months earlier.",
+        "category": "statistical",
+        "rationale": "It includes a numerical claim about percent body weight loss and time interval."
+      },
+      {
+        "text": "Marked eosinophilia was present on the initial CBC.",
+        "category": "factual",
+        "rationale": "It reports a laboratory abnormality from the CBC."
+      },
+      {
+        "text": "The eosinophilia measured 7.9 × 10^9/l.",
+        "category": "statistical",
+        "rationale": "It gives a specific numeric laboratory value."
+      },
+      {
+        "text": "Moderate basophilia was present on the initial CBC.",
+        "category": "factual",
+        "rationale": "It reports a laboratory abnormality from the CBC."
+      },
+      {
+        "text": "Thoracic radiographs showed a large soft-tissue opacity in the left cranial lung lobe.",
+        "category": "factual",
+        "rationale": "It states an imaging finding."
+      },
+      {
+        "text": "Thoracic radiographs showed a mild generalized bronchiolar pattern.",
+        "category": "factual",
+        "rationale": "It states an imaging finding."
+      },
+      {
+        "text": "CT showed a large lobulated left cranial lung lobe mass.",
+        "category": "factual",
+        "rationale": "It reports a CT finding."
+      },
+      {
+        "text": "The CT mass showed heterogeneous enhancement.",
+        "category": "factual",
+        "rationale": "It describes an imaging characteristic of the mass."
+      },
+      {
+        "text": "The CT mass contained fluid pockets.",
+        "category": "factual",
+        "rationale": "It reports a structural imaging feature."
+      },
+      {
+        "text": "The CT mass caused compression and distortion of adjacent bronchi.",
+        "category": "causal",
+        "rationale": "It asserts a relationship where the mass causes bronchial compression and distortion."
+      },
+      {
+        "text": "CT showed irregular nodular thickening infiltrating the right cranial and middle lobes.",
+        "category": "factual",
+        "rationale": "It reports a CT finding."
+      },
+      {
+        "text": "The CT showed nearly occluded airways in the right cranial and middle lobes.",
+        "category": "factual",
+        "rationale": "It reports an imaging finding."
+      },
+      {
+        "text": "CT showed moderate enlargement of the sternal lymph nodes.",
+        "category": "factual",
+        "rationale": "It reports a CT finding."
+      },
+      {
+        "text": "CT showed moderate enlargement of the cranial mediastinal lymph nodes.",
+        "category": "factual",
+        "rationale": "It reports a CT finding."
+      },
+      {
+        "text": "Clinically, the dog had cough.",
+        "category": "factual",
+        "rationale": "It states a clinical sign present in the patient."
+      },
+      {
+        "text": "Clinically, the dog had anorexia.",
+        "category": "factual",
+        "rationale": "It states a clinical sign present in the patient."
+      },
+      {
+        "text": "Clinically, the dog had significant weight loss.",
+        "category": "factual",
+        "rationale": "It states a clinical finding about the patient."
+      },
+      {
+        "text": "The dog had lacked parasite prophylaxis for 18 months.",
+        "category": "factual",
+        "rationale": "It states a patient history attribute."
+      },
+      {
+        "text": "The dog had normal heart sounds on examination.",
+        "category": "factual",
+        "rationale": "It reports a physical exam finding."
+      },
+      {
+        "text": "The dog had normal lung sounds on examination.",
+        "category": "factual",
+        "rationale": "It reports a physical exam finding."
+      },
+      {
+        "text": "The dog had no prior respiratory disease.",
+        "category": "factual",
+        "rationale": "It states a past medical history detail."
+      },
+      {
+        "text": "The dog had normal serum biochemistry.",
+        "category": "factual",
+        "rationale": "It reports a laboratory result."
+      },
+      {
+        "text": "The heartworm antigen test was negative.",
+        "category": "factual",
+        "rationale": "It reports a test result."
+      },
+      {
+        "text": "The fecal parasite analysis was negative.",
+        "category": "factual",
+        "rationale": "It reports a test result."
+      },
+      {
+        "text": "There was no pleural effusion on radiographs.",
+        "category": "factual",
+        "rationale": "It reports an imaging finding."
+      },
+      {
+        "text": "There were no abdominal abnormalities on CT.",
+        "category": "factual",
+        "rationale": "It reports an imaging finding."
+      },
+      {
+        "text": "The pulmonary opacity did not change after 10 days of antibiotics and bronchodilators.",
+        "category": "factual",
+        "rationale": "It states an observed lack of treatment response."
+      },
+      {
+        "text": "The lack of change after 10 days of antibiotics and bronchodilators argues against a simple bacterial pneumonia as the primary process.",
+        "category": "causal",
+        "rationale": "It infers a diagnostic relationship from treatment nonresponse."
+      },
+      {
+        "text": "The lack of change after 10 days of antibiotics and bronchodilators argues against reversible inflammatory bronchial disease as the primary process.",
+        "category": "causal",
+        "rationale": "It draws a causal/diagnostic inference from the lack of response."
+      },
+      {
+        "text": "The eosinophilia resolved.",
+        "category": "factual",
+        "rationale": "It states a change in a laboratory abnormality."
+      },
+      {
+        "text": "The pulmonary mass persisted unchanged.",
+        "category": "factual",
+        "rationale": "It reports persistence of an imaging lesion."
+      },
+      {
+        "text": "The persistence of the pulmonary mass suggests the eosinophilia may have been reactive rather than the main disease process.",
+        "category": "causal",
+        "rationale": "It proposes a relationship between the persistent mass and the eosinophilia's significance."
+      },
+      {
+        "text": "The first major differential is primary pulmonary neoplasia.",
+        "category": "factual",
+        "rationale": "It identifies a diagnostic consideration."
+      },
+      {
+        "text": "Primary pulmonary neoplasia fits the large solitary dominant lung mass.",
+        "category": "causal",
+        "rationale": "It links the imaging finding to the diagnostic possibility."
+      },
+      {
+        "text": "Primary pulmonary neoplasia fits the progressive cough.",
+        "category": "causal",
+        "rationale": "It links the symptom to the diagnostic possibility."
+      },
+      {
+        "text": "Primary pulmonary neoplasia fits the anorexia.",
+        "category": "causal",
+        "rationale": "It links the symptom to the diagnostic possibility."
+      },
+      {
+        "text": "Primary pulmonary neoplasia fits the weight loss.",
+        "category": "causal",
+        "rationale": "It links the symptom to the diagnostic possibility."
+      },
+      {
+        "text": "Primary pulmonary neoplasia fits the heterogeneous contrast enhancement with fluid pockets.",
+        "category": "causal",
+        "rationale": "It links the imaging pattern to the diagnostic possibility."
+      },
+      {
+        "text": "Primary pulmonary neoplasia fits the bronchial compression and distortion.",
+        "category": "causal",
+        "rationale": "It links the imaging finding to the diagnostic possibility."
+      },
+      {
+        "text": "Primary pulmonary neoplasia fits the regional lymphadenopathy.",
+        "category": "causal",
+        "rationale": "It links lymph node enlargement to the diagnostic possibility."
+      },
+      {
+        "text": "The additional airway-infiltrative nodular lesions in other lobes could represent intrapulmonary spread.",
+        "category": "causal",
+        "rationale": "It proposes a mechanism for the additional lesions."
+      },
+      {
+        "text": "The additional airway-infiltrative nodular lesions in other lobes could represent endobronchial extension.",
+        "category": "causal",
+        "rationale": "It proposes a mechanism for the additional lesions."
+      },
+      {
+        "text": "Lack of response of the mass to antibiotics further supports neoplasia.",
+        "category": "causal",
+        "rationale": "It uses treatment nonresponse as evidence supporting a diagnosis."
+      },
+      {
+        "text": "A second consideration is fungal or parasitic granulomatous pulmonary disease.",
+        "category": "factual",
+        "rationale": "It states another diagnostic consideration."
+      },
+      {
+        "text": "Eosinophilia could suggest parasitic migration or eosinophilic granuloma.",
+        "category": "causal",
+        "rationale": "It links eosinophilia to possible disease mechanisms."
+      },
+      {
+        "text": "Basophilia could suggest parasitic migration or eosinophilic granuloma.",
+        "category": "causal",
+        "rationale": "It links basophilia to possible disease mechanisms."
+      },
+      {
+        "text": "Absent parasite prophylaxis could suggest parasitic migration or eosinophilic granuloma.",
+        "category": "causal",
+        "rationale": "It links lack of prophylaxis to a possible parasitic cause."
+      },
+      {
+        "text": "A lung mass could suggest parasitic migration or eosinophilic granuloma.",
+        "category": "causal",
+        "rationale": "It links the imaging finding to a possible disease process."
+      },
+      {
+        "text": "Fungal disease can produce mass-like pulmonary lesions.",
+        "category": "causal",
+        "rationale": "It states a disease-to-lesion relationship."
+      },
+      {
+        "text": "Fungal disease can produce lymphadenopathy.",
+        "category": "causal",
+        "rationale": "It states a disease-to-finding relationship."
+      },
+      {
+        "text": "Heartworm antigen testing was negative.",
+        "category": "factual",
+        "rationale": "It reports a test result."
+      },
+      {
+        "text": "Fecal testing was negative.",
+        "category": "factual",
+        "rationale": "It reports a test result."
+      },
+      {
+        "text": "Abdominal CT was unremarkable.",
+        "category": "factual",
+        "rationale": "It reports an imaging result."
+      },
+      {
+        "text": "The lesion remained unchanged despite initial treatment.",
+        "category": "factual",
+        "rationale": "It states an observed lack of change after treatment."
+      },
+      {
+        "text": "CT showed a dominant lobulated mass with airway invasion and nodular bronchial thickening.",
+        "category": "factual",
+        "rationale": "It reports CT findings."
+      },
+      {
+        "text": "The CT pattern is more suggestive of neoplasia than a straightforward parasitic or inflammatory lesion.",
+        "category": "causal",
+        "rationale": "It interprets the imaging pattern as favoring one diagnosis over others."
+      },
+      {
+        "text": "Negative fecal testing does not fully exclude pulmonary parasites.",
+        "category": "causal",
+        "rationale": "It states a diagnostic relationship between a negative test and residual possibility of disease."
+      },
+      {
+        "text": "The overall imaging pattern is less supportive of a parasitic or inflammatory lesion.",
+        "category": "causal",
+        "rationale": "It interprets imaging findings in relation to differential diagnosis."
+      },
+      {
+        "text": "A third differential is eosinophilic bronchopneumopathy or eosinophilic pulmonary granulomatosis.",
+        "category": "factual",
+        "rationale": "It states another diagnostic consideration."
+      },
+      {
+        "text": "The eosinophilia could fit eosinophilic bronchopneumopathy or eosinophilic pulmonary granulomatosis.",
+        "category": "causal",
+        "rationale": "It links the lab abnormality to the differential diagnosis."
+      },
+      {
+        "text": "The bronchiolar pattern could fit eosinophilic bronchopneumopathy or eosinophilic pulmonary granulomatosis.",
+        "category": "causal",
+        "rationale": "It links the imaging pattern to the differential diagnosis."
+      },
+      {
+        "text": "Airway-centered disease can occur in eosinophilic bronchopneumopathy or eosinophilic pulmonary granulomatosis.",
+        "category": "causal",
+        "rationale": "It states a disease-to-pattern relationship."
+      },
+      {
+        "text": "This case has a very large discrete lobulated pulmonary mass.",
+        "category": "factual",
+        "rationale": "It describes an observed imaging feature."
+      },
+      {
+        "text": "This case has significant weight loss.",
+        "category": "factual",
+        "rationale": "It states a clinical finding."
+      },
+      {
+        "text": "This case has mediastinal lymphadenopathy.",
+        "category": "factual",
+        "rationale": "It states an imaging finding."
+      },
+      {
+        "text": "This case had no radiographic improvement after treatment.",
+        "category": "factual",
+        "rationale": "It reports lack of treatment response."
+      },
+      {
+        "text": "These features are less typical for diffuse eosinophilic airway disease.",
+        "category": "causal",
+        "rationale": "It compares the observed features with a disease pattern."
+      },
+      {
+        "text": "These features are more consistent with a tumor.",
+        "category": "causal",
+        "rationale": "It interprets the features as favoring a neoplastic process."
+      },
+      {
+        "text": "Lymphoma or metastatic neoplasia are also possible.",
+        "category": "factual",
+        "rationale": "It states additional diagnostic possibilities."
+      },
+      {
+        "text": "Thoracic lymphadenopathy could occur with disseminated neoplasia.",
+        "category": "causal",
+        "rationale": "It links lymphadenopathy to a possible disease process."
+      },
+      {
+        "text": "Multifocal thoracic involvement could occur with disseminated neoplasia.",
+        "category": "causal",
+        "rationale": "It links multifocal thoracic disease to a possible mechanism."
+      },
+      {
+        "text": "The imaging emphasizes a dominant left cranial lung lobe mass with local bronchial distortion.",
+        "category": "factual",
+        "rationale": "It summarizes an imaging finding."
+      },
+      {
+        "text": "The dominant left cranial lung lobe mass with local bronchial distortion is more characteristic of a primary pulmonary carcinoma than lymphoma.",
+        "category": "causal",
+        "rationale": "It compares imaging features and infers a more likely diagnosis."
+      },
+      {
+        "text": "Abdominal CT being unremarkable makes an obvious extrathoracic primary source less evident.",
+        "category": "causal",
+        "rationale": "It infers diagnostic significance from a negative abdominal CT."
+      },
+      {
+        "text": "The combination of a persistent large pulmonary mass, progressive cough, anorexia, marked weight loss, heterogeneous enhancement with fluid pockets, bronchial compression and airway infiltration, plus regional thoracic lymphadenopathy most strongly supports primary pulmonary carcinoma.",
+        "category": "causal",
+        "rationale": "It synthesizes findings into a diagnostic inference."
+      },
+      {
+        "text": "The eosinophilia and basophilia initially broaden the differential.",
+        "category": "causal",
+        "rationale": "It states that the lab findings affect diagnostic reasoning."
+      },
+      {
+        "text": "The eosinophilia and basophilia resolved.",
+        "category": "factual",
+        "rationale": "It reports resolution of laboratory abnormalities."
+      },
+      {
+        "text": "The mass remained unchanged.",
+        "category": "factual",
+        "rationale": "It reports persistence of the lesion."
+      },
+      {
+        "text": "The resolved eosinophilia and unchanged mass do not outweigh the structural imaging evidence for neoplasia.",
+        "category": "causal",
+        "rationale": "It weighs findings and infers the dominant diagnostic interpretation."
+      },
+      {
+        "text": "The most likely diagnosis is primary pulmonary adenocarcinoma.",
+        "category": "factual",
+        "rationale": "It states the final diagnostic conclusion."
+      },
+      {
+        "text": "Primary pulmonary adenocarcinoma is listed as a high differential.",
+        "category": "factual",
+        "rationale": "It states the ranking of a differential diagnosis."
+      },
+      {
+        "text": "Pulmonary granulomatous or parasitic disease is listed as a medium differential.",
+        "category": "factual",
+        "rationale": "It states the ranking of a differential diagnosis."
+      },
+      {
+        "text": "Eosinophilic bronchopneumopathy or eosinophilic pulmonary granulomatosis is listed as a low differential.",
+        "category": "factual",
+        "rationale": "It states the ranking of a differential diagnosis."
+      },
+      {
+        "text": "Pulmonary lymphoma or metastatic neoplasia is listed as a low differential.",
+        "category": "factual",
+        "rationale": "It states the ranking of a differential diagnosis."
+      },
+      {
+        "text": "The final diagnosis is primary pulmonary adenocarcinoma.",
+        "category": "factual",
+        "rationale": "It states the final diagnosis directly."
+      }
+    ]
+  }
+}

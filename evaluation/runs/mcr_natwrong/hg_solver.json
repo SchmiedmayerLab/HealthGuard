@@ -1,0 +1,722 @@
+[
+  {
+    "gt": "Nevoid basal cell carcinoma syndrome",
+    "base": "Nevoid basal cell carcinoma syndrome (Gorlin syndrome) with multiple odontogenic keratocysts",
+    "panel": "Nevoid basal cell carcinoma syndrome (Gorlin syndrome) with multiple odontogenic keratocysts",
+    "base_match": true,
+    "base_rel": true,
+    "panel_match": true,
+    "panel_rel": true
+  },
+  {
+    "gt": "lichen spinulosus",
+    "base": "Follicular mucinosis (alopecia mucinosa)",
+    "panel": "Follicular mucinosis (alopecia mucinosa), primary idiopathic form",
+    "base_match": false,
+    "base_rel": false,
+    "panel_match": false,
+    "panel_rel": false
+  },
+  {
+    "gt": "Lung adenocarcinoma",
+    "base": "Metastatic ovarian serous carcinoma with pulmonary metastases and malignant pleural effusion",
+    "panel": "Metastatic ovarian epithelial carcinoma with pulmonary and pleural metastases",
+    "base_match": false,
+    "base_rel": false,
+    "panel_match": false,
+    "panel_rel": false
+  },
+  {
+    "gt": "Fetus in fetu",
+    "base": "Fetus in fetu (retroperitoneal parasitic twin)",
+    "panel": "Fetus in fetu with a coexisting acardiac parasitic twin (heteropagus twin) in the right retroperitoneum",
+    "base_match": true,
+    "base_rel": true,
+    "panel_match": true,
+    "panel_rel": true
+  },
+  {
+    "gt": "Infective endocarditis",
+    "base": "Acute right renal infarction due to septic embolus from infective endocarditis in unrepaired cyanotic congenital heart disease",
+    "panel": "Acute right renal infarction due to septic embolus from infective endocarditis in a patient with unrepaired complex cyanotic congenital heart disease",
+    "base_match": true,
+    "base_rel": true,
+    "panel_match": true,
+    "panel_rel": true
+  },
+  {
+    "gt": "LipidKeratopathy",
+    "base": "Bilateral peripheral corneal stromal opacity with neovascularization secondary to chronic topical brimonidine-associated toxic keratopathy",
+    "panel": "Brimonidine tartrate\u2013associated corneal opacification with peripheral corneal neovascularization (drug-induced corneal toxicity/pseudopemphigoid-like keratopathy)",
+    "base_match": false,
+    "base_rel": true,
+    "panel_match": false,
+    "panel_rel": true
+  },
+  {
+    "gt": "Crohn\u2019s disease",
+    "base": "Superior mesenteric artery syndrome causing duodenal obstruction",
+    "panel": "Superior mesenteric artery syndrome (Wilkie syndrome) causing duodenal obstruction",
+    "base_match": false,
+    "base_rel": false,
+    "panel_match": false,
+    "panel_rel": false
+  },
+  {
+    "gt": "neurolymphomatosis",
+    "base": "Neurolymphomatosis of the right brachial plexus and cervical nerve roots due to lymphoma",
+    "panel": "Neurolymphomatosis of the right brachial plexus and cervical nerve roots due to lymphoma",
+    "base_match": true,
+    "base_rel": true,
+    "panel_match": true,
+    "panel_rel": true
+  },
+  {
+    "gt": "Entamoeba histolytica",
+    "base": "Chlamydia trachomatis-associated chronic ulcerative proctitis (lymphogranuloma venereum proctitis)",
+    "panel": "Chlamydia trachomatis\u2013associated lymphogranuloma venereum proctitis",
+    "base_match": false,
+    "base_rel": false,
+    "panel_match": false,
+    "panel_rel": false
+  },
+  {
+    "gt": "FunctionalNeurologicalDisorder",
+    "base": "Acute hyperventilation-induced hypophosphatemic tetraparesis with rhabdomyolysis",
+    "panel": "Acute hyperventilation-induced hypophosphatemic paralysis with rhabdomyolysis",
+    "base_match": false,
+    "base_rel": false,
+    "panel_match": false,
+    "panel_rel": false
+  },
+  {
+    "gt": "Granular cell tumor",
+    "base": "Granular cell tumor of the ascending colon",
+    "panel": "Granular cell tumor of the ascending colon",
+    "base_match": true,
+    "base_rel": true,
+    "panel_match": true,
+    "panel_rel": true
+  },
+  {
+    "gt": "Retrograde contrast reflux into the duodenum",
+    "base": "Contained duodenal perforation secondary to gangrenous cholecystitis with cholecysto-duodenal fistulization",
+    "panel": "Contained cholecystoduodenal fistula secondary to gangrenous cholecystitis",
+    "base_match": false,
+    "base_rel": true,
+    "panel_match": false,
+    "panel_rel": true
+  },
+  {
+    "gt": "Celiac disease",
+    "base": "systemic nickel allergy syndrome (prosthesis-related metal hypersensitivity to knee implant)",
+    "panel": "Alpha-gal syndrome (delayed mammalian meat allergy causing recurrent urticaria/angioedema-like postoperative inflammatory episodes)",
+    "base_match": false,
+    "base_rel": false,
+    "panel_match": false,
+    "panel_rel": false
+  },
+  {
+    "gt": "keratoacanthoma",
+    "base": "Cutaneous sporotrichosis (Sporothrix schenckii infection)",
+    "panel": "Keratoacanthoma (post-traumatic, cutaneous squamous proliferation)",
+    "base_match": false,
+    "base_rel": false,
+    "panel_match": true,
+    "panel_rel": true
+  },
+  {
+    "gt": "Paraganglioma",
+    "base": "Primary cardiac paraganglioma involving the left ventricular epicardium/anterior interventricular groove",
+    "panel": "Left ventricular cardiac paraganglioma (epicardial/pericardial paraganglioma)",
+    "base_match": true,
+    "base_rel": true,
+    "panel_match": true,
+    "panel_rel": true
+  },
+  {
+    "gt": "Sclerosing meningioma",
+    "base": "Primary intracranial solitary fibrous tumor/hemangiopericytoma (SFT/HPC), likely WHO grade 2",
+    "panel": "Primary intracranial solitary fibrous tumor/hemangiopericytoma (SFT/HPC), WHO grade 2",
+    "base_match": false,
+    "base_rel": false,
+    "panel_match": false,
+    "panel_rel": false
+  },
+  {
+    "gt": "dedifferentiated liposarcoma",
+    "base": "Primary retroperitoneal dedifferentiated liposarcoma with hemorrhagic cystic degeneration",
+    "panel": "Primary retroperitoneal dedifferentiated liposarcoma with hemorrhagic/cystic degeneration",
+    "base_match": true,
+    "base_rel": true,
+    "panel_match": true,
+    "panel_rel": true
+  },
+  {
+    "gt": "vanishing bone disease",
+    "base": "Gorham-Stout disease (massive osteolysis) of the left mandible",
+    "panel": "Gorham-Stout disease (massive idiopathic osteolysis) of the left mandible",
+    "base_match": true,
+    "base_rel": true,
+    "panel_match": true,
+    "panel_rel": true
+  },
+  {
+    "gt": "Areca nut toxicity",
+    "base": "Acute hemolytic crisis due to areca nut (betel nut) poisoning causing methemoglobinemia/oxidative hemolysis",
+    "panel": "Areca nut\u2013induced acute intravascular hemolysis with hemoglobinuria (acute hemolytic crisis causing gross hematuria and hemolytic hepatitis)",
+    "base_match": true,
+    "base_rel": true,
+    "panel_match": true,
+    "panel_rel": true
+  },
+  {
+    "gt": "Pituitary metastasis",
+    "base": "Metastatic pituitary stalk/gland involvement from sublingual adenocarcinoma (pituitary metastasis causing hypophysitis-like presentation)",
+    "panel": "Pituitary metastasis from sublingual adenocarcinoma",
+    "base_match": true,
+    "base_rel": true,
+    "panel_match": true,
+    "panel_rel": true
+  },
+  {
+    "gt": "Odontogenic cutaneous sinus tract",
+    "base": "Odontogenic cutaneous sinus tract secondary to chronic apical periodontitis of the right maxillary first molar",
+    "panel": "Odontogenic cutaneous sinus tract secondary to chronic apical infection of the right maxillary first molar",
+    "base_match": true,
+    "base_rel": true,
+    "panel_match": true,
+    "panel_rel": true
+  },
+  {
+    "gt": "Nonbacterial thrombotic endocarditis",
+    "base": "Nonbacterial thrombotic endocarditis (marantic endocarditis) of the bioprosthetic aortic valve causing embolic occipital stroke",
+    "panel": "Bioprosthetic aortic valve degeneration with mobile thrombus causing embolic occipital ischemic stroke (nonbacterial prosthetic valve thrombosis)",
+    "base_match": true,
+    "base_rel": true,
+    "panel_match": false,
+    "panel_rel": true
+  },
+  {
+    "gt": "Rhabdomyolysis",
+    "base": "Severe rhabdomyolysis complicated by acute kidney injury and hyperkalemic cardiogenic shock",
+    "panel": "Severe statin-associated rhabdomyolysis causing acute kidney injury and hyperkalemic cardiogenic shock",
+    "base_match": true,
+    "base_rel": true,
+    "panel_match": true,
+    "panel_rel": true
+  },
+  {
+    "gt": "AorticValveFenestrationRupture",
+    "base": "Acute severe aortic regurgitation due to traumatic aortic valve cusp injury (non-coronary cusp perforation/flail from catheter-induced valvular trauma during PCI)",
+    "panel": "Iatrogenic traumatic aortic valve leaflet injury causing acute severe aortic regurgitation after right coronary artery PCI",
+    "base_match": false,
+    "base_rel": true,
+    "panel_match": false,
+    "panel_rel": true
+  },
+  {
+    "gt": "Drug-induced myopathy",
+    "base": "Immune-mediated necrotizing myopathy (statin-associated anti-HMGCR myopathy) triggered by intravesical BCG",
+    "panel": "Immune-mediated necrotizing myopathy (statin-associated anti-HMGCR myopathy) triggered by intravesical BCG therapy",
+    "base_match": false,
+    "base_rel": true,
+    "panel_match": false,
+    "panel_rel": true
+  },
+  {
+    "gt": "Clear cell sarcoma",
+    "base": "Malignant gastrointestinal neuroectodermal tumor (GNET) with EWSR1-ATF1 fusion",
+    "panel": "Malignant gastrointestinal neuroectodermal tumor (GNET) with EWSR1-ATF1 fusion involving the left laterocervical region",
+    "base_match": false,
+    "base_rel": true,
+    "panel_match": false,
+    "panel_rel": true
+  },
+  {
+    "gt": "sarcoidosis",
+    "base": "Pulmonary sarcoidosis (nodular/hilar-pulmonary sarcoid with noncaseating granulomas)",
+    "panel": "Pulmonary sarcoidosis with right hilar/parahilar mass-like infiltrative involvement and mediastinal lymphadenopathy",
+    "base_match": true,
+    "base_rel": true,
+    "panel_match": true,
+    "panel_rel": true
+  },
+  {
+    "gt": "Neurocysticercosis",
+    "base": "Neurocysticercosis involving the suprasellar/parasellar region causing hypopituitarism (secondary adrenal insufficiency)",
+    "panel": "Neurocysticercosis involving the suprasellar/parasellar region causing optic chiasm compression and secondary hypopituitarism (central adrenal insufficiency)",
+    "base_match": true,
+    "base_rel": true,
+    "panel_match": true,
+    "panel_rel": true
+  },
+  {
+    "gt": "Sertoli-Leydig cell tumor",
+    "base": "Nonclassic congenital adrenal hyperplasia due to 21-hydroxylase deficiency",
+    "panel": "Nonclassic congenital adrenal hyperplasia due to 21-hydroxylase deficiency",
+    "base_match": false,
+    "base_rel": false,
+    "panel_match": false,
+    "panel_rel": false
+  },
+  {
+    "gt": "sclerosing epithelioid fibrosarcoma",
+    "base": "Primary pulmonary myxoid sarcoma (MUC4-positive low-grade fibromyxoid sarcoma spectrum tumor) with metastatic disease",
+    "panel": "Primary pulmonary myxoid sarcoma (MUC4-positive undifferentiated epithelioid neoplasm with EWSR1-CREB1-type features)",
+    "base_match": false,
+    "base_rel": true,
+    "panel_match": false,
+    "panel_rel": true
+  },
+  {
+    "gt": "Functional mitral regurgitation",
+    "base": "Severe secondary (functional) mitral regurgitation due to ischemic dilated cardiomyopathy with annular dilatation and leaflet tethering (Carpentier type I/IIIb)",
+    "panel": "Severe secondary (functional) mitral regurgitation due to ischemic dilated cardiomyopathy with annular dilatation and leaflet tethering (Carpentier type I/IIIb)",
+    "base_match": true,
+    "base_rel": true,
+    "panel_match": true,
+    "panel_rel": true
+  },
+  {
+    "gt": "rheumatoid meningitis",
+    "base": "Rheumatoid meningitis (rheumatoid pachy/leptomeningitis)",
+    "panel": "Rheumatoid meningitis (rheumatoid pachymeningitis with leptomeningeal involvement)",
+    "base_match": true,
+    "base_rel": true,
+    "panel_match": true,
+    "panel_rel": true
+  },
+  {
+    "gt": "Isolated arrhythmogenic left ventricular cardiomyopathy",
+    "base": "Arrhythmogenic left ventricular cardiomyopathy with left ventricular apical aneurysm causing recurrent ventricular tachycardia",
+    "panel": "Arrhythmogenic left ventricular cardiomyopathy (apical variant) with left ventricular apical aneurysm causing recurrent ventricular tachycardia",
+    "base_match": true,
+    "base_rel": true,
+    "panel_match": true,
+    "panel_rel": true
+  },
+  {
+    "gt": "Pericardialanisakiasis",
+    "base": "Eosinophilic pericarditis due to anisakiasis (Anisakis simplex\u2013associated hypersensitivity)",
+    "panel": "Eosinophilic pericarditis due to anisakiasis (Anisakis simplex\u2013associated hypersensitivity myocardio-pericarditis)",
+    "base_match": true,
+    "base_rel": true,
+    "panel_match": true,
+    "panel_rel": true
+  },
+  {
+    "gt": "GallbladderVolvulus",
+    "base": "Pediatric gallbladder torsion (acute torsion of the gallbladder)",
+    "panel": "Pediatric gallbladder torsion (acute torsion of the gallbladder)",
+    "base_match": true,
+    "base_rel": true,
+    "panel_match": true,
+    "panel_rel": true
+  },
+  {
+    "gt": "MacrophageActivationSyndrome",
+    "base": "Systemic lupus erythematosus complicated by macrophage activation syndrome (secondary hemophagocytic lymphohistiocytosis)",
+    "panel": "Systemic lupus erythematosus\u2013associated macrophage activation syndrome (secondary hemophagocytic lymphohistiocytosis)",
+    "base_match": true,
+    "base_rel": true,
+    "panel_match": true,
+    "panel_rel": true
+  },
+  {
+    "gt": "CancerAssociatedRetinopathy",
+    "base": "Durvalumab-associated bilateral acute zonal occult outer retinopathy (AZOOR)-like outer retinopathy",
+    "panel": "Durvalumab-induced bilateral acute zonal occult outer retinopathy (AZOOR)-like autoimmune retinopathy",
+    "base_match": false,
+    "base_rel": true,
+    "panel_match": false,
+    "panel_rel": true
+  },
+  {
+    "gt": "Mayer\u2013Rokitansky\u2013K\u00fcster\u2013Hauser syndrome",
+    "base": "Obstructed hemivagina and ipsilateral renal anomaly (OHVIRA) syndrome with bicornuate uterus and hematometra of the right uterine horn",
+    "panel": "Obstructed noncommunicating right rudimentary uterine horn in a bicornuate unicollis uterus with hematometra causing cyclic abdominal pain and primary amenorrhea",
+    "base_match": false,
+    "base_rel": true,
+    "panel_match": false,
+    "panel_rel": false
+  },
+  {
+    "gt": "laryngeal tuberculosis",
+    "base": "Laryngeal sarcoidosis involving the epiglottis",
+    "panel": "Laryngeal sarcoidosis involving the epiglottis",
+    "base_match": false,
+    "base_rel": true,
+    "panel_match": false,
+    "panel_rel": true
+  },
+  {
+    "gt": "First bite syndrome",
+    "base": "First-bite syndrome",
+    "panel": "First-bite syndrome",
+    "base_match": true,
+    "base_rel": true,
+    "panel_match": true,
+    "panel_rel": true
+  },
+  {
+    "gt": "NeuromyelitisOpticaSpectrumDisorder",
+    "base": "Neuromyelitis optica spectrum disorder (Devic disease) with longitudinally extensive transverse myelitis and bilateral optic neuritis",
+    "panel": "Neuromyelitis optica spectrum disorder (AQP4-IgG\u2013positive neuromyelitis optica with optic neuritis and longitudinally extensive cervical myelitis)",
+    "base_match": true,
+    "base_rel": true,
+    "panel_match": true,
+    "panel_rel": true
+  },
+  {
+    "gt": "chemical abscess",
+    "base": "Vein of Galen aneurysmal malformation (mural type) complicated by post-embolisation thrombosis of the aneurysmal sac with obstructive hydrocephalus",
+    "panel": "Vein of Galen aneurysmal malformation (mural type) complicated by post-embolization thrombosis and persistent obstructive hydrocephalus",
+    "base_match": false,
+    "base_rel": false,
+    "panel_match": false,
+    "panel_rel": false
+  },
+  {
+    "gt": "Cavernous hemangioma",
+    "base": "Intraductal papillary neoplasm of the bile duct (IPNB), cystic type, with an enhancing mural nodule",
+    "panel": "Mucinous cystic neoplasm of the liver with associated mural nodule (biliary cystadenoma/cystadenocarcinoma spectrum)",
+    "base_match": false,
+    "base_rel": false,
+    "panel_match": false,
+    "panel_rel": false
+  },
+  {
+    "gt": "Cavernous haemangioma",
+    "base": "Cardiac paraganglioma (right atrial/inferior vena cava epicardial paraganglioma)",
+    "panel": "Cardiac paraganglioma (intrapericardial/paracardiac paraganglioma in the inferior vena cava\u2013right atrium\u2013coronary sinus region)",
+    "base_match": false,
+    "base_rel": false,
+    "panel_match": false,
+    "panel_rel": false
+  },
+  {
+    "gt": "Solid pseudopapillary epithelial neoplasm",
+    "base": "Gastric gastrointestinal stromal tumor (GIST)",
+    "panel": "Gastric gastrointestinal stromal tumor (GIST)",
+    "base_match": false,
+    "base_rel": false,
+    "panel_match": false,
+    "panel_rel": false
+  },
+  {
+    "gt": "falciform ligament necrosis",
+    "base": "Epiploic appendagitis of the falciform ligament",
+    "panel": "Primary falciform ligament appendagitis (infarction of a falciform ligament epiploic appendage)",
+    "base_match": false,
+    "base_rel": true,
+    "panel_match": false,
+    "panel_rel": true
+  },
+  {
+    "gt": "IgG4-related disease",
+    "base": "IgG4-related constrictive pericarditis",
+    "panel": "IgG4-related constrictive pericarditis",
+    "base_match": true,
+    "base_rel": true,
+    "panel_match": true,
+    "panel_rel": true
+  },
+  {
+    "gt": "scurvy",
+    "base": "Scurvy (vitamin C deficiency) with subperiosteal hemorrhage/pseudotumor of the femur",
+    "panel": "Severe vitamin C deficiency (scurvy) causing subperiosteal hemorrhage with pseudotumor-like thigh mass",
+    "base_match": true,
+    "base_rel": true,
+    "panel_match": true,
+    "panel_rel": true
+  },
+  {
+    "gt": "Transverse myelitis",
+    "base": "Acute transverse myelitis (post\u2013COVID-19 vaccination, MOG-antibody\u2013associated myelitis)",
+    "panel": "Acute cervical transverse myelitis (post\u2013mRNA COVID-19 vaccination\u2013associated inflammatory myelitis, MOG-antibody\u2013associated/seronegative phenotype)",
+    "base_match": true,
+    "base_rel": true,
+    "panel_match": true,
+    "panel_rel": true
+  },
+  {
+    "gt": "Germ cell tumor",
+    "base": "Primary mediastinal nonseminomatous germ cell tumor (yolk sac tumor) with superior vena cava/right atrial extension and pulmonary metastases",
+    "panel": "Primary mediastinal nonseminomatous germ cell tumor (yolk sac tumor) with superior vena cava/right atrial invasion and pulmonary metastases",
+    "base_match": true,
+    "base_rel": true,
+    "panel_match": true,
+    "panel_rel": true
+  },
+  {
+    "gt": "Leiomyosarcoma",
+    "base": "Primary jejunal adenocarcinoma",
+    "panel": "Primary high-grade jejunal adenocarcinoma",
+    "base_match": false,
+    "base_rel": false,
+    "panel_match": false,
+    "panel_rel": false
+  },
+  {
+    "gt": "Enamel hypoplasia",
+    "base": "Amelogenesis imperfecta with hypodontia (congenital absence of mandibular anterior teeth)",
+    "panel": "Regional odontodysplasia (ghost teeth) affecting the maxillary incisors and mandibular premolar region with congenital absence of mandibular anterior teeth",
+    "base_match": false,
+    "base_rel": true,
+    "panel_match": false,
+    "panel_rel": true
+  },
+  {
+    "gt": "Scrub typhus",
+    "base": "Scrub typhus (Orientia tsutsugamushi) complicated by septic shock, acute respiratory distress/pulmonary edema, and intracerebral hemorrhage",
+    "panel": "Severe scrub typhus (Orientia tsutsugamushi) with multiorgan dysfunction and intracerebral hemorrhage",
+    "base_match": true,
+    "base_rel": true,
+    "panel_match": true,
+    "panel_rel": true
+  },
+  {
+    "gt": "Rosai-Dorfman disease",
+    "base": "Systemic juvenile idiopathic arthritis with generalized reactive lymphadenopathy",
+    "panel": "Classic Hodgkin lymphoma, nodular sclerosis subtype",
+    "base_match": false,
+    "base_rel": false,
+    "panel_match": false,
+    "panel_rel": false
+  },
+  {
+    "gt": "Nonrheumatic myocarditis",
+    "base": "Acute nonrheumatic streptococcal myocarditis",
+    "panel": "Acute nonrheumatic streptococcal myocarditis",
+    "base_match": true,
+    "base_rel": true,
+    "panel_match": true,
+    "panel_rel": true
+  },
+  {
+    "gt": "Cardiac sarcoidosis",
+    "base": "Isolated cardiac sarcoidosis presenting with right atrial granulomatous masses and atrioventricular block",
+    "panel": "Isolated cardiac sarcoidosis presenting as FDG-avid right atrial masses with atrioventricular block",
+    "base_match": true,
+    "base_rel": true,
+    "panel_match": true,
+    "panel_rel": true
+  },
+  {
+    "gt": "sulfonylurea poisoning",
+    "base": "Sulfonylurea-induced hypoglycemia from accidental ingestion of glipizide-contaminated pills",
+    "panel": "Sulfonylurea-induced hypoglycemia from accidental ingestion of glipizide-contaminated counterfeit benzodiazepine pills",
+    "base_match": true,
+    "base_rel": true,
+    "panel_match": true,
+    "panel_rel": true
+  },
+  {
+    "gt": "Parasitic leiomyoma",
+    "base": "Parasitic leiomyoma of the pelvis arising after laparoscopic myomectomy",
+    "panel": "Parasitic leiomyoma (iatrogenic extrauterine pelvic leiomyoma following laparoscopic myomectomy)",
+    "base_match": true,
+    "base_rel": true,
+    "panel_match": true,
+    "panel_rel": true
+  },
+  {
+    "gt": "endometrioid endocervical adenocarcinoma",
+    "base": "Primary endometrioid adenocarcinoma of the cervix",
+    "panel": "Primary endometrioid adenocarcinoma of the uterine cervix",
+    "base_match": true,
+    "base_rel": true,
+    "panel_match": true,
+    "panel_rel": true
+  },
+  {
+    "gt": "lumbosacral plexopathy",
+    "base": "Postoperative left common peroneal neuropathy (ischemic/compressive neuropraxia causing foot drop)",
+    "panel": "Postoperative left common peroneal neuropathy (compressive neuropathy causing foot drop)",
+    "base_match": false,
+    "base_rel": false,
+    "panel_match": false,
+    "panel_rel": true
+  },
+  {
+    "gt": "Nonislet cell tumor hypoglycemia",
+    "base": "Non-islet cell tumor hypoglycemia (NICTH) due to IGF-2\u2013secreting metastatic myoepithelial carcinoma",
+    "panel": "Non-islet cell tumor hypoglycemia (NICTH) due to IGF-2\u2013secreting metastatic myoepithelial carcinoma",
+    "base_match": true,
+    "base_rel": true,
+    "panel_match": true,
+    "panel_rel": true
+  },
+  {
+    "gt": "diabetic myonecrosis",
+    "base": "Diabetic myonecrosis (diabetic muscle infarction) of the left thigh",
+    "panel": "Diabetic myonecrosis (diabetic muscle infarction) of the left thigh",
+    "base_match": true,
+    "base_rel": true,
+    "panel_match": true,
+    "panel_rel": true
+  },
+  {
+    "gt": "Heart failure",
+    "base": "Acute intermittent porphyria presenting with porphyric abdominal crisis and pseudocholecystitis",
+    "panel": "Acute intermittent porphyria presenting as porphyric abdominal crisis with autonomic/cardiac involvement",
+    "base_match": false,
+    "base_rel": false,
+    "panel_match": false,
+    "panel_rel": false
+  },
+  {
+    "gt": "Cerebrospinal fluid rhinorrhea",
+    "base": "Left-sided cerebrospinal fluid rhinorrhea due to traumatic skull base defect",
+    "panel": "Left-sided cerebrospinal fluid rhinorrhea due to traumatic skull base defect",
+    "base_match": true,
+    "base_rel": true,
+    "panel_match": true,
+    "panel_rel": true
+  },
+  {
+    "gt": "Streptococcus salivarius pneumonia",
+    "base": "Spontaneous pneumomediastinum secondary to severe mucus plugging causing left lower lobe obstructive atelectasis",
+    "panel": "Spontaneous pneumomediastinum secondary to severe mucus plugging causing left lower lobe obstructive atelectasis",
+    "base_match": false,
+    "base_rel": false,
+    "panel_match": false,
+    "panel_rel": false
+  },
+  {
+    "gt": "Membranous nephropathy",
+    "base": "Primary membranous nephropathy (PLA2R-associated)",
+    "panel": "Primary membranous nephropathy with low-titer anti-PLA2R positivity",
+    "base_match": true,
+    "base_rel": true,
+    "panel_match": true,
+    "panel_rel": true
+  },
+  {
+    "gt": "Cardiac amyloidosis",
+    "base": "Cardiac amyloidosis causing restrictive cardiomyopathy (most likely AL amyloidosis)",
+    "panel": "Restrictive cardiomyopathy due to cardiac amyloidosis (most likely light-chain/AL amyloidosis)",
+    "base_match": true,
+    "base_rel": true,
+    "panel_match": true,
+    "panel_rel": true
+  },
+  {
+    "gt": "SBP-101 induced retinal toxicity",
+    "base": "SBP-101\u2013associated toxic maculopathy (drug-induced bilateral outer retinal/RPE degeneration)",
+    "panel": "SBP-101\u2013associated toxic maculopathy with progressive bilateral outer retinal/RPE atrophy",
+    "base_match": true,
+    "base_rel": true,
+    "panel_match": true,
+    "panel_rel": true
+  },
+  {
+    "gt": "thyroid adenocarcinoma",
+    "base": "Primary ectopic thyroid carcinoma of the liver (hepatic ectopic thyroid follicular carcinoma)",
+    "panel": "Primary ectopic thyroid follicular carcinoma of the liver (hepatic ectopic thyroid carcinoma)",
+    "base_match": false,
+    "base_rel": true,
+    "panel_match": false,
+    "panel_rel": true
+  },
+  {
+    "gt": "Polycythemia vera",
+    "base": "Spontaneous left iliopsoas intramuscular hematoma causing retroperitoneal hemorrhage secondary to heparin/antiplatelet therapy",
+    "panel": "Spontaneous left iliopsoas intramuscular hematoma (retroperitoneal hemorrhage) due to anticoagulation/antiplatelet therapy",
+    "base_match": false,
+    "base_rel": false,
+    "panel_match": false,
+    "panel_rel": false
+  },
+  {
+    "gt": "Reninoma",
+    "base": "Renin-secreting juxtaglomerular cell tumor (reninoma) of the left kidney",
+    "panel": "Renin-secreting juxtaglomerular cell tumor (reninoma) of the left kidney",
+    "base_match": true,
+    "base_rel": true,
+    "panel_match": true,
+    "panel_rel": true
+  },
+  {
+    "gt": "hepatic angiomyolipoma",
+    "base": "Hepatocellular adenoma with fatty change",
+    "panel": "Hepatocellular carcinoma arising in a non-cirrhotic liver with fatty change",
+    "base_match": false,
+    "base_rel": false,
+    "panel_match": false,
+    "panel_rel": false
+  },
+  {
+    "gt": "neuropsychiatric systemic lupus erythematosus",
+    "base": "Neuropsychiatric systemic lupus erythematosus presenting as acute lupus meningoencephalitis (aseptic meningitis with temporal lobe encephalitis)",
+    "panel": "Neuropsychiatric systemic lupus erythematosus presenting as acute lupus meningoencephalitis (aseptic meningoencephalitis)",
+    "base_match": true,
+    "base_rel": true,
+    "panel_match": true,
+    "panel_rel": true
+  },
+  {
+    "gt": "PFAPAsyndrome",
+    "base": "Adult-onset periodic fever syndrome (PFAPA syndrome)",
+    "panel": "Adult-onset PFAPA syndrome (periodic fever, aphthous stomatitis, pharyngitis, and cervical adenitis syndrome)",
+    "base_match": true,
+    "base_rel": true,
+    "panel_match": true,
+    "panel_rel": true
+  },
+  {
+    "gt": "Pleomorphic rhabdomyosarcoma",
+    "base": "Intramuscular myxoma of the left iliopsoas muscle",
+    "panel": "Iliopsoas intramuscular myxoma",
+    "base_match": false,
+    "base_rel": false,
+    "panel_match": false,
+    "panel_rel": false
+  },
+  {
+    "gt": "transient brachial plexus block",
+    "base": "Transient postoperative left brachial plexus neuropraxia due to intraoperative positioning/traction",
+    "panel": "Transient postoperative left brachial plexus neuropraxia due to intraoperative positioning/traction during parathyroidectomy",
+    "base_match": true,
+    "base_rel": true,
+    "panel_match": true,
+    "panel_rel": true
+  },
+  {
+    "gt": "Mycobacterium bovis",
+    "base": "Disseminated tuberculosis (anti-TNF\u2013associated extrapulmonary/miliary TB with granulomatous splenic and hepatic involvement)",
+    "panel": "Disseminated tuberculosis (anti-TNF\u2013associated extrapulmonary/miliary tuberculosis presenting with granulomatous splenic and hepatic disease)",
+    "base_match": false,
+    "base_rel": true,
+    "panel_match": false,
+    "panel_rel": true
+  },
+  {
+    "gt": "Macrophage activation syndrome",
+    "base": "Systemic lupus erythematosus with macrophage activation syndrome (secondary hemophagocytic lymphohistiocytosis)",
+    "panel": "Systemic lupus erythematosus with macrophage activation syndrome (secondary hemophagocytic lymphohistiocytosis)",
+    "base_match": true,
+    "base_rel": true,
+    "panel_match": true,
+    "panel_rel": true
+  },
+  {
+    "gt": "Multiple sclerosis",
+    "base": "Relapsing-remitting multiple sclerosis",
+    "panel": "Relapsing-remitting multiple sclerosis",
+    "base_match": true,
+    "base_rel": true,
+    "panel_match": true,
+    "panel_rel": true
+  },
+  {
+    "gt": "Factor XIIII deficiency",
+    "base": "Spontaneous intramural duodenal hematoma due to factor XIII deficiency",
+    "panel": "Spontaneous intramural duodenal hematoma due to factor XIII deficiency",
+    "base_match": true,
+    "base_rel": true,
+    "panel_match": true,
+    "panel_rel": true
+  }
+]

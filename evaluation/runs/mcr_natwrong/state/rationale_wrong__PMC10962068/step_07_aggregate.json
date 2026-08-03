@@ -1,0 +1,42 @@
+{
+  "name": "aggregate",
+  "passed": false,
+  "score": 0.7483,
+  "reasoning": "Failed. The overall diagnostic reasoning is largely coherent and the weighted aggregate score is 0.7483, but verification identified important issues: one expert-checked statement was contradicted by the reference data, and the decomposition step flagged multiple omitted causal relationships plus an added differential not supported as written. Despite the strong final diagnosis of an obstructive müllerian anomaly causing cryptomenorrhea and hematometra, the presence of these verification failures means the text did not pass overall.",
+  "data": {
+    "weighted_score": 0.7483,
+    "all_passed": false,
+    "step_scores": {
+      "static_rules": {
+        "score": 1.0,
+        "passed": true,
+        "weight": 0.1
+      },
+      "decompose": {
+        "score": 0.0,
+        "passed": false,
+        "weight": 0.05
+      },
+      "chain_verify": {
+        "score": 1.0,
+        "passed": true,
+        "weight": 0.1
+      },
+      "classify": {
+        "score": 1.0,
+        "passed": true,
+        "weight": 0.0
+      },
+      "expert_verify": {
+        "score": 0.7,
+        "passed": false,
+        "weight": 0.65
+      },
+      "build_graph": {
+        "score": 0.9329,
+        "passed": false,
+        "weight": 0.1
+      }
+    }
+  }
+}

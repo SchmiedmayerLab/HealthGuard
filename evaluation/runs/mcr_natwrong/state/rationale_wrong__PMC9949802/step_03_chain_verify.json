@@ -1,0 +1,10 @@
+{
+  "name": "chain_verify",
+  "passed": true,
+  "score": 1.0,
+  "reasoning": "All logical chains are internally consistent. The statements form a coherent diagnostic chain: clinical findings, imaging, timing after COVID, diabetes, and corticosteroid exposure consistently support invasive fungal infection, especially pulmonary mucormycosis. Alternative diagnoses are acknowledged appropriately and do not break the logic.",
+  "data": {
+    "has_chain_dependencies": true,
+    "issues": []
+  }
+}

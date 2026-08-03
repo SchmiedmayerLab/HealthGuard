@@ -1,0 +1,1305 @@
+{
+  "name": "build_graph",
+  "passed": false,
+  "score": 0.7562,
+  "reasoning": "Graph built with 80 node(s) and 32 edge(s). 39 disconnected node(s): n10, n11, n14, n18, n19, n20, n21, n22, n23, n24, n25, n27, n28, n29, n3, n30, n31, n32, n33, n36, n37, n39, n4, n41, n42, n44, n5, n50, n51, n56, n57, n59, n6, n62, n66, n75, n78, n8, n9. The graph centers on CT-confirmed intramural duodenal hematoma as the final diagnosis. Symptoms and the obstructive pattern support the need for an upper GI/duodenal obstruction explanation, while imaging directly supports the lesion and mechanistically explains pain and non-bilious vomiting. Secondary branches reduce competing differentials such as intussusception, gastroenteritis, trauma, and common coagulopathies, and a smaller branch keeps bleeding diathesis as a possible but less supported etiologic consideration.",
+  "data": {
+    "nodes": [
+      {
+        "id": "n1",
+        "text": "The chief complaint is gradual-onset abdominal pain with non-bilious vomiting over 2 days in a 3-year-old girl.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Matches the presentation exactly: 3-year-old girl, gradual-onset abdominal pain and non-bilious vomiting over 2 days.",
+        "cluster_idx": 0,
+        "cluster_label": "history_taking"
+      },
+      {
+        "id": "n2",
+        "text": "The patient’s immediate clinical problem is an upper gastrointestinal/duodenal obstructive-type presentation rather than systemic illness.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "The CT-proven duodenal lesion with vomiting and pain supports an upper GI/duodenal obstructive presentation; this is an interpretation, not verbatim data.",
+        "cluster_idx": 0,
+        "cluster_label": "history_taking"
+      },
+      {
+        "id": "n3",
+        "text": "The patient is irritable but active.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Reference states she was irritable but active.",
+        "cluster_idx": 0,
+        "cluster_label": "history_taking"
+      },
+      {
+        "id": "n4",
+        "text": "The patient is afebrile.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Reference explicitly says she was afebrile.",
+        "cluster_idx": 0,
+        "cluster_label": "history_taking"
+      },
+      {
+        "id": "n5",
+        "text": "The patient is hemodynamically stable.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Vital signs were stable (HR 98, RR 22, BP 90/65, SpO2 99%).",
+        "cluster_idx": 0,
+        "cluster_label": "history_taking"
+      },
+      {
+        "id": "n6",
+        "text": "The patient has a soft, non-tender abdomen with normal bowel sounds.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Abdomen was soft, non-tender, with normal bowel sounds.",
+        "cluster_idx": 1,
+        "cluster_label": "examination"
+      },
+      {
+        "id": "n7",
+        "text": "Salient positive findings include abdominal pain and non-bilious vomiting.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Abdominal pain and non-bilious vomiting are directly stated in the case.",
+        "cluster_idx": 1,
+        "cluster_label": "examination"
+      },
+      {
+        "id": "n8",
+        "text": "Salient positive findings include severe anemia with hemoglobin 7.3 g/dL.",
+        "category": "statistical",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Hemoglobin was 7.3 g/dL, which is severe anemia for a child.",
+        "cluster_idx": 1,
+        "cluster_label": "examination"
+      },
+      {
+        "id": "n9",
+        "text": "Salient positive findings include mild leukocytosis of 16.1×10^9/L.",
+        "category": "statistical",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Leukocyte count was 16.1×10^9/L, mildly above the stated upper limit of 15.0.",
+        "cluster_idx": 1,
+        "cluster_label": "examination"
+      },
+      {
+        "id": "n10",
+        "text": "Salient positive findings include elevated AST of 337 U/L.",
+        "category": "statistical",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "AST was 337 U/L, clearly elevated above normal.",
+        "cluster_idx": 1,
+        "cluster_label": "examination"
+      },
+      {
+        "id": "n11",
+        "text": "Salient positive findings include elevated CRP of 43 U/L.",
+        "category": "statistical",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "CRP was 43 U/L, elevated.",
+        "cluster_idx": 1,
+        "cluster_label": "examination"
+      },
+      {
+        "id": "n12",
+        "text": "Imaging evidence is the most important salient positive finding.",
+        "category": "factual",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Imaging is the decisive diagnostic evidence in the trace, but 'most important' is a judgment rather than a directly stated fact.",
+        "cluster_idx": 2,
+        "cluster_label": "test_ordering"
+      },
+      {
+        "id": "n13",
+        "text": "Ultrasound excluded intussusception.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Ultrasound specifically showed no intussusception.",
+        "cluster_idx": 2,
+        "cluster_label": "test_ordering"
+      },
+      {
+        "id": "n14",
+        "text": "Ultrasound showed a rounded hypo- to isoechoic lobulated avascular area near the porta hepatis/pancreatic head.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Ultrasound described a rounded hypo- to iso-echoic lobulated avascular area adjacent to the porta hepatis and pancreatic head.",
+        "cluster_idx": 2,
+        "cluster_label": "test_ordering"
+      },
+      {
+        "id": "n15",
+        "text": "Contrast CT demonstrated a large intramural/submucosal duodenal hematoma extending along the duodenum.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "CT demonstrated a large intramural/submucosal duodenal hematoma along its entire length.",
+        "cluster_idx": 2,
+        "cluster_label": "test_ordering"
+      },
+      {
+        "id": "n16",
+        "text": "The duodenal hematoma caused luminal narrowing.",
+        "category": "causal",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "The CT report states the hematoma was causing luminal narrowing.",
+        "cluster_idx": 2,
+        "cluster_label": "test_ordering"
+      },
+      {
+        "id": "n17",
+        "text": "The imaging finding directly explains the vomiting and abdominal pain.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "A duodenal hematoma causing narrowing plausibly explains vomiting and abdominal pain; this is a sound clinical inference.",
+        "cluster_idx": 2,
+        "cluster_label": "test_ordering"
+      },
+      {
+        "id": "n18",
+        "text": "There was no fever.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "The case explicitly says she was afebrile.",
+        "cluster_idx": 3,
+        "cluster_label": "history_taking"
+      },
+      {
+        "id": "n19",
+        "text": "There was no diarrhea.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "No diarrhea is explicitly reported.",
+        "cluster_idx": 3,
+        "cluster_label": "history_taking"
+      },
+      {
+        "id": "n20",
+        "text": "There was no dysuria.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "No dysuria is explicitly reported.",
+        "cluster_idx": 3,
+        "cluster_label": "history_taking"
+      },
+      {
+        "id": "n21",
+        "text": "There was no trauma.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "No trauma is explicitly reported in the history.",
+        "cluster_idx": 3,
+        "cluster_label": "history_taking"
+      },
+      {
+        "id": "n22",
+        "text": "There were no prior similar episodes.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "The history states no prior similar episodes.",
+        "cluster_idx": 3,
+        "cluster_label": "history_taking"
+      },
+      {
+        "id": "n23",
+        "text": "The abdomen was not tender.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Abdomen was described as non-tender.",
+        "cluster_idx": 4,
+        "cluster_label": "examination"
+      },
+      {
+        "id": "n24",
+        "text": "The abdomen was not distended.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Abdomen was described as soft without distension.",
+        "cluster_idx": 4,
+        "cluster_label": "examination"
+      },
+      {
+        "id": "n25",
+        "text": "The abdomen showed no overt signs of bowel obstruction.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "The exam notes no signs of obstruction on abdominal exam; this matches the reference wording.",
+        "cluster_idx": 4,
+        "cluster_label": "examination"
+      },
+      {
+        "id": "n26",
+        "text": "Coagulation screening was normal.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "PT, aPTT, and bleeding time were within the stated reference ranges.",
+        "cluster_idx": 4,
+        "cluster_label": "examination"
+      },
+      {
+        "id": "n27",
+        "text": "The prothrombin time was 12.7 s.",
+        "category": "statistical",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "PT was 12.7 s.",
+        "cluster_idx": 4,
+        "cluster_label": "examination"
+      },
+      {
+        "id": "n28",
+        "text": "The activated partial thromboplastin time was 27 s.",
+        "category": "statistical",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "aPTT was 27 s.",
+        "cluster_idx": 4,
+        "cluster_label": "examination"
+      },
+      {
+        "id": "n29",
+        "text": "The bleeding time was 2 min.",
+        "category": "statistical",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Bleeding time was 2 min.",
+        "cluster_idx": 4,
+        "cluster_label": "examination"
+      },
+      {
+        "id": "n30",
+        "text": "Platelets were at the lower end of normal rather than frankly low.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Platelets were 150×10^9/L, the lower limit of normal, so 'lower end of normal rather than frankly low' is accurate.",
+        "cluster_idx": 4,
+        "cluster_label": "examination"
+      },
+      {
+        "id": "n31",
+        "text": "Family history was negative for bleeding disorders or GI disease.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Family history was negative for bleeding or gastrointestinal disorders.",
+        "cluster_idx": 4,
+        "cluster_label": "examination"
+      },
+      {
+        "id": "n32",
+        "text": "These findings make infectious gastroenteritis less likely as a primary explanation.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Absence of fever/diarrhea plus structural obstructive imaging makes infectious gastroenteritis less likely; this is a reasonable differential-pruning inference.",
+        "cluster_idx": 5,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n33",
+        "text": "These findings make urinary infection less likely as a primary explanation.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "No dysuria and no urinary features make UTI less likely; this is an inference from the history.",
+        "cluster_idx": 5,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n34",
+        "text": "These findings make traumatic injury less likely as a primary explanation.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "No trauma history and imaging showing hematoma make traumatic injury less likely as the primary explanation; this is a reasonable inference.",
+        "cluster_idx": 5,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n35",
+        "text": "These findings make common coagulopathies less likely as a primary explanation.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Normal PT/aPTT/bleeding time and no bleeding history make common coagulopathies less likely, though not excluded.",
+        "cluster_idx": 5,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n36",
+        "text": "Intramural duodenal hematoma fits best.",
+        "category": "factual",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Given the CT-proven lesion and symptom pattern, intramural duodenal hematoma is the best-fitting diagnosis.",
+        "cluster_idx": 5,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n37",
+        "text": "CT explicitly shows a large intramural/submucosal duodenal hematoma with luminal narrowing.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "CT explicitly demonstrated a large intramural/submucosal duodenal hematoma with luminal narrowing.",
+        "cluster_idx": 5,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n38",
+        "text": "The symptoms of abdominal pain plus non-bilious vomiting are classic for proximal bowel narrowing or obstruction.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Vomiting with a proximal duodenal narrowing is a classic obstructive pattern; this is standard clinical reasoning.",
+        "cluster_idx": 5,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n39",
+        "text": "Intussusception was a reasonable early consideration in a young child with abdominal pain and vomiting.",
+        "category": "factual",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "In a young child with abdominal pain and vomiting, intussusception is a reasonable early differential consideration.",
+        "cluster_idx": 6,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n40",
+        "text": "Ultrasound showed no intussusception.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Ultrasound specifically showed no intussusception.",
+        "cluster_idx": 6,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n41",
+        "text": "The abdomen lacked typical episodic severe pain.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Reference says abdomen was soft, non-tender, with no signs of obstruction; no episodic severe pain is described.",
+        "cluster_idx": 6,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n42",
+        "text": "The abdomen lacked bloody stool.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Reference data do not mention bloody stool, and the presentation explicitly notes non-bilious vomiting without GI bleeding.",
+        "cluster_idx": 6,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n43",
+        "text": "A pancreatic or periportal mass/cystic lesion could be considered from the ultrasound description of an avascular lobulated area near the pancreatic head/porta hepatis.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Ultrasound described a rounded hypo- to iso-echoic lobulated avascular area near the porta hepatis/pancreatic head, which reasonably raises a mass/cystic lesion differential.",
+        "cluster_idx": 6,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n44",
+        "text": "CT clarified that the ultrasound finding represented duodenal wall hematoma rather than a solid or cystic mass.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "CT demonstrated a large intramural/submucosal duodenal hematoma, not a true pancreatic/periportal mass.",
+        "cluster_idx": 6,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n45",
+        "text": "Infectious gastroenteritis is less likely because there is no fever.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Absence of fever makes infectious gastroenteritis less likely; this is a standard differential-pruning inference.",
+        "cluster_idx": 7,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n46",
+        "text": "Infectious gastroenteritis is less likely because there is no diarrhea.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Absence of diarrhea also argues against gastroenteritis; this is a reasonable inference from the presentation.",
+        "cluster_idx": 7,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n47",
+        "text": "Imaging identifies a structural lesion causing symptoms.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "CT showed a duodenal hematoma causing luminal narrowing, which is a structural lesion explaining symptoms.",
+        "cluster_idx": 7,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n48",
+        "text": "Nonaccidental or accidental traumatic duodenal hematoma is a known cause of duodenal hematoma in children.",
+        "category": "factual",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Trauma is a known cause of duodenal hematoma in children; this is standard medical knowledge, not a case-specific fact.",
+        "cluster_idx": 7,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n49",
+        "text": "The history specifically reports no trauma.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Reference explicitly states there was no history of trauma.",
+        "cluster_idx": 7,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n50",
+        "text": "Occult trauma cannot be fully excluded from the summary alone.",
+        "category": "factual",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Given only the summary, occult trauma cannot be completely excluded; this is a cautious inference, not a data claim.",
+        "cluster_idx": 7,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n51",
+        "text": "The diagnosis to commit to is the lesion itself rather than an unproven etiology.",
+        "category": "recommendation",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Choosing the lesion itself over an unproven etiology is a reasonable diagnostic conclusion from the imaging-confirmed hematoma.",
+        "cluster_idx": 7,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n52",
+        "text": "Underlying bleeding disorder is a possible cause of spontaneous duodenal hematoma.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "A spontaneous duodenal hematoma can be caused by an underlying bleeding disorder; this is standard clinical reasoning.",
+        "cluster_idx": 8,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n53",
+        "text": "Severe anemia is present.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Hemoglobin was 7.3 g/dL, which is severe anemia.",
+        "cluster_idx": 8,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n54",
+        "text": "Factor XIII and von Willebrand testing were pending.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Factor XIII activity and von Willebrand factor antigen levels were pending.",
+        "cluster_idx": 8,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n55",
+        "text": "Routine coagulation studies are normal.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "PT 12.7 s, aPTT 27 s, and bleeding time 2 min are within the stated reference ranges.",
+        "cluster_idx": 8,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n56",
+        "text": "No bleeding history is provided.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "The case states family history was negative for bleeding or gastrointestinal disorders; no personal bleeding history is provided in the reference.",
+        "cluster_idx": 8,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n57",
+        "text": "The case data support the presence of a duodenal hematoma more strongly than any specific hemostatic disorder.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Imaging-confirmed duodenal hematoma is more directly supported than any specific hemostatic disorder, which remains unproven.",
+        "cluster_idx": 8,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n58",
+        "text": "The decisive evidence is the contrast-enhanced CT scan showing a large intramural/submucosal duodenal hematoma along the entire duodenum causing luminal narrowing.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "CT scan showed a large intramural/submucosal duodenal hematoma along its entire length causing luminal narrowing.",
+        "cluster_idx": 9,
+        "cluster_label": "final_decision"
+      },
+      {
+        "id": "n59",
+        "text": "This finding directly accounts for the child’s symptoms.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "A duodenal hematoma with luminal narrowing plausibly explains abdominal pain and non-bilious vomiting.",
+        "cluster_idx": 9,
+        "cluster_label": "final_decision"
+      },
+      {
+        "id": "n60",
+        "text": "This finding supersedes less specific differentials raised by the initial presentation.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "The CT finding is more specific than the initial broad differentials and appropriately supersedes them diagnostically.",
+        "cluster_idx": 9,
+        "cluster_label": "final_decision"
+      },
+      {
+        "id": "n61",
+        "text": "The most likely diagnosis is intramural duodenal hematoma.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "The trace explicitly concludes the most likely/final diagnosis is intramural duodenal hematoma.",
+        "cluster_idx": 9,
+        "cluster_label": "final_decision"
+      },
+      {
+        "id": "n62",
+        "text": "Intramural duodenal hematoma is the high-probability differential.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "The differential list labels intramural duodenal hematoma as high probability.",
+        "cluster_idx": 10,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n63",
+        "text": "The CT abdomen demonstrated a large intramural/submucosal duodenal hematoma along the entire duodenum with luminal narrowing.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "This exactly matches the CT description in the reference data.",
+        "cluster_idx": 10,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n64",
+        "text": "The hematoma explains abdominal pain and non-bilious vomiting.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "The hematoma causing luminal narrowing is a sound explanation for abdominal pain and non-bilious vomiting.",
+        "cluster_idx": 10,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n65",
+        "text": "Intussusception is a low-probability differential.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "The differential list labels intussusception as low probability.",
+        "cluster_idx": 10,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n66",
+        "text": "The patient is a young child with abdominal pain and vomiting.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Reference says the patient is a 3-year-old girl with abdominal pain and non-bilious vomiting.",
+        "cluster_idx": 10,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n67",
+        "text": "Ultrasound specifically showed no intussusception.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Ultrasound specifically showed no intussusception.",
+        "cluster_idx": 10,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n68",
+        "text": "Imaging identified an alternative lesion.",
+        "category": "factual",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Because ultrasound found a lesion and CT identified it as duodenal hematoma, imaging did identify an alternative lesion.",
+        "cluster_idx": 10,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n69",
+        "text": "Pancreatic/periportal mass lesion is a low-probability differential.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "The differential list explicitly calls pancreatic/periportal mass lesion low probability.",
+        "cluster_idx": 10,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n70",
+        "text": "Ultrasound showed an avascular lobulated area adjacent to the porta hepatis and pancreatic head.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Ultrasound described a rounded hypo- to iso-echoic lobulated avascular area adjacent to the porta hepatis and head of the pancreas.",
+        "cluster_idx": 10,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n71",
+        "text": "CT clarified that this was duodenal wall hematoma rather than a true mass.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "CT clarified the ultrasound finding as a duodenal wall hematoma rather than a true mass.",
+        "cluster_idx": 10,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n72",
+        "text": "Infectious gastroenteritis is a low-probability differential.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "The differential list explicitly labels infectious gastroenteritis as low probability.",
+        "cluster_idx": 10,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n73",
+        "text": "Vomiting and abdominal pain could suggest gastroenteritis.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Vomiting and abdominal pain can suggest gastroenteritis; this is a standard differential consideration.",
+        "cluster_idx": 10,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n74",
+        "text": "There was no fever or diarrhea.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Reference explicitly states there was no fever or diarrhea.",
+        "cluster_idx": 10,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n75",
+        "text": "CT showed a structural obstructive cause.",
+        "category": "factual",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "CT showing duodenal hematoma with luminal narrowing indicates a structural obstructive cause.",
+        "cluster_idx": 10,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n76",
+        "text": "Bleeding diathesis causing spontaneous gastrointestinal hematoma is a medium-probability differential.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "The differential list explicitly labels bleeding diathesis causing spontaneous GI hematoma as medium probability.",
+        "cluster_idx": 10,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n77",
+        "text": "Spontaneous hematoma in a child without trauma raises concern for an underlying bleeding disorder.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "In a child without trauma, spontaneous hematoma reasonably raises concern for an underlying bleeding disorder.",
+        "cluster_idx": 10,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n78",
+        "text": "Factor XIII and von Willebrand testing were pending.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Factor XIII activity and von Willebrand factor antigen levels were pending.",
+        "cluster_idx": 10,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n79",
+        "text": "PT, aPTT, and bleeding time were normal.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "PT 12.7 s, aPTT 27 s, and bleeding time 2 min are all within normal range.",
+        "cluster_idx": 10,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n80",
+        "text": "The final diagnosis is intramural duodenal hematoma.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "The trace explicitly states the final diagnosis is intramural duodenal hematoma.",
+        "cluster_idx": 11,
+        "cluster_label": "final_decision"
+      }
+    ],
+    "edges": [
+      {
+        "source": "n1",
+        "target": "n2",
+        "kind": "supports",
+        "explanation": "Gradual abdominal pain with non-bilious vomiting is consistent with an upper GI/duodenal obstructive presentation."
+      },
+      {
+        "source": "n7",
+        "target": "n38",
+        "kind": "supports",
+        "explanation": "The symptom pair of abdominal pain and non-bilious vomiting supports a proximal bowel narrowing/obstruction pattern."
+      },
+      {
+        "source": "n38",
+        "target": "n2",
+        "kind": "supports",
+        "explanation": "A proximal bowel narrowing/obstruction pattern supports the conclusion that the immediate problem is duodenal/upper GI obstruction."
+      },
+      {
+        "source": "n15",
+        "target": "n16",
+        "kind": "causes",
+        "explanation": "A duodenal hematoma mechanically narrows the lumen."
+      },
+      {
+        "source": "n16",
+        "target": "n17",
+        "kind": "causes",
+        "explanation": "Luminal narrowing explains vomiting and abdominal pain."
+      },
+      {
+        "source": "n15",
+        "target": "n17",
+        "kind": "causes",
+        "explanation": "The intramural/submucosal duodenal hematoma is the structural lesion producing the symptoms."
+      },
+      {
+        "source": "n13",
+        "target": "n40",
+        "kind": "supports",
+        "explanation": "Ultrasound excluding intussusception is direct evidence that no intussusception was seen."
+      },
+      {
+        "source": "n40",
+        "target": "n65",
+        "kind": "supports",
+        "explanation": "If ultrasound shows no intussusception, intussusception becomes a low-probability differential."
+      },
+      {
+        "source": "n70",
+        "target": "n43",
+        "kind": "supports",
+        "explanation": "An avascular lobulated area near the pancreatic head/porta hepatis can be interpreted as a possible mass/cystic lesion."
+      },
+      {
+        "source": "n71",
+        "target": "n69",
+        "kind": "supports",
+        "explanation": "CT clarification that the lesion is not a true mass lowers the probability of a pancreatic/periportal mass lesion."
+      },
+      {
+        "source": "n74",
+        "target": "n72",
+        "kind": "supports",
+        "explanation": "Absence of fever or diarrhea makes infectious gastroenteritis less likely."
+      },
+      {
+        "source": "n26",
+        "target": "n35",
+        "kind": "supports",
+        "explanation": "Normal coagulation screening supports that common coagulopathies are less likely."
+      },
+      {
+        "source": "n49",
+        "target": "n34",
+        "kind": "supports",
+        "explanation": "A reported absence of trauma makes traumatic injury less likely as the primary explanation."
+      },
+      {
+        "source": "n48",
+        "target": "n52",
+        "kind": "supports",
+        "explanation": "Known traumatic or nonaccidental causes of duodenal hematoma make a bleeding-related hematoma mechanism plausible."
+      },
+      {
+        "source": "n53",
+        "target": "n52",
+        "kind": "supports",
+        "explanation": "Severe anemia supports consideration of an underlying bleeding disorder as a possible cause."
+      },
+      {
+        "source": "n54",
+        "target": "n52",
+        "kind": "supports",
+        "explanation": "Pending factor XIII and von Willebrand testing indicates evaluation for an underlying bleeding disorder."
+      },
+      {
+        "source": "n55",
+        "target": "n35",
+        "kind": "supports",
+        "explanation": "Normal routine coagulation studies support that common coagulopathies are less likely."
+      },
+      {
+        "source": "n58",
+        "target": "n61",
+        "kind": "supports",
+        "explanation": "The decisive CT finding directly supports the diagnosis of intramural duodenal hematoma."
+      },
+      {
+        "source": "n58",
+        "target": "n64",
+        "kind": "causes",
+        "explanation": "The hematoma with luminal narrowing explains abdominal pain and non-bilious vomiting."
+      },
+      {
+        "source": "n58",
+        "target": "n60",
+        "kind": "supports",
+        "explanation": "A definitive CT lesion supersedes less specific initial differentials."
+      },
+      {
+        "source": "n61",
+        "target": "n80",
+        "kind": "supports",
+        "explanation": "The stated most likely diagnosis supports the final diagnosis."
+      },
+      {
+        "source": "n63",
+        "target": "n61",
+        "kind": "supports",
+        "explanation": "CT demonstration of a large intramural/submucosal duodenal hematoma supports the diagnosis."
+      },
+      {
+        "source": "n67",
+        "target": "n65",
+        "kind": "supports",
+        "explanation": "No intussusception on ultrasound supports intussusception being low probability."
+      },
+      {
+        "source": "n68",
+        "target": "n65",
+        "kind": "supports",
+        "explanation": "Finding an alternative lesion lowers the probability of intussusception."
+      },
+      {
+        "source": "n71",
+        "target": "n61",
+        "kind": "supports",
+        "explanation": "CT clarification that the ultrasound finding was duodenal wall hematoma supports the final diagnosis."
+      },
+      {
+        "source": "n73",
+        "target": "n72",
+        "kind": "supports",
+        "explanation": "Vomiting and abdominal pain can initially suggest gastroenteritis."
+      },
+      {
+        "source": "n74",
+        "target": "n45",
+        "kind": "supports",
+        "explanation": "No fever supports the statement that infectious gastroenteritis is less likely."
+      },
+      {
+        "source": "n74",
+        "target": "n46",
+        "kind": "supports",
+        "explanation": "No diarrhea supports the statement that infectious gastroenteritis is less likely."
+      },
+      {
+        "source": "n77",
+        "target": "n76",
+        "kind": "supports",
+        "explanation": "Spontaneous hematoma without trauma raises concern for a bleeding diathesis differential."
+      },
+      {
+        "source": "n79",
+        "target": "n76",
+        "kind": "supports",
+        "explanation": "Normal PT, aPTT, and bleeding time make the bleeding-diathesis differential more nuanced but still under evaluation."
+      },
+      {
+        "source": "n12",
+        "target": "n58",
+        "kind": "supports",
+        "explanation": "The statement that imaging is the most important salient positive finding points to the decisive CT evidence."
+      },
+      {
+        "source": "n47",
+        "target": "n61",
+        "kind": "supports",
+        "explanation": "A structural lesion causing symptoms supports the diagnosis of intramural duodenal hematoma."
+      }
+    ],
+    "disconnected": [
+      "n10",
+      "n11",
+      "n14",
+      "n18",
+      "n19",
+      "n20",
+      "n21",
+      "n22",
+      "n23",
+      "n24",
+      "n25",
+      "n27",
+      "n28",
+      "n29",
+      "n3",
+      "n30",
+      "n31",
+      "n32",
+      "n33",
+      "n36",
+      "n37",
+      "n39",
+      "n4",
+      "n41",
+      "n42",
+      "n44",
+      "n5",
+      "n50",
+      "n51",
+      "n56",
+      "n57",
+      "n59",
+      "n6",
+      "n62",
+      "n66",
+      "n75",
+      "n78",
+      "n8",
+      "n9"
+    ],
+    "clusters": [
+      {
+        "cluster_id": "c1",
+        "label": "history_taking",
+        "statement_indices": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "summary": "Initial presentation and overall clinical stability are described.",
+        "salience": 0.35
+      },
+      {
+        "cluster_id": "c2",
+        "label": "examination",
+        "statement_indices": [
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ],
+        "summary": "Physical exam and lab abnormalities are summarized, including anemia and inflammatory markers.",
+        "salience": 0.5
+      },
+      {
+        "cluster_id": "c3",
+        "label": "test_ordering",
+        "statement_indices": [
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ],
+        "summary": "Imaging workup identifies a duodenal hematoma causing obstruction and explaining symptoms.",
+        "salience": 0.98
+      },
+      {
+        "cluster_id": "c4",
+        "label": "history_taking",
+        "statement_indices": [
+          18,
+          19,
+          20,
+          21,
+          22
+        ],
+        "summary": "Pertinent negatives from the history reduce infectious, urinary, traumatic, and recurrent causes.",
+        "salience": 0.4
+      },
+      {
+        "cluster_id": "c5",
+        "label": "examination",
+        "statement_indices": [
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31
+        ],
+        "summary": "Additional exam and coagulation/family-history details argue against common alternative causes.",
+        "salience": 0.45
+      },
+      {
+        "cluster_id": "c6",
+        "label": "differential_generation",
+        "statement_indices": [
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38
+        ],
+        "summary": "Common alternative diagnoses are downweighted and intramural duodenal hematoma is favored.",
+        "salience": 0.9
+      },
+      {
+        "cluster_id": "c7",
+        "label": "differential_generation",
+        "statement_indices": [
+          39,
+          40,
+          41,
+          42,
+          43,
+          44
+        ],
+        "summary": "Intussusception and a pancreatic/periportal mass are considered but excluded by imaging.",
+        "salience": 0.85
+      },
+      {
+        "cluster_id": "c8",
+        "label": "differential_generation",
+        "statement_indices": [
+          45,
+          46,
+          47,
+          48,
+          49,
+          50,
+          51
+        ],
+        "summary": "Infectious and traumatic explanations are considered less likely; the lesion itself is prioritized.",
+        "salience": 0.75
+      },
+      {
+        "cluster_id": "c9",
+        "label": "differential_generation",
+        "statement_indices": [
+          52,
+          53,
+          54,
+          55,
+          56,
+          57
+        ],
+        "summary": "An underlying bleeding disorder is considered, but evidence more strongly supports the hematoma diagnosis.",
+        "salience": 0.7
+      },
+      {
+        "cluster_id": "c10",
+        "label": "final_decision",
+        "statement_indices": [
+          58,
+          59,
+          60,
+          61
+        ],
+        "summary": "CT findings are decisive and the diagnosis is committed as intramural duodenal hematoma.",
+        "salience": 1.0
+      },
+      {
+        "cluster_id": "c11",
+        "label": "differential_generation",
+        "statement_indices": [
+          62,
+          63,
+          64,
+          65,
+          66,
+          67,
+          68,
+          69,
+          70,
+          71,
+          72,
+          73,
+          74,
+          75,
+          76,
+          77,
+          78,
+          79
+        ],
+        "summary": "The final differential review ranks duodenal hematoma highest and lowers competing diagnoses.",
+        "salience": 0.88
+      },
+      {
+        "cluster_id": "c12",
+        "label": "final_decision",
+        "statement_indices": [
+          80
+        ],
+        "summary": "Final diagnosis is stated explicitly as intramural duodenal hematoma.",
+        "salience": 1.0
+      }
+    ],
+    "node_ranks": {
+      "n1": 0.2583,
+      "n2": 0.3583,
+      "n3": 0.2083,
+      "n4": 0.2083,
+      "n5": 0.2083,
+      "n6": 0.2667,
+      "n7": 0.2167,
+      "n8": 0.2667,
+      "n9": 0.2667,
+      "n10": 0.2667,
+      "n11": 0.2667,
+      "n12": 0.175,
+      "n13": 0.275,
+      "n14": 0.325,
+      "n15": 0.275,
+      "n16": 0.375,
+      "n17": 0.475,
+      "n18": 0.3833,
+      "n19": 0.3833,
+      "n20": 0.3833,
+      "n21": 0.3833,
+      "n22": 0.3833,
+      "n23": 0.4417,
+      "n24": 0.4417,
+      "n25": 0.4417,
+      "n26": 0.4917,
+      "n27": 0.4417,
+      "n28": 0.4417,
+      "n29": 0.4417,
+      "n30": 0.4417,
+      "n31": 0.4417,
+      "n32": 0.5,
+      "n33": 0.5,
+      "n34": 0.65,
+      "n35": 0.65,
+      "n36": 0.5,
+      "n37": 0.5,
+      "n38": 0.55,
+      "n39": 0.5583,
+      "n40": 0.6083,
+      "n41": 0.5583,
+      "n42": 0.5583,
+      "n43": 0.7083,
+      "n44": 0.5583,
+      "n45": 0.7667,
+      "n46": 0.7667,
+      "n47": 0.5667,
+      "n48": 0.6667,
+      "n49": 0.6667,
+      "n50": 0.6167,
+      "n51": 0.6167,
+      "n52": 0.825,
+      "n53": 0.725,
+      "n54": 0.725,
+      "n55": 0.725,
+      "n56": 0.675,
+      "n57": 0.675,
+      "n58": 0.6833,
+      "n59": 0.7333,
+      "n60": 0.8833,
+      "n61": 0.7833,
+      "n62": 0.7917,
+      "n63": 0.7417,
+      "n64": 0.9417,
+      "n65": 0.9417,
+      "n66": 0.7917,
+      "n67": 0.8417,
+      "n68": 0.8417,
+      "n69": 0.9417,
+      "n70": 0.8417,
+      "n71": 0.7417,
+      "n72": 0.9417,
+      "n73": 0.8417,
+      "n74": 0.8417,
+      "n75": 0.7917,
+      "n76": 0.9417,
+      "n77": 0.8417,
+      "n78": 0.7917,
+      "n79": 0.8417,
+      "n80": 1.0
+    }
+  }
+}

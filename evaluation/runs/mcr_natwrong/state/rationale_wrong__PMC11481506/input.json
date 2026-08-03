@@ -1,0 +1,40 @@
+{
+  "input": {
+    "resourceType": "clinicalCaseDiagnosis",
+    "id": "PMC11481506",
+    "origin": "testdata/streamlined/clinical-cases-cot/extracted/PMC11481506.json",
+    "groundTruthDiagnosis": "Heart failure",
+    "rawInput": {
+      "complaint": "A 26-year-old man with no history of hypertension or heart disease presented with a 3-day history of upper abdominal pain. He reported epigastric tenderness with rebound and a positive Murphy’s sign. He was afebrile. Laboratory tests showed mild jaundice and a mildly elevated leukocyte count; procalcitonin and C-reactive protein levels were normal. An abdominal CT scan demonstrated a hyperdense gallbladder, mild gallbladder wall swelling, and fluid collections in the chest, pericardial sac, and abdomen. Electrocardiography showed ST-segment depression with T-wave inversion in V1–4 and a prolonged QT interval. The patient was taken to the operating room for an emergency laparotomy; intraoperatively, there was no evidence of bowel perforation, gallbladder enlargement, or cholangitis, but there was ascites and bowel wall edema. Approximately 1000 mL of peritoneal fluid was drained, and the patient was transferred to the intensive care unit.",
+      "metadata": {
+        "presentation": "A 26-year-old man with no history of hypertension or heart disease presented with a 3-day history of upper abdominal pain. He reported epigastric tenderness with rebound and a positive Murphy’s sign. He was afebrile. Laboratory tests showed mild jaundice and a mildly elevated leukocyte count; procalcitonin and C-reactive protein levels were normal. An abdominal CT scan demonstrated a hyperdense gallbladder, mild gallbladder wall swelling, and fluid collections in the chest, pericardial sac, and abdomen. Electrocardiography showed ST-segment depression with T-wave inversion in V1–4 and a prolonged QT interval. The patient was taken to the operating room for an emergency laparotomy; intraoperatively, there was no evidence of bowel perforation, gallbladder enlargement, or cholangitis, but there was ascites and bowel wall edema. Approximately 1000 mL of peritoneal fluid was drained, and the patient was transferred to the intensive care unit."
+      }
+    },
+    "cotDiagnosis": {
+      "reasoning": "The chief complaint is 3 days of upper abdominal pain in a previously healthy 26-year-old man. The initial bedside concern appears to have been an acute surgical abdomen or biliary disease because he had epigastric tenderness with rebound and a positive Murphy’s sign, and CT showed a hyperdense gallbladder with mild wall swelling. However, the patient’s own presentation also includes several features that are not well explained by straightforward cholecystitis: he was afebrile, inflammatory markers (procalcitonin and CRP) were normal, and imaging showed multisystem fluid accumulation in the chest, pericardial sac, and abdomen.\n\nSalient positive findings are: upper abdominal pain; epigastric tenderness with rebound; positive Murphy’s sign; mild jaundice; mildly elevated leukocyte count; CT evidence of mild gallbladder wall swelling plus fluid in pleural/pericardial/peritoneal spaces; ECG with ST-segment depression, T-wave inversion in V1–4, and prolonged QT; and at laparotomy, ascites and bowel wall edema without bowel perforation, gallbladder enlargement, or cholangitis. The operative finding of about 1000 mL peritoneal fluid and bowel wall edema strongly suggests a systemic capillary leak/third-spacing process rather than a focal intra-abdominal infection.\n\nPertinent negatives are crucial. He had no history of hypertension or heart disease, making chronic cardiac causes less likely. He was afebrile and had normal procalcitonin and CRP, arguing against acute bacterial cholecystitis, cholangitis, or perforated viscus. Intraoperatively there was no bowel perforation, no gallbladder enlargement, and no cholangitis, which directly refutes the presumed surgical biliary diagnosis. The presence of pericardial and pleural fluid is also atypical for isolated gallbladder disease.\n\nThe first differential is acute cholecystitis or cholangitis because of the positive Murphy’s sign, mild jaundice, leukocytosis, and gallbladder wall changes on CT. But this becomes less likely because the patient was afebrile, inflammatory markers were normal, and surgery found no gallbladder enlargement or cholangitis. Gallbladder wall edema can be secondary to systemic edema rather than primary gallbladder inflammation.\n\nA second differential is perforated viscus or other surgical peritonitis because of rebound tenderness and ascites. This also becomes unlikely because laparotomy showed no perforation and instead showed bowel wall edema and free fluid, again favoring a systemic process.\n\nA third differential is acute pancreatitis, which can cause epigastric pain, ascites, pleural effusions, and reactive gallbladder changes. However, no pancreatic findings or enzyme abnormalities are provided, and the ECG abnormalities plus pericardial effusion are not typical core features.\n\nA fourth and more fitting differential is a systemic capillary leak state causing serosal effusions, bowel wall edema, gallbladder wall edema, and abdominal pain. In a young patient with pleural, pericardial, and peritoneal effusions plus bowel wall edema and no evidence of infection or perforation, hereditary angioedema with gastrointestinal involvement is a strong fit. Hereditary angioedema can present as severe abdominal pain mimicking an acute abdomen, with ascites, bowel wall edema, gallbladder wall edema, and even pleural/pericardial effusions due to increased vascular permeability. The ECG changes could reflect systemic illness/electrolyte effects or myocardial involvement from the same process, but the key diagnostic pattern here is unexplained multisystem edema/effusions with a negative laparotomy.\n\nNarrowing to the single most likely diagnosis: the combination of acute abdominal pain, bowel wall edema, large-volume ascites, pleural and pericardial effusions, mild gallbladder wall edema mimicking cholecystitis, and absence of infectious or surgical pathology most strongly supports hereditary angioedema presenting with an abdominal attack. This diagnosis best unifies the false-positive Murphy’s sign, the imaging, and the negative exploratory laparotomy.",
+      "differentialDiagnoses": [
+        {
+          "condition": "Hereditary angioedema with abdominal attack",
+          "likelihood": "high",
+          "supportingEvidence": "Young man with severe abdominal pain, bowel wall edema, ~1000 mL ascites, pleural/pericardial/peritoneal fluid collections, and no perforation, cholangitis, or true gallbladder enlargement; pattern suggests systemic capillary leak/visceral edema rather than focal infection."
+        },
+        {
+          "condition": "Acute cholecystitis/cholangitis",
+          "likelihood": "medium",
+          "supportingEvidence": "Positive Murphy’s sign, mild jaundice, mild leukocytosis, and CT showing hyperdense gallbladder with mild wall swelling initially suggest biliary disease, but afebrile status, normal CRP/procalcitonin, and negative operative findings argue against it."
+        },
+        {
+          "condition": "Perforated viscus or generalized surgical peritonitis",
+          "likelihood": "low",
+          "supportingEvidence": "Rebound tenderness and ascites could suggest a surgical abdomen, but emergency laparotomy found no bowel perforation and instead showed bowel wall edema and free fluid."
+        },
+        {
+          "condition": "Acute pancreatitis",
+          "likelihood": "low",
+          "supportingEvidence": "Epigastric pain with ascites and pleural fluid could fit, but no pancreatic imaging findings or laboratory support are provided, and the operative findings favored diffuse edema rather than pancreatitis."
+        }
+      ],
+      "finalDiagnosis": "Hereditary angioedema with abdominal attack"
+    }
+  }
+}

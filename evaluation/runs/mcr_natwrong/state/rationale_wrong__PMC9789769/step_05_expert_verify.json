@@ -1,0 +1,809 @@
+{
+  "name": "expert_verify",
+  "passed": true,
+  "score": 1.0,
+  "reasoning": "No contradictions among 88 statement(s) (57 supported, 31 valid inferences, 0 unverifiable).",
+  "data": {
+    "verifications": [
+      {
+        "text": "The chief complaint is a 4-week progressive cough with recent anorexia in a 7-year-old dog.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Reference states a 4-week history of progressive cough and recent anorexia in a 7-year-old male dog."
+      },
+      {
+        "text": "The owner’s main concern is worsening respiratory signs and reduced appetite.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.95,
+        "reasoning": "Owner concern is described as worsening respiratory signs and reduced appetite."
+      },
+      {
+        "text": "The course is subacute and progressive rather than acute.",
+        "category": "factual",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.9,
+        "reasoning": "A 4-week progressive course is reasonably characterized as subacute rather than acute."
+      },
+      {
+        "text": "There is substantial chronicity suggested by 20% body weight loss since the prior visit 18 months earlier.",
+        "category": "statistical",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.98,
+        "reasoning": "Reference notes 20% body weight loss since the last visit 18 months earlier."
+      },
+      {
+        "text": "Marked eosinophilia was present on the initial CBC.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "CBC showed marked eosinophilia (7.9 × 10^9/l, above reference range)."
+      },
+      {
+        "text": "The eosinophilia measured 7.9 × 10^9/l.",
+        "category": "statistical",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 1.0,
+        "reasoning": "Exact eosinophil value in reference is 7.9 × 10^9/l."
+      },
+      {
+        "text": "Moderate basophilia was present on the initial CBC.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Reference explicitly reports moderate basophilia (0.27 × 10^9/l)."
+      },
+      {
+        "text": "Thoracic radiographs showed a large soft-tissue opacity in the left cranial lung lobe.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Thoracic radiographs showed a large soft-tissue opacity in the left cranial lung lobe."
+      },
+      {
+        "text": "Thoracic radiographs showed a mild generalized bronchiolar pattern.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Radiographs also showed a mild generalized bronchiolar pattern."
+      },
+      {
+        "text": "CT showed a large lobulated left cranial lung lobe mass.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "CT revealed a lobulated mass in the left cranial lung lobe measuring 7.6 × 2.1 × 5.8 cm."
+      },
+      {
+        "text": "The CT mass showed heterogeneous enhancement.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Reference states heterogeneous enhancement of the CT mass."
+      },
+      {
+        "text": "The CT mass contained fluid pockets.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Reference states the mass had fluid pockets."
+      },
+      {
+        "text": "The CT mass caused compression and distortion of adjacent bronchi.",
+        "category": "causal",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "CT described the mass as compressing and distorting adjacent bronchi."
+      },
+      {
+        "text": "CT showed irregular nodular thickening infiltrating the right cranial and middle lobes.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Reference says irregular nodular thickening infiltrated the right cranial and middle lobes."
+      },
+      {
+        "text": "The CT showed nearly occluded airways in the right cranial and middle lobes.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Reference states the nodular thickening nearly occluded airways in those lobes."
+      },
+      {
+        "text": "CT showed moderate enlargement of the sternal lymph nodes.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.98,
+        "reasoning": "Sternal lymph nodes were moderately enlarged on CT."
+      },
+      {
+        "text": "CT showed moderate enlargement of the cranial mediastinal lymph nodes.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.98,
+        "reasoning": "Cranial mediastinal lymph nodes were moderately enlarged on CT."
+      },
+      {
+        "text": "Clinically, the dog had cough.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Cough is the presenting complaint."
+      },
+      {
+        "text": "Clinically, the dog had anorexia.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Recent anorexia is explicitly stated."
+      },
+      {
+        "text": "Clinically, the dog had significant weight loss.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Reference notes 20% body weight loss since prior visit."
+      },
+      {
+        "text": "The dog had lacked parasite prophylaxis for 18 months.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "No parasite prophylaxis for 18 months is explicitly stated."
+      },
+      {
+        "text": "The dog had normal heart sounds on examination.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Exam documented normal heart sounds."
+      },
+      {
+        "text": "The dog had normal lung sounds on examination.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Exam documented normal lung sounds."
+      },
+      {
+        "text": "The dog had no prior respiratory disease.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Reference states there was no prior respiratory disease."
+      },
+      {
+        "text": "The dog had normal serum biochemistry.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Serum biochemistry was within reference limits."
+      },
+      {
+        "text": "The heartworm antigen test was negative.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Heartworm antigen test was negative."
+      },
+      {
+        "text": "The fecal parasite analysis was negative.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Fecal parasite analysis was negative."
+      },
+      {
+        "text": "There was no pleural effusion on radiographs.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Thoracic radiographs showed no pleural effusion."
+      },
+      {
+        "text": "There were no abdominal abnormalities on CT.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Abdominal CT was unremarkable, i.e., no abdominal abnormalities reported."
+      },
+      {
+        "text": "The pulmonary opacity did not change after 10 days of antibiotics and bronchodilators.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "After 10 days of antibiotics and bronchodilators, the mass was unchanged on radiographs."
+      },
+      {
+        "text": "The lack of change after 10 days of antibiotics and bronchodilators argues against a simple bacterial pneumonia as the primary process.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.95,
+        "reasoning": "Lack of radiographic response to antibiotics makes simple bacterial pneumonia less likely as the primary process."
+      },
+      {
+        "text": "The lack of change after 10 days of antibiotics and bronchodilators argues against reversible inflammatory bronchial disease as the primary process.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.9,
+        "reasoning": "No improvement with bronchodilators and antibiotics also argues against a reversible inflammatory bronchial process."
+      },
+      {
+        "text": "The eosinophilia resolved.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Reference explicitly says eosinophilia resolved after 10 days."
+      },
+      {
+        "text": "The pulmonary mass persisted unchanged.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Reference states the mass on radiographs was unchanged."
+      },
+      {
+        "text": "The persistence of the pulmonary mass suggests the eosinophilia may have been reactive rather than the main disease process.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.9,
+        "reasoning": "Persistent mass despite resolution of eosinophilia supports eosinophilia being reactive rather than the main disease driver."
+      },
+      {
+        "text": "The first major differential is primary pulmonary neoplasia.",
+        "category": "factual",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.98,
+        "reasoning": "Primary pulmonary neoplasia is the leading differential in the trace, consistent with the imaging and clinical course."
+      },
+      {
+        "text": "Primary pulmonary neoplasia fits the large solitary dominant lung mass.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.98,
+        "reasoning": "A large solitary dominant lung mass is a classic feature supporting primary pulmonary neoplasia."
+      },
+      {
+        "text": "Primary pulmonary neoplasia fits the progressive cough.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.95,
+        "reasoning": "Progressive cough is compatible with pulmonary neoplasia, though not specific."
+      },
+      {
+        "text": "Primary pulmonary neoplasia fits the anorexia.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.95,
+        "reasoning": "Anorexia is a common systemic sign in neoplastic disease and fits the overall picture."
+      },
+      {
+        "text": "Primary pulmonary neoplasia fits the weight loss.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.95,
+        "reasoning": "Weight loss is consistent with malignancy and fits the case context."
+      },
+      {
+        "text": "Primary pulmonary neoplasia fits the heterogeneous contrast enhancement with fluid pockets.",
+        "category": "causal",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.98,
+        "reasoning": "CT showed heterogeneous enhancement with fluid pockets in the left cranial lung lobe mass, which is compatible with neoplasia."
+      },
+      {
+        "text": "Primary pulmonary neoplasia fits the bronchial compression and distortion.",
+        "category": "causal",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "CT explicitly described compression and distortion of adjacent bronchi by the mass."
+      },
+      {
+        "text": "Primary pulmonary neoplasia fits the regional lymphadenopathy.",
+        "category": "causal",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.98,
+        "reasoning": "CT showed moderately enlarged sternal and cranial mediastinal lymph nodes."
+      },
+      {
+        "text": "The additional airway-infiltrative nodular lesions in other lobes could represent intrapulmonary spread.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.9,
+        "reasoning": "Irregular nodular thickening in other lobes could reasonably be interpreted as intrapulmonary spread, though not stated verbatim."
+      },
+      {
+        "text": "The additional airway-infiltrative nodular lesions in other lobes could represent endobronchial extension.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.84,
+        "reasoning": "Airway-infiltrative nodular thickening nearly occluding airways can reasonably be framed as possible endobronchial extension."
+      },
+      {
+        "text": "Lack of response of the mass to antibiotics further supports neoplasia.",
+        "category": "causal",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.97,
+        "reasoning": "After 10 days of antibiotics and bronchodilators, the mass was unchanged."
+      },
+      {
+        "text": "A second consideration is fungal or parasitic granulomatous pulmonary disease.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.95,
+        "reasoning": "The trace explicitly lists fungal or parasitic granulomatous pulmonary disease as a differential."
+      },
+      {
+        "text": "Eosinophilia could suggest parasitic migration or eosinophilic granuloma.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.92,
+        "reasoning": "Marked eosinophilia can reasonably raise concern for parasitic migration or eosinophilic granulomatous disease."
+      },
+      {
+        "text": "Basophilia could suggest parasitic migration or eosinophilic granuloma.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.88,
+        "reasoning": "Basophilia can also support a parasitic/allergic/eosinophilic differential, though this is an inference rather than a stated fact."
+      },
+      {
+        "text": "Absent parasite prophylaxis could suggest parasitic migration or eosinophilic granuloma.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.93,
+        "reasoning": "No parasite prophylaxis for 18 months reasonably broadens parasitic considerations."
+      },
+      {
+        "text": "A lung mass could suggest parasitic migration or eosinophilic granuloma.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.9,
+        "reasoning": "A pulmonary mass can reasonably suggest granulomatous/parasitic disease in the differential."
+      },
+      {
+        "text": "Fungal disease can produce mass-like pulmonary lesions.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.96,
+        "reasoning": "Mass-like pulmonary lesions are a standard possible manifestation of fungal disease."
+      },
+      {
+        "text": "Fungal disease can produce lymphadenopathy.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.95,
+        "reasoning": "Fungal pulmonary disease can be associated with lymphadenopathy; this is a standard clinical inference."
+      },
+      {
+        "text": "Heartworm antigen testing was negative.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 1.0,
+        "reasoning": "Heartworm antigen test was negative in the reference data."
+      },
+      {
+        "text": "Fecal testing was negative.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 1.0,
+        "reasoning": "Fecal parasite analysis was negative."
+      },
+      {
+        "text": "Abdominal CT was unremarkable.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 1.0,
+        "reasoning": "Abdominal CT was unremarkable."
+      },
+      {
+        "text": "The lesion remained unchanged despite initial treatment.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "The mass on radiographs was unchanged after 10 days of treatment."
+      },
+      {
+        "text": "CT showed a dominant lobulated mass with airway invasion and nodular bronchial thickening.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.98,
+        "reasoning": "CT showed a lobulated left cranial lung lobe mass with heterogeneous enhancement and fluid pockets, plus irregular nodular thickening infiltrating and nearly occluding airways."
+      },
+      {
+        "text": "The CT pattern is more suggestive of neoplasia than a straightforward parasitic or inflammatory lesion.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.97,
+        "reasoning": "Given the CT appearance and lack of response to treatment, neoplasia is more likely than a simple parasitic/inflammatory lesion."
+      },
+      {
+        "text": "Negative fecal testing does not fully exclude pulmonary parasites.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.98,
+        "reasoning": "Negative fecal testing does not exclude pulmonary parasites; this is a standard limitation of fecal testing."
+      },
+      {
+        "text": "The overall imaging pattern is less supportive of a parasitic or inflammatory lesion.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.96,
+        "reasoning": "The imaging pattern is reasonably less supportive of a straightforward parasitic or inflammatory lesion."
+      },
+      {
+        "text": "A third differential is eosinophilic bronchopneumopathy or eosinophilic pulmonary granulomatosis.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "The trace explicitly names eosinophilic bronchopneumopathy/eosinophilic pulmonary granulomatosis as a differential."
+      },
+      {
+        "text": "The eosinophilia could fit eosinophilic bronchopneumopathy or eosinophilic pulmonary granulomatosis.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.95,
+        "reasoning": "Marked eosinophilia is a reasonable basis to consider eosinophilic bronchopneumopathy/granulomatosis."
+      },
+      {
+        "text": "The bronchiolar pattern could fit eosinophilic bronchopneumopathy or eosinophilic pulmonary granulomatosis.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.93,
+        "reasoning": "A mild generalized bronchiolar pattern can reasonably fit eosinophilic airway disease."
+      },
+      {
+        "text": "Airway-centered disease can occur in eosinophilic bronchopneumopathy or eosinophilic pulmonary granulomatosis.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.9,
+        "reasoning": "Airway-centered disease is a standard feature of eosinophilic bronchopneumopathy/granulomatosis."
+      },
+      {
+        "text": "This case has a very large discrete lobulated pulmonary mass.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 1.0,
+        "reasoning": "CT described a large lobulated left cranial lung lobe mass measuring 7.6 × 2.1 × 5.8 cm."
+      },
+      {
+        "text": "This case has significant weight loss.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 1.0,
+        "reasoning": "The dog had lost 20% of body weight since the prior visit."
+      },
+      {
+        "text": "This case has mediastinal lymphadenopathy.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 1.0,
+        "reasoning": "Sternal and cranial mediastinal lymph nodes were moderately enlarged."
+      },
+      {
+        "text": "This case had no radiographic improvement after treatment.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "After treatment, the mass on radiographs was unchanged."
+      },
+      {
+        "text": "These features are less typical for diffuse eosinophilic airway disease.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.95,
+        "reasoning": "A large discrete mass, weight loss, lymphadenopathy, and lack of response are less typical of diffuse eosinophilic airway disease."
+      },
+      {
+        "text": "These features are more consistent with a tumor.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.96,
+        "reasoning": "Those same features are more consistent with a tumor than with diffuse eosinophilic airway disease."
+      },
+      {
+        "text": "Lymphoma or metastatic neoplasia are also possible.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.93,
+        "reasoning": "The trace explicitly states lymphoma or metastatic neoplasia are possible."
+      },
+      {
+        "text": "Thoracic lymphadenopathy could occur with disseminated neoplasia.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.95,
+        "reasoning": "Thoracic lymphadenopathy can occur with disseminated neoplasia."
+      },
+      {
+        "text": "Multifocal thoracic involvement could occur with disseminated neoplasia.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.94,
+        "reasoning": "Multifocal thoracic lesions can occur with disseminated neoplasia."
+      },
+      {
+        "text": "The imaging emphasizes a dominant left cranial lung lobe mass with local bronchial distortion.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.98,
+        "reasoning": "Imaging showed a dominant left cranial lung lobe mass with bronchial compression/distortion."
+      },
+      {
+        "text": "The dominant left cranial lung lobe mass with local bronchial distortion is more characteristic of a primary pulmonary carcinoma than lymphoma.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.93,
+        "reasoning": "A dominant lung mass with local bronchial distortion is more characteristic of primary pulmonary carcinoma than lymphoma."
+      },
+      {
+        "text": "Abdominal CT being unremarkable makes an obvious extrathoracic primary source less evident.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.9,
+        "reasoning": "An unremarkable abdominal CT makes an obvious extrathoracic primary source less evident."
+      },
+      {
+        "text": "The combination of a persistent large pulmonary mass, progressive cough, anorexia, marked weight loss, heterogeneous enhancement with fluid pockets, bronchial compression and airway infiltration, plus regional thoracic lymphadenopathy most strongly supports primary pulmonary carcinoma.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.98,
+        "reasoning": "This is the trace's diagnostic synthesis: the combined findings most strongly support primary pulmonary carcinoma."
+      },
+      {
+        "text": "The eosinophilia and basophilia initially broaden the differential.",
+        "category": "causal",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.97,
+        "reasoning": "Marked eosinophilia and basophilia were present initially and appropriately broaden the differential."
+      },
+      {
+        "text": "The eosinophilia and basophilia resolved.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "The reference says eosinophilia resolved after treatment; basophilia is not explicitly stated to have resolved, so only the eosinophilia resolution is directly supported."
+      },
+      {
+        "text": "The mass remained unchanged.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Reference data states that after 10 days of antibiotics and bronchodilators, the mass on radiographs was unchanged."
+      },
+      {
+        "text": "The resolved eosinophilia and unchanged mass do not outweigh the structural imaging evidence for neoplasia.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.95,
+        "reasoning": "This is a reasonable interpretive conclusion from the unchanged mass and resolved eosinophilia, but it is not a directly stated fact in the reference data."
+      },
+      {
+        "text": "The most likely diagnosis is primary pulmonary adenocarcinoma.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.98,
+        "reasoning": "The trace explicitly concludes that the most likely diagnosis is primary pulmonary adenocarcinoma."
+      },
+      {
+        "text": "Primary pulmonary adenocarcinoma is listed as a high differential.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "The differential list explicitly labels primary pulmonary adenocarcinoma (bronchogenic carcinoma) as high."
+      },
+      {
+        "text": "Pulmonary granulomatous or parasitic disease is listed as a medium differential.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "The differential list explicitly labels pulmonary granulomatous/parasitic disease as medium."
+      },
+      {
+        "text": "Eosinophilic bronchopneumopathy or eosinophilic pulmonary granulomatosis is listed as a low differential.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "The differential list explicitly labels eosinophilic bronchopneumopathy/eosinophilic pulmonary granulomatosis as low."
+      },
+      {
+        "text": "Pulmonary lymphoma or metastatic neoplasia is listed as a low differential.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "The differential list explicitly labels pulmonary lymphoma or metastatic neoplasia as low."
+      },
+      {
+        "text": "The final diagnosis is primary pulmonary adenocarcinoma.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "The trace explicitly states the final diagnosis is primary pulmonary adenocarcinoma."
+      }
+    ],
+    "verdict_counts": {
+      "contradicted": 0,
+      "supported": 57,
+      "valid_inference": 31,
+      "unverifiable": 0
+    },
+    "contradictions": 0
+  }
+}

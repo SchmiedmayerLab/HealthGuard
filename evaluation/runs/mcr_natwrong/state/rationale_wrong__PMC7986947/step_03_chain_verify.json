@@ -1,0 +1,10 @@
+{
+  "name": "chain_verify",
+  "passed": true,
+  "score": 1.0,
+  "reasoning": "All logical chains are internally consistent. The statements form a coherent diagnostic chain: symptoms, imaging, and exclusionary lab/clinical features consistently support a primary lung malignancy with metastatic bone and spinal cord involvement. The few differential-diagnosis statements are internally consistent and appropriately qualified, without any broken logical links.",
+  "data": {
+    "has_chain_dependencies": true,
+    "issues": []
+  }
+}

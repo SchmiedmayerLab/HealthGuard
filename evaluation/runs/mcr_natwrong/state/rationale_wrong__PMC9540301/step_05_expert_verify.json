@@ -1,0 +1,692 @@
+{
+  "name": "expert_verify",
+  "passed": true,
+  "score": 1.0,
+  "reasoning": "No contradictions among 75 statement(s) (40 supported, 35 valid inferences, 0 unverifiable).",
+  "data": {
+    "verifications": [
+      {
+        "text": "The chief concern is sudden death within about 2 days of first BNT162b2 vaccination.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.98,
+        "reasoning": "Reference says first BNT162b2 dose on day X and found deceased on day X+2, i.e. about 2 days later."
+      },
+      {
+        "text": "The sudden death was preceded by acute systemic symptoms.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.97,
+        "reasoning": "She felt unwell immediately after vaccination and later developed fatigue, nausea, chest pain, and back pain."
+      },
+      {
+        "text": "The sudden death was preceded by chest pain.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Chest pain is explicitly documented at about 16:00 on day X+1."
+      },
+      {
+        "text": "The sudden death was preceded by back pain.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Back pain is explicitly documented at about 16:00 on day X+1."
+      },
+      {
+        "text": "The key diagnostic task is to identify the proximate medical cause of death rather than simply note the temporal association with vaccination.",
+        "category": "recommendation",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.95,
+        "reasoning": "This is a diagnostic framing/inference from the trace, not a direct data point."
+      },
+      {
+        "text": "She was a 72-year-old woman.",
+        "category": "statistical",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 1.0,
+        "reasoning": "Reference states a 72-year-old woman."
+      },
+      {
+        "text": "She developed malaise immediately after vaccination.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "She felt unwell immediately after vaccination and improved with rest."
+      },
+      {
+        "text": "On day X+1, at about 16:00, she developed fatigue.",
+        "category": "statistical",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.98,
+        "reasoning": "Fatigue at approximately 16:00 on day X+1 is explicitly stated."
+      },
+      {
+        "text": "On day X+1, at about 16:00, she developed nausea.",
+        "category": "statistical",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.98,
+        "reasoning": "Nausea at approximately 16:00 on day X+1 is explicitly stated."
+      },
+      {
+        "text": "On day X+1, at about 16:00, she developed chest pain.",
+        "category": "statistical",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.98,
+        "reasoning": "Chest pain at approximately 16:00 on day X+1 is explicitly stated."
+      },
+      {
+        "text": "On day X+1, at about 16:00, she developed back pain.",
+        "category": "statistical",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.98,
+        "reasoning": "Back pain at approximately 16:00 on day X+1 is explicitly stated."
+      },
+      {
+        "text": "She died sometime between about 20:00 on day X+1 and discovery on day X+2.",
+        "category": "statistical",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.97,
+        "reasoning": "Last known alive around 20:00 on day X+1 and found deceased on day X+2."
+      },
+      {
+        "text": "Baseline data shortly before vaccination showed normal liver function.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Laboratory testing one month before vaccination revealed normal liver function."
+      },
+      {
+        "text": "Baseline data shortly before vaccination showed normal kidney function.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Laboratory testing one month before vaccination revealed normal kidney function."
+      },
+      {
+        "text": "Baseline data shortly before vaccination showed normal blood count.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Laboratory testing one month before vaccination revealed a normal blood count."
+      },
+      {
+        "text": "There was no thrombocytopenia 10 days before vaccination.",
+        "category": "statistical",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Absence of thrombocytopenia was confirmed 10 days before vaccination."
+      },
+      {
+        "text": "There was no anemia 10 days before vaccination.",
+        "category": "statistical",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Absence of anemia was confirmed 10 days before vaccination."
+      },
+      {
+        "text": "The absence of thrombocytopenia and anemia 10 days before vaccination argues against a preexisting hematologic explanation for sudden collapse.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.9,
+        "reasoning": "Reasonable inference from normal CBC/no thrombocytopenia or anemia before vaccination; not a direct statement in the record."
+      },
+      {
+        "text": "Her past history includes controlled hyperthyroidism.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 1.0,
+        "reasoning": "Past history includes controlled hyperthyroidism."
+      },
+      {
+        "text": "Her past history includes remote diffuse large B-cell lymphoma in complete remission.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 1.0,
+        "reasoning": "Past history includes diffuse large B-cell lymphoma in complete remission."
+      },
+      {
+        "text": "Controlled hyperthyroidism does not by itself explain this abrupt chest/back pain syndrome.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.86,
+        "reasoning": "Clinical inference; controlled hyperthyroidism alone does not explain abrupt chest/back pain syndrome."
+      },
+      {
+        "text": "Remote diffuse large B-cell lymphoma in complete remission does not by itself explain this abrupt chest/back pain syndrome.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.86,
+        "reasoning": "Clinical inference; remote lymphoma in remission does not by itself explain the acute syndrome."
+      },
+      {
+        "text": "There is no report of fever.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.96,
+        "reasoning": "No fever is reported in the reference data."
+      },
+      {
+        "text": "There is no report of rash.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.96,
+        "reasoning": "No rash is reported in the reference data."
+      },
+      {
+        "text": "There is no report of airway symptoms.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.96,
+        "reasoning": "No airway symptoms are reported in the reference data."
+      },
+      {
+        "text": "There is no report of wheeze.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.96,
+        "reasoning": "No wheeze is reported in the reference data."
+      },
+      {
+        "text": "There is no report of hypotension.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.96,
+        "reasoning": "No hypotension is reported in the reference data."
+      },
+      {
+        "text": "There is no report of immediate cardiovascular collapse after vaccination.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.95,
+        "reasoning": "No immediate cardiovascular collapse after vaccination is described; she improved with rest and went home."
+      },
+      {
+        "text": "The absence of fever, rash, airway symptoms, wheeze, hypotension, and immediate cardiovascular collapse makes fatal anaphylaxis less consistent.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.93,
+        "reasoning": "This is a differential conclusion based on the absence of classic anaphylaxis features and delayed course."
+      },
+      {
+        "text": "There is no mention of prolonged prodromal infection.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.95,
+        "reasoning": "The reference data do not mention a prolonged prodromal infection."
+      },
+      {
+        "text": "There is no mention of heart failure symptoms.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.95,
+        "reasoning": "The reference data do not mention heart failure symptoms."
+      },
+      {
+        "text": "There is no mention of focal neurologic deficits.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.95,
+        "reasoning": "The reference data do not mention focal neurologic deficits."
+      },
+      {
+        "text": "There is no mention of trauma.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.95,
+        "reasoning": "The reference data do not mention trauma."
+      },
+      {
+        "text": "The vaccine was BNT162b2.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 1.0,
+        "reasoning": "Reference explicitly states first dose of BNT162b2."
+      },
+      {
+        "text": "The vaccine was not an adenoviral vector vaccine.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 1.0,
+        "reasoning": "BNT162b2 is an mRNA vaccine, not an adenoviral vector vaccine."
+      },
+      {
+        "text": "Vaccine-induced immune thrombotic thrombocytopenia is less fitting because the vaccine was BNT162b2 and not an adenoviral vector vaccine.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.92,
+        "reasoning": "Reasonable inference from vaccine type; VITT is classically associated with adenoviral vector vaccines."
+      },
+      {
+        "text": "The documented absence of thrombocytopenia before vaccination does not support a preexisting consumptive process.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.9,
+        "reasoning": "Inference from absence of thrombocytopenia before vaccination; it does not suggest a consumptive process."
+      },
+      {
+        "text": "There is no evidence presented for severe myocarditis/pericarditis prodrome such as persistent dyspnea.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.94,
+        "reasoning": "No evidence presented for persistent dyspnea as a myocarditis/pericarditis prodrome."
+      },
+      {
+        "text": "There is no evidence presented for severe myocarditis/pericarditis prodrome such as palpitations.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.94,
+        "reasoning": "No evidence presented for palpitations as a myocarditis/pericarditis prodrome."
+      },
+      {
+        "text": "There is no evidence presented for severe myocarditis/pericarditis prodrome such as fever.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.94,
+        "reasoning": "No evidence presented for fever as a myocarditis/pericarditis prodrome."
+      },
+      {
+        "text": "These findings cannot fully exclude myocarditis/pericarditis from the summary alone.",
+        "category": "factual",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.95,
+        "reasoning": "The summary notes myocarditis/pericarditis cannot be fully excluded from the limited case data; this is a cautious inference, not a direct fact."
+      },
+      {
+        "text": "Acute aortic dissection fits very well with the symptom pattern of chest pain plus back pain with nausea and rapid death in an older patient.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.98,
+        "reasoning": "Chest pain plus back pain with nausea and rapid death in an older patient is a standard clinical fit for aortic dissection."
+      },
+      {
+        "text": "The combination of chest and back pain is especially classic for dissection.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.97,
+        "reasoning": "Chest pain radiating to the back/back pain is a classic presentation of aortic dissection."
+      },
+      {
+        "text": "Sudden death at home within hours is compatible with rupture, tamponade, or catastrophic ischemic complications.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.86,
+        "reasoning": "Sudden death within hours is compatible with catastrophic complications such as rupture or tamponade; this is clinically plausible though not proven by the record."
+      },
+      {
+        "text": "Acute myocardial infarction is also plausible because chest pain, nausea, and sudden death are common, especially in an older woman.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.93,
+        "reasoning": "Chest pain, nausea, and sudden death in an older woman are compatible with acute MI."
+      },
+      {
+        "text": "Prominent back pain makes dissection more characteristic than acute myocardial infarction.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.95,
+        "reasoning": "Back pain is more characteristic of dissection than MI, a standard differential-pruning inference."
+      },
+      {
+        "text": "The case framing around medicolegal autopsy after abrupt death suggests a catastrophic structural event is likely.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.72,
+        "reasoning": "Medicolegal autopsy after abrupt death suggests a catastrophic structural cause, but this is an inference from context rather than a documented finding."
+      },
+      {
+        "text": "Pulmonary embolism could cause chest pain and sudden death.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.9,
+        "reasoning": "Pulmonary embolism can present with chest pain and sudden death; this is standard medical knowledge."
+      },
+      {
+        "text": "Back pain is less characteristic of pulmonary embolism.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.9,
+        "reasoning": "Back pain is less typical for PE than for dissection."
+      },
+      {
+        "text": "Nausea is less characteristic of pulmonary embolism.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.88,
+        "reasoning": "Nausea is not a classic PE feature and is less characteristic than in dissection/MI."
+      },
+      {
+        "text": "There are no stated thrombotic risk clues.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.96,
+        "reasoning": "The reference data lists hyperthyroidism, lymphoma history, and penicillin allergy, but no thrombotic risk clues are stated."
+      },
+      {
+        "text": "There is no stated dyspnea.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.97,
+        "reasoning": "The presentation describes fatigue, nausea, chest pain, and back pain; dyspnea is not mentioned."
+      },
+      {
+        "text": "Vaccine-related anaphylaxis is unlikely because she survived well beyond the immediate post-vaccination period.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.94,
+        "reasoning": "She was alive and improved after vaccination, with symptoms developing the next day, so immediate fatal anaphylaxis is unlikely."
+      },
+      {
+        "text": "Vaccine-related anaphylaxis is unlikely because she improved after initial malaise.",
+        "category": "causal",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.98,
+        "reasoning": "The record says she felt unwell immediately after vaccination but improved with rest and returned home."
+      },
+      {
+        "text": "Vaccine-associated myocarditis is low likelihood.",
+        "category": "factual",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.9,
+        "reasoning": "Given the differential discussion, myocarditis is being assessed as low likelihood; this is a conclusion rather than a directly stated fact in the record."
+      },
+      {
+        "text": "Vaccine-associated myocarditis is much rarer in a 72-year-old woman.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.93,
+        "reasoning": "Myocarditis after mRNA vaccination is much less common in a 72-year-old woman than in younger males."
+      },
+      {
+        "text": "Vaccine-associated myocarditis usually presents with chest pain within days.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.84,
+        "reasoning": "Vaccine-associated myocarditis typically presents within days with chest pain; this is standard clinical knowledge."
+      },
+      {
+        "text": "Vaccine-associated myocarditis does not typically present with this chest-plus-back pain pattern.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.9,
+        "reasoning": "Chest-plus-back pain is not the usual myocarditis pattern, making this a reasonable inference."
+      },
+      {
+        "text": "Vaccine-associated myocarditis does not typically cause sudden death so quickly after first dose.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.82,
+        "reasoning": "Rapid sudden death shortly after first dose is not the typical myocarditis presentation; this is a differential inference."
+      },
+      {
+        "text": "Among the plausible fatal causes, acute aortic dissection best matches the specific symptom cluster of chest pain radiating to the back or back pain, nausea, and abrupt death over a short interval in an elderly patient.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.98,
+        "reasoning": "This is the trace’s diagnostic synthesis: dissection best matches chest/back pain, nausea, and abrupt death in an elderly patient."
+      },
+      {
+        "text": "The temporal relation to vaccination may be incidental rather than causal based on the data provided.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.9,
+        "reasoning": "The trace explicitly frames the vaccine timing as possibly incidental rather than causal; this is an inference from the case context."
+      },
+      {
+        "text": "The most likely diagnosis is acute aortic dissection.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "The trace explicitly states the most likely diagnosis is acute aortic dissection."
+      },
+      {
+        "text": "Older patient with abrupt chest pain and back pain plus nausea and fatigue on day X+1 followed by sudden death within hours is a high-likelihood pattern for acute aortic dissection.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.97,
+        "reasoning": "The described symptom sequence and timing are a classic high-likelihood pattern for dissection."
+      },
+      {
+        "text": "Chest-plus-back pain is classic for acute aortic dissection.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.98,
+        "reasoning": "Chest pain with back pain is a classic dissection presentation."
+      },
+      {
+        "text": "Chest pain, nausea, and sudden death in a 72-year-old woman are compatible with acute myocardial infarction.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.95,
+        "reasoning": "Chest pain, nausea, and sudden death in a 72-year-old woman are compatible with MI."
+      },
+      {
+        "text": "The associated back pain makes acute aortic dissection more characteristic than acute myocardial infarction.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.96,
+        "reasoning": "Back pain shifts the differential toward dissection over MI."
+      },
+      {
+        "text": "Pulmonary embolism can cause chest pain and sudden death.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.95,
+        "reasoning": "PE can cause chest pain and sudden death; standard medical knowledge."
+      },
+      {
+        "text": "The reported symptom pattern lacks dyspnea.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.98,
+        "reasoning": "Dyspnea is not reported in the reference presentation."
+      },
+      {
+        "text": "The reported symptom pattern is less typical than dissection or myocardial infarction.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.9,
+        "reasoning": "Given the symptom pattern, PE is less typical than dissection or MI."
+      },
+      {
+        "text": "Temporal proximity to mRNA vaccination and chest pain could suggest vaccine-associated myocarditis.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.88,
+        "reasoning": "Temporal proximity to mRNA vaccination and chest pain could raise myocarditis as a differential consideration."
+      },
+      {
+        "text": "Age and sex are atypical for vaccine-associated myocarditis.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.96,
+        "reasoning": "A 72-year-old woman is atypical for vaccine-associated myocarditis, which is more common in younger males."
+      },
+      {
+        "text": "Back pain with rapid sudden death is less characteristic of vaccine-associated myocarditis.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.9,
+        "reasoning": "Back pain with rapid sudden death is not the usual myocarditis presentation."
+      },
+      {
+        "text": "Immediate post-vaccination malaise improved with rest.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "The record states she felt unwell immediately after vaccination but improved with rest."
+      },
+      {
+        "text": "Fatal anaphylaxis would usually occur rapidly with airway or circulatory symptoms rather than delayed chest and back pain the next day.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.95,
+        "reasoning": "Fatal anaphylaxis usually occurs rapidly with airway/circulatory compromise, not delayed next-day chest/back pain."
+      },
+      {
+        "text": "The final diagnosis is acute aortic dissection.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "The trace explicitly gives the final diagnosis as acute aortic dissection."
+      }
+    ],
+    "verdict_counts": {
+      "contradicted": 0,
+      "supported": 40,
+      "valid_inference": 35,
+      "unverifiable": 0
+    },
+    "contradictions": 0
+  }
+}

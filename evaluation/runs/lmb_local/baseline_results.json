@@ -1,0 +1,964 @@
+[
+  {
+    "case_id": 4899,
+    "model": "ollama/gemma2:9b-instruct-q4_K_M",
+    "response": "It’s great that you’re taking steps to quit smoking at 34!  You’ve already taken a positive step by getting your lung function tested. While your FEV1 of 82% is currently within the normal range, continued smoking can lead to further decline and increase your risk for serious lung diseases down the road.\n\nLet's talk about strategies to help you quit successfully and avoid relapse:\n\n**Quitting Methods:**\n\n* **Nicotine Replacement Therapy (NRT):**  Patches and gum are both effective NRT options. Patches provide a steady dose of nicotine throughout the day, while gum allows for more controlled dosing when cravings hit. Your doctor can help determine which method might be best for you based on your individual needs and preferences.\n* **Cold Turkey:** Quitting abruptly can be challenging but is possible for some. It often involves strong willpower and support systems.\n\n**Behavioral Therapies:**\n\nThese are incredibly helpful, especially for women. They provide coping mechanisms for cravings and stress triggers, which are common relapse factors.  Look into programs specifically designed for women who smoke, as they often address unique challenges. \n\n**Hormonal Fluctuations:**\n\nYou're right, hormonal changes during your menstrual cycle can influence cravings. Be prepared for potential increases in cravings around certain times of the month and have strategies in place to manage them.\n\n**Stress Management:**\n\nWork-related stress is a major trigger for relapse. Identify your stressors and develop healthy coping mechanisms like exercise, mindfulness techniques, or talking to a therapist. \n\n**Preventing Relapse:**\n\n* **Identify Triggers:** Recognize situations or emotions that make you want to smoke and plan ways to avoid them or cope with them healthily.\n* **Build a Support System:** Surround yourself with people who encourage your quit journey. Join a support group or talk to friends and family about your goals.\n* **Reward Yourself:** Celebrate milestones along the way!\n\n**Next Steps:**\n\nI strongly recommend discussing these options with your doctor. They can assess your individual needs, provide personalized advice, and potentially prescribe medications to help you quit successfully. \n\n\nRemember, quitting smoking is a journey, not a destination. There will be challenges, but with the right support and strategies, you can achieve your goal of becoming smoke-free!",
+    "met": [
+      false,
+      false,
+      false,
+      true,
+      true,
+      true,
+      false,
+      false,
+      false
+    ],
+    "n_criteria": 9,
+    "n_positive_met": 3,
+    "n_negative_hit": 0,
+    "earned": 18.0,
+    "max_positive": 46.0,
+    "score": 0.3913
+  },
+  {
+    "case_id": 4900,
+    "model": "ollama/gemma2:9b-instruct-q4_K_M",
+    "response": "It's understandable that you're concerned about the possibility of HPV-associated oropharyngeal cancer given your history of high-risk oral sex exposures. \n\nYes, it is possible for HPV throat cancer to develop years after exposure.  HPV infection can sometimes persist in the body for a long time, and while most infections clear on their own, some can lead to cancer development years later. The risk of developing oropharyngeal cancer increases with the number and duration of high-risk exposures.\n\nIt's important to note that having had these exposures does not guarantee you will develop cancer. Many people who are exposed to HPV never develop any health problems related to it. \n\nYour current symptoms of recurrent sore throats and ear pain could be caused by a variety of things, including viral or bacterial infections. While they could potentially be related to HPV, it's impossible to say for sure without further evaluation.\n\nI recommend scheduling an appointment with your primary care physician or an ENT (Ear, Nose, and Throat) specialist. They can perform a physical exam, review your medical history, and possibly order some tests to assess your risk and rule out other potential causes for your symptoms. \n\n\nRemember, early detection is key in managing any potential health concerns. Don't hesitate to seek medical advice if you have any further questions or worries.",
+    "met": [
+      false,
+      true,
+      false,
+      false,
+      false,
+      true
+    ],
+    "n_criteria": 6,
+    "n_positive_met": 1,
+    "n_negative_hit": 1,
+    "earned": -5.0,
+    "max_positive": 22.0,
+    "score": -0.2273
+  },
+  {
+    "case_id": 4906,
+    "model": "ollama/gemma2:9b-instruct-q4_K_M",
+    "response": "I understand you're concerned about your daughter's elevated SGPT levels, even though she's been taking medication and following a special diet.  It's good that you're actively involved in her care. \n\nWhile I can't give specific medical advice without a full examination, there are several things we need to consider to understand why her SGPT levels haven't returned to normal:\n\n* **The cause of the elevated SGPT:**  SGPT is an enzyme found mainly in the liver. Elevated levels often indicate liver damage or inflammation. We need to figure out what's causing this in your daughter's case. \n* **Medication side effects:** Some medications can temporarily elevate SGPT levels. It's important to review all the medications she's taking, including Junior Lanzol, Ursokem, and Cynobac, to see if any could be contributing.\n* **Underlying medical conditions:** Certain conditions like autoimmune diseases or viral infections can also cause elevated SGPT. We need to rule these out through further testing.\n\n**What we can do next:**\n\n1. **Detailed history and physical exam:** I'll need to ask you more about her symptoms, past illnesses, family history, and any other medications she might be taking. A physical exam will also help me assess her overall health.\n2. **Additional blood tests:** We may need to order additional blood tests to check for specific liver diseases or infections. \n3. **Referral to a specialist:** Depending on the findings, I may refer you to a pediatric gastroenterologist or hepatologist who specializes in liver diseases. They can provide more specialized care and testing if needed.\n\nIt's important not to panic. While elevated SGPT levels are concerning, they don't always indicate a serious problem. By working together and investigating further, we can hopefully identify the cause and find the best way to manage it. \n\n\n**Please remember:** This information is for general knowledge and should not be considered medical advice. It's crucial to consult with your daughter's doctor for personalized guidance and treatment.",
+    "met": [
+      true,
+      false,
+      false,
+      false
+    ],
+    "n_criteria": 4,
+    "n_positive_met": 1,
+    "n_negative_hit": 0,
+    "earned": 10.0,
+    "max_positive": 18.0,
+    "score": 0.5556
+  },
+  {
+    "case_id": 4908,
+    "model": "ollama/gemma2:9b-instruct-q4_K_M",
+    "response": "I understand you're seeking guidance regarding ablation for your supraventricular tachycardia (SVT) given your mild mitral and tricuspid regurgitation. This is a complex decision with valid points on both sides. \n\nThe electrophysiologist believes ablation could effectively treat your SVT, while your cardiologist is cautious due to the potential impact on your existing heart valve issues.  It's important to remember that ablation carries risks, like any procedure, and these risks might be amplified in your case because of the pre-existing MR and TR.\n\n**Here's what I recommend:**\n\n1. **Gather more information:** \n    * Ask both your electrophysiologist and cardiologist to explain their reasoning in detail. What are the specific risks and benefits of ablation for you, considering your individual situation?\n    * Inquire about alternative treatment options for your SVT, such as medication adjustments or lifestyle modifications.\n\n2. **Seek a second opinion:**  It's always wise to consult with another cardiologist specializing in both arrhythmias and heart valve disease. This can provide an independent perspective and help you make a more informed decision.\n\n3. **Consider the long-term impact:** Discuss with your doctors how your SVT and mild valve issues might progress over time without intervention versus the potential risks and benefits of ablation. \n\nUltimately, the best course of action is the one that aligns with your individual needs, preferences, and risk tolerance.  Don't hesitate to ask questions and advocate for yourself throughout this process.",
+    "met": [
+      false,
+      false,
+      false,
+      false,
+      true,
+      false
+    ],
+    "n_criteria": 6,
+    "n_positive_met": 0,
+    "n_negative_hit": 1,
+    "earned": -3.0,
+    "max_positive": 24.0,
+    "score": -0.125
+  },
+  {
+    "case_id": 4917,
+    "model": "ollama/gemma2:9b-instruct-q4_K_M",
+    "response": "It's great that you're an active individual!  While it's true that athletes often have lower resting heart rates due to improved cardiovascular fitness, a resting rate of 49 bpm during the day and drops to 35 bpm at night are on the lower end of normal.\n\nThe fact that your heart rate is consistently below 60 bpm, even with regular exercise, warrants further evaluation.  While you're not experiencing symptoms now, it's important to rule out any underlying conditions that could be contributing to this bradycardia.\n\nI recommend discussing these findings with your cardiologist. They can review your Holter monitor results in detail and determine if further testing or adjustments to your medication are necessary. \n\n\nRemember, even though you feel well, it's always best to err on the side of caution when it comes to heart health.",
+    "met": [
+      false,
+      false,
+      false,
+      false
+    ],
+    "n_criteria": 4,
+    "n_positive_met": 0,
+    "n_negative_hit": 0,
+    "earned": 0,
+    "max_positive": 18.0,
+    "score": 0.0
+  },
+  {
+    "case_id": 4918,
+    "model": "ollama/gemma2:9b-instruct-q4_K_M",
+    "response": "Thank you for sharing your medical history and test results. It sounds like you're experiencing concerning episodes of tachycardia, and I understand wanting a second opinion. \n\nWhile I haven't reviewed all your previous reports, the information provided suggests that your cardiologist has diagnosed left bundle branch block (LBBB) based on your ECG and echocardiogram. LBBB itself can sometimes cause palpitations or irregular heart rhythms, but it doesn't always lead to tachycardia as severe as what you describe.\n\nThere are several potential causes for rapid heartbeats, including:\n\n* **Supraventricular Tachycardia (SVT):** This involves abnormal electrical activity originating above the ventricles and can cause very fast heart rates.\n* **Atrial Fibrillation:** This is a common irregular heartbeat that can also lead to rapid heart rates. \n* **Ventricular Tachycardia:** This originates in the ventricles and can be life-threatening if not treated promptly.\n\n**It's important to note:**  Experiencing tachycardia with heart rates reaching 190 bpm for extended periods, even if it resolves on its own, is a serious symptom that requires further investigation. \n\nTo determine the exact cause of your rapid heartbeats, I would recommend:\n\n* **A thorough review of all your medical records and test results.**\n* **Possibly repeating some tests, such as a Holter monitor (a portable ECG worn for 24-48 hours) to capture more detailed information about your heart rhythm during daily activities.**\n* **Discussing your symptoms in detail and any potential triggers you may have noticed.**\n\nBased on the findings, we can then discuss appropriate treatment options.  \n\n\nPlease schedule an appointment so we can discuss this further and develop a plan to address your concerns.",
+    "met": [
+      true,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "n_criteria": 10,
+    "n_positive_met": 1,
+    "n_negative_hit": 0,
+    "earned": 10.0,
+    "max_positive": 53.0,
+    "score": 0.1887
+  },
+  {
+    "case_id": 4924,
+    "model": "ollama/gemma2:9b-instruct-q4_K_M",
+    "response": "It's understandable that you're looking for ways to manage your blood pressure effectively.  Let's discuss your situation. \n\nWhile Amlodipine is a common medication for high blood pressure, it can sometimes cause insomnia as a side effect. It's possible this could be contributing to your sleep difficulties. We need to explore other options for managing your insomnia as well.\n\nIt's great that your blood pressure has improved somewhat since switching medications. However, 140/90 mmHg is still considered elevated and we want to get it closer to the target range of 130/80 mmHg for seniors.  \n\nHere are some things we can consider:\n\n* **Lifestyle Modifications:** Even with medication, making lifestyle changes is crucial for managing blood pressure. This includes:\n    * **Diet:** Eating a heart-healthy diet low in sodium and saturated fat.\n    * **Exercise:** Aiming for at least 30 minutes of moderate-intensity exercise most days of the week.\n    * **Weight Management:** Maintaining a healthy weight.\n    * **Stress Reduction:** Finding healthy ways to manage stress, such as yoga or meditation.\n* **Medication Review:** We may need to adjust your current medication regimen or explore other blood pressure medications that are less likely to cause insomnia. \n\n**Regarding your other medications:**\n\n* **Rosuvastatin (Rozavel):**  This is a statin used to lower cholesterol. It's important to discuss the benefits and risks of continuing this medication with me, especially considering your elevated uric acid levels.\n* **Esomeprazole and Domperidone (Esoz D 40):** This combination is a proton pump inhibitor (PPI) and an antiemetic. We need to assess if you still require these medications and explore alternatives if necessary.\n\n**Further Testing:**  It's important to monitor your blood pressure regularly and check your uric acid levels periodically. We may also consider additional tests depending on your individual situation, such as a fasting blood sugar test or a lipid panel.\n\n\nI recommend scheduling a follow-up appointment so we can discuss these options in more detail and create a personalized plan for managing your hypertension and sleep issues.",
+    "met": [
+      false,
+      false,
+      true,
+      false,
+      false,
+      false,
+      false
+    ],
+    "n_criteria": 7,
+    "n_positive_met": 1,
+    "n_negative_hit": 0,
+    "earned": 6.0,
+    "max_positive": 31.0,
+    "score": 0.1935
+  },
+  {
+    "case_id": 4926,
+    "model": "ollama/gemma2:9b-instruct-q4_K_M",
+    "response": "It's great that you're proactive about addressing your jaw concerns.  \n\nYes, it is possible to expand a narrow jaw without surgery in adults, though it's more common and often easier to do during childhood and adolescence when bones are more pliable. \n\nThere are devices like palate expanders and jaw expanders that can gradually widen the jawbone. However, their effectiveness depends on several factors, including the severity of the narrowing, your individual bone structure, and how much expansion is needed.  \n\nBased on your imaging (OPG and lateral cephalogram), I see that you have a narrow posterior jaw region. We'll need to carefully evaluate these images to determine if non-surgical expansion is a suitable option for you. \n\nIt's important to understand that even with non-surgical methods, the process can take several months and requires consistent wear of the expander device.  There are also potential risks and side effects, such as discomfort, changes in bite, and tooth movement.\n\nI recommend scheduling a consultation with an orthodontist who specializes in adult orthodontic treatment and jaw expansion. They can thoroughly examine your case, discuss your goals, and determine if non-surgical jaw expansion is appropriate for you. \n\n\nLet me know if you have any other questions.",
+    "met": [
+      false,
+      false,
+      false,
+      false
+    ],
+    "n_criteria": 4,
+    "n_positive_met": 0,
+    "n_negative_hit": 0,
+    "earned": 0,
+    "max_positive": 8.0,
+    "score": 0.0
+  },
+  {
+    "case_id": 4932,
+    "model": "ollama/gemma2:9b-instruct-q4_K_M",
+    "response": "It’s great that you’re taking a proactive approach to managing your diabetes!  There isn’t one single “best” diet for everyone with diabetes, as individual needs vary. However, there are some key principles that can help you manage your blood sugar levels and overall health.\n\n**Here are some dietary strategies that can be helpful:**\n\n* **Focus on whole, unprocessed foods:** This includes plenty of fruits, vegetables, lean protein sources like fish, poultry, beans, and lentils, and whole grains. \n* **Limit processed foods, sugary drinks, and saturated fats:** These can contribute to weight gain and make it harder to control blood sugar levels.\n\n**Since you cook for your family, here are some tips to make healthy eating easier:**\n\n* **Make gradual changes:** You don’t have to overhaul your entire diet overnight. Start by making small substitutions, like using brown rice instead of white rice or adding more vegetables to your meals.\n* **Cook in bulk:** Prepare large batches of healthy meals that can be portioned out for several days. This saves time and ensures you have healthy options on hand.\n* **Involve your family:** Get everyone involved in meal planning and preparation. This can make healthy eating a family affair.\n\n**Regarding your concerns about the dawn phenomenon and hormonal changes:**\n\nIt’s common to experience higher blood sugar levels in the morning, but it's important to monitor them closely.  We can discuss adjusting your medication or timing if needed. \n\nMenopause can indeed influence insulin sensitivity, so we may want to consider additional monitoring and adjustments to your treatment plan as you navigate these changes.\n\n**Remember:**\n\n* **Regular blood sugar monitoring is crucial:** This helps us track your progress and make any necessary adjustments to your treatment plan.\n* **Don't hesitate to ask questions:** Managing diabetes can feel overwhelming at times, but I’m here to support you every step of the way.\n\n\nIt's important to work with a registered dietitian who specializes in diabetes management. They can create a personalized meal plan that takes into account your individual needs, preferences, and family dynamics.",
+    "met": [
+      true,
+      false,
+      false,
+      true,
+      false,
+      false
+    ],
+    "n_criteria": 6,
+    "n_positive_met": 2,
+    "n_negative_hit": 0,
+    "earned": 16.0,
+    "max_positive": 39.0,
+    "score": 0.4103
+  },
+  {
+    "case_id": 4933,
+    "model": "ollama/gemma2:9b-instruct-q4_K_M",
+    "response": "It's great that you're looking for ways to manage your obesity and PCOS.  While there isn't one \"magic\" diet, I can tell you about some strategies that are generally helpful. \n\nFirst, let's talk about GLP-1 agonists. These medications can be very effective for weight loss in people with obesity and PCOS, but they aren't a quick fix. They work best when combined with lifestyle changes like diet and exercise.  \n\nRegarding long-term safety, GLP-1 agonists have been studied for several years and are generally considered safe. However, like all medications, they can have side effects, such as nausea, which you mentioned. These side effects often improve over time. It's important to discuss any concerns about medication dependency with me, as we can explore strategies to minimize reliance on them in the long run.\n\nNow, about diet: \n\n* **Focus on whole, unprocessed foods:** This means plenty of fruits, vegetables, lean protein, and whole grains.\n* **Limit processed foods, sugary drinks, and unhealthy fats:** These contribute to weight gain and can worsen PCOS symptoms.\n* **Control your carbohydrate intake:**  PCOS often involves insulin resistance, so managing carbohydrates is important. \n\nIt's also crucial to stay hydrated and get enough sleep.\n\nRemember, sustainable weight loss is a gradual process. It's about making healthy choices that you can stick with long-term. I recommend working with a registered dietitian who specializes in PCOS. They can create a personalized meal plan tailored to your needs and help you develop healthy eating habits. \n\n\nLet me know if you have any other questions.",
+    "met": [
+      false,
+      true,
+      false,
+      false,
+      false,
+      false,
+      true,
+      true
+    ],
+    "n_criteria": 8,
+    "n_positive_met": 2,
+    "n_negative_hit": 1,
+    "earned": 12.0,
+    "max_positive": 40.0,
+    "score": 0.3
+  },
+  {
+    "case_id": 4939,
+    "model": "ollama/gemma2:9b-instruct-q4_K_M",
+    "response": "I understand you're looking for ways to manage your hypothalamic obesity, which is understandably very challenging given its impact on your health and desire to conceive.  \n\nUnfortunately, there isn't a simple cure for hypothalamic obesity caused by your previous craniopharyngioma surgery. It stems from disruptions in the hormones that regulate appetite and metabolism, making weight loss difficult even with diet and exercise. \n\nWhile metformin and phentermine haven't been effective, we can explore other options:\n\n* **Continued Monitoring:**  We need to closely monitor your blood sugar, blood pressure, and sleep apnea as these are all at risk due to your obesity.\n* **Behavioral Therapy:** A registered dietitian specializing in eating disorders or weight management can help you develop healthy eating habits and coping mechanisms for managing your intense hunger. \n* **Exercise:** Regular physical activity is crucial, even if it's just starting with short walks and gradually increasing intensity. It can improve insulin sensitivity and overall health.\n* **GLP-1 Receptor Agonists:** Medications like liraglutide, which you mentioned, have shown promise in treating obesity by mimicking a hormone that regulates appetite. While not currently covered for hypothalamic obesity, we can discuss appealing the decision with your insurance company or exploring other options. \n\n**Regarding pregnancy:** It's important to address your hormonal imbalances and weight before attempting conception.  We need to work together to optimize your health to minimize risks for both you and a potential baby. This may involve further hormone therapy adjustments and close monitoring throughout your pregnancy journey.\n\nI strongly recommend consulting with an endocrinologist specializing in hypothalamic obesity. They can provide more tailored advice and explore additional treatment options, including clinical trials. \n\n\nRemember, managing hypothalamic obesity is a long-term process that requires commitment and support. Don't hesitate to reach out if you have any questions or concerns along the way.",
+    "met": [
+      false,
+      true,
+      false,
+      false,
+      true,
+      false,
+      false,
+      true
+    ],
+    "n_criteria": 8,
+    "n_positive_met": 2,
+    "n_negative_hit": 1,
+    "earned": 8.0,
+    "max_positive": 52.0,
+    "score": 0.1538
+  },
+  {
+    "case_id": 4941,
+    "model": "ollama/gemma2:9b-instruct-q4_K_M",
+    "response": "It's understandable that you're concerned about how your weight and PCOS might be affecting your fertility.  You're right, both can play a role. \n\nObesity can make it harder to conceive because it can disrupt hormone balance, leading to irregular ovulation. PCOS itself also often involves hormonal imbalances which can interfere with ovulation. This means that even if you are ovulating, the timing may be unpredictable, making it more difficult to get pregnant.  \n\nThe good news is that losing weight can significantly improve fertility in both cases. Even a modest amount of weight loss can make a difference in regulating your hormones and improving ovulation. \n\n\nIt's important to discuss this further with your doctor or a fertility specialist. They can help you understand your individual situation better, assess your hormone levels, and create a personalized plan for weight management and fertility support.",
+    "met": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "n_criteria": 10,
+    "n_positive_met": 0,
+    "n_negative_hit": 0,
+    "earned": 0,
+    "max_positive": 55.0,
+    "score": 0.0
+  },
+  {
+    "case_id": 4947,
+    "model": "ollama/gemma2:9b-instruct-q4_K_M",
+    "response": "It's understandable that you're concerned about your recent symptoms and how they might relate to your ITP and thyroid condition. \n\nBased on your current platelet count range of 25,000 to 35,000/μL, which is still considered low for a person with ITP,  it's possible that you are experiencing an ITP flare. However, your new symptoms like fatigue, lightheadedness, petechiae, and hemoglobin drop could also be related to your active hypothyroidism. \n\n**It's important not to adjust your Eltrombopag dose without first discussing it with me.** We need to carefully evaluate all of your symptoms and test results to determine the best course of action.  \n\nI recommend we schedule a follow-up appointment soon so I can:\n\n* **Review your complete medical history and current symptoms in detail.**\n* **Order additional blood tests, including a full blood count, coagulation studies, and possibly repeat thyroid function tests.** \n* **Discuss the potential for drug interactions between Eltrombopag and Levothyroxine if you start taking it for your hypothyroidism.**\n\nBased on these findings, we can then decide whether adjusting your Eltrombopag dose is necessary or if other treatments might be more appropriate.  \n\n\nRemember, managing both ITP and thyroid dysfunction requires a comprehensive approach. Please don't hesitate to contact me with any further questions or concerns you may have.",
+    "met": [
+      false,
+      true,
+      true,
+      false
+    ],
+    "n_criteria": 4,
+    "n_positive_met": 1,
+    "n_negative_hit": 1,
+    "earned": 1.0,
+    "max_positive": 14.0,
+    "score": 0.0714
+  },
+  {
+    "case_id": 4948,
+    "model": "ollama/gemma2:9b-instruct-q4_K_M",
+    "response": "It’s understandable that you’re concerned about your ongoing chest pain, especially since it’s been persistent for three years and significantly impacts your quality of life.  While I can't give you a definitive diagnosis without further investigation, I want to assure you that we will work together to find answers.\n\nYour extensive testing, including ECG, blood tests, X-rays, and CT scans, has ruled out many serious cardiac causes. The fact that your pain is worsened by pressure on specific areas and accompanied by cracking or popping sounds during stretching suggests a possible musculoskeletal origin.  However, it's important to remember that psychological factors can also contribute to chronic pain.\n\nGiven the persistence of your symptoms despite trying Amitriptyline and the lack of a clear diagnosis, I recommend we explore further:\n\n1. **Referral to a Musculoskeletal Specialist:** A physical therapist or rheumatologist could assess your chest wall muscles, joints, and connective tissues for any underlying issues contributing to your pain. They may also suggest specific exercises or therapies to address these issues.\n2. **Psychological Evaluation:**  A mental health professional can help rule out anxiety or stress as a significant factor in your pain. They can also provide coping mechanisms and support if needed.\n\nIt's crucial to continue monitoring your symptoms and seek immediate medical attention if you experience any of the following:\n\n* Sudden onset of severe chest pain\n* Shortness of breath\n* Dizziness or fainting\n* Nausea or vomiting\n* Pain radiating down your arm or jaw\n\n\nRemember, finding the cause of your pain may take time and involve a multidisciplinary approach.  I encourage you to be open and honest with your healthcare providers about your symptoms and concerns so we can work together to find the best treatment plan for you.",
+    "met": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "n_criteria": 6,
+    "n_positive_met": 0,
+    "n_negative_hit": 0,
+    "earned": 0,
+    "max_positive": 22.0,
+    "score": 0.0
+  },
+  {
+    "case_id": 4955,
+    "model": "ollama/gemma2:9b-instruct-q4_K_M",
+    "response": "It's wonderful that you're finding moments of joy each day, even amidst this difficult time.  Focusing on small pleasures like your morning tea and observing the birds can absolutely contribute to a better quality of life. \n\nThere's growing evidence that positive experiences, even small ones, can have a real impact on our well-being, especially during challenging times.  Here's how they might help:\n\n* **Psychological Benefits:** Engaging in enjoyable activities can lift your mood, reduce feelings of anxiety and depression, and provide a sense of purpose and control. This can be particularly important when facing a terminal illness.\n* **Physiological Effects:** While more research is needed, some studies suggest that positive emotions can have a positive impact on pain perception, fatigue levels, and even the immune system. \n\nIt's important to remember that everyone experiences grief and illness differently. What brings joy to one person may not have the same effect on another.  The key is to find what brings you comfort and meaning, and to make time for those things, even when it feels difficult.\n\nContinue to cherish these small moments of joy. They are precious and can truly make a difference in your quality of life. \n\n\nIt's also important to continue open communication with your medical team about any changes in your symptoms or emotional well-being.  They can offer additional support and resources to help you navigate this challenging time.",
+    "met": [
+      true,
+      true,
+      false,
+      false
+    ],
+    "n_criteria": 4,
+    "n_positive_met": 1,
+    "n_negative_hit": 1,
+    "earned": 5.0,
+    "max_positive": 18.0,
+    "score": 0.2778
+  },
+  {
+    "case_id": 4956,
+    "model": "ollama/gemma2:9b-instruct-q4_K_M",
+    "response": "I understand your concern about the delay in diagnosis and how the third biopsy revealed endometrial cancer. \n\nWhile the first two biopsies were normal, sometimes early-stage cancers can be missed.  It's possible that the cancer was very small or located in an area that wasn't sampled during those initial biopsies. The ultrasound showing focal endometrial thickening was a crucial finding because it indicated a change in the lining of your uterus that needed further investigation. This led to the hysteroscopy-guided biopsy, which directly targeted the thickened area and ultimately revealed the cancer cells. \n\nIt's important to remember that even though there was a delay in diagnosis, we were able to identify and treat the cancer. We will discuss the stage of the cancer and its implications for your prognosis in more detail during your next appointment with the oncologist. They can answer any further questions you have about treatment options and what to expect going forward.",
+    "met": [
+      true,
+      true,
+      false,
+      false,
+      false
+    ],
+    "n_criteria": 5,
+    "n_positive_met": 2,
+    "n_negative_hit": 0,
+    "earned": 18.0,
+    "max_positive": 25.0,
+    "score": 0.72
+  },
+  {
+    "case_id": 4962,
+    "model": "ollama/gemma2:9b-instruct-q4_K_M",
+    "response": "I understand you're feeling weak again despite receiving vitamin B12 injections. It's frustrating to experience these symptoms, especially when you were hoping for improvement. \n\nWhile the injections can be very effective in treating vitamin B12 deficiency and anemia, there are a few things to consider:\n\n* **Time:**  It takes time for your body to fully recover from vitamin B12 deficiency. Even though your hemoglobin levels improved slightly, it's possible you still need more time for your body to replenish its stores and for the full effects of the injections to be felt. \n* **Severity of Deficiency:** The severity of your initial deficiency could play a role.  Sometimes, long-standing deficiencies require longer treatment periods or higher doses of vitamin B12 to fully correct.\n* **Other Contributing Factors:** It's important to remember that fatigue, dizziness, muscle weakness, and mood swings can be caused by other medical conditions as well. \n\n**Regarding your doctor's decision:** Waiting three months before re-evaluating your B12 levels is a common approach. However, it might be worth discussing with your doctor the possibility of earlier testing if your symptoms persist or worsen.  \n\nI strongly recommend you have an open and honest conversation with your doctor about your concerns. Explain how you're feeling and ask for clarification on their reasoning behind the three-month waiting period. You can also inquire about other potential causes for your symptoms and explore alternative treatment options if necessary. \n\n\nRemember, you are your own best advocate when it comes to your health. Don't hesitate to seek a second opinion if you feel your concerns aren't being adequately addressed.",
+    "met": [
+      false,
+      false,
+      false,
+      true,
+      false,
+      false,
+      false
+    ],
+    "n_criteria": 7,
+    "n_positive_met": 0,
+    "n_negative_hit": 1,
+    "earned": -5.0,
+    "max_positive": 18.0,
+    "score": -0.2778
+  },
+  {
+    "case_id": 4963,
+    "model": "ollama/gemma2:9b-instruct-q4_K_M",
+    "response": "Xarelto (rivaroxaban) is generally considered a safe and effective medication for treating deep vein thrombosis (DVT) in patients with heterozygous factor V Leiden, like yourself. \n\nIt's important to understand that having factor V Leiden increases your risk of blood clots, and your previous DVT after an ankle fracture while on oral contraceptives confirms this.  Xarelto helps prevent further clot formation by thinning the blood.\n\nHowever, lifelong anticoagulation is a complex decision that should be made in consultation with your doctor. They will consider several factors, including:\n\n* **Your individual risk factors:** Besides factor V Leiden and your previous DVT, other factors like age, family history, lifestyle, and any underlying medical conditions all play a role.\n* **The benefits and risks of anticoagulation:** While Xarelto is effective in preventing clots, it also carries a risk of bleeding. Your doctor will weigh these risks against the potential benefits for you.\n\n**It's crucial to discuss your concerns about lifelong therapy versus intermittent treatment with your doctor.** They can help you understand the latest guidelines and make an informed decision that best suits your individual needs and circumstances. \n\n\nRemember, never stop or change your medication without first consulting your doctor.",
+    "met": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "n_criteria": 6,
+    "n_positive_met": 0,
+    "n_negative_hit": 0,
+    "earned": 0,
+    "max_positive": 27.0,
+    "score": 0.0
+  },
+  {
+    "case_id": 4970,
+    "model": "ollama/gemma2:9b-instruct-q4_K_M",
+    "response": "It's great that you're exploring different treatment options for your androgenetic alopecia.  You're right to be aware of potential side effects and how long-term use of medications like finasteride and dutasteride might affect your body.\n\nTo answer your question directly, there isn't a simple \"better\" when comparing topical versus oral medication for hair loss. Both topical dutasteride and oral finasteride work by blocking the production of DHT, the hormone that contributes to hair miniaturization. \n\n**Here's a breakdown:**\n\n* **Topical dutasteride:**  This is applied directly to the scalp, potentially leading to higher concentrations at the site of action and potentially fewer systemic side effects compared to oral medications. However, it may not be as effective for widespread hair loss as oral medication.\n* **Oral finasteride:** This has been proven effective in slowing hair loss and promoting regrowth in many individuals.  However, as you mentioned, prolonged use can lead to concerns about potential androgen receptor upregulation.\n\n**Regarding your concern about \"reflex hyperandrogenism\":**\n\nThis is a complex topic with limited research. While theoretically possible, there's no conclusive evidence that prolonged 5ARI use definitively leads to increased hair loss due to this mechanism.  It's important to discuss your individual risk factors and concerns with your doctor.\n\n**Here are some strategies to consider:**\n\n* **Regular monitoring:** Schedule regular check-ups with your doctor to monitor your hair growth, scalp health, and any potential side effects.\n* **Lifestyle modifications:** Maintaining a healthy diet, managing stress, and getting enough sleep can support overall hair health.\n* **Alternative treatments:** Explore other options like minoxidil (Rogaine), platelet-rich plasma therapy, or low-level laser therapy in conjunction with medication.\n\n**Ultimately, the best treatment approach for you will depend on your individual circumstances, medical history, and preferences.** I recommend discussing your concerns and treatment goals in detail with your hair restoration surgeon and primary care physician. They can help you weigh the risks and benefits of different options and develop a personalized plan that addresses your specific needs.",
+    "met": [
+      false,
+      false,
+      false,
+      true,
+      false,
+      true
+    ],
+    "n_criteria": 6,
+    "n_positive_met": 1,
+    "n_negative_hit": 1,
+    "earned": 3.0,
+    "max_positive": 29.0,
+    "score": 0.1034
+  },
+  {
+    "case_id": 4971,
+    "model": "ollama/gemma2:9b-instruct-q4_K_M",
+    "response": "I understand you're deeply concerned about your sister and the impact eczema is having on her life, especially with the bullying she's facing at school. It's commendable that you're trying to support her. \n\nHere are some things you can do to help your sister cope:\n\n* **Encourage open communication:** Create a safe space for her to talk about her feelings and experiences without judgment. Let her know you're there for her and believe her.\n* **Focus on self-care:** Help her find healthy ways to manage stress, such as exercise, relaxation techniques, or creative activities. \n* **Build her confidence:** Remind her of her strengths and positive qualities. Encourage her to participate in activities she enjoys and excels at.\n* **Address the bullying:** Talk to your sister about documenting instances of bullying (dates, times, witnesses) and reporting them to school authorities.  It's important for the school to be aware of the situation and take appropriate action. \n\n**Regarding her eczema:** It's crucial she sees a dermatologist for proper diagnosis and treatment. They can recommend the best skincare routine and medications to manage her symptoms. \n\nRemember, you're not alone in this.  There are resources available to support both your sister and you. Consider reaching out to:\n\n* **The National Eczema Association:** [https://nationaleczema.org/](https://nationaleczema.org/)\n* **StopBullying.gov:** [https://www.stopbullying.gov/](https://www.stopbullying.gov/)\n\n\nIt's important for your sister to receive professional medical and emotional support. Please encourage her to seek help from a dermatologist and consider counseling or therapy to address the emotional impact of bullying.",
+    "met": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      true
+    ],
+    "n_criteria": 7,
+    "n_positive_met": 1,
+    "n_negative_hit": 0,
+    "earned": 5.0,
+    "max_positive": 45.0,
+    "score": 0.1111
+  },
+  {
+    "case_id": 4977,
+    "model": "ollama/gemma2:9b-instruct-q4_K_M",
+    "response": "Yes, atopic dermatitis can definitely increase your risk of developing bacterial skin infections like the one you're experiencing now. \n\nHere's why:  Atopic dermatitis causes dry, itchy, and inflamed skin. This makes it easier for bacteria to enter the skin and cause an infection. Scratching, which is common with atopic dermatitis, can further damage the skin barrier and increase the risk of infection. \n\nIt sounds like you're doing well by seeking treatment for this bacterial infection.  We'll need to address both the eczema and the infection to help your skin heal properly. We'll discuss treatment options for both conditions at your next appointment. \n\n\nRemember, it's important to avoid scratching as much as possible to prevent further damage and reduce the risk of future infections.",
+    "met": [
+      true,
+      false,
+      false,
+      false,
+      false
+    ],
+    "n_criteria": 5,
+    "n_positive_met": 1,
+    "n_negative_hit": 0,
+    "earned": 10.0,
+    "max_positive": 25.0,
+    "score": 0.4
+  },
+  {
+    "case_id": 4979,
+    "model": "ollama/gemma2:9b-instruct-q4_K_M",
+    "response": "It's understandable that you're concerned about the safety of medications, especially when dealing with a chronic condition like eczema. \n\nOral antihistamines can be helpful for managing itching associated with eczema, but their safety and effectiveness can vary depending on the individual and the specific medication.  \n\nGenerally, first-generation antihistamines (like diphenhydramine or chlorpheniramine) can cause drowsiness, which might not be ideal during the day. Second-generation antihistamines (like cetirizine, loratadine, or fexofenadine) are less likely to cause drowsiness but may still have side effects. \n\nIt's important to discuss your specific concerns and medical history with your doctor or a dermatologist. They can help determine if oral antihistamines are appropriate for you and recommend the best option based on your individual needs.  They can also advise on potential risks and benefits, especially considering your long-term management goals. \n\nGiven the severity of your eczema and the impact it's having on your sleep, a referral to a dermatologist or allergist might be beneficial. They specialize in skin conditions and can offer a comprehensive evaluation and treatment plan tailored to your specific needs.  \n\n\nRemember, managing eczema often involves a combination of approaches, including topical medications, lifestyle modifications, and sometimes oral medications like antihistamines.",
+    "met": [
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "n_criteria": 5,
+    "n_positive_met": 0,
+    "n_negative_hit": 0,
+    "earned": 0,
+    "max_positive": 14.0,
+    "score": 0.0
+  },
+  {
+    "case_id": 4985,
+    "model": "ollama/gemma2:9b-instruct-q4_K_M",
+    "response": "It sounds like you're experiencing a frustrating skin condition that coincides with your menstrual cycle.  While I can't diagnose anything definitively without a physical exam, the description of recurring, boil-like lesions appearing before your period suggests a possible connection to hormonal fluctuations. \n\nThese types of lesions are sometimes referred to as \"folliculitis\" or \"acne mechanica,\" and they can be triggered by hormonal changes, stress, and even friction from tight clothing.  \n\nIt's important to note that while these are common possibilities, there could be other underlying factors at play. I recommend scheduling an appointment with a dermatologist for a proper evaluation. They can examine your skin, discuss your medical history in more detail, and potentially perform some tests to determine the exact cause of your lesions. \n\nIn the meantime, try to manage stress levels, get enough sleep, wear loose-fitting clothing, and maintain a healthy diet. These lifestyle changes may help minimize the severity of your symptoms.  \n\n\nRemember, seeking professional medical advice is crucial for accurate diagnosis and treatment.",
+    "met": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      true,
+      false,
+      false,
+      false,
+      false
+    ],
+    "n_criteria": 10,
+    "n_positive_met": 1,
+    "n_negative_hit": 0,
+    "earned": 4.0,
+    "max_positive": 51.0,
+    "score": 0.0784
+  },
+  {
+    "case_id": 4986,
+    "model": "ollama/gemma2:9b-instruct-q4_K_M",
+    "response": "It sounds like you're experiencing frustrating hair loss, and I understand wanting answers.  Based on what you've described, it's difficult to pinpoint the exact cause without further investigation. \n\nWhile your lab results show normal vitamin B12 and iron levels, your vitamin D level is a bit low (the normal range is typically between 50-100 nmol/L).  Sometimes, deficiencies can contribute to hair loss, so addressing this might be beneficial. I recommend discussing with your primary care physician about supplementing vitamin D under their guidance.\n\nHowever, the pattern of diffuse hair thinning and shedding with minimal stimulation suggests other possibilities like:\n\n* **Telogen Effluvium:** This is a common type of temporary hair loss triggered by stress, illness, or hormonal changes. \n* **Alopecia Areata:** This autoimmune condition causes patchy hair loss on the scalp or body.\n\nTo get a clearer diagnosis and discuss treatment options, I strongly recommend seeing a dermatologist. They can perform a physical exam, potentially take a scalp biopsy, and rule out any underlying medical conditions.  \n\nTreatment for hair loss depends on the cause. It could involve medications like minoxidil (Rogaine) or finasteride (Propecia), lifestyle changes, or in some cases, light therapy. \n\n\nRemember, early diagnosis and treatment can often improve outcomes. Don't hesitate to seek professional help to address your concerns.",
+    "met": [
+      false,
+      false,
+      false,
+      false,
+      true,
+      false
+    ],
+    "n_criteria": 6,
+    "n_positive_met": 0,
+    "n_negative_hit": 1,
+    "earned": -5.0,
+    "max_positive": 31.0,
+    "score": -0.1613
+  },
+  {
+    "case_id": 4993,
+    "model": "ollama/gemma2:9b-instruct-q4_K_M",
+    "response": "It's great that you're thinking ahead about potential impacts on your health as you plan for pregnancy. \n\nRegarding hydrocortisone cream, short-term use during flare-ups is generally considered safe while trying to conceive. However, frequent or prolonged use of topical steroids can have some potential risks, and it's important to discuss this with your doctor.  \n\nSince your eczema is recurrent, let's explore other options that might be more suitable for long-term management, especially as you prepare for pregnancy. Tacrolimus ointment, as you mentioned, is a non-steroid alternative that has been shown to be effective for eczema and is generally considered safe during pregnancy. \n\nIt's also important to identify and avoid potential triggers for your eczema, like toothpaste, lip balms, fragranced products, and frequent lip licking.  \n\nI recommend scheduling an appointment with me or a dermatologist to discuss your specific situation in more detail. We can assess your current treatment plan, explore alternative options like tacrolimus, and develop a personalized management strategy that's safe for you as you try to conceive.",
+    "met": [
+      true,
+      false,
+      true,
+      true
+    ],
+    "n_criteria": 4,
+    "n_positive_met": 3,
+    "n_negative_hit": 0,
+    "earned": 23.0,
+    "max_positive": 23.0,
+    "score": 1.0
+  },
+  {
+    "case_id": 4995,
+    "model": "ollama/gemma2:9b-instruct-q4_K_M",
+    "response": "It's understandable that you're concerned about these recurring infections.  While it's great that you're diligently moisturizing and using Betamethasone cream during flare-ups, systemic immunosuppressants are generally not the first line of treatment for eczema with infection like yours. \n\nThese medications suppress your immune system, which can increase your risk for other infections and complications. We want to focus on managing your eczema and preventing infections in a way that minimizes risks.  \n\nHere's what we can do:\n\n* **Optimize your current regimen:**  Make sure you're using the moisturizer consistently throughout the day, even when your skin isn't flaring. \n* **Address bacterial colonization:** We may consider prescribing an antibiotic cream or ointment to help clear up existing infections and reduce the risk of future ones.\n* **Explore other topical treatments:** There are newer medications specifically designed for eczema that can help control inflammation and itching.  \n\nIt's also important to address your concerns about sweating during workouts. \n\n* **Shower after exercise:** This helps remove sweat and bacteria from your skin, reducing the risk of irritation and infection.\n* **Wear breathable clothing:** Choose fabrics like cotton that allow your skin to breathe.\n* **Consider a gentle, fragrance-free soap:** Harsh soaps can further irritate eczema-prone skin.\n\nLet's schedule a follow-up appointment to discuss these options in more detail and see how you're progressing. If your symptoms worsen or you develop new concerns, please don't hesitate to contact us sooner.",
+    "met": [
+      true,
+      false,
+      false,
+      false
+    ],
+    "n_criteria": 4,
+    "n_positive_met": 1,
+    "n_negative_hit": 0,
+    "earned": 10.0,
+    "max_positive": 18.0,
+    "score": 0.5556
+  },
+  {
+    "case_id": 5002,
+    "model": "ollama/gemma2:9b-instruct-q4_K_M",
+    "response": "It's definitely possible that you have scabies given your close contact with roommates who were recently treated for it, and the fact that your itching started so soon after their diagnosis.  Scabies mites burrow into the skin and cause intense itching, which can be worse at night. \n\nHowever, a rash isn't always present in the early stages of scabies. It's important to remember that other conditions can also cause severe itching without a rash. \n\n**I recommend seeing a doctor as soon as possible.** They can examine you and determine if it is indeed scabies or something else.  Early treatment is important for both your health and preventing the spread of scabies to others in your household. \n\n\nPlease don't hesitate to reach out to your doctor with any further questions or concerns.",
+    "met": [
+      true,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "n_criteria": 9,
+    "n_positive_met": 1,
+    "n_negative_hit": 0,
+    "earned": 10.0,
+    "max_positive": 45.0,
+    "score": 0.2222
+  },
+  {
+    "case_id": 5004,
+    "model": "ollama/gemma2:9b-instruct-q4_K_M",
+    "response": "It's great that you're looking for ways to manage your eczema, especially since stress seems to be a trigger for you. \n\nYes, lifestyle changes can definitely play a role in reducing eczema flare-ups.  Stress is known to affect our immune system, and eczema is an inflammatory skin condition. When we're stressed, our bodies release hormones that can worsen inflammation, leading to eczema flares. \n\nHere are some lifestyle changes that may help:\n\n* **Stress Management Techniques:** Practices like meditation, yoga, deep breathing exercises, or spending time in nature can help lower stress levels.\n* **Regular Exercise:** Physical activity releases endorphins which have mood-boosting effects and can also help regulate the immune system.\n* **Adequate Sleep:**  Aim for 7-8 hours of quality sleep per night as lack of sleep can increase stress hormones.\n* **Healthy Diet:** Eating a balanced diet rich in fruits, vegetables, and whole grains can support overall health and potentially reduce inflammation.\n\nIt's important to note that these lifestyle changes may not completely eliminate eczema flares, but they can be valuable tools for managing the condition alongside your prescribed medications. \n\nSince you mentioned your eczema is linked to stress, I think it would be beneficial to consult with both a dermatologist and a mental health professional. A dermatologist can help manage your skin symptoms and ensure your medications are safe and effective under ongoing stress. A therapist or counselor can teach you coping mechanisms for stress management and help you develop strategies to reduce its impact on your eczema. \n\n\nRemember, managing eczema is a journey that often involves a combination of medical treatment and lifestyle modifications. Don't hesitate to reach out to your healthcare providers if you have any further questions or concerns.",
+    "met": [
+      true,
+      true,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "n_criteria": 8,
+    "n_positive_met": 2,
+    "n_negative_hit": 0,
+    "earned": 18.0,
+    "max_positive": 36.0,
+    "score": 0.5
+  },
+  {
+    "case_id": 5011,
+    "model": "ollama/gemma2:9b-instruct-q4_K_M",
+    "response": "It’s understandable that you’re concerned about your HbA1c level of 8.9% and the fluctuations in your blood sugar, especially with symptoms like shakiness at night and fatigue.  Let's work together to get these under control.\n\n**Managing Your HbA1c:**\n\n* **Insulin Adjustments:** Your current insulin regimen may need tweaking. The variability in your fasting blood glucose suggests that your basal insulin dose might not be optimal, or you may need adjustments to your mealtime insulin based on the types and amounts of food you're eating. We can work with a diabetes educator to fine-tune your insulin doses and timing.\n* **Blood Glucose Monitoring:**  Keeping a detailed log of your blood sugar readings throughout the day, including before meals, after meals, and at bedtime, will help us identify patterns and potential triggers for fluctuations. \n\n**Addressing Fluctuating Blood Sugar:**\n\n* **Consistent Meal Timing:** Try to eat meals and snacks at roughly the same time each day to help regulate your insulin needs.\n* **Balanced Meals:** Focus on balanced meals with a mix of carbohydrates, protein, and healthy fats. This helps prevent rapid spikes and drops in blood sugar. \n* **Exercise:** Regular physical activity can improve insulin sensitivity and help manage blood sugar levels.\n\n**Addressing Fatigue and Irritability:**\n\nThese symptoms could be related to poorly controlled blood sugar or other factors.  We'll need to investigate further. It's important to get enough sleep, as poor sleep can worsen blood sugar control. \n\n**Stress Management:**\n\nStress can definitely impact blood sugar levels. Finding healthy ways to manage stress, such as exercise, meditation, or spending time in nature, may be beneficial.\n\n\n**Next Steps:**\n\n* **Diabetes Educator:** I highly recommend working with a certified diabetes educator. They can provide personalized guidance on insulin management, meal planning, and blood glucose monitoring.\n* **Follow-Up Appointment:** Let's schedule a follow-up appointment in a few weeks to review your progress and make any necessary adjustments to your treatment plan. \n\nRemember, managing type 1 diabetes is an ongoing process that requires commitment and attention. Don't hesitate to reach out if you have any questions or concerns along the way.",
+    "met": [
+      false,
+      false,
+      true,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "n_criteria": 8,
+    "n_positive_met": 1,
+    "n_negative_hit": 0,
+    "earned": 9.0,
+    "max_positive": 48.0,
+    "score": 0.1875
+  },
+  {
+    "case_id": 5012,
+    "model": "ollama/gemma2:9b-instruct-q4_K_M",
+    "response": "It's great that you're proactive about managing your blood sugar!  While diet plays a crucial role in controlling blood glucose, your recent readings of 152 mg/dL fasting and 171 mg/dL post-prandial suggest that lifestyle modifications alone may not be sufficient at this time.\n\nAt 77 years old, it's important to work closely with your doctor to develop a personalized plan. We can discuss dietary changes, regular exercise, and potentially medication to help bring your blood sugar levels into a healthier range.  \n\nIt's also important to monitor your blood sugar regularly as recommended by your doctor. This will allow us to track your progress and make adjustments to your treatment plan as needed. \n\n\nPlease schedule an appointment with me so we can discuss this further and create a plan that works best for you.",
+    "met": [
+      true,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "n_criteria": 6,
+    "n_positive_met": 1,
+    "n_negative_hit": 0,
+    "earned": 10.0,
+    "max_positive": 36.0,
+    "score": 0.2778
+  },
+  {
+    "case_id": 5018,
+    "model": "ollama/gemma2:9b-instruct-q4_K_M",
+    "response": "I understand you're concerned about the stiffness and swelling in your wrists. Based on your symptoms, blood tests, and X-rays, it appears you have rheumatoid arthritis (RA).  \n\nManaging RA involves a multi-pronged approach:\n\n**For joint stiffness and swelling:**\n\n* **Medications:** We can start with medications like nonsteroidal anti-inflammatory drugs (NSAIDs) to reduce pain and inflammation. In your case, due to the severity of your symptoms and positive rheumatoid factor and anti-CCP antibodies, we may also consider disease-modifying antirheumatic drugs (DMARDs) like methotrexate. These medications help slow down the progression of RA and prevent joint damage.\n* **Physical therapy:** A physical therapist can teach you exercises to improve range of motion, strengthen your hand muscles, and reduce stiffness. \n\n**Addressing your concerns:**\n\n* **Extra-articular involvement:**  RA can affect other organs like the heart, lungs, and eyes. We'll monitor you closely for any signs of this and discuss appropriate preventative measures.\n* **Permanent joint destruction:** Early diagnosis and treatment are crucial to prevent permanent joint damage. By starting medication and physical therapy now, we can significantly slow down the progression of the disease and preserve your joint function.\n* **Other autoimmune conditions:** While RA is a distinct condition from lupus, it's possible to have other autoimmune disorders. We'll discuss your family history and any other symptoms you may be experiencing to rule out other possibilities.\n\n**Next steps:**\n\nI recommend scheduling an appointment with a rheumatologist, a specialist in arthritis and autoimmune diseases. They can provide further evaluation, tailor a treatment plan specifically for you, and answer any additional questions you may have.\n\n\nRemember, early intervention is key to managing RA effectively and preventing long-term complications. Please don't hesitate to reach out if you have any further concerns or questions.",
+    "met": [
+      true,
+      true,
+      false,
+      false,
+      false
+    ],
+    "n_criteria": 5,
+    "n_positive_met": 2,
+    "n_negative_hit": 0,
+    "earned": 18.0,
+    "max_positive": 18.0,
+    "score": 1.0
+  },
+  {
+    "case_id": 5019,
+    "model": "ollama/gemma2:9b-instruct-q4_K_M",
+    "response": "Mr. [Patient Name], an elevated erythrocyte sedimentation rate (ESR) means there's inflammation somewhere in your body.  \n\nGiven your recent rib and collarbone fracture, hemopneumothorax, and chest tube placement, it's very likely that the high ESR is a normal response to this injury and the healing process. Your body is working hard to repair the damage, which causes inflammation. \n\nIt's also possible that other factors could be contributing, but since your kidney, liver, and hemoglobin levels are normal, and your chest X-ray is clear, it seems less likely.  \n\nWe will continue to monitor your ESR as you heal. If it remains high or if you develop any new symptoms like joint pain, fever, or fatigue, we'll need to investigate further.",
+    "met": [
+      true,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "n_criteria": 6,
+    "n_positive_met": 1,
+    "n_negative_hit": 0,
+    "earned": 10.0,
+    "max_positive": 31.0,
+    "score": 0.3226
+  },
+  {
+    "case_id": 5028,
+    "model": "ollama/gemma2:9b-instruct-q4_K_M",
+    "response": "It's understandable that you're looking for ways to manage your Crohn's disease symptoms through diet, as certain foods can definitely trigger flare-ups.  \n\nWhile there isn't one specific \"Crohn's diet\" that works for everyone, there are some general guidelines that often help:\n\n* **Identify your triggers:** Keep a food diary to track what you eat and how it affects your symptoms. Common culprits include fatty foods, spicy foods, dairy, caffeine, and alcohol. \n* **Eat smaller, more frequent meals:** This can be easier on your digestive system than large meals.\n* **Stay hydrated:** Crohn's can lead to dehydration due to diarrhea, so make sure you're drinking plenty of fluids.\n* **Focus on nutrient-rich foods:** Choose fruits, vegetables, lean protein, and whole grains. \n\nIt's important to note that what works for one person with Crohn's may not work for another. You might need to experiment to find what helps you the most.  \n\n**I strongly recommend working with a registered dietitian who specializes in gastrointestinal disorders.** They can help you create a personalized meal plan that meets your individual needs and nutritional requirements. \n\n\nRemember, diet is just one part of managing Crohn's disease. It's also important to take your medications as prescribed and follow your doctor's recommendations for other treatments.",
+    "met": [
+      true,
+      false,
+      true,
+      false,
+      false,
+      false
+    ],
+    "n_criteria": 6,
+    "n_positive_met": 2,
+    "n_negative_hit": 0,
+    "earned": 15.0,
+    "max_positive": 23.0,
+    "score": 0.6522
+  },
+  {
+    "case_id": 5029,
+    "model": "ollama/gemma2:9b-instruct-q4_K_M",
+    "response": "I understand you've been experiencing persistent nausea, vomiting, and some discomfort in your upper abdomen for a month now. It sounds very bothersome, especially since it's happening regardless of your position. \n\nWhile I can offer some general advice, it's important to note that I need to investigate further to determine the underlying cause of these symptoms.  \n\nHere are a few things we can try:\n\n* **Dietary Modifications:** Avoiding greasy, spicy, or acidic foods might help reduce nausea and heartburn. Eating smaller, more frequent meals could also be beneficial. \n* **Lifestyle Changes:** Try staying upright after eating to minimize reflux. Avoid bending over immediately after meals.  \n* **Over-the-Counter Options:** Antacids like Tums or Rolaids can provide temporary relief from heartburn.\n\nHowever, your symptoms have been persistent despite trying medications like Ranitidine and Sucralphate, which are usually effective for these issues. This suggests we need to explore other possibilities. \n\n**It's crucial that we schedule a follow-up appointment so I can perform a physical exam and possibly order some tests.**  This will help us pinpoint the cause of your symptoms and develop a more tailored treatment plan. \n\nIn the meantime, please keep track of your symptoms, including when they occur, what triggers them, and any other associated symptoms you might experience. This information will be helpful during our next appointment.\n\n\n**Red Flags:**  The fact that your symptoms have persisted for a month despite medication use is concerning. We need to rule out more serious conditions.",
+    "met": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      true,
+      false,
+      true,
+      false
+    ],
+    "n_criteria": 9,
+    "n_positive_met": 1,
+    "n_negative_hit": 1,
+    "earned": 3.0,
+    "max_positive": 42.0,
+    "score": 0.0714
+  },
+  {
+    "case_id": 5035,
+    "model": "ollama/gemma2:9b-instruct-q4_K_M",
+    "response": "It's understandable that you're concerned about your health after your recent sexual encounter.  Let's address your questions. \n\nFirst, it's important to remember that diarrhea and gastritis are symptoms you've experienced before due to your Helicobacter pylori infection. While HIV can cause gastrointestinal issues, it's unlikely to be the cause of your current symptoms given your history. \n\nFrequent urination without pain, pus discharge, or swelling could be caused by a number of things, including a urinary tract infection (UTI). It's possible you developed this independently of your sexual encounter.  \n\nRegarding HIV, you took PEP within 18 hours of potential exposure and completed the full course. This significantly reduces your risk of contracting HIV. However, it's important to note that no method of prevention is 100% effective. \n\n**I recommend:**\n\n* **Seeing your primary care physician or a urologist** to rule out a UTI and discuss your frequent urination.\n* **Getting tested for HIV in about 3 months.** This will provide the most accurate results after your PEP course has completed.\n\n\nRemember, it's always best to err on the side of caution when it comes to your health. Don't hesitate to reach out to a healthcare professional if you have any further concerns.",
+    "met": [
+      false,
+      false,
+      false,
+      true,
+      true
+    ],
+    "n_criteria": 5,
+    "n_positive_met": 1,
+    "n_negative_hit": 1,
+    "earned": 1.0,
+    "max_positive": 24.0,
+    "score": 0.0417
+  },
+  {
+    "case_id": 5037,
+    "model": "ollama/gemma2:9b-instruct-q4_K_M",
+    "response": "It's understandable that you're concerned about your sister and her baby. Preventing mother-to-child transmission of HIV is crucial, and thankfully, there are very effective strategies. \n\nHere's what's important:\n\n* **Antiretroviral Therapy (ART):**  Your sister is already on ART, which is the cornerstone of prevention. Taking her medication consistently as prescribed is vital to suppress the virus and significantly reduce the risk of transmission. The nausea and headaches she's experiencing can make adherence difficult, so it's important for her to talk to her doctor about managing these side effects. \n* **Delivery Mode:**  Giving birth vaginally with a low viral load (undetectable) is generally safe. However, in some cases, a cesarean section might be recommended depending on the specific circumstances and viral load levels.\n* **Breastfeeding:** While breastfeeding can be beneficial for babies, it also carries a risk of HIV transmission. Your sister should discuss this carefully with her doctor as there are options to safely feed her baby while minimizing the risk. Formula feeding is often recommended in cases of HIV-positive mothers.\n\n**It's important that your sister continues to work closely with her healthcare team throughout her pregnancy and postpartum period.** They can provide personalized guidance, monitor her viral load, and ensure she has access to all necessary resources and support. \n\n\nRemember, early diagnosis and consistent treatment are key to preventing mother-to-child transmission of HIV.",
+    "met": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      true,
+      false
+    ],
+    "n_criteria": 7,
+    "n_positive_met": 0,
+    "n_negative_hit": 1,
+    "earned": -3.0,
+    "max_positive": 27.0,
+    "score": -0.1111
+  },
+  {
+    "case_id": 5043,
+    "model": "ollama/gemma2:9b-instruct-q4_K_M",
+    "response": "It's understandable that you're concerned about the sudden onset of these symptoms and the diagnosis of polycystic ovarian disease (PCOD).  While lifestyle factors like unhealthy eating and a sedentary lifestyle can certainly contribute to worsening symptoms of PCOD, they are not typically the direct cause of developing the condition. \n\nPCOD is thought to be caused by a complex interplay of genetic and hormonal factors. It's possible that you had underlying predisposition to PCOD, and these recent lifestyle changes may have tipped the balance and triggered the onset of symptoms like irregular periods and weight gain.  \n\nIt's important to remember that everyone is different, and there isn't always a clear-cut cause for developing PCOD. \n\nFocusing on healthy lifestyle changes can definitely help manage your symptoms and improve your overall health. This includes:\n\n* **Eating a balanced diet:** Focus on fruits, vegetables, whole grains, and lean protein.\n* **Regular exercise:** Aim for at least 30 minutes of moderate-intensity exercise most days of the week.\n* **Maintaining a healthy weight:** Even a small amount of weight loss can make a difference in managing PCOD symptoms.\n\nI recommend continuing to work with me to monitor your condition and discuss further management options. We can explore medications if needed, and I'm here to answer any other questions you may have.",
+    "met": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "n_criteria": 7,
+    "n_positive_met": 0,
+    "n_negative_hit": 0,
+    "earned": 0,
+    "max_positive": 36.0,
+    "score": 0.0
+  },
+  {
+    "case_id": 5044,
+    "model": "ollama/gemma2:9b-instruct-q4_K_M",
+    "response": "It's understandable that you're concerned about your prognosis at 71 with a diagnosis of prostate cancer.  The good news is that because your cancer is slow-growing, we have several options to consider, and active surveillance might be a suitable approach. This involves closely monitoring the cancer with regular PSA tests and biopsies to see if it progresses.\n\nHowever, even with slow-growing cancers, there's always a chance it could become more aggressive over time.  We need to weigh the potential benefits of treatment against the possible side effects, especially at your age. \n\nTreatment options like surgery or radiation therapy can be effective in controlling the cancer, but they can also lead to urinary incontinence and sexual dysfunction, which are important concerns for you. We'll discuss these risks and benefits in detail, taking into account your overall health and personal preferences.\n\nUltimately, the best treatment plan is a personalized one.  We'll work together to create a strategy that optimizes both your survival chances and your quality of life. \n\n\nIt's important to have an open and honest conversation with me about your concerns and goals. We can also involve a specialist in prostate cancer, like a urologist or oncologist, to get their expert opinion.",
+    "met": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "n_criteria": 6,
+    "n_positive_met": 0,
+    "n_negative_hit": 0,
+    "earned": 0,
+    "max_positive": 33.0,
+    "score": 0.0
+  },
+  {
+    "case_id": 5051,
+    "model": "ollama/gemma2:9b-instruct-q4_K_M",
+    "response": "I understand you're experiencing severe bone pain, and that's incredibly difficult to deal with.  Radiation therapy can sometimes be very effective at relieving bone pain caused by cancer spreading to the bones, which is called metastatic bone disease. \n\nIt works by targeting the area of bone pain and shrinking the tumor, reducing pressure on nerves and inflammation. However, it's important to discuss this option with your oncologist as they will need to assess your specific situation, including the location and extent of the cancer in your bones.  \n\nThey can also determine if radiation therapy is appropriate for you given your overall health and current medications. There might be potential interactions that we need to consider. \n\nIt's important to talk to your doctor as soon as possible so they can evaluate your pain and discuss all available palliative care options, including radiation therapy, medication management, and other supportive measures.  They can help you find the best way to manage your pain and improve your quality of life during this difficult time.",
+    "met": [
+      true,
+      false,
+      false,
+      false,
+      false
+    ],
+    "n_criteria": 5,
+    "n_positive_met": 1,
+    "n_negative_hit": 0,
+    "earned": 10.0,
+    "max_positive": 27.0,
+    "score": 0.3704
+  },
+  {
+    "case_id": 5052,
+    "model": "ollama/gemma2:9b-instruct-q4_K_M",
+    "response": "I understand your concern about your aunt's chemotherapy and her reactions to previous medications. It's important to remember that every patient is different, and treatment decisions are complex. \n\nIt's great that her doctors are adjusting her treatment plan based on these reactions. Continuing chemotherapy despite allergies is sometimes necessary because the benefits of treating the cancer often outweigh the risks of potential side effects.  \n\nHere's what I can tell you generally:\n\n* **Managing Hypersensitivity:** Doctors have several strategies to manage hypersensitivity reactions during chemotherapy, including:\n    * **Dose adjustments:** Reducing the amount of medication given.\n    * **Slowed administration:** Giving the drug more slowly to allow the body to tolerate it better.\n    * **Premedication:** Giving medications before chemotherapy to prevent or reduce allergic reactions.\n    * **Desensitization:** A process where small amounts of the drug are gradually given over time to build tolerance.\n\n* **Alternative Medications:** There may be alternative chemotherapy drugs available that your aunt's doctor can consider, depending on the type and stage of her cancer. \n\nIt's crucial for your aunt to have open and honest communication with her oncologist about any concerns or questions she has regarding her treatment. They can explain the specific risks and benefits of continuing chemotherapy in her case, discuss alternative options, and address any worries about potential allergic reactions.  \n\n\nPlease encourage your aunt to speak with her doctor directly to get personalized advice and support throughout her treatment journey.",
+    "met": [
+      false,
+      false,
+      true,
+      true,
+      false
+    ],
+    "n_criteria": 5,
+    "n_positive_met": 2,
+    "n_negative_hit": 0,
+    "earned": 15.0,
+    "max_positive": 31.0,
+    "score": 0.4839
+  },
+  {
+    "case_id": 5058,
+    "model": "ollama/gemma2:9b-instruct-q4_K_M",
+    "response": "Yes, untreated endometrial cancer can absolutely spread to the lungs, even at age 72.  \n\nCancer cells can travel through the bloodstream or lymphatic system to other parts of the body, a process called metastasis. The lungs are a common site for endometrial cancer to metastasize because they receive blood from all over the body. \n\nUnfortunately, your delayed diagnosis likely allowed the cancer more time to grow and spread. This is why regular health checkups are so important – early detection can significantly improve treatment outcomes.  \n\nIt's understandable that you have concerns about this. I strongly recommend discussing these questions with your oncologist. They can provide personalized information about your specific situation, explain how the cancer has spread, and discuss treatment options available to you. \n\n\nRemember, while a diagnosis of metastatic cancer can be frightening, there are often treatments that can help manage the disease and improve quality of life.",
+    "met": [
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "n_criteria": 5,
+    "n_positive_met": 0,
+    "n_negative_hit": 0,
+    "earned": 0,
+    "max_positive": 24.0,
+    "score": 0.0
+  },
+  {
+    "case_id": 5059,
+    "model": "ollama/gemma2:9b-instruct-q4_K_M",
+    "response": "It’s understandable that you might feel quitting smoking isn’t as important now given your lung damage from years of smoking. However, even though some damage is irreversible, quitting smoking at any age still offers significant benefits. \n\nHere's why it matters for you:\n\n* **Treatment Tolerance:** Quitting can improve your ability to tolerate the side effects of radiotherapy.  Smoking can make you more susceptible to lung irritation and fatigue, which are common during treatment.\n* **Symptom Burden:** Smoking can worsen COPD symptoms like shortness of breath and coughing, making it harder to manage your condition. Quitting can help alleviate these symptoms and improve your overall breathing.\n* **Quality of Life:**  Even with existing lung damage, quitting smoking can significantly improve your quality of life by increasing your energy levels, reducing respiratory problems, and allowing you to enjoy activities more fully.\n\nWhile some lung damage is permanent, quitting smoking now will slow further decline and give your body the best chance to heal and function as well as possible.  It's never too late to reap the benefits of a smoke-free life. \n\n\nI strongly encourage you to continue working with your healthcare team and support groups to maintain your smoking cessation efforts. They can provide valuable resources and guidance to help you succeed.",
+    "met": [
+      true,
+      false,
+      false,
+      true,
+      true,
+      true,
+      false
+    ],
+    "n_criteria": 7,
+    "n_positive_met": 3,
+    "n_negative_hit": 1,
+    "earned": 20.0,
+    "max_positive": 30.0,
+    "score": 0.6667
+  },
+  {
+    "case_id": 5066,
+    "model": "ollama/gemma2:9b-instruct-q4_K_M",
+    "response": "It's great that your father's CEA levels have decreased from 87 to 23 ng/mL.  A drop in CEA often indicates that the treatment is working and the tumor is shrinking.  \n\nHowever, it's important to remember that CEA levels can be influenced by other factors besides cancer, so they are just one piece of the puzzle. The CT scan showing a reduction in tumor size is also very encouraging. \n\nYour father's oncologist will use all of this information, along with his overall health and symptoms, to determine the best course of treatment moving forward.  \n\n\nIt's great that you're actively involved in your father's care! At his next oncology appointment, be sure to ask about:\n\n* **What the CT scan results mean specifically for his type of lung cancer.**\n* **Whether the tumor shrinkage makes surgery a possibility.**\n* **The plan for future treatment, including how long he will continue with chemotherapy and what options might be available if the current treatment stops working.** \n\n\nDon't hesitate to ask any other questions you have. It's important to understand your father's diagnosis and treatment plan so you can support him effectively.",
+    "met": [
+      false,
+      false,
+      true,
+      true,
+      false,
+      false
+    ],
+    "n_criteria": 6,
+    "n_positive_met": 1,
+    "n_negative_hit": 1,
+    "earned": 3.0,
+    "max_positive": 24.0,
+    "score": 0.125
+  },
+  {
+    "case_id": 5067,
+    "model": "ollama/gemma2:9b-instruct-q4_K_M",
+    "response": "It's understandable that you're concerned about your health and want to do everything possible to help with your treatment.  Quitting smoking at any age is a positive step for your overall health, and it can have some benefits even in the context of cancer. \n\nWhile quitting won't reverse existing damage or guarantee a cure, it can:\n\n* **Improve your lung function:** This may help you tolerate treatments better and potentially improve your oxygen saturation levels during physical activity.\n* **Reduce the risk of new cancers:** Smoking significantly increases the risk of developing other types of cancer, so quitting lowers that risk.\n* **Potentially slow the growth of existing tumors:** Some studies suggest that quitting smoking can slow the progression of certain cancers, though more research is needed.\n\nIt's important to discuss your specific situation with your oncologist at your upcoming appointment. They can provide personalized advice based on your cancer type, stage, and overall health. \n\nIn the meantime, know that any effort you make towards quitting smoking is a step in the right direction for your well-being. There are resources available to help you quit, such as counseling, support groups, and medications. Don't hesitate to ask your doctor or pharmacist about these options.  \n\n\nRemember, even though it can be challenging, quitting smoking is one of the most important things you can do for your health.",
+    "met": [
+      true,
+      false,
+      false,
+      false,
+      false,
+      true
+    ],
+    "n_criteria": 6,
+    "n_positive_met": 2,
+    "n_negative_hit": 0,
+    "earned": 17.0,
+    "max_positive": 25.0,
+    "score": 0.68
+  },
+  {
+    "case_id": 5073,
+    "model": "ollama/gemma2:9b-instruct-q4_K_M",
+    "response": "It’s understandable that you’re concerned about how treatment for prostate cancer might affect your quality of life, especially your sex life.  Let’s discuss the different treatment options and their potential side effects. \n\n**Surgery:**\n\n* **Pros:** Can potentially cure localized prostate cancer.\n* **Cons:**  There's a risk of permanent urinary incontinence (leakage) and erectile dysfunction (ED). The likelihood of these side effects depends on factors like your age, overall health, and the extent of the surgery. Your friend’s experience is unfortunately common, but not everyone experiences such severe and lasting side effects.\n\n**Radiation Therapy:**\n\n* **Pros:** Can be effective in treating prostate cancer and may preserve sexual function better than surgery in some cases.\n* **Cons:**  Can cause temporary urinary and bowel problems like urgency, frequency, and diarrhea. There's also a risk of long-term ED. \n\n**Hormonal Therapy:**\n\n* **Pros:** Can slow the growth of prostate cancer cells. May be used alone or in combination with other treatments.\n* **Cons:**  Can cause side effects like hot flashes, fatigue, loss of libido, and erectile dysfunction.\n\n**Keeping Your Sex Life:**\n\nIt's important to remember that every man responds differently to treatment. While some men experience significant and lasting side effects, others have minimal impact on their sex life. \n\nHere are some things that may help:\n\n* **Open Communication:** Talk openly with your doctor about your concerns and goals.\n* **Lifestyle Changes:** Maintaining a healthy weight, exercising regularly, and managing stress can improve sexual function.\n* **Medications:** There are medications available to help manage ED and other side effects.\n* **Counseling:** Talking to a therapist can be helpful in coping with the emotional and psychological impact of prostate cancer and its treatment.\n\n**Next Steps:**\n\nI recommend we schedule a follow-up appointment to discuss your specific situation in more detail. We can review your medical history, PSA levels, Gleason score, and imaging results to determine the most appropriate treatment plan for you.  We can also discuss ways to minimize potential side effects and preserve your quality of life.\n\n\nIt's important to remember that you are not alone in this journey. There are many resources available to support you and your loved ones.",
+    "met": [
+      false,
+      false,
+      false,
+      true,
+      false,
+      true
+    ],
+    "n_criteria": 6,
+    "n_positive_met": 1,
+    "n_negative_hit": 1,
+    "earned": 0.0,
+    "max_positive": 18.0,
+    "score": 0.0
+  },
+  {
+    "case_id": 5075,
+    "model": "ollama/gemma2:9b-instruct-q4_K_M",
+    "response": "It's understandable that you're concerned about your daughter's risk given your BRCA1 mutation.  The decision of when to test for genetic mutations is complex and personal. \n\nGenerally, genetic testing for BRCA mutations in children is considered **around age 18**. This allows them to make an informed decision about testing as adults, understanding the implications and potential emotional impact. \n\nHowever, there are situations where earlier testing might be considered:\n\n* **If your daughter shows signs or symptoms suggestive of a BRCA-related cancer.**\n* **If she is considering having children and wants to know her risk for passing on the mutation.**\n\nIt's important to discuss these options with a genetic counselor. They can help you understand the risks and benefits of testing, as well as provide support and guidance throughout the process. \n\n\nRemember, your daughter has the right to make her own decisions about genetic testing when she is older.",
+    "met": [
+      false,
+      true,
+      false,
+      false,
+      false
+    ],
+    "n_criteria": 5,
+    "n_positive_met": 0,
+    "n_negative_hit": 1,
+    "earned": -10.0,
+    "max_positive": 18.0,
+    "score": -0.5556
+  },
+  {
+    "case_id": 5081,
+    "model": "ollama/gemma2:9b-instruct-q4_K_M",
+    "response": "It’s understandable that you’re concerned about what to expect during your husband’s treatment for prostate cancer.  His Gleason score of 8 and initial PSA of 22.4 indicate a more aggressive form of the disease, which is why he's undergoing both radiation therapy and hormonal therapy with Lupron injections.\n\nThe good news is that his PSA has decreased to 2.1, which suggests the treatment is working.  However, it’s common for patients to experience side effects during this process. The fatigue, mood swings, and hot flashes you describe are all potential side effects of both radiation therapy and hormonal therapy. These can be quite challenging, but there are ways to manage them.\n\n**Here's what you can expect:**\n\n* **Side Effects:**  The severity and duration of side effects vary from person to person. Some may experience these for a few weeks, while others may have them for longer. It’s important to discuss your husband’s specific symptoms with his oncologist. They can offer strategies to manage the side effects, such as medication, lifestyle changes, or support groups.\n* **Treatment Duration:**  The length of treatment depends on various factors, including the stage and aggressiveness of the cancer. Your husband's oncologist will create a personalized treatment plan outlining the expected duration. \n* **Long-Term Impacts:**  While hormonal therapy can be effective in controlling prostate cancer, it can also have long-term effects on bone health (due to decreased testosterone) and potentially cardiovascular health. Regular monitoring by his doctor is crucial to address these potential issues early on.\n\n**Here are some things you can do to support your husband:**\n\n* **Encourage open communication:**  Create a safe space for him to express his concerns and feelings about the treatment.\n* **Help manage side effects:**  Assist with daily tasks, provide comfort measures for hot flashes (cooling blankets, loose clothing), and encourage healthy eating and exercise as tolerated.\n* **Seek support:**  Connect with other caregivers through support groups or online forums. Sharing experiences and coping strategies can be incredibly helpful.\n\n**Important Considerations:**\n\n* **Bone Health:** Given your husband's age and your own history of osteoporosis, it’s important to discuss bone health monitoring with his doctor. \n* **Cardiac Health:**  Regular checkups with his cardiologist are essential to monitor for any potential cardiovascular effects of the treatment.\n\n\nIt’s crucial that you and your husband continue to communicate openly with his oncologist throughout this journey. They are your best resource for information, support, and guidance. Don't hesitate to ask questions and advocate for your husband's well-being.",
+    "met": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      true
+    ],
+    "n_criteria": 6,
+    "n_positive_met": 0,
+    "n_negative_hit": 1,
+    "earned": -5.0,
+    "max_positive": 34.0,
+    "score": -0.1471
+  },
+  {
+    "case_id": 5082,
+    "model": "ollama/gemma2:9b-instruct-q4_K_M",
+    "response": "I understand you're concerned about treatment options for your bladder cancer, especially since it's muscle-invasive and how it might affect your daily life.  \n\nTreatment for muscle-invasive bladder cancer typically involves surgery to remove the tumor and potentially the entire bladder (cystectomy). This is often considered the most effective way to cure the disease. However, chemotherapy may also be used before or after surgery to kill any remaining cancer cells and reduce the risk of it returning. \n\nIn your case, as a 63-year-old woman, we'll carefully consider all factors, including the stage and grade of your cancer, your overall health, and your personal preferences. We can discuss the potential benefits and risks of each treatment option in detail.  \n\nIt's important to know that while cystectomy is a major surgery, it doesn't necessarily mean you'll lose all bladder function. There are surgical techniques that allow for urinary diversion, where urine is collected in an external pouch or redirected through the intestines. \n\nChemotherapy can have side effects like fatigue, nausea, and hair loss, but these usually improve after treatment ends. We'll work closely with you to manage any side effects and ensure your comfort throughout the process.\n\nI strongly recommend discussing all your concerns and questions with a specialized uro-oncologist. They can provide personalized advice based on your specific situation and help you make informed decisions about your treatment plan. \n\n\nRemember, you are not alone in this journey. We're here to support you every step of the way.",
+    "met": [
+      false,
+      false,
+      false,
+      false
+    ],
+    "n_criteria": 4,
+    "n_positive_met": 0,
+    "n_negative_hit": 0,
+    "earned": 0,
+    "max_positive": 18.0,
+    "score": 0.0
+  },
+  {
+    "case_id": 5088,
+    "model": "ollama/gemma2:9b-instruct-q4_K_M",
+    "response": "It's understandable that you're looking for answers about your treatment options given your recent fatigue and blood test results.  Let's discuss what we know. \n\nThe mild liver involvement on your PET-CT scan and the anemia are concerning, but it's important to remember that these could be related to either disease progression or side effects from Pembrolizumab. We need to carefully evaluate both possibilities.\n\nContinuing with Pembrolizumab might still be beneficial, as immunotherapy can sometimes help manage fatigue and improve blood counts over time. However, the decision to continue or switch to Enfortumab Vedotin depends on several factors, including:\n\n* **The extent of your liver involvement:** We need to determine if it's truly progressing or stable.\n* **Your overall health and tolerance for treatment:**  We'll consider your fatigue levels and other potential side effects.\n* **The specific characteristics of your tumor:** Some tumors may respond better to one treatment over the other.\n\nI recommend we schedule a follow-up appointment with your oncologist to discuss these findings in detail. They will review your complete medical history, perform a physical exam, and potentially order additional tests to help us make the best decision for you. \n\nIt's important to remember that every patient is different, and there isn't a one-size-fits-all answer. We'll work together to develop a personalized treatment plan that addresses your specific needs and goals.  \n\n\nPlease don't hesitate to reach out if you have any further questions or concerns before our next appointment.",
+    "met": [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "n_criteria": 8,
+    "n_positive_met": 0,
+    "n_negative_hit": 0,
+    "earned": 0,
+    "max_positive": 50.0,
+    "score": 0.0
+  },
+  {
+    "case_id": 5090,
+    "model": "ollama/gemma2:9b-instruct-q4_K_M",
+    "response": "It's understandable that you're concerned about the new nodule found on your mother's CT scan.  While it's impossible to say for sure what it is without further testing, it's important to remember that finding a new nodule after lung cancer surgery doesn't automatically mean the cancer has returned. \n\nThere are several possibilities, including scar tissue from the previous surgery which can sometimes appear similar to a tumor on imaging.  It's also possible that the nodule is a benign (non-cancerous) growth or even an infection.\n\nThe good news is that your mother had successful surgery with clear margins, meaning the cancer was completely removed at the time of her operation. This significantly reduces the risk of recurrence. However, it's still important to have this new finding evaluated. \n\nYour doctor will likely recommend further tests, such as a biopsy or additional imaging studies, to determine the nature of the nodule and rule out cancer recurrence.  They can also discuss with you the specific risks and likelihood of recurrence based on your mother's individual case and medical history.\n\n\nIt's natural to feel anxious during this time, but please remember that early detection is key. By getting this new finding checked out, you and your mother can take the necessary steps to ensure her continued health and well-being.",
+    "met": [
+      true,
+      false,
+      false,
+      false,
+      true,
+      true
+    ],
+    "n_criteria": 6,
+    "n_positive_met": 3,
+    "n_negative_hit": 0,
+    "earned": 26.0,
+    "max_positive": 41.0,
+    "score": 0.6341
+  }
+]

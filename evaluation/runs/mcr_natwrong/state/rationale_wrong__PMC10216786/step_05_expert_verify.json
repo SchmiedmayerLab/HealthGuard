@@ -1,0 +1,863 @@
+{
+  "name": "expert_verify",
+  "passed": false,
+  "score": 0.7,
+  "reasoning": "1/94 statement(s) contradicted by the reference data: 'Severe hypophosphatemia is a known complication of rhabdomyolysis.' -- The reference says rhabdomyolysis is a complication of severe hypophosphatemia, not that severe hypophosphatemia is a complication of rhabdomyolysis.",
+  "data": {
+    "verifications": [
+      {
+        "text": "The chief problem is recurrent acute tetraparesis in a previously healthy 22-year-old man.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Reference data describes a 22-year-old athletic man with two episodes of acute tetraparesis and no other medical history."
+      },
+      {
+        "text": "Both episodes occurred in the setting of hyperventilation and marked biochemical hypophosphatemia.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.98,
+        "reasoning": "Both episodes are described with hyperventilation/hypocapnia and severe hypophosphatemia."
+      },
+      {
+        "text": "The patient’s own acute concern in the second episode was a panic attack with hyperventilation, anxiety, paresthesia, tetany, and weakness.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.97,
+        "reasoning": "Second episode presented as panic attack with acute hyperventilation, anxiety, paresthesia, and tetany; weakness/tetraparesis was also present."
+      },
+      {
+        "text": "Salient positive findings strongly point toward a metabolic/functional cause of weakness rather than a structural neurologic disorder.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.9,
+        "reasoning": "This is a reasonable synthesis from the metabolic abnormalities, normal MRI, and recurrent trigger-associated weakness; not stated verbatim but clinically sound."
+      },
+      {
+        "text": "In both episodes he had acute hyperventilation with hypocapnia/respiratory alkalosis.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.98,
+        "reasoning": "First episode had hyperventilation and hypocapnia; second had acute respiratory alkalosis with pH 7.57 and PaCO2 19.2 mmHg."
+      },
+      {
+        "text": "In the second episode, ABG showed pH 7.57.",
+        "category": "statistical",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 1.0,
+        "reasoning": "ABG in the second episode showed pH 7.57."
+      },
+      {
+        "text": "In the second episode, ABG showed PaCO2 19.2 mmHg.",
+        "category": "statistical",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 1.0,
+        "reasoning": "ABG in the second episode showed PaCO2 19.2 mmHg."
+      },
+      {
+        "text": "He had severe hypophosphatemia during the second episode, down to 0.2 mmol/L.",
+        "category": "statistical",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 1.0,
+        "reasoning": "Second episode phosphate was 0.2 mmol/L, which is severe hypophosphatemia."
+      },
+      {
+        "text": "He also had severe hypophosphatemia during the first episode.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.95,
+        "reasoning": "First episode is explicitly described as having severe hypophosphatemia."
+      },
+      {
+        "text": "Clinically he had tetraparesis with 4/5 strength.",
+        "category": "statistical",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 1.0,
+        "reasoning": "Exam documented tetraparesis with muscle strength 4/5."
+      },
+      {
+        "text": "Clinically he had paresthesia.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.98,
+        "reasoning": "Second episode included paresthesia in all four limbs."
+      },
+      {
+        "text": "Clinically he had tetany.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.98,
+        "reasoning": "Second episode included tetany in all four limbs."
+      },
+      {
+        "text": "He had a positive Trousseau’s sign.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 1.0,
+        "reasoning": "Exam documented a positive Trousseau’s sign on the right hand."
+      },
+      {
+        "text": "These findings are compatible with alkalosis-related electrolyte shifts.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.92,
+        "reasoning": "Paresthesia, tetany, and Trousseau sign in the setting of respiratory alkalosis and hypophosphatemia are compatible with alkalosis-related electrolyte shifts."
+      },
+      {
+        "text": "The first episode occurred during intense physical exercise and a stringent diet.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 1.0,
+        "reasoning": "First episode occurred during intense physical exercise and a stringent diet."
+      },
+      {
+        "text": "Intense physical exercise and a stringent diet could predispose to phosphate depletion or redistribution.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.84,
+        "reasoning": "Exercise and stringent diet can plausibly predispose to phosphate depletion/redistribution; this is a reasonable mechanistic inference."
+      },
+      {
+        "text": "The second episode occurred during a panic attack with acute hyperventilation.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 1.0,
+        "reasoning": "Second episode occurred during a panic attack with acute hyperventilation."
+      },
+      {
+        "text": "Acute hyperventilation is a classic trigger for intracellular phosphate shift.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.95,
+        "reasoning": "Hyperventilation causing intracellular phosphate shift is standard physiology and fits the case mechanism."
+      },
+      {
+        "text": "The second episode also had marked rhabdomyolysis.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 1.0,
+        "reasoning": "Second episode had rhabdomyolysis with CK 44,913 U/L and elevated AST/ALT."
+      },
+      {
+        "text": "In the second episode, CK was 44,913 U/L.",
+        "category": "statistical",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 1.0,
+        "reasoning": "CK was reported as 44,913 U/L."
+      },
+      {
+        "text": "Severe hypophosphatemia is a known complication of rhabdomyolysis.",
+        "category": "causal",
+        "verdict": "contradicted",
+        "verified": false,
+        "score": 0.0,
+        "confidence": 0.98,
+        "reasoning": "The reference says rhabdomyolysis is a complication of severe hypophosphatemia, not that severe hypophosphatemia is a complication of rhabdomyolysis."
+      },
+      {
+        "text": "MRI brain and spine were unremarkable.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 1.0,
+        "reasoning": "Cerebral and spinal MRI findings were unremarkable."
+      },
+      {
+        "text": "The MRI findings argue against central structural lesions.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.95,
+        "reasoning": "Normal brain/spine MRI reasonably argues against central structural lesions."
+      },
+      {
+        "text": "Cranial nerves were normal.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 1.0,
+        "reasoning": "Cranial nerves were normal."
+      },
+      {
+        "text": "There was no sensory deficit.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 1.0,
+        "reasoning": "There was no sensory deficit."
+      },
+      {
+        "text": "Reflexes were normal.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 1.0,
+        "reasoning": "Deep tendon and plantar reflexes were normal."
+      },
+      {
+        "text": "These findings are less consistent with Guillain-Barré syndrome, spinal cord disease, or stroke.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.93,
+        "reasoning": "Normal cranial nerves, sensation, and reflexes make GBS, spinal cord disease, and stroke less likely; this is a reasonable differential-pruning inference."
+      },
+      {
+        "text": "Myasthenia gravis workup was negative.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Myasthenia gravis workup was negative."
+      },
+      {
+        "text": "Nerve conduction studies were normal.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 1.0,
+        "reasoning": "Nerve conduction studies were normal."
+      },
+      {
+        "text": "Acetylcholine receptor antibodies were absent.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 1.0,
+        "reasoning": "No acetylcholine receptor antibodies were found."
+      },
+      {
+        "text": "Hypokalemic periodic paralysis was specifically ruled out.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Hypokalemic periodic paralysis was ruled out in the workup."
+      },
+      {
+        "text": "Short and long exercise tests were normal.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 1.0,
+        "reasoning": "Short and long exercise tests were reported as normal/negative."
+      },
+      {
+        "text": "Genetic testing for SCN4A was negative.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 1.0,
+        "reasoning": "Genetic analysis of SCN4A was negative."
+      },
+      {
+        "text": "Genetic testing for KCNJ18 was negative.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 1.0,
+        "reasoning": "Genetic analysis of KCNJ18 was negative."
+      },
+      {
+        "text": "Genetic testing for KCNJ2 was negative.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 1.0,
+        "reasoning": "Genetic analysis of KCNJ2 was negative."
+      },
+      {
+        "text": "Genetic testing for CACNA1S was negative.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 1.0,
+        "reasoning": "Genetic analysis of CACNA1S was negative."
+      },
+      {
+        "text": "Potassium was normal during the second episode.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 1.0,
+        "reasoning": "Other blood tests including potassium were normal in the second episode."
+      },
+      {
+        "text": "Sodium was normal.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 1.0,
+        "reasoning": "Sodium was listed among the normal blood tests."
+      },
+      {
+        "text": "Magnesium was normal.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 1.0,
+        "reasoning": "Magnesium was listed among the normal blood tests."
+      },
+      {
+        "text": "Calcium was normal.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 1.0,
+        "reasoning": "Calcium was listed among the normal blood tests."
+      },
+      {
+        "text": "TSH was normal.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Reference data explicitly says sodium, potassium, magnesium, calcium, vitamins B1, B2, B6, B9, B12, amino acids, and TSH were normal."
+      },
+      {
+        "text": "Vitamins were normal.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "The reference states vitamins B1, B2, B6, B9, and B12 were normal."
+      },
+      {
+        "text": "Amino acids were normal.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Reference data explicitly includes amino acids as normal."
+      },
+      {
+        "text": "Urinalysis showed no renal phosphate loss.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Reference data states urinalysis showed no renal phosphate loss."
+      },
+      {
+        "text": "The urinalysis findings argue against a renal phosphate-wasting disorder as the primary explanation.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.95,
+        "reasoning": "No renal phosphate loss on urinalysis reasonably argues against renal phosphate wasting as the primary cause."
+      },
+      {
+        "text": "The leading differential is hyperventilation-induced hypophosphatemic paralysis.",
+        "category": "factual",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.98,
+        "reasoning": "This is the trace’s diagnostic synthesis and is consistent with the recurrent hyperventilation-associated hypophosphatemic weakness."
+      },
+      {
+        "text": "This diagnosis fits the recurrent temporal association with hyperventilation or panic.",
+        "category": "causal",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.98,
+        "reasoning": "Both episodes are described in the setting of hyperventilation/panic, matching the temporal association."
+      },
+      {
+        "text": "This diagnosis fits the documented respiratory alkalosis.",
+        "category": "causal",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "ABG in the second episode showed acute respiratory alkalosis (pH 7.57, PaCO2 19.2 mmHg)."
+      },
+      {
+        "text": "This diagnosis fits the severe hypophosphatemia.",
+        "category": "causal",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Severe hypophosphatemia is documented, including phosphate 0.2 mmol/L in the second episode."
+      },
+      {
+        "text": "This diagnosis fits the normal potassium.",
+        "category": "causal",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.98,
+        "reasoning": "Reference data says potassium was normal during the second episode."
+      },
+      {
+        "text": "This diagnosis fits the reversible generalized weakness.",
+        "category": "causal",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.98,
+        "reasoning": "The case documents acute tetraparesis that was reversible with recovery after the episodes."
+      },
+      {
+        "text": "Respiratory alkalosis causes intracellular phosphate shifting.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.96,
+        "reasoning": "Respiratory alkalosis causing intracellular phosphate shift is standard physiology and fits the case mechanism."
+      },
+      {
+        "text": "Respiratory alkalosis can acutely lower serum phosphate enough to produce weakness.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.95,
+        "reasoning": "Severe alkalosis-related hypophosphatemia can cause weakness; this is a sound clinical inference from the case."
+      },
+      {
+        "text": "Respiratory alkalosis can acutely lower serum phosphate enough to produce rhabdomyolysis.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.93,
+        "reasoning": "Rhabdomyolysis is a known complication of severe hypophosphatemia; this is a reasonable inference, though not directly proven by the data alone."
+      },
+      {
+        "text": "A second consideration is hypokalemic periodic paralysis.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.97,
+        "reasoning": "The trace explicitly lists hypokalemic periodic paralysis as a differential consideration."
+      },
+      {
+        "text": "Hypokalemic periodic paralysis can present with episodic weakness in a young man.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.96,
+        "reasoning": "Young man with episodic weakness is a standard presentation that can suggest hypokalemic periodic paralysis."
+      },
+      {
+        "text": "Hypokalemic periodic paralysis can sometimes occur after exercise.",
+        "category": "causal",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.97,
+        "reasoning": "The first episode occurred during intense physical exercise."
+      },
+      {
+        "text": "Hypokalemic periodic paralysis does not fit well here because potassium was normal.",
+        "category": "causal",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.98,
+        "reasoning": "Potassium was normal in the second episode, which argues against hypokalemic periodic paralysis."
+      },
+      {
+        "text": "Hypokalemic periodic paralysis does not fit well here because the diagnostic exercise tests were negative.",
+        "category": "causal",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.98,
+        "reasoning": "Short/long exercise tests were negative, as stated in the reference data."
+      },
+      {
+        "text": "Hypokalemic periodic paralysis does not fit well here because genetic testing for major causative genes was negative.",
+        "category": "causal",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.98,
+        "reasoning": "Genetic testing for SCN4A, KCNJ18, KCNJ2, and CACNA1S was negative."
+      },
+      {
+        "text": "Another consideration is myasthenia gravis or another neuromuscular junction disorder.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.97,
+        "reasoning": "Myasthenia gravis/neuromuscular junction disorder is explicitly considered in the trace."
+      },
+      {
+        "text": "The pattern is wrong for myasthenia gravis or another neuromuscular junction disorder.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.96,
+        "reasoning": "The pattern is reasonably judged inconsistent with MG given the negative workup and metabolic correlation."
+      },
+      {
+        "text": "There were no ocular or bulbar findings.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.98,
+        "reasoning": "Reference data says cranial nerves were normal; no ocular/bulbar findings are reported."
+      },
+      {
+        "text": "Nerve conduction studies were normal.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Nerve conduction studies were normal."
+      },
+      {
+        "text": "Acetylcholine receptor antibodies were negative.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Reference data states there were no acetylcholine receptor antibodies."
+      },
+      {
+        "text": "The episodes correlate tightly with severe hypophosphatemia and alkalosis.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.97,
+        "reasoning": "The episodes’ tight correlation with severe hypophosphatemia and alkalosis is a fair synthesis of the case."
+      },
+      {
+        "text": "Guillain-Barré syndrome or acute inflammatory neuropathy is also unlikely.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.97,
+        "reasoning": "GBS/acute inflammatory neuropathy is explicitly described as unlikely."
+      },
+      {
+        "text": "The episodes were recurrent and triggered.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.98,
+        "reasoning": "The case had two episodes with identifiable triggers (exercise/diet; panic/hyperventilation)."
+      },
+      {
+        "text": "Reflexes remained normal.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Deep tendon and plantar reflexes were normal on exam."
+      },
+      {
+        "text": "The sensory exam was normal.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "The reference states there was no sensory deficit."
+      },
+      {
+        "text": "Electrophysiology was normal.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Nerve conduction studies and myography were normal, so electrophysiology was normal."
+      },
+      {
+        "text": "The case narrows to a single most likely diagnosis because the same biochemical pattern recurred with the same clinical syndrome.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.96,
+        "reasoning": "This is a reasonable diagnostic synthesis from the recurrent same syndrome and biochemical pattern."
+      },
+      {
+        "text": "The same biochemical pattern was acute hyperventilation leading to respiratory alkalosis, severe hypophosphatemia, tetany, and tetraparesis.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.98,
+        "reasoning": "The reference data describes acute hyperventilation/respiratory alkalosis, severe hypophosphatemia, tetany, and tetraparesis."
+      },
+      {
+        "text": "There was no evidence for structural neurologic disease, channelopathy, renal phosphate wasting, or neuromuscular junction disease.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.97,
+        "reasoning": "MRI was unremarkable, channelopathy workup was negative, urinalysis showed no renal phosphate loss, and MG workup was negative."
+      },
+      {
+        "text": "The rhabdomyolysis in the second episode further supports severe phosphate depletion or redistribution as the mechanism.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.94,
+        "reasoning": "Rhabdomyolysis can support severe phosphate depletion/redistribution as a mechanism; this is a plausible inference."
+      },
+      {
+        "text": "The most likely diagnosis is hyperventilation-induced hypophosphatemic tetraparesis.",
+        "category": "factual",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.98,
+        "reasoning": "This is the final diagnostic conclusion and follows from the documented pattern."
+      },
+      {
+        "text": "Both episodes occurred with hyperventilation and hypocapnia.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.98,
+        "reasoning": "Both episodes are described with hyperventilation and hypocapnia."
+      },
+      {
+        "text": "The second episode showed respiratory alkalosis with pH 7.57 and PaCO2 19.2 mmHg.",
+        "category": "statistical",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "ABG values exactly match pH 7.57 and PaCO2 19.2 mmHg."
+      },
+      {
+        "text": "The second episode showed severe hypophosphatemia of 0.2 mmol/L with tetraparesis, paresthesia, tetany, positive Trousseau’s sign, and rhabdomyolysis.",
+        "category": "statistical",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "The second episode had phosphate 0.2 mmol/L, tetraparesis, paresthesia, tetany, positive Trousseau’s sign, and CK 44,913 U/L."
+      },
+      {
+        "text": "Young athletic man with episodic weakness after exertion could suggest hypokalemic periodic paralysis.",
+        "category": "causal",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.97,
+        "reasoning": "The first episode occurred during intense physical exercise in a young athletic man, which can suggest hypokalemic periodic paralysis."
+      },
+      {
+        "text": "Potassium was normal.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Reference data explicitly says sodium, potassium, magnesium, calcium, vitamins, amino acids, and TSH were normal."
+      },
+      {
+        "text": "Short and long exercise tests were negative.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.98,
+        "reasoning": "The first episode was ruled out for hypokalemic periodic paralysis by short/long exercise tests; the data states these tests were negative/normal."
+      },
+      {
+        "text": "Genetic testing for SCN4A, KCNJ18, KCNJ2, and CACNA1S was negative.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Reference data explicitly lists negative genetic analysis of SCN4A, KCNJ18, KCNJ2, and CACNA1S."
+      },
+      {
+        "text": "Episodic weakness was considered for myasthenia gravis.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.95,
+        "reasoning": "Myasthenia gravis workup was performed because episodic weakness was in the differential; the trace states it was considered."
+      },
+      {
+        "text": "There were no cranial nerve findings.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Exam documented normal cranial nerves."
+      },
+      {
+        "text": "Acetylcholine receptor antibodies were negative.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Reference data states no acetylcholine receptor antibodies."
+      },
+      {
+        "text": "Nerve conduction studies were normal.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Reference data says nerve conduction studies were normal."
+      },
+      {
+        "text": "The episodes correlated instead with severe hypophosphatemia and alkalosis.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.93,
+        "reasoning": "The episodes occurred with hyperventilation/respiratory alkalosis and severe hypophosphatemia, so this correlation is a sound synthesis of the case."
+      },
+      {
+        "text": "Tetraparesis could raise concern for Guillain-Barré syndrome or other acute polyneuropathy.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.9,
+        "reasoning": "Acute tetraparesis is a reasonable reason to consider GBS/acute polyneuropathy; this is a differential inference, not a factual claim."
+      },
+      {
+        "text": "Reflexes were normal.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Deep tendon and plantar reflexes were normal on exam."
+      },
+      {
+        "text": "There was no sensory loss.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.98,
+        "reasoning": "Reference data states no sensory deficit."
+      },
+      {
+        "text": "Nerve conduction studies were normal.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "This repeats the same documented finding that nerve conduction studies were normal."
+      },
+      {
+        "text": "The recurrent trigger-associated pattern with rapid metabolic abnormalities argues against Guillain-Barré syndrome or other acute polyneuropathy.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.92,
+        "reasoning": "Given recurrent triggered episodes, normal reflexes/sensation, and normal electrophysiology, arguing against GBS/acute polyneuropathy is a legitimate clinical inference."
+      },
+      {
+        "text": "The final diagnosis is hyperventilation-induced hypophosphatemic tetraparesis.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "The trace explicitly gives the final diagnosis as hyperventilation-induced hypophosphatemic tetraparesis."
+      }
+    ],
+    "verdict_counts": {
+      "contradicted": 1,
+      "supported": 73,
+      "valid_inference": 20,
+      "unverifiable": 0
+    },
+    "contradictions": 1
+  }
+}

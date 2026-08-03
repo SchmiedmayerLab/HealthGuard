@@ -1,0 +1,575 @@
+{
+  "name": "expert_verify",
+  "passed": true,
+  "score": 1.0,
+  "reasoning": "No contradictions among 62 statement(s) (47 supported, 14 valid inferences, 1 unverifiable).",
+  "data": {
+    "verifications": [
+      {
+        "text": "The chief concern is a several-year history of slowly progressive purple spots on both feet.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Reference says several-year history of purple spots on both feet that gradually increased."
+      },
+      {
+        "text": "The purple spots increased in number and size.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "The record explicitly states they gradually increased in number and size."
+      },
+      {
+        "text": "Clinically, the lesions are multiple purple papules and plaques on the dorsum of the feet and around the ankles.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Exam shows multiple purple-colored plaques and papules on the dorsum of the feet and around the ankles."
+      },
+      {
+        "text": "Some of the lesions are crusted.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.98,
+        "reasoning": "Reference notes some lesions had crusted surfaces."
+      },
+      {
+        "text": "In an older man, bilateral violaceous acral lesions raise concern for a vascular proliferation.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.86,
+        "reasoning": "Older man with bilateral violaceous acral lesions reasonably raises concern for a vascular proliferation; this is a clinical inference from the presentation."
+      },
+      {
+        "text": "Kaposi sarcoma is a particular concern in this setting.",
+        "category": "factual",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.9,
+        "reasoning": "Kaposi sarcoma is a standard key consideration for violaceous acral plaques in this context, though not stated verbatim in the reference."
+      },
+      {
+        "text": "The diagnosis must be reconciled with the biopsy.",
+        "category": "recommendation",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.95,
+        "reasoning": "Biopsy is the decisive diagnostic test here; this is a sound clinical step, not an error."
+      },
+      {
+        "text": "Salient positive findings include chronic, gradual enlargement over years.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.98,
+        "reasoning": "The history is several years with gradual enlargement."
+      },
+      {
+        "text": "Salient positive findings include bilateral acral distribution on the feet and ankles.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.98,
+        "reasoning": "Lesions are on both feet and around the ankles."
+      },
+      {
+        "text": "Salient positive findings include violaceous papules and plaques.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.98,
+        "reasoning": "Lesions are described as purple-colored plaques and papules."
+      },
+      {
+        "text": "Histology shows a vascular lesion extending from the papillary dermis to the reticular dermis in a lobular pattern.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Histology shows a vascular proliferation extending from papillary dermis to reticular dermis in a lobular pattern."
+      },
+      {
+        "text": "The lesion is composed mainly of dilated blood-filled thin-walled spaces.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Reference describes a dilated, blood-filled vascular proliferation lined by flattened endothelium and predominantly thin-walled vascular spaces."
+      },
+      {
+        "text": "The lesion also contains some thick-walled vessels.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.98,
+        "reasoning": "A few thick-walled vessels were interspersed within the lesion."
+      },
+      {
+        "text": "Histology shows hemosiderin deposition.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Hemosiderin pigment was noted in vessel walls and surrounding stroma."
+      },
+      {
+        "text": "Histology shows chronic inflammation.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Chronic inflammatory cells were present."
+      },
+      {
+        "text": "Histology shows focal immature vascular clefts with extravasated erythrocytes.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Reference explicitly mentions immature vascular structures forming clefts with extravasated erythrocytes."
+      },
+      {
+        "text": "Histology shows mild endothelial atypia.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Mild endothelial cytologic atypia was identified."
+      },
+      {
+        "text": "These features indicate a benign-to-borderline vascular proliferation with hemorrhagic change.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.84,
+        "reasoning": "This is an interpretive summary of the histology; the reference supports a benign/reactive vascular proliferation but does not use this exact phrase."
+      },
+      {
+        "text": "There are no systemic symptoms.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Reference states no systemic symptoms."
+      },
+      {
+        "text": "There is no lymphadenopathy.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Reference states no lymphadenopathy."
+      },
+      {
+        "text": "There is no visceral involvement.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Reference states no visceral involvement."
+      },
+      {
+        "text": "HIV serology is negative.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "HIV-1 serology was unremarkable/negative."
+      },
+      {
+        "text": "There is no spindle cell proliferation on histology.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Reference explicitly says no spindle cell proliferation was observed."
+      },
+      {
+        "text": "The absence of spindle cell proliferation argues strongly against Kaposi sarcoma despite the clinical resemblance.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.96,
+        "reasoning": "Absence of spindle cell proliferation strongly argues against Kaposi sarcoma; this follows from standard histopathology and the provided biopsy."
+      },
+      {
+        "text": "There is no mention of dissecting irregular anastomosing vascular channels infiltrating collagen.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.97,
+        "reasoning": "Those angiosarcoma features are not mentioned in the biopsy description."
+      },
+      {
+        "text": "There is no mention of marked atypia.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.97,
+        "reasoning": "Marked atypia is not described; only mild atypia is reported."
+      },
+      {
+        "text": "There is no mention of multilayered endothelium.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.97,
+        "reasoning": "Multilayered endothelium is not mentioned in the histology."
+      },
+      {
+        "text": "These missing features do not support angiosarcoma.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.9,
+        "reasoning": "Given the absence of infiltrative malignant vascular features, angiosarcoma is not supported; this is a differential-pruning inference."
+      },
+      {
+        "text": "The lesion is not described as a simple targetoid solitary papule typical of hobnail hemangioma.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.96,
+        "reasoning": "The lesion is described as multiple plaques/papules, not a solitary targetoid papule."
+      },
+      {
+        "text": "Histology instead shows larger dilated vessels with hemosiderin and focal papillary-dermal slitlike immature areas.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.98,
+        "reasoning": "Histology shows dilated vessels, hemosiderin, and focal immature vascular clefts in the papillary dermis."
+      },
+      {
+        "text": "There is no systemic disease to support epidemic Kaposi sarcoma.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.98,
+        "reasoning": "Reference says no systemic symptoms, lymphadenopathy, or visceral involvement, so no systemic disease is documented to support epidemic KS."
+      },
+      {
+        "text": "There is no immunosuppression to support iatrogenic Kaposi sarcoma.",
+        "category": "factual",
+        "verdict": "unverifiable",
+        "verified": true,
+        "score": 0.6,
+        "confidence": 0.72,
+        "reasoning": "The reference gives HIV-negative status but does not explicitly state absence of immunosuppression; well-controlled hypertension is not immunosuppression."
+      },
+      {
+        "text": "The leading differential is acroangiodermatitis.",
+        "category": "factual",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.98,
+        "reasoning": "Acroangiodermatitis is the trace's leading diagnosis and final diagnosis, inferred from the clinicopathologic pattern."
+      },
+      {
+        "text": "Acroangiodermatitis is also called pseudo-Kaposi sarcoma.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Acroangiodermatitis is explicitly identified as pseudo-Kaposi sarcoma."
+      },
+      {
+        "text": "The leading differential is particularly the Mali type or a related acral reactive vascular proliferation.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.95,
+        "reasoning": "The trace explicitly mentions the Mali type or a related acral reactive vascular proliferation."
+      },
+      {
+        "text": "Acroangiodermatitis fits the bilateral lesions on the feet and ankles of an older man.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.96,
+        "reasoning": "This is a reasonable clinicopathologic fit based on the bilateral acral distribution in an older man."
+      },
+      {
+        "text": "Acroangiodermatitis fits the histology of capillary and venous proliferation with thick- and thin-walled vessels, hemosiderin, extravasated erythrocytes, and inflammation.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.96,
+        "reasoning": "This summarizes the histologic pattern and why it fits acroangiodermatitis; it is an inference from the biopsy findings."
+      },
+      {
+        "text": "Acroangiodermatitis can clinically mimic Kaposi sarcoma.",
+        "category": "causal",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "The trace explicitly states acroangiodermatitis can clinically mimic Kaposi sarcoma."
+      },
+      {
+        "text": "Acroangiodermatitis may show vascular clefts and mild endothelial atypia.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.98,
+        "reasoning": "The trace says acroangiodermatitis may show vascular clefts and mild endothelial atypia."
+      },
+      {
+        "text": "Acroangiodermatitis lacks the spindle-cell fascicles characteristic of Kaposi sarcoma.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "The trace explicitly states it lacks the spindle-cell fascicles characteristic of Kaposi sarcoma."
+      },
+      {
+        "text": "Kaposi sarcoma is the main competing diagnosis.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.98,
+        "reasoning": "The trace explicitly states Kaposi sarcoma is the main competing diagnosis."
+      },
+      {
+        "text": "Kaposi sarcoma is considered because of the violaceous plaques on the feet.",
+        "category": "causal",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.97,
+        "reasoning": "Violaceous/purple plaques on the feet are described and cited as the reason KS is considered."
+      },
+      {
+        "text": "Kaposi sarcoma is considered because of the focal slitlike vascular spaces with extravasated erythrocytes.",
+        "category": "causal",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.96,
+        "reasoning": "The trace explicitly links focal slitlike vascular spaces with extravasated erythrocytes to KS mimicry."
+      },
+      {
+        "text": "Kaposi sarcoma is less likely because HIV serology is negative.",
+        "category": "causal",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.98,
+        "reasoning": "Reference data says HIV-1 serology was unremarkable/negative, supporting lower KS likelihood."
+      },
+      {
+        "text": "Kaposi sarcoma is less likely because there is no systemic involvement.",
+        "category": "causal",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.95,
+        "reasoning": "The case states no systemic symptoms, lymphadenopathy, or visceral involvement."
+      },
+      {
+        "text": "Kaposi sarcoma is less likely because the biopsy lacks spindle cell proliferation.",
+        "category": "causal",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Biopsy explicitly notes no spindle cell proliferation, which the trace uses to argue against KS."
+      },
+      {
+        "text": "Spindle cell proliferation is a key histologic feature of Kaposi sarcoma.",
+        "category": "factual",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.93,
+        "reasoning": "The reference data does not state this verbatim, but spindle cell proliferation is a standard key histologic feature of Kaposi sarcoma and is used correctly in the trace."
+      },
+      {
+        "text": "Another consideration is verrucous hemangioma or another benign venous or lymphatic vascular malformation.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.9,
+        "reasoning": "The trace explicitly lists verrucous hemangioma or another benign venous/lymphatic vascular malformation as a consideration."
+      },
+      {
+        "text": "This consideration is based on the hyperkeratotic epidermis and dilated vascular spaces.",
+        "category": "causal",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.95,
+        "reasoning": "The trace cites hyperkeratotic epidermis and dilated vascular spaces as the basis for that consideration; both are in the biopsy description."
+      },
+      {
+        "text": "The age of onset is in late adulthood.",
+        "category": "factual",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.88,
+        "reasoning": "A 69-year-old man with a several-year history implies late adulthood, though the phrase is an inference rather than verbatim."
+      },
+      {
+        "text": "The lesions have a bilateral multifocal acral distribution.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Reference data describes multiple purple lesions on both feet and around the ankles, i.e., bilateral multifocal acral distribution."
+      },
+      {
+        "text": "The lesions have a pseudo-Kaposi-like clinical appearance.",
+        "category": "factual",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.84,
+        "reasoning": "This is a clinical characterization inferred from the bilateral violaceous acral plaques and KS-like differential; not stated verbatim in the reference."
+      },
+      {
+        "text": "These features make verrucous hemangioma or another benign venous or lymphatic vascular malformation less fitting.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.95,
+        "reasoning": "Given the age, bilateral acral distribution, and pseudo-Kaposi-like appearance, the trace’s pruning of verrucous hemangioma is a reasonable inference."
+      },
+      {
+        "text": "Angiosarcoma is low likelihood.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.97,
+        "reasoning": "The trace explicitly says angiosarcoma is low likelihood."
+      },
+      {
+        "text": "Angiosarcoma is low likelihood because the course is indolent over years.",
+        "category": "causal",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.96,
+        "reasoning": "The several-year indolent course is documented and used to argue against angiosarcoma."
+      },
+      {
+        "text": "Angiosarcoma is low likelihood because histology shows only mild atypia without destructive infiltrative malignant features.",
+        "category": "causal",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.97,
+        "reasoning": "Biopsy shows only mild endothelial atypia and no destructive infiltrative malignant features, matching the trace."
+      },
+      {
+        "text": "The combination of bilateral slowly progressive violaceous acral plaques, absence of systemic disease, and biopsy showing lobular dilated vascular proliferation with hemosiderin and extravasated erythrocytes but no spindle cell proliferation most strongly supports acroangiodermatitis.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.98,
+        "reasoning": "This is the trace’s synthesized diagnostic conclusion from the provided clinical and histologic findings."
+      },
+      {
+        "text": "Acroangiodermatitis is the final diagnosis.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "The trace explicitly states the final diagnosis is acroangiodermatitis."
+      },
+      {
+        "text": "The differential diagnosis includes acroangiodermatitis with high likelihood.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.98,
+        "reasoning": "The differential lists acroangiodermatitis with high likelihood."
+      },
+      {
+        "text": "The differential diagnosis includes Kaposi sarcoma with medium likelihood.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.98,
+        "reasoning": "The differential lists Kaposi sarcoma with medium likelihood."
+      },
+      {
+        "text": "The differential diagnosis includes angiosarcoma with low likelihood.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.98,
+        "reasoning": "The differential lists angiosarcoma with low likelihood."
+      },
+      {
+        "text": "The final diagnosis is acroangiodermatitis (pseudo-Kaposi sarcoma).",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "The trace explicitly gives the final diagnosis as acroangiodermatitis (pseudo-Kaposi sarcoma)."
+      }
+    ],
+    "verdict_counts": {
+      "contradicted": 0,
+      "supported": 47,
+      "valid_inference": 14,
+      "unverifiable": 1
+    },
+    "contradictions": 0
+  }
+}

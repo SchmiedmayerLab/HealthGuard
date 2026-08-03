@@ -1,0 +1,809 @@
+{
+  "name": "expert_verify",
+  "passed": true,
+  "score": 1.0,
+  "reasoning": "No contradictions among 88 statement(s) (67 supported, 20 valid inferences, 1 unverifiable).",
+  "data": {
+    "verifications": [
+      {
+        "text": "The chief concern is progressive virilization in a 60-year-old postmenopausal woman.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Trace and reference both describe a 60-year-old postmenopausal woman with progressive virilization."
+      },
+      {
+        "text": "The patient has clitoral enlargement.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Clitoral enlargement is explicitly listed in the presentation."
+      },
+      {
+        "text": "The patient has hirsutism.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Hirsutism is explicitly listed in the presentation."
+      },
+      {
+        "text": "The patient has deepening of voice.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Deepening of voice is explicitly listed in the presentation."
+      },
+      {
+        "text": "The patient has decreased libido.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Decreased libido is explicitly listed in the presentation."
+      },
+      {
+        "text": "The patient has increasing abdominal girth over 1 year.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Increasing abdominal girth over 1 year is explicitly stated."
+      },
+      {
+        "text": "In a postmenopausal patient, new virilization is concerning for an androgen-secreting neoplasm until proven otherwise.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.95,
+        "reasoning": "This is a standard clinical inference from new postmenopausal virilization; the data support concern for an androgen-secreting neoplasm."
+      },
+      {
+        "text": "Salient positive findings strongly support an ovarian source of androgen excess.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.93,
+        "reasoning": "Elevated testosterone with normal adrenal androgens and no adrenal mass reasonably supports an ovarian source."
+      },
+      {
+        "text": "Total testosterone is markedly elevated on two occasions.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Total testosterone is elevated on two occasions: 264.3 and 276 ng/dl."
+      },
+      {
+        "text": "The two total testosterone values are 264.3 ng/dl and 276 ng/dl.",
+        "category": "statistical",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "The reference data give total testosterone values of 264.3 ng/dl and 276 ng/dl."
+      },
+      {
+        "text": "DHEA is normal.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Reference data state DHEA is normal on repeat labs."
+      },
+      {
+        "text": "DHEA-S is normal.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "DHEA-S is reported within normal limits."
+      },
+      {
+        "text": "Normal DHEA and DHEA-S argue against an adrenal androgen source.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.97,
+        "reasoning": "Normal DHEA/DHEA-S with no adrenal lesion makes an adrenal androgen source less likely."
+      },
+      {
+        "text": "CT showed no adrenal mass.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "CT abdomen/pelvis showed no adrenal mass."
+      },
+      {
+        "text": "CT showed no other intra-abdominal abnormality.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.98,
+        "reasoning": "CT reported no other intra-abdominal abnormalities."
+      },
+      {
+        "text": "Imaging repeatedly demonstrated a persistent enlarging left adnexal cystic lesion.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Ultrasound and repeat imaging showed a persistent enlarging left adnexal cystic lesion."
+      },
+      {
+        "text": "The left adnexal cystic lesion increased from 10.5 cm to 11.7 cm.",
+        "category": "statistical",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "The lesion measured 10.5 cm initially and 11.7 cm on repeat ultrasound."
+      },
+      {
+        "text": "The enlarging left adnexal cystic lesion temporally matched the symptoms.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.9,
+        "reasoning": "The lesion enlarged over the same year-long symptomatic period, so temporal association is a reasonable inference."
+      },
+      {
+        "text": "Gonadotropins are in the postmenopausal range.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "FSH 41.7 IU/L and LH 26.6 IU/L are explicitly described as postmenopausal range."
+      },
+      {
+        "text": "FSH is 41.7.",
+        "category": "statistical",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "FSH is reported as 41.7 IU/L."
+      },
+      {
+        "text": "LH is 26.6.",
+        "category": "statistical",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "LH is reported as 26.6 IU/L."
+      },
+      {
+        "text": "The findings are not explained by a premenopausal functional state.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.95,
+        "reasoning": "Postmenopausal gonadotropins argue against a premenopausal functional ovarian state."
+      },
+      {
+        "text": "Estradiol is normal.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Estradiol is stated to be normal."
+      },
+      {
+        "text": "CA-125 is low.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "CA-125 is 5 U/ml, which is low/normal."
+      },
+      {
+        "text": "Inhibin-A is normal.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Inhibin-A is reported as 1 pg/ml and within normal limits."
+      },
+      {
+        "text": "Normal estradiol, low CA-125, and normal inhibin-A make common estrogenic sex-cord stromal tumors less likely.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.9,
+        "reasoning": "Normal estradiol, low CA-125, and normal inhibin-A make common estrogenic sex-cord stromal tumors less likely, though not excluded."
+      },
+      {
+        "text": "Normal estradiol, low CA-125, and normal inhibin-A do not exclude an androgen-producing ovarian tumor.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.92,
+        "reasoning": "Those normal markers do not rule out an androgen-producing ovarian tumor; this is a reasonable differential statement."
+      },
+      {
+        "text": "The patient has a prior hysterectomy.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "The reference history includes a total abdominal hysterectomy 20 years earlier."
+      },
+      {
+        "text": "Uterine bleeding clues are unavailable because of the prior hysterectomy.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.98,
+        "reasoning": "Because she has had a hysterectomy, uterine bleeding would not be available as a clue."
+      },
+      {
+        "text": "There is no adrenal mass on CT.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "CT explicitly showed no adrenal mass."
+      },
+      {
+        "text": "DHEA and DHEA-S are normal.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Reference data state both DHEA and DHEA-S are normal."
+      },
+      {
+        "text": "Normal DHEA and DHEA-S make adrenal adenoma or carcinoma less likely.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.97,
+        "reasoning": "Normal adrenal androgens plus no adrenal mass make adrenal adenoma/carcinoma less likely."
+      },
+      {
+        "text": "There is no mention of exogenous androgen use.",
+        "category": "factual",
+        "verdict": "unverifiable",
+        "verified": true,
+        "score": 0.6,
+        "confidence": 0.86,
+        "reasoning": "The reference data do not mention exogenous androgen use, so this cannot be confirmed or refuted."
+      },
+      {
+        "text": "The degree of virilization is not typical for common postmenopausal PCOS-type physiology.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.9,
+        "reasoning": "New severe virilization in a postmenopausal woman is atypical for PCOS-type physiology."
+      },
+      {
+        "text": "The testosterone elevation is not typical for common postmenopausal PCOS-type physiology.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.9,
+        "reasoning": "Marked testosterone elevation in this setting is not typical for common postmenopausal PCOS-type physiology."
+      },
+      {
+        "text": "The lesion is described as anechoic.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Ultrasound described the lesion as anechoic."
+      },
+      {
+        "text": "The lesion is described as nonvascular.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Ultrasound described the lesion as nonvascular."
+      },
+      {
+        "text": "The lesion is described as cystic.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "The lesion is explicitly described as cystic."
+      },
+      {
+        "text": "The lesion is not described as a classic solid ovarian stromal mass.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.96,
+        "reasoning": "The lesion is described as cystic/anechoic rather than a classic solid ovarian stromal mass."
+      },
+      {
+        "text": "Persistent enlargement plus biochemical hyperandrogenism still supports an ovarian process.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.95,
+        "reasoning": "Persistent enlarging adnexal mass with biochemical hyperandrogenism reasonably supports an ovarian process."
+      },
+      {
+        "text": "Normal inhibin-A makes granulosa/thecoma-spectrum tumors less likely.",
+        "category": "causal",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.98,
+        "reasoning": "Reference data show inhibin-A 1 pg/ml within normal limits; this makes granulosa/thecoma-spectrum tumors less likely as a standard inference."
+      },
+      {
+        "text": "Normal inhibin-A does not exclude granulosa/thecoma-spectrum tumors.",
+        "category": "causal",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.97,
+        "reasoning": "Normal inhibin-A does not exclude these tumors; the trace explicitly notes it does not exclude an androgen-producing ovarian tumor."
+      },
+      {
+        "text": "Suppressed morning cortisol is noted.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Reference data state suppressed 8 am cortisol of 1.0 μg/dl."
+      },
+      {
+        "text": "With no adrenal mass and no clinical syndrome provided, suppressed morning cortisol does not better explain the virilization.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.9,
+        "reasoning": "With no adrenal mass and no adrenal syndrome described, suppressed cortisol does not explain virilization; this is a reasonable differential-pruning inference."
+      },
+      {
+        "text": "Androgen-secreting ovarian tumor fits best.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.98,
+        "reasoning": "The trace explicitly concludes an androgen-secreting ovarian tumor fits best."
+      },
+      {
+        "text": "Rapid virilization after menopause supports an androgen-secreting ovarian tumor.",
+        "category": "causal",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.97,
+        "reasoning": "New virilization after menopause with elevated testosterone is a classic clue for an androgen-secreting ovarian tumor."
+      },
+      {
+        "text": "Total testosterone is well above normal.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Total testosterone was 264.3 and 276 ng/dl, both markedly elevated above normal."
+      },
+      {
+        "text": "Normal adrenal androgens support an androgen-secreting ovarian tumor.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.96,
+        "reasoning": "Normal DHEA/DHEA-S argue against adrenal androgen excess and therefore support an ovarian source."
+      },
+      {
+        "text": "No adrenal mass supports an androgen-secreting ovarian tumor.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.96,
+        "reasoning": "No adrenal mass on CT makes an adrenal source less likely and indirectly supports an ovarian source."
+      },
+      {
+        "text": "A persistent enlarging adnexal mass supports an androgen-secreting ovarian tumor.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.95,
+        "reasoning": "A persistent enlarging adnexal mass alongside hyperandrogenism supports an ovarian neoplasm as the source."
+      },
+      {
+        "text": "Sertoli-Leydig cell tumor is a classic virilizing tumor.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.95,
+        "reasoning": "The trace states Sertoli-Leydig cell tumor is a classic virilizing tumor."
+      },
+      {
+        "text": "Sertoli-Leydig cell tumors are usually solid.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.9,
+        "reasoning": "The trace says Sertoli-Leydig tumors are usually solid rather than cystic."
+      },
+      {
+        "text": "Sertoli-Leydig cell tumors occur in younger women.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.9,
+        "reasoning": "The trace states these tumors typically occur in younger women."
+      },
+      {
+        "text": "Steroid cell tumor is another strong consideration.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.96,
+        "reasoning": "The trace explicitly lists steroid cell tumor as another strong consideration."
+      },
+      {
+        "text": "Steroid cell tumors often present in peri/postmenopausal women.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.95,
+        "reasoning": "Steroid cell tumors are described as often presenting in peri/postmenopausal women."
+      },
+      {
+        "text": "Steroid cell tumors often present with marked androgen excess and virilization.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.95,
+        "reasoning": "The trace states steroid cell tumors often present with marked androgen excess and virilization."
+      },
+      {
+        "text": "Ovarian hyperthecosis can cause postmenopausal hyperandrogenism and virilization.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.98,
+        "reasoning": "Ovarian hyperthecosis is explicitly described as causing postmenopausal hyperandrogenism and virilization."
+      },
+      {
+        "text": "Ovarian hyperthecosis can present with elevated testosterone and normal or low DHEA-S.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.97,
+        "reasoning": "The trace states ovarian hyperthecosis can present with elevated testosterone and normal/low DHEA-S."
+      },
+      {
+        "text": "Ovarian hyperthecosis more often causes bilateral ovarian stromal enlargement.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.95,
+        "reasoning": "The trace says hyperthecosis more often causes bilateral ovarian stromal enlargement."
+      },
+      {
+        "text": "Ovarian hyperthecosis more often causes bilateral ovarian stromal enlargement rather than a single large unilateral cystic adnexal mass.",
+        "category": "causal",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.94,
+        "reasoning": "This is a standard comparative inference from the stated pattern: bilateral stromal enlargement is more typical than a unilateral cystic mass."
+      },
+      {
+        "text": "Adrenal androgen-secreting tumor is less likely.",
+        "category": "causal",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.97,
+        "reasoning": "The trace explicitly says adrenal androgen-secreting tumor is less likely."
+      },
+      {
+        "text": "Adrenal androgen-secreting tumor is less likely because DHEA and DHEA-S are normal.",
+        "category": "causal",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.98,
+        "reasoning": "Normal DHEA and DHEA-S are given as a reason adrenal tumor is less likely."
+      },
+      {
+        "text": "Adrenal androgen-secreting tumor is less likely because CT showed no adrenal lesion.",
+        "category": "causal",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.98,
+        "reasoning": "CT showed no adrenal lesion, which the trace uses to argue against adrenal tumor."
+      },
+      {
+        "text": "PCOS is low likelihood.",
+        "category": "causal",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.96,
+        "reasoning": "The trace explicitly states PCOS is low likelihood."
+      },
+      {
+        "text": "PCOS is low likelihood because the patient is postmenopausal with new-onset virilization and markedly elevated testosterone.",
+        "category": "causal",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.97,
+        "reasoning": "Postmenopausal status, new virilization, and markedly elevated testosterone are the stated reasons PCOS is unlikely."
+      },
+      {
+        "text": "PCOS usually begins earlier.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.95,
+        "reasoning": "PCOS is a condition that usually begins earlier in life; this is standard medical knowledge and matches the trace."
+      },
+      {
+        "text": "PCOS rarely causes this degree of virilization.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.95,
+        "reasoning": "PCOS rarely causes this degree of virilization is a standard clinical inference consistent with the trace."
+      },
+      {
+        "text": "The combination of postmenopausal virilization, repeatedly elevated total testosterone, normal DHEA/DHEA-S, absent adrenal lesion, and a persistent enlarging unilateral adnexal mass makes an androgen-secreting ovarian neoplasm the single best diagnosis.",
+        "category": "causal",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.98,
+        "reasoning": "The trace explicitly concludes this combination makes an androgen-secreting ovarian neoplasm the single best diagnosis."
+      },
+      {
+        "text": "Given the age group and biochemical pattern, the most likely specific diagnosis is an ovarian steroid cell tumor.",
+        "category": "causal",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.98,
+        "reasoning": "The trace states the most likely specific diagnosis is ovarian steroid cell tumor."
+      },
+      {
+        "text": "Ovarian steroid cell tumor is a differential diagnosis with high likelihood.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.97,
+        "reasoning": "The differential list assigns ovarian steroid cell tumor high likelihood."
+      },
+      {
+        "text": "Progressive virilization after menopause supports ovarian steroid cell tumor.",
+        "category": "causal",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.97,
+        "reasoning": "Progressive virilization after menopause is the clinical pattern used to support steroid cell tumor."
+      },
+      {
+        "text": "Total testosterone 264-276 ng/dl supports ovarian steroid cell tumor.",
+        "category": "causal",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Total testosterone values of 264.3 and 276 ng/dl are cited as supporting the diagnosis."
+      },
+      {
+        "text": "Normal DHEA/DHEA-S supports ovarian steroid cell tumor.",
+        "category": "causal",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.98,
+        "reasoning": "Normal DHEA/DHEA-S are cited as supporting an ovarian steroid cell tumor over adrenal causes."
+      },
+      {
+        "text": "No adrenal mass on CT supports ovarian steroid cell tumor.",
+        "category": "causal",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.98,
+        "reasoning": "No adrenal mass on CT is part of the supporting pattern for an ovarian source."
+      },
+      {
+        "text": "Persistent enlarging unilateral adnexal mass supports ovarian steroid cell tumor.",
+        "category": "causal",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.98,
+        "reasoning": "Persistent enlarging unilateral adnexal mass is explicitly used to support the diagnosis."
+      },
+      {
+        "text": "Ovarian hyperthecosis is a differential diagnosis with medium likelihood.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.96,
+        "reasoning": "The differential list labels ovarian hyperthecosis as medium likelihood."
+      },
+      {
+        "text": "Postmenopausal hyperandrogenism with elevated testosterone and normal adrenal androgens can occur in ovarian hyperthecosis.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.97,
+        "reasoning": "This is a standard description of ovarian hyperthecosis and matches the trace."
+      },
+      {
+        "text": "Ovarian hyperthecosis usually causes bilateral ovarian stromal enlargement rather than a large unilateral cystic lesion.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.96,
+        "reasoning": "The trace states hyperthecosis usually causes bilateral stromal enlargement rather than a unilateral cystic lesion."
+      },
+      {
+        "text": "Sertoli-Leydig cell tumor of the ovary is a differential diagnosis with medium likelihood.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.96,
+        "reasoning": "The differential list labels Sertoli-Leydig cell tumor of the ovary as medium likelihood."
+      },
+      {
+        "text": "Sertoli-Leydig cell tumor is a classic virilizing ovarian tumor causing elevated testosterone.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.97,
+        "reasoning": "The trace explicitly calls Sertoli-Leydig cell tumor a classic virilizing ovarian tumor causing elevated testosterone."
+      },
+      {
+        "text": "Sertoli-Leydig cell tumor typically occurs in younger women.",
+        "category": "factual",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.95,
+        "reasoning": "The trace states Sertoli-Leydig tumors are usually younger women; this is standard clinical knowledge and consistent with the differential discussion."
+      },
+      {
+        "text": "Sertoli-Leydig cell tumor is more often solid than a large simple cystic mass.",
+        "category": "factual",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.9,
+        "reasoning": "The trace describes Sertoli-Leydig tumors as typically solid rather than a large simple cystic mass; this is a reasonable clinical characterization, not contradicted by the case."
+      },
+      {
+        "text": "Adrenal androgen-secreting tumor is a differential diagnosis with low likelihood.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.98,
+        "reasoning": "The trace explicitly lists adrenal androgen-secreting tumor as low likelihood."
+      },
+      {
+        "text": "Adrenal androgen-secreting tumor would more often raise DHEA/DHEA-S.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.97,
+        "reasoning": "Normal DHEA and DHEA-S in the reference data support the inference that an adrenal androgen-secreting tumor would more often elevate these adrenal androgens."
+      },
+      {
+        "text": "Adrenal androgen-secreting tumor would more often show an adrenal mass.",
+        "category": "causal",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "CT of the abdomen and pelvis showed no adrenal mass."
+      },
+      {
+        "text": "PCOS is a differential diagnosis with low likelihood.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.98,
+        "reasoning": "The trace explicitly lists PCOS as low likelihood."
+      },
+      {
+        "text": "New-onset virilization in a 60-year-old postmenopausal woman with markedly elevated testosterone is atypical for PCOS.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.98,
+        "reasoning": "This follows from the reference data: new virilization at age 60/postmenopause with total testosterone 264.3-276 ng/dl is not typical for PCOS."
+      },
+      {
+        "text": "Final diagnosis is ovarian steroid cell tumor.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "The trace explicitly states the final diagnosis is ovarian steroid cell tumor."
+      }
+    ],
+    "verdict_counts": {
+      "contradicted": 0,
+      "supported": 67,
+      "valid_inference": 20,
+      "unverifiable": 1
+    },
+    "contradictions": 0
+  }
+}

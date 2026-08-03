@@ -1,0 +1,395 @@
+{
+  "name": "classify",
+  "passed": true,
+  "score": 1.0,
+  "reasoning": "Classified 77 statement(s): 30 causal, 39 factual, 3 recommendation, 5 statistical.",
+  "data": {
+    "classified": [
+      {
+        "text": "The chief problem is severe progressive anemia in an 11-week-old dog.",
+        "category": "factual",
+        "rationale": "It states a clinical finding about the patient."
+      },
+      {
+        "text": "The dog had acute lethargy.",
+        "category": "factual",
+        "rationale": "It asserts a symptom present in the dog."
+      },
+      {
+        "text": "The dog had fever.",
+        "category": "factual",
+        "rationale": "It asserts a clinical sign present in the dog."
+      },
+      {
+        "text": "The dog had thrombocytopenia.",
+        "category": "factual",
+        "rationale": "It states a laboratory abnormality about the patient."
+      },
+      {
+        "text": "The dog had icterus.",
+        "category": "factual",
+        "rationale": "It states a physical finding present in the dog."
+      },
+      {
+        "text": "The dog had splenomegaly.",
+        "category": "factual",
+        "rationale": "It states an exam/imaging finding about the patient."
+      },
+      {
+        "text": "The dog had eventual confirmation of intra-erythrocytic piroplasms.",
+        "category": "factual",
+        "rationale": "It asserts a diagnostic finding that was confirmed."
+      },
+      {
+        "text": "The owner/referring concern was suspected babesiosis.",
+        "category": "factual",
+        "rationale": "It reports the presenting concern or suspicion."
+      },
+      {
+        "text": "The case includes acute respiratory decompensation after transfusions.",
+        "category": "factual",
+        "rationale": "It states a clinical event that occurred in the case."
+      },
+      {
+        "text": "The diagnostic task is to identify the primary underlying disease causing the hematologic illness.",
+        "category": "factual",
+        "rationale": "It describes the diagnostic objective of the case."
+      },
+      {
+        "text": "The dog came from Texas.",
+        "category": "factual",
+        "rationale": "It states a patient history detail."
+      },
+      {
+        "text": "Texas is an endemic region for Babesia exposure.",
+        "category": "factual",
+        "rationale": "It asserts an epidemiologic fact about the region."
+      },
+      {
+        "text": "The dog developed fever of 40.4°C.",
+        "category": "statistical",
+        "rationale": "It gives a specific numeric temperature value."
+      },
+      {
+        "text": "The dog developed lethargy.",
+        "category": "factual",
+        "rationale": "It states a symptom present in the dog."
+      },
+      {
+        "text": "The dog developed severe anemia with HCT 0.147 L/L.",
+        "category": "statistical",
+        "rationale": "It includes a specific hematocrit value."
+      },
+      {
+        "text": "The dog later had PCV values of 14% to 15%.",
+        "category": "statistical",
+        "rationale": "It reports specific numeric PCV measurements."
+      },
+      {
+        "text": "The dog had severe thrombocytopenia of 23 × 10^9/L.",
+        "category": "statistical",
+        "rationale": "It includes a specific platelet count value."
+      },
+      {
+        "text": "The dog had mild icterus.",
+        "category": "factual",
+        "rationale": "It states a clinical finding with a severity descriptor."
+      },
+      {
+        "text": "The dog had splenomegaly.",
+        "category": "factual",
+        "rationale": "It states an exam/imaging finding about the patient."
+      },
+      {
+        "text": "These findings are classic features of babesiosis with hemolysis and platelet consumption or destruction.",
+        "category": "causal",
+        "rationale": "It links the findings to a disease mechanism and pattern."
+      },
+      {
+        "text": "Cytologic evaluation demonstrated intra-erythrocytic piroplasms consistent with Babesia canis.",
+        "category": "factual",
+        "rationale": "It reports a diagnostic cytology result."
+      },
+      {
+        "text": "Cytologic evaluation provided direct organism-level evidence.",
+        "category": "factual",
+        "rationale": "It states what the test result demonstrated."
+      },
+      {
+        "text": "The poor maintenance of PCV after transfusion is compatible with ongoing hemolysis and severe systemic illness.",
+        "category": "causal",
+        "rationale": "It explains how the transfusion response relates to underlying pathology."
+      },
+      {
+        "text": "The lactate was rising.",
+        "category": "statistical",
+        "rationale": "It refers to a measurable laboratory trend."
+      },
+      {
+        "text": "The rising lactate is compatible with ongoing hemolysis and severe systemic illness.",
+        "category": "causal",
+        "rationale": "It links the lactate trend to a physiologic explanation."
+      },
+      {
+        "text": "Ultrasound showed volume contraction.",
+        "category": "factual",
+        "rationale": "It reports an imaging finding."
+      },
+      {
+        "text": "Ultrasound showed no effusions initially.",
+        "category": "factual",
+        "rationale": "It reports an imaging finding."
+      },
+      {
+        "text": "Ultrasound showed no pulmonary B-lines initially.",
+        "category": "factual",
+        "rationale": "It reports an imaging finding."
+      },
+      {
+        "text": "These ultrasound findings argue against pre-existing cardiogenic pulmonary edema as the explanation for anemia.",
+        "category": "causal",
+        "rationale": "It infers a diagnostic relationship from the ultrasound findings."
+      },
+      {
+        "text": "These ultrasound findings argue against obvious hemorrhagic cavitary loss as the explanation for anemia.",
+        "category": "causal",
+        "rationale": "It infers a diagnostic relationship from the ultrasound findings."
+      },
+      {
+        "text": "There is no mention of external bleeding.",
+        "category": "factual",
+        "rationale": "It states the absence of a reported finding."
+      },
+      {
+        "text": "There is no mention of melena.",
+        "category": "factual",
+        "rationale": "It states the absence of a reported finding."
+      },
+      {
+        "text": "There is no mention of hemoabdomen.",
+        "category": "factual",
+        "rationale": "It states the absence of a reported finding."
+      },
+      {
+        "text": "There is no mention of trauma.",
+        "category": "factual",
+        "rationale": "It states the absence of a reported finding."
+      },
+      {
+        "text": "There is no mention of toxin exposure.",
+        "category": "factual",
+        "rationale": "It states the absence of a reported finding."
+      },
+      {
+        "text": "The anemia was initially described as non-regenerative.",
+        "category": "factual",
+        "rationale": "It states a laboratory characterization of the anemia."
+      },
+      {
+        "text": "In very acute hemolytic disease, regeneration may lag.",
+        "category": "causal",
+        "rationale": "It explains why regeneration may not yet be present."
+      },
+      {
+        "text": "Regeneration may lag especially in a young dog early in the course.",
+        "category": "causal",
+        "rationale": "It gives a reason regeneration may be delayed."
+      },
+      {
+        "text": "The presence of icterus favors hemolysis over isolated marrow failure.",
+        "category": "causal",
+        "rationale": "It uses a clinical sign to support one mechanism over another."
+      },
+      {
+        "text": "The presence of splenomegaly favors hemolysis over isolated marrow failure.",
+        "category": "causal",
+        "rationale": "It uses a clinical sign to support one mechanism over another."
+      },
+      {
+        "text": "The blood smear was suspicious for Babesia.",
+        "category": "factual",
+        "rationale": "It reports a diagnostic interpretation of the smear."
+      },
+      {
+        "text": "The blood smear being suspicious for Babesia makes primary immune-mediated disease less likely as the sole diagnosis.",
+        "category": "causal",
+        "rationale": "It links the smear finding to a differential diagnosis inference."
+      },
+      {
+        "text": "Babesiosis due to Babesia canis fits best.",
+        "category": "factual",
+        "rationale": "It states the most likely diagnosis."
+      },
+      {
+        "text": "The travel history from Texas supports Babesia canis infection.",
+        "category": "causal",
+        "rationale": "It links epidemiologic history to the suspected infection."
+      },
+      {
+        "text": "Fever supports Babesia canis infection.",
+        "category": "causal",
+        "rationale": "It links a symptom to the suspected infection."
+      },
+      {
+        "text": "Lethargy supports Babesia canis infection.",
+        "category": "causal",
+        "rationale": "It links a symptom to the suspected infection."
+      },
+      {
+        "text": "Severe anemia plus thrombocytopenia supports Babesia canis infection.",
+        "category": "causal",
+        "rationale": "It links combined findings to the suspected infection."
+      },
+      {
+        "text": "Icterus supports Babesia canis infection.",
+        "category": "causal",
+        "rationale": "It links a clinical sign to the suspected infection."
+      },
+      {
+        "text": "Splenomegaly supports Babesia canis infection.",
+        "category": "causal",
+        "rationale": "It links a clinical sign to the suspected infection."
+      },
+      {
+        "text": "Direct visualization of intra-erythrocytic piroplasms consistent with B. canis is the strongest and most specific diagnosis.",
+        "category": "factual",
+        "rationale": "It states the most specific diagnostic conclusion from the organism visualization."
+      },
+      {
+        "text": "Severe anemia could fit immune-mediated hemolytic anemia with concurrent immune-mediated thrombocytopenia.",
+        "category": "causal",
+        "rationale": "It relates the findings to an alternative disease mechanism."
+      },
+      {
+        "text": "Thrombocytopenia could fit immune-mediated hemolytic anemia with concurrent immune-mediated thrombocytopenia.",
+        "category": "causal",
+        "rationale": "It relates the finding to an alternative disease mechanism."
+      },
+      {
+        "text": "Icterus could fit immune-mediated hemolytic anemia with concurrent immune-mediated thrombocytopenia.",
+        "category": "causal",
+        "rationale": "It relates the finding to an alternative disease mechanism."
+      },
+      {
+        "text": "Poor response to transfusion could fit immune-mediated hemolytic anemia with concurrent immune-mediated thrombocytopenia.",
+        "category": "causal",
+        "rationale": "It relates the transfusion response to an alternative disease mechanism."
+      },
+      {
+        "text": "Identification of piroplasms provides a more specific infectious cause than immune-mediated hemolytic anemia.",
+        "category": "causal",
+        "rationale": "It compares diagnostic specificity between causes."
+      },
+      {
+        "text": "Babesiosis itself can trigger immune-mediated destruction.",
+        "category": "causal",
+        "rationale": "It asserts a mechanistic relationship between babesiosis and immune-mediated injury."
+      },
+      {
+        "text": "Immune-mediated hemolytic anemia is better viewed as a mechanism or complication rather than the primary diagnosis.",
+        "category": "factual",
+        "rationale": "It states a diagnostic framing about IMHA."
+      },
+      {
+        "text": "Other tick-borne or vector-borne disease such as Ehrlichia or Anaplasma can cause thrombocytopenia and anemia.",
+        "category": "causal",
+        "rationale": "It links other infections to the hematologic abnormalities."
+      },
+      {
+        "text": "Texas exposure is relevant to other tick-borne or vector-borne disease.",
+        "category": "causal",
+        "rationale": "It links geography to infectious risk."
+      },
+      {
+        "text": "The smear or cytology specifically showed Babesia canis piroplasms.",
+        "category": "factual",
+        "rationale": "It reports a specific organism identification on testing."
+      },
+      {
+        "text": "Other tick-borne or vector-borne disease is less likely as the main diagnosis.",
+        "category": "causal",
+        "rationale": "It makes a differential diagnosis inference."
+      },
+      {
+        "text": "Acute transfusion reaction is an important consideration for the later respiratory collapse.",
+        "category": "recommendation",
+        "rationale": "It suggests a diagnostic consideration that should be evaluated."
+      },
+      {
+        "text": "Transfusion-associated lung injury is an important consideration for the later respiratory collapse.",
+        "category": "recommendation",
+        "rationale": "It suggests a diagnostic consideration that should be evaluated."
+      },
+      {
+        "text": "Transfusion-associated circulatory overload is an important consideration for the later respiratory collapse.",
+        "category": "recommendation",
+        "rationale": "It suggests a diagnostic consideration that should be evaluated."
+      },
+      {
+        "text": "The worsening tachypnea after transfusions is relevant to the later respiratory collapse.",
+        "category": "causal",
+        "rationale": "It links a post-transfusion sign to the respiratory event."
+      },
+      {
+        "text": "Fluid from the endotracheal tube is relevant to the later respiratory collapse.",
+        "category": "causal",
+        "rationale": "It links a clinical observation to the respiratory event."
+      },
+      {
+        "text": "These transfusion-related complications do not explain the initial weeks-long syndrome.",
+        "category": "causal",
+        "rationale": "It excludes a cause based on the time course."
+      },
+      {
+        "text": "The initial weeks-long syndrome included fever.",
+        "category": "factual",
+        "rationale": "It states a symptom present during the syndrome."
+      },
+      {
+        "text": "The initial weeks-long syndrome included anemia.",
+        "category": "factual",
+        "rationale": "It states a clinical feature present during the syndrome."
+      },
+      {
+        "text": "The initial weeks-long syndrome included thrombocytopenia.",
+        "category": "factual",
+        "rationale": "It states a clinical feature present during the syndrome."
+      },
+      {
+        "text": "The initial weeks-long syndrome included icterus.",
+        "category": "factual",
+        "rationale": "It states a clinical feature present during the syndrome."
+      },
+      {
+        "text": "The initial weeks-long syndrome included splenomegaly.",
+        "category": "factual",
+        "rationale": "It states a clinical feature present during the syndrome."
+      },
+      {
+        "text": "The most likely primary diagnosis is babesiosis caused by Babesia canis.",
+        "category": "factual",
+        "rationale": "It states the primary diagnosis."
+      },
+      {
+        "text": "The decisive evidence is the cytologic demonstration of intra-erythrocytic piroplasms consistent with B. canis in a dog with the classic clinical syndrome.",
+        "category": "factual",
+        "rationale": "It states the key diagnostic evidence supporting the diagnosis."
+      },
+      {
+        "text": "The later respiratory deterioration likely reflects a serious transfusion-related or inflammatory pulmonary complication.",
+        "category": "causal",
+        "rationale": "It proposes a mechanism for the later deterioration."
+      },
+      {
+        "text": "The later respiratory deterioration is secondary to the core diagnosis driving presentation.",
+        "category": "causal",
+        "rationale": "It links the later deterioration to the underlying disease process."
+      },
+      {
+        "text": "Babesiosis due to Babesia canis infection is the final diagnosis.",
+        "category": "factual",
+        "rationale": "It states the final diagnosis."
+      }
+    ]
+  }
+}

@@ -1,0 +1,638 @@
+{
+  "name": "expert_verify",
+  "passed": true,
+  "score": 1.0,
+  "reasoning": "No contradictions among 69 statement(s) (35 supported, 34 valid inferences, 0 unverifiable).",
+  "data": {
+    "verifications": [
+      {
+        "text": "The chief complaint is a 4-month asymptomatic rash with swelling over the right thigh in an immunosuppressed renal transplant recipient.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Reference data states 4-month history of asymptomatic rash and swelling over the right thigh in a renal transplant recipient on immunosuppression."
+      },
+      {
+        "text": "The patient’s own concern is a progressive unilateral eruption.",
+        "category": "factual",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.86,
+        "reasoning": "The eruption is described as unilateral on the right thigh/residual limb and progressive from distal to proximal, which supports this paraphrase."
+      },
+      {
+        "text": "The eruption began distally on the residual limb.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "The eruption began distally on his residual limb."
+      },
+      {
+        "text": "The eruption spread proximally.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "The eruption spread proximally."
+      },
+      {
+        "text": "Empiric antifungal therapy failed.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Empiric antifungal cream was ineffective."
+      },
+      {
+        "text": "Topical corticosteroids worsened the eruption.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Topical corticosteroid worsened the lesions."
+      },
+      {
+        "text": "The salient positive findings strongly point toward an infectious granulomatous dermatosis with neural involvement.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.9,
+        "reasoning": "Granulomatous dermatitis plus rare acid-fast bacilli and peripheral nerve involvement reasonably point to an infectious granulomatous process with neural involvement."
+      },
+      {
+        "text": "He is chronically immunosuppressed after cadaveric renal transplant.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "He had a cadaveric renal transplant six years earlier and is maintained on immunosuppressive therapy."
+      },
+      {
+        "text": "He takes cyclosporine.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Cyclosporine is explicitly listed among his medications."
+      },
+      {
+        "text": "He takes mycophenolic acid.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Mycophenolic acid is explicitly listed among his medications."
+      },
+      {
+        "text": "He takes prednisone.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Prednisone is explicitly listed among his medications."
+      },
+      {
+        "text": "This immunosuppression increases susceptibility to atypical infections.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.95,
+        "reasoning": "Chronic transplant immunosuppression is standardly associated with increased susceptibility to atypical/opportunistic infections."
+      },
+      {
+        "text": "He has travel exposure to Thailand.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Travel to Thailand is explicitly stated."
+      },
+      {
+        "text": "He has travel exposure to Vietnam.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Travel to Vietnam is explicitly stated."
+      },
+      {
+        "text": "He has travel exposure to Panama.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Travel to Panama is explicitly stated."
+      },
+      {
+        "text": "Leprosy can occur in Thailand, Vietnam, and Panama.",
+        "category": "factual",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.78,
+        "reasoning": "The trace notes these are regions where leprosy can occur; this is a reasonable epidemiologic inference, though not directly stated in the reference data."
+      },
+      {
+        "text": "The lesions are multiple erythematous papules and plaques.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Examination showed multiple erythematous papules and plaques."
+      },
+      {
+        "text": "Some of the lesions are annular.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Some lesions were coalescing into an annular pattern."
+      },
+      {
+        "text": "The lesions are localized to the right thigh/residual limb.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "The eruption was on the right thigh and residual limb."
+      },
+      {
+        "text": "Histology shows dermal nonnecrotizing tuberculoid granulomas with lymphocytes and rare neutrophils.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Biopsy showed dermal nonnecrotizing tuberculoid granulomas with lymphocytes and rare neutrophils."
+      },
+      {
+        "text": "Acid-fast stain shows rare acid-fast bacilli.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Acid-fast staining revealed rare acid-fast bacilli."
+      },
+      {
+        "text": "Acid-fast stain shows granulomatous involvement of a peripheral nerve bundle.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Acid-fast staining demonstrated granulomatous involvement of a peripheral nerve bundle."
+      },
+      {
+        "text": "Peripheral nerve involvement in a granulomatous dermatitis is a classic clue for Hansen disease.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.97,
+        "reasoning": "Peripheral nerve involvement in granulomatous dermatitis is a classic diagnostic clue for Hansen disease."
+      },
+      {
+        "text": "The presence of only rare bacilli with tuberculoid granulomas supports the paucibacillary/tuberculoid end of the spectrum rather than lepromatous disease.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.96,
+        "reasoning": "Rare bacilli with tuberculoid granulomas is consistent with paucibacillary/tuberculoid leprosy rather than lepromatous disease."
+      },
+      {
+        "text": "PAS stain is negative for fungal elements.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "PAS stain was negative for fungal elements."
+      },
+      {
+        "text": "The negative PAS stain argues against dermatophyte infection.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.9,
+        "reasoning": "A negative PAS stain reasonably argues against dermatophyte infection in this context."
+      },
+      {
+        "text": "The negative PAS stain argues against deep fungal infection.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.9,
+        "reasoning": "A negative PAS stain also argues against many deep fungal infections, though not absolutely excluding them."
+      },
+      {
+        "text": "Antifungal cream was ineffective.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Empiric antifungal cream was ineffective."
+      },
+      {
+        "text": "Topical corticosteroid worsened the lesions.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Topical corticosteroid worsened the lesions."
+      },
+      {
+        "text": "This pattern is compatible with an untreated infection rather than eczema or inflammatory dermatosis.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.88,
+        "reasoning": "Failure of antifungal therapy and worsening with steroid is compatible with an untreated infection rather than eczema or inflammatory dermatosis."
+      },
+      {
+        "text": "The biopsy showed nonnecrotizing granulomas rather than caseating granulomas.",
+        "category": "factual",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.84,
+        "reasoning": "The biopsy is described as nonnecrotizing tuberculoid granulomas, which contrasts with classic caseating granulomas of tuberculosis."
+      },
+      {
+        "text": "This finding makes classic cutaneous tuberculosis less fitting.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.9,
+        "reasoning": "Because the histology is nonnecrotizing and nerve involvement favors leprosy, classic cutaneous tuberculosis is less fitting."
+      },
+      {
+        "text": "The eruption is asymptomatic.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "The presentation explicitly says the rash was asymptomatic."
+      },
+      {
+        "text": "An asymptomatic eruption is less typical for bacterial cellulitis.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.8,
+        "reasoning": "An asymptomatic eruption is generally less typical for cellulitis."
+      },
+      {
+        "text": "An asymptomatic eruption is less typical for inflammatory contact dermatitis.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.8,
+        "reasoning": "An asymptomatic eruption is less typical for inflammatory contact dermatitis."
+      },
+      {
+        "text": "There is no mention of systemic symptoms.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.95,
+        "reasoning": "The reference data does not mention systemic symptoms."
+      },
+      {
+        "text": "There is no mention of ulceration.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.95,
+        "reasoning": "The reference data does not mention ulceration."
+      },
+      {
+        "text": "There is no mention of purulence.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.95,
+        "reasoning": "The reference data does not mention purulence."
+      },
+      {
+        "text": "Hansen disease fits best among the differential diagnoses.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.98,
+        "reasoning": "Given the nerve bundle involvement, rare acid-fast bacilli, tuberculoid granulomas, and travel history, Hansen disease is the best fit among the listed differentials."
+      },
+      {
+        "text": "Travel to endemic areas supports Hansen disease.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.82,
+        "reasoning": "Travel to Thailand, Vietnam, and Panama is epidemiologically supportive of Hansen disease, though the reference data itself does not explicitly state endemicity."
+      },
+      {
+        "text": "Chronic immunosuppression supports Hansen disease.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.98,
+        "reasoning": "Chronic immunosuppression is documented (cyclosporine, mycophenolic acid, prednisone after renal transplant) and is a standard risk factor supporting Hansen disease."
+      },
+      {
+        "text": "Granulomatous dermatitis supports Hansen disease.",
+        "category": "causal",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Biopsy showed dermal nonnecrotizing tuberculoid granulomas with lymphocytes and rare neutrophils."
+      },
+      {
+        "text": "Acid-fast bacilli support Hansen disease.",
+        "category": "causal",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Acid-fast staining revealed rare acid-fast bacilli."
+      },
+      {
+        "text": "Granulomatous involvement of a peripheral nerve bundle supports Hansen disease.",
+        "category": "causal",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Biopsy demonstrated granulomatous involvement of a peripheral nerve bundle."
+      },
+      {
+        "text": "The annular papules and plaques are consistent with tuberculoid or borderline tuberculoid disease.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.95,
+        "reasoning": "Annular papules/plaques plus tuberculoid granulomatous histology are consistent with tuberculoid or borderline tuberculoid leprosy."
+      },
+      {
+        "text": "The paucity of organisms is consistent with tuberculoid or borderline tuberculoid disease.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.95,
+        "reasoning": "Rare organisms on AFB stain fit the paucibacillary/tuberculoid end of the leprosy spectrum."
+      },
+      {
+        "text": "Cutaneous nontuberculous mycobacterial infection is plausible.",
+        "category": "factual",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.9,
+        "reasoning": "Given immunosuppression, chronic plaques, and AFB positivity, cutaneous NTM is a reasonable differential consideration."
+      },
+      {
+        "text": "He is immunosuppressed.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "He is maintained on cyclosporine, mycophenolic acid, and prednisone after renal transplant."
+      },
+      {
+        "text": "He has chronic plaques.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.96,
+        "reasoning": "The eruption is described as a 4-month history of rash and swelling with chronic localized plaques."
+      },
+      {
+        "text": "He has rare acid-fast bacilli on stain.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Rare acid-fast bacilli were seen on stain."
+      },
+      {
+        "text": "Peripheral nerve involvement is not typical for cutaneous nontuberculous mycobacterial infection.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.95,
+        "reasoning": "Peripheral nerve involvement is not a typical feature of cutaneous NTM and is used here as a discriminator."
+      },
+      {
+        "text": "Peripheral nerve involvement is a major discriminator against cutaneous nontuberculous mycobacterial infection.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.95,
+        "reasoning": "This is a stronger differential-pruning inference from the biopsy pattern; nerve involvement argues against NTM."
+      },
+      {
+        "text": "Cutaneous tuberculosis could produce granulomas.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.9,
+        "reasoning": "Cutaneous tuberculosis can present with granulomatous inflammation, so this is a reasonable differential statement."
+      },
+      {
+        "text": "Cutaneous tuberculosis could produce acid-fast organisms.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.9,
+        "reasoning": "Mycobacterial disease including cutaneous TB can show acid-fast organisms."
+      },
+      {
+        "text": "Peripheral nerve bundle involvement is not characteristic of cutaneous tuberculosis.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.95,
+        "reasoning": "Peripheral nerve bundle involvement is a classic leprosy clue and not characteristic of cutaneous TB."
+      },
+      {
+        "text": "The histology is described as tuberculoid granulomas with rare bacilli rather than caseating granulomas.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.98,
+        "reasoning": "The biopsy is explicitly described as dermal nonnecrotizing tuberculoid granulomas with rare bacilli, not caseating granulomas."
+      },
+      {
+        "text": "Deep fungal infection or tinea is less likely.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.95,
+        "reasoning": "Negative PAS and failed antifungal therapy make deep fungal infection/tinea less likely."
+      },
+      {
+        "text": "PAS is negative.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "PAS stain was negative for fungal elements."
+      },
+      {
+        "text": "Antifungal treatment failed.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Empiric antifungal cream was ineffective."
+      },
+      {
+        "text": "Granuloma annulare could produce annular plaques and granulomas.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.85,
+        "reasoning": "Granuloma annulare can present with annular plaques and granulomatous histology, though this is a differential inference rather than a case fact."
+      },
+      {
+        "text": "Sarcoidosis could produce annular plaques and granulomas.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.85,
+        "reasoning": "Sarcoidosis can also produce annular plaques and granulomatous inflammation, making it a plausible differential."
+      },
+      {
+        "text": "Granuloma annulare would not explain acid-fast bacilli.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.98,
+        "reasoning": "Granuloma annulare does not explain acid-fast bacilli; this is standard differential reasoning."
+      },
+      {
+        "text": "Sarcoidosis would not explain acid-fast bacilli.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.98,
+        "reasoning": "Sarcoidosis would not account for acid-fast bacilli on biopsy."
+      },
+      {
+        "text": "Granuloma annulare would not explain nerve involvement.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.98,
+        "reasoning": "Granuloma annulare would not explain granulomatous peripheral nerve involvement."
+      },
+      {
+        "text": "Sarcoidosis would not explain nerve involvement.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.98,
+        "reasoning": "Sarcoidosis would not explain the biopsy-proven peripheral nerve bundle involvement in this context."
+      },
+      {
+        "text": "The single most likely diagnosis is Hansen disease.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.99,
+        "reasoning": "Given the biopsy with AFB and peripheral nerve involvement, Hansen disease is the most likely diagnosis."
+      },
+      {
+        "text": "The biopsy finding of acid-fast bacilli within a granulomatous dermatitis involving a peripheral nerve bundle is the decisive feature.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.99,
+        "reasoning": "AFB within granulomatous dermatitis involving a peripheral nerve bundle is the key diagnostic feature supporting Hansen disease."
+      },
+      {
+        "text": "Given the tuberculoid granulomas and rare organisms, this is most consistent with tuberculoid leprosy on the paucibacillary end of the spectrum.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.99,
+        "reasoning": "Tuberculoid granulomas with rare organisms fit paucibacillary/tuberculoid leprosy."
+      },
+      {
+        "text": "The final diagnosis is tuberculoid leprosy.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "The trace explicitly states the final diagnosis is tuberculoid leprosy."
+      }
+    ],
+    "verdict_counts": {
+      "contradicted": 0,
+      "supported": 35,
+      "valid_inference": 34,
+      "unverifiable": 0
+    },
+    "contradictions": 0
+  }
+}

@@ -1,0 +1,854 @@
+{
+  "name": "expert_verify",
+  "passed": true,
+  "score": 1.0,
+  "reasoning": "No contradictions among 93 statement(s) (70 supported, 23 valid inferences, 0 unverifiable).",
+  "data": {
+    "verifications": [
+      {
+        "text": "The chief concern is a 2-month progressive cervical myelopathy syndrome.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "The presentation is a 2-month history of progressive quadriparesis with cervical localization from neck pain and cervical MRI findings."
+      },
+      {
+        "text": "The syndrome includes insidious quadriparesis.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Reference data states insidious, progressive weakness of all four limbs."
+      },
+      {
+        "text": "The syndrome includes paresthesias.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.98,
+        "reasoning": "Reference data explicitly notes tingling in all extremities."
+      },
+      {
+        "text": "The syndrome includes lower-limb sensory loss.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.98,
+        "reasoning": "Reference data states decreased sensation in the lower limbs and hypoesthesia in the lower limbs."
+      },
+      {
+        "text": "The syndrome includes new urinary retention over 4 days.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Urinary retention developed over the past 4 days per the case."
+      },
+      {
+        "text": "The syndrome includes preceding dull neck pain.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.98,
+        "reasoning": "Persistent dull neck pain is directly stated."
+      },
+      {
+        "text": "Examination confirms an upper motor neuron spinal cord process.",
+        "category": "factual",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.96,
+        "reasoning": "Spastic quadriparesis, hyperreflexia, and extensor plantar responses are classic upper motor neuron signs localizing to the spinal cord."
+      },
+      {
+        "text": "Examination shows spastic quadriparesis.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Neurologic exam explicitly revealed spastic quadriparesis."
+      },
+      {
+        "text": "Examination shows hyperreflexia.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Hyperreflexia in all limbs is directly reported."
+      },
+      {
+        "text": "Examination shows bilateral extensor plantar responses.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Bilateral extensor plantar responses are directly reported."
+      },
+      {
+        "text": "The urinary retention indicates cord involvement severe enough to affect autonomic pathways.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.9,
+        "reasoning": "Urinary retention in the setting of spinal cord compression reasonably indicates autonomic pathway involvement; this is a standard clinical inference."
+      },
+      {
+        "text": "Salient positive findings strongly localize the problem to compressive spinal disease.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.95,
+        "reasoning": "The combination of UMN signs and MRI cord/thecal sac compression supports localization to compressive spinal disease."
+      },
+      {
+        "text": "Salient positive findings suggest a systemic destructive process rather than isolated degenerative disease.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.9,
+        "reasoning": "Multifocal destructive osseous lesions with soft tissue masses favor a systemic infiltrative/destructive process over isolated degenerative disease."
+      },
+      {
+        "text": "MRI shows altered marrow signal and erosion from C5 to T1.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "MRI of the cervical spine showed altered marrow signal and erosion of C5 to T1."
+      },
+      {
+        "text": "MRI shows intraspinal extension from C5 to T1.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.98,
+        "reasoning": "The MRI described intraspinal extension between C5 and T1."
+      },
+      {
+        "text": "MRI shows elevation of the posterior longitudinal ligament.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.98,
+        "reasoning": "The MRI explicitly states elevation of the posterior longitudinal ligament."
+      },
+      {
+        "text": "MRI shows compression of the thecal sac and spinal cord.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "MRI showed compression of the thecal sac and spinal cord."
+      },
+      {
+        "text": "Additional multifocal vertebral marrow lesions involve T6, T7, T9, T10, L2-L5, and the sacrum.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Thoracic/lumbar MRI listed lesions at T6, T7, T9, T10, L2-L5, and sacrum."
+      },
+      {
+        "text": "Pedicle involvement is present at T10 and L5.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Pedicle involvement at T10 and L5 is directly stated."
+      },
+      {
+        "text": "Intraspinal extension is present at T6 and sacral levels.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Intraspinal extension at T6 and sacral levels is directly stated."
+      },
+      {
+        "text": "Large prevertebral and paravertebral soft tissue masses are present.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "MRI described large pre- and paravertebral soft tissue masses."
+      },
+      {
+        "text": "Chest radiograph shows an expansile right fourth rib lesion.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Chest radiograph showed an expansile lesion of the right fourth rib."
+      },
+      {
+        "text": "These findings indicate multifocal osseous disease with epidural extension.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.96,
+        "reasoning": "Multifocal vertebral marrow lesions plus intraspinal extension and rib lesion reasonably indicate multifocal osseous disease with epidural extension."
+      },
+      {
+        "text": "Systemic clues include anemia with hemoglobin 8.1 g/dL.",
+        "category": "statistical",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Hemoglobin was 8.1 g/dL, which is anemia."
+      },
+      {
+        "text": "Systemic clues include an elevated ESR of 42 mm/h.",
+        "category": "statistical",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "ESR was 42 mm in the first hour."
+      },
+      {
+        "text": "Systemic clues include mild hepatosplenomegaly.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.98,
+        "reasoning": "Mild hepatosplenomegaly was noted on examination."
+      },
+      {
+        "text": "A small firm painless right breast mass was later discovered.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Reexamination found a small, firm, painless, mobile mass in the right breast upper outer quadrant."
+      },
+      {
+        "text": "Ultrasound showed enlarged right axillary nodes.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Ultrasonography showed several enlarged right axillary lymph nodes."
+      },
+      {
+        "text": "She is HIV negative.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "The laboratory studies state HIV negative."
+      },
+      {
+        "text": "She has a normal WBC count.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "White blood cell count was 8,000/mm3, which is normal."
+      },
+      {
+        "text": "She has normal renal function tests.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Renal function was reported normal."
+      },
+      {
+        "text": "She has normal liver function tests.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Liver function tests were reported normal."
+      },
+      {
+        "text": "She denies weight loss.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "She denied weight loss."
+      },
+      {
+        "text": "She denies cough.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "She denied cough."
+      },
+      {
+        "text": "She denies hemoptysis.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "She denied hemoptysis."
+      },
+      {
+        "text": "She denies anorexia.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "She denied anorexia."
+      },
+      {
+        "text": "These denials make advanced pulmonary tuberculosis or lung primary less supported.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.9,
+        "reasoning": "Those denials reduce support for advanced pulmonary TB or lung primary, but do not rule them out."
+      },
+      {
+        "text": "These denials do not exclude advanced pulmonary tuberculosis or lung primary.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.98,
+        "reasoning": "Absence of weight loss/cough/hemoptysis/anorexia does not exclude TB or lung primary."
+      },
+      {
+        "text": "MRI shows preserved intervertebral disc height despite vertebral destruction.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "MRI explicitly states preserved intervertebral disc height."
+      },
+      {
+        "text": "MRI shows preserved intervertebral disc signal despite vertebral destruction.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "MRI explicitly states preserved intervertebral disc signal."
+      },
+      {
+        "text": "Preserved disc height and signal argue against typical infective spondylodiscitis.",
+        "category": "causal",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.98,
+        "reasoning": "MRI explicitly reports preserved intervertebral disc height and signal, which supports arguing against typical infective spondylodiscitis."
+      },
+      {
+        "text": "Preserved disc height and signal argue against tuberculous disc involvement.",
+        "category": "causal",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.98,
+        "reasoning": "The preserved disc height/signal directly argues against tuberculous disc involvement in the trace."
+      },
+      {
+        "text": "Preserved disc height and signal favor metastatic infiltration.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.95,
+        "reasoning": "Preserved discs plus multifocal marrow-replacing lesions are a standard pattern favoring metastatic infiltration over infection."
+      },
+      {
+        "text": "The multifocal noncontiguous vertebral lesions favor metastases over infection.",
+        "category": "causal",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.97,
+        "reasoning": "The MRI shows multifocal noncontiguous vertebral lesions across cervical, thoracic, lumbar, and sacral levels, which supports metastases over infection."
+      },
+      {
+        "text": "Pedicle involvement favors metastases over infection.",
+        "category": "causal",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.96,
+        "reasoning": "Pedicle involvement is explicitly present at T10 and L5 and is used in the trace as favoring metastases."
+      },
+      {
+        "text": "The rib lesion favors metastases over infection.",
+        "category": "causal",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.96,
+        "reasoning": "Chest radiograph shows an expansile right fourth rib lesion, which supports metastatic osseous disease over infection."
+      },
+      {
+        "text": "The first major differential is spinal tuberculosis with epidural compression.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "The trace explicitly states the first major differential is spinal tuberculosis with epidural compression."
+      },
+      {
+        "text": "Spinal tuberculosis fits the presence of low-grade fever.",
+        "category": "causal",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.98,
+        "reasoning": "A one-week history of low-grade fever is documented and is compatible with spinal TB."
+      },
+      {
+        "text": "Spinal tuberculosis fits the elevated ESR.",
+        "category": "causal",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "ESR is 42 mm in the first hour, which is elevated and compatible with TB."
+      },
+      {
+        "text": "Spinal tuberculosis fits neck pain.",
+        "category": "causal",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.98,
+        "reasoning": "Persistent dull neck pain is documented and fits spinal TB as a possible cause."
+      },
+      {
+        "text": "Spinal tuberculosis fits vertebral destruction.",
+        "category": "causal",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.97,
+        "reasoning": "MRI shows vertebral erosion/destruction from C5 to T1, which is compatible with spinal TB."
+      },
+      {
+        "text": "Spinal tuberculosis fits paravertebral soft tissue masses.",
+        "category": "causal",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.97,
+        "reasoning": "Large pre- and paravertebral soft tissue masses are explicitly reported and fit TB."
+      },
+      {
+        "text": "Spinal tuberculosis fits cord compression.",
+        "category": "causal",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.98,
+        "reasoning": "MRI shows compression of the thecal sac and spinal cord, so cord compression is present."
+      },
+      {
+        "text": "Several findings are less typical for spinal tuberculosis.",
+        "category": "causal",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "The trace explicitly says several findings are less typical for spinal tuberculosis."
+      },
+      {
+        "text": "Preserved disc spaces and signals are less typical for spinal tuberculosis.",
+        "category": "causal",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Preserved disc spaces/signals are explicitly described as less typical for spinal TB."
+      },
+      {
+        "text": "Multifocal noncontiguous vertebral involvement across cervical, thoracic, lumbar, and sacral levels is less typical for spinal tuberculosis.",
+        "category": "causal",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.98,
+        "reasoning": "The MRI shows multifocal noncontiguous involvement at cervical, thoracic, lumbar, and sacral levels, which is stated to be less typical for TB."
+      },
+      {
+        "text": "Pedicle involvement is less typical for spinal tuberculosis.",
+        "category": "causal",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.97,
+        "reasoning": "Pedicle involvement at T10 and L5 is explicitly cited as less typical for TB."
+      },
+      {
+        "text": "An expansile rib lesion is less typical for spinal tuberculosis.",
+        "category": "causal",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.97,
+        "reasoning": "The expansile right fourth rib lesion is explicitly listed among findings less typical for TB."
+      },
+      {
+        "text": "The subsequently identified breast mass with axillary lymphadenopathy is less typical for spinal tuberculosis.",
+        "category": "causal",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.98,
+        "reasoning": "The later-discovered breast mass with enlarged right axillary nodes is explicitly cited as less typical for TB."
+      },
+      {
+        "text": "TB lacks a clear pulmonary syndrome here.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.95,
+        "reasoning": "The patient denied cough and hemoptysis, and no pulmonary syndrome is described."
+      },
+      {
+        "text": "TB lacks a clear constitutional syndrome here.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.95,
+        "reasoning": "She denied weight loss and anorexia, so a clear constitutional syndrome is not present in the data."
+      },
+      {
+        "text": "The second and more compelling differential is metastatic malignancy causing multifocal vertebral metastases with epidural spinal cord compression.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "The trace explicitly identifies metastatic malignancy causing multifocal vertebral metastases with epidural spinal cord compression as the more compelling differential."
+      },
+      {
+        "text": "This diagnosis fits the age.",
+        "category": "causal",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.96,
+        "reasoning": "The patient is 53 years old, which is the age referenced."
+      },
+      {
+        "text": "This diagnosis fits the anemia.",
+        "category": "causal",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.98,
+        "reasoning": "Hemoglobin is 8.1 g/dL, confirming anemia."
+      },
+      {
+        "text": "This diagnosis fits the rib lesion.",
+        "category": "causal",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.97,
+        "reasoning": "The chest radiograph shows an expansile right fourth rib lesion."
+      },
+      {
+        "text": "This diagnosis fits the multifocal vertebral marrow abnormalities.",
+        "category": "causal",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.98,
+        "reasoning": "MRI shows multifocal vertebral marrow abnormalities at multiple spinal levels."
+      },
+      {
+        "text": "This diagnosis fits the pedicle involvement.",
+        "category": "causal",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.97,
+        "reasoning": "Pedicle involvement at T10 and L5 is explicitly reported."
+      },
+      {
+        "text": "This diagnosis fits the preserved discs.",
+        "category": "causal",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.97,
+        "reasoning": "MRI explicitly reports preserved intervertebral disc height and signal."
+      },
+      {
+        "text": "This diagnosis fits the large soft tissue masses from osseous lesions.",
+        "category": "causal",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.97,
+        "reasoning": "Large pre- and paravertebral soft tissue masses are explicitly described on MRI."
+      },
+      {
+        "text": "The discovery of a firm painless right breast mass in the upper outer quadrant provides a likely primary source.",
+        "category": "causal",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.98,
+        "reasoning": "A small, firm, painless mass in the upper outer quadrant of the right breast was palpated."
+      },
+      {
+        "text": "Ipsilateral axillary nodes provide a likely primary source.",
+        "category": "causal",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.98,
+        "reasoning": "Ultrasound showed several enlarged right axillary lymph nodes, which are ipsilateral to the breast mass."
+      },
+      {
+        "text": "Breast cancer commonly metastasizes to bone.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.96,
+        "reasoning": "Breast cancer commonly metastasizes to bone is standard oncologic knowledge and supports the diagnostic reasoning."
+      },
+      {
+        "text": "Breast cancer can present with vertebral metastases.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.96,
+        "reasoning": "Breast cancer can present with vertebral metastases is a standard clinical inference from its known metastatic pattern."
+      },
+      {
+        "text": "Breast cancer can present with cord compression.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.96,
+        "reasoning": "Breast cancer can cause epidural spinal cord compression via vertebral metastases; this is a sound inference."
+      },
+      {
+        "text": "Other malignant differentials such as multiple myeloma or lymphoma are less likely.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.95,
+        "reasoning": "Given the breast mass and metastatic bone pattern, myeloma and lymphoma are reasonably deprioritized as less likely differentials."
+      },
+      {
+        "text": "Myeloma can cause anemia.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.97,
+        "reasoning": "Myeloma can cause anemia is standard medical knowledge."
+      },
+      {
+        "text": "Myeloma can cause multifocal bone lesions.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.97,
+        "reasoning": "Myeloma can cause multifocal bone lesions is standard medical knowledge."
+      },
+      {
+        "text": "The newly found breast mass with axillary nodes is a more direct explanation than myeloma.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.96,
+        "reasoning": "The breast mass with axillary nodes is a more direct explanation for the bone disease than myeloma, given the identified likely primary."
+      },
+      {
+        "text": "The case does not mention classic myeloma features such as renal dysfunction.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "The reference data states renal function is normal, so the case does not mention renal dysfunction as a myeloma feature."
+      },
+      {
+        "text": "The case does not mention classic myeloma features such as hypercalcemia.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "The reference data does not report hypercalcemia; only glucose, renal, and liver function are stated as normal."
+      },
+      {
+        "text": "Lymphoma can involve the spine.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.98,
+        "reasoning": "Lymphoma is a standard cause of spinal involvement; this is general medical knowledge and consistent with the differential."
+      },
+      {
+        "text": "Lymphoma can cause epidural masses.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.98,
+        "reasoning": "Lymphoma can produce epidural/paraspinal masses; this is a plausible clinical inference, not a case-specific fact."
+      },
+      {
+        "text": "Lymphoma can cause hepatosplenomegaly.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.98,
+        "reasoning": "Hepatosplenomegaly is a recognized lymphoma feature; consistent with the differential discussion."
+      },
+      {
+        "text": "The breast lesion with axillary adenopathy and rib/vertebral pattern makes metastatic breast carcinoma more likely than lymphoma.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.96,
+        "reasoning": "Given the right breast mass, ipsilateral axillary nodes, and multifocal bone lesions, metastatic breast carcinoma is more likely than lymphoma."
+      },
+      {
+        "text": "The neurologic syndrome is metastatic epidural spinal cord compression.",
+        "category": "factual",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.97,
+        "reasoning": "The presentation and MRI findings support metastatic epidural spinal cord compression as the neurologic syndrome."
+      },
+      {
+        "text": "The most likely underlying disease is carcinoma of the right breast with widespread skeletal metastases.",
+        "category": "factual",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.97,
+        "reasoning": "The breast mass with axillary nodes plus widespread skeletal lesions supports right breast carcinoma with bone metastases."
+      },
+      {
+        "text": "The breast mass and axillary nodes provide the primary tumor source.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.95,
+        "reasoning": "The breast lesion and axillary nodes are the likely primary source in the context of metastatic disease."
+      },
+      {
+        "text": "The imaging pattern strongly supports metastatic vertebral disease rather than infection.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.96,
+        "reasoning": "Multifocal noncontiguous vertebral lesions, pedicle involvement, preserved discs, and rib lesion favor metastases over infection."
+      },
+      {
+        "text": "Metastatic breast carcinoma with vertebral metastases causing epidural spinal cord compression is the high-probability differential diagnosis.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "This matches the trace's stated high-probability differential diagnosis."
+      },
+      {
+        "text": "Spinal tuberculosis is a medium-probability differential diagnosis.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "This matches the trace's stated medium-probability differential diagnosis."
+      },
+      {
+        "text": "Multiple myeloma is a low-probability differential diagnosis.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "This matches the trace's stated low-probability differential diagnosis."
+      },
+      {
+        "text": "Lymphoma with osseous or epidural involvement is a low-probability differential diagnosis.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "This matches the trace's stated low-probability differential diagnosis."
+      },
+      {
+        "text": "The final diagnosis is metastatic breast carcinoma causing spinal epidural cord compression.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "This matches the trace's final diagnosis exactly."
+      }
+    ],
+    "verdict_counts": {
+      "contradicted": 0,
+      "supported": 70,
+      "valid_inference": 23,
+      "unverifiable": 0
+    },
+    "contradictions": 0
+  }
+}

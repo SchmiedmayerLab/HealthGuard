@@ -1,0 +1,42 @@
+{
+  "name": "aggregate",
+  "passed": false,
+  "score": 0.9449,
+  "reasoning": "Failed overall. The diagnosis is internally coherent and strongly supported by the clinical narrative, but the pipeline flagged completeness and graph-structure issues, including several missing relationship links and disconnected nodes. The weighted aggregate score was 0.9449, and the final diagnosis of metastatic thyroid carcinoma with multifocal CNS involvement remains the best-supported conclusion.",
+  "data": {
+    "weighted_score": 0.9449,
+    "all_passed": false,
+    "step_scores": {
+      "static_rules": {
+        "score": 1.0,
+        "passed": true,
+        "weight": 0.1
+      },
+      "decompose": {
+        "score": 0.0,
+        "passed": false,
+        "weight": 0.05
+      },
+      "chain_verify": {
+        "score": 1.0,
+        "passed": true,
+        "weight": 0.1
+      },
+      "classify": {
+        "score": 1.0,
+        "passed": true,
+        "weight": 0.0
+      },
+      "expert_verify": {
+        "score": 1.0,
+        "passed": true,
+        "weight": 0.65
+      },
+      "build_graph": {
+        "score": 0.9489,
+        "passed": false,
+        "weight": 0.1
+      }
+    }
+  }
+}

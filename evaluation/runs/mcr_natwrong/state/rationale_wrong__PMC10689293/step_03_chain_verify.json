@@ -1,0 +1,10 @@
+{
+  "name": "chain_verify",
+  "passed": true,
+  "score": 1.0,
+  "reasoning": "All logical chains are internally consistent. The statements form a coherent diagnostic chain: symptoms, imaging, endocrine findings, and epidemiology are used to support the differential and final diagnosis. The causal/logical links are medically plausible, and the comparative statements consistently favor craniopharyngioma over alternatives without obvious contradictions.",
+  "data": {
+    "has_chain_dependencies": true,
+    "issues": []
+  }
+}

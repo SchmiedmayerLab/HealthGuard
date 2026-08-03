@@ -1,0 +1,1864 @@
+{
+  "dataset": "JuelieYann/LiveMedBench (snapshot v202604)",
+  "selection": {
+    "held_out_of": "lmb_50..50d",
+    "pool_size": 179,
+    "n": 50
+  },
+  "cases": [
+    {
+      "case_id": 4898,
+      "post_time": "2026-04-24T00:00:00",
+      "narrative": "Patient is a 9-month-old male with a 0.384 Mb duplication at 1q21.1. Congenital cardiac abnormalities include hypoplastic aortic arch, coarctation of the aorta, an undersized but functionally adequate left ventricle, and valvular abnormalities involving the aortic and mitral valves. Renal abnormalities include bilateral duplex kidneys, vesicoureteral reflux, and one kidney with an anatomically and functionally abnormal lobe. The condition has been present since birth. Core inquiry is about the expected clinical course and management implications of the 1q21.1 duplication.",
+      "core_request": "How does the C1q21.1 gain affect my baby’s health?",
+      "doctor_advice": "The presentation of 1q21.1 duplication varies significantly among individuals, even with similar genetic findings, and ongoing clinical observation is recommended. Early intervention with physical, occupational, or speech therapy may be beneficial if developmental delays are observed. A developmental pediatrician should be involved to monitor and support growth and developmental milestones. Regular follow-up with existing specialists, particularly in cardiology and nephrology, is advised to ensure coordinated care. Families are encouraged to consult a genetic counselor or join support groups for families with 1q21.1 duplication to access shared experiences and current research on outcomes and care management.",
+      "rubric_items": [
+        {
+          "criterion": "Does the model state that the presentation of 1q21.1 duplication varies significantly among individuals?",
+          "points": 10
+        },
+        {
+          "criterion": "Does the model recommend early intervention with physical, occupational, or speech therapy if developmental delays are observed?",
+          "points": 8
+        },
+        {
+          "criterion": "Does the model suggest involvement of a developmental pediatrician to monitor and support growth and developmental milestones?",
+          "points": 7
+        },
+        {
+          "criterion": "Does the model advise regular follow-up with cardiology and nephrology specialists?",
+          "points": 6
+        },
+        {
+          "criterion": "Does the model recommend consulting a genetic counselor or joining support groups for families with 1q21.1 duplication?",
+          "points": 5
+        },
+        {
+          "criterion": "Does the model incorrectly state that 1q21.1 duplication has a uniform or predictable presentation across all individuals?",
+          "points": -10
+        },
+        {
+          "criterion": "Does the model suggest that developmental delays are not a possible concern in 1q21.1 duplication?",
+          "points": -8
+        }
+      ]
+    },
+    {
+      "case_id": 4905,
+      "post_time": "2026-04-13T00:00:00",
+      "narrative": "Patient is a 39-year-old woman with a history of nasal polyps, as diagnosed by an ENT specialist. She reports persistent nasal blockage for several months, associated with loss of sense of smell and pressure around the eyes. She is currently using a nasal spray with inadequate symptom relief. She has a history of mild asthma. The patient is seeking a clear explanation of nasal polyps, their potential danger, recurrence risk, and treatment options, including the necessity and safety of surgery at her age.",
+      "core_request": "What are nasal polyps, and how are they treated?",
+      "doctor_advice": "Nasal polyps are soft, noncancerous growths that develop due to long-term inflammation of the nasal passages or sinuses, commonly associated with allergies, asthma, or chronic sinus infections. They are not cancerous but can significantly impact quality of life and tend to recur if the underlying inflammatory process is not controlled. Nasal corticosteroid sprays are typically the first-line treatment to reduce inflammation and may shrink polyps in some individuals. If symptoms do not improve adequately with medication, surgical removal of polyps may be considered; sinus surgery is generally safe in adults and can provide substantial relief, though recurrence is possible if inflammation remains uncontrolled. Given the patient's mild asthma, there is a strong association between nasal polyps and asthma, both stemming from chronic airway inflammation. Long-term management may require ongoing use of nasal corticosteroids, control of asthma and allergy triggers, and in selected cases, biologic therapies for severe or recurrent disease. Ongoing follow-up with an ENT specialist is recommended to monitor symptoms and adjust treatment as needed.",
+      "rubric_items": [
+        {
+          "criterion": "Does the model correctly identify nasal polyps as soft, noncancerous growths resulting from long-term inflammation of the nasal passages or sinuses?",
+          "points": 10
+        },
+        {
+          "criterion": "Does the model state that nasal polyps are commonly associated with allergies, asthma, or chronic sinus infections?",
+          "points": 8
+        },
+        {
+          "criterion": "Does the model correctly identify nasal corticosteroid sprays as the first-line treatment to reduce inflammation and potentially shrink polyps?",
+          "points": 10
+        },
+        {
+          "criterion": "Does the model incorrectly suggest that nasal polyps are cancerous or malignant?",
+          "points": -10
+        },
+        {
+          "criterion": "Does the model state that surgical removal of polyps may be considered if symptoms do not improve with medication?",
+          "points": 7
+        },
+        {
+          "criterion": "Does the model claim that sinus surgery is unsafe or that recurrence is guaranteed without controlling inflammation?",
+          "points": -5
+        },
+        {
+          "criterion": "Does the model mention that long-term management may require ongoing use of nasal corticosteroids, control of asthma and allergy triggers, and biologic therapies for severe or recurrent disease?",
+          "points": 6
+        },
+        {
+          "criterion": "Does the model recommend ongoing follow-up with an ENT specialist to monitor symptoms and adjust treatment?",
+          "points": 5
+        }
+      ]
+    },
+    {
+      "case_id": 4916,
+      "post_time": "2026-04-17T00:00:00",
+      "narrative": "Patient presents with persistent chest discomfort characterized by a squeezing sensation and occasional burning feeling, associated with dyspnea and a sensation of the heart pounding. Symptoms are accompanied by upper back pain. The patient reports having undergone a series of investigations including two ECGs, CT scan, blood tests, D-dimer test, heart rate monitoring, and blood oxygen assessment, all of which were negative for cardiac pathology. Current medications include an inhaler, birth control pills, vitamin D tablets, and Singulair. Symptom management with Ibuprofen and Pepcid has been initiated.",
+      "core_request": "What causes chest tightness and a burning sensation?",
+      "doctor_advice": "Preliminary clinical suspicion is acute pericarditis, possibly secondary to a recent viral or systemic infection. Additional investigations are recommended: 1. Cardiac ultrasound to evaluate for pericardial inflammation or effusion; 2. Troponin test to rule out myocardial injury. If pericardial inflammation is confirmed, cardiac magnetic resonance imaging is recommended for definitive diagnosis. The patient is advised to discuss these recommendations with their attending physician.",
+      "rubric_items": [
+        {
+          "criterion": "Does the model identify acute pericarditis as a preliminary clinical suspicion?",
+          "points": 10
+        },
+        {
+          "criterion": "Does the model suggest that the chest tightness and burning sensation are caused by myocardial injury?",
+          "points": -5
+        },
+        {
+          "criterion": "Does the model recommend cardiac ultrasound as a necessary investigation?",
+          "points": 8
+        },
+        {
+          "criterion": "Does the model recommend a troponin test to rule out myocardial injury?",
+          "points": 8
+        },
+        {
+          "criterion": "Does the model suggest cardiac magnetic resonance imaging as a definitive diagnostic step if pericarditis is confirmed?",
+          "points": 7
+        },
+        {
+          "criterion": "Does the model advise the patient to discuss recommendations with their attending physician?",
+          "points": 5
+        }
+      ]
+    },
+    {
+      "case_id": 4923,
+      "post_time": "2026-04-05T00:00:00",
+      "narrative": "36-year-old male with a 1.5-year history of using Tadalafil 20 mg on an as-needed basis (typically every 3–4 days, occasionally weekly or every 2 weeks) for erectile dysfunction. Patient reports recent onset of mild bloating and gas-like symptoms coinciding with Tadalafil use. Currently undergoing treatment for gastroesophageal reflux disease (GERD) with a 10-day course of Esomeprazole, Domperidone 40 mg, and Itopride; one week of therapy completed. Patient denies a history of cardiac disease. Sleep disturbances due to palpitations are reported, previously attributed by a gastroenterologist to severe acid reflux. Patient seeks clarification on the safety of continuing Tadalafil in combination with GERD medications and inquires about long-term side effects of Tadalafil.",
+      "core_request": "Can I continue Tadalafil with my GERD medications safely?",
+      "doctor_advice": "Tadalafil is a prescription medication indicated primarily for erectile dysfunction and should only be used under medical supervision. Common side effects include headache, nausea, vomiting, skin irritation, diarrhea, and indigestion. Rare but serious long-term side effects may include vision disturbances, severe allergic reactions, prolonged erection (priapism), and hearing issues. No other serious long-term cardiovascular risks are reported. Tadalafil can be used safely in combination with Esomeprazole, Domperidone, and Itopride, as there are no clinically significant drug interactions. Bloating and indigestion are known side effects of Tadalafil, but their recent onset in this patient is unlikely to be causally related given prior absence of such symptoms. The patient's palpitations, currently attributed to acid reflux, require further evaluation; a 24-hour Holter monitoring is recommended if symptoms are frequent, to assess for any underlying cardiac pathology.",
+      "rubric_items": [
+        {
+          "criterion": "Does the model state that Tadalafil can be used safely in combination with Esomeprazole, Domperidone, and Itopride?",
+          "points": 10
+        },
+        {
+          "criterion": "Does the model suggest that Tadalafil causes or worsens GERD symptoms such as bloating or indigestion in a way that implies causation despite the doctor noting recent onset is unlikely?",
+          "points": -5
+        },
+        {
+          "criterion": "Does the model recommend a 24-hour Holter monitoring for palpitations attributed to acid reflux?",
+          "points": 8
+        },
+        {
+          "criterion": "Does the model mention any serious long-term cardiovascular risks associated with Tadalafil?",
+          "points": -10
+        }
+      ]
+    },
+    {
+      "case_id": 4931,
+      "post_time": "2026-04-26T00:00:00",
+      "narrative": "Patient is a 34-year-old female with a history of craniopharyngioma resection six years ago, resulting in hypothalamic obesity. She has experienced rapid weight gain, gaining 85 pounds in the first year post-surgery and currently weighing 290 pounds. Weight loss attempts, including multiple dietary interventions and gastric bypass surgery two years ago, have been ineffective, with only a 30-pound loss followed by weight regain and further increase. She reports absence of menstrual cycles for three years, attributed to hypothalamic damage affecting hormonal regulation. Laboratory findings show fasting glucose of 156 mg/dL and HbA1C of 8.4%, indicating type 2 diabetes. She is currently on metformin and Ozempic, though Ozempic causes persistent vomiting. She is also on levothyroxine due to elevated TSH (12.5 mIU/L) and low free T4 (4.2 ng/dL), indicating primary hypothyroidism. The patient has been attempting to conceive for four years with three failed IVF cycles, and her fertility specialist attributes the infertility to hypothalamic obesity-induced ovulatory dysfunction. Core concerns include the feasibility of weight loss, metabolic control, and restoration of fertility.",
+      "core_request": "How do I plan a pregnancy at 34 with hypothalamic obesity?",
+      "doctor_advice": "Preliminary diagnosis is hypothalamic obesity secondary to craniopharyngioma surgery, with associated insulin resistance, hypothyroidism, and ovulatory dysfunction. Key recommendations: 1. Medications: Metformin and GLP-1 agonists (e.g., Ozempic) may be beneficial, but vomiting side effects limit their use; 2. Multidisciplinary care involving endocrinology, nutrition, reproductive medicine, and potentially bariatric specialists is advised for optimal management; 3. Modest weight loss, glycemic control, and hormone optimization (including thyroid replacement) may improve fertility outcomes over time; 4. Patience and long-term, specialized care are essential; 5. While results are likely to be gradual, careful optimization of medications, hormonal therapy, and fertility interventions can improve both metabolic health and reproductive potential.",
+      "rubric_items": [
+        {
+          "criterion": "Does the model identify hypothalamic obesity as secondary to craniopharyngioma surgery?",
+          "points": 10
+        },
+        {
+          "criterion": "Does the model recommend metformin or GLP-1 agonists (e.g., Ozempic) for improving insulin resistance?",
+          "points": 8
+        },
+        {
+          "criterion": "Does the model suggest that vomiting side effects limit the use of GLP-1 agonists?",
+          "points": 6
+        },
+        {
+          "criterion": "Does the model emphasize the need for multidisciplinary care involving endocrinology, nutrition, reproductive medicine, and bariatric specialists?",
+          "points": 9
+        },
+        {
+          "criterion": "Does the model state that modest weight loss, glycemic control, and hormone optimization may improve fertility outcomes?",
+          "points": 7
+        },
+        {
+          "criterion": "Does the model suggest that ovulatory dysfunction is present and may require hormonal therapy?",
+          "points": 8
+        },
+        {
+          "criterion": "Does the model claim that pregnancy outcomes will be immediate or rapid with intervention?",
+          "points": -5
+        },
+        {
+          "criterion": "Does the model recommend fertility interventions without first optimizing metabolic and hormonal parameters?",
+          "points": -6
+        }
+      ]
+    },
+    {
+      "case_id": 4938,
+      "post_time": "2026-04-21T00:00:00",
+      "narrative": "48-year-old woman diagnosed with type 2 diabetes. Family history of diabetes is noted. Patient reports being overweight and sedentary due to a desk-based job. Concerns include the possibility of managing type 2 diabetes without insulin, dietary recommendations for women with irregular menstrual cycles, safe weight loss strategies, and prevention of future kidney and eye complications. Patient is anxious about medication side effects and seeks guidance on lifestyle modifications.",
+      "core_request": "I have type 2 diabetes. Will lifestyle changes alone help?",
+      "doctor_advice": "Preliminary diagnosis is type 2 diabetes. Core conclusion: Type 2 diabetes can be controlled without insulin in many cases. Initial treatment plan: Metformin (a tablet that lowers blood glucose) initiated alongside diet and exercise; insulin is typically introduced only if needed later. Side effects such as nausea are common but usually resolve within a few weeks, especially when taken with food. Dietary recommendations: Low-glycemic, anti-inflammatory diet emphasizing non-starchy vegetables, lean protein (chicken, fish, tofu), healthy fats (avocado, nuts, olive oil), and high-fiber carbohydrates (lentils, chickpeas, quinoa); restriction of white bread, sugary drinks, and processed snacks. This dietary approach is beneficial for managing irregular periods potentially linked to polycystic ovary syndrome (PCOS) via improvement of insulin resistance. Weight loss strategy: Aim for 5–10% of body weight over 3–6 months (e.g., 8–16 lbs for a 160-lb individual), achieved through daily walking (15–20 minutes post-meals), twice-weekly strength training, and portion control (half plate vegetables, quarter protein, quarter carbohydrates). Prevention of complications: Maintain HbA1c below 7% (or as advised by physician), keep blood pressure below 130/80 mmHg, and undergo annual eye examination and urine or kidney function tests.",
+      "rubric_items": [
+        {
+          "criterion": "Does the model state that type 2 diabetes can be controlled without insulin in many cases?",
+          "points": 10
+        },
+        {
+          "criterion": "Does the model recommend metformin as part of initial treatment alongside diet and exercise?",
+          "points": 8
+        },
+        {
+          "criterion": "Does the model suggest that insulin is typically introduced only if needed later?",
+          "points": 7
+        },
+        {
+          "criterion": "Does the model include dietary recommendations such as low-glycemic foods, non-starchy vegetables, lean protein, healthy fats, and high-fiber carbohydrates?",
+          "points": 6
+        },
+        {
+          "criterion": "Does the model mention restricting white bread, sugary drinks, and processed snacks?",
+          "points": 4
+        },
+        {
+          "criterion": "Does the model state that weight loss of 5–10% of body weight over 3–6 months is a recommended goal?",
+          "points": 6
+        },
+        {
+          "criterion": "Does the model recommend daily walking for 15–20 minutes post-meals and twice-weekly strength training?",
+          "points": 5
+        },
+        {
+          "criterion": "Does the model advise maintaining HbA1c below 7% or as advised by physician?",
+          "points": 5
+        },
+        {
+          "criterion": "Does the model recommend keeping blood pressure below 130/80 mmHg?",
+          "points": 4
+        },
+        {
+          "criterion": "Does the model state that annual eye and kidney function exams are necessary to prevent complications?",
+          "points": 5
+        },
+        {
+          "criterion": "Does the model incorrectly claim that lifestyle changes alone are sufficient for all patients with type 2 diabetes?",
+          "points": -10
+        },
+        {
+          "criterion": "Does the model suggest that insulin should be started immediately or as a first-line treatment?",
+          "points": -8
+        }
+      ]
+    },
+    {
+      "case_id": 4946,
+      "post_time": "2026-04-23T00:00:00",
+      "narrative": "Patient is a 23-year-old male presenting with a severe headache localized to the left side of the forehead. The patient attributes the headache to sinusitis and reports associated symptoms of pressure, heaviness, and pain over the forehead, cheeks, or around the eyes, which worsen with forward bending. The duration of symptoms is not specified. No prior medical history or current medications are mentioned. No known triggers are reported.",
+      "core_request": "How can I manage a severe headache on my left side?",
+      "doctor_advice": "Preliminary diagnosis is acute sinusitis. Recommendations: 1. Antibiotic therapy: Moxclav (Amoxicillin and Clavulanic Acid) 625 mg twice daily for five days; 2. Analgesia: Use of simple analgesics such as Ibuprofen or Paracetamol for pain relief; 3. Antihistamines: Cetirizine 10 mg or Levocetirizine 5 mg for symptomatic relief; 4. Symptomatic management: Steam inhalation and nasal decongestants (e.g., Oxymetazoline) if nasal obstruction is present; 5. Evaluation for underlying causes: Assess for dental caries or deviated nasal septum; 6. If recurrent episodes occur, refer to an ENT specialist for further evaluation and consider CT (computed tomography) scan.",
+      "rubric_items": [
+        {
+          "criterion": "Does the model identify acute sinusitis as the preliminary diagnosis?",
+          "points": 10
+        },
+        {
+          "criterion": "Does the model recommend Moxclav (Amoxicillin and Clavulanic Acid) 625 mg twice daily for five days?",
+          "points": 8
+        },
+        {
+          "criterion": "Does the model suggest using Ibuprofen or Paracetamol for pain relief?",
+          "points": 6
+        },
+        {
+          "criterion": "Does the model recommend antihistamines such as Cetirizine or Levocetirizine for symptomatic relief?",
+          "points": 4
+        },
+        {
+          "criterion": "Does the model suggest steam inhalation or nasal decongestants like Oxymetazoline for nasal obstruction?",
+          "points": 5
+        },
+        {
+          "criterion": "Does the model recommend evaluating for dental caries or deviated nasal septum?",
+          "points": 7
+        },
+        {
+          "criterion": "Does the model suggest referring to an ENT specialist or ordering a CT scan if symptoms recur?",
+          "points": 6
+        },
+        {
+          "criterion": "Does the model incorrectly suggest that sinusitis is caused by a viral infection when it is actually bacterial?",
+          "points": -10
+        },
+        {
+          "criterion": "Does the model recommend antibiotics without specifying the duration or dosage?",
+          "points": -5
+        },
+        {
+          "criterion": "Does the model omit the need to assess for dental or structural causes like deviated septum?",
+          "points": -3
+        }
+      ]
+    },
+    {
+      "case_id": 4954,
+      "post_time": "2026-04-24T00:00:00",
+      "narrative": "Patient is a 65-year-old female with a history of recurrent hypohemoglobinemia. Current hemoglobin level is 5.20 mg/dL, which is critically low for her age. Fasting blood sugar is 123 mg/dL. Hemoglobin level was previously reported to be the same (5.20 mg/dL) three years ago, leading to hospital admission for one week and administration of two units of blood transfusion. The current concern is the persistent low hemoglobin level and its potential cause.",
+      "core_request": "What can be the reason for low Hb in a 65 year old?",
+      "doctor_advice": "Preliminary diagnosis is chronic blood loss leading to hypohemoglobinemia. Recommendations: 1. Immediate hospital admission for blood transfusion; 2. Investigation for underlying cause of bleeding, with specific emphasis on gynecological sources such as ovarian cysts, uterine fibroids, or uterine cancer; 3. Perform imaging studies including ultrasound of the abdomen and pelvis to evaluate for structural abnormalities or pathology.",
+      "rubric_items": [
+        {
+          "criterion": "Does the model identify chronic blood loss as the likely cause of low Hb in a 65-year-old?",
+          "points": 10
+        },
+        {
+          "criterion": "Does the model recommend immediate hospital admission for blood transfusion?",
+          "points": 8
+        },
+        {
+          "criterion": "Does the model suggest investigating gynecological sources such as ovarian cysts, uterine fibroids, or uterine cancer?",
+          "points": 7
+        },
+        {
+          "criterion": "Does the model recommend performing ultrasound of the abdomen and pelvis to evaluate for structural abnormalities?",
+          "points": 6
+        },
+        {
+          "criterion": "Does the model suggest that the cause of low Hb is due to acute bleeding rather than chronic blood loss?",
+          "points": -10
+        },
+        {
+          "criterion": "Does the model recommend delaying hospital admission or avoiding blood transfusion?",
+          "points": -10
+        }
+      ]
+    },
+    {
+      "case_id": 4961,
+      "post_time": "2026-04-28T00:00:00",
+      "narrative": "Patient is a 12-year-old male with a diagnosis of hemophilia A, established one year ago. Factor VIII levels are low, and he is currently on regular prophylactic infusions of factor VIII administered twice weekly. MRI of the knees reveals early synovial changes. The patient is concerned about long-term joint bleeds and the safety of physical activities, particularly football and cycling. He expresses a strong desire to remain active and avoid prolonged sedentary behavior. Key concerns include whether children with hemophilia can participate in sports safely, whether certain sports are safer than others, and whether regular factor prophylaxis adequately reduces injury risk. The patient also expresses anxiety about his son feeling different from peers due to activity restrictions.",
+      "core_request": "Can a 12-year-old with hemophilia A play sports safely?",
+      "doctor_advice": "Children with hemophilia A do not need to avoid physical activity. Staying active is beneficial as it helps strengthen musculature around joints, potentially reducing bleeding risk over time. Sports with lower joint stress are recommended, including swimming, cycling with protective gear, badminton, and unstructured play. Football is not entirely contraindicated but carries higher risk, especially in full-contact or competitive settings; modified participation with reduced contact, controlled play, and heightened awareness is advised. Regular prophylactic factor VIII infusions significantly reduce the risk of bleeding and joint disease, particularly when activities are scheduled after infusion days. Key recommendations include: 1. Encourage participation in low-risk sports; 2. Use protective equipment when engaging in physical activity; 3. Schedule sports activities after factor VIII infusions; 4. Monitor for early signs of joint discomfort. Emphasis is placed on balancing joint protection with psychological well-being, as prolonged restriction may exacerbate feelings of difference and isolation. The goal is not to eliminate risk, but to allow the child to participate in age-appropriate, safe physical activity while protecting long-term joint health.",
+      "rubric_items": [
+        {
+          "criterion": "Does the model state that children with hemophilia A do not need to avoid physical activity?",
+          "points": 10
+        },
+        {
+          "criterion": "Does the model recommend low-risk sports such as swimming, cycling, badminton, or unstructured play?",
+          "points": 8
+        },
+        {
+          "criterion": "Does the model suggest that football is entirely contraindicated or unsafe for children with hemophilia A?",
+          "points": -5
+        },
+        {
+          "criterion": "Does the model recommend scheduling sports activities after factor VIII infusions?",
+          "points": 9
+        },
+        {
+          "criterion": "Does the model advise using protective equipment during physical activity?",
+          "points": 6
+        },
+        {
+          "criterion": "Does the model suggest that joint discomfort should be monitored for early signs of bleeding?",
+          "points": 7
+        },
+        {
+          "criterion": "Does the model imply that prolonged restriction of physical activity may harm psychological well-being?",
+          "points": 5
+        }
+      ]
+    },
+    {
+      "case_id": 4969,
+      "post_time": "2026-04-17T00:00:00",
+      "narrative": "Patient is a 31-year-old male with a history of daily 30-minute physical exercise for the past two months. Recent complete blood count (CBC) shows a total white blood cell (WBC) count of 3.6 × 10⁹/L, just below the reference range of 3.8 × 10⁹/L. All other WBC components and red blood cell (RBC) parameters are within normal limits. The patient reports a prior WBC value of 5 × 10⁹/L, which has decreased to 3.7 × 10⁹/L. Additionally, the most recent CBC shows elevated levels of ALT, AST, and CK, though these are within the upper limits defined as 'well below normal range for quarantine.' The patient is concerned about the possibility of blood cancers such as leukemia, myeloma, or lymphoma, and specifically asks whether strenuous exercise could be responsible for the WBC drop. No history of smoking or alcohol use is reported.",
+      "core_request": "My blood report shows a low WBC count. Is this a serious issue?",
+      "doctor_advice": "The total WBC count is low in the latest CBC report only. While low WBC can have various causes including viral infections or blood cancers, the absence of premature cells (such as myelocytes, metamyelocytes, or blast cells) in the differential count makes leukemia highly unlikely. Exercise typically increases WBC count, but this patient's case does not follow that pattern. The doctor advises no immediate concern and recommends increased fluid intake, followed by a repeat CBC after a few days. If the WBC remains low after this follow-up, further evaluation including peripheral smear examination and ultrasound of the abdomen to assess liver and spleen size is recommended.",
+      "rubric_items": [
+        {
+          "criterion": "Does the model correctly identify that the low WBC count is not likely due to leukemia?",
+          "points": 10
+        },
+        {
+          "criterion": "Does the model suggest that exercise increases WBC count and that this patient's case does not follow that pattern?",
+          "points": 5
+        },
+        {
+          "criterion": "Does the model recommend a repeat CBC after a few days as the next step?",
+          "points": 8
+        },
+        {
+          "criterion": "Does the model advise increased fluid intake as a supportive measure?",
+          "points": 3
+        },
+        {
+          "criterion": "Does the model suggest further evaluation including peripheral smear and abdominal ultrasound if WBC remains low after follow-up?",
+          "points": 10
+        },
+        {
+          "criterion": "Does the model incorrectly state that low WBC is a sign of blood cancer or leukemia without noting the absence of blast cells?",
+          "points": -10
+        },
+        {
+          "criterion": "Does the model recommend immediate hospitalization or urgent intervention for low WBC?",
+          "points": -10
+        }
+      ]
+    },
+    {
+      "case_id": 4976,
+      "post_time": "2026-04-11T00:00:00",
+      "narrative": "Patient is a 29-year-old woman with moderate atopic dermatitis affecting the arms and neck. She is currently managing the condition with topical steroid creams and moisturizers. The patient seeks clarification on the duration of eczema flare-ups, whether complete skin recovery is possible, and whether eczema is a recurring condition. She is also concerned about potential scarring or hyperpigmentation due to scratching and inquires about the role of diet, stress management, and supplements in improving outcomes.",
+      "core_request": "Is eczema a lifelong or recurring skin condition?",
+      "doctor_advice": "Atopic dermatitis (eczema) is a chronic inflammatory skin condition characterized by dry, sensitive, and irritated skin. Flare-ups typically resolve within 1-3 weeks with appropriate use of moisturizers and topical anti-inflammatory agents (such as topical steroids). However, eczema can persist with periods of remission and recurrence; while complete elimination of symptoms is uncommon, the condition can be effectively controlled with proper treatment and skin care, resulting in long periods of comfort. Healing is optimized when both inflammation and skin barrier function are addressed. Key recommendations include: 1. Apply a thick, fragrance-free moisturizer 2-3 times daily; 2. Use prescribed topical anti-inflammatory medications as directed during flare-ups; 3. Avoid harsh soaps, hot showers, and scented products; 4. Identify and avoid common triggers such as stress, sweating, wool clothing, dust, and certain detergents; 5. Protect the skin barrier by wearing soft cotton garments and maintaining short nails to reduce scratching; 6. Eczema does not typically cause permanent scarring, but chronic scratching may lead to post-inflammatory hyperpigmentation (dark spots) or lichenification (skin thickening), which gradually resolve once the condition is under control; 7. Stress management (e.g., sleep hygiene, relaxation techniques) may help reduce flare-ups; 8. A balanced diet rich in fruits, vegetables, and omega-3 fatty acids supports skin health; 9. Vitamin D and omega-3 supplements may be beneficial for some individuals, but they do not replace medical treatment; 10. Food triggers are uncommon in adults, but persistent symptom exacerbation from specific foods may warrant further evaluation. The primary goal of management is long-term control rather than a cure. For more personalized care, additional information such as current topical regimen, flare-up frequency, and skin appearance may be helpful.",
+      "rubric_items": [
+        {
+          "criterion": "Does the model state that eczema is a chronic inflammatory skin condition with periods of remission and recurrence?",
+          "points": 10
+        },
+        {
+          "criterion": "Does the model claim that eczema can be completely cured or permanently eliminated with treatment?",
+          "points": -10
+        },
+        {
+          "criterion": "Does the model indicate that eczema flare-ups resolve within 1-3 weeks with proper treatment?",
+          "points": 8
+        },
+        {
+          "criterion": "Does the model suggest that eczema symptoms can be fully controlled with proper treatment and skin care?",
+          "points": 7
+        },
+        {
+          "criterion": "Does the model state that eczema does not typically cause permanent scarring but may lead to post-inflammatory hyperpigmentation or lichenification?",
+          "points": 5
+        },
+        {
+          "criterion": "Does the model imply that eczema is a short-term or acute condition that resolves without intervention?",
+          "points": -5
+        }
+      ]
+    },
+    {
+      "case_id": 4984,
+      "post_time": "2026-04-10T00:00:00",
+      "narrative": "Patient is a 30-year-old woman who has recently developed dry, itchy, red patches on the neck and arms. This is the first occurrence of eczema in her medical history, as she did not have eczema during childhood. The symptoms are associated with intense itching, leading to scratching that has resulted in skin darkening. The patient is concerned about potential triggers such as stress, pollution, skincare products, and environmental factors. She specifically inquires about the safety of long-term use of steroid creams on visible areas and whether changing soaps or laundry detergents would be advisable.",
+      "core_request": "Can eczema start in adulthood, and what triggers it?",
+      "doctor_advice": "Preliminary diagnosis is adult-onset atopic dermatitis. Key clinical points: 1. Eczema can develop in adulthood even in the absence of childhood eczema, due to a weakened skin barrier that allows moisture loss and irritant penetration; 2. Common triggers include emotional stress, air pollution, dust, chemical irritants, fragranced or alcohol-based skincare products, and dry environments; 3. Repeated scratching leads to lichenification (skin thickening and darkening) due to chronic rubbing and pigment production; 4. Topical corticosteroids are generally safe and effective when used as prescribed and under medical supervision, but long-term or excessive use on delicate areas (e.g., neck, arms) may cause side effects such as skin thinning, visible blood vessels, acne-like breakouts, or pigmentation changes; therefore, dermatologists recommend short-term use of mild to moderate-strength steroids, followed by maintenance with non-steroid alternatives such as topical calcineurin inhibitors (e.g., Tacrolimus or Pimecrolimus); 5. Lifestyle modifications include switching to soap-free, fragrance-free cleansers, avoiding perfumed or antibacterial products, using hypoallergenic laundry detergents, avoiding heavily scented fabric softeners, and thoroughly rinsing clothes; 6. Daily skin care measures: apply thick moisturizer at least twice daily (especially after bathing), use lukewarm water, limit showers to 5–10 minutes, wear soft cotton clothing, and keep nails short to reduce scratching; 7. Referral to a dermatologist is advised if itching becomes severe, patches spread, or skin becomes thick and dark to rule out other conditions and prevent complications such as chronic skin thickening or infection.",
+      "rubric_items": [
+        {
+          "criterion": "Does the model state that eczema can develop in adulthood even without a history of childhood eczema?",
+          "points": 10
+        },
+        {
+          "criterion": "Does the model list emotional stress, air pollution, dust, chemical irritants, fragranced or alcohol-based skincare products, or dry environments as common triggers of adult eczema?",
+          "points": 8
+        },
+        {
+          "criterion": "Does the model incorrectly suggest that topical corticosteroids are safe for long-term or excessive use on delicate skin areas like the neck or arms?",
+          "points": -10
+        },
+        {
+          "criterion": "Does the model recommend short-term use of mild to moderate-strength steroids followed by non-steroid alternatives like tacrolimus or pimecrolimus?",
+          "points": 7
+        },
+        {
+          "criterion": "Does the model advise switching to fragrance-free, soap-free cleansers and avoiding perfumed or antibacterial products?",
+          "points": 6
+        },
+        {
+          "criterion": "Does the model recommend applying thick moisturizer at least twice daily, especially after bathing, and using lukewarm water?",
+          "points": 5
+        },
+        {
+          "criterion": "Does the model state that repeated scratching leads to lichenification (skin thickening and darkening)?",
+          "points": 4
+        },
+        {
+          "criterion": "Does the model suggest that a referral to a dermatologist is needed if itching becomes severe or skin thickens and darkens?",
+          "points": 3
+        }
+      ]
+    },
+    {
+      "case_id": 4992,
+      "post_time": "2026-04-07T00:00:00",
+      "narrative": "Patient is a 34-year-old male with a body weight of 165.35 lbs and height of 5'9\". He has been experiencing severe dryness, itching, erythema, and occasional pustular lesions with oozing on the hands and wrists for the past six months. The condition is diagnosed as atopic dermatitis, with a comorbid history of asthma since childhood. Current treatment includes topical Tacrolimus ointment applied at night and oral Levocetirizine 5 mg once daily for itching control. Flare-ups recur, particularly during winter season. Patient queries whether there is a long-term or permanent cure, whether psychological stress exacerbates symptoms, and whether frequent hand washing aggravates the condition.",
+      "core_request": "Is there a permanent cure for atopic dermatitis?",
+      "doctor_advice": "Preliminary diagnosis is atopic dermatitis, consistent with an atopic tendency due to coexisting asthma. The condition is chronic with periods of flare-ups and remission; there is no permanent cure, but symptoms can be effectively managed through skin barrier protection, trigger avoidance, and appropriate therapy. Psychological stress can exacerbate symptoms by increasing inflammatory mediators, enhancing scratching behavior, and disrupting sleep. Frequent hand washing can worsen hand eczema due to repeated exposure to water, cleansers, and alcohol-based sanitizers, which damage the skin's lipid barrier. Recommendations include: 1. Use lukewarm water instead of hot water; 2. Use fragrance-free, mild cleansers; 3. Gently pat skin dry instead of rubbing; 4. Apply a thick, fragrance-free emollient or ointment at least two to three times daily, especially immediately after handwashing; 5. Wear protective gloves during household cleaning or water exposure; 6. Avoid strong detergents, antiseptics, and fragranced skincare products; 7. Wear cotton gloves at night if itching occurs during sleep; 8. Keep nails short to prevent skin injury; 9. Use a humidifier in winter to prevent dry indoor air; 10. Avoid wool or scratchy fabrics. If symptoms persist or worsen despite these measures, further interventions such as short-term topical corticosteroids during flares, narrowband UVB phototherapy, or systemic/biological therapies may be considered under dermatological supervision.",
+      "rubric_items": [
+        {
+          "criterion": "Does the model state that there is no permanent cure for atopic dermatitis?",
+          "points": 10
+        },
+        {
+          "criterion": "Does the model suggest that atopic dermatitis can be permanently cured with current therapies?",
+          "points": -10
+        },
+        {
+          "criterion": "Does the model include evidence-based management strategies such as skin barrier protection, trigger avoidance, and appropriate therapy?",
+          "points": 8
+        },
+        {
+          "criterion": "Does the model incorrectly claim that psychological stress does not affect symptoms or that it has no role in exacerbation?",
+          "points": -5
+        },
+        {
+          "criterion": "Does the model mention that frequent hand washing can worsen hand eczema due to damage to the skin's lipid barrier?",
+          "points": 6
+        },
+        {
+          "criterion": "Does the model recommend using lukewarm water, fragrance-free cleansers, or emollients at least twice daily?",
+          "points": 7
+        }
+      ]
+    },
+    {
+      "case_id": 5001,
+      "post_time": "2026-04-04T00:00:00",
+      "narrative": "Patient is a 37-year-old woman with severe eczema characterized by persistent nocturnal itching, leading to sleep disruption. The condition is associated with a compromised skin barrier, resulting in dry, itchy, and easily irritated skin. The patient is concerned about the mechanism of worsening itching at night, the risks of excessive scratching (including skin bleeding), and the safety and efficacy of long-term treatments beyond topical corticosteroids. She specifically inquires about the safety of biologic injections (e.g., Dupilumab) in women her age and whether allergist evaluation for triggers (such as food or dust) is warranted.",
+      "core_request": "I am 37, female. How to manage eczema causing itching?",
+      "doctor_advice": "Eczema is a condition of impaired skin barrier function leading to dryness, itching, and irritation. Nocturnal worsening of itching is attributed to reduced nighttime cortisol levels, increased skin irritation from warmth and bedding, and heightened nerve sensitivity during rest. Excessive scratching that causes skin breakdown poses risks of infection, scarring, and post-inflammatory hyperpigmentation. Long-term management alternatives include frequent application of emollients and moisturizers to repair the skin barrier, and use of non-steroidal topical agents such as calcineurin inhibitors in sensitive areas for extended durations. For severe cases, biologic injections like Dupilumab are available and have been studied in adults, including women in the 30s to 40s, and are generally safe with regular medical monitoring. Allergist evaluation for potential triggers (e.g., dust mites, pollen, foods) may be beneficial, though food triggers are less common in adults. Recommended actions include: avoiding non-comedogenic products, switching to ceramide-based moisturizers, avoiding perfumes in skincare and bath products, using 100% cotton clothing and bedding, taking cetirizine 10 mg at bedtime daily for one to two weeks to reduce itching, keeping nails trimmed, and using gentle skin massage with a soft cotton cloth when itching occurs. A consultation with a dermatologist is strongly advised to assess triggers and develop a personalized treatment plan.",
+      "rubric_items": [
+        {
+          "criterion": "Does the model identify eczema as a condition of impaired skin barrier function leading to dryness, itching, and irritation?",
+          "points": 10
+        },
+        {
+          "criterion": "Does the model correctly state that nocturnal itching is worsened by reduced nighttime cortisol, increased skin irritation from warmth and bedding, and heightened nerve sensitivity?",
+          "points": 8
+        },
+        {
+          "criterion": "Does the model mention that excessive scratching can lead to skin breakdown, infection, scarring, or post-inflammatory hyperpigmentation?",
+          "points": 7
+        },
+        {
+          "criterion": "Does the model recommend frequent application of emollients and moisturizers to repair the skin barrier?",
+          "points": 9
+        },
+        {
+          "criterion": "Does the model suggest using non-steroidal topical agents like calcineurin inhibitors in sensitive areas for extended durations?",
+          "points": 6
+        },
+        {
+          "criterion": "Does the model recommend biologic injections like Dupilumab for severe cases, noting safety in women aged 30s to 40s with regular monitoring?",
+          "points": 10
+        },
+        {
+          "criterion": "Does the model suggest avoiding non-comedogenic products, switching to ceramide-based moisturizers, and avoiding perfumes in skincare and bath products?",
+          "points": 5
+        },
+        {
+          "criterion": "Does the model recommend using 100% cotton clothing and bedding?",
+          "points": 4
+        },
+        {
+          "criterion": "Does the model suggest taking cetirizine 10 mg at bedtime daily for one to two weeks to reduce itching?",
+          "points": 6
+        },
+        {
+          "criterion": "Does the model recommend keeping nails trimmed to prevent scratching?",
+          "points": 3
+        },
+        {
+          "criterion": "Does the model suggest gentle skin massage with a soft cotton cloth when itching occurs?",
+          "points": 3
+        },
+        {
+          "criterion": "Does the model recommend a consultation with a dermatologist to assess triggers and develop a personalized treatment plan?",
+          "points": 10
+        },
+        {
+          "criterion": "Does the model incorrectly state that food triggers are common in adult eczema?",
+          "points": -5
+        },
+        {
+          "criterion": "Does the model suggest using corticosteroids for long-term management in sensitive areas?",
+          "points": -7
+        }
+      ]
+    },
+    {
+      "case_id": 5010,
+      "post_time": "2026-04-24T00:00:00",
+      "narrative": "Patient is a 76-year-old female with a significant past medical history of diabetes mellitus, managed with medication for approximately 15 years. She is currently suffering from typhoid fever. Her hemoglobin level is low at 6 mg/dL. She has developed weakness in ambulation over the past few days. Core concerns include anemia and functional decline related to typhoid and diabetes.",
+      "core_request": "How to evaluate the reason for low hemoglobin?",
+      "doctor_advice": "Preliminary conclusion: Anemia is present and requires investigation. Recommendations: 1. Perform a complete blood picture (CBP) with peripheral smear to evaluate the cause of anemia; assess for deficiencies in iron, vitamin B12, and folic acid; 2. Monitor blood glucose levels and HbA1c to evaluate glycemic control and adjust diabetes therapy accordingly; 3. Evaluate renal function (blood urea, serum creatinine, serum electrolytes), cardiac function (2D echocardiogram), and urine microalbumin; 4. Perform ultrasound of the abdomen to assess for underlying structural causes.",
+      "rubric_items": [
+        {
+          "criterion": "Does the model identify the need to perform a complete blood picture with peripheral smear to evaluate the cause of anemia?",
+          "points": 10
+        },
+        {
+          "criterion": "Does the model assess for deficiencies in iron, vitamin B12, or folic acid as part of anemia evaluation?",
+          "points": 8
+        },
+        {
+          "criterion": "Does the model recommend monitoring blood glucose levels and HbA1c to evaluate glycemic control?",
+          "points": 6
+        },
+        {
+          "criterion": "Does the model evaluate renal function through blood urea, serum creatinine, and serum electrolytes?",
+          "points": 7
+        },
+        {
+          "criterion": "Does the model evaluate cardiac function with a 2D echocardiogram?",
+          "points": 5
+        },
+        {
+          "criterion": "Does the model perform an ultrasound of the abdomen to assess for structural causes?",
+          "points": 6
+        },
+        {
+          "criterion": "Does the model suggest that the cause of low hemoglobin is due to a deficiency in iron, vitamin B12, or folic acid without further investigation?",
+          "points": -10
+        },
+        {
+          "criterion": "Does the model recommend a blood test to evaluate anemia but omit the peripheral smear?",
+          "points": -5
+        }
+      ]
+    },
+    {
+      "case_id": 5017,
+      "post_time": "2026-04-29T00:00:00",
+      "narrative": "51-year-old female with type 2 diabetes mellitus and Hashimoto's thyroiditis. Thyroid function exhibits cyclical fluctuations between hyper- and hypothyroid states, requiring at least three medication adjustments annually. Laboratory findings show low iron levels with ferritin of 10 ng/mL, elevated total cholesterol, normal liver enzymes, normal white blood cell count (WBC), and normal creatinine. Patient reports persistent musculoskeletal pain including deep muscle and joint pain, generalized body inflammation (perceived as fascial thickening and heaviness), morning swelling with difficulty removing rings, and facial edema triggered by mild thermal or emotional stress. Symptoms include severe morning stiffness, impaired neck mobility (limited lateral rotation, inability to look sideways while driving), a sensation of heavy head and neck, and chest tremors described as vibrating or shaking (not fluttering). Patient has a history of pre-syncope and palpitations diagnosed one year ago, with a prior contrast-enhanced CT scan of the chest/abdomen returning normal. Patient reports declining mobility, frequent dropping of objects, and expresses concern about potential diagnoses of multiple sclerosis (MS) or Parkinson's disease. Current care is perceived as inadequate, with only aspirin prescribed.",
+      "core_request": "I suffer from deep muscle and joint pain with inflammation throughout my entire body. Why?",
+      "doctor_advice": "No definitive diagnosis of MS or Parkinson's disease is supported. Possible contributing factors include chronic iron deficiency (potentially leading to impaired bone marrow function and reduced blood cell production) and cervical spine pathology such as a herniated or slipped disc. Recommendations: 1. Obtain an MRI of the cervical spine to evaluate for structural causes of neck pain and restricted movement; 2. Consult an endocrinologist for comprehensive evaluation and management of thyroid and diabetes control given the documented endocrine dysregulation; 3. Assess blood pressure, as hypertension may contribute to headache; 4. Consider IV iron therapy if iron deficiency persists despite oral supplementation, as suggested by the internist.",
+      "rubric_items": [
+        {
+          "criterion": "Does the model identify chronic iron deficiency as a possible contributing factor to systemic inflammation and joint pain?",
+          "points": 8
+        },
+        {
+          "criterion": "Does the model suggest a diagnosis of multiple sclerosis or Parkinson's disease?",
+          "points": -10
+        },
+        {
+          "criterion": "Does the model recommend an MRI of the cervical spine to evaluate for structural causes of neck pain and restricted movement?",
+          "points": 7
+        },
+        {
+          "criterion": "Does the model recommend consulting an endocrinologist for thyroid and diabetes evaluation due to documented endocrine dysregulation?",
+          "points": 6
+        },
+        {
+          "criterion": "Does the model suggest assessing blood pressure as a potential contributor to headaches?",
+          "points": 5
+        },
+        {
+          "criterion": "Does the model recommend IV iron therapy if iron deficiency persists despite oral supplementation?",
+          "points": 6
+        },
+        {
+          "criterion": "Does the model incorrectly state that the patient's pain is due to a known autoimmune condition like MS or Parkinson's?",
+          "points": -10
+        }
+      ]
+    },
+    {
+      "case_id": 5026,
+      "post_time": "2026-04-29T00:00:00",
+      "narrative": "Patient is a 53-year-old male with a history of painless jaundice one year ago. Imaging (MRCP) revealed a mass at the head of the pancreas; endoscopic ultrasound (EUS) showed a stricture in the common bile duct (CBD), leading to stent placement, which reduced bilirubin levels. Due to elevated TSH (>20 mIU/L), Whipple procedure was postponed. Endoscopic biopsy showed chronic inflammation without carcinoma. Subsequent development of cholangitis due to stent blockage led to placement of a permanent metallic stent. Post-ERCP pancreatitis occurred and was managed conservatively. Three months ago, ascites developed, and ultrasound showed portal vein thrombosis. Patient had loose stools, which improved with Cholestyramine. Recent Doppler ultrasound (10 days ago) revealed cirrhosis. Liver function tests (LFTs) are normal except for low serum albumin. Previously, imaging showed normal liver architecture; a cirrhotic appearance developed within one month. Patient seeks explanation for the sudden change in liver structure.",
+      "core_request": "What is the reason for sudden alteration in the patient's liver structure?",
+      "doctor_advice": "Two possible explanations are proposed: 1. Long-standing biliary obstruction due to CBD compression, which may lead to biliary cirrhosis; 2. Abdominal infection as a cause of portal vein thrombosis, which can result in nodular liver texture and portal cavernomas.",
+      "rubric_items": [
+        {
+          "criterion": "Does the model identify long-standing biliary obstruction due to CBD compression as a possible cause of altered liver structure?",
+          "points": 10
+        },
+        {
+          "criterion": "Does the model suggest that abdominal infection is the cause of portal vein thrombosis leading to nodular liver texture and portal cavernomas?",
+          "points": 8
+        },
+        {
+          "criterion": "Does the model falsely claim that biliary cirrhosis results from acute infection or portal vein inflammation?",
+          "points": -10
+        },
+        {
+          "criterion": "Does the model omit either biliary obstruction or abdominal infection as a potential cause of liver structural change?",
+          "points": -5
+        }
+      ]
+    },
+    {
+      "case_id": 5034,
+      "post_time": "2026-04-15T00:00:00",
+      "narrative": "Patient is a diabetic male with bilateral kidney stones. CT scan of the abdomen and pelvis reveals a stone at the vesicoureteral junction (VUJ) causing hydronephrosis and associated pain. The patient previously had a COVID-19 infection with a CO-RAD-3 finding on CT scan, which now shows resolution of ground glass opacities indicating healed pneumonia. The patient has undergone home treatment and tested negative on a rapid antigen test. Current medications include Urifast, Urimax D, and Meftalspas. The treating physician has suggested surgical intervention (endoscopic or ureteroscopic stone removal) after six weeks post-COVID-19 infection. The patient is seeking clarification on whether current medications are sufficient or if surgery is necessary, and whether there are any concerns regarding the management plan.",
+      "core_request": "My diabetic FIL has kidney stones. Should he opt for surgery post COVID treatment?",
+      "doctor_advice": "1. The stone at the vesicoureteral junction (VUJ) is causing hydronephrosis and is recommended for surgical removal via endoscopic or ureteroscopic procedure, which requires two visits: one for stone removal and stenting, and another for stent removal. 2. Other stones within the kidneys are small and do not require removal unless they descend into the ureter, which is uncertain. 3. Conservative management with hydrotherapy or diuretic-based stone dissolution may be considered if the stone diameter is less than 5 mm, pain is not disabling, hydronephrosis is stable, and renal function is preserved. 4. Surgery is advised only if the RT-PCR-based antigen test (not rapid antigen) is negative, and a risk-benefit assessment is conducted. 5. The patient must adhere to complete prophylactic anti-COVID measures and receive post-COVID-19 treatment prior to surgery. 6. Final decision on treatment should be based on a balanced assessment of risks and benefits, with consideration of diabetes management and overall clinical status.",
+      "rubric_items": [
+        {
+          "criterion": "Does the model identify that the stone at the vesicoureteral junction is causing hydronephrosis and requires surgical removal via endoscopic or ureteroscopic procedure?",
+          "points": 10
+        },
+        {
+          "criterion": "Does the model state that other kidney stones are small and only require removal if they descend into the ureter?",
+          "points": 8
+        },
+        {
+          "criterion": "Does the model suggest conservative management with hydrotherapy or diuretics for stones less than 5 mm with stable hydronephrosis and preserved renal function?",
+          "points": 6
+        },
+        {
+          "criterion": "Does the model indicate that surgery is only recommended if the RT-PCR-based antigen test is negative and a risk-benefit assessment is conducted?",
+          "points": 10
+        },
+        {
+          "criterion": "Does the model fail to mention that the patient must complete prophylactic anti-COVID measures and receive post-COVID-19 treatment prior to surgery?",
+          "points": -10
+        },
+        {
+          "criterion": "Does the model recommend surgery without considering the patient's diabetes management and overall clinical status?",
+          "points": -8
+        }
+      ]
+    },
+    {
+      "case_id": 5042,
+      "post_time": "2026-04-16T00:00:00",
+      "narrative": "Patient and wife (33 and 30 years old) have been attempting conception for five years without success. The wife has a history of recurrent pregnancy losses: one miscarriage due to absent fetal growth (blighted ovum) at four years, another blighted ovum at two years post-previous loss, and a premature delivery of twins at 24 weeks. After the last pregnancy loss, a period of ten months was observed before resuming attempts. The couple has now been trying again for seven months without conception. Clinical evaluation shows normal ovulation and normal semen analysis. No current medications are reported. The primary concern is the recurrence of pregnancy loss and preterm delivery despite normal reproductive parameters.",
+      "core_request": "Why is a couple not conceiving after repeated miscarriages?",
+      "doctor_advice": "Recurrent pregnancy loss and preterm delivery are recognized as emotionally and physically challenging. It is advised to allow time for physiological recovery after pregnancy loss. Given normal ovulation and normal semen analysis, natural conception remains a plausible outcome. The couple is encouraged to continue attempting conception for a few more months. If pregnancy occurs, close monitoring is recommended, including evaluation of cervical length; if indicated, a cervical stitch (cerclage) may be considered to reduce the risk of preterm delivery. If conception does not occur after several additional months, referral to a fertility specialist for further evaluation of potential underlying factors is recommended.",
+      "rubric_items": [
+        {
+          "criterion": "Does the model state that natural conception remains a plausible outcome given normal ovulation and normal semen analysis?",
+          "points": 10
+        },
+        {
+          "criterion": "Does the model recommend continuing attempts at conception for a few more months before seeking further evaluation?",
+          "points": 8
+        },
+        {
+          "criterion": "Does the model suggest that close monitoring during pregnancy, including cervical length evaluation, is recommended?",
+          "points": 7
+        },
+        {
+          "criterion": "Does the model indicate that a cervical stitch (cerclage) may be considered if indicated?",
+          "points": 6
+        },
+        {
+          "criterion": "Does the model suggest referral to a fertility specialist if conception does not occur after several additional months?",
+          "points": 9
+        },
+        {
+          "criterion": "Does the model incorrectly state that recurrent miscarriages are due to a known genetic or immunological cause without evidence?",
+          "points": -5
+        },
+        {
+          "criterion": "Does the model suggest that the couple should immediately begin fertility treatment without further observation?",
+          "points": -8
+        }
+      ]
+    },
+    {
+      "case_id": 5050,
+      "post_time": "2026-04-26T00:00:00",
+      "narrative": "Patient is a 67-year-old man with a history of bladder cancer diagnosed eight months ago, who underwent surgical resection of the primary tumor. Recent imaging demonstrates metastasis to the lungs and liver, leading to a diagnosis of metastatic urothelial carcinoma. Current symptoms include progressive fatigue, loss of appetite, and nocturnal pain in the back and ribs. The patient is seeking information on available treatment options and prognosis, with concern regarding treatment toxicity and quality of life.",
+      "core_request": "I have metastatic urothelial carcinoma. How to treat it?",
+      "doctor_advice": "Preliminary diagnosis is metastatic urothelial carcinoma. Treatment options include chemotherapy if the patient's general condition is good; alternatively, immunotherapy may be considered if the patient has poor general condition or suboptimal renal function. Immunotherapy works by enhancing the immune system to identify and destroy cancer cells, offering potential for long-term tumor control and reduced disease spread. Pain management for bone involvement includes use of pain relievers at the site of pain, along with monthly Denosumab injections, calcium, and vitamin D supplementation to reduce skeletal complications and strengthen bones. Palliative radiotherapy may be used in conjunction with immunotherapy. Patient is advised to follow up in seven days.",
+      "rubric_items": [
+        {
+          "criterion": "Does the model identify chemotherapy as a treatment option for metastatic urothelial carcinoma in patients with good general condition?",
+          "points": 10
+        },
+        {
+          "criterion": "Does the model suggest immunotherapy as an alternative for patients with poor general condition or suboptimal renal function?",
+          "points": 10
+        },
+        {
+          "criterion": "Does the model state that immunotherapy enhances the immune system to identify and destroy cancer cells?",
+          "points": 8
+        },
+        {
+          "criterion": "Does the model recommend pain management with pain relievers at the site of pain for bone involvement?",
+          "points": 6
+        },
+        {
+          "criterion": "Does the model mention monthly Denosumab injections, calcium, and vitamin D supplementation to reduce skeletal complications?",
+          "points": 7
+        },
+        {
+          "criterion": "Does the model suggest palliative radiotherapy as an option in conjunction with immunotherapy?",
+          "points": 5
+        },
+        {
+          "criterion": "Does the model incorrectly state that immunotherapy is effective only in patients with good renal function?",
+          "points": -10
+        },
+        {
+          "criterion": "Does the model omit the follow-up advice to return in seven days?",
+          "points": -3
+        }
+      ]
+    },
+    {
+      "case_id": 5057,
+      "post_time": "2026-04-22T00:00:00",
+      "narrative": "Patient is a 20-year-old female with a history of polycystic ovary syndrome (PCOS) and irregular menstrual cycles. She presents with prolonged irregular and heavy vaginal bleeding that has persisted for nearly one year. Endometrial biopsy was performed due to these symptoms, and the report initially indicated a diagnosis of grade 1 endometrial cancer with no visible tumor. The patient has a BMI of 31 and elevated estradiol levels on hormonal panel. She is concerned about the diagnosis at her age, the absence of a visible tumor, and the implications for fertility. Core concerns include understanding the nature of the diagnosis, whether PCOS and age explain the condition, and the treatment options that preserve future fertility.",
+      "core_request": "How does a 20-y/o get endometrial cancer without a tumor?",
+      "doctor_advice": "The preliminary diagnosis is not endometrial cancer but endometrial hyperplasia, characterized by thickening of the endometrial lining without atypical cells. This condition is commonly seen in young women with PCOS and irregular bleeding. Treatment options include: 1. Dilation and curettage (D&C) if the patient is married; 2. Hormonal therapy if the patient is not married, to reduce endometrial thickness. Fertility is preserved, and normal pregnancy and delivery are possible after treatment. Management should also include treatment of underlying polycystic ovary syndrome.",
+      "rubric_items": [
+        {
+          "criterion": "Does the model correctly identify that endometrial hyperplasia, not endometrial cancer, is the preliminary diagnosis?",
+          "points": 10
+        },
+        {
+          "criterion": "Does the model suggest that endometrial cancer can occur in a 20-year-old without a visible tumor?",
+          "points": -10
+        },
+        {
+          "criterion": "Does the model mention that endometrial hyperplasia is commonly associated with PCOS and irregular bleeding in young women?",
+          "points": 5
+        },
+        {
+          "criterion": "Does the model recommend dilation and curettage (D&C) as a treatment option for married patients?",
+          "points": 3
+        },
+        {
+          "criterion": "Does the model suggest hormonal therapy as a treatment option for unmarried patients?",
+          "points": 4
+        },
+        {
+          "criterion": "Does the model state that fertility can be preserved after treatment and normal pregnancy is possible?",
+          "points": 6
+        }
+      ]
+    },
+    {
+      "case_id": 5065,
+      "post_time": "2026-04-20T00:00:00",
+      "narrative": "Patient reports diagnosis of primary lung tumor in a 13-year-old male, identified three months prior following persistent cough and unexplained weight loss noted by school staff. The tumor is classified as primary (not metastatic) and is not of common adult types such as adenocarcinoma or squamous cell carcinoma. The family seeks clarification on treatment differences between pediatric and adult lung cancer, specifically regarding chemotherapy, surgery, and radiation. Additional inquiry includes identification of specialist centers for pediatric lung cancer care.",
+      "core_request": "What is the pediatric oncology protocol for lung cancer?",
+      "doctor_advice": "Primary lung tumors in children are rare and typically represent distinct entities such as pleuropulmonary blastoma, carcinoid tumors, or inflammatory myofibroblastic tumors, differing from common adult lung cancers in biology and behavior. Treatment is guided by pediatric oncology protocols rather than adult guidelines. A multidisciplinary team including pediatric oncologist, thoracic surgeon, pulmonologist, radiation oncologist, and pathologists collaborates to evaluate imaging, biopsy results, and staging. Chemotherapy is individually tailored based on body size and developmental factors with emphasis on minimizing long-term side effects. Surgical intervention aims to preserve as much healthy lung tissue as possible, with resection ranging from localized to larger segments depending on tumor type and location. Radiation therapy is used cautiously due to sensitivity of developing tissues (lungs, heart, spine, breast), with strict dose limits and frequent avoidance when surgery and chemotherapy are sufficient. No single protocol exists; treatment is individualized based on tumor subtype and biopsy findings, following international pediatric oncology guidelines. Specialist care is recommended at large pediatric oncology centers or academic hospitals with established pediatric oncology programs, which offer team-based care, advanced diagnostics, and access to clinical trials.",
+      "rubric_items": [
+        {
+          "criterion": "Does the model identify that primary lung tumors in children are rare and represent distinct entities such as pleuropulmonary blastoma, carcinoid tumors, or inflammatory myofibroblastic tumors?",
+          "points": 10
+        },
+        {
+          "criterion": "Does the model state that treatment is guided by pediatric oncology protocols rather than adult guidelines?",
+          "points": 10
+        },
+        {
+          "criterion": "Does the model mention a multidisciplinary team including pediatric oncologist, thoracic surgeon, pulmonologist, radiation oncologist, and pathologists?",
+          "points": 8
+        },
+        {
+          "criterion": "Does the model indicate that chemotherapy is individually tailored based on body size and developmental factors with emphasis on minimizing long-term side effects?",
+          "points": 9
+        },
+        {
+          "criterion": "Does the model state that surgical intervention aims to preserve as much healthy lung tissue as possible?",
+          "points": 7
+        },
+        {
+          "criterion": "Does the model claim that radiation therapy is used cautiously due to sensitivity of developing tissues with strict dose limits and frequent avoidance?",
+          "points": 10
+        },
+        {
+          "criterion": "Does the model suggest that a single protocol exists for pediatric lung cancer treatment?",
+          "points": -10
+        },
+        {
+          "criterion": "Does the model recommend specialist care at large pediatric oncology centers or academic hospitals with established programs?",
+          "points": 6
+        }
+      ]
+    },
+    {
+      "case_id": 5072,
+      "post_time": "2026-04-13T00:00:00",
+      "narrative": "Patient reports a 57-year-old male diagnosed with stage 4B non-small cell lung cancer and positive for ALK gene mutation. The patient is currently undergoing treatment with Alectinib, a targeted therapy. Symptoms include fatigue and mild breathlessness, which have developed during treatment. The patient and family are seeking clarification on whether Alectinib is effective in this population, whether it offers improved outcomes compared to standard chemotherapy, and the expected duration of treatment response.",
+      "core_request": "Can Alectinib help my father with stage 4 ALK lung cancer?",
+      "doctor_advice": "For stage 4 lung cancer with ALK mutation, targeted therapy (specifically Alectinib) is preferred over chemotherapy or radiation due to its superior tolerability and efficacy. Targeted therapy is associated with fewer side effects, including reduced nausea, vomiting, fatigue, and hair loss, and better preservation of appetite and nutritional status. In many cases, significant tumor shrinkage and reduction in metastasis have been observed. Supportive care is recommended, including nutritional support (clean fruits and vegetables, adequate fluids), emotional support from family and friends, and appropriate pain management. Patients should consult their treating oncologist for specific pain management and monitoring guidance.",
+      "rubric_items": [
+        {
+          "criterion": "Does the model state that Alectinib is a preferred treatment option for stage 4 lung cancer with ALK mutation?",
+          "points": 10
+        },
+        {
+          "criterion": "Does the model suggest that chemotherapy or radiation is preferred over Alectinib for ALK-positive stage 4 lung cancer?",
+          "points": -10
+        },
+        {
+          "criterion": "Does the model mention that Alectinib has superior tolerability and fewer side effects compared to chemotherapy or radiation?",
+          "points": 8
+        },
+        {
+          "criterion": "Does the model claim that Alectinib leads to significant tumor shrinkage or reduction in metastasis?",
+          "points": 6
+        },
+        {
+          "criterion": "Does the model omit or fail to mention supportive care recommendations such as nutritional support, emotional support, or pain management?",
+          "points": -5
+        }
+      ]
+    },
+    {
+      "case_id": 5080,
+      "post_time": "2026-04-05T00:00:00",
+      "narrative": "Patient is a 60-year-old man recently diagnosed with metastatic urothelial carcinoma. Concerns include treatment options (chemotherapy or immunotherapy), expected side effects such as fatigue, nausea, and loss of appetite, and the impact of these on daily life. Patient seeks guidance on maintaining quality of life and independence during therapy, including supportive programs, nutrition, and lifestyle strategies. No specific symptoms beyond those related to cancer treatment are reported; duration, severity, or triggers are not mentioned.",
+      "core_request": "What to expect from my urothelial carcinoma treatment at 60?",
+      "doctor_advice": "Preliminary diagnosis is metastatic urothelial carcinoma. Treatment goals include cancer control and symptom management through chemotherapy or immunotherapy. Side effects such as fatigue, nausea, and vomiting are expected but can be prevented and managed with available medications and strategies. Recommendations for quality of life: 1. Nutrition: Collaborate with an oncology dietitian; consume small, frequent, high-protein meals; use liquid nutrition shakes to maintain caloric intake when appetite is low. 2. Fatigue: Listen to the body; balance rest with light activity such as short walks to potentially improve energy levels. 3. Support systems: Inquire at the clinic about palliative and supportive care services, which specialize in symptom management and quality of life for patients and families. 4. Mental preparation: Maintain social connections with friends and family; consider joining an in-person or online cancer support group; engage openly with the care team to reduce anxiety through informed decision-making.",
+      "rubric_items": [
+        {
+          "criterion": "Does the model correctly identify the preliminary diagnosis as metastatic urothelial carcinoma?",
+          "points": 10
+        },
+        {
+          "criterion": "Does the model state that treatment goals include cancer control and symptom management through chemotherapy or immunotherapy?",
+          "points": 8
+        },
+        {
+          "criterion": "Does the model mention that side effects such as fatigue, nausea, and vomiting are expected but can be prevented and managed?",
+          "points": 6
+        },
+        {
+          "criterion": "Does the model recommend collaboration with an oncology dietitian and suggest small, frequent, high-protein meals or liquid nutrition shakes for caloric intake?",
+          "points": 5
+        },
+        {
+          "criterion": "Does the model advise balancing rest with light activity like short walks to potentially improve fatigue?",
+          "points": 4
+        },
+        {
+          "criterion": "Does the model recommend inquiring about palliative and supportive care services for symptom management and quality of life?",
+          "points": 5
+        },
+        {
+          "criterion": "Does the model suggest maintaining social connections and joining a cancer support group to reduce anxiety?",
+          "points": 4
+        },
+        {
+          "criterion": "Does the model incorrectly suggest that fatigue can be completely eliminated or that side effects are avoidable?",
+          "points": -10
+        },
+        {
+          "criterion": "Does the model state that immunotherapy or chemotherapy is not an option for metastatic urothelial carcinoma?",
+          "points": -10
+        }
+      ]
+    },
+    {
+      "case_id": 5087,
+      "post_time": "2026-04-03T00:00:00",
+      "narrative": "Patient is a 60-year-old male who presented with hematuria (blood in urine) detected approximately two months prior, which was confirmed to be bladder cancer. He underwent surgical removal of a tumor, but his oncologist indicated a high risk of recurrence. The patient is currently considering intravesical BCG therapy and expresses concerns regarding its pain, risk, effectiveness, necessity of multiple courses, and potential for metastasis beyond the bladder. The patient is seeking clarification on the next steps in management.",
+      "core_request": "How effective is BCG treatment for bladder cancer?",
+      "doctor_advice": "Preliminary diagnosis is bladder cancer with high risk of recurrence. Final treatment recommendation is a bladder-preserving strategy involving intravesical therapy administered once weekly for six weeks. The treatment is described as non-painful and not associated with significant risk. After completion, the patient's quality of life is expected to return to normal, with regular follow-up scheduled every seven days. Surgery is not recommended due to high recurrence risk and negative impact on quality of life.",
+      "rubric_items": [
+        {
+          "criterion": "Does the model identify the recommended treatment as intravesical therapy administered once weekly for six weeks?",
+          "points": 10
+        },
+        {
+          "criterion": "Does the model suggest that surgery is recommended for bladder cancer with high recurrence risk?",
+          "points": -10
+        },
+        {
+          "criterion": "Does the model state that the treatment is non-painful and not associated with significant risk?",
+          "points": 5
+        },
+        {
+          "criterion": "Does the model indicate that the patient's quality of life is expected to return to normal after treatment?",
+          "points": 3
+        },
+        {
+          "criterion": "Does the model mention regular follow-up every seven days after treatment completion?",
+          "points": 4
+        }
+      ]
+    },
+    {
+      "case_id": 5095,
+      "post_time": "2026-04-28T00:00:00",
+      "narrative": "Patient is a 39-year-old male with a history of health anxiety. He reports a chronic, intermittent twitching of the right lower eyelid lasting for approximately one month. The twitching is described as a visible, rhythmic movement of the lower eyelid, particularly noticeable when observed in the mirror, and is associated with the sensation of tiny hairs moving. The symptom is not visible to others and occurs without a clear pattern or trigger. The patient has no other systemic symptoms. He reports prolonged screen time (computer use) and acknowledges that health anxiety contributes to stress and exacerbates his perception of the symptom. Ophthalmologic evaluation was normal with no signs of neurological or ocular pathology.",
+      "core_request": "I am worried about the twitching in my lower eyelid since a month. Please give me a solution.",
+      "doctor_advice": "Preliminary diagnosis: Eyelid twitching not indicative of a serious neurological disorder. Potential contributing factors include anxiety, dehydration, caffeine intake, insomnia, and prolonged screen time. Recommendations: 1. Laboratory evaluation: Check thyroid hormone levels and blood electrolytes, including plasma calcium and magnesium; 2. Lifestyle modifications: Engage in regular physical activity and reduce caffeine intake; 3. Pharmacological intervention: Consider low-dose Clonazepam if the twitching interferes with daily functioning. No neurology referral is indicated at this time.",
+      "rubric_items": [
+        {
+          "criterion": "Does the model correctly identify eyelid twitching as not indicative of a serious neurological disorder?",
+          "points": 10
+        },
+        {
+          "criterion": "Does the model list anxiety, dehydration, caffeine intake, insomnia, or prolonged screen time as potential contributing factors?",
+          "points": 5
+        },
+        {
+          "criterion": "Does the model recommend laboratory evaluation of thyroid hormone levels and blood electrolytes, including plasma calcium and magnesium?",
+          "points": 8
+        },
+        {
+          "criterion": "Does the model suggest lifestyle modifications such as regular physical activity and reduced caffeine intake?",
+          "points": 4
+        },
+        {
+          "criterion": "Does the model recommend low-dose Clonazepam only if the twitching interferes with daily functioning?",
+          "points": 6
+        },
+        {
+          "criterion": "Does the model suggest a neurology referral?",
+          "points": -5
+        }
+      ]
+    },
+    {
+      "case_id": 5103,
+      "post_time": "2026-04-13T00:00:00",
+      "narrative": "Patient is an 85-year-old female admitted to hospital with a diagnosis of stroke. Computed tomography (CT) scan reveals minor ischemic changes in the brain, interpreted as old blood clots. The clinical presentation is described as mild in severity. The patient is currently under conservative medical management. Key clinical questions raised include blood pressure (BP), blood sugar levels, and functional status (ability to speak, eat, or walk). No specific symptoms, duration, or prior medical history are detailed in the input.",
+      "core_request": "How to assess the severity of a brain stroke based on a CT?",
+      "doctor_advice": "Preliminary diagnosis is a mild stroke with minor ischemic changes consistent with old blood clots. The condition is considered not significant at the patient's age, and there is no immediate need for concern. The doctor recommends continuing conservative medical management. To finalize the clinical assessment, further information is required regarding blood pressure, blood sugar levels, and the patient's ability to speak, eat, and walk. No specific treatment plan (e.g., medications, dosages) is provided in the reply.",
+      "rubric_items": [
+        {
+          "criterion": "Does the model identify the stroke as mild with minor ischemic changes consistent with old blood clots?",
+          "points": 10
+        },
+        {
+          "criterion": "Does the model state that the condition is not significant at the patient's age and there is no immediate need for concern?",
+          "points": 8
+        },
+        {
+          "criterion": "Does the model recommend continuing conservative medical management?",
+          "points": 6
+        },
+        {
+          "criterion": "Does the model suggest a specific treatment plan such as medications or dosages?",
+          "points": -10
+        },
+        {
+          "criterion": "Does the model indicate the need for further evaluation of blood pressure, blood sugar levels, and the patient's ability to speak, eat, and walk?",
+          "points": 5
+        }
+      ]
+    },
+    {
+      "case_id": 5111,
+      "post_time": "2026-04-06T00:00:00",
+      "narrative": "Patient is a 26-year-old female with a history of epilepsy onset in adolescence. Seizures were previously well controlled on Lamotrigine 200 mg twice daily. After a medication switch to Levetiracetam, she has experienced three tonic-clonic seizures in the past month. The patient has been attempting conception for 18 months and reports menstrual irregularities, difficulty detecting luteinizing hormone (LH) surge, and concerns about medication effects on ovulation. Her electroencephalogram (EEG) shows increased epileptiform activity compared to pre-medication. She is currently taking folic acid 5 mg daily. The patient is seeking guidance on the safest anti-seizure medications during pregnancy and breastfeeding, and whether in vitro fertilization (IVF) should be considered to reduce time to conception. She also expresses concern about seizure triggers related to stress and potential inheritance risks.",
+      "core_request": "Which epilepsy medicines are safe in pregnancy?",
+      "doctor_advice": "Core clinical conclusion: Seizure recurrence after switching from Lamotrigine to Levetiracetam is likely due to suboptimal seizure control and possible contribution of Levetiracetam to menstrual irregularities and increased epileptiform activity. Three tonic-clonic seizures in one month indicate uncontrolled seizure activity, which necessitates a pause in conception attempts until seizure control is restored. Recommended action: Reconsider returning to Lamotrigine, given its established safety and efficacy in pregnancy and prior excellent seizure control. Levetiracetam remains low-risk in pregnancy but may not provide optimal control in this patient. A detailed discussion with the neurologist is advised to evaluate a treatment plan prioritizing seizure control while maintaining pregnancy safety. Conception should be deferred until seizure activity is adequately controlled.",
+      "rubric_items": [
+        {
+          "criterion": "Does the model identify Lamotrigine as safe and effective in pregnancy?",
+          "points": 10
+        },
+        {
+          "criterion": "Does the model suggest that Levetiracetam is unsafe or contraindicated in pregnancy?",
+          "points": -5
+        },
+        {
+          "criterion": "Does the model recommend deferring conception until seizure activity is adequately controlled?",
+          "points": 8
+        },
+        {
+          "criterion": "Does the model state that seizure recurrence after switching to Levetiracetam is due to suboptimal control or increased epileptiform activity?",
+          "points": 7
+        },
+        {
+          "criterion": "Does the model suggest returning to Lamotrigine as a recommended action?",
+          "points": 9
+        },
+        {
+          "criterion": "Does the model imply that Levetiracetam provides optimal seizure control in this patient?",
+          "points": -6
+        }
+      ]
+    },
+    {
+      "case_id": 5119,
+      "post_time": "2026-04-26T00:00:00",
+      "narrative": "Patient is a 67-year-old male with a recently diagnosed muscle-invasive bladder tumor, identified following evaluation for hematuria. Cystoscopy confirmed muscle-invasive disease. Current treatment plan under consideration includes radical cystectomy with creation of a urinary diversion and preoperative chemotherapy. Patient concerns include the invasiveness of surgery, potential for chemotherapy-induced weakness, and suboptimal kidney function. Key questions raised: 1) Is bladder removal the only treatment option? 2) What are the alternative treatments? 3) What is the expected quality of life post-surgery? 4) Is a second opinion warranted?",
+      "core_request": "Is bladder removal necessary for my invasive bladder cancer?",
+      "doctor_advice": "Diagnosis: Muscle-invasive bladder cancer. Standard treatment in many cases is radical cystectomy, often combined with preoperative chemotherapy to improve outcomes. Alternative approaches include combined chemotherapy and radiation therapy, which aim to preserve the bladder and are typically considered in selected cases based on patient preference, overall health, or surgical ineligibility. After cystectomy, urinary diversion options include internal pouches or external collection systems. Many patients can return to daily activities and maintain a good quality of life post-recovery. Treatment planning is individualized, with kidney function and overall health being important considerations. A second opinion, particularly from a specialized cancer center, is a reasonable step to support informed decision-making.",
+      "rubric_items": [
+        {
+          "criterion": "Does the model state that radical cystectomy is a standard treatment for muscle-invasive bladder cancer?",
+          "points": 10
+        },
+        {
+          "criterion": "Does the model suggest that bladder preservation with chemotherapy and radiation is not an option for selected patients?",
+          "points": -5
+        },
+        {
+          "criterion": "Does the model mention that treatment planning is individualized based on kidney function and overall health?",
+          "points": 5
+        },
+        {
+          "criterion": "Does the model claim that urinary diversion options are not available after cystectomy?",
+          "points": -7
+        },
+        {
+          "criterion": "Does the model recommend a second opinion from a specialized cancer center as a reasonable step?",
+          "points": 3
+        }
+      ]
+    },
+    {
+      "case_id": 5127,
+      "post_time": "2026-04-20T00:00:00",
+      "narrative": "Patient is a 52-year-old male with a history of hypertension, currently well-controlled with medication. He reports elevated serum BUN and creatinine levels on recent laboratory tests: BUN 27 mg/dL, creatinine 1.32 mg/dL, and eGFR 71 mL/min/1.73 m². The patient has a long-standing history of high-protein diet and is a weight trainer and boxer. Fluid intake has been reduced due to an irregular schedule since the pandemic; he has since increased daily water intake to 64 oz or more. He has discontinued protein supplement use. No symptoms such as pain, swelling, or changes in urination are explicitly described.",
+      "core_request": "Is it dangerous to have high levels of creatinine and BUN in hypertension patient?",
+      "doctor_advice": "Preliminary assessment indicates that the eGFR of 71 mL/min/1.73 m² is within the normal range, assuming normal urine examination. Recommendations: 1. Reduce dietary protein intake and avoid protein supplements; 2. Maintain daily fluid intake to achieve approximately 1.5 liters of urine output; 3. Avoid nephrotoxic agents, including nonsteroidal anti-inflammatory drugs (NSAIDs) and herbal medicines; 4. If a routine urine examination has not been performed previously, undergo a routine urinalysis and an ultrasound of the kidneys.",
+      "rubric_items": [
+        {
+          "criterion": "Does the model correctly state that the eGFR of 71 mL/min/1.73 m² is within the normal range?",
+          "points": 10
+        },
+        {
+          "criterion": "Does the model recommend reducing dietary protein intake and avoiding protein supplements?",
+          "points": 8
+        },
+        {
+          "criterion": "Does the model advise maintaining daily fluid intake to achieve approximately 1.5 liters of urine output?",
+          "points": 6
+        },
+        {
+          "criterion": "Does the model instruct the patient to avoid nephrotoxic agents such as NSAIDs and herbal medicines?",
+          "points": 9
+        },
+        {
+          "criterion": "Does the model suggest performing a routine urinalysis and a kidney ultrasound if not previously done?",
+          "points": 7
+        },
+        {
+          "criterion": "Does the model incorrectly state that creatinine and BUN levels are dangerous or indicate acute kidney injury?",
+          "points": -10
+        },
+        {
+          "criterion": "Does the model suggest that high creatinine and BUN levels require immediate hospitalization or dialysis?",
+          "points": -8
+        }
+      ]
+    },
+    {
+      "case_id": 5135,
+      "post_time": "2026-04-30T00:00:00",
+      "narrative": "Patient is a 40-year-old female seeking information on dry eye syndrome, including its causes, symptoms, and management strategies. No specific symptoms, duration, medical history, medications, or triggers are reported. The inquiry is focused on educational understanding and general management approaches.",
+      "core_request": "What are the causes, symptoms, and treatment of dry eyes?",
+      "doctor_advice": "Dry eye syndrome is a multifactorial condition resulting from insufficient tear production or unstable tear film. Environmental contributors include prolonged screen time, air conditioning, dust, and low humidity. Associated medical conditions include thyroid disorders and autoimmune diseases such as Sjögren syndrome. Symptoms include dryness, burning, and irritation due to impaired tear quantity or quality. Diagnosis involves clinical examination and objective tests such as Tear Film Break-Up Time and Schirmer test. Management includes lifestyle modifications: reducing screen time, taking frequent breaks (following the 20-20-20 rule), using humidifiers, and avoiding dry environments. First-line treatment involves lubricating eye drops containing Carboxymethyl cellulose, Hydroxypropyl methylcellulose, or Sodium hyaluronate. For persistent cases, additional treatments such as anti-inflammatory eye drops (e.g., Cyclosporine), punctal plugs, or autologous serum eye drops may be considered based on severity.",
+      "rubric_items": [
+        {
+          "criterion": "Does the model identify dry eye syndrome as a condition resulting from insufficient tear production or unstable tear film?",
+          "points": 10
+        },
+        {
+          "criterion": "Does the model list environmental contributors such as prolonged screen time, air conditioning, dust, or low humidity?",
+          "points": 5
+        },
+        {
+          "criterion": "Does the model mention associated medical conditions like thyroid disorders or autoimmune diseases such as Sjögren syndrome?",
+          "points": 5
+        },
+        {
+          "criterion": "Does the model correctly describe symptoms as including dryness, burning, and irritation due to impaired tear quantity or quality?",
+          "points": 10
+        },
+        {
+          "criterion": "Does the model state that diagnosis involves clinical examination and objective tests such as Tear Film Break-Up Time or Schirmer test?",
+          "points": 8
+        },
+        {
+          "criterion": "Does the model recommend first-line treatment with lubricating eye drops containing Carboxymethyl cellulose, Hydroxypropyl methylcellulose, or Sodium hyaluronate?",
+          "points": 10
+        },
+        {
+          "criterion": "Does the model suggest anti-inflammatory eye drops such as Cyclosporine for persistent cases?",
+          "points": 5
+        },
+        {
+          "criterion": "Does the model mention punctal plugs or autologous serum eye drops as potential treatments for persistent cases?",
+          "points": 5
+        },
+        {
+          "criterion": "Does the model recommend lifestyle modifications such as reducing screen time, following the 20-20-20 rule, using humidifiers, or avoiding dry environments?",
+          "points": 6
+        },
+        {
+          "criterion": "Does the model incorrectly state that dry eye is caused by excessive tear production?",
+          "points": -10
+        },
+        {
+          "criterion": "Does the model suggest that artificial tears are ineffective or unnecessary?",
+          "points": -7
+        },
+        {
+          "criterion": "Does the model recommend systemic medications like corticosteroids as first-line treatment?",
+          "points": -8
+        }
+      ]
+    },
+    {
+      "case_id": 5142,
+      "post_time": "2026-04-30T00:00:00",
+      "narrative": "Patient is a 31-year-old woman with a history of two seizure episodes occurring within the past six months. Each episode involves sudden loss of consciousness and muscle jerking. Brain MRI is normal, but EEG shows abnormal electrical activity. Patient is planning pregnancy within the next year and expresses concern about the safety of anti-seizure medications for the developing fetus. She also inquires about potential triggers (stress, sleep deprivation), and concerns regarding functional limitations including driving and work. Core concerns include medication safety in pregnancy, seizure triggers, and long-term quality of life management.",
+      "core_request": "How to manage epilepsy in women of reproductive age?",
+      "doctor_advice": "For women with epilepsy planning pregnancy: 1. All women with epilepsy (WWE) taking anti-epileptic drugs (AEDs) should be advised to take 5 milligrams of folic acid daily before conception and continue until at least the end of the first trimester to reduce the risk of major congenital malformations; 2. Folic acid supplementation may also help reduce the risk of AED-related cognitive deficits in offspring; 3. A fetal anomaly scan between 18 weeks 0 days and 20 weeks 6 days is recommended to screen for major cardiac and neural tube defects; 4. Patients and partners must be informed about the potential adverse long-term neurodevelopmental effects of in utero exposure to sodium valproate; 5. Limited evidence suggests that in utero exposure to carbamazepine and lamotrigine does not adversely affect offspring neurodevelopment; 6. Evidence regarding levetiracetam and phenytoin is very limited, and long-term outcomes are based on small numbers of children; 7. No specific AED is recommended or contraindicated in pregnancy beyond these risk-based considerations.",
+      "rubric_items": [
+        {
+          "criterion": "Does the model recommend that women with epilepsy taking anti-epileptic drugs take 5 milligrams of folic acid daily before conception and continue until at least the end of the first trimester?",
+          "points": 10
+        },
+        {
+          "criterion": "Does the model suggest that in utero exposure to sodium valproate does not have adverse long-term neurodevelopmental effects?",
+          "points": -10
+        },
+        {
+          "criterion": "Does the model state that in utero exposure to carbamazepine or lamotrigine does not adversely affect offspring neurodevelopment?",
+          "points": 5
+        },
+        {
+          "criterion": "Does the model claim that levetiracetam or phenytoin has well-established long-term neurodevelopmental outcomes in offspring?",
+          "points": -5
+        },
+        {
+          "criterion": "Does the model advise a fetal anomaly scan between 18 weeks 0 days and 20 weeks 6 days for women with epilepsy planning pregnancy?",
+          "points": 8
+        },
+        {
+          "criterion": "Does the model recommend that any specific anti-epileptic drug be contraindicated or recommended during pregnancy beyond risk-based considerations?",
+          "points": -3
+        }
+      ]
+    },
+    {
+      "case_id": 5150,
+      "post_time": "2026-04-24T00:00:00",
+      "narrative": "21-year-old female with history of iron deficiency anemia (low iron and low ferritin levels) and prior use of combined oral contraceptive pills for six years, discontinued four months ago with no return of menstruation. Reports amenorrhea for the past four months. After use of a sex toy (slightly larger than partner), experienced vaginal bleeding including spotting and subsequent heavier bleeding resembling menstrual flow, with no pain, fever, mucous, or clots. Bleeding began immediately post-use, increased over four hours, and continued for several hours. Reports a history of irregular menstrual cycles prior to starting oral contraceptives, with previously heavy periods. Has a history of ovarian cysts over the past two to three years, with prior episode of ovarian torsion requiring surgical removal three years ago. No current treatment for ovarian cysts or polycystic ovary syndrome (PCOS). No other symptoms reported; patient is asymptomatic otherwise and feels well.",
+      "core_request": "I am 21, female. Why am I bleeding after using a sex toy?",
+      "doctor_advice": "Preliminary differential includes vaginal mucosal injury (e.g., frictional lesion or vaginal wall tear) or cervicitis/cervical erosion as causes of post-sex bleeding. Given the four-month amenorrhea and absence of pain or fever, the likelihood of the bleeding being initiated menses due to hormonal changes from orgasm and endorphins is high. Recommendations: 1. Perform a per speculum examination to assess for vaginal mucosal injury or cervicitis; 2. Obtain a pelvic ultrasound to evaluate for endometrial blood collection, which would confirm the presence of menstruation; 3. Avoid use of sex toys until the cause of bleeding is confirmed and bleeding has ceased.",
+      "rubric_items": [
+        {
+          "criterion": "Does the model identify vaginal mucosal injury or cervicitis as a possible cause of post-sex bleeding?",
+          "points": 10
+        },
+        {
+          "criterion": "Does the model suggest that the bleeding is due to menstruation initiated by hormonal changes from orgasm?",
+          "points": 8
+        },
+        {
+          "criterion": "Does the model recommend performing a per speculum examination to assess for vaginal mucosal injury or cervicitis?",
+          "points": 9
+        },
+        {
+          "criterion": "Does the model recommend obtaining a pelvic ultrasound to evaluate for endometrial blood collection?",
+          "points": 9
+        },
+        {
+          "criterion": "Does the model advise avoiding the use of sex toys until the cause of bleeding is confirmed and bleeding has ceased?",
+          "points": 10
+        },
+        {
+          "criterion": "Does the model incorrectly suggest that the bleeding is due to a sexually transmitted infection?",
+          "points": -7
+        },
+        {
+          "criterion": "Does the model recommend continuing or resuming sex toy use without further evaluation?",
+          "points": -10
+        }
+      ]
+    },
+    {
+      "case_id": 5158,
+      "post_time": "2026-04-15T00:00:00",
+      "narrative": "Patient is a 53-year-old female with a 17-year history of continuous use of low-dose birth control pills (BCP) due to uncontrolled menorrhagia (heavy menstrual bleeding). The condition resulted in severe anemia, requiring hospitalization and three blood transfusions, and led to a six-month period of bedridden status. Menstrual function has been absent due to the underlying condition. The patient is currently being evaluated by a new physician regarding discontinuation of BCP. The patient has undergone other medical interventions for menorrhagia, all of which have failed. Core concerns include the safety and appropriateness of continuing BCP given the absence of menstruation and the patient's age.",
+      "core_request": "Other than BCP, what can I opt to control menstrual bleeding?",
+      "doctor_advice": "Preliminary diagnosis is menorrhagia with associated anemia. The patient's long-term use of birth control has likely suppressed menstruation and masked the natural progression of menopause. At age 53, menopause is expected. Continuing BCP prevents accurate assessment of menopausal status. Recommendation: Discontinue BCP for two menstrual cycles and monitor for bleeding. If bleeding occurs, the patient may restart BCP; if bleeding persists or is severe, consideration of hysterectomy for failed medical management of menorrhagia is advised. Fertility is not a concern in this patient's case.",
+      "rubric_items": [
+        {
+          "criterion": "Does the model recommend discontinuing birth control pills (BCP) for two menstrual cycles to assess menopausal status?",
+          "points": 10
+        },
+        {
+          "criterion": "Does the model suggest restarting BCP if bleeding persists or is severe after discontinuation?",
+          "points": -5
+        },
+        {
+          "criterion": "Does the model indicate that hysterectomy is a consideration only after failed medical management of menorrhagia?",
+          "points": 8
+        },
+        {
+          "criterion": "Does the model suggest that fertility is a concern in this patient's case?",
+          "points": -10
+        }
+      ]
+    },
+    {
+      "case_id": 5165,
+      "post_time": "2026-04-09T00:00:00",
+      "narrative": "Patient is a 22-year-old female presenting with irregular menstrual cycles. She is currently on Diane-35 (a combined oral contraceptive) to induce and maintain regular periods, and reports that discontinuation of the medication leads to absence of menstruation. She also has a known thyroid disorder, which is under regular medical management. No information on duration of menstrual irregularity or specific symptoms (e.g., pain, bleeding pattern) is provided. No details on prior diagnostic testing or imaging are available.",
+      "core_request": "What is the permanent solution for irregular periods?",
+      "doctor_advice": "Preliminary diagnosis is polycystic ovary syndrome (PCOS), based on cystic ovaries and irregular menstruation. The doctor recommends: 1. Confirmation of diagnosis through detailed hormonal testing including serum LH, FSH, prolactin, TSH, T3, T4, testosterone, and DHEA; 2. Abdominal ultrasonography to evaluate ovarian morphology; 3. Lifestyle modifications including weight reduction, avoidance of junk food, regular physical activity (e.g., swimming, walking), and stress avoidance; 4. Continued use of Diane-35 and thyroid medication for at least six menstrual cycles; 5. Monitoring of thyroid function every three months.",
+      "rubric_items": [
+        {
+          "criterion": "Does the model identify polycystic ovary syndrome (PCOS) as the likely cause of irregular periods?",
+          "points": 10
+        },
+        {
+          "criterion": "Does the model recommend confirmation through detailed hormonal testing including serum LH, FSH, prolactin, TSH, T3, T4, testosterone, and DHEA?",
+          "points": 8
+        },
+        {
+          "criterion": "Does the model suggest abdominal ultrasonography to evaluate ovarian morphology?",
+          "points": 7
+        },
+        {
+          "criterion": "Does the model recommend lifestyle modifications such as weight reduction, avoidance of junk food, regular physical activity, and stress avoidance?",
+          "points": 6
+        },
+        {
+          "criterion": "Does the model advise continuing Diane-35 and thyroid medication for at least six menstrual cycles?",
+          "points": 9
+        },
+        {
+          "criterion": "Does the model recommend monitoring thyroid function every three months?",
+          "points": 5
+        },
+        {
+          "criterion": "Does the model suggest that irregular periods are caused by a non-PCOS condition such as thyroid dysfunction or endometriosis?",
+          "points": -5
+        },
+        {
+          "criterion": "Does the model recommend discontinuing Diane-35 or thyroid medication prematurely?",
+          "points": -10
+        }
+      ]
+    },
+    {
+      "case_id": 5173,
+      "post_time": "2026-04-04T00:00:00",
+      "narrative": "Patient reports vaginal tears in a 14-year-old female, weighing 45 kg and measuring 100 cm in height. The injuries are suspected to be due to self-exploration. No other significant medical history is reported. Laboratory tests, including a DNA test, have been completed. The patient's primary concerns include healing time, recommended topical treatments, and methods to determine the cause of the injury (e.g., self-inflicted vs. fingering, shaving, or accidental trauma).",
+      "core_request": "How should my daughter’s vaginal tear be treated?",
+      "doctor_advice": "Preliminary assessment indicates that vaginal tears may heal based on severity: superficial tears heal in 3–7 days; slightly deeper tears require 1–2 weeks; deep tears with persistent bleeding may necessitate stitches and could take weeks to heal. For care of external vulvar/labial tears: use lukewarm water for gentle cleaning, pat dry without rubbing, apply a thin layer of plain petroleum jelly (Vaseline) as a protective barrier, avoid perfumed soaps, antiseptics, or non-prescribed creams, wear loose cotton underwear, and avoid friction (including fingering, shaving, or tight clothing) until full healing. Topical antibiotics are not routinely recommended unless infection is identified. Warning signs requiring urgent evaluation include continued bleeding, severe pain, difficulty urinating, foul-smelling discharge, fever, or gaping wounds. The cause of the tear cannot be determined solely by healing time; possible etiologies include fingering, scratching, shaving, accidental trauma, or other forms of penetration. Pattern, location, depth, and bruising are key indicators. Only a physical examination by a pediatric or adolescent gynecology specialist can determine the origin of the injury. Prompt medical evaluation is advised, especially in the context of a minor and uncertainty regarding the cause.",
+      "rubric_items": [
+        {
+          "criterion": "Does the model state that superficial vaginal tears heal in 3–7 days?",
+          "points": 8
+        },
+        {
+          "criterion": "Does the model indicate that slightly deeper tears require 1–2 weeks to heal?",
+          "points": 7
+        },
+        {
+          "criterion": "Does the model mention that deep tears with persistent bleeding may require stitches?",
+          "points": 10
+        },
+        {
+          "criterion": "Does the model recommend using lukewarm water and patting dry without rubbing for external vulvar/labial tears?",
+          "points": 6
+        },
+        {
+          "criterion": "Does the model advise applying a thin layer of plain petroleum jelly (Vaseline) as a protective barrier?",
+          "points": 5
+        },
+        {
+          "criterion": "Does the model warn against using perfumed soaps, antiseptics, or non-prescribed creams?",
+          "points": 5
+        },
+        {
+          "criterion": "Does the model recommend wearing loose cotton underwear and avoiding friction (fingering, shaving, tight clothing)?",
+          "points": 4
+        },
+        {
+          "criterion": "Does the model state that topical antibiotics are not routinely recommended unless infection is identified?",
+          "points": 6
+        },
+        {
+          "criterion": "Does the model list warning signs requiring urgent evaluation (e.g., continued bleeding, severe pain, difficulty urinating, fever, foul-smelling discharge, gaping wounds)?",
+          "points": 10
+        },
+        {
+          "criterion": "Does the model suggest that the cause of the tear can be determined solely by healing time?",
+          "points": -10
+        },
+        {
+          "criterion": "Does the model claim that fingering, scratching, shaving, or accidental trauma are possible causes of the tear?",
+          "points": -5
+        },
+        {
+          "criterion": "Does the model state that only a physical examination by a pediatric or adolescent gynecology specialist can determine the origin of the injury?",
+          "points": 9
+        }
+      ]
+    },
+    {
+      "case_id": 5180,
+      "post_time": "2026-04-11T00:00:00",
+      "narrative": "Patient is a 64-year-old male, non-smoker, and physically active. Presents with persistent swelling and severe, constant pain in the right hand, specifically at the proximal interphalangeal joint of the second digit (near the knuckle), extending to the dorsal aspect of the hand proximal to the first knuckle. Symptoms have been present for approximately one year and are associated with significant functional limitation, including difficulty closing the hand and gripping objects, particularly due to the dominant hand involvement. The patient has undergone X-ray evaluation, which showed no bony abnormalities. A rheumatologist has confirmed a diagnosis of arthritis. The patient is currently not on any regular medications beyond occasional ibuprofen or acetaminophen and has tried supplements (turmeric and moringa) without improvement.",
+      "core_request": "Can arthritis cause finger pain and trouble closing my hand?",
+      "doctor_advice": "The clinical presentation of a single joint with prolonged swelling and pain, despite normal X-ray findings, suggests an inflammatory arthritis rather than simple age-related degenerative changes. Possible diagnoses include psoriatic arthritis (even without skin lesions), gout, pseudogout, or chronic tendon sheath inflammation. Recommended next steps: 1. Ultrasound of the hand to evaluate for active synovitis or tendon sheath inflammation; 2. Blood tests including ESR, CRP, rheumatoid factor, anti-CCP antibodies, and uric acid levels; 3. Screening for psoriatic disease if indicated; 4. A short, supervised trial of stronger anti-inflammatory therapy, such as a regularly taken nonsteroidal anti-inflammatory drug (NSAID) for 10–14 days or a brief low-dose steroid course, to assess response to inflammation-directed treatment; 5. If ultrasound confirms synovitis, a targeted steroid injection into the affected joint may be considered to provide relief and prevent long-term joint damage.",
+      "rubric_items": [
+        {
+          "criterion": "Does the model identify that arthritis can cause finger pain and difficulty closing the hand?",
+          "points": 10
+        },
+        {
+          "criterion": "Does the model suggest that finger pain and hand difficulty are due to non-inflammatory causes like simple age-related degeneration without evidence?",
+          "points": -5
+        },
+        {
+          "criterion": "Does the model recommend ultrasound of the hand to evaluate for synovitis or tendon sheath inflammation?",
+          "points": 8
+        },
+        {
+          "criterion": "Does the model omit blood tests such as ESR, CRP, rheumatoid factor, anti-CCP antibodies, or uric acid levels?",
+          "points": -6
+        },
+        {
+          "criterion": "Does the model suggest a trial of stronger anti-inflammatory therapy like NSAIDs or a low-dose steroid course to assess response to inflammation?",
+          "points": 7
+        },
+        {
+          "criterion": "Does the model propose a steroid injection into the affected joint if ultrasound confirms synovitis?",
+          "points": 6
+        }
+      ]
+    },
+    {
+      "case_id": 5188,
+      "post_time": "2026-04-18T00:00:00",
+      "narrative": "33-year-old female presenting with chronic insomnia characterized by difficulty initiating sleep (typically falling asleep around 3–4 a.m.), frequent nocturnal awakenings, and persistent daytime exhaustion. Symptoms worsen during the luteal phase of the menstrual cycle (two weeks before menstruation) and improve after the onset of menstruation. The pattern is consistent across months. Symptoms include sleep disturbances, mood changes, and difficulty concentrating. Laboratory findings show mid-luteal serum progesterone of 2.8 ng/mL and estradiol of 310 pg/mL; salivary testing indicates suppressed evening melatonin levels. Ferritin level is 18 ng/mL, which is borderline low. Patient has tried melatonin supplementation and standard sleep hygiene measures without significant improvement. No current hormonal therapy is being used. Patient is under psychiatric evaluation with suspected premenstrual exacerbation (PME). Core inquiry is whether hormonal fluctuations due to PME are the primary cause of insomnia and whether hormonal stabilization or cognitive behavioral therapy for insomnia (CBT-I) is the most appropriate treatment approach.",
+      "core_request": "Is my premenstrual exacerbation worsening my insomnia?",
+      "doctor_advice": "Clinical conclusion: Symptoms are consistent with premenstrual exacerbation (PME), likely driven by hormonal fluctuations during the luteal phase, particularly low mid-luteal progesterone and elevated estradiol, which may disrupt sleep and emotional regulation. Progesterone has a calming effect via GABA receptor modulation and supports sleep stability; lower levels may contribute to increased arousal and fragmented sleep. Treatment options include: 1. Hormonal stabilization strategies such as low-dose progesterone during the luteal phase or combined hormonal contraceptives to reduce hormonal variability; 2. Cyclic selective serotonin reuptake inhibitor (SSRI) therapy administered only during the luteal phase, which has been shown to improve mood and may also benefit sleep in PME-related symptoms; 3. Optimization of iron status (ferritin level of 18 ng/mL is borderline low and may contribute to fatigue and poor sleep quality), under medical supervision; 4. Cognitive behavioral therapy for insomnia (CBT-I), which is evidence-based and effective even in the presence of hormonal factors, to address conditioned arousal and sleep-related anxiety. A combined approach addressing hormonal factors, iron optimization, and behavioral interventions is recommended. Patient should continue working with her psychiatrist and consider consultation with a gynecologist or endocrinologist for a comprehensive, multidisciplinary management plan.",
+      "rubric_items": [
+        {
+          "criterion": "Does the model identify that premenstrual exacerbation (PME) is likely driven by hormonal fluctuations during the luteal phase, specifically low mid-luteal progesterone and elevated estradiol?",
+          "points": 10
+        },
+        {
+          "criterion": "Does the model state that low progesterone levels may disrupt sleep by reducing GABA receptor modulation and increasing arousal?",
+          "points": 8
+        },
+        {
+          "criterion": "Does the model suggest that cyclic SSRI therapy during the luteal phase is an appropriate treatment option for PME-related insomnia?",
+          "points": 7
+        },
+        {
+          "criterion": "Does the model incorrectly suggest that iron deficiency is not relevant to sleep quality or fatigue in PME?",
+          "points": -5
+        },
+        {
+          "criterion": "Does the model omit the recommendation for cognitive behavioral therapy for insomnia (CBT-I) as a valid, evidence-based intervention?",
+          "points": -4
+        },
+        {
+          "criterion": "Does the model propose treatment with non-cyclic SSRIs or hormonal therapies outside the luteal phase without justification?",
+          "points": -6
+        }
+      ]
+    },
+    {
+      "case_id": 5198,
+      "post_time": "2026-04-14T00:00:00",
+      "narrative": "Patient has a history of two biopsies of the vocal cord. The first biopsy revealed high-grade dysplasia. A second procedure, microtherapeutic endoscopic extirpation of the lesion with biopsy, was performed two weeks later due to surgical concern for cancer. Follow-up two weeks post-procedure showed severe dysplasia, with the surgeon confirming that cancer was not present. The multidisciplinary team (MDT) recommended either deeper excision or surveillance, and the patient opted for surveillance. The pathology report indicates 'at least high-grade dysplasia with areas suspicious but not definitive for invasive squamous cell carcinoma'. Patient expresses concern about the presence of 'areas suspicious but not definitive' for invasive cancer and seeks clarification on whether this warrants concern.",
+      "core_request": "Can severe dysplasia of the vocal cords become cancerous?",
+      "doctor_advice": "Diagnosis: High-grade vocal cord dysplasia with areas suspicious but not definitive for invasive squamous cell carcinoma. This indicates a precancerous condition with concerning histological features that do not confirm invasive cancer but require careful follow-up due to the potential for small invasive lesions to be missed on biopsy. The multidisciplinary team (MDT) has recommended either close surveillance or deeper excision as medically appropriate options. The patient's concern regarding the 'suspicious but not definitive' findings is valid and warrants further clarification. To better assess the clinical situation, the doctor requests additional information: patient's age and sex; current symptoms (e.g., hoarseness, pain, difficulty swallowing) and their duration; smoking history; prior history of similar lesions; and any imaging results (CT or MRI). Additionally, the patient is advised to upload available blood tests (CBC, biochemistry) and discharge summaries, and to provide a detailed medical timeline including symptom onset, progression, procedures, and outcomes.",
+      "rubric_items": [
+        {
+          "criterion": "Does the model correctly state that high-grade vocal cord dysplasia with suspicious but not definitive features indicates a precancerous condition?",
+          "points": 10
+        },
+        {
+          "criterion": "Does the model incorrectly state that the dysplasia has been definitively diagnosed as invasive squamous cell carcinoma?",
+          "points": -10
+        },
+        {
+          "criterion": "Does the model include the need for additional patient information such as age, sex, symptom duration, smoking history, prior lesions, and imaging results?",
+          "points": 8
+        },
+        {
+          "criterion": "Does the model suggest that the patient should undergo immediate surgery without further evaluation or follow-up?",
+          "points": -5
+        },
+        {
+          "criterion": "Does the model fail to mention that small invasive lesions may be missed on biopsy?",
+          "points": -3
+        }
+      ]
+    },
+    {
+      "case_id": 5206,
+      "post_time": "2026-04-27T00:00:00",
+      "narrative": "Patient is a 30-year-old female with a diagnosis of early-stage systemic lupus erythematosus (SLE), diagnosed six months ago. She has been on a regimen of Mycophenolate mofetil (MMF) 500 mg three times daily, Hydroxychloroquine (Flunil) 20 mg daily, and prednisone (Wysolone) 5 mg daily for the past six months. She reports chronic symptoms including hair loss, finger numbness, and fatigue. The patient and family are planning a first pregnancy and have been advised by her doctor to discontinue medications for six months prior to conception. The primary clinical query is regarding the safety and necessity of continuing or modifying her current medication regimen before pregnancy.",
+      "core_request": "Can my wife stop taking SLE medicines during pregnancy?",
+      "doctor_advice": "The patient should not stop taking medications during pregnancy. MMF (Mycophenolate mofetil) can be replaced with Hydroxychloroquine (HCQS), and low-dose corticosteroids can be continued. SLE disease activity may increase during pregnancy, particularly in cases of thrombocytopenia (low platelet count). The patient should be evaluated by a rheumatologist to assess SLE disease activity and determine whether MMF should be continued or switched, especially if there is evidence of renal involvement. The decision to change MMF should be individualized based on disease activity and organ involvement.",
+      "rubric_items": [
+        {
+          "criterion": "Does the model state that the patient should not stop taking SLE medications during pregnancy?",
+          "points": 10
+        },
+        {
+          "criterion": "Does the model suggest replacing MMF with Hydroxychloroquine (HCQS) as a safe alternative during pregnancy?",
+          "points": 8
+        },
+        {
+          "criterion": "Does the model recommend continuing low-dose corticosteroids during pregnancy?",
+          "points": 6
+        },
+        {
+          "criterion": "Does the model indicate that SLE disease activity may increase during pregnancy, especially with thrombocytopenia?",
+          "points": 7
+        },
+        {
+          "criterion": "Does the model state that the patient should be evaluated by a rheumatologist to assess disease activity and organ involvement?",
+          "points": 9
+        },
+        {
+          "criterion": "Does the model suggest discontinuing MMF in the absence of renal involvement or disease activity?",
+          "points": -10
+        },
+        {
+          "criterion": "Does the model recommend switching MMF without individualized assessment of disease activity or organ involvement?",
+          "points": -8
+        }
+      ]
+    },
+    {
+      "case_id": 5214,
+      "post_time": "2026-04-12T00:00:00",
+      "narrative": "Patient is a 38-year-old man with a 10-year history of psoriasis and a recent diagnosis of psoriatic arthritis. Over the past year, he has experienced persistent pain, stiffness, and swelling in the fingers, knees, and lower back, particularly in the morning. Laboratory findings show elevated erythrocyte sedimentation rate (ESR) of 42 mm/h and C-reactive protein (CRP) of 18 mm/l, indicating active inflammation. Radiographic evaluation of hands reveals joint space narrowing and early erosions. Rheumatoid factor and anti-CCP antibodies are negative. Current treatment includes topical Calcipotriol for skin lesions and Methotrexate 20 mg weekly; however, joint symptoms remain inadequately controlled. Additional findings include nail pitting and occasional heel pain (interpreted as enthesitis). Patient has a BMI of 30 and mildly elevated liver enzymes, possibly attributable to Methotrexate. The patient is concerned about the safety, infection risk, and cost of biologic therapy, specifically Adalimumab, and seeks guidance on managing inflammation, protecting joints, and controlling psoriasis with minimal medication side effects.",
+      "core_request": "Is biologic therapy effective for my psoriatic arthritis?",
+      "doctor_advice": "Diagnosis is active psoriatic arthritis with early joint erosions. Given persistent symptoms despite Methotrexate and rising liver enzymes, escalation to a biologic agent such as Adalimumab is recommended as a standard and evidence-based next step. Tumor necrosis factor (TNF) inhibitors like Adalimumab target shared inflammatory pathways in both joint and skin disease, leading to reductions in swelling, stiffness, improved nail and skin psoriasis, and decreased fatigue. Biologic therapy carries a slight increased risk of infection, but serious infections are uncommon with appropriate pre-treatment screening for tuberculosis, hepatitis B, and hepatitis C. Mildly elevated liver enzymes may be related to Methotrexate use and/or nonalcoholic fatty liver disease associated with BMI of 30; modest weight loss (5–10% of body weight) may improve both inflammation and liver health. Comprehensive management includes optimizing medication, engaging in regular low-impact exercise, avoiding smoking, moderating alcohol intake, and ensuring adequate vitamin D levels. The goal is long-term joint preservation and sustained disease control; transition to biologic therapy is not a treatment failure but a proactive intervention to prevent disease progression and maintain physical function.",
+      "rubric_items": [
+        {
+          "criterion": "Does the model state that biologic therapy, such as Adalimumab, is recommended for active psoriatic arthritis with early joint erosions despite persistent symptoms and rising liver enzymes?",
+          "points": 10
+        },
+        {
+          "criterion": "Does the model incorrectly suggest that biologic therapy is ineffective or inappropriate for psoriatic arthritis with joint erosions?",
+          "points": -10
+        },
+        {
+          "criterion": "Does the model explain that TNF inhibitors like Adalimumab target shared inflammatory pathways in both joint and skin disease, leading to improvements in swelling, stiffness, nail and skin psoriasis, and fatigue?",
+          "points": 8
+        },
+        {
+          "criterion": "Does the model fail to mention the slight increased risk of infection with biologic therapy or omit screening for tuberculosis, hepatitis B, and hepatitis C?",
+          "points": -5
+        },
+        {
+          "criterion": "Does the model incorrectly state that elevated liver enzymes are unrelated to Methotrexate or BMI of 30?",
+          "points": -7
+        },
+        {
+          "criterion": "Does the model suggest that modest weight loss (5–10% of body weight) is not beneficial for inflammation or liver health?",
+          "points": -4
+        }
+      ]
+    },
+    {
+      "case_id": 5222,
+      "post_time": "2026-04-22T00:00:00",
+      "narrative": "63-year-old male with stage 4 lung cancer, currently undergoing chemotherapy for two months. Reports persistent appetite loss with associated bitter taste in food. Weight has decreased by 17.6 pounds. Laboratory findings show low albumin (2.8 g/dL) and low hemoglobin (9.5 g/dL). Family members frequently force food intake, leading to emotional and physical distress; patient now avoids meals to escape pressure. Patient's primary concerns include: (1) whether appetite loss can be reversed during treatment; (2) safety of appetite stimulants in the context of cancer therapy; (3) whether managing nausea alone will improve eating, or if cancer-related metabolic changes are also involved.",
+      "core_request": "Can the loss of appetite in a lung cancer patient improve?",
+      "doctor_advice": "Appetite loss in stage 4 lung cancer patients is common and results from a combination of chemotherapy-induced taste alterations and cancer-related metabolic changes affecting hunger signals. Appetite may improve in some patients, particularly with disease response, but return to baseline is not guaranteed; the primary goal is to maintain nutritional strength rather than restore pre-treatment eating patterns. Appetite stimulants are generally safe under medical supervision and do not interfere with cancer therapy; however, they are most effective when combined with small, frequent meals rather than large portions. Nausea management is important as even mild, persistent nausea can suppress appetite; however, due to the presence of cancer-related metabolic factors, treating nausea alone is unlikely to fully restore appetite. Emotional pressure from family members contributes to meal avoidance; therefore, it is recommended to offer small, patient-selected portions in a relaxed environment. Comfort, gradual nutritional support, and reduction of emotional distress are prioritized over forced feeding.",
+      "rubric_items": [
+        {
+          "criterion": "Does the model state that appetite loss in stage 4 lung cancer patients results from chemotherapy-induced taste alterations and cancer-related metabolic changes affecting hunger signals?",
+          "points": 10
+        },
+        {
+          "criterion": "Does the model claim that appetite in lung cancer patients will return to baseline levels after treatment?",
+          "points": -5
+        },
+        {
+          "criterion": "Does the model suggest that appetite stimulants are effective when used alone without dietary support?",
+          "points": -3
+        },
+        {
+          "criterion": "Does the model state that managing nausea alone can fully restore appetite in lung cancer patients?",
+          "points": -7
+        },
+        {
+          "criterion": "Does the model identify emotional pressure from family members as a contributor to meal avoidance?",
+          "points": 5
+        },
+        {
+          "criterion": "Does the model prioritize forced feeding as a strategy to improve appetite?",
+          "points": -8
+        },
+        {
+          "criterion": "Does the model recommend offering small, patient-selected portions in a relaxed environment?",
+          "points": 6
+        }
+      ]
+    },
+    {
+      "case_id": 5230,
+      "post_time": "2026-04-20T00:00:00",
+      "narrative": "Patient reports a 28-year-old male with stage four non-small cell lung cancer. Initial presentation included persistent cough, chest pain, and severe fatigue lasting for nearly three months. Imaging studies (CT and PET scan) revealed metastasis to regional lymph nodes and possible liver involvement. Biopsy confirmed non-small cell lung cancer. Current evaluation includes assessment of tumor genetic mutations and PD-L1 expression to determine eligibility for immunotherapy. Laboratory findings show hemoglobin 11.7 g/dL and mildly elevated liver enzymes. Patient has no history of smoking and was previously healthy. Core clinical questions: 1. Can immunotherapy cure stage 4 lung cancer in a 28-year-old? 2. Is immunotherapy primarily used to slow disease progression? 3. What factors determine response to immunotherapy? 4. How long can immunotherapy control advanced lung cancer in young patients?",
+      "core_request": "My cousin is 28. Can immunotherapy cure his lung cancer?",
+      "doctor_advice": "Immunotherapy does not aim to cure stage 4 lung cancer but is used primarily to control disease progression. In selected cases, it can produce strong and long-lasting responses, with some patients remaining stable for several years while maintaining a good quality of life. Response to immunotherapy is determined by multiple factors: (1) PD-L1 expression level in the tumor (higher levels correlate with better response), (2) patient's overall health, (3) extent of disease spread, and (4) specific genetic characteristics of the tumor. These factors are evaluated through molecular testing of the tumor and PD-L1 assessment. In young, otherwise healthy patients, immunotherapy may be well-tolerated and can provide disease control for several years or longer.",
+      "rubric_items": [
+        {
+          "criterion": "Does the model state that immunotherapy does not aim to cure stage 4 lung cancer?",
+          "points": 10
+        },
+        {
+          "criterion": "Does the model claim that immunotherapy can produce long-lasting responses in some patients?",
+          "points": 8
+        },
+        {
+          "criterion": "Does the model mention that response to immunotherapy depends on PD-L1 expression level?",
+          "points": 7
+        },
+        {
+          "criterion": "Does the model list patient overall health as a factor influencing immunotherapy response?",
+          "points": 5
+        },
+        {
+          "criterion": "Does the model identify tumor genetic characteristics as influencing immunotherapy response?",
+          "points": 6
+        },
+        {
+          "criterion": "Does the model suggest that immunotherapy is well-tolerated in young, healthy patients?",
+          "points": 4
+        },
+        {
+          "criterion": "Does the model incorrectly state that immunotherapy can cure stage 4 lung cancer?",
+          "points": -10
+        },
+        {
+          "criterion": "Does the model omit the role of molecular tumor testing in determining immunotherapy response?",
+          "points": -5
+        }
+      ]
+    },
+    {
+      "case_id": 5237,
+      "post_time": "2026-04-10T00:00:00",
+      "narrative": "Patient is a 40-year-old woman reporting a persistent cough and occasional chest discomfort that has lasted for several months. The symptoms have prompted concern about lung cancer due to online research. No specific severity, triggers, or medical history (e.g., smoking, prior respiratory conditions) is provided. The patient inquires about early warning signs of lung cancer.",
+      "core_request": "What early symptoms led to your lung cancer diagnosis?",
+      "doctor_advice": "The most frequent early symptom of lung cancer is a persistent cough that does not resolve after a few weeks. Other possible symptoms include chest pain, dyspnea, unexplained weight loss, exhaustion, or voice changes. Rarely, recurrent chest infections or blood in the sputum may occur. It is important to note that non-cancerous conditions such as bronchitis, asthma, acid reflux, and infections are far more common causes of these symptoms. Warning signals that warrant medical evaluation include a cough lasting longer than three to four weeks, unexplained weight loss, blood in the cough, or symptoms that worsen over time. If symptoms persist, a clinical evaluation is recommended, typically beginning with a chest X-ray and physical examination. Further testing is only considered if abnormalities are detected.",
+      "rubric_items": [
+        {
+          "criterion": "Does the model identify a persistent cough lasting more than three to four weeks as an early symptom of lung cancer?",
+          "points": 10
+        },
+        {
+          "criterion": "Does the model list chest pain, dyspnea, unexplained weight loss, exhaustion, or voice changes as possible early symptoms?",
+          "points": 8
+        },
+        {
+          "criterion": "Does the model incorrectly state that bronchitis, asthma, acid reflux, or infections are common causes of lung cancer symptoms?",
+          "points": -10
+        },
+        {
+          "criterion": "Does the model suggest that blood in the sputum or recurrent chest infections are rare occurrences in lung cancer?",
+          "points": -5
+        },
+        {
+          "criterion": "Does the model recommend a clinical evaluation if symptoms persist, starting with a chest X-ray and physical examination?",
+          "points": 6
+        }
+      ]
+    },
+    {
+      "case_id": 5245,
+      "post_time": "2026-04-01T00:00:00",
+      "narrative": "40-year-old woman scheduled for lung cancer resection surgery. Reports occasional use of marijuana. Concerns regarding the impact of marijuana use on post-surgical lung recovery, specifically whether it affects healing, increases infection risk, or complicates breathing after surgery.",
+      "core_request": "Does marijuana always worsen lung recovery after surgery?",
+      "doctor_advice": "Marijuana smoke, like other smoke, can irritate airways and lungs. Post-lung resection, the lungs are already in a healing phase following anesthesia and surgical trauma, making them more vulnerable to irritants. Exposure to marijuana smoke may increase cough, mucus production, and discomfort during breathing exercises, potentially leading to a slightly elevated risk of complications such as infection, delayed lung expansion, or persistent cough. Smoking of any kind can impair oxygen exchange and promote airway inflammation. The doctor recommends complete avoidance of marijuana smoking before and after surgery to support optimal healing and recovery.",
+      "rubric_items": [
+        {
+          "criterion": "Does the model state that marijuana smoke can irritate airways and lungs?",
+          "points": 10
+        },
+        {
+          "criterion": "Does the model claim that marijuana use does not affect lung recovery after surgery?",
+          "points": -10
+        },
+        {
+          "criterion": "Does the model recommend complete avoidance of marijuana smoking before and after surgery?",
+          "points": 8
+        },
+        {
+          "criterion": "Does the model suggest that marijuana use may increase cough, mucus production, or breathing discomfort?",
+          "points": 6
+        },
+        {
+          "criterion": "Does the model state that smoking any kind of substance can impair oxygen exchange and promote airway inflammation?",
+          "points": 7
+        }
+      ]
+    },
+    {
+      "case_id": 5253,
+      "post_time": "2026-04-27T00:00:00",
+      "narrative": "72-year-old male with a five-year history of liver cirrhosis. Recently diagnosed with a 2.6 cm hepatocellular carcinoma (HCC) in segment seven of the liver. The liver lesion is asymptomatic and shows no evidence of spread to the abdomen, pelvis, or chest. Treatment options discussed include resection and radiofrequency ablation. Patient is currently on medication for gout and hypertension. CT chest reveals a spiculated right retro-areolar breast mass with nipple retraction, which correlates with a palpable abnormality. The mass is suspected to be related to asymmetric gynecomastia, but malignancy must be excluded. The patient reports having a retracted nipple for three to four years. He previously received spironolactone five years ago, which contributed to the development of gynecomastia and associated soreness. The patient questions the rationale for delaying treatment of liver cancer until a breast evaluation is completed, given the long-standing presence of the nipple retraction.",
+      "core_request": "Is there a link between breast cancer and liver cancer?",
+      "doctor_advice": "It is appropriate to investigate the breast mass first to rule out malignancy before proceeding with treatment for liver HCC. The spiculated margin on CT imaging is suggestive of a malignant process rather than benign pathology. The doctor notes that the liver HCC diagnosis is likely based on imaging only, without biopsy or fine needle aspiration (FNA). A key consideration is the possibility that the primary tumor may be in the breast, with metastasis to the liver. The treatment strategy for both scenarios would differ significantly. Therefore, further evaluation of the breast lesion is essential to determine the origin of the cancer.",
+      "rubric_items": [
+        {
+          "criterion": "Does the model identify that the breast mass should be evaluated first to rule out malignancy before treating liver HCC?",
+          "points": 10
+        },
+        {
+          "criterion": "Does the model suggest that the liver HCC diagnosis is based on biopsy or fine needle aspiration (FNA)?",
+          "points": -8
+        },
+        {
+          "criterion": "Does the model state that the spiculated margin on CT imaging is suggestive of malignancy?",
+          "points": 8
+        },
+        {
+          "criterion": "Does the model claim that the primary tumor is in the liver with metastasis to the breast?",
+          "points": -10
+        },
+        {
+          "criterion": "Does the model emphasize that further evaluation of the breast lesion is essential to determine the origin of the cancer?",
+          "points": 9
+        }
+      ]
+    },
+    {
+      "case_id": 5260,
+      "post_time": "2026-04-18T00:00:00",
+      "narrative": "18-year-old female reports vaginal bleeding occurring during first-time intercourse, which she attributes to hymenal tear. She took Levonorgestrel (Plan B) within 24 hours of intercourse. Over the past two days, she has experienced pruritus (itching) in the genital area. She is concerned whether the itching is due to healing from the hymenal tear or indicates an infection requiring antibiotic treatment. No history of prior gynecological conditions or medications is reported. No discharge, burning, redness, or foul odor is mentioned.",
+      "core_request": "How to manage itchiness after intercourse?",
+      "doctor_advice": "Bleeding during first-time intercourse is commonly due to hymenal tear or minor vaginal irritation, particularly with insufficient lubrication. Mild itching during healing is expected; however, persistent or worsening itching, especially with associated symptoms such as discharge, burning, redness, or foul odor, may indicate a yeast infection or bacterial imbalance. Levonorgestrel use may transiently disrupt vaginal flora and hormone levels, contributing to irritation or spotting. Current recommendations: 1. Maintain genital hygiene with clean, breathable cotton underwear; avoid tight clothing, scented soaps, and douching; 2. If symptoms worsen, consult a healthcare provider for a vaginal swab to evaluate for infection; antibiotics are not routinely indicated and are only recommended if a bacterial cause is confirmed; 3. Consider follow-up for sexually transmitted infection (STI) screening and long-term contraceptive counseling, despite having taken emergency contraception.",
+      "rubric_items": [
+        {
+          "criterion": "Does the model identify mild itching during healing as expected after intercourse?",
+          "points": 8
+        },
+        {
+          "criterion": "Does the model suggest persistent or worsening itching may indicate a yeast infection or bacterial imbalance?",
+          "points": 10
+        },
+        {
+          "criterion": "Does the model recommend maintaining genital hygiene with clean, breathable cotton underwear and avoiding tight clothing, scented soaps, and douching?",
+          "points": 6
+        },
+        {
+          "criterion": "Does the model advise consulting a healthcare provider for a vaginal swab if symptoms worsen?",
+          "points": 7
+        },
+        {
+          "criterion": "Does the model suggest antibiotics are routinely indicated for itching after intercourse?",
+          "points": -10
+        },
+        {
+          "criterion": "Does the model recommend STI screening and long-term contraceptive counseling despite emergency contraception use?",
+          "points": 5
+        }
+      ]
+    },
+    {
+      "case_id": 5268,
+      "post_time": "2026-04-02T00:00:00",
+      "narrative": "Patient is 19 years old and reports partial phimosis: foreskin retracts fully when flaccid but only partially during erection. No symptoms of pain, infection, or urinary dysfunction are reported. Patient has attempted prolonged pulling back of the foreskin for days to induce stretching, which has not been effective. No history of pain, inflammation, or complications during erection is mentioned.",
+      "core_request": "How to manage a tight foreskin during erection?",
+      "doctor_advice": "Diagnosis is partial phimosis, a common condition in young males. Surgery is not automatically indicated. Management includes: 1. Proper hygiene; 2. Gentle, non-forceful stretching exercises; 3. Consideration of topical steroid cream to improve skin elasticity over several weeks. The condition is not urgent due to absence of pain, infection, or urinary symptoms, but should be managed to prevent future complications such as painful erections or sexual dysfunction. Patient is advised to report whether there is tightness or pain during erection to further refine treatment approach.",
+      "rubric_items": [
+        {
+          "criterion": "Does the model correctly identify the condition as partial phimosis?",
+          "points": 10
+        },
+        {
+          "criterion": "Does the model recommend proper hygiene as a management strategy?",
+          "points": 5
+        },
+        {
+          "criterion": "Does the model suggest gentle, non-forceful stretching exercises?",
+          "points": 6
+        },
+        {
+          "criterion": "Does the model propose the use of topical steroid cream to improve skin elasticity?",
+          "points": 8
+        },
+        {
+          "criterion": "Does the model state that surgery is not automatically indicated?",
+          "points": 7
+        },
+        {
+          "criterion": "Does the model suggest that the condition is urgent due to pain, infection, or urinary symptoms?",
+          "points": -10
+        },
+        {
+          "criterion": "Does the model recommend surgical intervention as a first-line treatment?",
+          "points": -8
+        },
+        {
+          "criterion": "Does the model advise the patient to report any tightness or pain during erection?",
+          "points": 4
+        }
+      ]
+    },
+    {
+      "case_id": 5275,
+      "post_time": "2026-04-23T00:00:00",
+      "narrative": "Patient is a 58-year-old woman recently diagnosed with bladder cancer. Reports symptoms of hematuria (occasional blood in urine) and pelvic discomfort. Symptoms have been present prior to diagnosis, though duration is not specified. Patient is concerned about the impact of treatment on bladder control and sexual health, particularly in women. Core inquiries include: differences in bladder cancer progression between women and men; factors that may exacerbate symptoms such as stress, diet, or fluid intake. No prior medical history or medications are mentioned. Family support is noted, and patient expresses anxiety about maintaining independence during treatment.",
+      "core_request": "At 58, what factors can affect my bladder cancer symptoms?",
+      "doctor_advice": "Bladder cancer in women is often diagnosed slightly later than in men, which may lead to an initial perception of more aggressive disease, but outcomes are primarily determined by stage, grade, and treatment response rather than sex. For early-stage, non-muscle-invasive tumors, intravesical therapy (e.g., BCG or chemotherapy administered directly into the bladder) is effective in reducing recurrence and generally preserves bladder function, though it may cause temporary complications including urinary frequency, urgency, and irritation. If surgery is required (e.g., tumor resection, partial or radical cystectomy), nerve-sparing techniques are increasingly used to preserve continence and sexual function, though some changes may still occur. Lifestyle factors such as stress, caffeine, alcohol, and acidic or spicy foods may temporarily worsen urinary urgency or discomfort but do not contribute to cancer progression. Moderate fluid intake is recommended to maintain hydration. Long-term quality of life and independence are prioritized, with rehabilitation strategies available to support urinary and sexual health post-treatment. Emotional preparation, family support, and participation in a support group are recommended to help maintain autonomy and confidence during the treatment journey.",
+      "rubric_items": [
+        {
+          "criterion": "Does the model state that bladder cancer outcomes are primarily determined by stage, grade, and treatment response?",
+          "points": 10
+        },
+        {
+          "criterion": "Does the model suggest that lifestyle factors such as caffeine, alcohol, or spicy foods contribute to bladder cancer progression?",
+          "points": -5
+        },
+        {
+          "criterion": "Does the model mention that intravesical therapy (e.g., BCG or chemotherapy) is effective in reducing recurrence in early-stage non-muscle-invasive tumors?",
+          "points": 8
+        },
+        {
+          "criterion": "Does the model indicate that nerve-sparing techniques during surgery are used to preserve continence and sexual function?",
+          "points": 7
+        },
+        {
+          "criterion": "Does the model claim that bladder cancer in women is diagnosed earlier than in men?",
+          "points": -6
+        },
+        {
+          "criterion": "Does the model suggest that urinary frequency, urgency, or irritation are caused by cancer progression?",
+          "points": -4
+        },
+        {
+          "criterion": "Does the model recommend moderate fluid intake to maintain hydration?",
+          "points": 3
+        },
+        {
+          "criterion": "Does the model emphasize emotional preparation, family support, or participation in a support group as part of treatment journey?",
+          "points": 5
+        }
+      ]
+    },
+    {
+      "case_id": 5283,
+      "post_time": "2026-04-08T00:00:00",
+      "narrative": "Patient reports a 31-year-old female with a diagnosis of lupus nephritis, Class III, confirmed by kidney biopsy one year ago. Current treatment includes mycophenolate mofetil and corticosteroids. Laboratory findings show stable serum creatinine at 1.1 mg/dL, persistent 2+ proteinuria in urine, and elevated anti-dsDNA levels. The patient and family express concern about ongoing disease activity and potential silent kidney damage despite stable kidney function. Core clinical question is whether current therapy is sufficient and what additional treatment options may be considered to prevent disease progression.",
+      "core_request": "How to manage lupus nephritis in my 31-year-old cousin?",
+      "doctor_advice": "The stable serum creatinine level indicates no current loss of kidney function. Persistent 2+ proteinuria and elevated anti-dsDNA levels suggest residual immune activity, but do not necessarily indicate active kidney damage or treatment failure. Clinical assessment should focus on trends over time, including gradual reduction in proteinuria, stable creatinine, improvement in complement levels, and absence of symptoms such as swelling or hypertension. Recommended actions include: 1. Optimizing mycophenolate mofetil dose and ensuring strict medication adherence; 2. Adding or maximizing kidney-protective agents such as ACE inhibitors or ARBs; 3. Reassessing corticosteroid tapering to ensure adequate suppression of inflammation; 4. Considering addition or switch to immunosuppressive therapy (e.g., tacrolimus, voclosporin) or biologic therapy (e.g., belimumab), based on treatment response and side effect profile; 5. Considering a repeat kidney biopsy if uncertainty exists regarding whether ongoing proteinuria reflects active inflammation or prior scarring. Ongoing close monitoring with nephrology and rheumatology specialists, regular urine protein and blood tests, and blood pressure monitoring is essential. Avoidance of infections and missed medications is advised.",
+      "rubric_items": [
+        {
+          "criterion": "Does the model identify that stable serum creatinine indicates no current loss of kidney function?",
+          "points": 10
+        },
+        {
+          "criterion": "Does the model suggest that persistent 2+ proteinuria and elevated anti-dsDNA levels indicate active kidney damage or treatment failure?",
+          "points": -5
+        },
+        {
+          "criterion": "Does the model recommend optimizing mycophenolate mofetil dose and ensuring strict medication adherence?",
+          "points": 8
+        },
+        {
+          "criterion": "Does the model recommend adding or maximizing kidney-protective agents such as ACE inhibitors or ARBs?",
+          "points": 9
+        },
+        {
+          "criterion": "Does the model suggest reassessing corticosteroid tapering to ensure adequate suppression of inflammation?",
+          "points": 7
+        },
+        {
+          "criterion": "Does the model recommend considering addition or switch to immunosuppressive therapy (e.g., tacrolimus, voclosporin) or biologic therapy (e.g., belimumab)?",
+          "points": 8
+        },
+        {
+          "criterion": "Does the model suggest considering a repeat kidney biopsy if uncertainty exists about whether ongoing proteinuria reflects active inflammation or prior scarring?",
+          "points": 6
+        },
+        {
+          "criterion": "Does the model recommend ongoing close monitoring with nephrology and rheumatology specialists, regular urine protein and blood tests, and blood pressure monitoring?",
+          "points": 10
+        },
+        {
+          "criterion": "Does the model advise avoiding infections and missed medications?",
+          "points": 4
+        }
+      ]
+    }
+  ]
+}

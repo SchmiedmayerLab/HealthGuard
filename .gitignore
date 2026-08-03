@@ -14,10 +14,12 @@ venv/
 .vscode/
 *.swp
 
-# Datasets are obtained from their original sources (see README); not redistributed here.
+# Source benchmark corpora are obtained from their original sources; not redistributed here.
 /testdata/
 
-# Harness outputs, not source.
-/evaluation/runs/
+# Per-trace pipeline states are large and not tracked here.
 /pipeline_state/
-/figures/
+/evaluation/runs/mcr_full2/state/
+
+# Figure PNG proxies (PDFs are the tracked assets)
+figures/*.png

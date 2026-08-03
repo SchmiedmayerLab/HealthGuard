@@ -1,0 +1,390 @@
+{
+  "name": "classify",
+  "passed": true,
+  "score": 1.0,
+  "reasoning": "Classified 76 statement(s): 17 causal, 58 factual, 1 statistical.",
+  "data": {
+    "classified": [
+      {
+        "text": "The chief concern is chronic left upper-quadrant abdominal pain.",
+        "category": "factual",
+        "rationale": "It states a patient symptom and location as a direct clinical fact."
+      },
+      {
+        "text": "The patient has a progressively enlarging palpable mass.",
+        "category": "factual",
+        "rationale": "It asserts a physical finding about the patient."
+      },
+      {
+        "text": "The patient is a 33-year-old woman.",
+        "category": "factual",
+        "rationale": "It states a demographic attribute of the patient."
+      },
+      {
+        "text": "The patient’s problem is a slowly growing upper abdominal mass causing pain.",
+        "category": "factual",
+        "rationale": "It summarizes the patient’s condition as a factual clinical description."
+      },
+      {
+        "text": "The patient does not have an acute abdomen.",
+        "category": "factual",
+        "rationale": "It is a direct assertion about the absence of a clinical condition."
+      },
+      {
+        "text": "The patient does not have a systemic illness.",
+        "category": "factual",
+        "rationale": "It states the absence of a systemic illness as a patient attribute."
+      },
+      {
+        "text": "Examination found a fixed deep left upper-quadrant mass.",
+        "category": "factual",
+        "rationale": "It reports an examination finding."
+      },
+      {
+        "text": "The mass extends below the costal margin on examination.",
+        "category": "factual",
+        "rationale": "It describes a physical exam finding."
+      },
+      {
+        "text": "CT showed a large lesion measuring 104 × 77 × 44 mm.",
+        "category": "statistical",
+        "rationale": "It contains a specific numerical measurement from imaging."
+      },
+      {
+        "text": "The lesion is rounded.",
+        "category": "factual",
+        "rationale": "It describes the lesion’s morphology."
+      },
+      {
+        "text": "The lesion is well-defined.",
+        "category": "factual",
+        "rationale": "It describes an imaging characteristic of the lesion."
+      },
+      {
+        "text": "The lesion appears attached to the gastric wall.",
+        "category": "factual",
+        "rationale": "It states an imaging-based anatomic relationship."
+      },
+      {
+        "text": "The lesion has mixed cystic and solid components.",
+        "category": "factual",
+        "rationale": "It describes the lesion’s composition."
+      },
+      {
+        "text": "The lesion has scattered calcifications.",
+        "category": "factual",
+        "rationale": "It reports an imaging feature of the lesion."
+      },
+      {
+        "text": "There is no local invasion on CT.",
+        "category": "factual",
+        "rationale": "It asserts the absence of local invasion on imaging."
+      },
+      {
+        "text": "There are no metastases on CT.",
+        "category": "factual",
+        "rationale": "It asserts the absence of metastatic disease on imaging."
+      },
+      {
+        "text": "CEA is normal.",
+        "category": "factual",
+        "rationale": "It states a laboratory result as normal."
+      },
+      {
+        "text": "CA19-9 is normal.",
+        "category": "factual",
+        "rationale": "It states a laboratory result as normal."
+      },
+      {
+        "text": "The normal CEA and CA19-9 make common gastrointestinal adenocarcinomas less likely.",
+        "category": "causal",
+        "rationale": "It links normal tumor markers to reduced likelihood of a diagnosis."
+      },
+      {
+        "text": "The lesion is large.",
+        "category": "factual",
+        "rationale": "It is a descriptive assertion about lesion size."
+      },
+      {
+        "text": "The lesion is radiologically circumscribed.",
+        "category": "factual",
+        "rationale": "It describes an imaging characteristic."
+      },
+      {
+        "text": "The lesion suggests a slow-growing mesenchymal or non-epithelial process.",
+        "category": "causal",
+        "rationale": "It infers a likely tissue/process type from imaging features."
+      },
+      {
+        "text": "The lesion suggests a process rather than an infiltrative gastric carcinoma.",
+        "category": "causal",
+        "rationale": "It interprets imaging findings as favoring one disease mechanism over another."
+      },
+      {
+        "text": "The patient has a prior splenectomy.",
+        "category": "factual",
+        "rationale": "It states a past surgical history fact."
+      },
+      {
+        "text": "The prior splenectomy broadens the left upper-quadrant differential to include splenic-bed lesions.",
+        "category": "causal",
+        "rationale": "It explains how prior surgery affects the differential diagnosis."
+      },
+      {
+        "text": "The CT description specifically suggests attachment to the gastric wall.",
+        "category": "factual",
+        "rationale": "It reports the imaging interpretation as a factual description."
+      },
+      {
+        "text": "There are no reported signs of metastatic disease.",
+        "category": "factual",
+        "rationale": "It states the absence of reported metastatic signs."
+      },
+      {
+        "text": "There is no local invasion on CT.",
+        "category": "factual",
+        "rationale": "It repeats an imaging finding of absent invasion."
+      },
+      {
+        "text": "CEA is normal.",
+        "category": "factual",
+        "rationale": "It states a laboratory result as normal."
+      },
+      {
+        "text": "CA19-9 is normal.",
+        "category": "factual",
+        "rationale": "It states a laboratory result as normal."
+      },
+      {
+        "text": "These findings argue against advanced gastric adenocarcinoma.",
+        "category": "causal",
+        "rationale": "It draws a diagnostic inference from the imaging and lab findings."
+      },
+      {
+        "text": "These findings argue against pancreatic adenocarcinoma.",
+        "category": "causal",
+        "rationale": "It links the findings to reduced likelihood of a specific diagnosis."
+      },
+      {
+        "text": "The case summary does not mention constitutional symptoms.",
+        "category": "factual",
+        "rationale": "It states the absence of reported symptoms in the summary."
+      },
+      {
+        "text": "The case summary does not mention gastrointestinal bleeding.",
+        "category": "factual",
+        "rationale": "It states the absence of reported symptoms in the summary."
+      },
+      {
+        "text": "The case summary does not mention obstruction.",
+        "category": "factual",
+        "rationale": "It states the absence of reported symptoms in the summary."
+      },
+      {
+        "text": "The case summary does not mention jaundice.",
+        "category": "factual",
+        "rationale": "It states the absence of reported symptoms in the summary."
+      },
+      {
+        "text": "The case summary does not mention pancreatitis-type symptoms.",
+        "category": "factual",
+        "rationale": "It states the absence of reported symptoms in the summary."
+      },
+      {
+        "text": "The leading differential is a gastric gastrointestinal stromal tumor.",
+        "category": "factual",
+        "rationale": "It identifies the most likely diagnosis as a clinical assessment."
+      },
+      {
+        "text": "The lesion fits the apparent gastric wall attachment.",
+        "category": "causal",
+        "rationale": "It explains why the lesion is compatible with a particular diagnosis."
+      },
+      {
+        "text": "The lesion fits the well-defined exophytic mass effect in the left upper quadrant.",
+        "category": "causal",
+        "rationale": "It relates imaging appearance to diagnostic compatibility."
+      },
+      {
+        "text": "The lesion fits the mixed solid-cystic appearance that can occur with degeneration in larger GISTs.",
+        "category": "causal",
+        "rationale": "It links the imaging pattern to a known disease feature."
+      },
+      {
+        "text": "The lesion fits the calcifications.",
+        "category": "causal",
+        "rationale": "It interprets calcifications as supportive of the diagnosis."
+      },
+      {
+        "text": "Calcifications are uncommon in GISTs.",
+        "category": "factual",
+        "rationale": "It states a general characteristic of GISTs."
+      },
+      {
+        "text": "Calcifications can be present in longstanding GISTs.",
+        "category": "factual",
+        "rationale": "It states a known possible feature of GISTs."
+      },
+      {
+        "text": "GISTs often present as large palpable masses with pain.",
+        "category": "factual",
+        "rationale": "It states a general clinical presentation pattern."
+      },
+      {
+        "text": "GISTs may lack nodal or distant spread at presentation.",
+        "category": "factual",
+        "rationale": "It states a known clinical feature of GISTs."
+      },
+      {
+        "text": "A gastric duplication cyst is another consideration.",
+        "category": "factual",
+        "rationale": "It names an alternative diagnostic possibility."
+      },
+      {
+        "text": "A gastric duplication cyst can present as a cystic lesion attached to the stomach wall.",
+        "category": "factual",
+        "rationale": "It states a known presentation pattern for duplication cysts."
+      },
+      {
+        "text": "This diagnosis is less convincing here.",
+        "category": "causal",
+        "rationale": "It expresses a comparative diagnostic judgment based on the case features."
+      },
+      {
+        "text": "The lesion has both solid and cystic components.",
+        "category": "factual",
+        "rationale": "It repeats an imaging description of the lesion."
+      },
+      {
+        "text": "The lesion has calcifications.",
+        "category": "factual",
+        "rationale": "It states an imaging feature of the lesion."
+      },
+      {
+        "text": "The patient is an adult.",
+        "category": "factual",
+        "rationale": "It states a demographic fact."
+      },
+      {
+        "text": "The patient has a progressively enlarging palpable mass.",
+        "category": "factual",
+        "rationale": "It repeats a clinical finding about the patient."
+      },
+      {
+        "text": "Duplication cysts are usually predominantly cystic congenital lesions.",
+        "category": "factual",
+        "rationale": "It states a general characteristic of duplication cysts."
+      },
+      {
+        "text": "Duplication cysts are less typical as a large mixed solid-cystic tumor.",
+        "category": "factual",
+        "rationale": "It states a general comparative feature of duplication cysts."
+      },
+      {
+        "text": "A pancreatic mucinous cystic neoplasm or other pancreatic tail cystic tumor could produce a left upper-quadrant mass with calcifications.",
+        "category": "factual",
+        "rationale": "It states a possible diagnostic entity and its typical presentation."
+      },
+      {
+        "text": "The CT description says the lesion appears attached to the gastric wall rather than arising from the pancreas.",
+        "category": "factual",
+        "rationale": "It reports the imaging interpretation as a factual statement."
+      },
+      {
+        "text": "CA19-9 is normal.",
+        "category": "factual",
+        "rationale": "It states a laboratory result as normal."
+      },
+      {
+        "text": "A splenic-bed process such as accessory spleen, remnant, or post-splenectomy lesion is less likely.",
+        "category": "causal",
+        "rationale": "It infers reduced likelihood of a diagnosis from the imaging context."
+      },
+      {
+        "text": "The imaging suggests gastric wall origin.",
+        "category": "causal",
+        "rationale": "It interprets imaging findings as indicating an anatomic origin."
+      },
+      {
+        "text": "Mixed solid-cystic morphology with calcifications is not typical for splenic tissue.",
+        "category": "factual",
+        "rationale": "It states a general characteristic comparison about splenic tissue."
+      },
+      {
+        "text": "Other gastric mesenchymal tumors such as leiomyoma or schwannoma are possible.",
+        "category": "factual",
+        "rationale": "It identifies alternative diagnostic possibilities."
+      },
+      {
+        "text": "The large size favors GIST over leiomyoma or schwannoma.",
+        "category": "causal",
+        "rationale": "It compares diagnoses based on lesion size."
+      },
+      {
+        "text": "The mixed cystic-solid degeneration favors GIST over leiomyoma or schwannoma.",
+        "category": "causal",
+        "rationale": "It compares diagnoses based on imaging morphology."
+      },
+      {
+        "text": "The palpable progressive mass favors GIST over leiomyoma or schwannoma.",
+        "category": "causal",
+        "rationale": "It uses the clinical course to support one diagnosis over others."
+      },
+      {
+        "text": "Gastric adenocarcinoma is less likely.",
+        "category": "factual",
+        "rationale": "It states a diagnostic likelihood assessment."
+      },
+      {
+        "text": "The lesion is rounded and well-defined rather than infiltrative.",
+        "category": "factual",
+        "rationale": "It describes the lesion’s imaging appearance."
+      },
+      {
+        "text": "Tumor markers are normal.",
+        "category": "factual",
+        "rationale": "It states a laboratory summary fact."
+      },
+      {
+        "text": "There is no invasion or metastasis.",
+        "category": "factual",
+        "rationale": "It states the absence of invasive or metastatic disease."
+      },
+      {
+        "text": "The combination of a large well-circumscribed exophytic-appearing gastric wall mass, mixed solid and cystic components, calcifications, chronic pain, and lack of metastatic disease most strongly supports gastric gastrointestinal stromal tumor.",
+        "category": "causal",
+        "rationale": "It synthesizes findings into a diagnostic conclusion based on their relationship to GIST."
+      },
+      {
+        "text": "Gastric gastrointestinal stromal tumor is the high-probability differential diagnosis.",
+        "category": "factual",
+        "rationale": "It states the relative likelihood of a diagnosis."
+      },
+      {
+        "text": "Gastric duplication cyst is a medium-probability differential diagnosis.",
+        "category": "factual",
+        "rationale": "It states the relative likelihood of a diagnosis."
+      },
+      {
+        "text": "Pancreatic tail mucinous cystic neoplasm is a low-probability differential diagnosis.",
+        "category": "factual",
+        "rationale": "It states the relative likelihood of a diagnosis."
+      },
+      {
+        "text": "Gastric schwannoma or leiomyoma is a low-probability differential diagnosis.",
+        "category": "factual",
+        "rationale": "It states the relative likelihood of a diagnosis."
+      },
+      {
+        "text": "Gastric adenocarcinoma is a low-probability differential diagnosis.",
+        "category": "factual",
+        "rationale": "It states the relative likelihood of a diagnosis."
+      },
+      {
+        "text": "The final diagnosis is gastric gastrointestinal stromal tumor.",
+        "category": "factual",
+        "rationale": "It asserts the final diagnosis as a clinical fact."
+      }
+    ]
+  }
+}

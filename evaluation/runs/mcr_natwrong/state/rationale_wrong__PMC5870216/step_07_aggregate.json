@@ -1,0 +1,42 @@
+{
+  "name": "aggregate",
+  "passed": false,
+  "score": 0.9983,
+  "reasoning": "Overall verdict: failed. The clinical reasoning and diagnostic conclusion are internally consistent and strongly support osteochondrolipoma, but the verification pipeline failed at the graph-building step due to two disconnected nodes, indicating incomplete linkage in the evidence structure. The weighted aggregate score was 0.9983, reflecting very high overall quality despite this structural failure.",
+  "data": {
+    "weighted_score": 0.9983,
+    "all_passed": false,
+    "step_scores": {
+      "static_rules": {
+        "score": 1.0,
+        "passed": true,
+        "weight": 0.1
+      },
+      "decompose": {
+        "score": 1.0,
+        "passed": true,
+        "weight": 0.05
+      },
+      "chain_verify": {
+        "score": 1.0,
+        "passed": true,
+        "weight": 0.1
+      },
+      "classify": {
+        "score": 1.0,
+        "passed": true,
+        "weight": 0.0
+      },
+      "expert_verify": {
+        "score": 1.0,
+        "passed": true,
+        "weight": 0.65
+      },
+      "build_graph": {
+        "score": 0.9833,
+        "passed": false,
+        "weight": 0.1
+      }
+    }
+  }
+}

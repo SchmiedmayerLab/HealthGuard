@@ -1,0 +1,1202 @@
+{
+  "name": "build_graph",
+  "passed": false,
+  "score": 0.9412,
+  "reasoning": "Graph built with 68 node(s) and 48 edge(s). 8 disconnected node(s): n1, n11, n12, n15, n28, n3, n32, n36. The graph starts with chest-pain evidence supporting ACS/NSTEMI and treatment with heparin/antiplatelets. After anticoagulation, new abdominal/thigh pain and imaging findings support an iliopsoas retroperitoneal hemorrhage, with angiography suggesting no major arterial source. Several alternative diagnoses are weakened by the absence of infection, trauma, femoral access, or infarction-type imaging. The final diagnosis is anticoagulation-associated iliopsoas hematoma.",
+  "data": {
+    "nodes": [
+      {
+        "id": "n1",
+        "text": "The patient is a 73-year-old man.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Reference data states he is a 73-year-old man.",
+        "cluster_idx": 0,
+        "cluster_label": "history_taking"
+      },
+      {
+        "id": "n2",
+        "text": "His chief concern on presentation was 2 days of severe exertional, pressure-like chest pain.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Presentation was 2 days of severe, exertional, pressure-like chest pain.",
+        "cluster_idx": 0,
+        "cluster_label": "history_taking"
+      },
+      {
+        "id": "n3",
+        "text": "His chest pain was rated 9/10.",
+        "category": "statistical",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Pain was explicitly rated 9/10.",
+        "cluster_idx": 0,
+        "cluster_label": "history_taking"
+      },
+      {
+        "id": "n4",
+        "text": "The initial workup strongly supports an acute coronary syndrome.",
+        "category": "factual",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "NSTEMI workup is supported by ischemic chest pain plus hs-troponin >5000 ng/L, though 'strongly supports ACS' is a synthesis.",
+        "cluster_idx": 1,
+        "cluster_label": "test_ordering"
+      },
+      {
+        "id": "n5",
+        "text": "His high-sensitivity troponin was markedly elevated at greater than 5000 ng/L.",
+        "category": "statistical",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Initial hs-troponin was reported as >5000 ng/L.",
+        "cluster_idx": 1,
+        "cluster_label": "test_ordering"
+      },
+      {
+        "id": "n6",
+        "text": "His clinical presentation was consistent with ischemic chest pain.",
+        "category": "factual",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Exertional pressure-like chest pain is clinically consistent with ischemic chest pain.",
+        "cluster_idx": 1,
+        "cluster_label": "test_ordering"
+      },
+      {
+        "id": "n7",
+        "text": "His ECG showed normal sinus rhythm without ST elevation.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "ECG showed normal sinus rhythm; no ST elevation was reported.",
+        "cluster_idx": 1,
+        "cluster_label": "test_ordering"
+      },
+      {
+        "id": "n8",
+        "text": "The presentation fits non–ST-elevation myocardial infarction.",
+        "category": "factual",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "The trace explicitly concludes NSTEMI based on symptoms and troponin with no ST elevation.",
+        "cluster_idx": 1,
+        "cluster_label": "test_ordering"
+      },
+      {
+        "id": "n9",
+        "text": "He was appropriately started on heparin therapy.",
+        "category": "recommendation",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Heparin was started for NSTEMI; 'appropriately' is a judgment but consistent with the case.",
+        "cluster_idx": 2,
+        "cluster_label": "treatment_planning"
+      },
+      {
+        "id": "n10",
+        "text": "He was appropriately started on antiplatelet therapy.",
+        "category": "recommendation",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Antiplatelet therapy was started for NSTEMI; 'appropriately' is a reasonable clinical judgment.",
+        "cluster_idx": 2,
+        "cluster_label": "treatment_planning"
+      },
+      {
+        "id": "n11",
+        "text": "On hospital day 2, he developed new severe left lower abdominal pain.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "On hospital day 2 he developed severe left lower abdominal pain.",
+        "cluster_idx": 3,
+        "cluster_label": "history_taking"
+      },
+      {
+        "id": "n12",
+        "text": "On hospital day 2, he developed new severe thigh pain.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "On hospital day 2 he developed severe thigh pain.",
+        "cluster_idx": 3,
+        "cluster_label": "history_taking"
+      },
+      {
+        "id": "n13",
+        "text": "He developed the new left lower abdominal and thigh pain while receiving anticoagulation therapy.",
+        "category": "causal",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "The pain occurred while he was receiving a heparin drip (anticoagulation).",
+        "cluster_idx": 3,
+        "cluster_label": "history_taking"
+      },
+      {
+        "id": "n14",
+        "text": "He developed the new left lower abdominal and thigh pain while receiving antiplatelet therapy.",
+        "category": "causal",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "He was also receiving antiplatelet therapy when the pain developed.",
+        "cluster_idx": 3,
+        "cluster_label": "history_taking"
+      },
+      {
+        "id": "n15",
+        "text": "He had sudden severe pain in the left lower abdomen and thigh.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "The trace states sudden severe pain in the left lower abdomen/thigh.",
+        "cluster_idx": 3,
+        "cluster_label": "history_taking"
+      },
+      {
+        "id": "n16",
+        "text": "CT abdomen/pelvis showed marked swelling of the left psoas muscle.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "CT showed marked swelling of the left psoas muscle.",
+        "cluster_idx": 4,
+        "cluster_label": "test_ordering"
+      },
+      {
+        "id": "n17",
+        "text": "CT abdomen/pelvis showed marked swelling of the left iliacus muscle.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "CT showed marked swelling of the left iliacus muscle.",
+        "cluster_idx": 4,
+        "cluster_label": "test_ordering"
+      },
+      {
+        "id": "n18",
+        "text": "CT abdomen/pelvis showed heterogeneous density consistent with hemorrhage.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "CT described heterogeneous density consistent with hemorrhage.",
+        "cluster_idx": 4,
+        "cluster_label": "test_ordering"
+      },
+      {
+        "id": "n19",
+        "text": "CT angiogram showed active contrast extravasation into the left psoas muscle.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "CTA showed active contrast extravasation into the left psoas muscle.",
+        "cluster_idx": 4,
+        "cluster_label": "test_ordering"
+      },
+      {
+        "id": "n20",
+        "text": "Angiography showed no arterial source of active bleeding.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Angiography showed no arterial source of active bleeding.",
+        "cluster_idx": 4,
+        "cluster_label": "test_ordering"
+      },
+      {
+        "id": "n21",
+        "text": "The findings indicate a retroperitoneal intramuscular bleed centered in the iliopsoas compartment.",
+        "category": "factual",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Psoas/iliacus hemorrhage with extravasation localizes to an iliopsoas retroperitoneal intramuscular bleed.",
+        "cluster_idx": 4,
+        "cluster_label": "test_ordering"
+      },
+      {
+        "id": "n22",
+        "text": "The absence of an arterial source on angiography makes a venous or small-vessel spontaneous bleed more likely than a major arterial injury.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "No arterial source on angiography supports a non-major-arterial source, though exact venous/small-vessel origin is inferred.",
+        "cluster_idx": 4,
+        "cluster_label": "test_ordering"
+      },
+      {
+        "id": "n23",
+        "text": "The temporal relationship to heparin treatment is highly significant.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Temporal association with heparin is clinically important and supports anticoagulation-associated bleeding.",
+        "cluster_idx": 5,
+        "cluster_label": "other"
+      },
+      {
+        "id": "n24",
+        "text": "The temporal relationship to antiplatelet treatment is highly significant.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Temporal association with antiplatelet therapy is also clinically important.",
+        "cluster_idx": 5,
+        "cluster_label": "other"
+      },
+      {
+        "id": "n25",
+        "text": "There is no mention of trauma.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "The reference data does not mention trauma.",
+        "cluster_idx": 5,
+        "cluster_label": "other"
+      },
+      {
+        "id": "n26",
+        "text": "There is no mention of falls.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "The reference data does not mention falls.",
+        "cluster_idx": 5,
+        "cluster_label": "other"
+      },
+      {
+        "id": "n27",
+        "text": "There is no mention of an invasive femoral access complication.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "No catheterization or femoral access complication is described in the reference data.",
+        "cluster_idx": 5,
+        "cluster_label": "other"
+      },
+      {
+        "id": "n28",
+        "text": "There is no mention of an abdominal mass.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "No abdominal mass is mentioned.",
+        "cluster_idx": 5,
+        "cluster_label": "other"
+      },
+      {
+        "id": "n29",
+        "text": "There is no mention of fever.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "No fever is mentioned in the reference data.",
+        "cluster_idx": 5,
+        "cluster_label": "other"
+      },
+      {
+        "id": "n30",
+        "text": "There is no mention of leukocytosis.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "WBC was 8.1 K/cm3, so leukocytosis is not present.",
+        "cluster_idx": 5,
+        "cluster_label": "other"
+      },
+      {
+        "id": "n31",
+        "text": "There is no mention of signs suggesting infection or abscess.",
+        "category": "factual",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Absence of fever/leukocytosis plus hemorrhagic imaging argues against infection/abscess.",
+        "cluster_idx": 5,
+        "cluster_label": "other"
+      },
+      {
+        "id": "n32",
+        "text": "The physical exam at presentation was unremarkable.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Physical examination at presentation was unremarkable.",
+        "cluster_idx": 5,
+        "cluster_label": "other"
+      },
+      {
+        "id": "n33",
+        "text": "Later imaging specifically described hemorrhage rather than another mass lesion.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Imaging specifically described hemorrhage/active extravasation rather than a mass lesion.",
+        "cluster_idx": 5,
+        "cluster_label": "other"
+      },
+      {
+        "id": "n34",
+        "text": "The platelet count was 380 K/cm3.",
+        "category": "statistical",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Platelet count was 380 K/cm3.",
+        "cluster_idx": 6,
+        "cluster_label": "test_ordering"
+      },
+      {
+        "id": "n35",
+        "text": "The platelet count argues against thrombocytopenic bleeding.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Normal-high platelets make thrombocytopenic bleeding unlikely.",
+        "cluster_idx": 6,
+        "cluster_label": "test_ordering"
+      },
+      {
+        "id": "n36",
+        "text": "The hemoglobin was initially 16 g/dL.",
+        "category": "statistical",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Initial hemoglobin was 16 g/dL.",
+        "cluster_idx": 6,
+        "cluster_label": "test_ordering"
+      },
+      {
+        "id": "n37",
+        "text": "The hemoglobin later rose to 18 g/dL after stabilization.",
+        "category": "statistical",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "After stabilization, hemoglobin rose to 18 g/dL.",
+        "cluster_idx": 6,
+        "cluster_label": "test_ordering"
+      },
+      {
+        "id": "n38",
+        "text": "A hemoglobin rise after stabilization is unusual for a major hemorrhage.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "A rising hemoglobin is atypical for major hemorrhage, though not impossible.",
+        "cluster_idx": 6,
+        "cluster_label": "test_ordering"
+      },
+      {
+        "id": "n39",
+        "text": "A hemoglobin rise after stabilization can occur with hemoconcentration.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Hemoconcentration is a plausible explanation for a post-stabilization hemoglobin rise.",
+        "cluster_idx": 6,
+        "cluster_label": "test_ordering"
+      },
+      {
+        "id": "n40",
+        "text": "A hemoglobin rise after stabilization does not negate the imaging-proven bleed.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "The CTA-proven bleed remains real despite the hemoglobin trend.",
+        "cluster_idx": 6,
+        "cluster_label": "test_ordering"
+      },
+      {
+        "id": "n41",
+        "text": "The CTA finding of active extravasation confirms true hemorrhage.",
+        "category": "causal",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "CTA showed active contrast extravasation into the left psoas muscle, which confirms hemorrhage.",
+        "cluster_idx": 6,
+        "cluster_label": "test_ordering"
+      },
+      {
+        "id": "n42",
+        "text": "The case includes anticoagulation-associated iliopsoas hematoma as a candidate differential.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "The trace explicitly lists anticoagulation-associated iliopsoas hematoma as a candidate differential.",
+        "cluster_idx": 7,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n43",
+        "text": "Anticoagulation-associated iliopsoas hematoma fits best because of heparin and antiplatelet exposure and classic imaging findings.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "This is the trace’s synthesis: heparin/antiplatelet exposure plus CT/CTA hemorrhagic findings make iliopsoas hematoma the best fit.",
+        "cluster_idx": 7,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n44",
+        "text": "Femoral-access or catheterization-related retroperitoneal bleed is a candidate differential.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "The trace explicitly includes femoral-access/catheterization-related retroperitoneal bleed as a differential.",
+        "cluster_idx": 7,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n45",
+        "text": "No catheterization is described.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "The reference data does not describe catheterization.",
+        "cluster_idx": 7,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n46",
+        "text": "No femoral access is described.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "The reference data does not describe femoral access.",
+        "cluster_idx": 7,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n47",
+        "text": "The lack of catheterization or femoral access makes femoral-access related retroperitoneal bleed less likely.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Given no catheterization or femoral access is described, that etiology is less likely; this is a reasonable differential-pruning inference.",
+        "cluster_idx": 7,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n48",
+        "text": "Psoas abscess is a candidate differential.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "The trace explicitly lists psoas abscess as a candidate differential.",
+        "cluster_idx": 7,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n49",
+        "text": "Psoas abscess can cause psoas enlargement and pain.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Psoas abscess is a standard cause of psoas enlargement and pain; this is medically sound.",
+        "cluster_idx": 7,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n50",
+        "text": "The acute onset argues strongly against psoas abscess.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Acute onset is less typical for abscess and supports the trace’s pruning, though not a direct data statement.",
+        "cluster_idx": 7,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n51",
+        "text": "The heterogeneous hemorrhagic density argues strongly against psoas abscess.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Heterogeneous hemorrhagic density on CT supports hemorrhage rather than abscess; this is a sound inference.",
+        "cluster_idx": 7,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n52",
+        "text": "Active contrast extravasation argues strongly against psoas abscess.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Active contrast extravasation indicates bleeding, which argues against abscess.",
+        "cluster_idx": 7,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n53",
+        "text": "The lack of infectious features argues strongly against psoas abscess.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "No fever, leukocytosis, or infectious features are reported, so abscess is less likely; absence summary is acceptable.",
+        "cluster_idx": 7,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n54",
+        "text": "Spontaneous muscle infarction or diabetic myonecrosis is a candidate differential.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "The trace explicitly lists spontaneous muscle infarction/diabetic myonecrosis as a candidate differential.",
+        "cluster_idx": 7,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n55",
+        "text": "Spontaneous muscle infarction or diabetic myonecrosis can cause thigh pain in diabetics.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Diabetic myonecrosis can present with thigh pain in diabetics; standard medical knowledge.",
+        "cluster_idx": 7,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n56",
+        "text": "Imaging showed hemorrhage rather than infarction.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "CT showed hemorrhage in the psoas/iliacus muscles rather than infarction.",
+        "cluster_idx": 7,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n57",
+        "text": "Imaging showed active extravasation rather than infarction.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "CTA showed active contrast extravasation, which is a hemorrhagic finding rather than infarction.",
+        "cluster_idx": 7,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n58",
+        "text": "Aortic or iliac vascular catastrophe is a candidate differential.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "The trace explicitly lists aortic or iliac vascular catastrophe as a candidate differential.",
+        "cluster_idx": 7,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n59",
+        "text": "Angiography found no arterial source.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Angiography showed no arterial source of active bleeding.",
+        "cluster_idx": 7,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n60",
+        "text": "CT localized the process to intramuscular hemorrhage.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "CT localized the process to the left psoas and iliacus muscles with heterogeneous density consistent with hemorrhage.",
+        "cluster_idx": 7,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n61",
+        "text": "The most likely diagnosis is a spontaneous iliopsoas hematoma.",
+        "category": "factual",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "The trace concludes the most likely diagnosis is spontaneous iliopsoas hematoma; this follows from the imaging and anticoagulation context.",
+        "cluster_idx": 8,
+        "cluster_label": "final_decision"
+      },
+      {
+        "id": "n62",
+        "text": "The iliopsoas hematoma is a retroperitoneal hemorrhage.",
+        "category": "factual",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "An iliopsoas hematoma is by definition a retroperitoneal hemorrhage in the iliopsoas compartment.",
+        "cluster_idx": 8,
+        "cluster_label": "final_decision"
+      },
+      {
+        "id": "n63",
+        "text": "The iliopsoas hematoma was precipitated by anticoagulation and antiplatelet therapy during NSTEMI treatment.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "The temporal relationship to heparin/antiplatelet therapy strongly supports precipitation by antithrombotic treatment.",
+        "cluster_idx": 8,
+        "cluster_label": "final_decision"
+      },
+      {
+        "id": "n64",
+        "text": "The diagnosis best explains the abrupt severe left lower abdominal and thigh pain.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "The diagnosis explains the abrupt severe left lower abdominal and thigh pain; this is the clinical correlation used in the trace.",
+        "cluster_idx": 8,
+        "cluster_label": "final_decision"
+      },
+      {
+        "id": "n65",
+        "text": "The diagnosis best explains the CT evidence of psoas and iliacus hemorrhage.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "The diagnosis directly accounts for CT evidence of psoas and iliacus hemorrhage.",
+        "cluster_idx": 8,
+        "cluster_label": "final_decision"
+      },
+      {
+        "id": "n66",
+        "text": "The diagnosis best explains the CTA extravasation.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "The diagnosis directly accounts for CTA extravasation into the psoas muscle.",
+        "cluster_idx": 8,
+        "cluster_label": "final_decision"
+      },
+      {
+        "id": "n67",
+        "text": "The diagnosis best explains the need to stop antithrombotic therapy.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Stopping antithrombotic therapy is a standard response to active bleeding and is consistent with the case.",
+        "cluster_idx": 8,
+        "cluster_label": "final_decision"
+      },
+      {
+        "id": "n68",
+        "text": "The final diagnosis is anticoagulation-associated iliopsoas hematoma.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "The reference data and trace both state the final diagnosis as anticoagulation-associated iliopsoas hematoma.",
+        "cluster_idx": 8,
+        "cluster_label": "final_decision"
+      }
+    ],
+    "edges": [
+      {
+        "source": "n2",
+        "target": "n6",
+        "kind": "supports",
+        "explanation": "Severe exertional pressure-like chest pain supports an ischemic chest pain interpretation."
+      },
+      {
+        "source": "n5",
+        "target": "n4",
+        "kind": "supports",
+        "explanation": "Marked troponin elevation supports acute coronary syndrome."
+      },
+      {
+        "source": "n7",
+        "target": "n8",
+        "kind": "supports",
+        "explanation": "No ST elevation on ECG supports NSTEMI rather than STEMI."
+      },
+      {
+        "source": "n4",
+        "target": "n9",
+        "kind": "supports",
+        "explanation": "An acute coronary syndrome presentation supports starting heparin."
+      },
+      {
+        "source": "n4",
+        "target": "n10",
+        "kind": "supports",
+        "explanation": "An acute coronary syndrome presentation supports starting antiplatelet therapy."
+      },
+      {
+        "source": "n13",
+        "target": "n23",
+        "kind": "supports",
+        "explanation": "Bleeding developing while on anticoagulation supports the significance of heparin timing."
+      },
+      {
+        "source": "n14",
+        "target": "n24",
+        "kind": "supports",
+        "explanation": "Bleeding developing while on antiplatelet therapy supports the significance of antiplatelet timing."
+      },
+      {
+        "source": "n16",
+        "target": "n21",
+        "kind": "supports",
+        "explanation": "Left psoas swelling supports an iliopsoas compartment bleed."
+      },
+      {
+        "source": "n17",
+        "target": "n21",
+        "kind": "supports",
+        "explanation": "Left iliacus swelling supports an iliopsoas compartment bleed."
+      },
+      {
+        "source": "n18",
+        "target": "n21",
+        "kind": "supports",
+        "explanation": "Heterogeneous density consistent with hemorrhage supports retroperitoneal intramuscular bleeding."
+      },
+      {
+        "source": "n19",
+        "target": "n41",
+        "kind": "supports",
+        "explanation": "Active contrast extravasation on CTA confirms true hemorrhage."
+      },
+      {
+        "source": "n20",
+        "target": "n22",
+        "kind": "supports",
+        "explanation": "No arterial source on angiography supports a venous or small-vessel spontaneous bleed."
+      },
+      {
+        "source": "n21",
+        "target": "n61",
+        "kind": "supports",
+        "explanation": "A retroperitoneal intramuscular bleed centered in the iliopsoas compartment supports spontaneous iliopsoas hematoma."
+      },
+      {
+        "source": "n23",
+        "target": "n63",
+        "kind": "supports",
+        "explanation": "Significant temporal relationship to heparin supports anticoagulation-associated hematoma."
+      },
+      {
+        "source": "n24",
+        "target": "n63",
+        "kind": "supports",
+        "explanation": "Significant temporal relationship to antiplatelet therapy supports anticoagulation-associated hematoma."
+      },
+      {
+        "source": "n25",
+        "target": "n47",
+        "kind": "supports",
+        "explanation": "No trauma makes a femoral-access related bleed less likely."
+      },
+      {
+        "source": "n26",
+        "target": "n47",
+        "kind": "supports",
+        "explanation": "No falls makes a femoral-access related bleed less likely."
+      },
+      {
+        "source": "n27",
+        "target": "n47",
+        "kind": "supports",
+        "explanation": "No invasive femoral access complication makes a femoral-access related bleed less likely."
+      },
+      {
+        "source": "n29",
+        "target": "n53",
+        "kind": "supports",
+        "explanation": "Absence of fever argues against psoas abscess."
+      },
+      {
+        "source": "n30",
+        "target": "n53",
+        "kind": "supports",
+        "explanation": "Absence of leukocytosis argues against psoas abscess."
+      },
+      {
+        "source": "n31",
+        "target": "n53",
+        "kind": "supports",
+        "explanation": "No infectious or abscess features argues against psoas abscess."
+      },
+      {
+        "source": "n33",
+        "target": "n51",
+        "kind": "supports",
+        "explanation": "Imaging describing hemorrhage rather than another mass lesion argues against psoas abscess."
+      },
+      {
+        "source": "n34",
+        "target": "n35",
+        "kind": "supports",
+        "explanation": "Normal-high platelet count argues against thrombocytopenic bleeding."
+      },
+      {
+        "source": "n37",
+        "target": "n38",
+        "kind": "supports",
+        "explanation": "Hemoglobin rising after stabilization is unusual for major hemorrhage."
+      },
+      {
+        "source": "n37",
+        "target": "n39",
+        "kind": "supports",
+        "explanation": "Hemoglobin rise after stabilization can reflect hemoconcentration."
+      },
+      {
+        "source": "n41",
+        "target": "n40",
+        "kind": "supports",
+        "explanation": "Confirmed hemorrhage means a later hemoglobin rise does not negate the bleed."
+      },
+      {
+        "source": "n42",
+        "target": "n43",
+        "kind": "supports",
+        "explanation": "The candidate diagnosis is supported by the exposure history and imaging."
+      },
+      {
+        "source": "n44",
+        "target": "n47",
+        "kind": "supports",
+        "explanation": "The femoral-access bleed differential is weakened by lack of catheterization or femoral access."
+      },
+      {
+        "source": "n45",
+        "target": "n47",
+        "kind": "supports",
+        "explanation": "No catheterization described supports making femoral-access bleed less likely."
+      },
+      {
+        "source": "n46",
+        "target": "n47",
+        "kind": "supports",
+        "explanation": "No femoral access described supports making femoral-access bleed less likely."
+      },
+      {
+        "source": "n48",
+        "target": "n50",
+        "kind": "supports",
+        "explanation": "The psoas abscess differential is weakened by the acute onset."
+      },
+      {
+        "source": "n49",
+        "target": "n48",
+        "kind": "supports",
+        "explanation": "Psoas abscess can present with psoas enlargement and pain, making it a plausible differential."
+      },
+      {
+        "source": "n50",
+        "target": "n48",
+        "kind": "contradicts",
+        "explanation": "Acute onset is incompatible with psoas abscess as the leading explanation."
+      },
+      {
+        "source": "n51",
+        "target": "n48",
+        "kind": "contradicts",
+        "explanation": "Hemorrhagic density argues against psoas abscess."
+      },
+      {
+        "source": "n52",
+        "target": "n48",
+        "kind": "contradicts",
+        "explanation": "Active extravasation argues against psoas abscess."
+      },
+      {
+        "source": "n53",
+        "target": "n48",
+        "kind": "contradicts",
+        "explanation": "Lack of infectious features argues against psoas abscess."
+      },
+      {
+        "source": "n54",
+        "target": "n55",
+        "kind": "supports",
+        "explanation": "The candidate diagnosis is clinically plausible because diabetic myonecrosis can cause thigh pain."
+      },
+      {
+        "source": "n56",
+        "target": "n54",
+        "kind": "contradicts",
+        "explanation": "Imaging showing hemorrhage rather than infarction argues against diabetic myonecrosis."
+      },
+      {
+        "source": "n57",
+        "target": "n54",
+        "kind": "contradicts",
+        "explanation": "Active extravasation is incompatible with infarction as the main process."
+      },
+      {
+        "source": "n58",
+        "target": "n59",
+        "kind": "supports",
+        "explanation": "Aortic or iliac vascular catastrophe is evaluated by angiography."
+      },
+      {
+        "source": "n59",
+        "target": "n58",
+        "kind": "contradicts",
+        "explanation": "No arterial source on angiography argues against a major vascular catastrophe."
+      },
+      {
+        "source": "n60",
+        "target": "n58",
+        "kind": "contradicts",
+        "explanation": "CT localization to intramuscular hemorrhage argues against aortic or iliac catastrophe."
+      },
+      {
+        "source": "n61",
+        "target": "n62",
+        "kind": "supports",
+        "explanation": "An iliopsoas hematoma is a form of retroperitoneal hemorrhage."
+      },
+      {
+        "source": "n63",
+        "target": "n68",
+        "kind": "supports",
+        "explanation": "Anticoagulation-associated iliopsoas hematoma supports the final diagnosis."
+      },
+      {
+        "source": "n64",
+        "target": "n61",
+        "kind": "supports",
+        "explanation": "The abrupt severe pain pattern supports iliopsoas hematoma."
+      },
+      {
+        "source": "n65",
+        "target": "n61",
+        "kind": "supports",
+        "explanation": "CT evidence of psoas and iliacus hemorrhage supports iliopsoas hematoma."
+      },
+      {
+        "source": "n66",
+        "target": "n61",
+        "kind": "supports",
+        "explanation": "CTA extravasation supports iliopsoas hematoma."
+      },
+      {
+        "source": "n67",
+        "target": "n61",
+        "kind": "supports",
+        "explanation": "Need to stop antithrombotic therapy is consistent with a clinically significant hematoma."
+      }
+    ],
+    "disconnected": [
+      "n1",
+      "n11",
+      "n12",
+      "n15",
+      "n28",
+      "n3",
+      "n32",
+      "n36"
+    ],
+    "clusters": [
+      {
+        "cluster_id": "c1",
+        "label": "history_taking",
+        "statement_indices": [
+          1,
+          2,
+          3
+        ],
+        "summary": "Initial patient demographics and chest pain history on presentation.",
+        "salience": 0.2
+      },
+      {
+        "cluster_id": "c2",
+        "label": "test_ordering",
+        "statement_indices": [
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "summary": "Initial ACS evaluation with troponin and ECG supporting NSTEMI.",
+        "salience": 0.85
+      },
+      {
+        "cluster_id": "c3",
+        "label": "treatment_planning",
+        "statement_indices": [
+          9,
+          10
+        ],
+        "summary": "Antithrombotic treatment started for NSTEMI.",
+        "salience": 0.7
+      },
+      {
+        "cluster_id": "c4",
+        "label": "history_taking",
+        "statement_indices": [
+          11,
+          12,
+          13,
+          14,
+          15
+        ],
+        "summary": "New severe left abdominal and thigh pain developed during anticoagulant/antiplatelet therapy.",
+        "salience": 0.9
+      },
+      {
+        "cluster_id": "c5",
+        "label": "test_ordering",
+        "statement_indices": [
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22
+        ],
+        "summary": "Imaging and angiography identified an iliopsoas retroperitoneal hemorrhage without major arterial source.",
+        "salience": 0.95
+      },
+      {
+        "cluster_id": "c6",
+        "label": "other",
+        "statement_indices": [
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33
+        ],
+        "summary": "Reasoning excludes trauma, access complication, infection, and alternative mass lesions.",
+        "salience": 0.6
+      },
+      {
+        "cluster_id": "c7",
+        "label": "test_ordering",
+        "statement_indices": [
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40,
+          41
+        ],
+        "summary": "Laboratory and imaging interpretation supports true hemorrhage despite hemoglobin changes.",
+        "salience": 0.8
+      },
+      {
+        "cluster_id": "c8",
+        "label": "differential_generation",
+        "statement_indices": [
+          42,
+          43,
+          44,
+          45,
+          46,
+          47,
+          48,
+          49,
+          50,
+          51,
+          52,
+          53,
+          54,
+          55,
+          56,
+          57,
+          58,
+          59,
+          60
+        ],
+        "summary": "Differential diagnosis considered and narrowed to anticoagulation-associated iliopsoas hematoma.",
+        "salience": 0.9
+      },
+      {
+        "cluster_id": "c9",
+        "label": "final_decision",
+        "statement_indices": [
+          61,
+          62,
+          63,
+          64,
+          65,
+          66,
+          67,
+          68
+        ],
+        "summary": "Final diagnosis: spontaneous anticoagulation-associated iliopsoas hematoma causing retroperitoneal hemorrhage.",
+        "salience": 1.0
+      }
+    ],
+    "node_ranks": {
+      "n1": 0.2278,
+      "n2": 0.2778,
+      "n3": 0.2278,
+      "n4": 0.3556,
+      "n5": 0.2556,
+      "n6": 0.4556,
+      "n7": 0.3556,
+      "n8": 0.4556,
+      "n9": 0.5333,
+      "n10": 0.5333,
+      "n11": 0.4611,
+      "n12": 0.4611,
+      "n13": 0.3111,
+      "n14": 0.3111,
+      "n15": 0.4611,
+      "n16": 0.3889,
+      "n17": 0.3889,
+      "n18": 0.3889,
+      "n19": 0.4889,
+      "n20": 0.5889,
+      "n21": 0.4889,
+      "n22": 0.6889,
+      "n23": 0.5667,
+      "n24": 0.5667,
+      "n25": 0.6667,
+      "n26": 0.6667,
+      "n27": 0.6667,
+      "n28": 0.6167,
+      "n29": 0.6167,
+      "n30": 0.6167,
+      "n31": 0.6167,
+      "n32": 0.6167,
+      "n33": 0.6167,
+      "n34": 0.7444,
+      "n35": 0.8444,
+      "n36": 0.6944,
+      "n37": 0.7444,
+      "n38": 0.8444,
+      "n39": 0.8444,
+      "n40": 0.8444,
+      "n41": 0.7444,
+      "n42": 0.8222,
+      "n43": 0.9222,
+      "n44": 0.8222,
+      "n45": 0.8222,
+      "n46": 0.8222,
+      "n47": 0.9222,
+      "n48": 0.7722,
+      "n49": 0.7722,
+      "n50": 0.7722,
+      "n51": 0.7722,
+      "n52": 0.7722,
+      "n53": 0.7722,
+      "n54": 0.8222,
+      "n55": 0.9222,
+      "n56": 0.7222,
+      "n57": 0.7222,
+      "n58": 0.7722,
+      "n59": 0.7722,
+      "n60": 0.7722,
+      "n61": 0.9,
+      "n62": 1.0,
+      "n63": 0.9,
+      "n64": 0.8,
+      "n65": 0.8,
+      "n66": 0.8,
+      "n67": 0.8,
+      "n68": 1.0
+    }
+  }
+}

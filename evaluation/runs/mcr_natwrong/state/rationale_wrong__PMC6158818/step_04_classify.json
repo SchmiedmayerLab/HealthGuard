@@ -1,0 +1,530 @@
+{
+  "name": "classify",
+  "passed": true,
+  "score": 1.0,
+  "reasoning": "Classified 104 statement(s): 32 causal, 71 factual, 1 statistical.",
+  "data": {
+    "classified": [
+      {
+        "text": "The chief complaint is chronic, progressive right proximal thigh pain in a 20-year-old woman.",
+        "category": "factual",
+        "rationale": "It states a patient attribute and symptom description."
+      },
+      {
+        "text": "The pain has been present for 8 years.",
+        "category": "statistical",
+        "rationale": "It gives a specific duration value."
+      },
+      {
+        "text": "The pain is severe enough to require daily analgesics.",
+        "category": "factual",
+        "rationale": "It asserts a clinical severity/management fact about the symptom."
+      },
+      {
+        "text": "The pain is severe enough to cause sick leave.",
+        "category": "factual",
+        "rationale": "It states an impact of the symptom on functioning."
+      },
+      {
+        "text": "The patient’s main concern is persistent unilateral femoral pain.",
+        "category": "factual",
+        "rationale": "It describes the patient's presenting concern."
+      },
+      {
+        "text": "The pain is worse at night.",
+        "category": "factual",
+        "rationale": "It is a symptom characteristic without a numeric value or recommendation."
+      },
+      {
+        "text": "The pain worsened further after minor trauma.",
+        "category": "causal",
+        "rationale": "It links worsening of pain to a triggering event."
+      },
+      {
+        "text": "There is no evidence of fracture.",
+        "category": "factual",
+        "rationale": "It asserts the absence of a condition."
+      },
+      {
+        "text": "The duration of the symptoms is very long.",
+        "category": "factual",
+        "rationale": "It is a qualitative statement about symptom duration."
+      },
+      {
+        "text": "The pain is localized to the right femur.",
+        "category": "factual",
+        "rationale": "It states the anatomic location of the pain."
+      },
+      {
+        "text": "MRI demonstrated marked cortical thickening of the right femoral diaphysis.",
+        "category": "factual",
+        "rationale": "It reports an imaging finding."
+      },
+      {
+        "text": "PET-CT demonstrated marked cortical thickening of the right femoral diaphysis.",
+        "category": "factual",
+        "rationale": "It reports an imaging finding."
+      },
+      {
+        "text": "MRI and PET-CT showed partial obliteration of the medullary canal.",
+        "category": "factual",
+        "rationale": "It reports an imaging finding."
+      },
+      {
+        "text": "MRI and PET-CT showed an uneven sclerotic surface.",
+        "category": "factual",
+        "rationale": "It reports an imaging finding."
+      },
+      {
+        "text": "Bone scan showed increased uptake in most of the right femoral shaft.",
+        "category": "factual",
+        "rationale": "It reports a scan finding."
+      },
+      {
+        "text": "The increased uptake on bone scan indicates active bone turnover in that segment.",
+        "category": "causal",
+        "rationale": "It interprets the scan finding as reflecting a biological process."
+      },
+      {
+        "text": "The patient had a mild leg-length discrepancy.",
+        "category": "factual",
+        "rationale": "It states a physical finding."
+      },
+      {
+        "text": "The patient had prior childhood hip pain on the same side.",
+        "category": "factual",
+        "rationale": "It states a past symptom history."
+      },
+      {
+        "text": "Histology showed thickened trabeculae with preserved lamellar structure.",
+        "category": "factual",
+        "rationale": "It reports a pathology finding."
+      },
+      {
+        "text": "Histology showed accentuated cement lines.",
+        "category": "factual",
+        "rationale": "It reports a pathology finding."
+      },
+      {
+        "text": "Histology showed no fibrosis.",
+        "category": "factual",
+        "rationale": "It reports an absent histologic feature."
+      },
+      {
+        "text": "Histology showed no inflammation.",
+        "category": "factual",
+        "rationale": "It reports an absent histologic feature."
+      },
+      {
+        "text": "Histology showed no alcian positivity.",
+        "category": "factual",
+        "rationale": "It reports an absent histologic stain finding."
+      },
+      {
+        "text": "Histology showed no malignancy.",
+        "category": "factual",
+        "rationale": "It reports an absent pathologic feature."
+      },
+      {
+        "text": "Histology showed no neoplasia.",
+        "category": "factual",
+        "rationale": "It reports an absent pathologic feature."
+      },
+      {
+        "text": "Bone markers including alkaline phosphatase were normal.",
+        "category": "factual",
+        "rationale": "It states laboratory results."
+      },
+      {
+        "text": "There were no café-au-lait spots.",
+        "category": "factual",
+        "rationale": "It states the absence of a physical finding."
+      },
+      {
+        "text": "There were no skin lesions.",
+        "category": "factual",
+        "rationale": "It states the absence of a physical finding."
+      },
+      {
+        "text": "The absence of café-au-lait spots or skin lesions argues against syndromic McCune-Albright syndrome.",
+        "category": "causal",
+        "rationale": "It draws a diagnostic inference from the absence of findings."
+      },
+      {
+        "text": "There was no erythema.",
+        "category": "factual",
+        "rationale": "It states the absence of a local sign."
+      },
+      {
+        "text": "There was no heat.",
+        "category": "factual",
+        "rationale": "It states the absence of a local sign."
+      },
+      {
+        "text": "There was no swelling.",
+        "category": "factual",
+        "rationale": "It states the absence of a local sign."
+      },
+      {
+        "text": "The absence of erythema, heat, or swelling makes chronic osteomyelitis unlikely.",
+        "category": "causal",
+        "rationale": "It links absent signs to reduced likelihood of a diagnosis."
+      },
+      {
+        "text": "Biopsy showed no inflammation.",
+        "category": "factual",
+        "rationale": "It reports a biopsy finding."
+      },
+      {
+        "text": "There was no malignancy on biopsy.",
+        "category": "factual",
+        "rationale": "It reports a biopsy finding."
+      },
+      {
+        "text": "There was no neoplasia on biopsy.",
+        "category": "factual",
+        "rationale": "It reports a biopsy finding."
+      },
+      {
+        "text": "The absence of malignancy or neoplasia on biopsy argues against osteosarcoma or another primary bone tumor.",
+        "category": "causal",
+        "rationale": "It infers diagnostic exclusion from biopsy results."
+      },
+      {
+        "text": "The lesion is extensive along most of the femoral shaft.",
+        "category": "factual",
+        "rationale": "It describes the lesion extent."
+      },
+      {
+        "text": "The lesion is not a small nidus.",
+        "category": "factual",
+        "rationale": "It states a lesion characteristic."
+      },
+      {
+        "text": "The lesion’s extent argues against osteoid osteoma despite nocturnal pain and NSAID responsiveness.",
+        "category": "causal",
+        "rationale": "It uses lesion extent to infer against a diagnosis."
+      },
+      {
+        "text": "SQSTM1 testing was negative.",
+        "category": "factual",
+        "rationale": "It reports a genetic test result."
+      },
+      {
+        "text": "The patient is very young.",
+        "category": "factual",
+        "rationale": "It states an age-related patient attribute."
+      },
+      {
+        "text": "Negative SQSTM1 testing and young age make Paget disease less likely.",
+        "category": "causal",
+        "rationale": "It links test/age findings to diagnostic likelihood."
+      },
+      {
+        "text": "The main candidate differentials are fibrous dysplasia, Paget disease of bone, chronic sclerosing osteomyelitis, and osteoid osteoma/osteoblastoma.",
+        "category": "factual",
+        "rationale": "It lists differential diagnoses."
+      },
+      {
+        "text": "Fibrous dysplasia fits several core features best.",
+        "category": "causal",
+        "rationale": "It compares features to support a diagnosis."
+      },
+      {
+        "text": "Fibrous dysplasia onset can occur in childhood or adolescence.",
+        "category": "factual",
+        "rationale": "It states a known clinical characteristic."
+      },
+      {
+        "text": "Fibrous dysplasia can involve a single long bone.",
+        "category": "factual",
+        "rationale": "It states a known clinical characteristic."
+      },
+      {
+        "text": "Fibrous dysplasia can cause pain.",
+        "category": "factual",
+        "rationale": "It states a known clinical characteristic."
+      },
+      {
+        "text": "Fibrous dysplasia can be associated with mild limb asymmetry or leg-length discrepancy.",
+        "category": "factual",
+        "rationale": "It states a known clinical characteristic."
+      },
+      {
+        "text": "Fibrous dysplasia can show expansion and sclerosis of the femur on imaging.",
+        "category": "factual",
+        "rationale": "It states a known imaging characteristic."
+      },
+      {
+        "text": "Classic fibrous dysplasia often shows fibro-osseous tissue histologically.",
+        "category": "factual",
+        "rationale": "It states a typical histologic feature."
+      },
+      {
+        "text": "This biopsy showed dense lamellar bone with accentuated cement lines and no fibrosis.",
+        "category": "factual",
+        "rationale": "It reports the biopsy result."
+      },
+      {
+        "text": "This biopsy pattern is compatible with the sclerotic pagetoid variant of fibrous dysplasia described in monostotic lesions.",
+        "category": "causal",
+        "rationale": "It interprets the biopsy pattern as supporting a specific variant."
+      },
+      {
+        "text": "The sclerotic pagetoid variant of fibrous dysplasia is described especially in the proximal femur.",
+        "category": "factual",
+        "rationale": "It states a descriptive association."
+      },
+      {
+        "text": "The absence of a GNAS1 mutation in blood does not exclude fibrous dysplasia.",
+        "category": "factual",
+        "rationale": "It states a diagnostic limitation."
+      },
+      {
+        "text": "GNAS1 mutations in fibrous dysplasia are somatic and mosaic.",
+        "category": "factual",
+        "rationale": "It states a biological characteristic."
+      },
+      {
+        "text": "GNAS1 mutations in fibrous dysplasia are often absent in peripheral blood.",
+        "category": "factual",
+        "rationale": "It states a biological/testing characteristic."
+      },
+      {
+        "text": "Paget disease is a consideration because of cortical thickening.",
+        "category": "causal",
+        "rationale": "It links an imaging feature to a diagnostic consideration."
+      },
+      {
+        "text": "Paget disease is a consideration because of medullary narrowing.",
+        "category": "causal",
+        "rationale": "It links an imaging feature to a diagnostic consideration."
+      },
+      {
+        "text": "Paget disease is a consideration because of increased uptake on bone scan.",
+        "category": "causal",
+        "rationale": "It links a scan feature to a diagnostic consideration."
+      },
+      {
+        "text": "Paget disease is a consideration because of accentuated cement lines on histology.",
+        "category": "causal",
+        "rationale": "It links a histologic feature to a diagnostic consideration."
+      },
+      {
+        "text": "Paget disease is much less likely in a 20-year-old.",
+        "category": "causal",
+        "rationale": "It uses age to infer lower likelihood of a diagnosis."
+      },
+      {
+        "text": "Alkaline phosphatase was normal.",
+        "category": "factual",
+        "rationale": "It reports a laboratory result."
+      },
+      {
+        "text": "SQSTM1 testing was negative.",
+        "category": "factual",
+        "rationale": "It reports a test result."
+      },
+      {
+        "text": "The clinical context is childhood onset with a solitary femoral lesion rather than typical adult-onset Paget disease.",
+        "category": "factual",
+        "rationale": "It summarizes the clinical context as a factual comparison."
+      },
+      {
+        "text": "Chronic sclerosing osteomyelitis could cause pain.",
+        "category": "factual",
+        "rationale": "It states a possible clinical feature of the condition."
+      },
+      {
+        "text": "Chronic sclerosing osteomyelitis could cause sclerosis.",
+        "category": "factual",
+        "rationale": "It states a possible clinical feature of the condition."
+      },
+      {
+        "text": "There are no systemic inflammatory signs.",
+        "category": "factual",
+        "rationale": "It states the absence of systemic signs."
+      },
+      {
+        "text": "There are no local inflammatory signs.",
+        "category": "factual",
+        "rationale": "It states the absence of local signs."
+      },
+      {
+        "text": "Biopsy showed no inflammation.",
+        "category": "factual",
+        "rationale": "It reports a biopsy finding."
+      },
+      {
+        "text": "There is no mention of infectious features.",
+        "category": "factual",
+        "rationale": "It states the absence of reported infectious features."
+      },
+      {
+        "text": "Osteoid osteoma is less likely.",
+        "category": "causal",
+        "rationale": "It expresses a diagnostic likelihood judgment."
+      },
+      {
+        "text": "The lesion involves most of the femoral shaft.",
+        "category": "factual",
+        "rationale": "It describes lesion extent."
+      },
+      {
+        "text": "The lesion shows diffuse cortical thickening.",
+        "category": "factual",
+        "rationale": "It reports an imaging feature."
+      },
+      {
+        "text": "The lesion shows medullary obliteration.",
+        "category": "factual",
+        "rationale": "It reports an imaging feature."
+      },
+      {
+        "text": "The lesion does not show a focal nidus.",
+        "category": "factual",
+        "rationale": "It states the absence of a characteristic lesion feature."
+      },
+      {
+        "text": "The diagnosis that best integrates the age at onset, monostotic unilateral femoral involvement, chronic pain, leg-length discrepancy, imaging pattern, and exclusion of infection and malignancy is monostotic fibrous dysplasia of the femur.",
+        "category": "causal",
+        "rationale": "It synthesizes findings to support a diagnostic conclusion."
+      },
+      {
+        "text": "The diagnosis is specifically a sclerotic pagetoid variant.",
+        "category": "factual",
+        "rationale": "It states a specific diagnostic subtype."
+      },
+      {
+        "text": "Monostotic fibrous dysplasia is the high-probability differential diagnosis.",
+        "category": "factual",
+        "rationale": "It states a diagnostic probability assessment."
+      },
+      {
+        "text": "Childhood or adolescent onset supports monostotic fibrous dysplasia.",
+        "category": "causal",
+        "rationale": "It links onset timing to diagnostic support."
+      },
+      {
+        "text": "Solitary right femoral involvement supports monostotic fibrous dysplasia.",
+        "category": "causal",
+        "rationale": "It links lesion distribution to diagnostic support."
+      },
+      {
+        "text": "Chronic pain supports monostotic fibrous dysplasia.",
+        "category": "causal",
+        "rationale": "It links symptom chronicity to diagnostic support."
+      },
+      {
+        "text": "Mild leg-length discrepancy supports monostotic fibrous dysplasia.",
+        "category": "causal",
+        "rationale": "It links a physical finding to diagnostic support."
+      },
+      {
+        "text": "Bone scan uptake in the affected shaft supports monostotic fibrous dysplasia.",
+        "category": "causal",
+        "rationale": "It links imaging uptake to diagnostic support."
+      },
+      {
+        "text": "Biopsy excluding malignancy and inflammation supports monostotic fibrous dysplasia.",
+        "category": "causal",
+        "rationale": "It links biopsy exclusion findings to diagnostic support."
+      },
+      {
+        "text": "Blood GNAS1 negativity does not exclude mosaic fibrous dysplasia.",
+        "category": "factual",
+        "rationale": "It states a diagnostic limitation."
+      },
+      {
+        "text": "Paget disease of bone is a medium-probability differential diagnosis.",
+        "category": "factual",
+        "rationale": "It states a diagnostic probability assessment."
+      },
+      {
+        "text": "Cortical thickening could resemble Paget disease of bone.",
+        "category": "causal",
+        "rationale": "It links an imaging feature to a diagnostic resemblance."
+      },
+      {
+        "text": "Partial medullary obliteration could resemble Paget disease of bone.",
+        "category": "causal",
+        "rationale": "It links an imaging feature to a diagnostic resemblance."
+      },
+      {
+        "text": "Increased uptake could resemble Paget disease of bone.",
+        "category": "causal",
+        "rationale": "It links a scan feature to a diagnostic resemblance."
+      },
+      {
+        "text": "Accentuated cement lines could resemble Paget disease of bone.",
+        "category": "causal",
+        "rationale": "It links a histologic feature to a diagnostic resemblance."
+      },
+      {
+        "text": "Age 20 makes Paget disease of bone less likely.",
+        "category": "causal",
+        "rationale": "It uses age to infer lower likelihood of a diagnosis."
+      },
+      {
+        "text": "Normal alkaline phosphatase makes Paget disease of bone less likely.",
+        "category": "causal",
+        "rationale": "It links a lab result to reduced diagnostic likelihood."
+      },
+      {
+        "text": "Negative SQSTM1 makes Paget disease of bone less likely.",
+        "category": "causal",
+        "rationale": "It links a genetic test result to reduced diagnostic likelihood."
+      },
+      {
+        "text": "Chronic sclerosing osteomyelitis is a low-probability differential diagnosis.",
+        "category": "factual",
+        "rationale": "It states a diagnostic probability assessment."
+      },
+      {
+        "text": "Chronic sclerosing osteomyelitis can produce painful sclerotic long-bone lesions.",
+        "category": "factual",
+        "rationale": "It states a known clinical feature."
+      },
+      {
+        "text": "There were no inflammatory signs clinically.",
+        "category": "factual",
+        "rationale": "It states the absence of clinical inflammatory signs."
+      },
+      {
+        "text": "Biopsy showed no inflammation.",
+        "category": "factual",
+        "rationale": "It reports a biopsy finding."
+      },
+      {
+        "text": "Osteoid osteoma/osteoblastoma is a low-probability differential diagnosis.",
+        "category": "factual",
+        "rationale": "It states a diagnostic probability assessment."
+      },
+      {
+        "text": "Night pain is suggestive of osteoid osteoma/osteoblastoma.",
+        "category": "causal",
+        "rationale": "It links a symptom to diagnostic suggestion."
+      },
+      {
+        "text": "NSAID response is suggestive of osteoid osteoma/osteoblastoma.",
+        "category": "causal",
+        "rationale": "It links treatment response to diagnostic suggestion."
+      },
+      {
+        "text": "Diffuse involvement of most of the femoral shaft without a focal nidus argues against osteoid osteoma/osteoblastoma.",
+        "category": "causal",
+        "rationale": "It uses lesion pattern to infer against a diagnosis."
+      },
+      {
+        "text": "Biopsy did not show a bone-forming tumor.",
+        "category": "factual",
+        "rationale": "It reports a biopsy finding."
+      },
+      {
+        "text": "The final diagnosis is monostotic fibrous dysplasia of the right femur.",
+        "category": "factual",
+        "rationale": "It states the final diagnosis."
+      }
+    ]
+  }
+}

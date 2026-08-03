@@ -1,0 +1,10 @@
+{
+  "name": "static_rules",
+  "passed": true,
+  "score": 1.0,
+  "reasoning": "All static checks passed. Text length (5359 chars) is within the 40000-character limit. No emojis detected.",
+  "data": {
+    "text_length": 5359,
+    "emojis_found": []
+  }
+}

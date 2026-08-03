@@ -1,0 +1,450 @@
+{
+  "name": "classify",
+  "passed": true,
+  "score": 1.0,
+  "reasoning": "Classified 88 statement(s): 36 causal, 48 factual, 4 statistical.",
+  "data": {
+    "classified": [
+      {
+        "text": "The chief concern is a subacute neurologic syndrome.",
+        "category": "factual",
+        "rationale": "It states a clinical characterization of the patient's presentation."
+      },
+      {
+        "text": "The syndrome included 5 days of left arm weakness and numbness.",
+        "category": "statistical",
+        "rationale": "It contains a specific duration that is a numerical clinical detail."
+      },
+      {
+        "text": "The syndrome included confusion.",
+        "category": "factual",
+        "rationale": "It asserts a symptom present in the syndrome."
+      },
+      {
+        "text": "During hospitalization, the patient developed a rapidly progressive right third nerve palsy.",
+        "category": "factual",
+        "rationale": "It describes a documented change in neurologic exam during hospitalization."
+      },
+      {
+        "text": "The right third nerve palsy became pupil-involving.",
+        "category": "factual",
+        "rationale": "It states an observed clinical feature of the palsy."
+      },
+      {
+        "text": "The patient had chronic right visual loss.",
+        "category": "factual",
+        "rationale": "It asserts a chronic patient attribute."
+      },
+      {
+        "text": "This pattern suggests multifocal nervous system involvement rather than a single peripheral lesion or simple ischemic stroke.",
+        "category": "causal",
+        "rationale": "It infers a diagnostic relationship from the pattern of findings."
+      },
+      {
+        "text": "The focal left arm deficits localize partly to the lower brachial plexus or ulnar distribution.",
+        "category": "causal",
+        "rationale": "It links the deficits to a neuroanatomic localization."
+      },
+      {
+        "text": "The left arm weakness involved the left triceps.",
+        "category": "factual",
+        "rationale": "It states a specific muscle group was weak."
+      },
+      {
+        "text": "The left arm weakness involved the left wrist flexors.",
+        "category": "factual",
+        "rationale": "It states a specific muscle group was weak."
+      },
+      {
+        "text": "The left arm weakness involved the left finger flexors.",
+        "category": "factual",
+        "rationale": "It states a specific muscle group was weak."
+      },
+      {
+        "text": "The left arm weakness involved the left wrist extensors.",
+        "category": "factual",
+        "rationale": "It states a specific muscle group was weak."
+      },
+      {
+        "text": "The left arm weakness involved the left finger extensors.",
+        "category": "factual",
+        "rationale": "It states a specific muscle group was weak."
+      },
+      {
+        "text": "The left triceps reflex was absent.",
+        "category": "factual",
+        "rationale": "It reports an exam finding."
+      },
+      {
+        "text": "There was sensory loss in the left fourth and fifth digits.",
+        "category": "factual",
+        "rationale": "It reports a sensory exam abnormality."
+      },
+      {
+        "text": "There was sensory loss in the medial palm.",
+        "category": "factual",
+        "rationale": "It reports a sensory exam abnormality."
+      },
+      {
+        "text": "The patient was confused.",
+        "category": "factual",
+        "rationale": "It states a mental status finding."
+      },
+      {
+        "text": "The patient was disoriented to situation.",
+        "category": "factual",
+        "rationale": "It states a mental status finding."
+      },
+      {
+        "text": "The patient had chronic reduced right visual acuity.",
+        "category": "factual",
+        "rationale": "It asserts a chronic visual deficit."
+      },
+      {
+        "text": "Noncontrast CT showed a hyperdense 1 cm suprasellar lesion.",
+        "category": "statistical",
+        "rationale": "It includes a specific lesion size and imaging description."
+      },
+      {
+        "text": "The right CN III palsy progressed to a dilated nonreactive pupil.",
+        "category": "factual",
+        "rationale": "It describes progression of a neurologic sign."
+      },
+      {
+        "text": "The pupil-involving third nerve palsy implies compressive or infiltrative pathology near the oculomotor nerve.",
+        "category": "causal",
+        "rationale": "It infers a mechanism from the clinical sign."
+      },
+      {
+        "text": "MRI showed multiple enhancing intracranial lesions in the suprasellar, pineal, and right periatrial regions.",
+        "category": "factual",
+        "rationale": "It reports imaging findings and locations."
+      },
+      {
+        "text": "The intracranial lesions had heterogeneous signal intensity.",
+        "category": "factual",
+        "rationale": "It describes an imaging characteristic."
+      },
+      {
+        "text": "The lesions enlarged over one week.",
+        "category": "statistical",
+        "rationale": "It includes a specific time interval over which change occurred."
+      },
+      {
+        "text": "MRI showed focal right frontoparietal dural thickening.",
+        "category": "factual",
+        "rationale": "It reports an imaging finding."
+      },
+      {
+        "text": "CT chest, abdomen, and pelvis showed multiple thyroid nodules concerning for metastases.",
+        "category": "factual",
+        "rationale": "It reports imaging findings and the concern they raised."
+      },
+      {
+        "text": "CSF from two lumbar punctures showed lymphocytic pleocytosis.",
+        "category": "statistical",
+        "rationale": "It includes a count of procedures and a quantified CSF abnormality."
+      },
+      {
+        "text": "CSF from two lumbar punctures showed elevated protein.",
+        "category": "factual",
+        "rationale": "It reports an abnormal CSF laboratory finding."
+      },
+      {
+        "text": "CSF from two lumbar punctures showed elevated IgG index.",
+        "category": "factual",
+        "rationale": "It reports an abnormal CSF laboratory finding."
+      },
+      {
+        "text": "CSF from two lumbar punctures showed no malignant cells.",
+        "category": "factual",
+        "rationale": "It reports a negative CSF cytology result."
+      },
+      {
+        "text": "CSF from two lumbar punctures showed no infectious markers.",
+        "category": "factual",
+        "rationale": "It reports negative infectious testing."
+      },
+      {
+        "text": "CSF from two lumbar punctures showed no inflammatory markers.",
+        "category": "factual",
+        "rationale": "It reports negative inflammatory testing."
+      },
+      {
+        "text": "Brain MRI showed no acute ischemic stroke.",
+        "category": "factual",
+        "rationale": "It reports a negative imaging finding."
+      },
+      {
+        "text": "The absence of acute ischemic stroke argues against embolic stroke from atrial fibrillation as the explanation for the evolving deficits.",
+        "category": "causal",
+        "rationale": "It links a negative finding to a reduced likelihood of a proposed cause."
+      },
+      {
+        "text": "MRI of the brachial plexus and spine was unrevealing.",
+        "category": "factual",
+        "rationale": "It reports a negative imaging result."
+      },
+      {
+        "text": "The unrevealing brachial plexus and spine MRI makes a structural plexopathy less likely.",
+        "category": "causal",
+        "rationale": "It infers diagnostic likelihood from imaging results."
+      },
+      {
+        "text": "The patient denied headache.",
+        "category": "factual",
+        "rationale": "It states a reported negative symptom."
+      },
+      {
+        "text": "The patient denied trauma.",
+        "category": "factual",
+        "rationale": "It states a reported negative history item."
+      },
+      {
+        "text": "The denial of trauma makes traumatic hemorrhage unlikely.",
+        "category": "causal",
+        "rationale": "It links the history to a diagnostic inference."
+      },
+      {
+        "text": "The presentation does not support a typical aneurysmal subarachnoid presentation.",
+        "category": "causal",
+        "rationale": "It makes a diagnostic inference based on the presentation."
+      },
+      {
+        "text": "No dysmetria was present.",
+        "category": "factual",
+        "rationale": "It reports a negative neurologic exam finding."
+      },
+      {
+        "text": "No dysdiadochokinesia was present.",
+        "category": "factual",
+        "rationale": "It reports a negative neurologic exam finding."
+      },
+      {
+        "text": "The absence of dysmetria argues against a cerebellar localization.",
+        "category": "causal",
+        "rationale": "It infers localization from the exam finding."
+      },
+      {
+        "text": "Serial CSF studies did not identify infection.",
+        "category": "factual",
+        "rationale": "It reports negative serial testing."
+      },
+      {
+        "text": "Serial CSF studies did not identify another inflammatory disorder.",
+        "category": "factual",
+        "rationale": "It reports negative serial testing."
+      },
+      {
+        "text": "Malignant cells were absent in serial CSF studies.",
+        "category": "factual",
+        "rationale": "It reports a negative cytology result."
+      },
+      {
+        "text": "CSF cytology can be falsely negative.",
+        "category": "factual",
+        "rationale": "It states a general clinical fact about test performance."
+      },
+      {
+        "text": "The main differential includes metastatic malignancy with leptomeningeal and dural and parenchymal involvement.",
+        "category": "factual",
+        "rationale": "It lists a diagnostic consideration in the differential."
+      },
+      {
+        "text": "The main differential includes primary CNS lymphoma.",
+        "category": "factual",
+        "rationale": "It lists a diagnostic consideration in the differential."
+      },
+      {
+        "text": "The main differential includes inflammatory or granulomatous disease.",
+        "category": "factual",
+        "rationale": "It lists a diagnostic consideration in the differential."
+      },
+      {
+        "text": "The main differential includes vascular lesions such as aneurysm or hemorrhagic metastasis alone.",
+        "category": "factual",
+        "rationale": "It lists a diagnostic consideration in the differential."
+      },
+      {
+        "text": "Metastatic disease fits best.",
+        "category": "causal",
+        "rationale": "It expresses a diagnostic conclusion based on the overall pattern."
+      },
+      {
+        "text": "There are multiple rapidly enlarging enhancing lesions in characteristic central locations.",
+        "category": "factual",
+        "rationale": "It states observed imaging features."
+      },
+      {
+        "text": "There is focal dural thickening.",
+        "category": "factual",
+        "rationale": "It states an imaging finding."
+      },
+      {
+        "text": "There is progressive cranial neuropathy.",
+        "category": "factual",
+        "rationale": "It states a clinical finding."
+      },
+      {
+        "text": "There is confusion.",
+        "category": "factual",
+        "rationale": "It states a clinical finding."
+      },
+      {
+        "text": "Systemic imaging showed thyroid nodules suspicious for metastatic cancer.",
+        "category": "factual",
+        "rationale": "It reports imaging findings and suspicion."
+      },
+      {
+        "text": "The chronic right visual loss and suprasellar lesion fit a sellar or suprasellar metastatic process affecting the optic apparatus.",
+        "category": "causal",
+        "rationale": "It links findings to a proposed pathophysiologic explanation."
+      },
+      {
+        "text": "The new CN III palsy suggests extension or compression in the parasellar region.",
+        "category": "causal",
+        "rationale": "It infers an anatomic mechanism from the cranial neuropathy."
+      },
+      {
+        "text": "The CSF profile with lymphocytic pleocytosis and high protein is compatible with leptomeningeal spread.",
+        "category": "causal",
+        "rationale": "It relates CSF abnormalities to a disease mechanism."
+      },
+      {
+        "text": "Primary CNS lymphoma is plausible.",
+        "category": "factual",
+        "rationale": "It states a diagnostic possibility."
+      },
+      {
+        "text": "Primary CNS lymphoma can produce enhancing lesions.",
+        "category": "causal",
+        "rationale": "It describes a disease-feature relationship."
+      },
+      {
+        "text": "Primary CNS lymphoma can produce CSF lymphocytic pleocytosis.",
+        "category": "causal",
+        "rationale": "It describes a disease-feature relationship."
+      },
+      {
+        "text": "Primary CNS lymphoma can produce elevated protein.",
+        "category": "causal",
+        "rationale": "It describes a disease-feature relationship."
+      },
+      {
+        "text": "Primary CNS lymphoma can produce rapid progression.",
+        "category": "causal",
+        "rationale": "It describes a disease-feature relationship."
+      },
+      {
+        "text": "The presence of multiple thyroid nodules concerning for metastases makes systemic metastatic cancer more compelling.",
+        "category": "causal",
+        "rationale": "It uses one finding to support a diagnostic inference."
+      },
+      {
+        "text": "Focal dural thickening makes systemic metastatic cancer more compelling.",
+        "category": "causal",
+        "rationale": "It uses one finding to support a diagnostic inference."
+      },
+      {
+        "text": "Inflammatory conditions such as neurosarcoidosis or IgG4-related disease could cause multifocal enhancing lesions.",
+        "category": "causal",
+        "rationale": "It states a possible disease-feature relationship."
+      },
+      {
+        "text": "Inflammatory conditions such as neurosarcoidosis or IgG4-related disease could cause cranial neuropathies.",
+        "category": "causal",
+        "rationale": "It states a possible disease-feature relationship."
+      },
+      {
+        "text": "Inflammatory conditions such as neurosarcoidosis or IgG4-related disease could cause dural involvement.",
+        "category": "causal",
+        "rationale": "It states a possible disease-feature relationship."
+      },
+      {
+        "text": "Inflammatory conditions such as neurosarcoidosis or IgG4-related disease could cause inflammatory CSF.",
+        "category": "causal",
+        "rationale": "It states a possible disease-feature relationship."
+      },
+      {
+        "text": "The interval enlargement over one week favors malignancy.",
+        "category": "causal",
+        "rationale": "It infers diagnostic likelihood from lesion growth rate."
+      },
+      {
+        "text": "Extracranial lesions concerning for metastases favor malignancy.",
+        "category": "causal",
+        "rationale": "It infers diagnostic likelihood from systemic imaging findings."
+      },
+      {
+        "text": "A posterior communicating artery aneurysm could explain a painful or pupil-involving third nerve palsy.",
+        "category": "causal",
+        "rationale": "It states a possible cause-effect relationship."
+      },
+      {
+        "text": "A posterior communicating artery aneurysm could explain a hyperdense suprasellar lesion.",
+        "category": "causal",
+        "rationale": "It states a possible cause-effect relationship."
+      },
+      {
+        "text": "A posterior communicating artery aneurysm would not explain the pineal and periatrial enhancing lesions.",
+        "category": "causal",
+        "rationale": "It argues a lesion pattern is not explained by the proposed cause."
+      },
+      {
+        "text": "A posterior communicating artery aneurysm would not explain dural thickening.",
+        "category": "causal",
+        "rationale": "It argues a finding is not explained by the proposed cause."
+      },
+      {
+        "text": "A posterior communicating artery aneurysm would not explain confusion.",
+        "category": "causal",
+        "rationale": "It argues a symptom is not explained by the proposed cause."
+      },
+      {
+        "text": "A posterior communicating artery aneurysm would not explain the left arm syndrome.",
+        "category": "causal",
+        "rationale": "It argues a syndrome is not explained by the proposed cause."
+      },
+      {
+        "text": "Acute ischemic stroke is weakened by the MRI showing no acute infarct.",
+        "category": "causal",
+        "rationale": "It links imaging evidence to a reduced likelihood of stroke."
+      },
+      {
+        "text": "Acute ischemic stroke is weakened by the multifocal progressive lesion pattern.",
+        "category": "causal",
+        "rationale": "It links the lesion pattern to a reduced likelihood of stroke."
+      },
+      {
+        "text": "The unifying explanation is metastatic thyroid carcinoma to the central nervous system with leptomeningeal, dural, and parenchymal involvement.",
+        "category": "factual",
+        "rationale": "It states the proposed overall diagnosis."
+      },
+      {
+        "text": "The thyroid nodules on body CT provide the likely primary source.",
+        "category": "causal",
+        "rationale": "It infers a primary source from imaging findings."
+      },
+      {
+        "text": "The multifocal enhancing suprasellar, pineal, and periatrial lesions strongly support metastatic CNS disease.",
+        "category": "causal",
+        "rationale": "It uses imaging distribution to support a diagnosis."
+      },
+      {
+        "text": "Rapid enlargement strongly support metastatic CNS disease.",
+        "category": "causal",
+        "rationale": "It uses growth rate to support a diagnosis."
+      },
+      {
+        "text": "Cranial neuropathy strongly support metastatic CNS disease.",
+        "category": "causal",
+        "rationale": "It uses a clinical feature to support a diagnosis."
+      },
+      {
+        "text": "The final diagnosis is metastatic thyroid carcinoma with multifocal central nervous system metastases.",
+        "category": "factual",
+        "rationale": "It states the final diagnosis."
+      }
+    ]
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "input": {
+    "resourceType": "clinicalCaseDiagnosis",
+    "id": "PMC5128393",
+    "origin": "testdata/streamlined/clinical-cases-cot/extracted/PMC5128393.json",
+    "groundTruthDiagnosis": "Solitary fibrous tumor",
+    "rawInput": {
+      "complaint": "A 73-year-old man with a history of treated prostate cancer presented with progressive left lower-extremity weakness and numbness over several years, chronic low back pain, and constipation. On examination, there was diminished sensation in the left groin, anterior thigh, and calf; muscle strength was 4/5 in the right lower extremity and 3/5 in the left lower extremity. He had a history of resection of a lumbar spinal tumor in 1992, originally diagnosed as a paraganglioma, followed by radiation therapy in 2002. Surveillance imaging suggested increase in the lumbar lesion over time. Computed tomography of the spine showed expansion of the spinal canal by an isodense soft-tissue mass with accompanying osseous destruction. Magnetic resonance imaging demonstrated the mass to be hypointense on T1-weighted and T2-weighted imaging, with homogenous enhancement on postcontrast T1-weighted images.",
+      "metadata": {
+        "presentation": "A 73-year-old man with a history of treated prostate cancer presented with progressive left lower-extremity weakness and numbness over several years, chronic low back pain, and constipation. On examination, there was diminished sensation in the left groin, anterior thigh, and calf; muscle strength was 4/5 in the right lower extremity and 3/5 in the left lower extremity. He had a history of resection of a lumbar spinal tumor in 1992, originally diagnosed as a paraganglioma, followed by radiation therapy in 2002. Surveillance imaging suggested increase in the lumbar lesion over time. Computed tomography of the spine showed expansion of the spinal canal by an isodense soft-tissue mass with accompanying osseous destruction. Magnetic resonance imaging demonstrated the mass to be hypointense on T1-weighted and T2-weighted imaging, with homogenous enhancement on postcontrast T1-weighted images."
+      }
+    },
+    "cotDiagnosis": {
+      "reasoning": "The chief concern is a slowly progressive neurologic syndrome localized to the lumbosacral spine: worsening left greater than right lower-extremity weakness and numbness over several years, chronic low back pain, and constipation. These symptoms suggest a chronic compressive or infiltrative lesion affecting the lumbar spinal canal/cauda equina region rather than an acute vascular or inflammatory process.\n\nSalient positive findings are: prior history of a lumbar spinal tumor resected in 1992 and diagnosed at that time as paraganglioma; subsequent radiation therapy in 2002; surveillance imaging showing interval enlargement of the lumbar lesion; current CT showing expansion of the spinal canal by an isodense soft-tissue mass with osseous destruction; and MRI showing a mass that is hypointense on both T1- and T2-weighted sequences with homogeneous postcontrast enhancement. Clinically, there is focal sensory loss in the left groin, anterior thigh, and calf and bilateral leg weakness, worse on the left, supporting mass effect on lumbar nerve roots or conus/cauda equina structures. Constipation also supports chronic neural compromise.\n\nPertinent negatives/less supportive features for alternatives: there is no mention of acute onset, fever, systemic infection, or inflammatory symptoms to suggest epidural abscess. The course is over years, arguing strongly against acute disc herniation or hematoma. Although he has a history of prostate cancer, the lesion appears to be a long-standing recurrent lumbar canal mass at the site of a previously resected tumor, making a new metastatic lesion less likely. The MRI pattern is not typical for many common intradural tumors such as myxopapillary ependymoma, which more often shows T2 hyperintensity rather than marked T2 hypointensity. The combination of osseous destruction and very delayed recurrence after prior surgery/radiation raises concern that the original diagnosis may have been incorrect.\n\nCandidate differentials considered:\n1. Recurrent spinal paraganglioma: this fits the prior diagnosis, the location in the lumbar canal, homogeneous enhancement, and slow progression over years. However, spinal paragangliomas are typically highly vascular and often T2 hyperintense or show a \"salt-and-pepper\" appearance rather than uniformly T2 hypointense. Osseous destruction is also less characteristic.\n2. Cellular schwannoma of the lumbar spine: this can present as a slow-growing cauda equina/lumbar canal mass causing chronic radiculopathy, weakness, sensory loss, and bowel dysfunction. Cellular schwannomas can erode adjacent bone and may be mistaken histologically for other spindle-cell/neuroendocrine tumors, especially in older pathology. MRI often shows iso- to hypointensity on T1, relatively low T2 signal compared with conventional schwannoma because of hypercellularity, and homogeneous enhancement. The history of a lesion originally called paraganglioma but recurring locally over decades with these imaging features strongly supports this.\n3. Metastatic prostate cancer to the spine: prostate cancer can cause back pain, weakness, and osseous involvement, but this lesion is centered in the spinal canal at the site of a previously resected tumor and has a decades-long local recurrence pattern rather than typical multifocal vertebral metastatic disease.\n4. Myxopapillary ependymoma or other cauda equina tumor: location and chronic symptoms fit, but the imaging description of T2 hypointensity and osseous destruction is less typical.\n\nNarrowing to the single best diagnosis: the most compelling synthesis is a recurrent cellular schwannoma of the lumbar spine, likely the true identity of the lesion previously labeled paraganglioma. The decisive clues are the very slow indolent course, recurrent lumbar canal mass causing chronic cauda equina-type deficits, CT evidence of spinal canal expansion with osseous destruction, and MRI showing T1/T2 hypointensity with homogeneous enhancement—features that are characteristic of a hypercellular schwannoma and less typical for paraganglioma or metastatic disease.",
+      "differentialDiagnoses": [
+        {
+          "condition": "Cellular schwannoma of the lumbar spine",
+          "likelihood": "high",
+          "supportingEvidence": "Slowly progressive cauda equina symptoms, recurrent lumbar canal mass at prior tumor site, CT showing canal expansion with osseous destruction, and MRI with T1/T2 hypointensity plus homogeneous enhancement are consistent with hypercellular schwannoma."
+        },
+        {
+          "condition": "Recurrent spinal paraganglioma",
+          "likelihood": "medium",
+          "supportingEvidence": "Prior pathology was reported as paraganglioma and the lesion is a long-standing recurrent lumbar spinal canal tumor with homogeneous enhancement, but T2 hypointensity and osseous destruction are less typical."
+        },
+        {
+          "condition": "Metastatic prostate cancer to the lumbar spine",
+          "likelihood": "low",
+          "supportingEvidence": "History of treated prostate cancer and back pain/weakness could suggest metastasis, but the lesion is localized to the prior tumor bed with decades-long recurrence and imaging more suggestive of a primary nerve sheath tumor."
+        },
+        {
+          "condition": "Myxopapillary ependymoma",
+          "likelihood": "low",
+          "supportingEvidence": "Can occur in the lumbosacral canal and cause chronic neurologic deficits, but the described T2 hypointensity and bone destruction are less characteristic."
+        }
+      ],
+      "finalDiagnosis": "Cellular schwannoma"
+    }
+  }
+}

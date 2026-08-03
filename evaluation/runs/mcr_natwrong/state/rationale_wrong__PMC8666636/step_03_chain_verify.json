@@ -1,0 +1,10 @@
+{
+  "name": "chain_verify",
+  "passed": true,
+  "score": 1.0,
+  "reasoning": "All logical chains are internally consistent. The statements form a coherent diagnostic chain: the clinical features and imaging findings support a benign, lipomatous intramuscular cheek mass, while alternative inflammatory, vascular, cystic, and malignant causes are reasonably downweighted by the provided evidence. No logical breaks are present.",
+  "data": {
+    "has_chain_dependencies": true,
+    "issues": []
+  }
+}

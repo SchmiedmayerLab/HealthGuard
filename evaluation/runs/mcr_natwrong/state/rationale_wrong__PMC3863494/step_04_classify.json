@@ -1,0 +1,355 @@
+{
+  "name": "classify",
+  "passed": true,
+  "score": 1.0,
+  "reasoning": "Classified 69 statement(s): 33 causal, 36 factual.",
+  "data": {
+    "classified": [
+      {
+        "text": "The chief complaint is a 4-month asymptomatic rash with swelling over the right thigh in an immunosuppressed renal transplant recipient.",
+        "category": "factual",
+        "rationale": "It states a patient attribute and presentation that can be verified from the record."
+      },
+      {
+        "text": "The patient’s own concern is a progressive unilateral eruption.",
+        "category": "factual",
+        "rationale": "This describes the patient's reported symptom pattern."
+      },
+      {
+        "text": "The eruption began distally on the residual limb.",
+        "category": "factual",
+        "rationale": "It is a specific historical detail about onset location."
+      },
+      {
+        "text": "The eruption spread proximally.",
+        "category": "factual",
+        "rationale": "This is a factual description of symptom progression."
+      },
+      {
+        "text": "Empiric antifungal therapy failed.",
+        "category": "factual",
+        "rationale": "This reports a treatment outcome."
+      },
+      {
+        "text": "Topical corticosteroids worsened the eruption.",
+        "category": "factual",
+        "rationale": "This is a factual statement about response to treatment."
+      },
+      {
+        "text": "The salient positive findings strongly point toward an infectious granulomatous dermatosis with neural involvement.",
+        "category": "causal",
+        "rationale": "It links the findings to a diagnostic inference based on their relationship."
+      },
+      {
+        "text": "He is chronically immunosuppressed after cadaveric renal transplant.",
+        "category": "factual",
+        "rationale": "This is a patient history/attribute statement."
+      },
+      {
+        "text": "He takes cyclosporine.",
+        "category": "factual",
+        "rationale": "This is a medication history fact."
+      },
+      {
+        "text": "He takes mycophenolic acid.",
+        "category": "factual",
+        "rationale": "This is a medication history fact."
+      },
+      {
+        "text": "He takes prednisone.",
+        "category": "factual",
+        "rationale": "This is a medication history fact."
+      },
+      {
+        "text": "This immunosuppression increases susceptibility to atypical infections.",
+        "category": "causal",
+        "rationale": "It asserts a cause-effect relationship between immunosuppression and infection risk."
+      },
+      {
+        "text": "He has travel exposure to Thailand.",
+        "category": "factual",
+        "rationale": "This is a factual exposure history."
+      },
+      {
+        "text": "He has travel exposure to Vietnam.",
+        "category": "factual",
+        "rationale": "This is a factual exposure history."
+      },
+      {
+        "text": "He has travel exposure to Panama.",
+        "category": "factual",
+        "rationale": "This is a factual exposure history."
+      },
+      {
+        "text": "Leprosy can occur in Thailand, Vietnam, and Panama.",
+        "category": "factual",
+        "rationale": "This is a general factual epidemiologic statement."
+      },
+      {
+        "text": "The lesions are multiple erythematous papules and plaques.",
+        "category": "factual",
+        "rationale": "This describes observable lesion morphology."
+      },
+      {
+        "text": "Some of the lesions are annular.",
+        "category": "factual",
+        "rationale": "This is a descriptive clinical finding."
+      },
+      {
+        "text": "The lesions are localized to the right thigh/residual limb.",
+        "category": "factual",
+        "rationale": "This states lesion distribution."
+      },
+      {
+        "text": "Histology shows dermal nonnecrotizing tuberculoid granulomas with lymphocytes and rare neutrophils.",
+        "category": "factual",
+        "rationale": "This reports a pathology finding."
+      },
+      {
+        "text": "Acid-fast stain shows rare acid-fast bacilli.",
+        "category": "factual",
+        "rationale": "This is a stain result."
+      },
+      {
+        "text": "Acid-fast stain shows granulomatous involvement of a peripheral nerve bundle.",
+        "category": "factual",
+        "rationale": "This reports a histologic finding."
+      },
+      {
+        "text": "Peripheral nerve involvement in a granulomatous dermatitis is a classic clue for Hansen disease.",
+        "category": "causal",
+        "rationale": "It relates a pathologic feature to a diagnostic implication."
+      },
+      {
+        "text": "The presence of only rare bacilli with tuberculoid granulomas supports the paucibacillary/tuberculoid end of the spectrum rather than lepromatous disease.",
+        "category": "causal",
+        "rationale": "It infers disease subtype from the histologic pattern."
+      },
+      {
+        "text": "PAS stain is negative for fungal elements.",
+        "category": "factual",
+        "rationale": "This is a laboratory/pathology result."
+      },
+      {
+        "text": "The negative PAS stain argues against dermatophyte infection.",
+        "category": "causal",
+        "rationale": "It uses the test result to infer against a diagnosis."
+      },
+      {
+        "text": "The negative PAS stain argues against deep fungal infection.",
+        "category": "causal",
+        "rationale": "It uses the test result to infer against a diagnosis."
+      },
+      {
+        "text": "Antifungal cream was ineffective.",
+        "category": "factual",
+        "rationale": "This reports lack of response to treatment."
+      },
+      {
+        "text": "Topical corticosteroid worsened the lesions.",
+        "category": "factual",
+        "rationale": "This reports a treatment response."
+      },
+      {
+        "text": "This pattern is compatible with an untreated infection rather than eczema or inflammatory dermatosis.",
+        "category": "causal",
+        "rationale": "It interprets the pattern as supporting one cause over others."
+      },
+      {
+        "text": "The biopsy showed nonnecrotizing granulomas rather than caseating granulomas.",
+        "category": "factual",
+        "rationale": "This is a pathology description."
+      },
+      {
+        "text": "This finding makes classic cutaneous tuberculosis less fitting.",
+        "category": "causal",
+        "rationale": "It draws a diagnostic inference from the biopsy finding."
+      },
+      {
+        "text": "The eruption is asymptomatic.",
+        "category": "factual",
+        "rationale": "This describes a symptom characteristic."
+      },
+      {
+        "text": "An asymptomatic eruption is less typical for bacterial cellulitis.",
+        "category": "causal",
+        "rationale": "It compares symptom pattern to a diagnosis."
+      },
+      {
+        "text": "An asymptomatic eruption is less typical for inflammatory contact dermatitis.",
+        "category": "causal",
+        "rationale": "It compares symptom pattern to a diagnosis."
+      },
+      {
+        "text": "There is no mention of systemic symptoms.",
+        "category": "factual",
+        "rationale": "This states the absence of reported systemic symptoms."
+      },
+      {
+        "text": "There is no mention of ulceration.",
+        "category": "factual",
+        "rationale": "This states the absence of a documented feature."
+      },
+      {
+        "text": "There is no mention of purulence.",
+        "category": "factual",
+        "rationale": "This states the absence of a documented feature."
+      },
+      {
+        "text": "Hansen disease fits best among the differential diagnoses.",
+        "category": "causal",
+        "rationale": "It is a diagnostic conclusion based on the presented findings."
+      },
+      {
+        "text": "Travel to endemic areas supports Hansen disease.",
+        "category": "causal",
+        "rationale": "It links exposure history to diagnostic likelihood."
+      },
+      {
+        "text": "Chronic immunosuppression supports Hansen disease.",
+        "category": "causal",
+        "rationale": "It links immune status to diagnostic likelihood."
+      },
+      {
+        "text": "Granulomatous dermatitis supports Hansen disease.",
+        "category": "causal",
+        "rationale": "It links a histologic pattern to the diagnosis."
+      },
+      {
+        "text": "Acid-fast bacilli support Hansen disease.",
+        "category": "causal",
+        "rationale": "It links a microbiologic finding to the diagnosis."
+      },
+      {
+        "text": "Granulomatous involvement of a peripheral nerve bundle supports Hansen disease.",
+        "category": "causal",
+        "rationale": "It links a specific histologic feature to the diagnosis."
+      },
+      {
+        "text": "The annular papules and plaques are consistent with tuberculoid or borderline tuberculoid disease.",
+        "category": "causal",
+        "rationale": "It infers a disease subtype from lesion morphology."
+      },
+      {
+        "text": "The paucity of organisms is consistent with tuberculoid or borderline tuberculoid disease.",
+        "category": "causal",
+        "rationale": "It infers subtype from organism burden."
+      },
+      {
+        "text": "Cutaneous nontuberculous mycobacterial infection is plausible.",
+        "category": "factual",
+        "rationale": "This states a diagnostic possibility rather than a recommendation or mechanism."
+      },
+      {
+        "text": "He is immunosuppressed.",
+        "category": "factual",
+        "rationale": "This is a patient attribute."
+      },
+      {
+        "text": "He has chronic plaques.",
+        "category": "factual",
+        "rationale": "This is a factual description of the skin findings."
+      },
+      {
+        "text": "He has rare acid-fast bacilli on stain.",
+        "category": "factual",
+        "rationale": "This reports a stain result."
+      },
+      {
+        "text": "Peripheral nerve involvement is not typical for cutaneous nontuberculous mycobacterial infection.",
+        "category": "causal",
+        "rationale": "It compares a finding with its diagnostic relevance."
+      },
+      {
+        "text": "Peripheral nerve involvement is a major discriminator against cutaneous nontuberculous mycobacterial infection.",
+        "category": "causal",
+        "rationale": "It asserts a diagnostic relationship between the finding and the condition."
+      },
+      {
+        "text": "Cutaneous tuberculosis could produce granulomas.",
+        "category": "causal",
+        "rationale": "It states a disease-feature relationship."
+      },
+      {
+        "text": "Cutaneous tuberculosis could produce acid-fast organisms.",
+        "category": "causal",
+        "rationale": "It states a disease-feature relationship."
+      },
+      {
+        "text": "Peripheral nerve bundle involvement is not characteristic of cutaneous tuberculosis.",
+        "category": "causal",
+        "rationale": "It compares a histologic feature with a diagnosis."
+      },
+      {
+        "text": "The histology is described as tuberculoid granulomas with rare bacilli rather than caseating granulomas.",
+        "category": "factual",
+        "rationale": "This is a direct pathology description."
+      },
+      {
+        "text": "Deep fungal infection or tinea is less likely.",
+        "category": "causal",
+        "rationale": "It infers lower likelihood from the clinical/pathologic data."
+      },
+      {
+        "text": "PAS is negative.",
+        "category": "factual",
+        "rationale": "This is a laboratory result."
+      },
+      {
+        "text": "Antifungal treatment failed.",
+        "category": "factual",
+        "rationale": "This reports treatment failure."
+      },
+      {
+        "text": "Granuloma annulare could produce annular plaques and granulomas.",
+        "category": "causal",
+        "rationale": "It states a possible disease-feature relationship."
+      },
+      {
+        "text": "Sarcoidosis could produce annular plaques and granulomas.",
+        "category": "causal",
+        "rationale": "It states a possible disease-feature relationship."
+      },
+      {
+        "text": "Granuloma annulare would not explain acid-fast bacilli.",
+        "category": "causal",
+        "rationale": "It rules out a diagnosis based on an incompatible finding."
+      },
+      {
+        "text": "Sarcoidosis would not explain acid-fast bacilli.",
+        "category": "causal",
+        "rationale": "It rules out a diagnosis based on an incompatible finding."
+      },
+      {
+        "text": "Granuloma annulare would not explain nerve involvement.",
+        "category": "causal",
+        "rationale": "It rules out a diagnosis based on an incompatible finding."
+      },
+      {
+        "text": "Sarcoidosis would not explain nerve involvement.",
+        "category": "causal",
+        "rationale": "It rules out a diagnosis based on an incompatible finding."
+      },
+      {
+        "text": "The single most likely diagnosis is Hansen disease.",
+        "category": "causal",
+        "rationale": "It is a diagnostic conclusion drawn from the evidence."
+      },
+      {
+        "text": "The biopsy finding of acid-fast bacilli within a granulomatous dermatitis involving a peripheral nerve bundle is the decisive feature.",
+        "category": "causal",
+        "rationale": "It identifies a finding as the key reason for the diagnosis."
+      },
+      {
+        "text": "Given the tuberculoid granulomas and rare organisms, this is most consistent with tuberculoid leprosy on the paucibacillary end of the spectrum.",
+        "category": "causal",
+        "rationale": "It infers the specific subtype from the histology and organism burden."
+      },
+      {
+        "text": "The final diagnosis is tuberculoid leprosy.",
+        "category": "factual",
+        "rationale": "This states the concluded diagnosis as a fact in the record."
+      }
+    ]
+  }
+}

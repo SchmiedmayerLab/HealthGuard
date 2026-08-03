@@ -1,0 +1,40 @@
+{
+  "input": {
+    "resourceType": "clinicalCaseDiagnosis",
+    "id": "PMC8666636",
+    "origin": "testdata/streamlined/clinical-cases-cot/extracted/PMC8666636.json",
+    "groundTruthDiagnosis": "Non-pancreatic pseudocyst",
+    "rawInput": {
+      "complaint": "A 4-year-old boy was evaluated for a 1-year history of a slowly enlarging mass in the right cheek. He reported no pain, tenderness, dysphagia, dysphonia, dyspnea, trauma, or systemic symptoms. No relevant medical, family, or psychosocial history was noted.\n\nOn examination, there was a 3 × 2 × 1 cm firm, non-tender, non-fluctuant, non-pulsatile mass on the right cheek, extending from the right oral commissure to the pterygomandibular raphe. The overlying mucosa was normal in color, margins were distinct, and the lesion was freely mobile between the buccal mucosa and skin. Aspiration yielded no fluid. No submandibular or submental lymphadenopathy was present.\n\nUltrasonography confirmed the presence of a soft-tissue mass. Contrast-enhanced CT of the right cheek demonstrated a well-defined, hypodense lesion within the muscle layer. Complete blood count and metabolic panel were within normal limits.",
+      "metadata": {
+        "presentation": "A 4-year-old boy was evaluated for a 1-year history of a slowly enlarging mass in the right cheek. He reported no pain, tenderness, dysphagia, dysphonia, dyspnea, trauma, or systemic symptoms. No relevant medical, family, or psychosocial history was noted.\n\nOn examination, there was a 3 × 2 × 1 cm firm, non-tender, non-fluctuant, non-pulsatile mass on the right cheek, extending from the right oral commissure to the pterygomandibular raphe. The overlying mucosa was normal in color, margins were distinct, and the lesion was freely mobile between the buccal mucosa and skin. Aspiration yielded no fluid. No submandibular or submental lymphadenopathy was present.\n\nUltrasonography confirmed the presence of a soft-tissue mass. Contrast-enhanced CT of the right cheek demonstrated a well-defined, hypodense lesion within the muscle layer. Complete blood count and metabolic panel were within normal limits."
+      }
+    },
+    "cotDiagnosis": {
+      "reasoning": "The chief concern is a slowly enlarging right cheek mass in a 4-year-old boy, present for 1 year and notably asymptomatic. The key clinical task is to determine the most likely cause of a pediatric buccal soft-tissue mass based on its growth pattern, exam characteristics, and imaging.\n\nSalient positive findings: the lesion is 3 × 2 × 1 cm, firm, non-tender, non-fluctuant, non-pulsatile, and freely mobile between the buccal mucosa and skin. It has distinct margins and normal overlying mucosa. It extends from the right oral commissure to the pterygomandibular raphe, suggesting a buccal space/intramuscular location. Aspiration yielded no fluid, arguing against a simple cystic lesion or vascular lesion with easy aspiration. Ultrasound confirmed a soft-tissue mass, and contrast CT showed a well-defined hypodense lesion within the muscle layer. CBC and metabolic panel were normal, and there was no submandibular or submental lymphadenopathy.\n\nPertinent negatives: no pain, tenderness, dysphagia, dysphonia, dyspnea, trauma, or systemic symptoms; no lymphadenopathy; no mucosal discoloration; no pulsatility; no fluctuance; and no aspirated fluid. These findings make inflammatory/infectious causes, aggressive malignant lesions, and many vascular lesions less likely.\n\nDifferential diagnosis:\n1. Intramuscular lipoma: This fits well with a slowly enlarging, painless, well-circumscribed, mobile soft-tissue mass. CT showing a well-defined hypodense lesion within the muscle layer strongly supports a fatty lesion, and the intramuscular location matches an intramuscular lipoma. Lack of lymphadenopathy or systemic symptoms also supports a benign mesenchymal tumor.\n2. Dermoid/epidermoid cyst: These can present as painless, slow-growing cheek masses in children. However, aspiration yielded no fluid, the lesion was described as firm rather than doughy or cystic, and CT localization within the muscle layer is less typical for a dermoid/epidermoid cyst.\n3. Vascular malformation/hemangioma: Pediatric cheek masses commonly include vascular lesions, but this lesion was non-pulsatile, non-fluctuant, had normal mucosal color, and aspiration yielded no blood or fluid. CT description as a well-defined hypodense intramuscular lesion without vascular features makes this less likely.\n4. Rhabdomyoma or other benign mesenchymal tumor: A painless intramuscular mass could raise this possibility, but these are much rarer than lipoma, especially with CT density described as hypodense, which is more characteristic of fat.\n5. Malignancy such as rhabdomyosarcoma: This is less likely because the lesion has been slowly enlarging over a year, is well defined, freely mobile, painless, without lymphadenopathy or systemic symptoms, and imaging does not suggest an infiltrative aggressive mass.\n\nNarrowing to the single best diagnosis: the combination of a long-standing painless cheek mass, benign exam features, absence of inflammatory or malignant signs, and especially a well-defined hypodense lesion within the muscle layer on CT most strongly indicates a lipomatous tumor arising in muscle. Therefore, the most likely diagnosis is intramuscular lipoma of the cheek/buccinator region.",
+      "differentialDiagnoses": [
+        {
+          "condition": "Intramuscular lipoma",
+          "likelihood": "high",
+          "supportingEvidence": "Slowly enlarging painless cheek mass; firm, mobile, well-defined lesion; CT showed a well-defined hypodense lesion within the muscle layer, consistent with a fatty intramuscular tumor."
+        },
+        {
+          "condition": "Dermoid or epidermoid cyst",
+          "likelihood": "medium",
+          "supportingEvidence": "Can present as a painless slow-growing pediatric cheek mass, but aspiration yielded no fluid and CT localization within muscle is less typical."
+        },
+        {
+          "condition": "Vascular malformation or hemangioma",
+          "likelihood": "low",
+          "supportingEvidence": "Pediatric cheek masses commonly include vascular lesions, but this lesion was non-pulsatile, non-fluctuant, normal in color, and aspiration was negative."
+        },
+        {
+          "condition": "Rhabdomyosarcoma or other malignant soft-tissue tumor",
+          "likelihood": "low",
+          "supportingEvidence": "Considered because of a pediatric soft-tissue mass, but the lesion was slow-growing, well-defined, painless, mobile, and without lymphadenopathy or systemic symptoms, arguing against malignancy."
+        }
+      ],
+      "finalDiagnosis": "Intramuscular lipoma"
+    }
+  }
+}

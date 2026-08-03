@@ -1,0 +1,42 @@
+{
+  "name": "aggregate",
+  "passed": false,
+  "score": 0.976,
+  "reasoning": "Failed overall, despite a high weighted aggregate score of 0.976. The verification pipeline found no logical contradictions in the diagnostic reasoning, and the conclusion of Q fever hepatitis due to Coxiella burnetii is well supported by the biopsy findings and negative infectious workup. The main failure was in graph construction, which reported 49 disconnected nodes and reduced the structural consistency score.",
+  "data": {
+    "weighted_score": 0.976,
+    "all_passed": false,
+    "step_scores": {
+      "static_rules": {
+        "score": 1.0,
+        "passed": true,
+        "weight": 0.1
+      },
+      "decompose": {
+        "score": 1.0,
+        "passed": true,
+        "weight": 0.05
+      },
+      "chain_verify": {
+        "score": 1.0,
+        "passed": true,
+        "weight": 0.1
+      },
+      "classify": {
+        "score": 1.0,
+        "passed": true,
+        "weight": 0.0
+      },
+      "expert_verify": {
+        "score": 1.0,
+        "passed": true,
+        "weight": 0.65
+      },
+      "build_graph": {
+        "score": 0.7598,
+        "passed": false,
+        "weight": 0.1
+      }
+    }
+  }
+}

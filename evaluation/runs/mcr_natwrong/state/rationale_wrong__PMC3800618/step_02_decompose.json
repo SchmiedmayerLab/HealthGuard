@@ -1,0 +1,247 @@
+{
+  "name": "decompose",
+  "passed": false,
+  "score": 0.0,
+  "reasoning": "Decomposed into 62 statement(s) but completeness check found issues. Missing: The original text states that the lesions are on both feet and around the ankles, with some crusted; the statements split these details but do not explicitly preserve that the lesions are purple spots/papules/plaques with crusting in the same clinical description.; The original text explicitly says the diagnosis must be reconciled with the biopsy; this causal/interpretive relationship is present but not clearly preserved as a standalone relationship statement tied to the diagnostic uncertainty.; The original text notes that the histology shows a vascular lesion extending from papillary to reticular dermis in a lobular pattern composed mainly of dilated blood-filled thin-walled spaces with some thick-walled vessels, hemosiderin deposition, chronic inflammation, focal immature vascular clefts with extravasated erythrocytes, and mild endothelial atypia; while these elements are individually captured, the full integrated histologic description is not preserved in one statement.; The original text says these features indicate a benign-to-borderline vascular proliferation with hemorrhagic change; this interpretive conclusion is captured, but the linkage to the full histologic pattern is not fully preserved.; The original text states that the absence of systemic symptoms, lymphadenopathy, visceral involvement, and negative HIV serology are important clinical context points; the statements capture each item separately but not the combined contextual significance.; The original text says there is no mention of dissecting irregular anastomosing vascular channels infiltrating collagen, marked atypia, or multilayered endothelium to support angiosarcoma; the statements capture these negatives, but the explicit reasoning that their absence argues against angiosarcoma is only partially preserved.; The original text says the lesion is not described as a simple targetoid solitary papule typical of hobnail hemangioma, and instead shows larger dilated vessels with hemosiderin and focal papillary-dermal slitlike immature areas; the statements capture both parts but not as a single comparative diagnostic contrast.; The original text says acroangiodermatitis fits the bilateral lesions on the feet/ankles of an older man and the histology of capillary/venous proliferation with thick- and thin-walled vessels, hemosiderin, extravasated erythrocytes, and inflammation; the statements capture these elements but not the full fit as one integrated rationale.; The original text says Kaposi sarcoma is less likely because HIV serology is negative, there is no systemic involvement, and most importantly the biopsy lacks spindle cell proliferation; the statements capture these reasons separately but not the emphasized hierarchy ('most importantly').; The original text says verrucous hemangioma or other benign venous/lymphatic vascular malformation is considered given the hyperkeratotic epidermis and dilated vascular spaces; the statements mention this, but the specific mention of hyperkeratotic epidermis is not clearly preserved as a diagnostic basis.; The original text says the age of onset in late adulthood, bilateral multifocal acral distribution, and pseudo-Kaposi-like clinical appearance make verrucous hemangioma less fitting; the statements capture these factors separately but not the full comparative reasoning.; The original text says the final narrowing is based on the combination of bilateral slowly progressive violaceous acral plaques, absence of systemic disease, and biopsy showing lobular dilated vascular proliferation with hemosiderin and extravasated erythrocytes but no spindle cell proliferation; this combined narrowing statement is present but not fully preserved as a single logical synthesis. Fabricated: The statement 'The differential diagnosis includes acroangiodermatitis with high likelihood' adds a differential item not explicitly phrased that way in the original, which instead presents acroangiodermatitis as the leading diagnosis/final diagnosis rather than as a separate differential entry with a stated likelihood.; The statement 'The final diagnosis is acroangiodermatitis' is redundant with the original but not fabricated; however, the explicit likelihood labels 'high likelihood', 'medium likelihood', and 'low likelihood' are added as structured certainty levels not stated in the original text.; The statement 'The differential diagnosis includes Kaposi sarcoma with medium likelihood' adds a likelihood grading not explicitly present in the original.; The statement 'The differential diagnosis includes angiosarcoma with low likelihood' adds a likelihood grading not explicitly present in the original.",
+  "data": {
+    "statements": [
+      "The chief concern is a several-year history of slowly progressive purple spots on both feet.",
+      "The purple spots increased in number and size.",
+      "Clinically, the lesions are multiple purple papules and plaques on the dorsum of the feet and around the ankles.",
+      "Some of the lesions are crusted.",
+      "In an older man, bilateral violaceous acral lesions raise concern for a vascular proliferation.",
+      "Kaposi sarcoma is a particular concern in this setting.",
+      "The diagnosis must be reconciled with the biopsy.",
+      "Salient positive findings include chronic, gradual enlargement over years.",
+      "Salient positive findings include bilateral acral distribution on the feet and ankles.",
+      "Salient positive findings include violaceous papules and plaques.",
+      "Histology shows a vascular lesion extending from the papillary dermis to the reticular dermis in a lobular pattern.",
+      "The lesion is composed mainly of dilated blood-filled thin-walled spaces.",
+      "The lesion also contains some thick-walled vessels.",
+      "Histology shows hemosiderin deposition.",
+      "Histology shows chronic inflammation.",
+      "Histology shows focal immature vascular clefts with extravasated erythrocytes.",
+      "Histology shows mild endothelial atypia.",
+      "These features indicate a benign-to-borderline vascular proliferation with hemorrhagic change.",
+      "There are no systemic symptoms.",
+      "There is no lymphadenopathy.",
+      "There is no visceral involvement.",
+      "HIV serology is negative.",
+      "There is no spindle cell proliferation on histology.",
+      "The absence of spindle cell proliferation argues strongly against Kaposi sarcoma despite the clinical resemblance.",
+      "There is no mention of dissecting irregular anastomosing vascular channels infiltrating collagen.",
+      "There is no mention of marked atypia.",
+      "There is no mention of multilayered endothelium.",
+      "These missing features do not support angiosarcoma.",
+      "The lesion is not described as a simple targetoid solitary papule typical of hobnail hemangioma.",
+      "Histology instead shows larger dilated vessels with hemosiderin and focal papillary-dermal slitlike immature areas.",
+      "There is no systemic disease to support epidemic Kaposi sarcoma.",
+      "There is no immunosuppression to support iatrogenic Kaposi sarcoma.",
+      "The leading differential is acroangiodermatitis.",
+      "Acroangiodermatitis is also called pseudo-Kaposi sarcoma.",
+      "The leading differential is particularly the Mali type or a related acral reactive vascular proliferation.",
+      "Acroangiodermatitis fits the bilateral lesions on the feet and ankles of an older man.",
+      "Acroangiodermatitis fits the histology of capillary and venous proliferation with thick- and thin-walled vessels, hemosiderin, extravasated erythrocytes, and inflammation.",
+      "Acroangiodermatitis can clinically mimic Kaposi sarcoma.",
+      "Acroangiodermatitis may show vascular clefts and mild endothelial atypia.",
+      "Acroangiodermatitis lacks the spindle-cell fascicles characteristic of Kaposi sarcoma.",
+      "Kaposi sarcoma is the main competing diagnosis.",
+      "Kaposi sarcoma is considered because of the violaceous plaques on the feet.",
+      "Kaposi sarcoma is considered because of the focal slitlike vascular spaces with extravasated erythrocytes.",
+      "Kaposi sarcoma is less likely because HIV serology is negative.",
+      "Kaposi sarcoma is less likely because there is no systemic involvement.",
+      "Kaposi sarcoma is less likely because the biopsy lacks spindle cell proliferation.",
+      "Spindle cell proliferation is a key histologic feature of Kaposi sarcoma.",
+      "Another consideration is verrucous hemangioma or another benign venous or lymphatic vascular malformation.",
+      "This consideration is based on the hyperkeratotic epidermis and dilated vascular spaces.",
+      "The age of onset is in late adulthood.",
+      "The lesions have a bilateral multifocal acral distribution.",
+      "The lesions have a pseudo-Kaposi-like clinical appearance.",
+      "These features make verrucous hemangioma or another benign venous or lymphatic vascular malformation less fitting.",
+      "Angiosarcoma is low likelihood.",
+      "Angiosarcoma is low likelihood because the course is indolent over years.",
+      "Angiosarcoma is low likelihood because histology shows only mild atypia without destructive infiltrative malignant features.",
+      "The combination of bilateral slowly progressive violaceous acral plaques, absence of systemic disease, and biopsy showing lobular dilated vascular proliferation with hemosiderin and extravasated erythrocytes but no spindle cell proliferation most strongly supports acroangiodermatitis.",
+      "Acroangiodermatitis is the final diagnosis.",
+      "The differential diagnosis includes acroangiodermatitis with high likelihood.",
+      "The differential diagnosis includes Kaposi sarcoma with medium likelihood.",
+      "The differential diagnosis includes angiosarcoma with low likelihood.",
+      "The final diagnosis is acroangiodermatitis (pseudo-Kaposi sarcoma)."
+    ],
+    "completeness": {
+      "complete": false,
+      "missing": [
+        "The original text states that the lesions are on both feet and around the ankles, with some crusted; the statements split these details but do not explicitly preserve that the lesions are purple spots/papules/plaques with crusting in the same clinical description.",
+        "The original text explicitly says the diagnosis must be reconciled with the biopsy; this causal/interpretive relationship is present but not clearly preserved as a standalone relationship statement tied to the diagnostic uncertainty.",
+        "The original text notes that the histology shows a vascular lesion extending from papillary to reticular dermis in a lobular pattern composed mainly of dilated blood-filled thin-walled spaces with some thick-walled vessels, hemosiderin deposition, chronic inflammation, focal immature vascular clefts with extravasated erythrocytes, and mild endothelial atypia; while these elements are individually captured, the full integrated histologic description is not preserved in one statement.",
+        "The original text says these features indicate a benign-to-borderline vascular proliferation with hemorrhagic change; this interpretive conclusion is captured, but the linkage to the full histologic pattern is not fully preserved.",
+        "The original text states that the absence of systemic symptoms, lymphadenopathy, visceral involvement, and negative HIV serology are important clinical context points; the statements capture each item separately but not the combined contextual significance.",
+        "The original text says there is no mention of dissecting irregular anastomosing vascular channels infiltrating collagen, marked atypia, or multilayered endothelium to support angiosarcoma; the statements capture these negatives, but the explicit reasoning that their absence argues against angiosarcoma is only partially preserved.",
+        "The original text says the lesion is not described as a simple targetoid solitary papule typical of hobnail hemangioma, and instead shows larger dilated vessels with hemosiderin and focal papillary-dermal slitlike immature areas; the statements capture both parts but not as a single comparative diagnostic contrast.",
+        "The original text says acroangiodermatitis fits the bilateral lesions on the feet/ankles of an older man and the histology of capillary/venous proliferation with thick- and thin-walled vessels, hemosiderin, extravasated erythrocytes, and inflammation; the statements capture these elements but not the full fit as one integrated rationale.",
+        "The original text says Kaposi sarcoma is less likely because HIV serology is negative, there is no systemic involvement, and most importantly the biopsy lacks spindle cell proliferation; the statements capture these reasons separately but not the emphasized hierarchy ('most importantly').",
+        "The original text says verrucous hemangioma or other benign venous/lymphatic vascular malformation is considered given the hyperkeratotic epidermis and dilated vascular spaces; the statements mention this, but the specific mention of hyperkeratotic epidermis is not clearly preserved as a diagnostic basis.",
+        "The original text says the age of onset in late adulthood, bilateral multifocal acral distribution, and pseudo-Kaposi-like clinical appearance make verrucous hemangioma less fitting; the statements capture these factors separately but not the full comparative reasoning.",
+        "The original text says the final narrowing is based on the combination of bilateral slowly progressive violaceous acral plaques, absence of systemic disease, and biopsy showing lobular dilated vascular proliferation with hemosiderin and extravasated erythrocytes but no spindle cell proliferation; this combined narrowing statement is present but not fully preserved as a single logical synthesis."
+      ],
+      "added": [
+        "The statement 'The differential diagnosis includes acroangiodermatitis with high likelihood' adds a differential item not explicitly phrased that way in the original, which instead presents acroangiodermatitis as the leading diagnosis/final diagnosis rather than as a separate differential entry with a stated likelihood.",
+        "The statement 'The final diagnosis is acroangiodermatitis' is redundant with the original but not fabricated; however, the explicit likelihood labels 'high likelihood', 'medium likelihood', and 'low likelihood' are added as structured certainty levels not stated in the original text.",
+        "The statement 'The differential diagnosis includes Kaposi sarcoma with medium likelihood' adds a likelihood grading not explicitly present in the original.",
+        "The statement 'The differential diagnosis includes angiosarcoma with low likelihood' adds a likelihood grading not explicitly present in the original."
+      ]
+    },
+    "clusters": [
+      {
+        "cluster_id": "c1",
+        "label": "history_taking",
+        "statement_indices": [
+          1,
+          2
+        ],
+        "summary": "Chronic progressive bilateral purple spots on the feet enlarged over years.",
+        "salience": 0.9
+      },
+      {
+        "cluster_id": "c2",
+        "label": "examination",
+        "statement_indices": [
+          3,
+          4
+        ],
+        "summary": "Physical exam describes bilateral violaceous papules and plaques on the feet and ankles, some crusted.",
+        "salience": 0.85
+      },
+      {
+        "cluster_id": "c3",
+        "label": "differential_generation",
+        "statement_indices": [
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "summary": "Clinical concern is raised for a vascular proliferation, especially Kaposi sarcoma, based on the acral violaceous lesions and chronic course.",
+        "salience": 0.8
+      },
+      {
+        "cluster_id": "c4",
+        "label": "examination",
+        "statement_indices": [
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18
+        ],
+        "summary": "Biopsy shows a lobular vascular proliferation with dilated blood-filled spaces, hemosiderin, inflammation, slitlike areas, and mild atypia, suggesting a benign-to-borderline hemorrhagic vascular lesion.",
+        "salience": 0.95
+      },
+      {
+        "cluster_id": "c5",
+        "label": "other",
+        "statement_indices": [
+          19,
+          20,
+          21,
+          22
+        ],
+        "summary": "No systemic symptoms, lymphadenopathy, visceral involvement, or HIV infection are present.",
+        "salience": 0.7
+      },
+      {
+        "cluster_id": "c6",
+        "label": "differential_generation",
+        "statement_indices": [
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32
+        ],
+        "summary": "Kaposi sarcoma, angiosarcoma, and hobnail hemangioma are argued against by the absence of spindle cells, marked atypia, infiltrative features, and supportive systemic context.",
+        "salience": 0.9
+      },
+      {
+        "cluster_id": "c7",
+        "label": "differential_generation",
+        "statement_indices": [
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40
+        ],
+        "summary": "Acroangiodermatitis is proposed as the leading diagnosis, fitting the acral bilateral lesions and reactive vascular histology while lacking Kaposi-type spindle-cell fascicles.",
+        "salience": 0.98
+      },
+      {
+        "cluster_id": "c8",
+        "label": "differential_generation",
+        "statement_indices": [
+          41,
+          42,
+          43,
+          44,
+          45,
+          46,
+          47
+        ],
+        "summary": "Kaposi sarcoma remains the main competing diagnosis but is downgraded by negative HIV, no systemic disease, and absent spindle-cell proliferation.",
+        "salience": 0.9
+      },
+      {
+        "cluster_id": "c9",
+        "label": "differential_generation",
+        "statement_indices": [
+          48,
+          49,
+          50,
+          51,
+          52,
+          53
+        ],
+        "summary": "Verrucous hemangioma or another benign vascular malformation is considered but fits poorly with the late-onset bilateral pseudo-Kaposi-like presentation.",
+        "salience": 0.75
+      },
+      {
+        "cluster_id": "c10",
+        "label": "differential_generation",
+        "statement_indices": [
+          54,
+          55,
+          56
+        ],
+        "summary": "Angiosarcoma is considered unlikely because the course is indolent and histology lacks destructive malignant atypia.",
+        "salience": 0.8
+      },
+      {
+        "cluster_id": "c11",
+        "label": "final_decision",
+        "statement_indices": [
+          57,
+          58,
+          59,
+          60,
+          61,
+          62
+        ],
+        "summary": "The overall clinicopathologic picture most strongly supports acroangiodermatitis, which is stated as the final diagnosis.",
+        "salience": 1.0
+      }
+    ]
+  }
+}

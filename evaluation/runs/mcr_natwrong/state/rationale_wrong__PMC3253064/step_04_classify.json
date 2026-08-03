@@ -1,0 +1,325 @@
+{
+  "name": "classify",
+  "passed": true,
+  "score": 1.0,
+  "reasoning": "Classified 63 statement(s): 24 causal, 35 factual, 4 statistical.",
+  "data": {
+    "classified": [
+      {
+        "text": "The chief issue initially was acute right lower abdominal pain.",
+        "category": "factual",
+        "rationale": "It states a clinical presentation detail about the patient."
+      },
+      {
+        "text": "The acute right lower abdominal pain was explained surgically by torsion of a large right ovarian mass.",
+        "category": "causal",
+        "rationale": "It links the pain to a surgical cause."
+      },
+      {
+        "text": "The key diagnostic question after surgery is the cause of the persistent biochemical thyrotoxicosis/subclinical hyperthyroidism.",
+        "category": "factual",
+        "rationale": "It identifies the ongoing diagnostic issue rather than making a numeric or directive claim."
+      },
+      {
+        "text": "Pathology proved benign cystic struma ovarii.",
+        "category": "factual",
+        "rationale": "It reports a pathology result."
+      },
+      {
+        "text": "Thyroglobulin immunostaining confirmed the benign cystic struma ovarii.",
+        "category": "factual",
+        "rationale": "It states a confirmatory diagnostic finding."
+      },
+      {
+        "text": "Ectopic thyroid tissue was present in the ovary.",
+        "category": "factual",
+        "rationale": "It asserts a tissue finding."
+      },
+      {
+        "text": "Thyroid tests 3 days postoperatively showed markedly suppressed TSH at 0.001 mIU/mL.",
+        "category": "statistical",
+        "rationale": "It includes a specific laboratory value."
+      },
+      {
+        "text": "Thyroid tests 3 days postoperatively showed normal free T4.",
+        "category": "factual",
+        "rationale": "It reports a normal lab status."
+      },
+      {
+        "text": "Thyroid tests 3 days postoperatively showed normal free T3.",
+        "category": "factual",
+        "rationale": "It reports a normal lab status."
+      },
+      {
+        "text": "The postoperative thyroid test pattern was consistent with subclinical hyperthyroidism.",
+        "category": "factual",
+        "rationale": "It interprets the lab pattern as a diagnosis."
+      },
+      {
+        "text": "The TSH suppression persisted 2 months later despite removal of the ovarian tumor.",
+        "category": "statistical",
+        "rationale": "It contains a time-based quantitative claim."
+      },
+      {
+        "text": "Thyroid ultrasound showed a normal-sized gland.",
+        "category": "factual",
+        "rationale": "It describes an imaging finding."
+      },
+      {
+        "text": "Thyroid ultrasound showed only mildly heterogeneous echogenicity.",
+        "category": "factual",
+        "rationale": "It describes an imaging finding."
+      },
+      {
+        "text": "The thyroid ultrasound did not show a diffuse toxic goiter.",
+        "category": "factual",
+        "rationale": "It states an absent imaging feature."
+      },
+      {
+        "text": "Thyroid scintigraphy showed focal uptake in the left lobe.",
+        "category": "factual",
+        "rationale": "It reports an imaging finding."
+      },
+      {
+        "text": "Thyroid scintigraphy showed suppression of the remainder of the gland.",
+        "category": "factual",
+        "rationale": "It reports an imaging finding."
+      },
+      {
+        "text": "The scintigraphy pattern is the classic pattern of an autonomously functioning thyroid nodule.",
+        "category": "causal",
+        "rationale": "It relates an imaging pattern to a specific underlying diagnosis."
+      },
+      {
+        "text": "The radioactive iodine uptake was not absent.",
+        "category": "factual",
+        "rationale": "It states a qualitative uptake finding."
+      },
+      {
+        "text": "The radioactive iodine uptake was reduced but still present.",
+        "category": "factual",
+        "rationale": "It states a qualitative uptake finding."
+      },
+      {
+        "text": "The radioactive iodine uptake was 16% at 4 hours.",
+        "category": "statistical",
+        "rationale": "It gives a specific numeric uptake value."
+      },
+      {
+        "text": "The radioactive iodine uptake was 27% at 24 hours.",
+        "category": "statistical",
+        "rationale": "It gives a specific numeric uptake value."
+      },
+      {
+        "text": "The radioactive iodine uptake findings support endogenous thyroid hormone production rather than exogenous hormone exposure.",
+        "category": "causal",
+        "rationale": "It infers a mechanism/source from the uptake findings."
+      },
+      {
+        "text": "The patient was asymptomatic.",
+        "category": "factual",
+        "rationale": "It states a patient attribute."
+      },
+      {
+        "text": "Free T4 was normal.",
+        "category": "factual",
+        "rationale": "It reports a lab status."
+      },
+      {
+        "text": "Free T3 was normal.",
+        "category": "factual",
+        "rationale": "It reports a lab status."
+      },
+      {
+        "text": "The case is not overt hyperthyroidism.",
+        "category": "factual",
+        "rationale": "It states a diagnostic characterization."
+      },
+      {
+        "text": "There is no report of diffuse uptake on scintigraphy.",
+        "category": "factual",
+        "rationale": "It states the absence of a reported imaging feature."
+      },
+      {
+        "text": "There is no report of ophthalmopathy.",
+        "category": "factual",
+        "rationale": "It states the absence of a reported clinical feature."
+      },
+      {
+        "text": "There is no report of diffuse goiter.",
+        "category": "factual",
+        "rationale": "It states the absence of a reported clinical feature."
+      },
+      {
+        "text": "The available findings do not support Graves disease.",
+        "category": "factual",
+        "rationale": "It gives a diagnostic assessment based on the findings."
+      },
+      {
+        "text": "There is no mention of thyroid pain.",
+        "category": "factual",
+        "rationale": "It states the absence of a reported symptom."
+      },
+      {
+        "text": "There is no mention of a near-absent uptake pattern.",
+        "category": "factual",
+        "rationale": "It states the absence of a reported imaging feature."
+      },
+      {
+        "text": "The available findings do not suggest thyroiditis.",
+        "category": "factual",
+        "rationale": "It gives a diagnostic assessment based on the findings."
+      },
+      {
+        "text": "Persistent TSH suppression after resection argues against the ovarian struma ovarii being the sole source of thyroid hormone excess.",
+        "category": "causal",
+        "rationale": "It uses persistence after surgery to infer the source is not solely ovarian."
+      },
+      {
+        "text": "If the ectopic thyroid tissue alone had caused the biochemical abnormality, removal should have normalized the axis over time.",
+        "category": "causal",
+        "rationale": "It proposes a cause-and-effect expectation."
+      },
+      {
+        "text": "Functioning struma ovarii causing hyperthyroidism initially fits because the patient had a large struma ovarii.",
+        "category": "causal",
+        "rationale": "It links the ovarian lesion to the initial hyperthyroid picture."
+      },
+      {
+        "text": "Ectopic thyroid tissue can produce thyroid hormone.",
+        "category": "causal",
+        "rationale": "It describes a biological mechanism."
+      },
+      {
+        "text": "Functioning struma ovarii becomes less likely as the final explanation because the suppressed TSH persisted 2 months after salpingo-oophorectomy.",
+        "category": "causal",
+        "rationale": "It uses postoperative persistence to argue against that cause."
+      },
+      {
+        "text": "Persistent suppressed TSH indicates an ongoing thyroidal source.",
+        "category": "causal",
+        "rationale": "It infers a source from the lab abnormality."
+      },
+      {
+        "text": "Autonomous functioning thyroid nodule fits very well because scintigraphy demonstrated focal uptake in the left lobe with suppression elsewhere.",
+        "category": "causal",
+        "rationale": "It connects the scan pattern to the diagnosis."
+      },
+      {
+        "text": "The focal uptake with suppression elsewhere is the hallmark of a hyperfunctioning nodule.",
+        "category": "causal",
+        "rationale": "It states a diagnostic relationship between imaging pattern and lesion type."
+      },
+      {
+        "text": "Persistent subclinical hyperthyroidism after ovarian tumor removal strongly supports an autonomously functioning thyroid nodule.",
+        "category": "causal",
+        "rationale": "It infers the likely cause from persistence after surgery."
+      },
+      {
+        "text": "Graves disease is less likely because the scan was focal rather than diffuse.",
+        "category": "causal",
+        "rationale": "It uses the scan pattern to argue against Graves disease."
+      },
+      {
+        "text": "Graves disease is less likely because ultrasound did not describe diffuse enlargement or hypervascularity.",
+        "category": "causal",
+        "rationale": "It uses imaging features to argue against Graves disease."
+      },
+      {
+        "text": "Thyroiditis is low likelihood because uptake was focal rather than globally low or absent.",
+        "category": "causal",
+        "rationale": "It relates the uptake pattern to the likelihood of thyroiditis."
+      },
+      {
+        "text": "Thyroiditis is low likelihood because the abnormality persisted without mention of a transient inflammatory course.",
+        "category": "causal",
+        "rationale": "It uses the clinical course to argue against thyroiditis."
+      },
+      {
+        "text": "Although the case prominently features struma ovarii, the postoperative endocrine data show that the patient’s persistent subclinical hyperthyroidism is best explained by an autonomously functioning thyroid nodule in the left thyroid lobe.",
+        "category": "causal",
+        "rationale": "It explains the endocrine abnormality by linking it to the thyroid nodule."
+      },
+      {
+        "text": "The ovarian lesion may have coexisted and potentially contributed before surgery.",
+        "category": "causal",
+        "rationale": "It suggests a possible contributory relationship."
+      },
+      {
+        "text": "The ovarian lesion does not explain the continued TSH suppression after removal.",
+        "category": "causal",
+        "rationale": "It argues that the lesion is not the cause of persistent suppression."
+      },
+      {
+        "text": "The most likely diagnosis is subclinical hyperthyroidism due to a toxic adenoma.",
+        "category": "factual",
+        "rationale": "It states the final diagnostic conclusion."
+      },
+      {
+        "text": "The toxic adenoma is an autonomously functioning thyroid nodule.",
+        "category": "factual",
+        "rationale": "It defines the lesion type."
+      },
+      {
+        "text": "Persistent TSH suppression 2 months after oophorectomy supports an autonomously functioning thyroid nodule.",
+        "category": "causal",
+        "rationale": "It uses persistence after surgery to support the diagnosis."
+      },
+      {
+        "text": "Thyroid scintigraphy showing focal uptake in the left lobe with suppression of the rest of the gland is classic for a hyperfunctioning nodule.",
+        "category": "causal",
+        "rationale": "It links the scan pattern to the diagnosis."
+      },
+      {
+        "text": "Histopathology confirmed benign cystic struma ovarii.",
+        "category": "factual",
+        "rationale": "It reports a pathology confirmation."
+      },
+      {
+        "text": "Ectopic thyroid tissue can cause thyrotoxicosis.",
+        "category": "causal",
+        "rationale": "It states a mechanism by which ectopic tissue affects thyroid status."
+      },
+      {
+        "text": "Persistence after tumor removal argues against functioning struma ovarii as the sole cause.",
+        "category": "causal",
+        "rationale": "It uses postoperative persistence to infer causation."
+      },
+      {
+        "text": "Suppressed TSH is compatible with Graves disease.",
+        "category": "factual",
+        "rationale": "It states a diagnostic compatibility."
+      },
+      {
+        "text": "Scintigraphy was focal rather than diffuse.",
+        "category": "factual",
+        "rationale": "It describes the imaging pattern."
+      },
+      {
+        "text": "There was no reported diffuse goiter.",
+        "category": "factual",
+        "rationale": "It states the absence of a reported finding."
+      },
+      {
+        "text": "There was no reported ophthalmopathy.",
+        "category": "factual",
+        "rationale": "It states the absence of a reported finding."
+      },
+      {
+        "text": "Graves disease is low likelihood.",
+        "category": "factual",
+        "rationale": "It gives a diagnostic likelihood assessment."
+      },
+      {
+        "text": "Thyroiditis would more typically show low or absent uptake diffusely rather than focal uptake in one lobe with suppression elsewhere.",
+        "category": "causal",
+        "rationale": "It compares uptake patterns to explain why thyroiditis is less likely."
+      },
+      {
+        "text": "The final diagnosis is autonomously functioning thyroid nodule causing subclinical hyperthyroidism.",
+        "category": "factual",
+        "rationale": "It states the final diagnosis."
+      }
+    ]
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "name": "aggregate",
+  "passed": false,
+  "score": 0.9926,
+  "reasoning": "Failed overall. The weighted aggregate score was 0.9926, and the main issue was the build_graph step, which failed due to 13 disconnected nodes despite the rest of the verification pipeline passing. The diagnostic reasoning was otherwise internally consistent and strongly supported primary pulmonary adenocarcinoma, but the structural graph completeness problem prevented full verification.",
+  "data": {
+    "weighted_score": 0.9926,
+    "all_passed": false,
+    "step_scores": {
+      "static_rules": {
+        "score": 1.0,
+        "passed": true,
+        "weight": 0.1
+      },
+      "decompose": {
+        "score": 1.0,
+        "passed": true,
+        "weight": 0.05
+      },
+      "chain_verify": {
+        "score": 1.0,
+        "passed": true,
+        "weight": 0.1
+      },
+      "classify": {
+        "score": 1.0,
+        "passed": true,
+        "weight": 0.0
+      },
+      "expert_verify": {
+        "score": 1.0,
+        "passed": true,
+        "weight": 0.65
+      },
+      "build_graph": {
+        "score": 0.9261,
+        "passed": false,
+        "weight": 0.1
+      }
+    }
+  }
+}

@@ -1,0 +1,622 @@
+trace_id,error_index,stated,hg_caught,critic_caught,note
+PMC10225816,0,,False,False,No HealthGuard flags. No Critic flag mentions the wrong sensory location 'posterior neck' vs correct 'anterior neck'.
+PMC10225816,1,,False,True,Critic flag on the soluble IL-2 receptor statement explicitly targets the 'about 2.4 times ... using 500 U/mL as a cutof
+PMC10225816,2,,False,True,Critic flag on the CSF statement explicitly identifies the incorrect '15 cells/μL' abnormal threshold and gives the corr
+PMC10113930,0,,False,False,HealthGuard only repeats the perfusion interpretation and does not flag the wrong MAP value; Critic discusses the same c
+PMC10113930,1,,True,True,HealthGuard flag matches the wrong fact directly: 'The patient has had no dental care for three years.' Critic explicitl
+PMC10113930,2,,True,True,HealthGuard flag directly contains the wrong value: 'usual upper limit of 3.0 mg/dL.' Critic explicitly flags that same 
+PMC10112701,0,,True,False,HealthGuard flag exactly repeats the wrong displacement site: 'displaced into the condylar areas.' Critic has no flag ab
+PMC10112701,1,,True,False,HealthGuard flag exactly repeats the wrong histologic thickness: 'The epithelial lining is 5–7 cell layers thick.' Criti
+PMC10112701,2,,False,True,Critic flag explicitly mentions the same cutoff claim: 'macrocephaly is often defined as occipitofrontal circumference a
+PMC10189604,0,,True,True,HealthGuard explicitly flags the wrong measurement '4.4 × 2.1 cm.' Critic flag 1 also explicitly states the first mass s
+PMC10189604,1,,True,True,HealthGuard explicitly flags the wrong summed long-axis burden '8.1 cm.' Critic flag 1 also identifies the summed burden
+PMC10189604,2,,False,True,HealthGuard has no flag about vertebral/spinal axis criteria. Critic flag 3 explicitly quotes the claim that 'a spinal a
+PMC10073084,0,,True,False,HealthGuard flag exactly matches the wrong fact: 'The suprapubic mass is equivalent to a 28-week pregnancy.' No Critic f
+PMC10073084,1,,False,True,Critic flag quotes the same wrong value: 'estimated cross-sectional area of about 360 cm²' and explains 20 × 20 cm shoul
+PMC10073084,2,,False,False,Neither HealthGuard nor Critic flags mention the menstrual cycle length (30-day vs 28-day cycles).
+PMC10191493,0,,False,False,No flag addresses the 2 months to weeks conversion or the specific value 8 weeks vs 8.7 weeks.
+PMC10191493,1,,True,True,HealthGuard explicitly flags 'MR enterography showed decompression of the fourth portion.' Critic flags the claim about 
+PMC10191493,2,,False,True,"Critic explicitly flags 'A platelet count above roughly 400,000/μL would meet thrombocytosis.' HealthGuard has no flag a"
+PMC10310937,0,,False,False,No HealthGuard flags. No Critic flag addresses the incorrect area value 4.5 cm² vs 5.0 cm².
+PMC10310937,1,,False,False,No HealthGuard flags. No Critic flag addresses the narrowed lymphadenopathy statement vs the original general statement 
+PMC10310937,2,,False,True,"Critic flag matched: ""Lesions larger than 3 cm are generally considered more typical of soft tissue sarcoma""."
+PMC10338165,0,,False,True,Critic flag on '10 mm corresponds to about 0.8 cm' explicitly corrects it to 1.0 cm.
+PMC10338165,1,,False,True,"Critic flag on 'In some screening contexts, lesions under 12 mm are generally considered low risk for nodal spread' says"
+PMC10338165,2,,False,True,Critic flag on 'lesions under 12 mm are generally considered low risk for nodal spread' explicitly identifies the unsupp
+PMC10406452,0,,False,False,No flag mentions the effusion size being 0.9 cm vs 0.7 cm.
+PMC10406452,1,,True,True,"HealthGuard flag: 'Using the reported dimensions, the lesion’s maximal cross-sectional area is about 24 cm².' Critic fla"
+PMC10406452,2,,False,False,No flag identifies the specific reversed fact that restricted diffusion is brighter/increased on high-b-value DWI rather
+PMC10407195,0,,False,True,Critic flag 1 matches the same statement/value: '20/200 corresponds to about 10% of normal acuity'.
+PMC10407195,1,,False,True,Critic flag 2 matches the same threshold statement: 'A serum IgG4 above about 140 mg/dL would generally be considered el
+PMC10407195,2,,False,False,No HealthGuard flags. No Critic flag identifies the specific wrong interval change from one month to roughly 6 weeks.
+PMC10481824,0,,False,False,No flag addresses the incorrect volume estimate of 1.8 L vs ~1960 cm^3.
+PMC10481824,1,,True,False,"HealthGuard flag matched the same wrong fact: ""The mass causes moderate hydronephrosis."" No Critic flag addresses hydron"
+PMC10481824,2,,False,True,"Critic flag matched the same attenuation-threshold claim: ""The attenuation range of 9–32 HU is also above the usual simp"
+PMC10499291,0,,False,False,No HealthGuard flags. No Critic flag mentions the 12 vs 18 month radiographic progression timeline.
+PMC10499291,1,,False,True,Critic flag 1 directly quotes the wrong conversion '52.14 nmol/L converts to about 24.9 ng/mL'.
+PMC10499291,2,,False,True,Critic flag 1 identifies the PTH reference threshold claim 'usual adult reference threshold of 20–65 pg/mL' as unsupport
+PMC10602372,0,,False,False,No flag mentions the incorrect severe-AR pressure half-time threshold of 400 ms or the correct severe threshold (<200 ms
+PMC10602372,1,,False,True,"Critic flag matched: 'A 17 mm lesion is 1.7 cm, not about 2.0 cm.'"
+PMC10602372,2,,True,False,HealthGuard flag matched the same wrong fact/value: 'LVEF was 40% with inferior hypokinesis.'
+PMC10577159,0,,True,False,HealthGuard explicitly flagged: 'The nodule has been present for about 10 months.' No Critic flag addresses the 10 month
+PMC10577159,1,,True,False,HealthGuard explicitly flagged: 'The right maxillary first molar had poor-quality endodontic treatment 5 years earlier.'
+PMC10577159,2,,False,True,Critic explicitly flagged the unsupported claim containing 'the usual 3-month threshold for benign inflammatory nodules'
+PMC10551103,0,,False,True,Critic flag 1 explicitly says MAP 67 mmHg is incorrect for BP 90/50 and gives the correct MAP ~63 mmHg.
+PMC10551103,1,,True,True,HealthGuard flag 'Creatinine was 0.24.' matches the wrong creatinine value; Critic flag 4 explicitly states the case giv
+PMC10551103,2,,False,True,Critic flag 5 explicitly flags the claim 'fibrinogen below 500 mg/dL would be more typical of consumptive coagulopathy' 
+PMC10626292,0,,False,False,No flag mentions the BUN:creatinine ratio or the corrected value (~25.5:1).
+PMC10626292,1,,False,False,No flag mentions the disease progression duration (2 weeks vs about 3 weeks).
+PMC10626292,2,,True,True,"HealthGuard explicitly flagged the exact wrong statement about CK >10,000 making rhabdomyolysis unlikely; Critic flag 1 "
+PMC10622404,0,,False,True,Critic explicitly flags the claim 'The BUN:creatinine ratio is about 56...' which contains the same wrong value. HealthG
+PMC10622404,1,,True,False,"HealthGuard flags 'NT-proBNP is markedly elevated at 5759 ng/L,' which is the exact wrong value. Critic has no flag abou"
+PMC10622404,2,,False,False,Neither HealthGuard nor Critic flags the rhabdomyolysis CK-threshold claim or its correct standard (>5× ULN / often >100
+PMC10714326,0,,True,False,HealthGuard flag matched exactly: 'Bronchoalveolar lavage showed lymphocytic alveolitis of approximately 42%.' Critic ha
+PMC10714326,1,,False,False,Neither HealthGuard nor Critic flagged the incorrect ESR upper-limit threshold of 15 mm/h for women.
+PMC10714326,2,,True,True,Both matched the same wrong conversion: HealthGuard flagged 'The 18-month symptom duration corresponds to roughly 24 wee
+PMC10849070,0,,False,True,"Critic flag 1 explicitly says the MAP from 85/56 mmHg is roughly 66 mmHg, not 72 mmHg."
+PMC10849070,1,,True,True,HealthGuard flag states 'The later NT-proBNP was 58.5 pg/mL'; Critic flag 2 explicitly corrects this to 85.5 pg/mL.
+PMC10849070,2,,False,False,"Critic flag 3 objects that the 2 mm cutoff is unsupported/not grounded in the case data, but it does not identify the sa"
+PMC10725598,0,,True,False,HealthGuard flagged the exact wrong fact: '40% C7 compression fracture.' Critic did not mention the C7 fracture percenta
+PMC10725598,1,,False,True,Critic flagged the exact ETV4 frequency claim: 'ETV4 positivity in fewer than 50% of cases' as unsupported/unnecessary. 
+PMC10725598,2,,True,True,"Both flagged the same specific lesion-size error: HealthGuard said 'The solitary hepatic lesion measured 2.0 cm,' and Cr"
+PMC10873692,0,,True,True,HealthGuard flag: 'The exam findings include 4/5 strength in the left lower extremity.' Critic flag on localization expl
+PMC10873692,1,,False,True,Critic flag: 'A CSF glucose below 50 mg/dL would typically be concerning for infectious meningitis...' and notes the thr
+PMC10873692,2,,True,False,HealthGuard flag: 'Given his age of 66 years...' matches the wrong age. No Critic flag addresses the patient's age.
+PMC10971827,0,,True,False,HealthGuard explicitly flagged: 'Proteinuria was 0.8 g/24 h.' Critic did not flag the proteinuria value.
+PMC10971827,1,,False,False,Neither method flagged the misstated H Score 195 probability range ('about a 75–80% probability' vs correct 80–88%).
+PMC10971827,2,,True,True,Both matched the same unit-presentation error: HealthGuard flagged 'NT-proBNP rose from 798 pg/mL to 4.6 ng/mL.' Critic 
+PMC10999549,0,,False,False,No HealthGuard flags. No Critic flag mentions the incorrect area calculation 1936 mm^2 or the correct 1836 mm^2.
+PMC10999549,1,,False,True,"Critic flag: 'The reference case mentions a similar self-limited episode 1 month earlier, not 2 months earlier.'"
+PMC10999549,2,,False,False,"No HealthGuard flags. Critic notes the 2.5 mm cutoff is 'not provided in the case and is not universally standardized,' "
+PMC10901261,0,,True,False,HealthGuard explicitly flagged the same wrong fact: 'Mean left atrial pressure is 35 mmHg.' Critic did not mention LA pr
+PMC10901261,1,,False,True,"No injected error here, but Critic flagged the MAP claim: 'His mean arterial pressure is about 73 mmHg from a blood pres"
+PMC10901261,2,,False,False,Neither method flagged the specific wrong cutoff for severe secondary MR (stated 30 mm² vs correct contemporary threshol
+PMC11018330,0,,False,False,"No flag mentions the total dose calculation or the correct 7,500 mg value."
+PMC11018330,1,,True,False,HealthGuard flag repeats the same incorrect fact: 'Brain MRI showed a right superior frontal gyrus metastasis.' No Criti
+PMC11018330,2,,False,True,Critic flags the claim 'small-cell lung cancer is strongly associated with paraneoplastic retinopathy...' which points t
+PMC11042575,0,,False,False,No HealthGuard flags. No Critic flag mentions the 13 ms vs 23 ms arithmetic error.
+PMC11042575,1,,False,False,No HealthGuard flags. No Critic flag identifies the unsupported specific QRS duration of 110 ms.
+PMC11042575,2,,False,True,Critic flag 6 matches: it challenges the claim 'markedly elevated range usually considered above roughly 1300 ms' as an 
+PMC11079535,0,,True,False,HealthGuard directly flagged the same wrong fact: 'The episodes last less than 3 minutes.' No Critic flag addresses epis
+PMC11079535,1,,False,False,Neither method flagged the specific incorrect definition/cutoff that first bite syndrome pain subsides within about 5 mi
+PMC11097741,0,,False,False,No flag mentions the AST:ALT ratio or the underlying AST/ALT arithmetic.
+PMC11097741,1,,True,True,HealthGuard flag matches the wrong value directly: 'Ultrasound shows gallbladder wall thickening up to 8 mm.' Critic fla
+PMC11097741,2,,False,False,HealthGuard does not mention the abnormal-thickness threshold. Critic flag 2 explicitly says the '>4 mm threshold is bro
+PMC11077173,0,,True,True,HealthGuard explicitly flags 'The intraocular pressures average 16.5 mmHg.' Critic also flags the same incorrect average
+PMC11077173,1,,False,True,Critic flags the specific threshold claim 'above about 20 cm H2O' and states the standard adult cutoff is commonly >25 c
+PMC11077173,2,,True,False,"HealthGuard flags the statement containing '10 spontaneous pregnancy losses before 24 weeks,' which matches the wrong co"
+PMC11126872,0,,True,False,"HealthGuard flag matched the same wrong fact: ""The patient’s weight is below the 3rd percentile."" No Critic flag address"
+PMC11126872,1,,True,True,"HealthGuard caught the wrong hematocrit with ""The hematocrit is 14.4%."" Critic caught the same injected error via the ra"
+PMC11126872,2,,False,True,"Critic directly matched the erroneous neutropenia statement: ""A neutrophil predominance above 80% is generally considere"
+PMC11133391,0,,True,True,HealthGuard flagged both the wrong value ('systolic area index of 2.3') and the correct value ('2.5'); Critic flagged 'T
+PMC11133391,1,,True,True,"HealthGuard flagged the wrong biopsy ratio ('about 30%'), which catches that part of the injected error, but did not fla"
+PMC11133391,2,,True,True,HealthGuard flagged 'A serum IgG4 level above 1350 mg/dL is typically used as the cutoff for elevation.' Critic flagged 
+PMC11154768,0,,False,False,Critic mentions the MAP claim but explicitly says the MAP calculation is roughly correct and only objects to the inferen
+PMC11154768,1,,True,False,HealthGuard flag exactly repeats the incorrect mass size: 'The extracardiac mass on echo measures 8.7 × 5.3 cm.' Critic 
+PMC11154768,2,,True,True,"Both methods flag the same incorrect AFP cutoff statement: HealthGuard repeats it verbatim, and Critic explicitly says t"
+PMC11282747,0,,False,False,No HealthGuard flags. No Critic flag addresses the specific MAP value of 57 vs 60 mmHg.
+PMC11282747,1,,False,False,No HealthGuard flags. No Critic flag addresses the buttock laterality error (left vs right).
+PMC11282747,2,,False,False,"No HealthGuard flags. Critic flag 4 mentions the thrombocytopenia threshold, but explicitly says the threshold is 'rough"
+PMC11294736,0,,True,False,"HealthGuard flag repeats the same incorrect glucose value ('118 mg/dL'), thereby identifying that specific fact; no Crit"
+PMC11294736,1,,False,False,Neither HealthGuard nor Critic flags mention the MAP calculation or the incorrect value 'about 81 mm Hg' versus 84.3 mm 
+PMC11294736,2,,False,True,Critic flag explicitly quotes the incorrect threshold claim ('above roughly 40 mIU/mL during hypoglycemia') and says the
+PMC11333128,0,,False,False,No flag mentions the incorrect 1.5 g/day dosing or the correct 1000 mg/day total.
+PMC11333128,1,,True,False,HealthGuard explicitly flags: 'ECG abnormalities included ST-segment depressions in aVR and V2.' This is the same wrong 
+PMC11333128,2,,True,True,HealthGuard flags the same wrong timing statement ('within 3 to 5 days...'). Critic explicitly identifies that claim as 
+PMC11387283,0,,False,False,No HealthGuard flags. No Critic flag addresses the incorrect interval of 5 years vs 4 years.
+PMC11387283,1,,False,False,No HealthGuard flags. No Critic flag addresses the incorrect volume estimate of 28 mL vs 26.7 mL.
+PMC11387283,2,,False,True,Critic flag matched: 'many malignant pelvic soft-tissue tumors typically show SUVmax above 2.5' was flagged as an unsupp
+PMC11424769,0,,False,True,Critic flag on the claim with 'estimated area of about 88 cm²' directly targets the same wrong value.
+PMC11424769,1,,True,False,HealthGuard flag 'She had been postmenopausal for about 3 years.' matches the incorrect interval exactly.
+PMC11424769,2,,False,True,Critic flag quoting 'Diffuse block-type p16 staining is typically expected when more than 50% of tumor cells stain stron
+PMC11337001,0,,False,True,Critic flagged the exact statement containing the wrong average rate ('about 44 b.p.m.') and challenged that arithmetic 
+PMC11337001,1,,True,False,"HealthGuard flagged 'Preserved LVEF is 60–68%,' which matches the incorrect upper bound 68% vs correct 65%."
+PMC11337001,2,,False,True,"Critic flagged the claim 'a normal LVEF is typically considered >50%' directly, even though it called it broadly correct"
+PMC11202767,0,,False,True,Critic flag 1 explicitly corrects '2 weeks earlier' to 'three weeks earlier'.
+PMC11202767,1,,False,True,"No injected error here, but Critic flag 3 explicitly addresses the same value/conversion: '0.91 g/L converts to 91 mg/dL"
+PMC11202767,2,,False,True,Critic flag 4 explicitly flags the statement 'OCB positivity is seen in over 95% of MS cases' as too absolute/inaccurate
+PMC11452241,0,,True,True,HealthGuard flagged the exact wrong BMI statement ('Her BMI is about 13.5 kg/m2.'); Critic also flagged that exact BMI c
+PMC11452241,1,,False,False,Neither method flagged the MRI distribution error about omitting adductor involvement / reframing as purely anterior thi
+PMC11452241,2,,False,True,Critic flagged the exact ESR claim ('An ESR above about 100 mm/h is often taken as strongly favoring an infectious proce
+PMC11447760,0,,False,False,"No HealthGuard flags. Critic discusses IGF-2-mediated mechanism generally, but does not flag the specific wrong ratio va"
+PMC11447760,1,,False,True,"Caught by Critic flag on: ""in a hypoglycemic stress state, a cortisol below about 20 μg/dL would be concerning for inade"
+PMC11447760,2,,False,False,"No HealthGuard flags. Critic mentions free T4 being at the lower limit of normal (0.80 ng/dL) in another claim, but does"
+PMC11573733,0,,False,False,No flag mentions the MAP value of 77 mm Hg or the correct MAP ≈73 mm Hg.
+PMC11573733,1,,True,False,HealthGuard flag matches the specific wrong fact: 'The left ventricular posterior wall measures 20 mm.' Critic has no fl
+PMC11573733,2,,False,True,Critic flag matches the specific wrong threshold claim: 'normal tissue Doppler cutoff of 5 cm/s' and states this cutoff 
+PMC11602436,0,,True,False,HealthGuard explicitly flagged: 'His BMI was 33 kg/m2.' Critic did not mention the BMI error.
+PMC11602436,1,,True,True,HealthGuard flagged: 'The rheumatoid arthritis diagnosis is based on strongly positive anti-CCP 423 U/mL.' Critic also f
+PMC11602436,2,,False,False,Neither HealthGuard nor Critic flagged the nephrotic-range proteinuria threshold error (>3.0 g/day vs >=3.5 g/day).
+PMC11552163,0,,True,True,Both caught the same wrong fact: HealthGuard flag says 'nasal injury at age 10'; Critic explicitly says the case states 
+PMC11552163,1,,False,False,Neither flag mentions the incorrect conversion of three months to 12 weeks versus approximately 13 weeks.
+PMC11552163,2,,False,True,Critic flag matches the same wrong value by quoting 'A fluid glucose above 20 mg/dL...' and challenging that threshold; 
+PMC11654271,0,,False,True,Critic flag matched the same specific claim: 'Her admission blood pressure corresponds to a mean arterial pressure of ab
+PMC11654271,1,,True,True,HealthGuard flagged 'upper pole of the left kidney'; Critic explicitly flagged that the lesion is in the upper pole and 
+PMC11654271,2,,False,False,Neither method flagged the ARR threshold/interpretion claim.
+PMC11624566,0,,False,True,Critic flag 0 explicitly quotes the wrong growth statement ('increase from 0.9 cm to 1.43 cm') and says the arithmetic i
+PMC11624566,1,,False,True,Critic flag 0 catches the specific wrong follow-up maximal diameter by stating the later size was 1.73 × 1.34 cm and tha
+PMC11624566,2,,False,True,Critic flag 2 explicitly identifies the 'above about 3.0 μg/dL' threshold as an unsupported external fact; this matches 
+PMC11535749,0,,True,False,"HealthGuard flag matches the specific wrong value: it repeats '20/30 OS,' which is the injected incorrect acuity; no Cri"
+PMC11535749,1,,False,True,"Critic flag explicitly quotes the claim 'about 30% overall remaining field index,' which is the specific incorrect avera"
+PMC11535749,2,,False,True,"Critic flag explicitly quotes the unsupported threshold 'above about 28 ms,' matching the specific wrong cutoff; HealthG"
+PMC11671661,0,,False,False,No flag mentions the opening pressure conversion from 29 cm H2O to mmHg or the correct value (~21.3 mmHg).
+PMC11671661,1,,True,True,HealthGuard directly flags: 'CSF glucose of 3.6 mmol/L is above the usual lower cutoff of 4.0 mmol/L.' Critic flags the 
+PMC11671661,2,,False,False,No flag mentions the anti-dsDNA value discrepancy (12.3 IU/mL vs correct 21.3 IU/mL).
+PMC11843684,0,,True,False,HealthGuard explicitly flagged the same wrong fact: 'limited elbow flexion from prior injury.' Critic did not flag the e
+PMC11843684,1,,True,True,HealthGuard flagged 'BMI of about 20.8 kg/m2.' Critic also explicitly flagged that 20.8 is inaccurate and the case state
+PMC11843684,2,,True,True,HealthGuard flagged '20 mL of 0.5% ropivacaine corresponds to 150 mg administered.' Critic explicitly flagged the same d
+PMC11821356,0,,False,False,No flag addresses the attack-count calculation or the 36–40 vs 33–43 range.
+PMC11821356,1,,True,False,"HealthGuard flag matched the same wrong value: ""Ultrasound described nodes up to 21 × 8 mm."" No Critic flag mentions the"
+PMC11821356,2,,False,False,"HealthGuard mentions cyclic neutropenia only generally, without the cycle length. Critic flags ""approximately 28-day cyc"
+PMC12014310,0,,True,False,HealthGuard exactly flagged: 'She had a prior episode of prosthetic valve thrombosis treated with tPA 7 years ago.' Crit
+PMC12014310,1,,True,True,HealthGuard exactly flagged: 'Her mean arterial pressure is about 82 mm Hg.' Critic also flagged the same arithmetic err
+PMC12014310,2,,False,True,Critic flagged the same claim about 'A mean mitral prosthetic gradient above about 10 mm Hg is generally considered abno
+PMC12010641,0,,True,False,HealthGuard flag matched exactly: 'Additional lesions were present in the lower cervical cord.' This identifies the same
+PMC12010641,1,,False,True,Critic flag matched the same statement: 'Her CSF opening pressure of 15 mmHg is within the usual normal range of about 8
+PMC12010641,2,,True,False,HealthGuard flag matched exactly: 'The vertigo began roughly 4 months after the initial sensory symptoms.'
+PMC1948010,0,,True,False,HealthGuard flag exactly matches the wrong fact: 'A supernumerary digit arises from the first metatarsal.' No Critic fla
+PMC1948010,1,,False,False,Neither HealthGuard nor Critic flags mention the timeline arithmetic error ('about 10 months earlier' vs correct 8 month
+PMC1948010,2,,False,True,Critic flag on NF1 criteria matches the same specific claim: 'six or more café-au-lait macules are typically required fo
+PMC2394532,0,,False,False,HealthGuard only flagged thigh flexion. Critic flagged the annual-grams statement but explicitly said it was 'not a fact
+PMC2394532,1,,True,False,HealthGuard flag matched the exact wrong fact: 'Thigh flexion is 15 degrees.' Critic did not flag thigh flexion.
+PMC2394532,2,,False,True,Critic directly flagged the claim 'A CK above about 150 U/L would usually be considered abnormal...' as an unsupported/i
+PMC2396655,0,,False,True,"Critic flagged the 0.83 cm statement ('Using the Breslow depth, this is 0.83 cm thick...') and explicitly discussed that"
+PMC2396655,1,,True,False,HealthGuard flagged the exact wrong size statement: 'Endoscopy found a 2 cm hard mass at the gastro-fundal junction.' Cr
+PMC2396655,2,,True,True,"Both flagged the exact wrong cutoff/unit statement: HealthGuard: 'By conventional criteria, a Breslow thickness above 4."
+PMC3138437,0,,True,False,HealthGuard flagged the specific wrong size: '2.3-cm ... lesion.' Critic did not flag lesion size.
+PMC3138437,1,,False,False,Neither method flagged the incorrect computed area 'About 3.9 cm^2' or the correct area ~3.46 cm^2.
+PMC3138437,2,,False,True,Critic explicitly flagged the same false claim about ring-enhancing lesions requiring at least 5 mm thickness. HealthGua
+PMC2934912,0,,False,True,Critic flag 1 quotes the same wrong fact/value: 'The AST:ALT ratio is about 1.2 (224/159)...'.
+PMC2934912,1,,False,True,Critic flag 3 explicitly corrects 'small pleural effusion' to 'small pericardial effusion'.
+PMC2934912,2,,False,False,No HealthGuard flags. No Critic flag addresses the specific MAP value/calculation (57 mm Hg vs correct ~53.3 mm Hg).
+PMC3170347,0,,True,False,HealthGuard explicitly flagged the incorrect statement: 'The patient has lived in California for six years.' No Critic f
+PMC3170347,1,,False,False,Neither HealthGuard nor the Critic flagged the specific CSF:serum glucose ratio value/calculation (0.4 vs 43/90 ≈ 0.48).
+PMC2914667,0,,False,True,"Critic flag 1 matches the specific timing error: it says the reference supports 'the last three days of admission,' not "
+PMC2914667,1,,False,True,Critic flag 3 matches the specific progression-tempo error by calling 'typically progressive over weeks to months' impre
+PMC2914667,2,,False,True,Critic flag 7 directly matches the specific wrong claim 'at least 3 to 6 months' and states idiopathic Parkinson disease
+PMC3263537,0,,True,True,HealthGuard explicitly flags 'began three days after influenza vaccination' (the wrong value). Critic flags the claim st
+PMC3263537,1,,False,False,No HealthGuard or Critic flag mentions the MAP calculation or the incorrect value 'About 100 mmHg' versus ~97 mmHg.
+PMC3263537,2,,False,True,Critic explicitly flags the claim containing 'ESR values above 40 mm/hr would typically be expected' and explains that t
+PMC3350282,0,,False,False,No HealthGuard flags. No Critic flag mentions the inter-eye difference being 60 µm vs correct 70 µm.
+PMC3350282,1,,False,True,Critic flag matched the timeline by quoting 'The groin lymphadenopathy one month earlier...' which points to the correct
+PMC3350282,2,,False,True,Critic flag directly quotes the incorrect threshold 'Pressures above about 20 cm H2O are generally considered elevated i
+PMC3271452,0,,False,True,Critic flag on bidimensional area explicitly identifies 60.8 cm² as incorrect and gives 9.0 × 7.5 = 67.5 cm².
+PMC3271452,1,,True,False,HealthGuard flag quotes the same wrong fact/value: 'About 25% of the tumor showed hemorrhage/necrosis.' Critic has no fl
+PMC3271452,2,,False,True,Critic flag explicitly targets the claim 'A mitotic rate above 15 per 10 HPF...' as an unsupported specific threshold.
+PMC3423776,0,,False,False,No flag mentions the incorrect 23% decrease or the correct 18.5% value.
+PMC3423776,1,,True,True,HealthGuard flag: 'The original tumor was completely excised with Simpson grade II resection.' Critic flag: claim noting
+PMC3423776,2,,False,True,Critic flag explicitly quotes the incorrect claim about 'procalcitonin above 1.0 ng/mL' and states the threshold is unsu
+PMC3459730,0,,True,False,HealthGuard flag exactly repeats the wrong BMI value: '18.6 kg/m2'.
+PMC3459730,1,,False,False,No flag mentions the cystic duct side/right-vs-left imaging detail.
+PMC3459730,2,,False,True,"Critic's first flag directly targets the torsion threshold claim: 'complete torsion is defined at 180 degrees or more, w"
+PMC3423660,0,,True,True,"HealthGuard flag explicitly repeats the wrong size '7 by 6 cm'; Critic flag 1 explicitly says the mass was 8×6 cm, not 7"
+PMC3423660,1,,False,False,HealthGuard has no flag about anticardiolipin titer thresholds. Critic flag 4 challenges the threshold claim as unsuppor
+PMC3423660,2,,True,True,HealthGuard flag explicitly repeats the wrong Bartonella serology '1:64'. Critic flag 7 notes the earlier text mentions 
+PMC3459806,0,,False,False,No flag addresses the incorrect 5.9-fold calculation or states the correct ~6.9-fold increase.
+PMC3459806,1,,True,False,HealthGuard flag matches exactly: 'Myelocytes were 4% of the differential.' No Critic flag addresses myelocyte percentag
+PMC3459806,2,,False,True,"Critic flag matches exactly: it flags the claim that leukemoid reaction is defined as leukocytosis exceeding 100,000/μL "
+PMC3544661,0,,False,False,No flag mentions the DRESS latency window (1–6 weeks vs 2–8 weeks).
+PMC3544661,1,,True,True,"Although no real error was injected, both methods flagged the statement about '0.04 mg/dL' (HealthGuard: '0.4 µg/mL conv"
+PMC3544661,2,,True,True,HealthGuard flagged 'The absolute eosinophil count is about 0.42 × 10^3/mm^3.' Critic flagged the same arithmetic error 
+PMC3543206,0,,False,False,No flag addresses the stated value 'approximately 54 g/L'; also this injected error is not actually an error.
+PMC3543206,1,,False,False,No HealthGuard flags. No Critic flag mentions the calcium unit conversion from 2.9 mmol/L to mg/dL or the incorrect 'abo
+PMC3543206,2,,False,True,Critic flag matched: 'Hypercalcemia is typically defined above 2.6 mmol/L...' was flagged as an imprecise/nonstandard th
+PMC3657244,0,,True,True,"HealthGuard directly flags the same wrong duration: ""18-month pattern..."" Critic implicitly identifies the correct count"
+PMC3657244,1,,False,True,"Critic directly flags the BI mapping claim: ""A BI of 4+ generally corresponds to roughly 10–100 bacilli per oil-immersio"
+PMC3657244,2,,False,False,Neither method flags the 48 hours / 2 days equivalence.
+PMC3673371,0,,False,True,"Critic flagged the 12 cm2 statement, but this injected item is explicitly not an actual error."
+PMC3673371,1,,False,True,"Critic flag matched: ""more than 5 mitoses per 10 high-power fields would raise concern for sarcomatous transformation""."
+PMC3673371,2,,True,True,"HealthGuard flagged ""The radiographic association is around the impacted left second molar."" Critic also flagged the sam"
+PMC3884960,0,,False,True,Critic flagged the exact area calculation error: '20×15 cm ... area is 250 cm²' and corrected it to 300 cm².
+PMC3884960,1,,True,False,HealthGuard flagged the exact wrong size statement: 'The nodules are up to 2.0 cm in diameter.'
+PMC3884960,2,,False,True,Critic flagged the exact CK20 threshold claim: 'urothelial differentiation typically requires CK20 positivity in over 80
+PMC3892129,0,,False,False,No flag mentions the CSF:serum glucose ratio value 0.4 or the correct ratio ≈0.31.
+PMC3892129,1,,False,False,No flag mentions the abnormal cutoff threshold of 0.5 vs ≈0.4 for CSF:serum glucose ratio.
+PMC3892129,2,,True,True,"HealthGuard flag: 'The CSF contained 2,860 red blood cells/μL.' Critic flag: claim noting '2,860 red blood cells/μL' wit"
+PMC3934446,0,,False,False,No flag addresses the weight estimate; also the listed 'error' is not actually discrepant.
+PMC3934446,1,,False,False,No flag mentions the MAP calculation or the specific wrong value 65 mmHg vs 70 mmHg.
+PMC3934446,2,,False,True,Critic flag 1 explicitly targets the unsupported claim that CSF cytology requires 'about 10 atypical cells/µL' for relia
+PMC3961933,0,,False,False,No HealthGuard flags. No Critic flag addresses the incorrect volume value of 285 cm³ vs ~316 cm³.
+PMC3961933,1,,False,False,No HealthGuard flags. No Critic flag addresses the incorrect tooth displacement direction (buccal vs lingual).
+PMC3961933,2,,False,True,Critic flag 1 directly matches the erroneous ALP cutoff claim: 'A serum alkaline phosphatase above roughly 100 U/L would
+PMC3934455,0,,False,True,"Critic flag matched: 'Using the birth weight of 1665 g, this corresponds to about 1.77 kg' with issue noting 1665 g = 1."
+PMC3934455,1,,True,True,HealthGuard flag matched exact wrong value: 'The Apgar scores were 8 and 10.' Critic also matched with claim about 'Apga
+PMC3934455,2,,False,True,Critic flag matched exact threshold claim: 'A serum calcium generally has to be above about 10.5 mg/dL...' and issue exp
+PMC4008396,0,,False,False,No HealthGuard flags. No Critic flag mentions the MAP value or correct MAP calculation.
+PMC4008396,1,,False,False,No HealthGuard flags. No Critic flag mentions the SAAG cutoff of 1.0 vs 1.1 g/dL.
+PMC4008396,2,,False,True,Critic flag matched: 'The chronic left pleural effusion...' with issue noting the case describes a right pleural effusio
+PMC4054582,0,,False,False,No HealthGuard flags. Critic did not flag the incorrect temperature conversion (102.6 °F vs 103.6 °F).
+PMC4054582,1,,False,True,Critic flag matched: 'Although hyponatremia (131 mmol/L) could contribute to confusion' and explicitly notes sodium shou
+PMC4054582,2,,False,True,Critic flag matched: 'CK is roughly 5.8 times the upper limit of normal...' and discusses the same specific fold-elevati
+PMC4020529,0,,True,True,HealthGuard flag 'CT showed dilated small-bowel loops up to 4.8 cm.' matches the wrong value; Critic flag on the same cl
+PMC4020529,1,,True,False,HealthGuard flag 'Ki-67 is less than 10%.' matches the wrong value. Critic does not flag this specific incorrect cutoff;
+PMC4020529,2,,False,True,Critic flag 'A low proliferative fraction like this is also below the usual high-grade concern threshold of 15% for Ki-6
+PMC4052038,0,,False,False,No flag mentions the postoperative timeline (1 year vs 2 years after HTO).
+PMC4052038,1,,True,False,HealthGuard flag 'Active knee motion is from 0° to 110°.' matches the incorrect ROM value; Critic has no flag about ROM.
+PMC4052038,2,,True,True,HealthGuard flag exactly repeats the incorrect KL-grade statement; Critic flag on 'Kellgren–Lawrence grade III or higher
+PMC4147826,0,,True,True,"HealthGuard explicitly flags ""The CT-reported left level II node measures 32 × 32 mm."" Critic flag 1 also explicitly say"
+PMC4147826,1,,False,True,HealthGuard has no flag about the 15 mm threshold. Critic flag 1 explicitly addresses the same claim and says the thresh
+PMC4147826,2,,True,True,"HealthGuard explicitly flags ""CT showed subtle bony erosion."" Critic flag 2 explicitly states this contradicts the refer"
+PMC4223599,0,,False,False,"HealthGuard had no flags. Critic flagged the area statement as unsupported/non-necessary, but did not identify the speci"
+PMC4223599,1,,False,True,Critic explicitly flagged the claim “AFP above about 10 ng/mL would usually be considered abnormal...” which matches the
+PMC4223599,2,,False,False,HealthGuard had no flags. Critic did not flag the specific blood-flow localization error (central vs peripheral).
+PMC4280803,0,,False,False,No flag mentions the incorrect dexamethasone suppression cortisol cutoff (<5 nmol/L vs ~<50 nmol/L).
+PMC4280803,1,,False,False,No flag addresses the incorrect percent decline calculation (88% vs ~91.7%).
+PMC4280803,2,,True,False,HealthGuard exactly flagged: 'The ovaries measured about 22 × 16 mm and 22 × 14 mm.' Critic did not mention ovarian dime
+PMC4374329,0,,True,False,HealthGuard flagged the exact incorrect duration statement: 'That corresponds to about 18 months of chronic symptoms.'
+PMC4374329,1,,False,False,No flag identified the specific incorrect tooth count of 9 vs correct 11.
+PMC4374329,2,,False,False,No flag identified the specific incorrect ACE cutoff claim of about 40 U/L.
+PMC4140119,0,,True,False,HealthGuard explicitly flagged: 'Neurologic deficits included hypoesthesia in the L5 dermatome.' Critic did not mention 
+PMC4140119,1,,True,False,HealthGuard explicitly flagged: 'He had recurrence within 8 months after L3–L5 laminectomies.' (also repeated with right
+PMC4140119,2,,True,True,Both flagged the same claim/value: HealthGuard flagged 'He has had Parkinson disease for about 17% of his life.' Critic 
+PMC4140119,3,,False,True,Critic flagged: 'vertebral osteomyelitis is often accompanied by fever above 38.5°C...' which matches the incorrect feve
+PMC4300562,0,,False,False,No flag mentions the incorrect disease duration ('about 30 months') or the correct value (28 months).
+PMC4300562,1,,False,False,No flag addresses the erythroderma body-surface-area cutoff (>80% vs typically >90%).
+PMC4300562,2,,True,True,HealthGuard directly flags 'Onset only at 6 months'. Critic catches it in the flag: 'the case data only states normal sk
+PMC4446922,0,,False,False,Neither method flagged the incorrect MAP value of 130 mmHg vs correct 120 mmHg.
+PMC4446922,1,,False,True,Critic caught it with the flag about 'many laboratories use a lower limit for C3 of 70 mg/dL' and explicitly states the 
+PMC4446922,2,,True,True,HealthGuard caught it via flags 'The serum globulin fraction is about 3.8 g/dL.' and '...total protein 6.9 minus albumin
+PMC4323579,0,,True,False,"HealthGuard flagged the same wrong fact: ""New lesions later appeared on the ring fingers."" Critic did not flag the finge"
+PMC4323579,1,,False,True,"Critic explicitly flagged the incorrect conversion: ""38.2 °C, which converts to about 99.8 °F"" and corrected it to about"
+PMC4323579,2,,False,False,Neither HealthGuard nor Critic flagged the specific timeline error of 48 hours vs 40 hours.
+PMC4323579,3,,True,True,"Both flagged the same unsupported threshold claim: ""A CRP above 150 mg/L is generally taken as the threshold supporting "
+PMC4470191,0,,True,False,"HealthGuard flagged the exact statement: ""The absolute neutrophil count corresponds to about 50% neutrophils."" This matc"
+PMC4470191,1,,False,False,Neither method flagged the invented serum glucose value / CSF-to-serum glucose ratio claim.
+PMC4470191,2,,True,True,"HealthGuard flagged ""A chest radiograph suggested a possible left lower lobe infiltrate"" and also included the correct c"
+PMC4470191,3,,True,True,"Both flagged the exact incorrect claim: ""A CSF glucose under 40 mg/dL is generally considered normal in adults."""
+PMC4506805,0,,False,True,Critic flag matched the specific wrong value: 'The MRI dimensions correspond to an approximate ellipsoid volume of 18.5 
+PMC4506805,1,,True,False,HealthGuard directly flagged the incorrect timeline statement: 'The last menstrual period was about three weeks before p
+PMC4506805,2,,False,True,Critic flag matched the specific unsupported cutoff claim: 'lesions under 10 cm with these features are especially reass
+PMC4539463,0,,False,True,Critic flag 0 matches the specific wrong fact: estimated PaO2 of about 70 mmHg.
+PMC4539463,1,,False,True,Critic flag 1 explicitly corrects 'three pneumothoraces' to two. HealthGuard repeats the wrong value rather than flaggin
+PMC4539463,2,,False,True,Critic flag 3 identifies the specific incorrect cyst wall-thickness claim ('greater than 1 mm').
+PMC4501462,0,,False,True,Critic flag 1 quotes the same wrong fact: 'Her pulse pressure is 50 mm Hg from a blood pressure of 128/68 mm Hg'.
+PMC4501462,1,,False,False,No HealthGuard flags. No Critic flag mentions the BAL cell type/value mix-up of eosinophils vs macrophages.
+PMC4501462,2,,False,False,No HealthGuard flags. No Critic flag identifies the specific wrong CD4:CD8 elevated-threshold claim (3.5:1 vs ~4:1).
+PMC4664794,0,,False,False,No HealthGuard flags. No Critic flag mentions the 8 weeks vs 6 weeks timeline.
+PMC4664794,1,,False,True,"Critic flag matches the same specific MAP claim: 'using 139/69 mm Hg, the mean arterial pressure is about 99 mm Hg.'"
+PMC4664794,2,,False,False,"No HealthGuard flags. Critic discusses the inference from a normal ACE level, but does not flag the specific wrong refer"
+PMC4506815,0,,False,True,Critic flag 1 matches the same wrong value: it explicitly flags the claim that the lesion’s approximate cylindrical volu
+PMC4506815,1,,True,False,"HealthGuard flag matches the same wrong WBC value: 'The WBC is normal at 4,850/mm3.'"
+PMC4506815,2,,False,False,Neither method flags the specific ABI cutoff error (<1.0 vs usual <0.90). The Critic discusses normal ABI/PAD inference 
+PMC4689918,0,,False,True,"Critic flag 1 explicitly corrects the 13 cm sphere volume, stating it would be closer to 1,150 cm^3 rather than about 1,"
+PMC4689918,1,,False,False,No HealthGuard flags. No Critic flag identifies the specific error of saying cytoplasmic myogenin negativity instead of 
+PMC4689918,2,,False,True,Critic flag 4 directly flags the claim that alveolar rhabdomyosarcoma has FOXO1 fusions in well over 95% of cases as too
+PMC4707795,0,,False,False,No flag mentions the unsupported 3-month duration or its absence.
+PMC4707795,1,,False,True,Critic flag: 'specificity of roughly 95% for sarcoidosis...' explicitly matches the unsupported 95% specificity claim.
+PMC4707795,2,,True,True,HealthGuard flags the exact claim about '>98% sensitivity on salivary aspirates'; Critic also flags the same claim and n
+PMC4862300,0,,False,False,No flag mentions the BMI calculation or the correct BMI value.
+PMC4862300,1,,False,True,Critic flag on the MRI/leukodystrophy statement explicitly challenges the 'before about 10 years' delayed-myelination cl
+PMC4862300,2,,True,False,HealthGuard flag 'His head circumference is 46 cm.' matches the specific incorrect stated value; no Critic flag addresse
+PMC5054479,0,,False,True,"Critic flag 1 explicitly says the SAAG calculation is incorrect: 1.3 - 0.1 = 1.2 g/dL, not 1.5 g/dL."
+PMC5054479,1,,False,True,"Critic flag 4 explicitly states the usual nephrotic-range threshold is >3.5 g/day, not 4.0 g/day."
+PMC5054479,2,,False,False,No HealthGuard flags. No Critic flag mentions the age being 10 vs correct age 9.
+PMC4929803,0,,False,True,Critic flag on the anion gap claim explicitly says the calculated anion gap is unsupported because full electrolytes are
+PMC4929803,1,,True,False,HealthGuard flag repeats the same incorrect creatinine value: 'The patient’s creatinine rose from 82 to 165 μmol/L.' No 
+PMC4929803,2,,False,True,Critic flag explicitly targets the PT/aPTT cutoff claim ('above about 14 seconds' / 'roughly 40 seconds') as unsupported
+PMC5237164,0,,False,False,HealthGuard repeats the same wrong value ('T8') rather than identifying the correct T9 level; Critic has no flag about t
+PMC5237164,1,,False,False,Neither HealthGuard nor Critic flags the incorrect log10 decline calculation/value.
+PMC5237164,2,,True,True,HealthGuard flag: 'The CSF glucose was above the usual lower limit of normal of 60 mg/dL.' Critic flag explicitly quotes
+PMC5304560,0,,False,False,No HealthGuard flags. No Critic flag addresses the specific wrong volume value of 3.9 cm³ or the correct value ~3.07 cm³
+PMC5304560,1,,False,True,Critic flag matched: “many soft tissue sarcomas raise concern when mitotic activity exceeds about 3 per 10 high-power fi
+PMC5340649,0,,True,False,HealthGuard explicitly flagged the same wrong fact: 'His FEV1/FVC ratio is 68%.' Critic did not flag the 68% ratio error
+PMC5340649,1,,True,True,HealthGuard flagged the correct counterpart: 'FVC can be estimated at about 87% predicted...' which identifies the trace
+PMC5340649,2,,False,False,Neither HealthGuard nor Critic flagged the cold agglutinin cutoff error (>1:32 vs commonly cited >1:64).
+PMC5382461,0,,True,False,HealthGuard flag matched exactly: 'Salient positive findings include a total 3-kg weight loss.' No Critic flag addresses
+PMC5382461,1,,True,False,HealthGuard flag matched exactly: 'The patient had a documented negative PPD test 3 years earlier.' No Critic flag menti
+PMC5382461,2,,False,True,Critic flag matched exactly: 'The increase in induration is about 20 mm...' with issue stating the exact increase cannot
+PMC5731179,0,,True,False,HealthGuard flag exactly matches the wrong timeline: 'about 6 weeks after completing docetaxel chemotherapy.' Critic has
+PMC5731179,1,,False,False,No flag addresses the 30 mL = 3 cL statement; in any case this injected item is not actually an error.
+PMC5731179,2,,False,True,Critic flag exactly targets the same wrong threshold claim: 'many tap-test protocols use removal of at least 40 mL CSF..
+PMC5676292,0,,True,False,HealthGuard flag exactly matches the wrong fact: 'CSF contained 3 lymphocytes/μL.' No Critic flag mentions the CSF lymph
+PMC5676292,1,,False,False,Neither HealthGuard nor Critic flags mention the incorrect fluid balance value (~1080 mL vs correct -1282 mL).
+PMC5676292,2,,False,False,"Critic flags the same statement about urine sodium >20 mmol/L, but only challenges it as too categorical/nonspecific; it"
+PMC5484965,0,,True,False,HealthGuard explicitly flags the same incorrect BSA value: 'about 15% to 20% body surface area.' Critic has no flag abou
+PMC5484965,1,,True,False,"HealthGuard again flags the same shifted BSA range ('15% to 20%'), which matches this duplicated error. Critic does not "
+PMC5484965,2,,False,True,Critic explicitly flags the claim 'Loss of CD7 greater than 50% is often used as a supportive immunophenotypic threshold
+PMC5799069,0,,False,False,No flag mentions the specific inguinal vs pelvic lymphadenopathy error.
+PMC5799069,1,,False,True,Critic flag on MAP states 'about 74 mmHg' is roughly correct; this matches the stated value/correct counterpart.
+PMC5799069,2,,False,True,"Critic flag on MAP identifies 74 mmHg as the roughly correct value, thereby catching the incorrect 'about 78 mmHg'."
+PMC5799069,3,,False,False,No flag addresses the unsupported pack-year calculation or missing duration.
+PMC5799069,4,,True,True,Both HealthGuard and Critic explicitly flag: 'An ESR above 20 mm/h is generally considered diagnostic of significant sys
+PMC5807253,0,,False,False,No flag addresses the MAP calculation or the specific wrong value 53 mmHg vs 49 mmHg.
+PMC5807253,1,,True,False,"HealthGuard flag repeats the same incorrect baseline creatinine: 'baseline of 0.68 mg/dL two months earlier,' which iden"
+PMC5807253,2,,False,True,Critic directly flags the claim that osmolar gap 'generally needs to exceed 25 mOsm/kg to be considered clearly abnormal
+PMC5821965,0,,True,True,HealthGuard flag 'The ascites has a low SAAG of less than 1.5 g/dL.' matches the wrong cutoff; Critic flag on 'low-SAAG 
+PMC5821965,1,,False,False,"Critic mentions the 945 mm^2 calculation claim but explicitly says it is arithmetically correct, so it does not identify"
+PMC5821965,2,,False,False,Neither method flags the omission/loss of the specific maximum peritoneal implant size of 16 mm or any contradictory siz
+PMC6101595,0,,False,True,Critic flag matched: 'about 16 weeks of urinary hesitancy' vs case stating 4 months.
+PMC6101595,1,,True,True,HealthGuard matched via β-catenin staining pattern flag; Critic explicitly matched 'membranous and nuclear' vs correct '
+PMC6101595,2,,False,True,Critic flag matched the unsupported '>98% sensitive' colonoscopy claim.
+PMC6047986,0,,False,True,Critic flag on the MAP claim explicitly quotes the wrong value 'mean arterial pressure is about 102 mmHg'.
+PMC6047986,1,,True,False,HealthGuard flag explicitly quotes the wrong value 'The BMI is 16.8 kg/m2.'
+PMC6047986,2,,True,True,HealthGuard flag quotes the wrong threshold 'usual upper limit of normal of about 2500 U/mL'; Critic flag on sIL-2R expl
+PMC5977048,0,,False,False,No flag mentions the incorrect 17-year duration or the correct 7-year duration.
+PMC5977048,1,,False,True,"Critic flag 2 states the case shows thickened 'ulnar and popliteal nerves,' which matches the correct counterpart and co"
+PMC5977048,2,,False,True,Critic flag 3 directly quotes 'A fasting glucose below 126 mg/dL is generally considered normal' and challenges it. Heal
+PMC6151222,0,,True,True,HealthGuard flag: 'The main pulmonary artery measured 3.4 cm.' Critic flag explicitly corrects this to 3.6 cm.
+PMC6151222,1,,True,False,HealthGuard flag: 'A serum calcium of about 2.3 mmol/L is within the normal range.' Critic mentions the 2.3 mmol/L conve
+PMC6151222,2,,False,True,Critic flag on ACE explicitly challenges the 'about 70 U/L' cutoff and cites the case reference range 14–82 U/L.
+PMC6192136,0,,False,False,No flag addresses the incorrect 4-month timeline versus the correct 5-month course.
+PMC6192136,1,,True,True,HealthGuard flag matches the wrong fact: 'CT showed an enlarged juxtacardiac lymph node.' Critic explicitly flags that '
+PMC6192136,2,,False,True,Critic flag explicitly targets the claim 'modern urine NAAT ... generally over 99% sensitive' as too absolute/unsupporte
+PMC6241168,0,,True,False,HealthGuard flag exactly matches the wrong fact: 'The pauses were up to 4 seconds.' Critic has no flag about pause durat
+PMC6241168,1,,False,True,Critic flag quotes the exact wrong threshold statement 'usual preserved-EF threshold of 55%' and challenges that cutoff 
+PMC6241168,2,,False,False,"HealthGuard has no flag about the gram conversion. Critic flags the sentence containing '180 mg, which is 0.36 g' but ex"
+PMC6177042,0,,True,False,HealthGuard flag explicitly repeats the wrong lineage fact: 'paternal grandmother' vs correct maternal grandmother. No C
+PMC6177042,1,,False,True,"Critic flag directly targets the same numeric claim: '40% corresponds to about 48,000 ectopic beats over 24 hours.' Heal"
+PMC6177042,2,,False,True,"Critic flag directly addresses the same QTc threshold/misclassification claim, stating that lower thresholds apply in ch"
+PMC6176474,0,,False,False,No HealthGuard flags. Critic flag mentions the 2–3 mm ptosis statement but only challenges the botulism-vs-MG inference 
+PMC6176474,1,,False,True,"Critic flag 1 quotes the exact MAP claim: 'Based on 136/80 mmHg, his mean arterial pressure is about 102 mmHg...' which "
+PMC6176474,2,,False,True,Critic flag 3 explicitly identifies the same wrong fact: 'pupils are usually involved only when the palpebral fissure is
+PMC6243317,0,,False,False,"HealthGuard provided no flags. Critic flagged the inference from the amylase elevation, but did not identify the specifi"
+PMC6243317,1,,False,False,HealthGuard provided no flags. Critic did not flag the specific wrong location 'third portion of the duodenal wall' vers
+PMC6243317,2,,False,True,HealthGuard provided no flags. Critic explicitly flagged the claim using '>100 U/ml' as a concerning threshold for pancr
+PMC6282426,0,,False,False,No flag mentions the incorrect FEV₁/FVC value 71% or the correct value 69%.
+PMC6282426,1,,False,True,Critic flag: 'The absolute drop in oxygen saturation on the walk test is 9 percentage points...' with issue noting it sh
+PMC6282426,2,,True,True,HealthGuard flag explicitly quotes 'upper reference limit of 225 U/L.' Critic flag on LDH states the reference range is 
+PMC6335789,0,,True,True,"HealthGuard repeats the same wrong value in flag 1 ('MCV 57.7 fL'), which identifies the specific erroneous fact. Critic"
+PMC6335789,1,,True,False,HealthGuard flag 2 explicitly identifies the same wrong post-transfusion hemoglobin estimate ('about 7.3 g/dL'). No Crit
+PMC6335789,2,,True,True,HealthGuard flag 3 exactly matches the wrong claim about MCV <60 fL being macrocytic. Critic flag 1 explicitly flags tha
+PMC6342725,0,,True,True,HealthGuard flagged the exact wrong dose statement ('150 mg/day'). Critic explicitly corrected it: 100 mg q12h = 200 mg/
+PMC6342725,1,,True,False,HealthGuard flagged the exact wrong LVEF value ('60–65%'). Critic did not flag any statement about ejection fraction/LVE
+PMC6342725,2,,True,True,HealthGuard flagged the exact wrong BNP threshold statement ('values above 100 pg/mL are generally considered diagnostic
+PMC6556260,0,,True,False,"HealthGuard flagged the exact wrong fact: ""Her BMI is 17.4."" Critic did not mention BMI."
+PMC6556260,1,,False,True,"Critic flagged the exact threshold mismatch: claim mentioning ""usual upper limit of 35 U/ml"" with issue noting the case "
+PMC6421145,0,,False,False,No flag mentions the incorrect 12 mmHg value or the correct 16 mmHg calculation.
+PMC6421145,1,,True,False,"HealthGuard explicitly flags: 'He had 7,688 premature ventricular contractions per day.' This matches the injected wrong"
+PMC6421145,2,,False,False,"Critic flags the statement containing 'E/Ea ratio above 15,' but says it is 'broadly correct' and critiques overstatemen"
+PMC6519488,0,,True,False,"HealthGuard flag 1 explicitly states the wrong site 'left common iliac vein thrombosis,' matching the injected error; no"
+PMC6519488,1,,False,True,Critic flag 1 quotes the specific wrong value 'a drop of about 88%'; HealthGuard only says the fall is '>50%' and does n
+PMC6519488,2,,False,True,Critic flag 2 directly identifies the incorrect 4Ts statement about requiring a platelet nadir below 30×10^9/L; HealthGu
+PMC6557017,0,,False,False,No flag mentions the absolute monocyte count calculation or the correct value 3.78×10^3/mm^3.
+PMC6557017,1,,True,False,HealthGuard flag matches the specific wrong fact: 'The lymphadenopathy included cervical adenopathy.' No Critic flag add
+PMC6557017,2,,False,False,No flag identifies the incorrect AML blast threshold of 15% or states the correct 20% threshold.
+PMC6656673,0,,False,True,"Critic flag on MMSE percentage explicitly says 19/30 ≈ 63%, not 67%."
+PMC6656673,1,,False,False,HealthGuard repeats the same wrong fact ('left frontal lobe') rather than correcting/flagging it; Critic has no flag abo
+PMC6656673,2,,False,True,Critic flag on hypocalcemia threshold explicitly challenges 'below about 9.0 mg/dL' as nonstandard.
+PMC6709319,0,,False,False,No flag mentions the FEV1/FVC ratio or the 91% vs ~95% calculation.
+PMC6709319,1,,True,True,HealthGuard flag exactly repeats the wrong fact: 'The acute opacities spared the lung apices.' Critic flag explicitly co
+PMC6709319,2,,False,True,Critic flag directly targets the same threshold claim: 'a stimulation index generally needs to exceed about 180% to be c
+PMC6726168,0,,True,False,"HealthGuard flag exactly repeats the incorrect AFP value '14,381 ng/mL'; Critic has no flag about the AFP numeric mismat"
+PMC6726168,1,,False,True,"Critic flag exactly matches the incorrect claim that AFP >10,000 ng/mL is generally diagnostic of HCC; HealthGuard only "
+PMC6726171,0,,False,False,No HealthGuard flags. No Critic flag addresses the specific wrong volume estimate of 17 mL vs ~15–16 mL.
+PMC6726171,1,,False,False,"No HealthGuard flags. Critic flagged the sentence containing 'increased myoinositol and without elevated choline,' but o"
+PMC6726171,2,,False,False,"This injected error is marked not applicable; neither method flagged the WHO grade 1 statement, and there is no actual e"
+PMC6735545,0,,False,True,Critic flag on MAP claim quotes the specific wrong value 'about 95 mmHg' for 120/75 mmHg.
+PMC6735545,1,,False,False,No flag identifies the specific wrong triglyceride threshold of 600 mg/dL versus 265 mg/dL.
+PMC6735545,2,,True,True,HealthGuard flag repeats the wrong liver-edge value '2 cm below the right costal margin'; Critic explicitly states the r
+PMC6815408,0,,True,False,HealthGuard flag exactly matches the wrong timeline statement: 'The paresthesia ascended to the trunk over 3 weeks.'
+PMC6815408,1,,False,True,Critic flag quotes the same specific wrong statement about '4 infratentorial/spinal demyelinating lesions' and challenge
+PMC6815408,2,,False,False,"Critic discusses nuance about McDonald criteria applicability, but does not flag the specific incomplete criterion wordi"
+PMC6737792,0,,False,False,"Critic mentions the 161 mg/dL claim but says the eAG conversion is 'approximately correct,' so it does not identify the "
+PMC6737792,1,,True,True,HealthGuard exactly flags 'The inter-eye visual acuity difference is 40 letters by Snellen equivalent.' Critic also flag
+PMC6737792,2,,False,True,Critic flags the claim 'An HbA1c under 6.0% would generally be considered controlled' as introducing an arbitrary thresh
+PMC7036447,0,,True,False,HealthGuard exactly flagged the wrong fact: 'intraretinal fluid' instead of subretinal fluid. Critic did not flag that s
+PMC7036447,1,,True,True,Both flagged the same incorrect conversion: '20/20 corresponds to about 6/9 Snellen'; Critic explicitly gives the correc
+PMC7036447,2,,False,True,Critic exactly flagged the HbA1c 6.5% neovascularization-threshold claim as unsupported/misleading and contrasted it wit
+PMC7036531,0,,False,False,"No HealthGuard flags. Critic flags discuss mixing study/heparin/cancer association, not the incorrect conversion of 2 mo"
+PMC7036531,1,,False,False,"No HealthGuard flags. Critic flags address overstatements about heparin effect and malignancy association, not the speci"
+PMC7036531,2,,False,False,No HealthGuard flags. Critic flags do not identify the altered timeline detail ('10 weeks earlier' vs 2 months earlier) 
+PMC7141725,0,,False,False,Neither method flagged the incorrect MAP value (~96 mm Hg vs correct ~102 mm Hg).
+PMC7141725,1,,True,True,HealthGuard flag matched: 'urinalysis with granular casts.' Critic flag matched: 'Urinalysis with ... granular casts' wi
+PMC7141725,2,,True,True,HealthGuard flag matched: 'A lipase more than 5 times the upper limit of normal is generally diagnostic for acute pancre
+PMC7103037,0,,False,True,Critic flag 1 explicitly quotes the wrong MAP claim ('about 65 mmHg') from BP 90/60 mmHg.
+PMC7103037,1,,False,True,Critic flag 3 explicitly quotes the incorrect threshold claim that morning cortisol <5 µg/dL is sufficient to confirm ad
+PMC7103037,2,,False,False,Neither HealthGuard nor the Critic flags the specific incorrect combined adrenal mass measurement (6.9 × 3.7 × 5.4 cm).
+PMC6928534,0,,True,True,HealthGuard flag: 'The initial post-transfusion hemoglobin increase was 0.8 g/dL.' Critic flag 5 references the correct 
+PMC6928534,1,,False,False,No HealthGuard or Critic flag mentions the blast percentage or corrects 2% vs 1% blasts.
+PMC6928534,2,,False,True,Critic flag 3 directly matches: 'Microcytosis is generally defined as an MCV below 70 fL in adults' and states this thre
+PMC7205540,0,,False,True,Critic flag 1 explicitly identifies the wrong ANC 'about 1.2×10^3/μL' and corrects it to 0.94×10^3/μL. HealthGuard had n
+PMC7205540,1,,False,False,"No HealthGuard flags. Critic flag 2 discusses the severe aplastic anemia criteria statement, but it does not identify th"
+PMC7205540,2,,False,False,"No HealthGuard flags, and no Critic flag mentions the hepatitis D vs hepatitis E substitution."
+PMC7284055,0,,False,True,Critic flag 0 explicitly quotes the wrong threshold '1.0 mg/L' and challenges the asserted cutoff.
+PMC7284055,1,,False,True,"Critic flag 1 explicitly quotes 'totals 13%' when combining plasma cells and lymphocytes, matching the arithmetic error."
+PMC7284055,2,,False,False,"No flag addresses the bacteria/nocardia/mycobacteria/fungi vs fungus wording, and the injected item is not actually an e"
+PMC7362425,0,,False,False,Neither method flagged the MAP value/miscalculation.
+PMC7362425,1,,True,True,HealthGuard flag matched exactly: 'The urea was 6.7 mmol/L.' Critic also matched via the first claim's issue noting urea
+PMC7362425,2,,False,False,Neither method flagged the ARR screening threshold of 20 vs commonly used ~30 ng/dL per ng/mL/h.
+PMC7463383,0,,True,False,HealthGuard flagged the same wrong fact: 'The last trastuzumab emtansine dose was 24 days before presentation.' Critic d
+PMC7463383,1,,True,True,HealthGuard flagged both supporting wrong statements: 'The patient had 15 infusions over 26 days.' and 'This averages ab
+PMC7463383,2,,False,False,Neither method flagged the incorrect hemoptysis threshold of '>30 mL/day' or provided the correct higher range.
+PMC7501920,0,,False,True,Critic flag on the MAP claim explicitly says 74 mm Hg is incorrect and gives the correct MAP ≈ 70 mm Hg.
+PMC7501920,1,,False,True,"Critic flag on the HLH ferritin threshold explicitly rejects the 30,000 ng/mL cutoff and notes lower ferritin levels can"
+PMC7501920,2,,True,False,"HealthGuard flag repeats the specific incorrect leukopenia value '1.96 ×10⁹/L,' matching the injected wrong fact; Critic"
+PMC7443985,0,,True,False,"HealthGuard flag exactly repeats the incorrect urine protein-creatinine ratio '1.2 g/g', matching the injected error. No"
+PMC7443985,1,,False,True,"Critic flag on the corticosteroid threshold explicitly discusses the '>15 mg/day' threshold being presented too firmly, "
+PMC7443985,2,,False,False,Neither HealthGuard nor Critic flags mention the 'about 90%' calculation or the correct 100% increase.
+PMC7546059,0,,True,False,HealthGuard explicitly flagged the incorrect 'Over the last 6 months...' statements; Critic did not address the 6 vs 8 m
+PMC7546059,1,,True,False,HealthGuard explicitly flagged 'The patient is 26 years old.'; Critic did not flag the wrong age value.
+PMC7546059,2,,True,True,"Both flagged the same specific unsupported age-cutoff claim: 'In adults younger than 25 years, an apical lung primary wo"
+PMC7568165,0,,False,False,No flag mentions the MAP calculation or the incorrect value 125 mmHg.
+PMC7568165,1,,True,False,HealthGuard flag matched the same wrong fact: 'The patient’s Glasgow Coma Scale score was 4.' Critic did not address GCS
+PMC7568165,2,,False,True,"Critic’s first flag explicitly targets the same incorrect Hunter criteria statement, including that it is not a simple f"
+PMC7676809,0,,False,True,Critic flag 1 quotes the same wrong fact: 'mean arterial pressure is about 97 mm Hg'.
+PMC7676809,1,,False,False,No HealthGuard flags. No Critic flag mentions the CRP cutoff or its correct range.
+PMC7676809,2,,False,False,No HealthGuard flags. Critic discusses overcalling ureter/appendix but does not flag the specific wrong value 'external 
+PMC7752573,0,,False,True,Critic flag 1 matches the specific wrong calcium-phosphate product value ('about 35 mg^2/dL^2' vs 32.94).
+PMC7752573,1,,True,False,HealthGuard flag matches the specific wrong age statement: 'Bilateral sensorineural hearing loss was identified at age 5
+PMC7752573,2,,False,True,Critic flag 2 matches the unsupported specific threshold claim that PTH would need to be above roughly 100 pg/mL.
+PMC7813055,0,,False,False,"No flag mentions the ANC calculation or the specific wrong value 15,500/µL versus 16,518/µL."
+PMC7813055,1,,True,False,HealthGuard flag: 'She had markedly elevated ESR of 124 mm/h.' This repeats the same incorrect ESR value. No Critic flag
+PMC7813055,2,,False,True,Critic flag explicitly identifies the same threshold error: it quotes 'moderate ARDS (<150)' and states the correct Berl
+PMC7845154,0,,False,False,No HealthGuard flags. Critic did not flag the CEA multiple or the ULN calculation.
+PMC7845154,1,,False,True,Critic flag matched: “The left supraclavicular node measured 8 mm...” — this points to the same specific wrong node size
+PMC7845154,2,,False,False,No HealthGuard flags. Critic did not flag the incorrect CEA upper limit of normal/cutoff value.
+PMC7873790,0,,True,False,"HealthGuard flagged the exact incorrect ferritin value: ""Her ferritin is 833 ng/mL."" Critic did not flag ferritin."
+PMC7873790,1,,False,False,"Critic flagged the unsupported inference about hemodynamic compromise, but explicitly said the MAP calculation was rough"
+PMC7873790,2,,False,True,"Critic flagged the exact age-threshold error: ""over age 55"" should be age 50 and older. HealthGuard had no related flag."
+PMC7850611,0,,False,True,Critic flag 1 matches the specific wrong value: 'mean arterial pressure of about 95 mmHg'.
+PMC7850611,1,,False,True,"Critic flag 3 explicitly corrects the threshold: first-degree AV block is PR interval >200 ms, not >180 ms."
+PMC7850611,2,,False,False,No HealthGuard flags. No Critic flag mentions the lesion occurring 6 months earlier vs 3 months earlier.
+PMC7924145,0,,False,False,No HealthGuard flags. No Critic flag addresses the prostate/adrenal volume calculation or the specific wrong value 58 mL
+PMC7924145,1,,False,False,No HealthGuard flags. No Critic flag addresses the MAP calculation or the specific wrong value 112 mm Hg vs 120 mm Hg.
+PMC7924145,2,,False,True,Critic flag matched: “they were not in the more concerning range of greater than 2 times the upper limit of normal that 
+PMC7937576,0,,True,False,"HealthGuard explicitly flagged the same wrong fact: ""There is narrowing of the bilateral T9/T10 neuroforamina."" Critic d"
+PMC7937576,1,,False,True,"Critic flagged the exact statement containing the ADC threshold: ""...ADC below about 1.0 × 10^-3 mm^2/s..."" This matches"
+PMC7937576,2,,False,False,Neither HealthGuard nor Critic flagged the incorrect conversion of 3 months to approximately 10 weeks.
+PMC7954390,0,,False,False,No HealthGuard flags. No Critic flag mentions the mesalazine total daily dose 3.6 g/day vs correct 3.2 g/day.
+PMC7954390,1,,False,True,"Critic flag 0 directly matches: it states the threshold should be troponin-T <14 ng/L, not ~20 ng/L."
+PMC7954390,2,,False,False,No HealthGuard flags. No Critic flag mentions age at ulcerative colitis diagnosis 16 vs correct 17.
+PMC7993351,0,,False,False,No flag mentions the MAP value 62 mmHg or the correct calculation of 56 mmHg.
+PMC7993351,1,,True,False,"HealthGuard flag matches the specific wrong leukocyte count: ""The leukocytosis was 12,400 cells/mm3."" Critic has no flag"
+PMC7993351,2,,False,True,"Critic directly flags the claim: ""Heat stroke is generally defined by core temperature above 41°C with CNS dysfunction,"""
+PMC8032522,0,,False,True,Critic flagged the MAP statement: 'Mean arterial pressure is about 72 mmHg...' even though the injected item says this w
+PMC8032522,1,,True,False,HealthGuard directly flagged: 'Her BMI is 15 kg/m^2.'
+PMC8032522,2,,True,True,Both flagged the same claim: 'A urine osmolality above 200 mOsm/kg is essentially diagnostic in this setting.'
+PMC7981723,0,,True,True,"HealthGuard flag exactly matches the wrong fact 'T4 to T9'. Critic flag 1 states the correct extent 'T3 to T9', thereby "
+PMC7981723,1,,False,True,Critic flag 1 explicitly challenges 'about six thoracic vertebral levels' and says T3-T9 is approximately seven levels i
+PMC7981723,2,,False,False,Neither HealthGuard nor the Critic flags mention the incorrect PLS diagnostic duration criterion (3 years vs modern 4 ye
+PMC8046473,0,,True,True,HealthGuard flag 1 repeats the wrong site ('base of the fourth metacarpal'); Critic flag 1 explicitly corrects fourth to
+PMC8046473,1,,True,False,HealthGuard flag 2 includes the wrong timeline point '10 weeks'. Critic does not specifically flag 10 weeks vs 12 weeks;
+PMC8046473,2,,False,True,Critic flag 2 directly addresses the 'about 20 weeks' interval statement. HealthGuard has no flag about this elapsed-int
+PMC8046473,3,,False,True,Critic flag 4 explicitly flags the unsupported/incorrect hypercalcemia threshold 'above roughly 11.5 mg/dL'. HealthGuard
+PMC8123563,0,,False,True,Critic flag 3 quotes the same conversion claim: 'free T4 of 0.7 ng/dL converts to about 7.0 pmol/L'.
+PMC8123563,1,,False,True,Critic flag 4 quotes the same MAP claim: 'blood pressure of 130/80 mmHg gives a mean arterial pressure of about 100 mmHg
+PMC8123563,2,,False,True,Critic flag 1 quotes the same threshold claim: 'Calcitonin levels above 1000 pg/mL are generally considered strongly sug
+PMC8053279,0,,False,False,"No injected error here; the listed calcium conversion/value is actually correct, and no flag addresses a nonexistent err"
+PMC8053279,1,,False,True,"Critic flag matched exactly: '5300/µL equals 5.3 × 10^9/L, not 5.8 × 10^9/L.' HealthGuard had no flag about the WBC conv"
+PMC8053279,2,,True,True,HealthGuard flagged the exact incorrect statement: 'Serum calcium above about 9.0 mg/dL can be seen with granulomatous v
+PMC8138282,0,,False,True,Critic flag 0 explicitly identifies the incorrect MAP value of 158 mm Hg and gives the correct value (~168 mm Hg).
+PMC8138282,1,,False,True,Critic flag 1 explicitly identifies 'right middle lobe infiltrate' as inaccurate and corrects it to right lower lobe.
+PMC8138282,2,,False,True,Critic flag 2 explicitly identifies the incorrect TTP severe ADAMTS13 cutoff '<20%' and corrects it to typically '<10%'.
+PMC8186929,0,,False,False,"No HealthGuard flags. Critic flags discuss troponin/PE/ARCAPA interpretation, not the incorrect MAP value of 45 mmHg vs "
+PMC8186929,1,,False,False,No HealthGuard flags. Critic flags do not address the fold-change calculation 140-fold vs correct ~157-fold.
+PMC8186929,2,,False,False,No HealthGuard flags. Critic flags do not mention interventricular septal flattening timing (systolic vs diastolic).
+PMC8190582,0,,True,False,HealthGuard flag exactly matches the wrong BMI statement: 'His BMI is 11.2 kg/m2.'
+PMC8190582,1,,False,False,No flag mentions the age/timeline error about plateauing from age 5 vs age 6.
+PMC8190582,2,,False,True,"Critic flag exactly targets the same ARFID/IBW threshold wording, noting the case is about 68% of ideal body weight, not"
+PMC8265096,0,,False,False,No flag mentions the absolute eosinophil count 2620/µL vs 2520/µL.
+PMC8265096,1,,True,True,"HealthGuard flag: 'Lipase was previously 2145 IU/L.' Critic flags 1 and 5 also repeat 'previously 2145 IU/L,' matching t"
+PMC8265096,2,,False,True,Critic flag 3 quotes 'upper limit around 100 mg/dL' and challenges that statement; this matches the specific incorrect I
+PMC8294152,0,,True,False,HealthGuard exactly flags the unsupported timeline statement: 'The lower-lip paresthesia has been present for about 8 we
+PMC8294152,1,,False,False,Neither method flags the specific Ki-67 threshold error (>90% vs correct >95%). Critic mentions Ki-67 only as part of a 
+PMC8243071,0,,True,False,"HealthGuard explicitly flagged: ""The patient’s PaO2/FiO2 ratio was about 92."" Critic did not flag this ratio/value."
+PMC8243071,1,,False,False,"Neither method flagged the specific CSF protein misstatement (""normal protein/glucose"" vs low protein)."
+PMC8243071,2,,True,True,"Both flagged the same incorrect threshold statement: HealthGuard flagged ""CSF opening pressure above 180 mm H2O is gener"
+PMC8367851,0,,False,False,"HealthGuard provided no flags. Critic flagged the same ANC statement but explicitly said the arithmetic is correct, so i"
+PMC8367851,1,,False,True,Critic flag 2 matches exactly: it says the trace misstated the specimen source as blood and that the reference says M. f
+PMC8367851,2,,False,True,Critic flag 3 matches exactly: it identifies the claim that c-ANCA/PR3 is positive in well over 95% of active systemic G
+PMC8299630,0,,False,False,No flag mentions the creatinine conversion error or the correct value (~1.11 mg/dL).
+PMC8299630,1,,False,False,No flag identifies the incorrect nephrotic-range threshold of 3.0 g/day versus the correct >3.5 g/day.
+PMC8299630,2,,True,True,HealthGuard flag quotes the wrong platelet count '116×10^9/L'; Critic flag explicitly states the platelet count should b
+PMC8378370,0,,False,False,No flag addresses this statement; moreover the injected 'error' is actually correct.
+PMC8378370,1,,False,False,No HealthGuard flags. No Critic flag mentions the unsupported specific stool frequency of 3–4 loose stools daily or the 
+PMC8378370,2,,False,True,"Critic flag 2 directly quotes the same wrong fact: 'In SJS/TEN, epidermal detachment involving less than 5% body surface"
+PMC8420661,0,,False,False,"No HealthGuard flags. Critic flags discuss INR/DIC threshold and 6 vs 7 days, but none mention the incorrect total dose "
+PMC8420661,1,,False,True,Critic flag matched exactly: 'DIC would usually be suspected once the INR rises above about 1.2...' and explains that th
+PMC8420661,2,,False,True,"Critic flag matched exactly: it states the case was 'day 7 of meropenem administration, not 6 days.'"
+PMC8436279,0,,False,False,No flag addresses the incorrect timing ('48 hours' vs ~24 hours/day 2).
+PMC8436279,1,,True,True,HealthGuard flag: 'CSF protein is 32 mg/dL.' Critic flag on albuminocytologic dissociation explicitly says the case repo
+PMC8436279,2,,True,True,HealthGuard flag: 'CSF protein in Guillain-Barré syndrome is typically above 35 mg/dL when albuminocytologic dissociatio
+PMC8461971,0,,False,False,Neither method flagged the incorrect fold-increase calculation (2.4 vs approximately 3.01).
+PMC8461971,1,,True,True,HealthGuard flag matched: 'The CSF opening pressure was 225 mmH2O.' Critic flag matched the same specific factual error:
+PMC8461971,2,,True,False,HealthGuard flag matched: 'The eye symptoms occurred on day 28...' which conflicts with the correct day 29. Critic did n
+PMC8536869,0,,False,False,No HealthGuard flags. No Critic flag addresses the specific timing value '12 weeks earlier' vs 'approximately 13 weeks e
+PMC8536869,1,,False,False,No HealthGuard flags. No Critic flag addresses the specific rate '70 beats per minute' vs '60 beats per minute' for the 
+PMC8557694,0,,True,False,HealthGuard flagged the exact wrong timeline: 'The syndrome has lasted about 8 weeks.' Critic did not mention the 8-week
+PMC8557694,1,,False,True,Critic flagged the corticosteroid/biopsy-yield statement: 'prior corticosteroid exposure can reduce diagnostic yield of 
+PMC8557694,2,,True,False,Same timeline contradiction as error 0; HealthGuard flagged 'about 8 weeks.' Critic did not flag this specific factual m
+PMC8577092,0,,False,False,No flag mentions the MAP value or its correct calculation.
+PMC8577092,1,,True,True,HealthGuard flag explicitly repeats the wrong value: 'The urine chloride was 46 mmol/L.' Critic flag 5 identifies the di
+PMC8577092,2,,False,True,Critic flag 5 quotes the threshold statement 'generally under 30 mmol/L' while criticizing the inconsistency in that sam
+PMC8777167,0,,True,False,"HealthGuard flag matched the specific wrong fact: ""The trunk maculopapular rash appeared 3 days after dicloxacillin."""
+PMC8777167,1,,True,False,"HealthGuard flag matched the specific wrong fact: ""Seven days of eruption corresponds to roughly 10 days before presenta"
+PMC8777167,2,,False,True,"Critic flag matched the specific wrong fact: ""A CRP under 10 mg/dL is generally considered within normal limits"" and not"
+PMC8627342,0,,False,False,No flag mentions the platelet/unit conversion error (8.12 × 10^6/L vs 812 × 10^9/L).
+PMC8627342,1,,True,True,HealthGuard flag quotes the incorrect cutoff '110 beats/min'; Critic flag 1 explicitly corrects it to 100 beats/min.
+PMC8627342,2,,False,True,Critic flag 4 explicitly identifies 'biphasic flow' as wrong and corrects it to triphasic flow.
+PMC8784702,0,,False,True,Critic flag 1 matches the specific arithmetic error: 3.8x ULN vs correct 54/16 = 3.375x.
+PMC8784702,1,,False,False,No HealthGuard flags. No Critic flag mentions the treatment duration being 14 days vs correct 17 days.
+PMC8784702,2,,False,True,Critic flag 2 matches the specific Burch-Wartofsky cutoff error: '>35 diagnostic' vs standard threshold of >45 with 25–4
+PMC8731213,0,,False,True,Critic flagged the exact MAP statement: 'Her mean arterial pressure is about 67 mmHg from a blood pressure of 100/40 mmH
+PMC8731213,1,,False,False,No flag mentions the neutrophil percentage discrepancy (81% vs 91%).
+PMC8731213,2,,False,False,No flag mentions the ESR upper-limit reference claim of 40 mm/h.
+PMC8832220,0,,True,False,HealthGuard flagged the same incorrect postoperative corneal thickness value: '...487 µm after DMEK.' Critic did not add
+PMC8832220,1,,False,False,Neither method flagged the specific percentage increase/rounding claim ('About 45% from the prior 486 µm').
+PMC8832220,2,,False,True,Critic directly flagged the unsupported 'roughly 30%' endothelial cell loss threshold claim. HealthGuard did not address
+PMC8840641,0,,True,False,HealthGuard flag exactly matches the wrong value: 'The patient died within five months.' Critic has no flag about the 5 
+PMC8840641,1,,False,True,Critic explicitly flags the same wrong fact/value: 'about an 65% increase' and corrects it to about 81.8%.
+PMC8840641,2,,False,False,Neither method flags the specific incorrect reference rate 'TTF-1 positivity in more than 80% of lung adenocarcinomas.' 
+PMC8933725,0,,False,True,Critic flag on the 44 cm3 ellipsoid volume explicitly identifies the unsupported/wrong volume calculation.
+PMC8933725,1,,True,False,"HealthGuard flag quotes the specific wrong fact: 'hypoesthesia of the right lateral leg,' matching the side-reversal err"
+PMC8933725,2,,False,True,Critic flag explicitly targets the claim 'Ki-67 index above 5% is generally taken as a malignant cutoff' as unsupported/
+PMC8962241,0,,False,False,No HealthGuard flags. No Critic flag addresses the specific MAP value or its correct calculation.
+PMC8962241,1,,False,False,No HealthGuard flags. No Critic flag addresses the cortex vs subcortex location error.
+PMC8962241,2,,False,True,Critic flag 1 matches the specific incorrect claim: it challenges the statement that NIHSS 8 or greater is the threshold
+PMC8895532,0,,False,False,No method flagged this statement; moreover the injected 'error' is actually correct (1.5 cm = 15 mm).
+PMC8895532,1,,False,True,Critic flag 1 matches the specific wrong cutoff: it quotes 'enlarged only once it exceeds 2.5 mm' and says this threshol
+PMC8895532,2,,False,False,Neither method flagged the unsupported specific interval of 'about 11 weeks.' The Critic flags concern NT cutoff and dia
+PMC8957291,0,,False,True,"Critic flag 2 quotes the same CSF:serum glucose ratio statement ('about 0.7'), so it matches the specific wrong value. H"
+PMC8957291,1,,True,False,"HealthGuard flag explicitly states 'INR of 1.17,' which is the same specific wrong value. Critic has no flag about INR."
+PMC8957291,2,,False,True,Critic flag 4 quotes the same ESR interpretation ('23 mm/hr ... within the normal range for many adult men') and challen
+PMC9127846,0,,True,False,HealthGuard flag matches the specific wrong fact: 'dorsal lesion' (should be volar). Critic has no flag about lesion loc
+PMC9127846,1,,False,False,Neither method flags the specific elapsed-time error '8 years earlier' vs '7 years earlier'.
+PMC9127846,2,,False,True,Critic flag explicitly matches the wrong PPD threshold claim and states the correct distinction: 5 mm for certain high-r
+PMC9166963,0,,False,False,HealthGuard only flags urine specific gravity. Critic quotes the MAP=65 mmHg statement but explicitly says the MAP calcu
+PMC9166963,1,,True,False,HealthGuard flag matches the specific wrong urine specific gravity value: 'A urine specific gravity of 1.021...'. Critic
+PMC9166963,2,,False,False,Neither method flags the specific urine pH threshold error (using 6.0 instead of about 5.5).
+PMC9334930,0,,False,True,"Critic flag explicitly says the BP range was above the 99th percentile, not the 95th. HealthGuard repeats the wrong 95th"
+PMC9334930,1,,False,False,No HealthGuard or Critic flag addresses the incorrect CT timing of about 7 days after arrest versus around day 3 after d
+PMC9334930,2,,False,True,Critic flag explicitly identifies the MRI timing error: stated as 18 days after arrest but actually day 16 after arrest.
+PMC9176094,0,,False,False,No flag addresses the arithmetic error yielding 'about 20 mmol/L' versus 118 mmol/L.
+PMC9176094,1,,False,True,Critic flag 2 directly quotes the incorrect 17-hydroxyprogesterone cutoff statement ('below about 1000 ng/dL...') and ch
+PMC9176094,2,,True,False,"HealthGuard flag states 'Upon transfer at 41 days, the bicarbonate was 21 mmol/L,' which is the same specific wrong valu"
+PMC9009014,0,,False,False,No flag identifies the MAP value error specifically. The critic flag mentions 'mean arterial pressure of about 138 mmHg'
+PMC9009014,1,,True,True,HealthGuard directly flags 'The patient’s creatinine is 3.72 mg/dL.' Critic flag 2 explicitly says the creatinine is inc
+PMC9009014,2,,False,False,No flag catches the cumulative dose error. Critic flag 6 repeats the 2.5 g statement but explicitly says 'The dosing ari
+PMC9201294,0,,False,False,No HealthGuard flags. No Critic flag addresses the specific incorrect percentage drop ('about 12%' vs about 15.5%).
+PMC9201294,1,,False,True,No HealthGuard flags. Critic directly flags the claim 'many labs use an upper limit of normal around 35 IU/L...' as unsu
+PMC9361795,0,,False,False,No flag mentions the 6 weeks vs 4 weeks timeline.
+PMC9361795,1,,True,False,"HealthGuard explicitly flagged: ""Each plaque is roughly 1.5 cm × 1.5 cm."" No Critic flag addresses lesion dimensions/are"
+PMC9361795,2,,False,True,"Critic flagged the claim containing ""about 10^3 organisms per gram of tissue"" as an unsupported quantitative threshold; "
+PMC9420635,0,,False,False,No HealthGuard flags. Critic flags do not mention the MAP calculation or the 53 vs 49 mmHg value.
+PMC9420635,1,,False,False,No HealthGuard flags. Critic flags do not mention the percent increase calculation or the 74% vs 87% value.
+PMC9420635,2,,False,True,"Critic flag 1 matches: it explicitly challenges the statement that the usual diagnostic threshold is 5× ULN, which corre"
+PMC9405725,0,,False,False,No match. HealthGuard only flags the HbA1c threshold statement. Critic mentions the adalimumab-dose statement as specula
+PMC9405725,1,,False,False,No match. Neither HealthGuard nor Critic flags the absolute lymphocyte count calculation/value (910/µL vs correct ≈637/µ
+PMC9405725,2,,True,True,HealthGuard flag matches the incorrect HbA1c threshold statement ('usual diabetes diagnostic threshold of 7.0%'). Critic
+PMC9440340,0,,True,False,"HealthGuard flag matches the specific wrong duration: ""recent 7-day cough and rhinorrhea."" Critic has no flag about symp"
+PMC9440340,1,,False,False,No flag mentions the CRP conversion/value of 5 mg/dL; this item is not actually wrong.
+PMC9440340,2,,False,False,No flag mentions the specific lesion-duration criterion (<48 hours vs correct <24 hours). Critic discusses age/diagnosti
+PMC9470109,0,,False,False,HealthGuard had no flags. Critic flagged the lesion-area sentence but explicitly said the area calculation was mathemati
+PMC9470109,1,,False,False,HealthGuard had no flags. Critic did not flag any statement about the pericardial effusion size descriptor (trace vs sma
+PMC9470109,2,,False,True,HealthGuard had no flags. Critic directly flagged the claim that a sustained ventricular rate above 150 bpm strongly fav
+PMC9361461,0,,False,True,Critic flagged the MAP claim directly: 'Her mean arterial pressure on admission was about 68 mmHg...' HealthGuard had no
+PMC9361461,1,,False,False,No flag from either method mentions the omitted IVC value of 23 mm or its absence.
+PMC9361461,2,,False,False,No flag from either method addresses the specific cardiac index threshold claim of 2.0 L/min/m2 versus the usual ~2.2 L/
+PMC9533799,0,,False,True,Critic flag 0 explicitly identifies the incorrect claim of a universal 200 IU/L diagnostic threshold for pancreatitis an
+PMC9533799,1,,True,True,"HealthGuard flag 0 repeats the same incorrect fact ('1 year earlier'), so it identifies that specific timeline statement"
+PMC9533799,2,,False,False,Neither HealthGuard nor Critic flags mention the MAP calculation or the incorrect value of 95 mmHg versus ~98.3 mmHg.
+PMC9544847,0,,False,False,No flag mentions the incorrect 'left maxillary trigeminal distribution' vs correct 'left zygomatic trigeminal distributi
+PMC9544847,1,,True,False,"HealthGuard explicitly flags: 'His mandibular opening improved from 5 mm to 26 mm with physical therapy,' which matches "
+PMC9544847,2,,False,False,No flag mentions the attack duration lower bound '20 minutes' vs correct '15 minutes'.
+PMC9832730,0,,False,False,"No HealthGuard flags. No Critic flag mentions the ANC calculation or the specific wrong value 18,200 vs 19,200/mm^3."
+PMC9832730,1,,False,True,"Matched Critic flag: 'In the incomplete Kawasaki algorithm, a CRP threshold of at least 10 mg/dL...' This directly ident"
+PMC9832730,2,,False,False,No HealthGuard flags. No Critic flag mentions the echocardiography timing error of day 10 vs day 12.
+PMC9676116,0,,True,False,HealthGuard flag matched the specific wrong timeline: 'The abdominal pain progressed over 4 days.'
+PMC9676116,1,,False,True,Critic flag matched the specific wrong cutoff: 'lipase is more than 2 times the upper limit of normal'.
+PMC9676116,2,,False,False,No flag mentioned the specific mean arterial pressure value (~100 mmHg vs 96.7 mmHg).
+PMC9676116,3,,False,True,Critic flag quoted the specific wrong percent change: 'a decrease of about 10%'.
+PMC9943934,0,,False,True,Critic flag matched the exact incorrect claim about CSF glucose being 63 mg/dL below CSF protein.
+PMC9943934,1,,True,False,HealthGuard flag matched the exact incorrect smoking history value: 'roughly 50 pack-years.'
+PMC9943934,2,,True,True,Both HealthGuard and Critic flagged the exact incorrect claim that CSF protein above 70 mg/dL is generally normal in adu
+PMC9801570,0,,True,False,HealthGuard directly flagged: 'Thoracic MRI showed a 3 mm rim-enhancing epidural/anterior paravertebral abscess.' No Cri
+PMC9801570,1,,True,True,HealthGuard directly flagged '>1/640' in 'The Brucella Coombs test was strongly positive at >1/640' (and again in the su
+PMC9801570,2,,True,True,HealthGuard directly flagged: 'A titer of 1/320 corresponds to a dilution factor of about 160.' Critic also directly fla
+PMC9801570,3,,False,True,"Critic directly flagged the claim 'In many settings, an STA titer of 1/80 or greater is considered diagnostic even witho"
+PMC9834917,0,,True,False,HealthGuard directly flagged the wrong fact: 'His Hertel measurement was 25 mm in the left eye.' Critic did not mention 
+PMC9834917,1,,True,True,HealthGuard flagged 'The inter-eye proptosis asymmetry is about 3 mm.' Critic also explicitly corrected this same numeri
+PMC9834917,2,,False,False,HealthGuard's 'This patient exceeds the 2 mm Hertel threshold.' is too general and does not specifically identify the in
+PMC9969826,0,,False,False,No HealthGuard flags. Critic flags do not address the incorrect average glucose value (686 mg/dL vs 691.5 mg/dL).
+PMC9969826,1,,False,False,"No HealthGuard flags. Critic flags discuss unsupported exclusions and imaging overgeneralization, but none identify the "
+PMC9969826,2,,False,False,No HealthGuard flags. Critic flags do not mention the incorrect timeline ('about one week after a fall' vs correct 'two 
+PMC9976724,0,,False,False,No flag mentions the exam detail about limited movement at the hip vs waist.
+PMC9976724,1,,False,True,Critic flag 0 directly identifies the incorrect generalized SUVmax >3.5 threshold for FDG avidity.
+PMC9976724,2,,True,False,"HealthGuard flag states 'adjacent 11th rib,' matching the specific wrong rib-level fact; no Critic flag addresses the ri"
+PMC9990263,0,,True,False,"HealthGuard directly flagged: ""Prism cover testing showed 25 prism diopters of left esotropia."" Critic did not mention t"
+PMC9990263,1,,False,True,"Critic directly flagged: ""Counting the reported lesion topographies, there are four classic CNS regions involved on MRI."
+PMC9990263,2,,True,False,"HealthGuard directly flagged: ""He is only 24."" Critic did not mention the age."
+PMC9675078,0,,False,False,No HealthGuard flags. No Critic flag addresses the incorrect volume calculation of 1.7 mL vs ~1.35 mL.
+PMC9675078,1,,False,True,Critic flag 1 directly quotes the 'common 30 mg/L threshold' claim and states that no such threshold is given or establi
+PMC9675078,2,,False,True,Critic flag 3 directly quotes '3–4 weeks of nasal obstruction...' and challenges that claim; this matches the injected w

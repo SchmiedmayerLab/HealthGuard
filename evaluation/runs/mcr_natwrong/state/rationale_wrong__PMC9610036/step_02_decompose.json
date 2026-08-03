@@ -1,0 +1,312 @@
+{
+  "name": "decompose",
+  "passed": false,
+  "score": 0.0,
+  "reasoning": "Decomposed into 88 statement(s) but completeness check found issues. Missing: The original text explicitly states that the pattern suggests multifocal nervous system involvement rather than a single peripheral lesion or simple ischemic stroke; this relationship is captured, but the broader framing that the chief concern is a subacute neurologic syndrome is only partially represented because the syndrome is described in separate statements rather than as a unified concern.; The original text says the focal left arm deficits localize partly to the lower brachial plexus/ulnar distribution; the statements capture the individual deficits but do not explicitly preserve the localization conclusion as a single relationship statement.; The original text notes that the hyperdense suprasellar lesion on CT and the pupil-involving CN III palsy imply compressive/infiltrative pathology near the oculomotor nerve; this causal inference is captured, but the connection to the suprasellar lesion is not explicitly tied to the nerve palsy in one statement.; The original text states that MRI showed multiple enhancing intracranial lesions with heterogeneous signal intensity; the heterogeneous signal intensity is captured, but the full description of these as intracranial lesions in the suprasellar, pineal, and right periatrial regions is split across statements.; The original text says the CSF from two lumbar punctures showed lymphocytic pleocytosis, elevated protein, and elevated IgG index, but no malignant cells and no infectious/inflammatory markers; this is captured, but the phrase 'no infectious/inflammatory markers' is split into separate statements and the combined negative interpretation is not preserved as a single unit.; The original text says brain MRI showed no acute ischemic stroke, arguing against embolic stroke from atrial fibrillation as the explanation for the evolving deficits; the causal argument is captured, but the specific mention of atrial fibrillation as the embolic source is not explicitly preserved in the same statement.; The original text says MRI of the brachial plexus and spine was unrevealing, making a structural plexopathy less likely despite the arm findings; the 'despite the arm findings' nuance is not explicitly preserved.; The original text says she denied headache or trauma, which makes traumatic hemorrhage unlikely and does not support a typical aneurysmal subarachnoid presentation; the denial of headache is captured, but the combined implication about traumatic hemorrhage and aneurysmal subarachnoid presentation is split and not fully unified.; The original text says no dysmetria or dysdiadochokinesia argues against a cerebellar localization; the absence of dysdiadochokinesia is captured, but the explicit localization inference is only partially represented.; The original text says serial CSF studies did not identify infection or another inflammatory disorder, and malignant cells were absent, though CSF cytology can be falsely negative; the false-negative caveat is captured, but the combined serial-CSF negative interpretation is split across multiple statements.; The original text includes the differential diagnosis of hemorrhagic metastasis alone as a less likely vascular lesion; this is captured only indirectly within the broader vascular-lesion statement and not explicitly as 'hemorrhagic metastasis alone.'; The original text states that metastatic disease fits best because there are multiple rapidly enlarging enhancing lesions in characteristic central locations, dural thickening, progressive cranial neuropathy, confusion, and systemic imaging showing thyroid nodules suspicious for metastatic cancer; these supporting features are present, but the full integrated reasoning is distributed across several statements rather than preserved as one complete causal chain.; The original text says the chronic right visual loss and suprasellar lesion fit a sellar/suprasellar metastatic process affecting the optic apparatus, while the new CN III palsy suggests extension/compression in the parasellar region; the optic apparatus and parasellar extension/compression reasoning is captured, but not as a single integrated relationship.; The original text says primary CNS lymphoma is plausible because it can produce enhancing lesions, CSF lymphocytic pleocytosis, elevated protein, and rapid progression; these features are captured, but the full explanatory sentence is split.; The original text says inflammatory conditions such as neurosarcoidosis or IgG4-related disease could cause multifocal enhancing lesions, cranial neuropathies, dural involvement, and inflammatory CSF; these are captured, but the complete combined feature set is split across several statements.; The original text says a posterior communicating artery aneurysm could explain a painful or pupil-involving third nerve palsy and a hyperdense suprasellar lesion; the 'painful' qualifier is not captured.; The original text says acute ischemic stroke is weakened by the MRI showing no acute infarct and by the multifocal progressive lesion pattern; both reasons are captured, but the combined argument is split.; The original text concludes that the unifying explanation is metastatic thyroid carcinoma to the central nervous system with leptomeningeal/dural and parenchymal involvement; this is captured, but the explicit mention of leptomeningeal, dural, and parenchymal involvement together is split across statements.; The original text states that the thyroid nodules on body CT provide the likely primary source; this is captured, but the wording 'likely primary source' is not explicitly preserved as a causal attribution in the same statement.; The original text ends with both 'Differential diagnoses' and 'Final diagnosis: Metastatic thyroid carcinoma with multifocal central nervous system metastases'; the final diagnosis is captured, but the section structure itself is not represented. Fabricated: No clear fabricated clinical facts were added beyond the original text.",
+  "data": {
+    "statements": [
+      "The chief concern is a subacute neurologic syndrome.",
+      "The syndrome included 5 days of left arm weakness and numbness.",
+      "The syndrome included confusion.",
+      "During hospitalization, the patient developed a rapidly progressive right third nerve palsy.",
+      "The right third nerve palsy became pupil-involving.",
+      "The patient had chronic right visual loss.",
+      "This pattern suggests multifocal nervous system involvement rather than a single peripheral lesion or simple ischemic stroke.",
+      "The focal left arm deficits localize partly to the lower brachial plexus or ulnar distribution.",
+      "The left arm weakness involved the left triceps.",
+      "The left arm weakness involved the left wrist flexors.",
+      "The left arm weakness involved the left finger flexors.",
+      "The left arm weakness involved the left wrist extensors.",
+      "The left arm weakness involved the left finger extensors.",
+      "The left triceps reflex was absent.",
+      "There was sensory loss in the left fourth and fifth digits.",
+      "There was sensory loss in the medial palm.",
+      "The patient was confused.",
+      "The patient was disoriented to situation.",
+      "The patient had chronic reduced right visual acuity.",
+      "Noncontrast CT showed a hyperdense 1 cm suprasellar lesion.",
+      "The right CN III palsy progressed to a dilated nonreactive pupil.",
+      "The pupil-involving third nerve palsy implies compressive or infiltrative pathology near the oculomotor nerve.",
+      "MRI showed multiple enhancing intracranial lesions in the suprasellar, pineal, and right periatrial regions.",
+      "The intracranial lesions had heterogeneous signal intensity.",
+      "The lesions enlarged over one week.",
+      "MRI showed focal right frontoparietal dural thickening.",
+      "CT chest, abdomen, and pelvis showed multiple thyroid nodules concerning for metastases.",
+      "CSF from two lumbar punctures showed lymphocytic pleocytosis.",
+      "CSF from two lumbar punctures showed elevated protein.",
+      "CSF from two lumbar punctures showed elevated IgG index.",
+      "CSF from two lumbar punctures showed no malignant cells.",
+      "CSF from two lumbar punctures showed no infectious markers.",
+      "CSF from two lumbar punctures showed no inflammatory markers.",
+      "Brain MRI showed no acute ischemic stroke.",
+      "The absence of acute ischemic stroke argues against embolic stroke from atrial fibrillation as the explanation for the evolving deficits.",
+      "MRI of the brachial plexus and spine was unrevealing.",
+      "The unrevealing brachial plexus and spine MRI makes a structural plexopathy less likely.",
+      "The patient denied headache.",
+      "The patient denied trauma.",
+      "The denial of trauma makes traumatic hemorrhage unlikely.",
+      "The presentation does not support a typical aneurysmal subarachnoid presentation.",
+      "No dysmetria was present.",
+      "No dysdiadochokinesia was present.",
+      "The absence of dysmetria argues against a cerebellar localization.",
+      "Serial CSF studies did not identify infection.",
+      "Serial CSF studies did not identify another inflammatory disorder.",
+      "Malignant cells were absent in serial CSF studies.",
+      "CSF cytology can be falsely negative.",
+      "The main differential includes metastatic malignancy with leptomeningeal and dural and parenchymal involvement.",
+      "The main differential includes primary CNS lymphoma.",
+      "The main differential includes inflammatory or granulomatous disease.",
+      "The main differential includes vascular lesions such as aneurysm or hemorrhagic metastasis alone.",
+      "Metastatic disease fits best.",
+      "There are multiple rapidly enlarging enhancing lesions in characteristic central locations.",
+      "There is focal dural thickening.",
+      "There is progressive cranial neuropathy.",
+      "There is confusion.",
+      "Systemic imaging showed thyroid nodules suspicious for metastatic cancer.",
+      "The chronic right visual loss and suprasellar lesion fit a sellar or suprasellar metastatic process affecting the optic apparatus.",
+      "The new CN III palsy suggests extension or compression in the parasellar region.",
+      "The CSF profile with lymphocytic pleocytosis and high protein is compatible with leptomeningeal spread.",
+      "Primary CNS lymphoma is plausible.",
+      "Primary CNS lymphoma can produce enhancing lesions.",
+      "Primary CNS lymphoma can produce CSF lymphocytic pleocytosis.",
+      "Primary CNS lymphoma can produce elevated protein.",
+      "Primary CNS lymphoma can produce rapid progression.",
+      "The presence of multiple thyroid nodules concerning for metastases makes systemic metastatic cancer more compelling.",
+      "Focal dural thickening makes systemic metastatic cancer more compelling.",
+      "Inflammatory conditions such as neurosarcoidosis or IgG4-related disease could cause multifocal enhancing lesions.",
+      "Inflammatory conditions such as neurosarcoidosis or IgG4-related disease could cause cranial neuropathies.",
+      "Inflammatory conditions such as neurosarcoidosis or IgG4-related disease could cause dural involvement.",
+      "Inflammatory conditions such as neurosarcoidosis or IgG4-related disease could cause inflammatory CSF.",
+      "The interval enlargement over one week favors malignancy.",
+      "Extracranial lesions concerning for metastases favor malignancy.",
+      "A posterior communicating artery aneurysm could explain a painful or pupil-involving third nerve palsy.",
+      "A posterior communicating artery aneurysm could explain a hyperdense suprasellar lesion.",
+      "A posterior communicating artery aneurysm would not explain the pineal and periatrial enhancing lesions.",
+      "A posterior communicating artery aneurysm would not explain dural thickening.",
+      "A posterior communicating artery aneurysm would not explain confusion.",
+      "A posterior communicating artery aneurysm would not explain the left arm syndrome.",
+      "Acute ischemic stroke is weakened by the MRI showing no acute infarct.",
+      "Acute ischemic stroke is weakened by the multifocal progressive lesion pattern.",
+      "The unifying explanation is metastatic thyroid carcinoma to the central nervous system with leptomeningeal, dural, and parenchymal involvement.",
+      "The thyroid nodules on body CT provide the likely primary source.",
+      "The multifocal enhancing suprasellar, pineal, and periatrial lesions strongly support metastatic CNS disease.",
+      "Rapid enlargement strongly support metastatic CNS disease.",
+      "Cranial neuropathy strongly support metastatic CNS disease.",
+      "The final diagnosis is metastatic thyroid carcinoma with multifocal central nervous system metastases."
+    ],
+    "completeness": {
+      "complete": false,
+      "missing": [
+        "The original text explicitly states that the pattern suggests multifocal nervous system involvement rather than a single peripheral lesion or simple ischemic stroke; this relationship is captured, but the broader framing that the chief concern is a subacute neurologic syndrome is only partially represented because the syndrome is described in separate statements rather than as a unified concern.",
+        "The original text says the focal left arm deficits localize partly to the lower brachial plexus/ulnar distribution; the statements capture the individual deficits but do not explicitly preserve the localization conclusion as a single relationship statement.",
+        "The original text notes that the hyperdense suprasellar lesion on CT and the pupil-involving CN III palsy imply compressive/infiltrative pathology near the oculomotor nerve; this causal inference is captured, but the connection to the suprasellar lesion is not explicitly tied to the nerve palsy in one statement.",
+        "The original text states that MRI showed multiple enhancing intracranial lesions with heterogeneous signal intensity; the heterogeneous signal intensity is captured, but the full description of these as intracranial lesions in the suprasellar, pineal, and right periatrial regions is split across statements.",
+        "The original text says the CSF from two lumbar punctures showed lymphocytic pleocytosis, elevated protein, and elevated IgG index, but no malignant cells and no infectious/inflammatory markers; this is captured, but the phrase 'no infectious/inflammatory markers' is split into separate statements and the combined negative interpretation is not preserved as a single unit.",
+        "The original text says brain MRI showed no acute ischemic stroke, arguing against embolic stroke from atrial fibrillation as the explanation for the evolving deficits; the causal argument is captured, but the specific mention of atrial fibrillation as the embolic source is not explicitly preserved in the same statement.",
+        "The original text says MRI of the brachial plexus and spine was unrevealing, making a structural plexopathy less likely despite the arm findings; the 'despite the arm findings' nuance is not explicitly preserved.",
+        "The original text says she denied headache or trauma, which makes traumatic hemorrhage unlikely and does not support a typical aneurysmal subarachnoid presentation; the denial of headache is captured, but the combined implication about traumatic hemorrhage and aneurysmal subarachnoid presentation is split and not fully unified.",
+        "The original text says no dysmetria or dysdiadochokinesia argues against a cerebellar localization; the absence of dysdiadochokinesia is captured, but the explicit localization inference is only partially represented.",
+        "The original text says serial CSF studies did not identify infection or another inflammatory disorder, and malignant cells were absent, though CSF cytology can be falsely negative; the false-negative caveat is captured, but the combined serial-CSF negative interpretation is split across multiple statements.",
+        "The original text includes the differential diagnosis of hemorrhagic metastasis alone as a less likely vascular lesion; this is captured only indirectly within the broader vascular-lesion statement and not explicitly as 'hemorrhagic metastasis alone.'",
+        "The original text states that metastatic disease fits best because there are multiple rapidly enlarging enhancing lesions in characteristic central locations, dural thickening, progressive cranial neuropathy, confusion, and systemic imaging showing thyroid nodules suspicious for metastatic cancer; these supporting features are present, but the full integrated reasoning is distributed across several statements rather than preserved as one complete causal chain.",
+        "The original text says the chronic right visual loss and suprasellar lesion fit a sellar/suprasellar metastatic process affecting the optic apparatus, while the new CN III palsy suggests extension/compression in the parasellar region; the optic apparatus and parasellar extension/compression reasoning is captured, but not as a single integrated relationship.",
+        "The original text says primary CNS lymphoma is plausible because it can produce enhancing lesions, CSF lymphocytic pleocytosis, elevated protein, and rapid progression; these features are captured, but the full explanatory sentence is split.",
+        "The original text says inflammatory conditions such as neurosarcoidosis or IgG4-related disease could cause multifocal enhancing lesions, cranial neuropathies, dural involvement, and inflammatory CSF; these are captured, but the complete combined feature set is split across several statements.",
+        "The original text says a posterior communicating artery aneurysm could explain a painful or pupil-involving third nerve palsy and a hyperdense suprasellar lesion; the 'painful' qualifier is not captured.",
+        "The original text says acute ischemic stroke is weakened by the MRI showing no acute infarct and by the multifocal progressive lesion pattern; both reasons are captured, but the combined argument is split.",
+        "The original text concludes that the unifying explanation is metastatic thyroid carcinoma to the central nervous system with leptomeningeal/dural and parenchymal involvement; this is captured, but the explicit mention of leptomeningeal, dural, and parenchymal involvement together is split across statements.",
+        "The original text states that the thyroid nodules on body CT provide the likely primary source; this is captured, but the wording 'likely primary source' is not explicitly preserved as a causal attribution in the same statement.",
+        "The original text ends with both 'Differential diagnoses' and 'Final diagnosis: Metastatic thyroid carcinoma with multifocal central nervous system metastases'; the final diagnosis is captured, but the section structure itself is not represented."
+      ],
+      "added": [
+        "No clear fabricated clinical facts were added beyond the original text."
+      ]
+    },
+    "clusters": [
+      {
+        "cluster_id": "c1",
+        "label": "history_taking",
+        "statement_indices": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "summary": "Initial subacute neurologic symptoms and chronic visual loss with evolving pupil-involving CN III palsy.",
+        "salience": 0.72
+      },
+      {
+        "cluster_id": "c2",
+        "label": "examination",
+        "statement_indices": [
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19
+        ],
+        "summary": "Neurologic localization from left arm deficits, sensory loss, confusion, and chronic right visual impairment.",
+        "salience": 0.78
+      },
+      {
+        "cluster_id": "c3",
+        "label": "test_ordering",
+        "statement_indices": [
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37
+        ],
+        "summary": "Imaging and CSF studies reveal multifocal enhancing CNS lesions, dural thickening, thyroid nodules, and noninflammatory/noninfectious CSF without stroke or plexopathy.",
+        "salience": 0.95
+      },
+      {
+        "cluster_id": "c4",
+        "label": "history_taking",
+        "statement_indices": [
+          38,
+          39,
+          40,
+          41
+        ],
+        "summary": "Negative symptom history and lack of trauma or hemorrhagic presentation.",
+        "salience": 0.25
+      },
+      {
+        "cluster_id": "c5",
+        "label": "examination",
+        "statement_indices": [
+          42,
+          43,
+          44
+        ],
+        "summary": "No cerebellar signs, arguing against cerebellar localization.",
+        "salience": 0.2
+      },
+      {
+        "cluster_id": "c6",
+        "label": "test_ordering",
+        "statement_indices": [
+          45,
+          46,
+          47,
+          48
+        ],
+        "summary": "Serial CSF studies are negative for infection, inflammation, and malignant cells, though cytology may be falsely negative.",
+        "salience": 0.55
+      },
+      {
+        "cluster_id": "c7",
+        "label": "differential_generation",
+        "statement_indices": [
+          49,
+          50,
+          51,
+          52
+        ],
+        "summary": "Broad differential considered: metastatic malignancy, primary CNS lymphoma, inflammatory/granulomatous disease, and vascular lesions.",
+        "salience": 0.9
+      },
+      {
+        "cluster_id": "c8",
+        "label": "differential_generation",
+        "statement_indices": [
+          53,
+          54,
+          55,
+          56,
+          57,
+          58,
+          59,
+          60,
+          61
+        ],
+        "summary": "Metastatic disease favored by rapidly enlarging multifocal lesions, dural thickening, cranial neuropathy, confusion, thyroid nodules, and compatible CSF.",
+        "salience": 0.98
+      },
+      {
+        "cluster_id": "c9",
+        "label": "differential_generation",
+        "statement_indices": [
+          62,
+          63,
+          64,
+          65,
+          66
+        ],
+        "summary": "Primary CNS lymphoma remains a plausible alternative based on enhancing lesions, CSF abnormalities, and rapid progression.",
+        "salience": 0.6
+      },
+      {
+        "cluster_id": "c10",
+        "label": "differential_generation",
+        "statement_indices": [
+          67,
+          68,
+          69,
+          70,
+          71,
+          72,
+          73,
+          74
+        ],
+        "summary": "Arguments further supporting malignancy over inflammatory mimics, including thyroid nodules, dural thickening, and rapid interval growth.",
+        "salience": 0.85
+      },
+      {
+        "cluster_id": "c11",
+        "label": "differential_generation",
+        "statement_indices": [
+          75,
+          76,
+          77,
+          78,
+          79,
+          80,
+          81,
+          82
+        ],
+        "summary": "Aneurysm and acute ischemic stroke are considered but do not explain the full multifocal progressive syndrome.",
+        "salience": 0.7
+      },
+      {
+        "cluster_id": "c12",
+        "label": "final_decision",
+        "statement_indices": [
+          83,
+          84,
+          85,
+          86,
+          87,
+          88
+        ],
+        "summary": "Final synthesis concludes metastatic thyroid carcinoma causing multifocal CNS metastases with leptomeningeal, dural, and parenchymal involvement.",
+        "salience": 1.0
+      }
+    ]
+  }
+}

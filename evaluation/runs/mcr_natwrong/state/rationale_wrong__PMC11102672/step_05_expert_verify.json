@@ -1,0 +1,701 @@
+{
+  "name": "expert_verify",
+  "passed": true,
+  "score": 1.0,
+  "reasoning": "No contradictions among 76 statement(s) (35 supported, 35 valid inferences, 6 unverifiable).",
+  "data": {
+    "verifications": [
+      {
+        "text": "The chief concern is chronic left upper-quadrant abdominal pain.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Reference states chronic left upper-quadrant abdominal pain."
+      },
+      {
+        "text": "The patient has a progressively enlarging palpable mass.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Reference says progressively enlarging mass."
+      },
+      {
+        "text": "The patient is a 33-year-old woman.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 1.0,
+        "reasoning": "33-year-old woman is explicitly stated."
+      },
+      {
+        "text": "The patient’s problem is a slowly growing upper abdominal mass causing pain.",
+        "category": "factual",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.93,
+        "reasoning": "Paraphrases chronic LUQ pain with enlarging mass causing symptoms; consistent with the case."
+      },
+      {
+        "text": "The patient does not have an acute abdomen.",
+        "category": "factual",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.72,
+        "reasoning": "No acute abdomen is not stated verbatim, but chronic presentation supports this inference."
+      },
+      {
+        "text": "The patient does not have a systemic illness.",
+        "category": "factual",
+        "verdict": "unverifiable",
+        "verified": true,
+        "score": 0.6,
+        "confidence": 0.86,
+        "reasoning": "Systemic illness is not described; absence of mention cannot be verified."
+      },
+      {
+        "text": "Examination found a fixed deep left upper-quadrant mass.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Exam found a fixed deep LUQ mass."
+      },
+      {
+        "text": "The mass extends below the costal margin on examination.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Mass extending below the costal margin is explicitly stated."
+      },
+      {
+        "text": "CT showed a large lesion measuring 104 × 77 × 44 mm.",
+        "category": "statistical",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 1.0,
+        "reasoning": "CT measurement 104 × 77 × 44 mm matches exactly."
+      },
+      {
+        "text": "The lesion is rounded.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "CT described the lesion as rounded."
+      },
+      {
+        "text": "The lesion is well-defined.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "CT described the lesion as well-defined."
+      },
+      {
+        "text": "The lesion appears attached to the gastric wall.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "CT says lesion appearing attached to the gastric wall."
+      },
+      {
+        "text": "The lesion has mixed cystic and solid components.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "CT showed both cystic and solid components."
+      },
+      {
+        "text": "The lesion has scattered calcifications.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "CT noted scattered calcifications."
+      },
+      {
+        "text": "There is no local invasion on CT.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Reference explicitly says no signs of local invasion."
+      },
+      {
+        "text": "There are no metastases on CT.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Reference explicitly says no metastases."
+      },
+      {
+        "text": "CEA is normal.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 1.0,
+        "reasoning": "CEA within normal limits is stated."
+      },
+      {
+        "text": "CA19-9 is normal.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 1.0,
+        "reasoning": "CA19-9 within normal limits is stated."
+      },
+      {
+        "text": "The normal CEA and CA19-9 make common gastrointestinal adenocarcinomas less likely.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.9,
+        "reasoning": "Normal CEA/CA19-9 reasonably make common GI adenocarcinomas less likely, though not excluded."
+      },
+      {
+        "text": "The lesion is large.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.98,
+        "reasoning": "104 mm lesion is large."
+      },
+      {
+        "text": "The lesion is radiologically circumscribed.",
+        "category": "factual",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.84,
+        "reasoning": "Well-defined on CT supports being radiologically circumscribed."
+      },
+      {
+        "text": "The lesion suggests a slow-growing mesenchymal or non-epithelial process.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.88,
+        "reasoning": "A large well-circumscribed mixed solid-cystic lesion suggests a slow-growing mesenchymal/non-epithelial process."
+      },
+      {
+        "text": "The lesion suggests a process rather than an infiltrative gastric carcinoma.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.86,
+        "reasoning": "Circumscribed noninvasive morphology argues against infiltrative gastric carcinoma."
+      },
+      {
+        "text": "The patient has a prior splenectomy.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 1.0,
+        "reasoning": "Prior splenectomy is in the reference data."
+      },
+      {
+        "text": "The prior splenectomy broadens the left upper-quadrant differential to include splenic-bed lesions.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.83,
+        "reasoning": "Prior splenectomy reasonably broadens LUQ differential to splenic-bed lesions."
+      },
+      {
+        "text": "The CT description specifically suggests attachment to the gastric wall.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "CT specifically says attached to the gastric wall."
+      },
+      {
+        "text": "There are no reported signs of metastatic disease.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.98,
+        "reasoning": "Reference says no signs of metastases."
+      },
+      {
+        "text": "There is no local invasion on CT.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Duplicate of no local invasion on CT, explicitly stated."
+      },
+      {
+        "text": "CEA is normal.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 1.0,
+        "reasoning": "CEA normal is explicitly stated."
+      },
+      {
+        "text": "CA19-9 is normal.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 1.0,
+        "reasoning": "CA19-9 normal is explicitly stated."
+      },
+      {
+        "text": "These findings argue against advanced gastric adenocarcinoma.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.9,
+        "reasoning": "Normal markers plus no invasion/metastases reasonably argue against advanced gastric adenocarcinoma."
+      },
+      {
+        "text": "These findings argue against pancreatic adenocarcinoma.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.82,
+        "reasoning": "These findings make pancreatic adenocarcinoma less likely, though not definitively excluded."
+      },
+      {
+        "text": "The case summary does not mention constitutional symptoms.",
+        "category": "factual",
+        "verdict": "unverifiable",
+        "verified": true,
+        "score": 0.6,
+        "confidence": 0.95,
+        "reasoning": "The summary does not mention constitutional symptoms, but absence of mention is not directly verifiable."
+      },
+      {
+        "text": "The case summary does not mention gastrointestinal bleeding.",
+        "category": "factual",
+        "verdict": "unverifiable",
+        "verified": true,
+        "score": 0.6,
+        "confidence": 0.95,
+        "reasoning": "GI bleeding is not mentioned; cannot verify absence from data."
+      },
+      {
+        "text": "The case summary does not mention obstruction.",
+        "category": "factual",
+        "verdict": "unverifiable",
+        "verified": true,
+        "score": 0.6,
+        "confidence": 0.95,
+        "reasoning": "Obstruction is not mentioned; absence cannot be verified."
+      },
+      {
+        "text": "The case summary does not mention jaundice.",
+        "category": "factual",
+        "verdict": "unverifiable",
+        "verified": true,
+        "score": 0.6,
+        "confidence": 0.95,
+        "reasoning": "Jaundice is not mentioned; cannot verify absence."
+      },
+      {
+        "text": "The case summary does not mention pancreatitis-type symptoms.",
+        "category": "factual",
+        "verdict": "unverifiable",
+        "verified": true,
+        "score": 0.6,
+        "confidence": 0.95,
+        "reasoning": "Pancreatitis-type symptoms are not mentioned; absence cannot be verified."
+      },
+      {
+        "text": "The leading differential is a gastric gastrointestinal stromal tumor.",
+        "category": "factual",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.97,
+        "reasoning": "Given the imaging and clinical pattern, GIST is the leading differential and final diagnosis in the trace."
+      },
+      {
+        "text": "The lesion fits the apparent gastric wall attachment.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.95,
+        "reasoning": "Gastric wall attachment supports the GIST interpretation."
+      },
+      {
+        "text": "The lesion fits the well-defined exophytic mass effect in the left upper quadrant.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.93,
+        "reasoning": "A well-defined LUQ exophytic-appearing mass is consistent with GIST morphology."
+      },
+      {
+        "text": "The lesion fits the mixed solid-cystic appearance that can occur with degeneration in larger GISTs.",
+        "category": "causal",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.97,
+        "reasoning": "Reference CT shows a mixed cystic and solid lesion; larger GISTs can undergo degeneration, so this is a sound fit."
+      },
+      {
+        "text": "The lesion fits the calcifications.",
+        "category": "causal",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "CT explicitly reports scattered calcifications."
+      },
+      {
+        "text": "Calcifications are uncommon in GISTs.",
+        "category": "factual",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.84,
+        "reasoning": "Calcifications are described as uncommon in GISTs in standard clinical knowledge; this is not directly stated in the case but is a reasonable inference."
+      },
+      {
+        "text": "Calcifications can be present in longstanding GISTs.",
+        "category": "factual",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.8,
+        "reasoning": "Longstanding tumors can calcify; this is a plausible clinical inference, not directly verifiable from the case data."
+      },
+      {
+        "text": "GISTs often present as large palpable masses with pain.",
+        "category": "factual",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.9,
+        "reasoning": "Large palpable LUQ mass with pain is consistent with typical GIST presentation, though not explicitly stated in the reference."
+      },
+      {
+        "text": "GISTs may lack nodal or distant spread at presentation.",
+        "category": "factual",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.92,
+        "reasoning": "No metastases are reported on CT, so lack of spread at presentation is a reasonable inference."
+      },
+      {
+        "text": "A gastric duplication cyst is another consideration.",
+        "category": "factual",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.98,
+        "reasoning": "Duplication cyst is appropriately included in the differential; this is a diagnostic consideration rather than a direct case fact."
+      },
+      {
+        "text": "A gastric duplication cyst can present as a cystic lesion attached to the stomach wall.",
+        "category": "factual",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.9,
+        "reasoning": "A gastric duplication cyst can indeed present as a cystic lesion attached to the stomach wall; standard medical knowledge."
+      },
+      {
+        "text": "This diagnosis is less convincing here.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.95,
+        "reasoning": "Given the adult age, mixed solid-cystic morphology, and calcifications, saying it is less convincing is a legitimate differential-pruning inference."
+      },
+      {
+        "text": "The lesion has both solid and cystic components.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Reference CT explicitly states both cystic and solid components."
+      },
+      {
+        "text": "The lesion has calcifications.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Reference CT explicitly states scattered calcifications."
+      },
+      {
+        "text": "The patient is an adult.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 1.0,
+        "reasoning": "Patient is 33 years old."
+      },
+      {
+        "text": "The patient has a progressively enlarging palpable mass.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 1.0,
+        "reasoning": "Presentation states a progressively enlarging mass and exam found a palpable LUQ mass."
+      },
+      {
+        "text": "Duplication cysts are usually predominantly cystic congenital lesions.",
+        "category": "factual",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.95,
+        "reasoning": "Duplication cysts are classically congenital and usually predominantly cystic; standard medical knowledge."
+      },
+      {
+        "text": "Duplication cysts are less typical as a large mixed solid-cystic tumor.",
+        "category": "factual",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.93,
+        "reasoning": "A large mixed solid-cystic tumor is less typical for duplication cysts; this is a reasonable inference."
+      },
+      {
+        "text": "A pancreatic mucinous cystic neoplasm or other pancreatic tail cystic tumor could produce a left upper-quadrant mass with calcifications.",
+        "category": "factual",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.88,
+        "reasoning": "Pancreatic tail cystic neoplasms can present as LUQ masses with calcifications; this is a differential consideration, not a case fact."
+      },
+      {
+        "text": "The CT description says the lesion appears attached to the gastric wall rather than arising from the pancreas.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.98,
+        "reasoning": "CT explicitly says the lesion appears attached to the gastric wall rather than arising from the pancreas."
+      },
+      {
+        "text": "CA19-9 is normal.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 1.0,
+        "reasoning": "CA19-9 is within normal limits in the reference data."
+      },
+      {
+        "text": "A splenic-bed process such as accessory spleen, remnant, or post-splenectomy lesion is less likely.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.93,
+        "reasoning": "Given prior splenectomy and imaging favoring gastric origin, a splenic-bed process is reasonably less likely."
+      },
+      {
+        "text": "The imaging suggests gastric wall origin.",
+        "category": "causal",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.98,
+        "reasoning": "CT description supports gastric wall attachment/origin."
+      },
+      {
+        "text": "Mixed solid-cystic morphology with calcifications is not typical for splenic tissue.",
+        "category": "factual",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.9,
+        "reasoning": "Mixed solid-cystic morphology with calcifications is not typical for splenic tissue; this is a differential inference."
+      },
+      {
+        "text": "Other gastric mesenchymal tumors such as leiomyoma or schwannoma are possible.",
+        "category": "factual",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.97,
+        "reasoning": "Leiomyoma and schwannoma are standard alternative gastric mesenchymal tumors in the differential."
+      },
+      {
+        "text": "The large size favors GIST over leiomyoma or schwannoma.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.92,
+        "reasoning": "Large size is a feature that tends to favor GIST over leiomyoma/schwannoma in this context."
+      },
+      {
+        "text": "The mixed cystic-solid degeneration favors GIST over leiomyoma or schwannoma.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.93,
+        "reasoning": "Mixed cystic-solid degeneration is more characteristic of GIST than leiomyoma/schwannoma; reasonable inference."
+      },
+      {
+        "text": "The palpable progressive mass favors GIST over leiomyoma or schwannoma.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.9,
+        "reasoning": "A palpable progressive mass supports a more aggressive/large lesion such as GIST over smaller benign subepithelial tumors."
+      },
+      {
+        "text": "Gastric adenocarcinoma is less likely.",
+        "category": "factual",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.98,
+        "reasoning": "Based on the imaging and markers, gastric adenocarcinoma is reasonably considered less likely."
+      },
+      {
+        "text": "The lesion is rounded and well-defined rather than infiltrative.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Reference CT says the lesion is rounded and well-defined."
+      },
+      {
+        "text": "Tumor markers are normal.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 1.0,
+        "reasoning": "CEA and CA19-9 are both normal."
+      },
+      {
+        "text": "There is no invasion or metastasis.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 1.0,
+        "reasoning": "Reference CT reports no signs of local invasion or metastases."
+      },
+      {
+        "text": "The combination of a large well-circumscribed exophytic-appearing gastric wall mass, mixed solid and cystic components, calcifications, chronic pain, and lack of metastatic disease most strongly supports gastric gastrointestinal stromal tumor.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.98,
+        "reasoning": "This is the overall diagnostic synthesis from the provided imaging and clinical features, legitimately supporting GIST."
+      },
+      {
+        "text": "Gastric gastrointestinal stromal tumor is the high-probability differential diagnosis.",
+        "category": "factual",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.97,
+        "reasoning": "High-probability differential diagnosis is a conclusion drawn from the trace, not a directly stated case fact."
+      },
+      {
+        "text": "Gastric duplication cyst is a medium-probability differential diagnosis.",
+        "category": "factual",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.96,
+        "reasoning": "Medium-probability differential diagnosis is a reasoned ranking, not a directly verifiable fact."
+      },
+      {
+        "text": "Pancreatic tail mucinous cystic neoplasm is a low-probability differential diagnosis.",
+        "category": "factual",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.96,
+        "reasoning": "Low-probability differential diagnosis is a reasoned ranking, not a direct fact."
+      },
+      {
+        "text": "Gastric schwannoma or leiomyoma is a low-probability differential diagnosis.",
+        "category": "factual",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.96,
+        "reasoning": "Low-probability differential diagnosis is a reasoned ranking, not a direct fact."
+      },
+      {
+        "text": "Gastric adenocarcinoma is a low-probability differential diagnosis.",
+        "category": "factual",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.97,
+        "reasoning": "Low-probability differential diagnosis is a reasoned ranking based on the case features."
+      },
+      {
+        "text": "The final diagnosis is gastric gastrointestinal stromal tumor.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 1.0,
+        "reasoning": "The trace explicitly states the final diagnosis is gastric gastrointestinal stromal tumor."
+      }
+    ],
+    "verdict_counts": {
+      "contradicted": 0,
+      "supported": 35,
+      "valid_inference": 35,
+      "unverifiable": 6
+    },
+    "contradictions": 0
+  }
+}

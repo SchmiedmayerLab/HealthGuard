@@ -1,0 +1,905 @@
+{
+  "name": "build_graph",
+  "passed": false,
+  "score": 0.9196,
+  "reasoning": "Graph built with 56 node(s) and 33 edge(s). 9 disconnected node(s): n12, n13, n28, n34, n35, n36, n37, n39, n42. The graph centers on a retained conjunctival/episcleral foreign body causing a granulomatous reaction, supported most strongly by ultrasound evidence and the conjunctival granuloma. Secondary branches explain why infection, tuberculosis, syphilis, posterior segment disease, scleritis/episcleritis, and neoplasia are less likely. Some standalone statements are definitional or redundant and were left disconnected to keep the edge set minimal.",
+  "data": {
+    "nodes": [
+      {
+        "id": "n1",
+        "text": "The chief complaint is a 2-week history of a unilateral red eye with chemosis in a 67-year-old woman.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Matches reference: 67-year-old woman with 2-week non-traumatic unilateral red eye and chemosis.",
+        "cluster_idx": 0,
+        "cluster_label": "unsegmented"
+      },
+      {
+        "id": "n2",
+        "text": "The patient’s presentation is non-traumatic.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Reference explicitly says non-traumatic.",
+        "cluster_idx": 0,
+        "cluster_label": "unsegmented"
+      },
+      {
+        "id": "n3",
+        "text": "The patient’s presentation is painless.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Reference explicitly says painless.",
+        "cluster_idx": 0,
+        "cluster_label": "unsegmented"
+      },
+      {
+        "id": "n4",
+        "text": "The presentation makes common painful inflammatory causes of red eye such as scleritis, keratitis, or acute angle closure glaucoma less likely.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Reasonable clinical inference from painless red eye; the reference supports lower likelihood of painful inflammatory causes, though not stated verbatim.",
+        "cluster_idx": 0,
+        "cluster_label": "unsegmented"
+      },
+      {
+        "id": "n5",
+        "text": "The key lesion on slit-lamp exam is a 7 × 4 mm conjunctival granuloma attached to the sclera with central epithelial necrosis.",
+        "category": "statistical",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Reference gives 7 mm × 4 mm conjunctival granuloma attached to sclera with central epithelial necrosis.",
+        "cluster_idx": 0,
+        "cluster_label": "unsegmented"
+      },
+      {
+        "id": "n6",
+        "text": "Salient positive findings strongly point toward a localized granulomatous reaction around a retained foreign body.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Sound inference from embedded high-reflectivity echo plus granulomatous mass/pseudocysts, consistent with retained foreign body reaction.",
+        "cluster_idx": 0,
+        "cluster_label": "unsegmented"
+      },
+      {
+        "id": "n7",
+        "text": "Ultrasound biomicroscopy showed a high-reflectivity echo embedded in the conjunctiva, episclera, and superficial sclera.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Reference states high-reflectivity echo embedded in conjunctiva, episclera, and superficial sclera.",
+        "cluster_idx": 0,
+        "cluster_label": "unsegmented"
+      },
+      {
+        "id": "n8",
+        "text": "Ultrasound biomicroscopy showed a low-reflective granulomatous mass surrounding the embedded echo.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Reference states a low-reflective granulomatous mass surrounding the echo.",
+        "cluster_idx": 0,
+        "cluster_label": "unsegmented"
+      },
+      {
+        "id": "n9",
+        "text": "Ultrasound biomicroscopy showed multiple pseudocysts.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Reference explicitly mentions multiple pseudocysts.",
+        "cluster_idx": 0,
+        "cluster_label": "unsegmented"
+      },
+      {
+        "id": "n10",
+        "text": "A discrete high-reflective focus within superficial ocular tissues is highly suggestive of foreign material rather than a purely inflammatory or infectious nodule.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Interpretive conclusion from ultrasound appearance; consistent with foreign material rather than primary inflammatory/infectious nodule.",
+        "cluster_idx": 0,
+        "cluster_label": "unsegmented"
+      },
+      {
+        "id": "n11",
+        "text": "The surrounding granulomatous mass fits a tissue reaction to the embedded material.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Granulomatous mass surrounding embedded material is a standard tissue reaction inference.",
+        "cluster_idx": 0,
+        "cluster_label": "unsegmented"
+      },
+      {
+        "id": "n12",
+        "text": "Mild leukocytosis is nonspecific.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Reference notes mild leukocytosis, which is nonspecific.",
+        "cluster_idx": 0,
+        "cluster_label": "unsegmented"
+      },
+      {
+        "id": "n13",
+        "text": "Mild leukocytosis could accompany local inflammation.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Leukocytosis can accompany local inflammation; reasonable clinical inference.",
+        "cluster_idx": 0,
+        "cluster_label": "unsegmented"
+      },
+      {
+        "id": "n14",
+        "text": "There was no trauma history.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Reference states no trauma history / non-traumatic presentation.",
+        "cluster_idx": 0,
+        "cluster_label": "unsegmented"
+      },
+      {
+        "id": "n15",
+        "text": "Occult foreign body exposure can still occur despite absent recalled trauma.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Absence of recalled trauma does not exclude occult foreign body exposure; consistent with the trace.",
+        "cluster_idx": 0,
+        "cluster_label": "unsegmented"
+      },
+      {
+        "id": "n16",
+        "text": "Fundoscopy was normal.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Reference explicitly says fundoscopy was normal.",
+        "cluster_idx": 0,
+        "cluster_label": "unsegmented"
+      },
+      {
+        "id": "n17",
+        "text": "A normal fundoscopy argues against posterior segment involvement.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Normal fundoscopy reasonably argues against posterior segment involvement.",
+        "cluster_idx": 0,
+        "cluster_label": "unsegmented"
+      },
+      {
+        "id": "n18",
+        "text": "QuantiFERON-TB was normal.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Reference says QuantiFERON-TB® was normal.",
+        "cluster_idx": 0,
+        "cluster_label": "unsegmented"
+      },
+      {
+        "id": "n19",
+        "text": "Chest CT was normal.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Reference says chest CT was normal.",
+        "cluster_idx": 0,
+        "cluster_label": "unsegmented"
+      },
+      {
+        "id": "n20",
+        "text": "The normal QuantiFERON-TB and chest CT make ocular tuberculosis unlikely.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Normal TB testing and chest CT reasonably make ocular tuberculosis unlikely.",
+        "cluster_idx": 0,
+        "cluster_label": "unsegmented"
+      },
+      {
+        "id": "n21",
+        "text": "Treponemal tests were negative.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Reference says treponemal tests were negative.",
+        "cluster_idx": 0,
+        "cluster_label": "unsegmented"
+      },
+      {
+        "id": "n22",
+        "text": "Non-treponemal tests were negative.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Reference says non-treponemal tests were negative.",
+        "cluster_idx": 0,
+        "cluster_label": "unsegmented"
+      },
+      {
+        "id": "n23",
+        "text": "Negative treponemal and non-treponemal tests argue against syphilitic granulomatous disease.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Negative treponemal and non-treponemal tests reasonably argue against syphilitic granulomatous disease.",
+        "cluster_idx": 0,
+        "cluster_label": "unsegmented"
+      },
+      {
+        "id": "n24",
+        "text": "The lesion is painless.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Reference explicitly says painless.",
+        "cluster_idx": 0,
+        "cluster_label": "unsegmented"
+      },
+      {
+        "id": "n25",
+        "text": "A painless lesion is less typical for active infectious scleritis.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Painless presentation is less typical for active infectious scleritis; standard clinical reasoning.",
+        "cluster_idx": 0,
+        "cluster_label": "unsegmented"
+      },
+      {
+        "id": "n26",
+        "text": "No systemic history suggesting autoimmune inflammatory disease is provided.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Reference provides no significant past medical history and no systemic autoimmune history.",
+        "cluster_idx": 0,
+        "cluster_label": "unsegmented"
+      },
+      {
+        "id": "n27",
+        "text": "Retained conjunctival/episcleral foreign body with granulomatous reaction best fits the imaging finding of a high-reflective embedded echo in the conjunctiva, episclera, and superficial sclera with surrounding granuloma and pseudocysts.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "This is the trace’s diagnostic synthesis from the imaging and lesion pattern; it follows from the data.",
+        "cluster_idx": 0,
+        "cluster_label": "unsegmented"
+      },
+      {
+        "id": "n28",
+        "text": "The localized unilateral red eye and chemosis with a necrotic conjunctival granuloma are compatible with a foreign body granuloma.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Localized unilateral red eye/chemosis with necrotic conjunctival granuloma is compatible with foreign body granuloma.",
+        "cluster_idx": 0,
+        "cluster_label": "unsegmented"
+      },
+      {
+        "id": "n29",
+        "text": "Necrosis can suggest infection.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Necrosis can suggest infection; standard medical reasoning.",
+        "cluster_idx": 0,
+        "cluster_label": "unsegmented"
+      },
+      {
+        "id": "n30",
+        "text": "Mild leukocytosis could support inflammation or infection.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Mild leukocytosis can support inflammation or infection; reasonable inference.",
+        "cluster_idx": 0,
+        "cluster_label": "unsegmented"
+      },
+      {
+        "id": "n31",
+        "text": "The ultrasound finding of a discrete embedded reflective structure argues more for foreign material than primary infection.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Discrete embedded reflective structure on ultrasound favors foreign material over primary infection.",
+        "cluster_idx": 0,
+        "cluster_label": "unsegmented"
+      },
+      {
+        "id": "n32",
+        "text": "TB and syphilis testing were negative.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Reference states QuantiFERON-TB and chest CT were normal and treponemal/non-treponemal tests were negative.",
+        "cluster_idx": 0,
+        "cluster_label": "unsegmented"
+      },
+      {
+        "id": "n33",
+        "text": "A unilateral red eye with a sclera-adherent nodule could suggest nodular episcleritis or scleritis.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "A unilateral red eye with sclera-adherent nodule can suggest episcleritis/scleritis; differential reasoning.",
+        "cluster_idx": 0,
+        "cluster_label": "unsegmented"
+      },
+      {
+        "id": "n34",
+        "text": "The lesion is painless.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Reference explicitly says painless.",
+        "cluster_idx": 0,
+        "cluster_label": "unsegmented"
+      },
+      {
+        "id": "n35",
+        "text": "Ultrasound demonstrates an embedded reflective body with granulomatous reaction rather than idiopathic scleral inflammation.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Ultrasound showing embedded reflective body with granulomatous reaction supports this distinction from idiopathic scleral inflammation.",
+        "cluster_idx": 0,
+        "cluster_label": "unsegmented"
+      },
+      {
+        "id": "n36",
+        "text": "A conjunctival mass can present as a red eye lesion.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Conjunctival masses can present as red eye lesions; standard clinical knowledge.",
+        "cluster_idx": 0,
+        "cluster_label": "unsegmented"
+      },
+      {
+        "id": "n37",
+        "text": "The acute 2-week course, granulomatous appearance, central necrosis, and embedded high-reflective echo make neoplasia less likely.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Short course, necrosis, and embedded echo reasonably make neoplasia less likely.",
+        "cluster_idx": 0,
+        "cluster_label": "unsegmented"
+      },
+      {
+        "id": "n38",
+        "text": "The most likely diagnosis is a conjunctival-episcleral foreign body granuloma.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Matches the stated final diagnosis: conjunctival-episcleral foreign body granuloma.",
+        "cluster_idx": 0,
+        "cluster_label": "unsegmented"
+      },
+      {
+        "id": "n39",
+        "text": "The foreign body granuloma is likely from occult insect or plant material.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.6,
+        "reasoning": "Occult insect or plant material is speculative; the reference only says likely foreign body, not the specific material.",
+        "cluster_idx": 0,
+        "cluster_label": "unsegmented"
+      },
+      {
+        "id": "n40",
+        "text": "The defining feature is the high-reflective embedded structure on ultrasound biomicroscopy with surrounding granulomatous inflammation and pseudocysts.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Reference explicitly identifies the high-reflective embedded structure with surrounding granulomatous inflammation and pseudocysts as the defining feature.",
+        "cluster_idx": 0,
+        "cluster_label": "unsegmented"
+      },
+      {
+        "id": "n41",
+        "text": "Systemic infectious causes were specifically investigated and not supported.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "QuantiFERON-TB, chest CT, and syphilis tests were all reported normal/negative, so systemic infectious causes were investigated and not supported.",
+        "cluster_idx": 0,
+        "cluster_label": "unsegmented"
+      },
+      {
+        "id": "n42",
+        "text": "Conjunctival/episcleral foreign body granuloma is a high-probability differential diagnosis.",
+        "category": "factual",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "The trace explicitly ranks conjunctival/episcleral foreign body granuloma as the top diagnosis; calling it high-probability is a faithful summary, not a direct data point.",
+        "cluster_idx": 0,
+        "cluster_label": "unsegmented"
+      },
+      {
+        "id": "n43",
+        "text": "Ultrasound biomicroscopy showed a high-reflectivity echo embedded in the conjunctiva, episclera, and superficial sclera, surrounded by a granulomatous mass and pseudocysts.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Reference data states UBM showed a high-reflectivity echo embedded in the conjunctiva, episclera, and superficial sclera, surrounded by a low-reflective granulomatous mass and multiple pseudocysts.",
+        "cluster_idx": 0,
+        "cluster_label": "unsegmented"
+      },
+      {
+        "id": "n44",
+        "text": "Unilateral localized red eye with a sclera-attached granuloma fits retained foreign material.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "A localized unilateral red eye with a sclera-attached granuloma is a reasonable clinical fit for retained foreign material; this is an inference from the imaging and exam findings.",
+        "cluster_idx": 0,
+        "cluster_label": "unsegmented"
+      },
+      {
+        "id": "n45",
+        "text": "Infectious conjunctival or scleral granuloma is a medium-probability differential diagnosis.",
+        "category": "factual",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "The trace lists infectious conjunctival or scleral granuloma as a medium-probability differential, so this is a valid summary.",
+        "cluster_idx": 0,
+        "cluster_label": "unsegmented"
+      },
+      {
+        "id": "n46",
+        "text": "Central epithelial necrosis and mild leukocytosis could suggest infection.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Central epithelial necrosis can suggest infection, and mild leukocytosis is compatible with inflammation/infection; this is inferential rather than directly stated in the reference.",
+        "cluster_idx": 0,
+        "cluster_label": "unsegmented"
+      },
+      {
+        "id": "n47",
+        "text": "TB work-up, chest CT, and syphilis serologies were negative.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Reference data says QuantiFERON-TB and chest CT were normal, and treponemal/non-treponemal tests were negative.",
+        "cluster_idx": 0,
+        "cluster_label": "unsegmented"
+      },
+      {
+        "id": "n48",
+        "text": "Imaging favored embedded foreign material.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "The embedded high-reflectivity echo with surrounding granulomatous mass reasonably favors foreign material over primary inflammation; this follows from the imaging description.",
+        "cluster_idx": 0,
+        "cluster_label": "unsegmented"
+      },
+      {
+        "id": "n49",
+        "text": "Nodular episcleritis or anterior scleritis is a low-probability differential diagnosis.",
+        "category": "factual",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "The trace explicitly lists nodular episcleritis/anterior scleritis as a low-probability differential, so this is a valid summary.",
+        "cluster_idx": 0,
+        "cluster_label": "unsegmented"
+      },
+      {
+        "id": "n50",
+        "text": "A unilateral red eye with a sclera-adherent lesion could mimic nodular episcleritis or anterior scleritis.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "A unilateral red eye with a sclera-adherent lesion can clinically mimic episcleritis/scleritis; this is standard differential reasoning.",
+        "cluster_idx": 0,
+        "cluster_label": "unsegmented"
+      },
+      {
+        "id": "n51",
+        "text": "The lesion was painless.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "The presentation is explicitly described as painless.",
+        "cluster_idx": 0,
+        "cluster_label": "unsegmented"
+      },
+      {
+        "id": "n52",
+        "text": "Ultrasound identified a discrete reflective embedded structure rather than primary inflammatory scleral disease.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Given the discrete embedded reflective focus on ultrasound, concluding it is more consistent with embedded material than primary inflammatory scleral disease is a sound inference.",
+        "cluster_idx": 0,
+        "cluster_label": "unsegmented"
+      },
+      {
+        "id": "n53",
+        "text": "Conjunctival neoplasm is a low-probability differential diagnosis.",
+        "category": "factual",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "The trace lists conjunctival neoplasm as a low-probability differential, so this is a valid summary.",
+        "cluster_idx": 0,
+        "cluster_label": "unsegmented"
+      },
+      {
+        "id": "n54",
+        "text": "A conjunctival mass is possible.",
+        "category": "factual",
+        "verified": true,
+        "score": 0.6,
+        "reasoning": "The reference describes a conjunctival granuloma/mass, but does not specifically establish a neoplasm as merely 'possible' beyond the differential discussion.",
+        "cluster_idx": 0,
+        "cluster_label": "unsegmented"
+      },
+      {
+        "id": "n55",
+        "text": "The short 2-week course and ultrasound evidence of an embedded reflective body with surrounding granuloma argue against neoplasia.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Short course plus embedded reflective body with granuloma reasonably argue against neoplasia; this is differential-pruning inference, not a contradiction.",
+        "cluster_idx": 0,
+        "cluster_label": "unsegmented"
+      },
+      {
+        "id": "n56",
+        "text": "The final diagnosis is conjunctival-episcleral foreign body granuloma.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "The trace explicitly states the final diagnosis is conjunctival-episcleral foreign body granuloma.",
+        "cluster_idx": 0,
+        "cluster_label": "unsegmented"
+      }
+    ],
+    "edges": [
+      {
+        "source": "n1",
+        "target": "n4",
+        "kind": "supports",
+        "explanation": "A unilateral red eye presentation helps frame the differential toward red-eye causes, and the 2-week course contributes to the clinical context."
+      },
+      {
+        "source": "n2",
+        "target": "n4",
+        "kind": "supports",
+        "explanation": "A non-traumatic presentation makes traumatic causes less likely, which is part of narrowing the red-eye differential."
+      },
+      {
+        "source": "n3",
+        "target": "n4",
+        "kind": "supports",
+        "explanation": "Painlessness supports deprioritizing painful inflammatory red-eye diagnoses."
+      },
+      {
+        "source": "n5",
+        "target": "n6",
+        "kind": "supports",
+        "explanation": "A conjunctival granuloma attached to the sclera with necrosis is a salient lesion pattern consistent with a localized granulomatous reaction."
+      },
+      {
+        "source": "n7",
+        "target": "n10",
+        "kind": "supports",
+        "explanation": "A discrete high-reflective embedded focus on ultrasound is the imaging feature that suggests foreign material."
+      },
+      {
+        "source": "n8",
+        "target": "n11",
+        "kind": "supports",
+        "explanation": "A granulomatous mass surrounding the embedded echo fits a tissue reaction to retained material."
+      },
+      {
+        "source": "n9",
+        "target": "n11",
+        "kind": "supports",
+        "explanation": "Pseudocysts are part of the surrounding reactive tissue pattern around the embedded material."
+      },
+      {
+        "source": "n10",
+        "target": "n27",
+        "kind": "supports",
+        "explanation": "If a discrete high-reflective focus suggests foreign material, that supports the diagnosis of retained conjunctival/episcleral foreign body."
+      },
+      {
+        "source": "n11",
+        "target": "n27",
+        "kind": "supports",
+        "explanation": "A surrounding granulomatous mass supports a foreign body granulomatous reaction."
+      },
+      {
+        "source": "n14",
+        "target": "n15",
+        "kind": "supports",
+        "explanation": "Absence of recalled trauma does not exclude occult foreign body exposure."
+      },
+      {
+        "source": "n16",
+        "target": "n17",
+        "kind": "supports",
+        "explanation": "Normal fundoscopy supports lack of posterior segment involvement."
+      },
+      {
+        "source": "n18",
+        "target": "n20",
+        "kind": "supports",
+        "explanation": "A normal QuantiFERON-TB result argues against ocular tuberculosis."
+      },
+      {
+        "source": "n19",
+        "target": "n20",
+        "kind": "supports",
+        "explanation": "A normal chest CT further reduces the likelihood of ocular tuberculosis."
+      },
+      {
+        "source": "n21",
+        "target": "n23",
+        "kind": "supports",
+        "explanation": "Negative treponemal testing argues against syphilitic granulomatous disease."
+      },
+      {
+        "source": "n22",
+        "target": "n23",
+        "kind": "supports",
+        "explanation": "Negative non-treponemal testing also argues against syphilis."
+      },
+      {
+        "source": "n24",
+        "target": "n25",
+        "kind": "supports",
+        "explanation": "Painlessness makes active infectious scleritis less typical."
+      },
+      {
+        "source": "n26",
+        "target": "n33",
+        "kind": "supports",
+        "explanation": "Lack of systemic autoimmune history leaves nodular episcleritis or scleritis as a less supported alternative."
+      },
+      {
+        "source": "n7",
+        "target": "n31",
+        "kind": "supports",
+        "explanation": "The embedded reflective structure on ultrasound is the key evidence favoring foreign material over primary infection."
+      },
+      {
+        "source": "n29",
+        "target": "n46",
+        "kind": "supports",
+        "explanation": "Necrosis can be interpreted as a feature that raises concern for infection."
+      },
+      {
+        "source": "n30",
+        "target": "n46",
+        "kind": "supports",
+        "explanation": "Mild leukocytosis can support an infectious or inflammatory process."
+      },
+      {
+        "source": "n32",
+        "target": "n41",
+        "kind": "supports",
+        "explanation": "Negative TB and syphilis testing supports the statement that systemic infectious causes were not supported."
+      },
+      {
+        "source": "n47",
+        "target": "n41",
+        "kind": "supports",
+        "explanation": "Negative TB work-up, chest CT, and syphilis serologies support lack of systemic infectious evidence."
+      },
+      {
+        "source": "n43",
+        "target": "n40",
+        "kind": "supports",
+        "explanation": "The detailed ultrasound finding directly matches the defining feature described."
+      },
+      {
+        "source": "n43",
+        "target": "n48",
+        "kind": "supports",
+        "explanation": "The embedded high-reflective echo with surrounding granuloma is imaging evidence favoring foreign material."
+      },
+      {
+        "source": "n44",
+        "target": "n27",
+        "kind": "supports",
+        "explanation": "A unilateral red eye with a sclera-attached granuloma is compatible with retained foreign material."
+      },
+      {
+        "source": "n45",
+        "target": "n46",
+        "kind": "supports",
+        "explanation": "The infectious differential is supported by features such as necrosis and leukocytosis."
+      },
+      {
+        "source": "n47",
+        "target": "n45",
+        "kind": "supports",
+        "explanation": "Negative infectious work-up weakens but also frames the infectious differential as less likely."
+      },
+      {
+        "source": "n50",
+        "target": "n49",
+        "kind": "supports",
+        "explanation": "A unilateral red eye with a sclera-adherent lesion can mimic nodular episcleritis or anterior scleritis."
+      },
+      {
+        "source": "n51",
+        "target": "n49",
+        "kind": "supports",
+        "explanation": "Painlessness is compatible with considering nodular episcleritis/scleritis in the differential, though it is not classic for painful scleritis."
+      },
+      {
+        "source": "n52",
+        "target": "n49",
+        "kind": "supports",
+        "explanation": "Ultrasound showing a discrete embedded structure argues against primary inflammatory scleral disease."
+      },
+      {
+        "source": "n54",
+        "target": "n53",
+        "kind": "supports",
+        "explanation": "A conjunctival mass makes neoplasm a plausible differential consideration."
+      },
+      {
+        "source": "n55",
+        "target": "n53",
+        "kind": "supports",
+        "explanation": "The short course and embedded foreign-body-like ultrasound findings argue against neoplasia."
+      },
+      {
+        "source": "n56",
+        "target": "n38",
+        "kind": "supports",
+        "explanation": "The final diagnosis statement directly supports the most likely diagnosis."
+      }
+    ],
+    "disconnected": [
+      "n12",
+      "n13",
+      "n28",
+      "n34",
+      "n35",
+      "n36",
+      "n37",
+      "n39",
+      "n42"
+    ],
+    "clusters": [
+      {
+        "cluster_id": "c1",
+        "label": "unsegmented",
+        "statement_indices": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40,
+          41,
+          42,
+          43,
+          44,
+          45,
+          46,
+          47,
+          48,
+          49,
+          50,
+          51,
+          52,
+          53,
+          54,
+          55,
+          56
+        ],
+        "summary": "",
+        "salience": 0.0
+      }
+    ],
+    "node_ranks": {
+      "n1": 0.5,
+      "n2": 0.5,
+      "n3": 0.5,
+      "n4": 1.0,
+      "n5": 0.5,
+      "n6": 1.0,
+      "n7": 0.0,
+      "n8": 0.0,
+      "n9": 0.0,
+      "n10": 0.5,
+      "n11": 0.5,
+      "n12": 0.5,
+      "n13": 0.5,
+      "n14": 0.5,
+      "n15": 1.0,
+      "n16": 0.5,
+      "n17": 1.0,
+      "n18": 0.5,
+      "n19": 0.5,
+      "n20": 1.0,
+      "n21": 0.5,
+      "n22": 0.5,
+      "n23": 1.0,
+      "n24": 0.5,
+      "n25": 1.0,
+      "n26": 0.5,
+      "n27": 1.0,
+      "n28": 0.5,
+      "n29": 0.5,
+      "n30": 0.5,
+      "n31": 1.0,
+      "n32": 0.5,
+      "n33": 1.0,
+      "n34": 0.5,
+      "n35": 0.5,
+      "n36": 0.5,
+      "n37": 0.5,
+      "n38": 1.0,
+      "n39": 0.5,
+      "n40": 1.0,
+      "n41": 1.0,
+      "n42": 0.5,
+      "n43": 0.5,
+      "n44": 0.5,
+      "n45": 0.5,
+      "n46": 1.0,
+      "n47": 0.0,
+      "n48": 1.0,
+      "n49": 1.0,
+      "n50": 0.5,
+      "n51": 0.5,
+      "n52": 0.5,
+      "n53": 1.0,
+      "n54": 0.5,
+      "n55": 0.5,
+      "n56": 0.5
+    }
+  }
+}

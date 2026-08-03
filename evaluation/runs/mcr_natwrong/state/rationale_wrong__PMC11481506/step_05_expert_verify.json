@@ -1,0 +1,683 @@
+{
+  "name": "expert_verify",
+  "passed": true,
+  "score": 1.0,
+  "reasoning": "No contradictions among 74 statement(s) (47 supported, 25 valid inferences, 2 unverifiable).",
+  "data": {
+    "verifications": [
+      {
+        "text": "The chief complaint is 3 days of upper abdominal pain in a previously healthy 26-year-old man.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Matches reference: 26-year-old man with 3-day history of upper abdominal pain and no prior hypertension/heart disease."
+      },
+      {
+        "text": "The initial bedside concern appears to have been an acute surgical abdomen or biliary disease.",
+        "category": "factual",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.86,
+        "reasoning": "The trace infers surgical abdomen/biliary disease from Murphy’s sign, rebound, and CT gallbladder changes; this is a reasonable clinical inference, not directly stated in the reference."
+      },
+      {
+        "text": "He had epigastric tenderness with rebound.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Reference explicitly states epigastric tenderness with rebound."
+      },
+      {
+        "text": "He had a positive Murphy’s sign.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Reference explicitly states a positive Murphy’s sign."
+      },
+      {
+        "text": "CT showed a hyperdense gallbladder with mild wall swelling.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Reference CT showed a hyperdense gallbladder and mild gallbladder wall swelling."
+      },
+      {
+        "text": "The patient was afebrile.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Reference explicitly says he was afebrile."
+      },
+      {
+        "text": "Procalcitonin was normal.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Reference explicitly says procalcitonin was normal."
+      },
+      {
+        "text": "CRP was normal.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Reference explicitly says CRP was normal."
+      },
+      {
+        "text": "Imaging showed multisystem fluid accumulation in the chest, pericardial sac, and abdomen.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Reference CT showed fluid collections in the chest, pericardial sac, and abdomen."
+      },
+      {
+        "text": "Salient positive findings are upper abdominal pain.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.98,
+        "reasoning": "Upper abdominal pain is the presenting complaint in the reference."
+      },
+      {
+        "text": "Salient positive findings are epigastric tenderness with rebound.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Same as index 2; explicitly present."
+      },
+      {
+        "text": "Salient positive findings are a positive Murphy’s sign.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Same as index 3; explicitly present."
+      },
+      {
+        "text": "Salient positive findings are mild jaundice.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Reference states mild jaundice."
+      },
+      {
+        "text": "Salient positive findings are a mildly elevated leukocyte count.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Reference states a mildly elevated leukocyte count."
+      },
+      {
+        "text": "CT showed mild gallbladder wall swelling.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Reference CT showed mild gallbladder wall swelling."
+      },
+      {
+        "text": "CT showed fluid in pleural, pericardial, and peritoneal spaces.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Reference CT showed fluid collections in chest, pericardial sac, and abdomen, corresponding to pleural/pericardial/peritoneal spaces."
+      },
+      {
+        "text": "ECG showed ST-segment depression.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Reference ECG showed ST-segment depression."
+      },
+      {
+        "text": "ECG showed T-wave inversion in V1–4.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Reference ECG showed T-wave inversion in V1–4."
+      },
+      {
+        "text": "ECG showed prolonged QT.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Reference ECG showed a prolonged QT interval."
+      },
+      {
+        "text": "At laparotomy, there was ascites.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Reference laparotomy found ascites."
+      },
+      {
+        "text": "At laparotomy, there was bowel wall edema.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Reference laparotomy found bowel wall edema."
+      },
+      {
+        "text": "At laparotomy, there was no bowel perforation.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Reference explicitly states no evidence of bowel perforation."
+      },
+      {
+        "text": "At laparotomy, there was no gallbladder enlargement.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Reference explicitly states no gallbladder enlargement."
+      },
+      {
+        "text": "At laparotomy, there was no cholangitis.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Reference explicitly states no cholangitis."
+      },
+      {
+        "text": "The operative finding of about 1000 mL peritoneal fluid strongly suggests a systemic capillary leak or third-spacing process rather than a focal intra-abdominal infection.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.9,
+        "reasoning": "Large-volume peritoneal fluid with negative laparotomy reasonably supports third-spacing/capillary leak over focal infection; this is an interpretation, not a direct reference statement."
+      },
+      {
+        "text": "The operative finding of bowel wall edema strongly suggests a systemic capillary leak or third-spacing process rather than a focal intra-abdominal infection.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.9,
+        "reasoning": "Bowel wall edema similarly supports a systemic edema/third-spacing process; clinically reasonable inference."
+      },
+      {
+        "text": "He had no history of hypertension.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Reference says no history of hypertension."
+      },
+      {
+        "text": "He had no history of heart disease.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Reference says no history of heart disease."
+      },
+      {
+        "text": "He was afebrile.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Reference explicitly says he was afebrile."
+      },
+      {
+        "text": "Procalcitonin was normal.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Reference explicitly says procalcitonin was normal."
+      },
+      {
+        "text": "CRP was normal.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Reference explicitly says CRP was normal."
+      },
+      {
+        "text": "These findings argue against acute bacterial cholecystitis, cholangitis, or perforated viscus.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.88,
+        "reasoning": "Normal inflammatory markers, afebrile status, and negative laparotomy findings reasonably argue against bacterial cholecystitis/cholangitis/perforated viscus; this is a clinical inference."
+      },
+      {
+        "text": "Intraoperatively there was no bowel perforation.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Reference explicitly states no bowel perforation intraoperatively."
+      },
+      {
+        "text": "Intraoperatively there was no gallbladder enlargement.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Reference explicitly states no gallbladder enlargement intraoperatively."
+      },
+      {
+        "text": "Intraoperatively there was no cholangitis.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Reference explicitly states no cholangitis intraoperatively."
+      },
+      {
+        "text": "These intraoperative findings directly refute the presumed surgical biliary diagnosis.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.86,
+        "reasoning": "Negative operative findings reasonably undermine the presumed biliary surgical diagnosis; this is an inference rather than a verbatim fact."
+      },
+      {
+        "text": "The presence of pericardial fluid is atypical for isolated gallbladder disease.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.84,
+        "reasoning": "Pericardial fluid is not typical for isolated gallbladder disease; this is standard clinical reasoning, not directly stated."
+      },
+      {
+        "text": "The presence of pleural fluid is atypical for isolated gallbladder disease.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.84,
+        "reasoning": "Pleural fluid is likewise atypical for isolated gallbladder disease; reasonable inference."
+      },
+      {
+        "text": "The first differential is acute cholecystitis or cholangitis.",
+        "category": "factual",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.9,
+        "reasoning": "Given Murphy’s sign, jaundice, leukocytosis, and gallbladder wall changes, acute cholecystitis/cholangitis is a reasonable first differential, though not directly stated in the reference data."
+      },
+      {
+        "text": "The reason for that differential is the positive Murphy’s sign, mild jaundice, leukocytosis, and gallbladder wall changes on CT.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.98,
+        "reasoning": "The listed features are exactly the findings used to motivate the biliary differential in the trace; this is a sound explanatory inference."
+      },
+      {
+        "text": "This differential becomes less likely because the patient was afebrile.",
+        "category": "causal",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.98,
+        "reasoning": "Reference data explicitly says he was afebrile, which supports the statement that this differential becomes less likely because of afebrile status."
+      },
+      {
+        "text": "This differential becomes less likely because inflammatory markers were normal.",
+        "category": "causal",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.98,
+        "reasoning": "CRP and procalcitonin were normal in the reference data, supporting the statement."
+      },
+      {
+        "text": "This differential becomes less likely because surgery found no gallbladder enlargement or cholangitis.",
+        "category": "causal",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.97,
+        "reasoning": "Operative findings explicitly showed no gallbladder enlargement or cholangitis."
+      },
+      {
+        "text": "Gallbladder wall edema can be secondary to systemic edema rather than primary gallbladder inflammation.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.86,
+        "reasoning": "Not stated verbatim, but it is a standard clinical inference that gallbladder wall edema may be secondary to systemic edema rather than primary cholecystitis."
+      },
+      {
+        "text": "A second differential is perforated viscus or other surgical peritonitis.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "The trace explicitly lists perforated viscus or other surgical peritonitis as a differential."
+      },
+      {
+        "text": "The reason for that differential is rebound tenderness and ascites.",
+        "category": "causal",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.98,
+        "reasoning": "Rebound tenderness and ascites are directly cited as the reason for that differential."
+      },
+      {
+        "text": "This differential becomes unlikely because laparotomy showed no perforation.",
+        "category": "causal",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Laparotomy showed no bowel perforation, which directly supports this statement."
+      },
+      {
+        "text": "This differential becomes unlikely because laparotomy showed bowel wall edema and free fluid.",
+        "category": "causal",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.98,
+        "reasoning": "Laparotomy showed bowel wall edema and free fluid/ascites, matching the statement."
+      },
+      {
+        "text": "These findings favor a systemic process.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.95,
+        "reasoning": "This is a reasonable clinical inference from bowel wall edema plus free fluid without perforation, favoring a systemic process."
+      },
+      {
+        "text": "A third differential is acute pancreatitis.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Acute pancreatitis is explicitly listed as a third differential."
+      },
+      {
+        "text": "The reason for that differential is that acute pancreatitis can cause epigastric pain, ascites, pleural effusions, and reactive gallbladder changes.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.9,
+        "reasoning": "This is standard medical reasoning for why pancreatitis was considered; it is not contradicted by the data."
+      },
+      {
+        "text": "No pancreatic findings are provided.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.97,
+        "reasoning": "No pancreatic imaging findings are mentioned in the reference data."
+      },
+      {
+        "text": "No enzyme abnormalities are provided.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.97,
+        "reasoning": "No pancreatic enzyme abnormalities are provided in the reference data."
+      },
+      {
+        "text": "The ECG abnormalities are not typical core features of acute pancreatitis.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.84,
+        "reasoning": "The ECG findings are not typical core features of pancreatitis; this is a reasonable inference rather than a directly stated fact."
+      },
+      {
+        "text": "Pericardial effusion is not a typical core feature of acute pancreatitis.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.84,
+        "reasoning": "Pericardial effusion is not a typical core feature of acute pancreatitis; this is standard clinical knowledge."
+      },
+      {
+        "text": "A fourth and more fitting differential is a systemic capillary leak state.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.98,
+        "reasoning": "The trace explicitly states a fourth and more fitting differential is a systemic capillary leak state."
+      },
+      {
+        "text": "This systemic capillary leak state would cause serosal effusions, bowel wall edema, gallbladder wall edema, and abdominal pain.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.95,
+        "reasoning": "This is a plausible mechanistic summary of systemic capillary leak causing edema/effusions and abdominal pain."
+      },
+      {
+        "text": "In a young patient with pleural, pericardial, and peritoneal effusions plus bowel wall edema and no evidence of infection or perforation, hereditary angioedema with gastrointestinal involvement is a strong fit.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.96,
+        "reasoning": "This is a sound diagnostic inference from the pattern of multisystem effusions, bowel wall edema, and lack of infection/perforation."
+      },
+      {
+        "text": "Hereditary angioedema can present as severe abdominal pain mimicking an acute abdomen.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.98,
+        "reasoning": "Hereditary angioedema is well known to cause severe abdominal pain mimicking an acute abdomen."
+      },
+      {
+        "text": "Hereditary angioedema can present with ascites.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.97,
+        "reasoning": "Ascites can occur in hereditary angioedema abdominal attacks; this is a standard clinical association."
+      },
+      {
+        "text": "Hereditary angioedema can present with bowel wall edema.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.97,
+        "reasoning": "Bowel wall edema is a recognized manifestation of hereditary angioedema."
+      },
+      {
+        "text": "Hereditary angioedema can present with gallbladder wall edema.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.9,
+        "reasoning": "Gallbladder wall edema can occur with hereditary angioedema/systemic edema, though it is less classic than bowel edema."
+      },
+      {
+        "text": "Hereditary angioedema can present with pleural effusions due to increased vascular permeability.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.9,
+        "reasoning": "Pleural effusions can occur in hereditary angioedema due to increased vascular permeability; this is a reasonable clinical inference."
+      },
+      {
+        "text": "Hereditary angioedema can present with pericardial effusions due to increased vascular permeability.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.9,
+        "reasoning": "Pericardial effusions are also compatible with increased vascular permeability in systemic angioedema states."
+      },
+      {
+        "text": "The ECG changes could reflect systemic illness or electrolyte effects.",
+        "category": "causal",
+        "verdict": "unverifiable",
+        "verified": true,
+        "score": 0.6,
+        "confidence": 0.72,
+        "reasoning": "The ECG abnormalities are documented, but attributing them to systemic illness or electrolyte effects is speculative and not verifiable from the provided data."
+      },
+      {
+        "text": "The ECG changes could reflect myocardial involvement from the same process.",
+        "category": "causal",
+        "verdict": "unverifiable",
+        "verified": true,
+        "score": 0.6,
+        "confidence": 0.7,
+        "reasoning": "Myocardial involvement from the same process is not established by the reference data."
+      },
+      {
+        "text": "The key diagnostic pattern is unexplained multisystem edema and effusions with a negative laparotomy.",
+        "category": "factual",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.96,
+        "reasoning": "This is an accurate synthesis of the pattern: multisystem effusions/edema with negative laparotomy."
+      },
+      {
+        "text": "The combination of acute abdominal pain, bowel wall edema, large-volume ascites, pleural and pericardial effusions, mild gallbladder wall edema mimicking cholecystitis, and absence of infectious or surgical pathology most strongly supports hereditary angioedema presenting with an abdominal attack.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.98,
+        "reasoning": "This is the trace's diagnostic conclusion and is a legitimate synthesis of the provided findings."
+      },
+      {
+        "text": "This diagnosis best unifies the false-positive Murphy’s sign, the imaging, and the negative exploratory laparotomy.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.97,
+        "reasoning": "The diagnosis does unify the Murphy sign, imaging, and negative laparotomy; this is a sound inference."
+      },
+      {
+        "text": "The high differential diagnosis is hereditary angioedema with abdominal attack.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "The trace explicitly labels hereditary angioedema with abdominal attack as the high differential."
+      },
+      {
+        "text": "The medium differential diagnosis is acute cholecystitis or cholangitis.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "The trace explicitly labels acute cholecystitis/cholangitis as the medium differential."
+      },
+      {
+        "text": "The low differential diagnosis is perforated viscus or generalized surgical peritonitis.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "The trace explicitly labels perforated viscus or generalized surgical peritonitis as the low differential."
+      },
+      {
+        "text": "The low differential diagnosis is acute pancreatitis.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "The trace explicitly labels acute pancreatitis as the low differential."
+      },
+      {
+        "text": "The final diagnosis is hereditary angioedema with abdominal attack.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "The final diagnosis is explicitly stated as hereditary angioedema with abdominal attack."
+      }
+    ],
+    "verdict_counts": {
+      "contradicted": 0,
+      "supported": 47,
+      "valid_inference": 25,
+      "unverifiable": 2
+    },
+    "contradictions": 0
+  }
+}

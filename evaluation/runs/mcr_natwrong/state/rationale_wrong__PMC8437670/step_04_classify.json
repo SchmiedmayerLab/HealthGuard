@@ -1,0 +1,380 @@
+{
+  "name": "classify",
+  "passed": true,
+  "score": 1.0,
+  "reasoning": "Classified 74 statement(s): 33 causal, 36 factual, 5 statistical.",
+  "data": {
+    "classified": [
+      {
+        "text": "The chief complaint is a two-week history of unilateral left lower extremity swelling and pain.",
+        "category": "factual",
+        "rationale": "It states a patient symptom history as a direct clinical fact."
+      },
+      {
+        "text": "The patient’s immediate concern is likely a vascular cause such as deep venous thrombosis.",
+        "category": "causal",
+        "rationale": "It proposes an explanatory relationship between the symptoms and a vascular cause."
+      },
+      {
+        "text": "The case data quickly redirect away from primary venous thrombosis and toward a pelvic obstructive process.",
+        "category": "causal",
+        "rationale": "It describes a causal shift in explanation from DVT to pelvic obstruction."
+      },
+      {
+        "text": "Salient positive findings include unilateral left leg pitting edema and pain.",
+        "category": "factual",
+        "rationale": "It lists observed clinical findings."
+      },
+      {
+        "text": "Salient positive findings include slight improvement with elevation and NSAIDs.",
+        "category": "factual",
+        "rationale": "It reports a symptom response as a clinical observation."
+      },
+      {
+        "text": "Salient positive findings include a Doppler ultrasound negative for DVT.",
+        "category": "factual",
+        "rationale": "It reports an imaging result."
+      },
+      {
+        "text": "Salient positive findings include CTA showing a large heterogeneous left pelvic retroperitoneal mass centered at the left iliac chain measuring 8.7 × 6.9 × 8.5 cm.",
+        "category": "statistical",
+        "rationale": "It includes a specific measured size, which is a numerical claim."
+      },
+      {
+        "text": "Salient positive findings include probable compression or occlusion of the adjacent iliac vein.",
+        "category": "factual",
+        "rationale": "It states an imaging finding about vessel compression."
+      },
+      {
+        "text": "She has elevated inflammatory markers.",
+        "category": "factual",
+        "rationale": "It asserts an abnormal lab finding."
+      },
+      {
+        "text": "Her ESR is 35 mm/hr.",
+        "category": "statistical",
+        "rationale": "It gives a specific laboratory value."
+      },
+      {
+        "text": "Her CRP is 30.1 mg/L.",
+        "category": "statistical",
+        "rationale": "It gives a specific laboratory value."
+      },
+      {
+        "text": "Her age is 65 years.",
+        "category": "statistical",
+        "rationale": "It states a specific age."
+      },
+      {
+        "text": "Her age raises concern for malignancy.",
+        "category": "causal",
+        "rationale": "It links age with increased concern for a disease category."
+      },
+      {
+        "text": "She is immunomodulated with methotrexate and adalimumab for inflammatory polyarthritis.",
+        "category": "factual",
+        "rationale": "It states a medication and treatment history."
+      },
+      {
+        "text": "This immunomodulatory therapy broadens concern for lymphoproliferative disease.",
+        "category": "causal",
+        "rationale": "It describes a relationship between immunomodulation and disease risk."
+      },
+      {
+        "text": "The diagnosis must rest on the presented findings.",
+        "category": "factual",
+        "rationale": "It is a statement about the basis for diagnosis rather than a recommendation."
+      },
+      {
+        "text": "Strong peripheral pulses argue against arterial insufficiency as the cause of leg symptoms.",
+        "category": "causal",
+        "rationale": "It explains how a finding reduces the likelihood of a cause."
+      },
+      {
+        "text": "The abdomen being soft and nondistended does not exclude a retroperitoneal pelvic mass.",
+        "category": "causal",
+        "rationale": "It relates a physical exam finding to the possibility of a mass."
+      },
+      {
+        "text": "There is no shortness of breath.",
+        "category": "factual",
+        "rationale": "It states the absence of a symptom."
+      },
+      {
+        "text": "There is no chest pain.",
+        "category": "factual",
+        "rationale": "It states the absence of a symptom."
+      },
+      {
+        "text": "The absence of shortness of breath and chest pain makes pulmonary embolism less likely as the explanation for symptoms.",
+        "category": "causal",
+        "rationale": "It links absent symptoms to reduced likelihood of a diagnosis."
+      },
+      {
+        "text": "There is no recent trauma.",
+        "category": "factual",
+        "rationale": "It states the absence of a relevant history item."
+      },
+      {
+        "text": "The absence of recent trauma argues against hematoma from injury.",
+        "category": "causal",
+        "rationale": "It connects lack of trauma with lower likelihood of traumatic hematoma."
+      },
+      {
+        "text": "There is no fever.",
+        "category": "factual",
+        "rationale": "It states the absence of a symptom."
+      },
+      {
+        "text": "The absence of fever makes abscess or infectious adenitis less likely.",
+        "category": "causal",
+        "rationale": "It relates absence of fever to reduced likelihood of infection."
+      },
+      {
+        "text": "There is no unexplained weight loss.",
+        "category": "factual",
+        "rationale": "It states the absence of a symptom."
+      },
+      {
+        "text": "The absence of unexplained weight loss does not exclude malignancy.",
+        "category": "causal",
+        "rationale": "It explains how a negative symptom does not rule out a diagnosis."
+      },
+      {
+        "text": "She is on therapeutic warfarin.",
+        "category": "factual",
+        "rationale": "It states a medication status."
+      },
+      {
+        "text": "Therapeutic warfarin with a negative Doppler makes standard lower-extremity DVT less likely as the primary diagnosis.",
+        "category": "causal",
+        "rationale": "It links treatment and test results to diagnostic likelihood."
+      },
+      {
+        "text": "The smoking history is minimal and remote.",
+        "category": "factual",
+        "rationale": "It states a history detail."
+      },
+      {
+        "text": "The smoking history does not strongly point toward a smoking-related metastatic malignancy.",
+        "category": "causal",
+        "rationale": "It relates smoking history to malignancy likelihood."
+      },
+      {
+        "text": "The first differential is deep venous thrombosis.",
+        "category": "factual",
+        "rationale": "It identifies a diagnostic consideration."
+      },
+      {
+        "text": "Deep venous thrombosis fits unilateral leg swelling and pain.",
+        "category": "causal",
+        "rationale": "It explains why the symptoms are compatible with DVT."
+      },
+      {
+        "text": "Deep venous thrombosis is undermined by a negative Doppler ultrasound.",
+        "category": "causal",
+        "rationale": "It links a test result to reduced likelihood of DVT."
+      },
+      {
+        "text": "Deep venous thrombosis is undermined by the discovery of a large pelvic mass directly compressing or occluding the iliac vein.",
+        "category": "causal",
+        "rationale": "It explains why the mass provides a better alternative cause than DVT."
+      },
+      {
+        "text": "Deep venous thrombosis could still coexist proximally.",
+        "category": "factual",
+        "rationale": "It states a possibility without making a recommendation or causal claim."
+      },
+      {
+        "text": "The imaging provides a more direct explanation than deep venous thrombosis.",
+        "category": "causal",
+        "rationale": "It compares causes and states one explains the symptoms better."
+      },
+      {
+        "text": "The next differential is lymphoma.",
+        "category": "factual",
+        "rationale": "It identifies another diagnostic consideration."
+      },
+      {
+        "text": "Lymphoma is plausible because the mass is centered at the left iliac chain, where bulky nodal disease can occur.",
+        "category": "causal",
+        "rationale": "It links imaging location to lymphoma plausibility."
+      },
+      {
+        "text": "Lymphoma is plausible because inflammatory markers are elevated.",
+        "category": "causal",
+        "rationale": "It connects lab abnormalities with diagnostic plausibility."
+      },
+      {
+        "text": "Immunosuppressive therapy makes lymphoproliferative disease a reasonable consideration.",
+        "category": "causal",
+        "rationale": "It relates immunosuppression to increased concern for lymphoproliferative disease."
+      },
+      {
+        "text": "The imaging description emphasizes a large heterogeneous retroperitoneal pelvic mass rather than clearly nodal conglomerates.",
+        "category": "factual",
+        "rationale": "It describes the imaging appearance."
+      },
+      {
+        "text": "There are no B symptoms reported.",
+        "category": "factual",
+        "rationale": "It states the absence of constitutional symptoms."
+      },
+      {
+        "text": "Retroperitoneal sarcoma is another strong candidate.",
+        "category": "factual",
+        "rationale": "It identifies a diagnostic possibility."
+      },
+      {
+        "text": "Retroperitoneal sarcoma fits an older adult with a large heterogeneous retroperitoneal mass causing mass effect on the iliac vein and resulting unilateral leg edema.",
+        "category": "causal",
+        "rationale": "It explains why the findings support retroperitoneal sarcoma."
+      },
+      {
+        "text": "Sarcomas commonly present as large masses due to the expansile capacity of the retroperitoneum.",
+        "category": "causal",
+        "rationale": "It states a mechanism for typical sarcoma presentation."
+      },
+      {
+        "text": "Sarcomas may lack systemic symptoms early.",
+        "category": "factual",
+        "rationale": "It states a general clinical feature."
+      },
+      {
+        "text": "Ovarian neoplasm is also considered.",
+        "category": "factual",
+        "rationale": "It identifies another diagnostic possibility."
+      },
+      {
+        "text": "A pelvic mass in a woman can arise from adnexal structures and cause venous compression.",
+        "category": "causal",
+        "rationale": "It explains how an adnexal mass can produce symptoms."
+      },
+      {
+        "text": "The lesion is described as retroperitoneal and centered at the left iliac chain rather than clearly adnexal.",
+        "category": "factual",
+        "rationale": "It reports the lesion's described location."
+      },
+      {
+        "text": "There are no gynecologic or abdominal symptoms provided.",
+        "category": "factual",
+        "rationale": "It states the absence of reported symptoms."
+      },
+      {
+        "text": "Germ cell tumor is much less likely in a 65-year-old woman.",
+        "category": "causal",
+        "rationale": "It links age and sex to reduced likelihood of a diagnosis."
+      },
+      {
+        "text": "Germ cell tumor was included in the imaging differential.",
+        "category": "factual",
+        "rationale": "It states that the diagnosis was considered."
+      },
+      {
+        "text": "The age and location make germ cell tumor less favored.",
+        "category": "causal",
+        "rationale": "It explains why the diagnosis is less likely based on clinical features."
+      },
+      {
+        "text": "The patient’s leg swelling is best explained by iliac vein compression from a pelvic retroperitoneal mass.",
+        "category": "causal",
+        "rationale": "It directly states the mechanism causing the swelling."
+      },
+      {
+        "text": "Among the candidate etiologies listed, the imaging description of a large heterogeneous retroperitoneal mass in an older adult most strongly favors retroperitoneal sarcoma over lymphoma or ovarian neoplasm.",
+        "category": "causal",
+        "rationale": "It compares etiologies and explains why one is favored."
+      },
+      {
+        "text": "The most likely diagnosis is retroperitoneal sarcoma presenting with left iliac vein compression and unilateral leg edema.",
+        "category": "factual",
+        "rationale": "It states the final diagnostic conclusion."
+      },
+      {
+        "text": "The differential diagnosis includes retroperitoneal sarcoma with high likelihood.",
+        "category": "factual",
+        "rationale": "It states a diagnostic likelihood assessment."
+      },
+      {
+        "text": "Retroperitoneal sarcoma is supported by a large heterogeneous left pelvic retroperitoneal mass measuring 8.7 × 6.9 × 8.5 cm in a 65-year-old.",
+        "category": "statistical",
+        "rationale": "It includes a specific measured mass size."
+      },
+      {
+        "text": "Retroperitoneal sarcoma is supported by probable iliac vein compression or occlusion and unilateral leg edema.",
+        "category": "causal",
+        "rationale": "It links imaging and symptoms to support the diagnosis."
+      },
+      {
+        "text": "Retroperitoneal sarcomas often present as bulky masses with mass effect.",
+        "category": "factual",
+        "rationale": "It states a general clinical characteristic."
+      },
+      {
+        "text": "The differential diagnosis includes lymphoma with medium likelihood.",
+        "category": "factual",
+        "rationale": "It states a diagnostic likelihood assessment."
+      },
+      {
+        "text": "Lymphoma is supported by a mass centered at the left iliac chain.",
+        "category": "causal",
+        "rationale": "It links lesion location to lymphoma plausibility."
+      },
+      {
+        "text": "Lymphoma is supported by elevated ESR and CRP.",
+        "category": "causal",
+        "rationale": "It links inflammatory markers to lymphoma plausibility."
+      },
+      {
+        "text": "Immunomodulatory therapy may increase concern for lymphoproliferative disease.",
+        "category": "causal",
+        "rationale": "It relates therapy to increased disease concern."
+      },
+      {
+        "text": "No B symptoms are reported.",
+        "category": "factual",
+        "rationale": "It states the absence of constitutional symptoms."
+      },
+      {
+        "text": "The differential diagnosis includes ovarian neoplasm with low likelihood.",
+        "category": "factual",
+        "rationale": "It states a diagnostic likelihood assessment."
+      },
+      {
+        "text": "A pelvic mass in an older woman could be adnexal and cause venous compression.",
+        "category": "causal",
+        "rationale": "It explains how an adnexal mass could produce venous symptoms."
+      },
+      {
+        "text": "The imaging describes a retroperitoneal mass centered at the iliac chain rather than a clearly ovarian lesion.",
+        "category": "factual",
+        "rationale": "It reports the imaging description."
+      },
+      {
+        "text": "The differential diagnosis includes deep venous thrombosis with low likelihood.",
+        "category": "factual",
+        "rationale": "It states a diagnostic likelihood assessment."
+      },
+      {
+        "text": "Unilateral painful pitting edema suggests DVT.",
+        "category": "causal",
+        "rationale": "It links symptoms to a possible diagnosis."
+      },
+      {
+        "text": "Doppler ultrasound was negative.",
+        "category": "factual",
+        "rationale": "It reports a test result."
+      },
+      {
+        "text": "CTA identified a pelvic mass with probable iliac vein compression as a more direct cause.",
+        "category": "causal",
+        "rationale": "It explains why the CTA finding better accounts for the symptoms."
+      },
+      {
+        "text": "The final diagnosis is retroperitoneal sarcoma.",
+        "category": "factual",
+        "rationale": "It states the final diagnosis."
+      }
+    ]
+  }
+}

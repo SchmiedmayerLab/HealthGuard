@@ -1,0 +1,1644 @@
+{
+  "name": "build_graph",
+  "passed": false,
+  "score": 0.89,
+  "reasoning": "Graph built with 100 node(s) and 62 edge(s). 22 disconnected node(s): n11, n12, n13, n14, n15, n16, n17, n20, n21, n22, n23, n24, n3, n5, n6, n69, n70, n8, n86, n87, n94, n95. The graph centers on a glomerular hematuria/proteinuria syndrome with preserved renal function. Evidence is organized into support for IgA nephropathy, with parallel weaker differentials such as obesity-related glomerulopathy/FSGS, hereditary nephritis, and other immune-complex GN being downweighted by the urine sediment, chronicity, and normal serologies. The final diagnosis is supported by the integrated pattern and the specific IgA-compatible features.",
+  "data": {
+    "nodes": [
+      {
+        "id": "n1",
+        "text": "The chief concern is chronic urinary abnormalities progressing over many years.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "The presentation describes chronic urinary abnormalities over many years, with occult blood since age 24 and progressive proteinuria.",
+        "cluster_idx": 0,
+        "cluster_label": "history_taking"
+      },
+      {
+        "id": "n2",
+        "text": "Occult blood has been present in the urine since age 24.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Reference data states occult blood in urine since age 24.",
+        "cluster_idx": 0,
+        "cluster_label": "history_taking"
+      },
+      {
+        "id": "n3",
+        "text": "Hypertension developed at age 37.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Hypertension was diagnosed at age 37.",
+        "cluster_idx": 0,
+        "cluster_label": "history_taking"
+      },
+      {
+        "id": "n4",
+        "text": "Proteinuria increased from 0.4 g/g creatinine to 1.16 g/g creatinine over 8 years.",
+        "category": "statistical",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Proteinuria increased from 0.4 g/g creatinine to 1.16 g/g creatinine over 8 years.",
+        "cluster_idx": 0,
+        "cluster_label": "history_taking"
+      },
+      {
+        "id": "n5",
+        "text": "At admission, kidney function was preserved.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Creatinine 0.69 mg/dL, cystatin C 0.74 mg/L, and eGFR 97.6 indicate preserved kidney function.",
+        "cluster_idx": 0,
+        "cluster_label": "history_taking"
+      },
+      {
+        "id": "n6",
+        "text": "At admission, persistent glomerular urinary findings were present.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Urinalysis showed proteinuria, microscopic hematuria, and red-cell casts, consistent with persistent glomerular urinary findings.",
+        "cluster_idx": 0,
+        "cluster_label": "history_taking"
+      },
+      {
+        "id": "n7",
+        "text": "Urinalysis showed proteinuria of 0.7 g/g creatinine.",
+        "category": "statistical",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Urinalysis proteinuria was 0.7 g/g creatinine.",
+        "cluster_idx": 0,
+        "cluster_label": "history_taking"
+      },
+      {
+        "id": "n8",
+        "text": "Urinalysis showed microscopic hematuria of 10–19 RBCs/HPF.",
+        "category": "statistical",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Urinalysis showed 10–19 red blood cells per high-power field.",
+        "cluster_idx": 0,
+        "cluster_label": "history_taking"
+      },
+      {
+        "id": "n9",
+        "text": "Urinalysis showed red-cell casts.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Red-cell casts were explicitly reported on urinalysis.",
+        "cluster_idx": 0,
+        "cluster_label": "history_taking"
+      },
+      {
+        "id": "n10",
+        "text": "Red-cell casts strongly localize bleeding to the glomerulus.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Red-cell casts are a standard marker of glomerular bleeding; this is a sound clinical inference from the finding.",
+        "cluster_idx": 0,
+        "cluster_label": "history_taking"
+      },
+      {
+        "id": "n11",
+        "text": "Hypertension is present at 140/78 mm Hg on losartan and amlodipine.",
+        "category": "statistical",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Blood pressure was 140/78 mm Hg while taking losartan and amlodipine.",
+        "cluster_idx": 0,
+        "cluster_label": "history_taking"
+      },
+      {
+        "id": "n12",
+        "text": "The course is indolent over decades.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "The course spans from age 24 to 45, i.e., decades.",
+        "cluster_idx": 0,
+        "cluster_label": "history_taking"
+      },
+      {
+        "id": "n13",
+        "text": "The course began in young adulthood.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "The abnormalities began at age 24, which is young adulthood.",
+        "cluster_idx": 0,
+        "cluster_label": "history_taking"
+      },
+      {
+        "id": "n14",
+        "text": "Renal function is preserved.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Normal creatinine, cystatin C, and eGFR support preserved renal function.",
+        "cluster_idx": 0,
+        "cluster_label": "history_taking"
+      },
+      {
+        "id": "n15",
+        "text": "Creatinine is 0.69 mg/dL.",
+        "category": "statistical",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Serum creatinine was 0.69 mg/dL.",
+        "cluster_idx": 0,
+        "cluster_label": "history_taking"
+      },
+      {
+        "id": "n16",
+        "text": "Cystatin C is 0.74 mg/L.",
+        "category": "statistical",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Cystatin C was 0.74 mg/L.",
+        "cluster_idx": 0,
+        "cluster_label": "history_taking"
+      },
+      {
+        "id": "n17",
+        "text": "eGFR is 97.6 mL/min/1.73 m^2.",
+        "category": "statistical",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Estimated GFR was 97.6 mL/min/1.73 m^2.",
+        "cluster_idx": 0,
+        "cluster_label": "history_taking"
+      },
+      {
+        "id": "n18",
+        "text": "Albumin is 4.1 g/dL.",
+        "category": "statistical",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Serum albumin was 4.1 g/dL.",
+        "cluster_idx": 0,
+        "cluster_label": "history_taking"
+      },
+      {
+        "id": "n19",
+        "text": "The kidneys are normal-sized on ultrasound.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Renal ultrasonography showed bilaterally normal-sized kidneys.",
+        "cluster_idx": 0,
+        "cluster_label": "history_taking"
+      },
+      {
+        "id": "n20",
+        "text": "He is obese.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "BMI was 31.5 kg/m^2, which is obese.",
+        "cluster_idx": 0,
+        "cluster_label": "history_taking"
+      },
+      {
+        "id": "n21",
+        "text": "His BMI is 31.5.",
+        "category": "statistical",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "The reference data gives BMI 31.5 kg/m^2.",
+        "cluster_idx": 0,
+        "cluster_label": "history_taking"
+      },
+      {
+        "id": "n22",
+        "text": "He has been overweight since adolescence.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "He had been overweight (BMI >25) since adolescence.",
+        "cluster_idx": 0,
+        "cluster_label": "history_taking"
+      },
+      {
+        "id": "n23",
+        "text": "Obesity-related glomerulopathy is a possibility.",
+        "category": "factual",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Given obesity, hypertension, and proteinuria, obesity-related glomerulopathy is a reasonable differential consideration.",
+        "cluster_idx": 1,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n24",
+        "text": "Obesity-related glomerulopathy alone would not explain the persistent microscopic hematuria with red-cell casts.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "This is a clinical inference: obesity-related glomerulopathy typically does not explain persistent hematuria with red-cell casts as well as a primary GN.",
+        "cluster_idx": 1,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n25",
+        "text": "He denied gross hematuria.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "He denied episodes of gross hematuria.",
+        "cluster_idx": 1,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n26",
+        "text": "He denied flank pain.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "He denied flank pain.",
+        "cluster_idx": 1,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n27",
+        "text": "The denial of gross hematuria and flank pain argues against nephrolithiasis.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Absence of gross hematuria and flank pain makes nephrolithiasis less likely, though not excluded.",
+        "cluster_idx": 1,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n28",
+        "text": "The denial of gross hematuria and flank pain argues against episodic urologic bleeding.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "The same negative symptoms reasonably argue against episodic urologic bleeding.",
+        "cluster_idx": 1,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n29",
+        "text": "CRP is normal.",
+        "category": "statistical",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "C-reactive protein was within normal limits.",
+        "cluster_idx": 1,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n30",
+        "text": "ANA is normal.",
+        "category": "statistical",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "ANA was within normal limits/negative.",
+        "cluster_idx": 1,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n31",
+        "text": "Complements are normal.",
+        "category": "statistical",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Complement levels were within normal limits.",
+        "cluster_idx": 1,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n32",
+        "text": "Immunoglobulins are normal.",
+        "category": "statistical",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "IgG and IgA were within normal limits; the trace refers to immunoglobulins as normal.",
+        "cluster_idx": 1,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n33",
+        "text": "Normal CRP, ANA, complements, and immunoglobulins make systemic inflammatory or immune-complex diseases less likely.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Normal inflammatory/immune markers make systemic inflammatory or immune-complex diseases less likely.",
+        "cluster_idx": 1,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n34",
+        "text": "Lupus nephritis is less likely.",
+        "category": "factual",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "With normal ANA and complements and no systemic features, lupus nephritis is less likely.",
+        "cluster_idx": 1,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n35",
+        "text": "Infection-related glomerulonephritis is less likely.",
+        "category": "factual",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Normal complements and chronic stable course make infection-related GN less likely.",
+        "cluster_idx": 1,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n36",
+        "text": "There is no family history of kidney disease.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "The reference data explicitly states no family history of kidney disease.",
+        "cluster_idx": 1,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n37",
+        "text": "The absence of family history makes hereditary nephritis less likely.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Absence of family history reasonably makes hereditary nephritis less likely, though not impossible.",
+        "cluster_idx": 1,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n38",
+        "text": "Alport syndrome is less likely.",
+        "category": "factual",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Alport syndrome is a hereditary nephritis and is less likely given no family history/extrarenal features.",
+        "cluster_idx": 1,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n39",
+        "text": "Thin basement membrane disease is less likely.",
+        "category": "factual",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Thin basement membrane disease is also a hereditary hematuric nephropathy and is less likely on the same grounds.",
+        "cluster_idx": 1,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n40",
+        "text": "Normal serum albumin and only subnephrotic proteinuria argue against nephrotic syndromes as the main presentation.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Normal albumin with subnephrotic proteinuria argues against nephrotic syndrome as the main presentation.",
+        "cluster_idx": 1,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n41",
+        "text": "Primary FSGS is less likely as the main presentation.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "The trace explicitly says obesity-related glomerulopathy/FSGS is less convincing and argues against it as the primary diagnosis.",
+        "cluster_idx": 1,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n42",
+        "text": "Membranous nephropathy is less likely as the main presentation.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "The trace states membranous nephropathy is less likely as the main presentation.",
+        "cluster_idx": 1,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n43",
+        "text": "Normal ultrasound with preserved cortical thickness argues against advanced chronic structural kidney disease.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Normal-sized kidneys with preserved cortical thickness reasonably argue against advanced chronic structural kidney disease; this is a standard inference from the ultrasound findings.",
+        "cluster_idx": 1,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n44",
+        "text": "The leading differential is IgA nephropathy.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "The trace explicitly identifies IgA nephropathy as the leading differential.",
+        "cluster_idx": 1,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n45",
+        "text": "IgA nephropathy commonly presents with persistent microscopic hematuria.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "The trace states IgA nephropathy commonly presents with persistent microscopic hematuria.",
+        "cluster_idx": 1,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n46",
+        "text": "IgA nephropathy commonly presents with variable proteinuria.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "The trace states IgA nephropathy commonly presents with variable proteinuria.",
+        "cluster_idx": 1,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n47",
+        "text": "IgA nephropathy commonly presents with hypertension.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "The trace states IgA nephropathy commonly presents with hypertension.",
+        "cluster_idx": 1,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n48",
+        "text": "IgA nephropathy commonly presents with preserved renal function for years.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "The trace states IgA nephropathy commonly presents with preserved renal function for years.",
+        "cluster_idx": 1,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n49",
+        "text": "Red-cell casts support glomerulonephritis.",
+        "category": "causal",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Red-cell casts are explicitly said to strongly localize bleeding to the glomerulus, supporting glomerulonephritis.",
+        "cluster_idx": 1,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n50",
+        "text": "The long indolent course from young adulthood fits IgA nephropathy well.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "A decades-long indolent course beginning in young adulthood is a reasonable fit for IgA nephropathy, as stated in the trace.",
+        "cluster_idx": 1,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n51",
+        "text": "Serum IgA is normal.",
+        "category": "statistical",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Reference data says serum IgA was within normal limits.",
+        "cluster_idx": 1,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n52",
+        "text": "There is no history of gross hematuria.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "He denied episodes of gross hematuria.",
+        "cluster_idx": 1,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n53",
+        "text": "Normal serum IgA does not exclude IgA nephropathy.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Normal serum IgA does not exclude IgA nephropathy is a standard clinical inference and is stated in the trace.",
+        "cluster_idx": 1,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n54",
+        "text": "The absence of gross hematuria does not exclude IgA nephropathy.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Absence of gross hematuria does not exclude IgA nephropathy; this follows from the trace and standard knowledge.",
+        "cluster_idx": 1,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n55",
+        "text": "A second consideration is obesity-related glomerulopathy/FSGS.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "The trace explicitly lists obesity-related glomerulopathy/FSGS as a second consideration.",
+        "cluster_idx": 1,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n56",
+        "text": "Obesity-related glomerulopathy/FSGS is supported by longstanding obesity.",
+        "category": "causal",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Longstanding obesity is explicitly cited as supporting obesity-related glomerulopathy/FSGS.",
+        "cluster_idx": 1,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n57",
+        "text": "Obesity-related glomerulopathy/FSGS is supported by hypertension.",
+        "category": "causal",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Hypertension is explicitly cited as supporting obesity-related glomerulopathy/FSGS.",
+        "cluster_idx": 1,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n58",
+        "text": "Obesity-related glomerulopathy/FSGS is supported by proteinuria.",
+        "category": "causal",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Proteinuria is explicitly cited as supporting obesity-related glomerulopathy/FSGS.",
+        "cluster_idx": 1,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n59",
+        "text": "Obesity-related glomerulopathy typically causes proteinuria with bland urine sediment.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "The trace explicitly states obesity-related glomerulopathy typically causes proteinuria with bland urine sediment.",
+        "cluster_idx": 1,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n60",
+        "text": "This patient has longstanding microscopic hematuria.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Reference data documents occult blood since age 24 and microscopic hematuria on urinalysis.",
+        "cluster_idx": 1,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n61",
+        "text": "This patient has red-cell casts.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Urinalysis explicitly showed red-cell casts.",
+        "cluster_idx": 1,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n62",
+        "text": "Microscopic hematuria and red-cell casts are much more suggestive of a primary glomerulonephritis.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Microscopic hematuria plus red-cell casts are classic for a primary glomerular process; this is a sound inference from the data.",
+        "cluster_idx": 1,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n63",
+        "text": "Another consideration is thin basement membrane nephropathy.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "The trace explicitly names thin basement membrane nephropathy as a consideration.",
+        "cluster_idx": 1,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n64",
+        "text": "Another consideration is Alport-spectrum disease.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "The trace explicitly names Alport-spectrum disease as a consideration.",
+        "cluster_idx": 1,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n65",
+        "text": "Young-onset isolated hematuria could fit thin basement membrane nephropathy or Alport-spectrum disease.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Young-onset isolated hematuria is a standard fit for TBMN/Alport-spectrum disease, matching the trace's reasoning.",
+        "cluster_idx": 1,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n66",
+        "text": "Progressive proteinuria favors a more inflammatory glomerular disease.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Progressive proteinuria is a reasonable feature favoring a more inflammatory glomerular disease, as argued in the trace.",
+        "cluster_idx": 1,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n67",
+        "text": "Hypertension favors a more inflammatory glomerular disease.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Hypertension can accompany inflammatory glomerular disease, but this is a differential-pruning inference rather than a direct fact.",
+        "cluster_idx": 1,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n68",
+        "text": "Red-cell casts favor a more inflammatory glomerular disease.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Red-cell casts strongly favor an inflammatory glomerular process; this is a standard inference.",
+        "cluster_idx": 1,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n69",
+        "text": "There is no family history provided.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "The reference data states there was no family history of kidney disease.",
+        "cluster_idx": 1,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n70",
+        "text": "There are no extrarenal features provided.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "No extrarenal features are provided in the reference data; this is a faithful summary of the record.",
+        "cluster_idx": 1,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n71",
+        "text": "Other immune-complex or systemic glomerulonephritides are less likely.",
+        "category": "factual",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "The trace concludes other immune-complex/systemic GN are less likely based on the available data; this is a differential conclusion.",
+        "cluster_idx": 1,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n72",
+        "text": "Normal complements make other immune-complex or systemic glomerulonephritides less likely.",
+        "category": "causal",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Normal complement levels are documented in the reference data and cited as making these diagnoses less likely.",
+        "cluster_idx": 1,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n73",
+        "text": "Negative ANA makes other immune-complex or systemic glomerulonephritides less likely.",
+        "category": "causal",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "ANA was within normal limits in the reference data.",
+        "cluster_idx": 1,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n74",
+        "text": "The lack of systemic symptoms makes other immune-complex or systemic glomerulonephritides less likely.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.6,
+        "reasoning": "The reference data does not explicitly mention systemic symptoms; absence cannot be directly verified, though the trace notes lack of systemic features.",
+        "cluster_idx": 1,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n75",
+        "text": "The very chronic stable course makes other immune-complex or systemic glomerulonephritides less likely.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "A very chronic stable course reasonably makes acute immune-complex/systemic GN less likely; this is a clinical inference from the timeline.",
+        "cluster_idx": 1,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n76",
+        "text": "The combination of decades-long microscopic hematuria, subnephrotic but increasing proteinuria, hypertension, red-cell casts, preserved renal function, and absence of systemic disease most strongly supports IgA nephropathy.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "This is the trace's overall synthesis and is well supported by the documented hematuria, proteinuria, hypertension, red-cell casts, preserved renal function, and lack of systemic disease.",
+        "cluster_idx": 2,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n77",
+        "text": "IgA nephropathy is the single most likely diagnosis.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "The trace explicitly states the single most likely diagnosis is IgA nephropathy.",
+        "cluster_idx": 2,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n78",
+        "text": "IgA nephropathy is listed as a high-probability differential diagnosis.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "IgA nephropathy is listed as the high-probability differential diagnosis.",
+        "cluster_idx": 2,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n79",
+        "text": "Chronic microscopic hematuria since age 24 supports IgA nephropathy.",
+        "category": "causal",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Occult blood in urine since age 24 directly supports chronic microscopic hematuria beginning then.",
+        "cluster_idx": 2,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n80",
+        "text": "Increasing subnephrotic proteinuria supports IgA nephropathy.",
+        "category": "causal",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Proteinuria increased from 0.4 g/g creatinine to 1.16 g/g creatinine over 8 years, supporting the statement.",
+        "cluster_idx": 2,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n81",
+        "text": "Hypertension supports IgA nephropathy.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Hypertension is part of the clinical picture and is cited as a feature supporting IgA nephropathy; this is a reasonable diagnostic inference, not a direct factual claim.",
+        "cluster_idx": 2,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n82",
+        "text": "Red-cell casts indicate glomerular bleeding.",
+        "category": "causal",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Urinalysis showed red-cell casts, which localize bleeding to the glomerulus.",
+        "cluster_idx": 2,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n83",
+        "text": "The long indolent course with preserved renal function is typical of IgA nephropathy.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "The trace explicitly states the long indolent course with preserved renal function is typical of IgA nephropathy.",
+        "cluster_idx": 2,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n84",
+        "text": "Obesity-related glomerulopathy / secondary FSGS is listed as a medium-probability differential diagnosis.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "The trace explicitly lists obesity-related glomerulopathy / secondary FSGS as a medium-probability differential diagnosis.",
+        "cluster_idx": 2,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n85",
+        "text": "BMI 31.5 with longstanding overweight could fit obesity-related glomerulopathy / secondary FSGS.",
+        "category": "causal",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "BMI 31.5 and longstanding overweight are documented, and the trace says this could fit obesity-related glomerulopathy / secondary FSGS.",
+        "cluster_idx": 2,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n86",
+        "text": "Persistent hematuria is less typical of obesity-related glomerulopathy / secondary FSGS.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "The trace states obesity-related glomerulopathy typically causes bland urine sediment, making persistent hematuria less typical.",
+        "cluster_idx": 2,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n87",
+        "text": "Red-cell casts are less typical of obesity-related glomerulopathy / secondary FSGS.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "The trace explicitly says red-cell casts are much less typical of obesity-related glomerulopathy / secondary FSGS.",
+        "cluster_idx": 2,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n88",
+        "text": "Persistent hematuria and red-cell casts argue against obesity-related glomerulopathy / secondary FSGS as the primary diagnosis.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "This is a differential-pruning conclusion drawn from the documented hematuria and red-cell casts, which the trace says argue against obesity-related glomerulopathy as the primary diagnosis.",
+        "cluster_idx": 2,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n89",
+        "text": "Thin basement membrane nephropathy or Alport-spectrum hereditary nephritis is listed as a low-probability differential diagnosis.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "The trace explicitly lists thin basement membrane nephropathy or Alport-spectrum hereditary nephritis as a low-probability differential diagnosis.",
+        "cluster_idx": 2,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n90",
+        "text": "Young-onset persistent microscopic hematuria could fit thin basement membrane nephropathy or Alport-spectrum hereditary nephritis.",
+        "category": "causal",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "The trace states young-onset persistent microscopic hematuria could fit thin basement membrane nephropathy or Alport-spectrum hereditary nephritis.",
+        "cluster_idx": 2,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n91",
+        "text": "Progressive proteinuria suggests a more active glomerulonephritis than thin basement membrane nephropathy or Alport-spectrum hereditary nephritis.",
+        "category": "causal",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "The trace explicitly says progressive proteinuria favors a more active glomerular disease than thin basement membrane nephropathy or Alport-spectrum disease.",
+        "cluster_idx": 2,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n92",
+        "text": "Hypertension suggests a more active glomerulonephritis than thin basement membrane nephropathy or Alport-spectrum hereditary nephritis.",
+        "category": "causal",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "The trace explicitly includes hypertension among features suggesting a more active glomerulonephritis than thin basement membrane nephropathy or Alport-spectrum disease.",
+        "cluster_idx": 2,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n93",
+        "text": "Red-cell casts suggest a more active glomerulonephritis than thin basement membrane nephropathy or Alport-spectrum hereditary nephritis.",
+        "category": "causal",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "The trace explicitly says red-cell casts favor a more active glomerulonephritis than thin basement membrane nephropathy or Alport-spectrum disease.",
+        "cluster_idx": 2,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n94",
+        "text": "No family history is given for thin basement membrane nephropathy or Alport-spectrum hereditary nephritis.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "The reference data states there was no family history of kidney disease, matching the statement.",
+        "cluster_idx": 2,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n95",
+        "text": "No extrarenal features are given for thin basement membrane nephropathy or Alport-spectrum hereditary nephritis.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "No extrarenal features are provided in the reference data; this is a permissible absence summary.",
+        "cluster_idx": 2,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n96",
+        "text": "Other immune-complex glomerulonephritis is listed as a low-probability differential diagnosis.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "The trace explicitly lists other immune-complex glomerulonephritis as a low-probability differential diagnosis.",
+        "cluster_idx": 2,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n97",
+        "text": "Glomerular hematuria is compatible with other immune-complex glomerulonephritis.",
+        "category": "causal",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Glomerular hematuria is compatible with immune-complex glomerulonephritis; this is standard clinical reasoning and consistent with the trace.",
+        "cluster_idx": 2,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n98",
+        "text": "Proteinuria is compatible with other immune-complex glomerulonephritis.",
+        "category": "causal",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Proteinuria is compatible with immune-complex glomerulonephritis; this is a standard inference consistent with the trace.",
+        "cluster_idx": 2,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n99",
+        "text": "Normal ANA, complements, and CRP make lupus nephritis and membranoproliferative GN much less likely.",
+        "category": "causal",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "The trace states normal ANA, complements, and CRP make lupus nephritis and infection-related/MPGN-type immune-complex disease much less likely.",
+        "cluster_idx": 2,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n100",
+        "text": "The final diagnosis is IgA nephropathy.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "The reference data and trace both identify IgA nephropathy as the final diagnosis.",
+        "cluster_idx": 3,
+        "cluster_label": "final_decision"
+      }
+    ],
+    "edges": [
+      {
+        "source": "n2",
+        "target": "n1",
+        "kind": "supports",
+        "explanation": "Longstanding occult hematuria is part of the chronic urinary abnormality course."
+      },
+      {
+        "source": "n4",
+        "target": "n1",
+        "kind": "supports",
+        "explanation": "Rising proteinuria over years supports progressive chronic urinary abnormalities."
+      },
+      {
+        "source": "n9",
+        "target": "n10",
+        "kind": "supports",
+        "explanation": "Red-cell casts are the finding that localizes bleeding to the glomerulus."
+      },
+      {
+        "source": "n10",
+        "target": "n49",
+        "kind": "supports",
+        "explanation": "Glomerular localization of bleeding supports glomerulonephritis."
+      },
+      {
+        "source": "n25",
+        "target": "n27",
+        "kind": "supports",
+        "explanation": "Denial of gross hematuria contributes to arguing against nephrolithiasis."
+      },
+      {
+        "source": "n26",
+        "target": "n27",
+        "kind": "supports",
+        "explanation": "Denial of flank pain contributes to arguing against nephrolithiasis."
+      },
+      {
+        "source": "n25",
+        "target": "n28",
+        "kind": "supports",
+        "explanation": "Denial of gross hematuria argues against episodic urologic bleeding."
+      },
+      {
+        "source": "n26",
+        "target": "n28",
+        "kind": "supports",
+        "explanation": "Denial of flank pain argues against episodic urologic bleeding."
+      },
+      {
+        "source": "n29",
+        "target": "n33",
+        "kind": "supports",
+        "explanation": "Normal CRP is part of the normal inflammatory/immune workup that lowers systemic immune-complex disease likelihood."
+      },
+      {
+        "source": "n30",
+        "target": "n33",
+        "kind": "supports",
+        "explanation": "Normal ANA supports the inference that systemic immune-complex disease is less likely."
+      },
+      {
+        "source": "n31",
+        "target": "n33",
+        "kind": "supports",
+        "explanation": "Normal complements support the inference that systemic immune-complex disease is less likely."
+      },
+      {
+        "source": "n32",
+        "target": "n33",
+        "kind": "supports",
+        "explanation": "Normal immunoglobulins support the inference that systemic immune-complex disease is less likely."
+      },
+      {
+        "source": "n33",
+        "target": "n34",
+        "kind": "supports",
+        "explanation": "Reduced likelihood of systemic immune-complex disease supports lupus nephritis being less likely."
+      },
+      {
+        "source": "n33",
+        "target": "n35",
+        "kind": "supports",
+        "explanation": "Reduced likelihood of systemic immune-complex disease supports infection-related GN being less likely."
+      },
+      {
+        "source": "n36",
+        "target": "n37",
+        "kind": "supports",
+        "explanation": "Absence of family history lowers the likelihood of hereditary nephritis."
+      },
+      {
+        "source": "n37",
+        "target": "n38",
+        "kind": "supports",
+        "explanation": "If hereditary nephritis is less likely, Alport syndrome is less likely."
+      },
+      {
+        "source": "n37",
+        "target": "n39",
+        "kind": "supports",
+        "explanation": "If hereditary nephritis is less likely, thin basement membrane disease is less likely."
+      },
+      {
+        "source": "n18",
+        "target": "n40",
+        "kind": "supports",
+        "explanation": "Normal serum albumin supports arguing against nephrotic syndrome as the main presentation."
+      },
+      {
+        "source": "n7",
+        "target": "n40",
+        "kind": "supports",
+        "explanation": "Only subnephrotic proteinuria supports arguing against nephrotic syndrome as the main presentation."
+      },
+      {
+        "source": "n40",
+        "target": "n41",
+        "kind": "supports",
+        "explanation": "If nephrotic syndrome is not the main presentation, primary FSGS is less likely."
+      },
+      {
+        "source": "n40",
+        "target": "n42",
+        "kind": "supports",
+        "explanation": "If nephrotic syndrome is not the main presentation, membranous nephropathy is less likely."
+      },
+      {
+        "source": "n19",
+        "target": "n43",
+        "kind": "supports",
+        "explanation": "Normal kidney size and preserved cortical thickness argue against advanced chronic structural kidney disease."
+      },
+      {
+        "source": "n45",
+        "target": "n44",
+        "kind": "supports",
+        "explanation": "Persistent microscopic hematuria is a classic feature supporting IgA nephropathy."
+      },
+      {
+        "source": "n46",
+        "target": "n44",
+        "kind": "supports",
+        "explanation": "Variable proteinuria supports IgA nephropathy."
+      },
+      {
+        "source": "n47",
+        "target": "n44",
+        "kind": "supports",
+        "explanation": "Hypertension is compatible with and supports IgA nephropathy."
+      },
+      {
+        "source": "n48",
+        "target": "n44",
+        "kind": "supports",
+        "explanation": "Preserved renal function for years supports IgA nephropathy."
+      },
+      {
+        "source": "n50",
+        "target": "n44",
+        "kind": "supports",
+        "explanation": "A long indolent course from young adulthood fits IgA nephropathy well."
+      },
+      {
+        "source": "n51",
+        "target": "n53",
+        "kind": "supports",
+        "explanation": "Normal serum IgA is the premise for noting that it does not exclude IgA nephropathy."
+      },
+      {
+        "source": "n52",
+        "target": "n54",
+        "kind": "supports",
+        "explanation": "Absence of gross hematuria is the premise for noting that IgA nephropathy is still possible."
+      },
+      {
+        "source": "n56",
+        "target": "n55",
+        "kind": "supports",
+        "explanation": "Longstanding obesity supports obesity-related glomerulopathy/FSGS."
+      },
+      {
+        "source": "n57",
+        "target": "n55",
+        "kind": "supports",
+        "explanation": "Hypertension supports obesity-related glomerulopathy/FSGS."
+      },
+      {
+        "source": "n58",
+        "target": "n55",
+        "kind": "supports",
+        "explanation": "Proteinuria supports obesity-related glomerulopathy/FSGS."
+      },
+      {
+        "source": "n59",
+        "target": "n88",
+        "kind": "supports",
+        "explanation": "Bland sediment is less consistent with the patient's hematuria and red-cell casts, arguing against obesity-related glomerulopathy/FSGS."
+      },
+      {
+        "source": "n60",
+        "target": "n62",
+        "kind": "supports",
+        "explanation": "Longstanding microscopic hematuria supports a primary glomerular process."
+      },
+      {
+        "source": "n61",
+        "target": "n62",
+        "kind": "supports",
+        "explanation": "Red-cell casts support a primary glomerular process."
+      },
+      {
+        "source": "n62",
+        "target": "n44",
+        "kind": "supports",
+        "explanation": "A primary glomerulonephritis pattern supports IgA nephropathy as the leading diagnosis."
+      },
+      {
+        "source": "n65",
+        "target": "n63",
+        "kind": "supports",
+        "explanation": "Young-onset isolated hematuria could fit thin basement membrane nephropathy."
+      },
+      {
+        "source": "n65",
+        "target": "n64",
+        "kind": "supports",
+        "explanation": "Young-onset isolated hematuria could fit Alport-spectrum disease."
+      },
+      {
+        "source": "n66",
+        "target": "n44",
+        "kind": "supports",
+        "explanation": "Progressive proteinuria favors IgA nephropathy over benign hereditary hematuria syndromes."
+      },
+      {
+        "source": "n67",
+        "target": "n44",
+        "kind": "supports",
+        "explanation": "Hypertension favors IgA nephropathy over benign hereditary hematuria syndromes."
+      },
+      {
+        "source": "n68",
+        "target": "n44",
+        "kind": "supports",
+        "explanation": "Red-cell casts favor IgA nephropathy over benign hereditary hematuria syndromes."
+      },
+      {
+        "source": "n72",
+        "target": "n71",
+        "kind": "supports",
+        "explanation": "Normal complements make other immune-complex or systemic glomerulonephritides less likely."
+      },
+      {
+        "source": "n73",
+        "target": "n71",
+        "kind": "supports",
+        "explanation": "Negative ANA makes other immune-complex or systemic glomerulonephritides less likely."
+      },
+      {
+        "source": "n74",
+        "target": "n71",
+        "kind": "supports",
+        "explanation": "Lack of systemic symptoms makes other immune-complex or systemic glomerulonephritides less likely."
+      },
+      {
+        "source": "n75",
+        "target": "n71",
+        "kind": "supports",
+        "explanation": "Very chronic stable course makes other immune-complex or systemic glomerulonephritides less likely."
+      },
+      {
+        "source": "n79",
+        "target": "n77",
+        "kind": "supports",
+        "explanation": "Chronic microscopic hematuria supports IgA nephropathy as the final diagnosis."
+      },
+      {
+        "source": "n80",
+        "target": "n77",
+        "kind": "supports",
+        "explanation": "Increasing subnephrotic proteinuria supports IgA nephropathy as the final diagnosis."
+      },
+      {
+        "source": "n81",
+        "target": "n77",
+        "kind": "supports",
+        "explanation": "Hypertension supports IgA nephropathy as the final diagnosis."
+      },
+      {
+        "source": "n82",
+        "target": "n77",
+        "kind": "supports",
+        "explanation": "Glomerular bleeding indicated by red-cell casts supports IgA nephropathy."
+      },
+      {
+        "source": "n83",
+        "target": "n77",
+        "kind": "supports",
+        "explanation": "The long indolent course with preserved renal function is typical of IgA nephropathy."
+      },
+      {
+        "source": "n85",
+        "target": "n84",
+        "kind": "supports",
+        "explanation": "BMI 31.5 with longstanding overweight supports obesity-related glomerulopathy/secondary FSGS."
+      },
+      {
+        "source": "n88",
+        "target": "n84",
+        "kind": "supports",
+        "explanation": "Features arguing against obesity-related glomerulopathy/FSGS reduce its likelihood as a differential diagnosis."
+      },
+      {
+        "source": "n90",
+        "target": "n89",
+        "kind": "supports",
+        "explanation": "Young-onset persistent microscopic hematuria supports considering hereditary nephritis syndromes."
+      },
+      {
+        "source": "n91",
+        "target": "n89",
+        "kind": "supports",
+        "explanation": "Progressive proteinuria argues against thin basement membrane nephropathy or Alport-spectrum disease as a low-probability explanation."
+      },
+      {
+        "source": "n92",
+        "target": "n89",
+        "kind": "supports",
+        "explanation": "Hypertension argues against thin basement membrane nephropathy or Alport-spectrum disease as a low-probability explanation."
+      },
+      {
+        "source": "n93",
+        "target": "n89",
+        "kind": "supports",
+        "explanation": "Red-cell casts argue against thin basement membrane nephropathy or Alport-spectrum disease as a low-probability explanation."
+      },
+      {
+        "source": "n97",
+        "target": "n96",
+        "kind": "supports",
+        "explanation": "Glomerular hematuria is compatible with other immune-complex glomerulonephritis."
+      },
+      {
+        "source": "n98",
+        "target": "n96",
+        "kind": "supports",
+        "explanation": "Proteinuria is compatible with other immune-complex glomerulonephritis."
+      },
+      {
+        "source": "n99",
+        "target": "n96",
+        "kind": "supports",
+        "explanation": "Normal ANA, complements, and CRP make lupus nephritis and membranoproliferative GN much less likely."
+      },
+      {
+        "source": "n76",
+        "target": "n77",
+        "kind": "supports",
+        "explanation": "The integrated clinical pattern most strongly supports IgA nephropathy."
+      },
+      {
+        "source": "n77",
+        "target": "n78",
+        "kind": "supports",
+        "explanation": "If IgA nephropathy is the single most likely diagnosis, it is a high-probability differential diagnosis."
+      },
+      {
+        "source": "n77",
+        "target": "n100",
+        "kind": "supports",
+        "explanation": "The single most likely diagnosis supports the final diagnosis statement."
+      }
+    ],
+    "disconnected": [
+      "n11",
+      "n12",
+      "n13",
+      "n14",
+      "n15",
+      "n16",
+      "n17",
+      "n20",
+      "n21",
+      "n22",
+      "n23",
+      "n24",
+      "n3",
+      "n5",
+      "n6",
+      "n69",
+      "n70",
+      "n8",
+      "n86",
+      "n87",
+      "n94",
+      "n95"
+    ],
+    "clusters": [
+      {
+        "cluster_id": "c1",
+        "label": "history_taking",
+        "statement_indices": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22
+        ],
+        "summary": "Summarizes the chronic renal history, current urinalysis, preserved kidney function, hypertension, obesity, and key baseline findings.",
+        "salience": 0.95
+      },
+      {
+        "cluster_id": "c2",
+        "label": "differential_generation",
+        "statement_indices": [
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40,
+          41,
+          42,
+          43,
+          44,
+          45,
+          46,
+          47,
+          48,
+          49,
+          50,
+          51,
+          52,
+          53,
+          54,
+          55,
+          56,
+          57,
+          58,
+          59,
+          60,
+          61,
+          62,
+          63,
+          64,
+          65,
+          66,
+          67,
+          68,
+          69,
+          70,
+          71,
+          72,
+          73,
+          74,
+          75
+        ],
+        "summary": "Builds and narrows the differential, favoring IgA nephropathy over obesity-related glomerulopathy, hereditary nephritis, nephrotic syndromes, and systemic immune-complex disease.",
+        "salience": 0.98
+      },
+      {
+        "cluster_id": "c3",
+        "label": "differential_generation",
+        "statement_indices": [
+          76,
+          77,
+          78,
+          79,
+          80,
+          81,
+          82,
+          83,
+          84,
+          85,
+          86,
+          87,
+          88,
+          89,
+          90,
+          91,
+          92,
+          93,
+          94,
+          95,
+          96,
+          97,
+          98,
+          99
+        ],
+        "summary": "States the ranked diagnostic impression, with IgA nephropathy as most likely and alternative diagnoses as lower probability.",
+        "salience": 0.99
+      },
+      {
+        "cluster_id": "c4",
+        "label": "final_decision",
+        "statement_indices": [
+          100
+        ],
+        "summary": "Final diagnosis is IgA nephropathy.",
+        "salience": 1.0
+      }
+    ],
+    "node_ranks": {
+      "n1": 0.475,
+      "n2": 0.325,
+      "n3": 0.325,
+      "n4": 0.325,
+      "n5": 0.325,
+      "n6": 0.325,
+      "n7": 0.175,
+      "n8": 0.325,
+      "n9": 0.175,
+      "n10": 0.325,
+      "n11": 0.325,
+      "n12": 0.325,
+      "n13": 0.325,
+      "n14": 0.325,
+      "n15": 0.325,
+      "n16": 0.325,
+      "n17": 0.325,
+      "n18": 0.175,
+      "n19": 0.325,
+      "n20": 0.325,
+      "n21": 0.325,
+      "n22": 0.325,
+      "n23": 0.5,
+      "n24": 0.5,
+      "n25": 0.5,
+      "n26": 0.5,
+      "n27": 0.65,
+      "n28": 0.65,
+      "n29": 0.35,
+      "n30": 0.35,
+      "n31": 0.35,
+      "n32": 0.35,
+      "n33": 0.5,
+      "n34": 0.65,
+      "n35": 0.65,
+      "n36": 0.35,
+      "n37": 0.5,
+      "n38": 0.65,
+      "n39": 0.65,
+      "n40": 0.5,
+      "n41": 0.65,
+      "n42": 0.65,
+      "n43": 0.65,
+      "n44": 0.65,
+      "n45": 0.5,
+      "n46": 0.5,
+      "n47": 0.5,
+      "n48": 0.5,
+      "n49": 0.65,
+      "n50": 0.5,
+      "n51": 0.5,
+      "n52": 0.5,
+      "n53": 0.65,
+      "n54": 0.65,
+      "n55": 0.65,
+      "n56": 0.5,
+      "n57": 0.5,
+      "n58": 0.5,
+      "n59": 0.35,
+      "n60": 0.35,
+      "n61": 0.35,
+      "n62": 0.5,
+      "n63": 0.65,
+      "n64": 0.65,
+      "n65": 0.5,
+      "n66": 0.5,
+      "n67": 0.5,
+      "n68": 0.5,
+      "n69": 0.5,
+      "n70": 0.5,
+      "n71": 0.65,
+      "n72": 0.5,
+      "n73": 0.5,
+      "n74": 0.5,
+      "n75": 0.5,
+      "n76": 0.525,
+      "n77": 0.675,
+      "n78": 0.825,
+      "n79": 0.525,
+      "n80": 0.525,
+      "n81": 0.525,
+      "n82": 0.525,
+      "n83": 0.525,
+      "n84": 0.825,
+      "n85": 0.675,
+      "n86": 0.675,
+      "n87": 0.675,
+      "n88": 0.675,
+      "n89": 0.825,
+      "n90": 0.675,
+      "n91": 0.675,
+      "n92": 0.675,
+      "n93": 0.675,
+      "n94": 0.675,
+      "n95": 0.675,
+      "n96": 0.825,
+      "n97": 0.675,
+      "n98": 0.675,
+      "n99": 0.675,
+      "n100": 1.0
+    }
+  }
+}

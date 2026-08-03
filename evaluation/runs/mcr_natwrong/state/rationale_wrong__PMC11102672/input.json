@@ -1,0 +1,45 @@
+{
+  "input": {
+    "resourceType": "clinicalCaseDiagnosis",
+    "id": "PMC11102672",
+    "origin": "testdata/streamlined/clinical-cases-cot/extracted/PMC11102672.json",
+    "groundTruthDiagnosis": "Solid pseudopapillary epithelial neoplasm",
+    "rawInput": {
+      "complaint": "A 33-year-old Guinean woman with a history of diabetes and prior splenectomy presented with chronic left upper-quadrant abdominal pain and a progressively enlarging mass. On examination, there was a fixed deep mass in the left upper quadrant extending below the costal margin. Carcinoembryonic antigen and CA19-9 levels were within normal limits. Contrast-enhanced CT of the abdomen revealed a 104 × 77 × 44 mm, rounded, well-defined lesion appearing attached to the gastric wall, with both cystic and solid components and scattered calcifications; there were no signs of local invasion or metastases.",
+      "metadata": {
+        "presentation": "A 33-year-old Guinean woman with a history of diabetes and prior splenectomy presented with chronic left upper-quadrant abdominal pain and a progressively enlarging mass. On examination, there was a fixed deep mass in the left upper quadrant extending below the costal margin. Carcinoembryonic antigen and CA19-9 levels were within normal limits. Contrast-enhanced CT of the abdomen revealed a 104 × 77 × 44 mm, rounded, well-defined lesion appearing attached to the gastric wall, with both cystic and solid components and scattered calcifications; there were no signs of local invasion or metastases."
+      }
+    },
+    "cotDiagnosis": {
+      "reasoning": "The chief concern is a chronic left upper-quadrant abdominal pain with a progressively enlarging palpable mass in a 33-year-old woman. The patient’s own problem is therefore a slowly growing upper abdominal mass causing pain, rather than an acute abdomen or systemic illness.\n\nSalient positive findings are: a fixed deep left upper-quadrant mass extending below the costal margin on examination; CT showing a large 104 × 77 × 44 mm rounded, well-defined lesion that appears attached to the gastric wall; mixed cystic and solid components; scattered calcifications; and absence of local invasion or metastases. Tumor markers CEA and CA19-9 are normal, which makes common gastrointestinal adenocarcinomas less likely. The lesion is large but radiologically circumscribed, suggesting a slow-growing mesenchymal or non-epithelial process rather than an infiltrative gastric carcinoma. Her prior splenectomy is notable because it broadens the left upper-quadrant differential to include splenic-bed lesions, but the CT description specifically suggests attachment to the gastric wall.\n\nPertinent negatives include no reported signs of metastatic disease, no local invasion on CT, and normal CEA/CA19-9. These findings argue against advanced gastric adenocarcinoma or pancreatic adenocarcinoma. The case summary also does not mention constitutional symptoms, gastrointestinal bleeding, obstruction, jaundice, or pancreatitis-type symptoms, which makes several other upper abdominal malignancies less compelling, though absence of mention is not definitive.\n\nThe leading differential is a gastric gastrointestinal stromal tumor (GIST). This fits the apparent gastric wall attachment, the well-defined exophytic mass effect in the left upper quadrant, the mixed solid-cystic appearance that can occur with degeneration in larger GISTs, and calcifications, which are uncommon but can be present in longstanding tumors. GISTs often present as large palpable masses with pain and may lack nodal or distant spread at presentation.\n\nA gastric duplication cyst is another consideration because it can present as a cystic lesion attached to the stomach wall, but this diagnosis is less convincing here because the lesion has both solid and cystic components and calcifications in an adult with a progressively enlarging palpable mass; duplication cysts are usually predominantly cystic congenital lesions and are less typical as a large mixed solid-cystic tumor.\n\nA pancreatic mucinous cystic neoplasm or other pancreatic tail cystic tumor could produce a left upper-quadrant mass with calcifications, but the CT description says the lesion appears attached to the gastric wall rather than arising from the pancreas, and CA19-9 is normal. Similarly, a splenic-bed process such as accessory spleen/remnant or post-splenectomy lesion is less likely because the imaging suggests gastric wall origin and mixed solid-cystic morphology with calcifications is not typical for splenic tissue.\n\nOther gastric mesenchymal tumors such as leiomyoma or schwannoma are possible, but the large size, mixed cystic-solid degeneration, and palpable progressive mass favor GIST over these alternatives. Gastric adenocarcinoma is less likely because the lesion is rounded and well-defined rather than infiltrative, tumor markers are normal, and there is no invasion or metastasis.\n\nOverall, the combination of a large well-circumscribed exophytic-appearing gastric wall mass, mixed solid and cystic components, calcifications, chronic pain, and lack of metastatic disease most strongly supports gastric gastrointestinal stromal tumor.",
+      "differentialDiagnoses": [
+        {
+          "condition": "Gastric gastrointestinal stromal tumor (GIST)",
+          "likelihood": "high",
+          "supportingEvidence": "Large well-defined lesion appearing attached to the gastric wall, palpable fixed LUQ mass, mixed solid-cystic components suggesting degeneration, scattered calcifications, and no local invasion or metastases."
+        },
+        {
+          "condition": "Gastric duplication cyst",
+          "likelihood": "medium",
+          "supportingEvidence": "Can be attached to the gastric wall and present as a left upper-quadrant mass, but the substantial solid component and calcifications make it less typical."
+        },
+        {
+          "condition": "Pancreatic tail mucinous cystic neoplasm",
+          "likelihood": "low",
+          "supportingEvidence": "LUQ mass with cystic elements and calcifications could arise from pancreatic tail, but CT favored attachment to the gastric wall and CA19-9 was normal."
+        },
+        {
+          "condition": "Gastric schwannoma or leiomyoma",
+          "likelihood": "low",
+          "supportingEvidence": "These are gastric subepithelial tumors and may appear well circumscribed, but the large mixed cystic-solid appearance is more characteristic of GIST."
+        },
+        {
+          "condition": "Gastric adenocarcinoma",
+          "likelihood": "low",
+          "supportingEvidence": "Less likely given normal CEA/CA19-9, rounded well-defined morphology, and absence of invasion or metastases."
+        }
+      ],
+      "finalDiagnosis": "Gastric gastrointestinal stromal tumor"
+    }
+  }
+}

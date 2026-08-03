@@ -1,0 +1,245 @@
+{
+  "name": "decompose",
+  "passed": true,
+  "score": 1.0,
+  "reasoning": "Decomposed into 74 verifiable statement(s). Completeness check passed. Grouped into 10 reasoning segment(s).",
+  "data": {
+    "statements": [
+      "The chief concern is acute decompensation in a previously term newborn on day 6 of life.",
+      "The newborn had tachypnea.",
+      "The newborn had sweating.",
+      "The newborn had poor feeding/failure to thrive.",
+      "The newborn had hypotension.",
+      "The newborn had metabolic/lactic acidosis.",
+      "The newborn had hepatomegaly.",
+      "The newborn had weak femoral pulses.",
+      "The newborn had evidence of heart failure.",
+      "The key diagnostic task is to explain a transient neonatal episode of myocardial ischemia/dysfunction.",
+      "The salient positive findings strongly suggest acute myocardial injury with heart failure.",
+      "Troponin T was very high at 1001 ng/L.",
+      "CK-MB was very high at 37.4 mcg/L.",
+      "Lactate was 14.8 mmol/L.",
+      "Chest imaging showed cardiomegaly with pulmonary venous congestion.",
+      "The ECG showed inferior Q waves.",
+      "The ECG showed lateral repolarization abnormalities.",
+      "TTE showed inferior wall hypokinesis.",
+      "TTE showed septal dyskinesis.",
+      "TTE showed mildly depressed left ventricular function.",
+      "TTE showed right ventricular enlargement and dysfunction.",
+      "TTE showed new moderate mitral regurgitation.",
+      "TTE showed severe tricuspid regurgitation.",
+      "The left coronary artery was initially not well visualized.",
+      "The poor visualization of the left coronary artery appropriately raises concern for congenital coronary anomaly causing ischemia.",
+      "The timing at day 6 is notable.",
+      "Closure of fetal shunts/ductus can unmask duct-dependent lesions or alter coronary perfusion physiology.",
+      "Viral studies were negative.",
+      "The negative viral studies argue against infectious myocarditis.",
+      "Selective coronary angiography confirmed normal origin and anatomy of both coronary arteries.",
+      "Normal coronary origin and anatomy argue against anomalous left coronary artery from the pulmonary artery or other structural coronary anomaly.",
+      "Hemodynamic parameters were normal on catheterization.",
+      "The ventricular dysfunction and ECG changes resolved rapidly within hours.",
+      "Rapid resolution within hours is less typical for primary cardiomyopathy or persistent structural ischemic disease.",
+      "There is no family history of heart disease.",
+      "The initial neonatal echocardiogram was otherwise normal except for tricuspid valve dysplasia with moderate tricuspid regurgitation.",
+      "The first main differential is congenital coronary anomaly causing neonatal myocardial ischemia, especially ALCAPA or ostial abnormality.",
+      "This differential fits the ischemic ECG changes.",
+      "This differential fits the elevated biomarkers.",
+      "This differential fits the regional wall motion abnormalities.",
+      "This differential fits the mitral regurgitation.",
+      "Angiography definitively showed normal coronary origins and anatomy.",
+      "Normal coronary origins and anatomy make congenital coronary anomaly unlikely.",
+      "The second main differential is acute viral myocarditis.",
+      "Acute viral myocarditis can cause heart failure.",
+      "Acute viral myocarditis can cause elevated troponin.",
+      "Acute viral myocarditis can cause ventricular dysfunction.",
+      "Acute viral myocarditis can cause ECG abnormalities.",
+      "The regional ischemic pattern is less supportive of acute viral myocarditis.",
+      "The viral studies were negative.",
+      "Very rapid normalization of function and ECG is less supportive of acute viral myocarditis.",
+      "The third main differential is duct-dependent systemic outflow obstruction/coarctation presenting after ductal closure.",
+      "Day-6 shock can fit duct-dependent systemic outflow obstruction/coarctation.",
+      "Weak femoral pulses can fit duct-dependent systemic outflow obstruction/coarctation.",
+      "Metabolic acidosis can fit duct-dependent systemic outflow obstruction/coarctation.",
+      "Preserved oxygen saturation can fit duct-dependent systemic outflow obstruction/coarctation.",
+      "Echocardiography and catheterization did not identify left-sided obstructive anatomy.",
+      "The prominent myocardial injury pattern with transient regional ischemia is not fully explained by duct-dependent systemic outflow obstruction/coarctation.",
+      "The fourth main differential is transient neonatal myocardial ischemia/infarction secondary to perinatal coronary thrombosis/embolism or vasospasm.",
+      "This diagnosis best fits the marked but reversible myocardial injury.",
+      "This diagnosis best fits the ischemic ECG changes.",
+      "This diagnosis best fits the focal wall motion abnormalities.",
+      "This diagnosis best fits the severe transient AV valve regurgitation from papillary muscle or ventricular dysfunction.",
+      "This diagnosis best fits the normal coronary anatomy on angiography.",
+      "This diagnosis best fits the rapid recovery with supportive care.",
+      "The prolonged QTc after recovery is compatible with transient ischemic myocardial insult.",
+      "In neonatal case literature, this presentation is often termed transient neonatal myocardial infarction or ischemia despite normal coronary anatomy.",
+      "The infant had a dramatic ischemic myocardial event with biomarker elevation and focal left ventricular dysfunction.",
+      "Structural coronary disease was excluded.",
+      "Recovery was rapid and near-complete.",
+      "The pattern is most consistent with transient neonatal myocardial infarction.",
+      "Transient neonatal myocardial infarction is an acute myocardial ischemia with normal coronary arteries.",
+      "The likely mechanism is transient coronary insufficiency or vasospasm rather than fixed congenital heart disease or myocarditis.",
+      "The final diagnosis is transient neonatal myocardial infarction."
+    ],
+    "completeness": {
+      "complete": true,
+      "missing": [],
+      "added": []
+    },
+    "clusters": [
+      {
+        "cluster_id": "c1",
+        "label": "history_taking",
+        "statement_indices": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "summary": "Initial neonatal presentation with shock, heart failure, and metabolic acidosis.",
+        "salience": 0.92
+      },
+      {
+        "cluster_id": "c2",
+        "label": "other",
+        "statement_indices": [
+          10,
+          11
+        ],
+        "summary": "Frames the diagnostic problem as transient neonatal myocardial ischemia/dysfunction.",
+        "salience": 0.78
+      },
+      {
+        "cluster_id": "c3",
+        "label": "test_ordering",
+        "statement_indices": [
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24
+        ],
+        "summary": "Key biomarker, imaging, ECG, and echocardiographic findings supporting acute myocardial injury and prompting coronary evaluation.",
+        "salience": 0.97
+      },
+      {
+        "cluster_id": "c4",
+        "label": "other",
+        "statement_indices": [
+          25,
+          26,
+          27
+        ],
+        "summary": "Interprets timing and poor coronary visualization as raising concern for coronary perfusion abnormalities.",
+        "salience": 0.74
+      },
+      {
+        "cluster_id": "c5",
+        "label": "test_ordering",
+        "statement_indices": [
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36
+        ],
+        "summary": "Additional negative studies and catheterization/echo findings that argue against myocarditis, structural coronary disease, or persistent cardiomyopathy.",
+        "salience": 0.95
+      },
+      {
+        "cluster_id": "c6",
+        "label": "differential_generation",
+        "statement_indices": [
+          37,
+          38,
+          39,
+          40,
+          41,
+          42,
+          43
+        ],
+        "summary": "First differential: congenital coronary anomaly causing neonatal ischemia, then exclusion by normal angiography.",
+        "salience": 0.9
+      },
+      {
+        "cluster_id": "c7",
+        "label": "differential_generation",
+        "statement_indices": [
+          44,
+          45,
+          46,
+          47,
+          48,
+          49,
+          50,
+          51
+        ],
+        "summary": "Second differential: viral myocarditis, considered but weakened by negative viral studies and rapid recovery.",
+        "salience": 0.88
+      },
+      {
+        "cluster_id": "c8",
+        "label": "differential_generation",
+        "statement_indices": [
+          52,
+          53,
+          54,
+          55,
+          56,
+          57,
+          58
+        ],
+        "summary": "Third differential: duct-dependent systemic outflow obstruction/coarctation, considered but not supported by anatomy or injury pattern.",
+        "salience": 0.86
+      },
+      {
+        "cluster_id": "c9",
+        "label": "differential_generation",
+        "statement_indices": [
+          59,
+          60,
+          61,
+          62,
+          63,
+          64,
+          65,
+          66,
+          67
+        ],
+        "summary": "Fourth differential: transient neonatal myocardial infarction/ischemia from transient coronary insufficiency or vasospasm, best fitting the reversible ischemic syndrome.",
+        "salience": 0.98
+      },
+      {
+        "cluster_id": "c10",
+        "label": "final_decision",
+        "statement_indices": [
+          68,
+          69,
+          70,
+          71,
+          72,
+          73,
+          74
+        ],
+        "summary": "Concludes that the presentation is most consistent with transient neonatal myocardial infarction.",
+        "salience": 1.0
+      }
+    ]
+  }
+}

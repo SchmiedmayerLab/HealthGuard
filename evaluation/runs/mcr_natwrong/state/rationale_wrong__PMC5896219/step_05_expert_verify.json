@@ -1,0 +1,728 @@
+{
+  "name": "expert_verify",
+  "passed": true,
+  "score": 1.0,
+  "reasoning": "No contradictions among 79 statement(s) (59 supported, 19 valid inferences, 1 unverifiable).",
+  "data": {
+    "verifications": [
+      {
+        "text": "The chief complaint is progressive right forearm, hand, and shoulder swelling and pain.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Reference data states progressive right forearm, hand, and shoulder swelling and pain."
+      },
+      {
+        "text": "The patient ultimately presented with signs concerning for acute compartment syndrome of the right forearm/hand.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Case explicitly notes signs concerning for acute compartment syndrome of the right forearm and hand."
+      },
+      {
+        "text": "The key diagnostic task is to determine the underlying cause of this acute limb process.",
+        "category": "recommendation",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.96,
+        "reasoning": "This is the diagnostic aim of the trace; it follows from the presentation and is not contradicted."
+      },
+      {
+        "text": "Salient positive findings strongly support a crystal-induced inflammatory process complicated by compartment syndrome.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.95,
+        "reasoning": "Crystal-proven gout, urate crystals, tophi, and compartment syndrome make a crystal-induced inflammatory process a sound synthesis."
+      },
+      {
+        "text": "He has a known history of crystal-proven gout.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Reference data says history of crystal-proven gout."
+      },
+      {
+        "text": "He has poorly controlled type 2 diabetes.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.98,
+        "reasoning": "Reference data states poorly controlled type 2 diabetes."
+      },
+      {
+        "text": "He is a young Polynesian man.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.98,
+        "reasoning": "Reference data identifies him as a 30-year-old Polynesian man."
+      },
+      {
+        "text": "He has severe obesity with a BMI of 42.6.",
+        "category": "statistical",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "BMI is given as 42.6."
+      },
+      {
+        "text": "These factors increase gout risk.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.97,
+        "reasoning": "Young Polynesian ethnicity, obesity, and gout history are standard gout risk factors."
+      },
+      {
+        "text": "The symptoms began after light weight exercise.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Symptoms began after two days of light weight exercise."
+      },
+      {
+        "text": "The symptoms progressed over several days.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.98,
+        "reasoning": "The course progressed over several days, with worsening over four days and then four more days."
+      },
+      {
+        "text": "The swelling and pain were not relieved by his usual oral anti-inflammatories.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.98,
+        "reasoning": "Symptoms were unrelieved by his usual oral anti-inflammatories."
+      },
+      {
+        "text": "On exam he had tense volar forearm compartments.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Exam showed tense volar forearm compartments."
+      },
+      {
+        "text": "On exam he had reduced finger sensation.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Reduced finger sensation is explicitly documented."
+      },
+      {
+        "text": "On exam he had decreased capillary refill.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Decreased capillary refill is explicitly documented."
+      },
+      {
+        "text": "On exam he had severe pain with passive finger stretch.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Severe pain with passive finger stretch is explicitly documented."
+      },
+      {
+        "text": "These are classic clinical features of compartment syndrome.",
+        "category": "factual",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.98,
+        "reasoning": "Tense compartments, sensory change, poor cap refill, and pain with passive stretch are classic compartment syndrome findings."
+      },
+      {
+        "text": "Measured pressures were elevated.",
+        "category": "statistical",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Compartment pressures were measured at 20–24 mm Hg in the volar forearm and 45–48 mm Hg in the carpal tunnel/palm."
+      },
+      {
+        "text": "The measured pressures were especially 45–48 mm Hg in the carpal tunnel and palm.",
+        "category": "statistical",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Reference data gives 45–48 mm Hg in the carpal tunnel and palm."
+      },
+      {
+        "text": "The elevated pressures confirmed the compartment syndrome physiology.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.97,
+        "reasoning": "Elevated compartment pressures are diagnostic/confirmatory of compartment syndrome physiology in context."
+      },
+      {
+        "text": "Imaging showed fluid in the olecranon bursa.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "CT showed fluid in the olecranon bursa."
+      },
+      {
+        "text": "Imaging showed fluid in the elbow joint.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "CT also showed fluid in the elbow joint."
+      },
+      {
+        "text": "Elbow aspiration demonstrated monosodium urate crystals.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Elbow aspiration yielded monosodium urate crystals."
+      },
+      {
+        "text": "Elbow aspiration demonstrated a very high synovial white-cell count.",
+        "category": "statistical",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.98,
+        "reasoning": "Synovial white-cell count was 91,650/mm3, which is very high."
+      },
+      {
+        "text": "Intraoperatively small tophi were seen in the flexor tendon synovial sheaths.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Intraoperatively small tophi were noted in the flexor tendon synovial sheaths."
+      },
+      {
+        "text": "There was no pus at surgery.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Surgery found no pus."
+      },
+      {
+        "text": "There was no odor at surgery.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Surgery found no odor."
+      },
+      {
+        "text": "There was no necrotic muscle at surgery.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Surgery found no necrosis."
+      },
+      {
+        "text": "The muscles were still contractile.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "The volar forearm muscles were described as contractile."
+      },
+      {
+        "text": "These findings argue against necrotizing infection or ischemic muscle death as the primary process.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.97,
+        "reasoning": "No pus/odor/necrosis and contractile muscle reasonably argue against necrotizing infection or ischemic muscle death as the main process."
+      },
+      {
+        "text": "Wrist aspiration showed calcium pyrophosphate crystals.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Wrist aspiration showed calcium pyrophosphate crystals."
+      },
+      {
+        "text": "Wrist aspiration showed no bacterial growth.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Wrist aspiration had no bacterial growth."
+      },
+      {
+        "text": "These findings further support crystal arthropathy rather than infection.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.96,
+        "reasoning": "CPP crystals plus negative culture support crystal arthropathy over infection, though not excluding coexistence."
+      },
+      {
+        "text": "He was afebrile.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "He was afebrile."
+      },
+      {
+        "text": "Blood toxicology was negative.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Blood toxicology was negative."
+      },
+      {
+        "text": "CT angiogram excluded vascular causes.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "CT angiogram excluded vascular pathology/causes."
+      },
+      {
+        "text": "Doppler ultrasound excluded vascular causes.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Doppler ultrasound also excluded vascular pathology."
+      },
+      {
+        "text": "MRI of the shoulder was unremarkable.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "MRI of the shoulder was unremarkable."
+      },
+      {
+        "text": "There was no bacterial growth from aspirated fluid.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Aspirated fluid had no bacterial growth."
+      },
+      {
+        "text": "Intraoperatively there was no pus.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Intraoperatively there was no pus."
+      },
+      {
+        "text": "Intraoperatively there was no foul odor.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Reference surgery states there was no necrosis, pus, or odor."
+      },
+      {
+        "text": "CK was only mildly elevated at 245 U/L.",
+        "category": "statistical",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "CK is given as 245 U/L, described in the trace as mildly elevated."
+      },
+      {
+        "text": "This does not support major rhabdomyolysis as the main driver.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.96,
+        "reasoning": "A mild CK elevation with crystal disease and no major muscle necrosis reasonably argues against rhabdomyolysis as the main driver."
+      },
+      {
+        "text": "Erythema could suggest cellulitis or septic arthritis.",
+        "category": "causal",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.95,
+        "reasoning": "The case explicitly notes overlying erythema suggestive of cellulitis."
+      },
+      {
+        "text": "Leukocytosis could suggest cellulitis or septic arthritis.",
+        "category": "causal",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.95,
+        "reasoning": "Leukocytosis is present at 13,800/μL, which can raise concern for infection."
+      },
+      {
+        "text": "The absence of fever, negative cultures, and direct visualization without purulence make infection less likely as the primary diagnosis.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.97,
+        "reasoning": "Afebrile status, negative cultures, and no purulence at surgery reasonably make infection less likely as the primary diagnosis."
+      },
+      {
+        "text": "The leading differential is acute gout flare causing marked inflammatory swelling and tophaceous tenosynovial involvement, leading to acute compartment syndrome.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.98,
+        "reasoning": "This is the trace’s synthesized leading differential and fits the documented crystal disease plus compartment syndrome."
+      },
+      {
+        "text": "This fits the prior crystal-proven gout.",
+        "category": "causal",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "The patient has a history of crystal-proven gout."
+      },
+      {
+        "text": "This fits monosodium urate crystals in the elbow aspirate.",
+        "category": "causal",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Elbow aspiration yielded monosodium urate crystals."
+      },
+      {
+        "text": "This fits visible tophi in flexor tendon sheaths.",
+        "category": "causal",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Intraoperatively small tophi were noted in the flexor tendon synovial sheaths."
+      },
+      {
+        "text": "This fits the severe localized swelling with elevated compartment pressures.",
+        "category": "causal",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.98,
+        "reasoning": "The case documents severe localized swelling and elevated compartment pressures confirming compartment syndrome physiology."
+      },
+      {
+        "text": "A second consideration is septic arthritis/cellulitis with secondary compartment syndrome.",
+        "category": "factual",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.95,
+        "reasoning": "Septic arthritis/cellulitis with secondary compartment syndrome is explicitly presented as a differential consideration."
+      },
+      {
+        "text": "This is plausible because of erythema.",
+        "category": "causal",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.96,
+        "reasoning": "Erythema was present and described as suggestive of cellulitis."
+      },
+      {
+        "text": "This is plausible because of leukocytosis.",
+        "category": "causal",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.96,
+        "reasoning": "Leukocytosis of 13,800/μL is documented."
+      },
+      {
+        "text": "This is plausible because of diabetes.",
+        "category": "causal",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.95,
+        "reasoning": "Poorly controlled type 2 diabetes is part of the reference case."
+      },
+      {
+        "text": "This is plausible because of a synovial WBC of 91,650/mm3.",
+        "category": "statistical",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Synovial WBC count from elbow aspiration was 91,650/mm3."
+      },
+      {
+        "text": "However, the patient was afebrile.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "He was afebrile in the emergency department."
+      },
+      {
+        "text": "However, cultures showed no bacterial growth.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Wrist aspiration showed no bacterial growth."
+      },
+      {
+        "text": "However, surgery found no pus, odor, or necrosis.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Surgery found no necrosis, pus, or odor."
+      },
+      {
+        "text": "Crystal arthritis can itself produce very high synovial WBC counts.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.93,
+        "reasoning": "Crystal arthritis can produce very high synovial WBC counts; this is standard clinical knowledge and fits the case."
+      },
+      {
+        "text": "The evidence favors gout over infection.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.98,
+        "reasoning": "Given the crystal findings, tophi, and negative infection evidence, gout is favored over infection."
+      },
+      {
+        "text": "Another consideration is exertional muscle injury/rhabdomyolysis causing swelling and compartment syndrome after exercise.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.95,
+        "reasoning": "Exertional muscle injury/rhabdomyolysis is a reasonable differential after exercise with swelling and compartment syndrome."
+      },
+      {
+        "text": "The exercise was described as light.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "The history says the exercise was light weight exercise."
+      },
+      {
+        "text": "CK elevation was only mild.",
+        "category": "statistical",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "CK 245 U/L is only mildly elevated."
+      },
+      {
+        "text": "The crystal findings and tophi provide a much more direct explanation.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.98,
+        "reasoning": "Crystal findings and tophi provide a more direct explanation than rhabdomyolysis."
+      },
+      {
+        "text": "CPPD could also be considered because wrist aspiration showed calcium pyrophosphate crystals.",
+        "category": "causal",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Wrist aspiration showed calcium pyrophosphate crystals."
+      },
+      {
+        "text": "His established gout history supports gout.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.96,
+        "reasoning": "A known history of crystal-proven gout supports gout as the unifying diagnosis."
+      },
+      {
+        "text": "Monosodium urate crystals were found in the elbow.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Elbow aspiration yielded monosodium urate crystals."
+      },
+      {
+        "text": "Intraoperative tophi were seen.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Small tophi were seen intraoperatively in the flexor tendon synovial sheaths."
+      },
+      {
+        "text": "CPPD may coexist.",
+        "category": "factual",
+        "verdict": "unverifiable",
+        "verified": true,
+        "score": 0.6,
+        "confidence": 0.72,
+        "reasoning": "Coexistence of CPPD is possible but not directly established by the data beyond one CPP crystal aspirate."
+      },
+      {
+        "text": "CPPD is less likely to explain the full presentation.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.97,
+        "reasoning": "CPPD is less likely to explain the whole presentation than gout, given MSU crystals and tophi."
+      },
+      {
+        "text": "The patient clearly had acute compartment syndrome of the right forearm/hand.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "The case explicitly states acute compartment syndrome of the right forearm and hand."
+      },
+      {
+        "text": "The underlying disease process most strongly supported by the case data is an acute gout flare with tophaceous flexor tenosynovitis producing enough inflammatory edema to precipitate compartment syndrome.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.98,
+        "reasoning": "This is the case’s synthesized pathophysiologic conclusion and follows from the documented crystals, tophi, and compartment syndrome."
+      },
+      {
+        "text": "The crystal confirmation, tophi seen intraoperatively, and lack of evidence for infection or vascular injury make this the most likely diagnosis.",
+        "category": "causal",
+        "verdict": "valid_inference",
+        "verified": true,
+        "score": 0.9,
+        "confidence": 0.98,
+        "reasoning": "Crystal confirmation, intraoperative tophi, and lack of infection/vascular injury reasonably make gout the most likely diagnosis."
+      },
+      {
+        "text": "The differential diagnosis includes acute gout flare with tophaceous flexor tenosynovitis causing acute compartment syndrome.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "This diagnosis is explicitly listed in the differential."
+      },
+      {
+        "text": "The differential diagnosis includes septic arthritis/cellulitis with secondary compartment syndrome.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "This diagnosis is explicitly listed in the differential."
+      },
+      {
+        "text": "The differential diagnosis includes calcium pyrophosphate deposition disease flare.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "CPPD flare is explicitly listed in the differential."
+      },
+      {
+        "text": "The differential diagnosis includes exertional rhabdomyolysis or muscle injury causing compartment syndrome.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "Exertional rhabdomyolysis/muscle injury is explicitly listed in the differential."
+      },
+      {
+        "text": "The final diagnosis is acute gout flare causing right forearm and hand compartment syndrome.",
+        "category": "factual",
+        "verdict": "supported",
+        "verified": true,
+        "score": 1.0,
+        "confidence": 0.99,
+        "reasoning": "The final diagnosis is stated as acute gout flare causing right forearm and hand compartment syndrome."
+      }
+    ],
+    "verdict_counts": {
+      "contradicted": 0,
+      "supported": 59,
+      "valid_inference": 19,
+      "unverifiable": 1
+    },
+    "contradictions": 0
+  }
+}

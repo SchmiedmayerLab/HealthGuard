@@ -1,0 +1,475 @@
+{
+  "name": "classify",
+  "passed": true,
+  "score": 1.0,
+  "reasoning": "Classified 93 statement(s): 27 causal, 63 factual, 1 recommendation, 2 statistical.",
+  "data": {
+    "classified": [
+      {
+        "text": "The chief concern is a 22-month-old girl.",
+        "category": "factual",
+        "rationale": "This states a patient attribute and presentation detail that can be verified from the record."
+      },
+      {
+        "text": "She has a systemic viral-like illness.",
+        "category": "factual",
+        "rationale": "This is a clinical description of the patient's illness state."
+      },
+      {
+        "text": "She has bilateral jaw-line swelling.",
+        "category": "factual",
+        "rationale": "This asserts a present symptom or finding."
+      },
+      {
+        "text": "The bilateral jaw-line swelling was initially suggestive of parotitis or mumps.",
+        "category": "causal",
+        "rationale": "This links the swelling to a suspected underlying cause or differential diagnosis."
+      },
+      {
+        "text": "The broader picture is much more concerning for an underlying immune disorder.",
+        "category": "causal",
+        "rationale": "This infers a relationship between the overall findings and an immune disorder."
+      },
+      {
+        "text": "Her presenting features include low-grade fever.",
+        "category": "factual",
+        "rationale": "This lists a symptom present at presentation."
+      },
+      {
+        "text": "Her presenting features include cough.",
+        "category": "factual",
+        "rationale": "This lists a symptom present at presentation."
+      },
+      {
+        "text": "Her presenting features include decreased activity.",
+        "category": "factual",
+        "rationale": "This lists a symptom present at presentation."
+      },
+      {
+        "text": "Her presenting features include poor oral intake.",
+        "category": "factual",
+        "rationale": "This lists a symptom present at presentation."
+      },
+      {
+        "text": "Her presenting features include bilateral jaw-line swelling.",
+        "category": "factual",
+        "rationale": "This repeats a present clinical finding."
+      },
+      {
+        "text": "She has recurrent infections.",
+        "category": "factual",
+        "rationale": "This states a recurring clinical problem."
+      },
+      {
+        "text": "She has recurrent otitis media.",
+        "category": "factual",
+        "rationale": "This states a specific recurrent infection."
+      },
+      {
+        "text": "She has eczema.",
+        "category": "factual",
+        "rationale": "This states a present condition."
+      },
+      {
+        "text": "She has leukopenia.",
+        "category": "factual",
+        "rationale": "This states a laboratory/clinical abnormality."
+      },
+      {
+        "text": "She has autoimmune hemolytic anemia.",
+        "category": "factual",
+        "rationale": "This states a diagnosed hematologic condition."
+      },
+      {
+        "text": "She has hepatosplenomegaly.",
+        "category": "factual",
+        "rationale": "This states an exam/imaging finding."
+      },
+      {
+        "text": "She has lymphadenopathy.",
+        "category": "factual",
+        "rationale": "This states an exam finding."
+      },
+      {
+        "text": "She has acute EBV viremia.",
+        "category": "factual",
+        "rationale": "This states a virologic diagnosis."
+      },
+      {
+        "text": "She has persistent pulmonary infiltrates.",
+        "category": "factual",
+        "rationale": "This states an ongoing imaging/clinical finding."
+      },
+      {
+        "text": "Recurrent otitis media required tubes.",
+        "category": "factual",
+        "rationale": "This reports a past intervention due to a clinical problem."
+      },
+      {
+        "text": "Her vaccination history is incomplete but not absent.",
+        "category": "factual",
+        "rationale": "This states a patient history detail."
+      },
+      {
+        "text": "Flow cytometry showed reduced B cells, T cells, and NK cells.",
+        "category": "factual",
+        "rationale": "This reports a test result."
+      },
+      {
+        "text": "Lymphocyte proliferation to PHA was poor.",
+        "category": "factual",
+        "rationale": "This reports a functional assay result."
+      },
+      {
+        "text": "Response to pokeweed mitogen was preserved.",
+        "category": "factual",
+        "rationale": "This reports a functional assay result."
+      },
+      {
+        "text": "She has cold-agglutinin autoimmune hemolytic anemia.",
+        "category": "factual",
+        "rationale": "This states a specific subtype of anemia."
+      },
+      {
+        "text": "She has hepatosplenomegaly and cervical nodes.",
+        "category": "factual",
+        "rationale": "This states physical findings."
+      },
+      {
+        "text": "Her immunoglobulins are elevated, including IgM, IgG, IgA, IgE, and subclasses.",
+        "category": "factual",
+        "rationale": "This states laboratory findings."
+      },
+      {
+        "text": "Her plasma EBV load was 9,000 to 20,600 copies per microliter.",
+        "category": "statistical",
+        "rationale": "This gives a numeric laboratory value."
+      },
+      {
+        "text": "Persistent bilateral perihilar and right middle lobe infiltrates despite antibiotics suggest lymphoid or interstitial pulmonary involvement rather than simple bacterial pneumonia.",
+        "category": "causal",
+        "rationale": "This interprets the infiltrates as indicating a likely underlying pulmonary process."
+      },
+      {
+        "text": "She was readmitted with febrile neutropenia.",
+        "category": "factual",
+        "rationale": "This states a subsequent clinical event."
+      },
+      {
+        "text": "She was readmitted with rash.",
+        "category": "factual",
+        "rationale": "This states a subsequent clinical event."
+      },
+      {
+        "text": "She was readmitted with elevated soluble IL-2.",
+        "category": "factual",
+        "rationale": "This states a laboratory abnormality during readmission."
+      },
+      {
+        "text": "Her family history is notable for a maternal aunt with autoimmune disease.",
+        "category": "factual",
+        "rationale": "This states a family history detail."
+      },
+      {
+        "text": "CMV panels were negative.",
+        "category": "factual",
+        "rationale": "This reports a test result."
+      },
+      {
+        "text": "HIV panels were negative.",
+        "category": "factual",
+        "rationale": "This reports a test result."
+      },
+      {
+        "text": "Hepatitis panels were negative.",
+        "category": "factual",
+        "rationale": "This reports a test result."
+      },
+      {
+        "text": "Secondary immunodeficiency from HIV is less likely.",
+        "category": "causal",
+        "rationale": "This draws an inference from negative HIV testing to a less likely cause."
+      },
+      {
+        "text": "She lacked MMR vaccination.",
+        "category": "factual",
+        "rationale": "This states a vaccination history detail."
+      },
+      {
+        "text": "A positive mumps IgM was present.",
+        "category": "factual",
+        "rationale": "This reports a serologic test result."
+      },
+      {
+        "text": "The overall syndrome is not explained by uncomplicated mumps.",
+        "category": "causal",
+        "rationale": "This argues that mumps does not account for the full clinical picture."
+      },
+      {
+        "text": "Mumps would not account for chronic or recurrent otitis.",
+        "category": "causal",
+        "rationale": "This states a causal exclusion between mumps and the otitis pattern."
+      },
+      {
+        "text": "Mumps would not account for eczema.",
+        "category": "causal",
+        "rationale": "This states a causal exclusion between mumps and eczema."
+      },
+      {
+        "text": "Mumps would not account for multilineage lymphocyte reduction.",
+        "category": "causal",
+        "rationale": "This states a causal exclusion between mumps and the immune cell abnormalities."
+      },
+      {
+        "text": "Mumps would not account for abnormal mitogen response.",
+        "category": "causal",
+        "rationale": "This states a causal exclusion between mumps and the functional immune defect."
+      },
+      {
+        "text": "Mumps would not account for autoimmune hemolytic anemia.",
+        "category": "causal",
+        "rationale": "This states a causal exclusion between mumps and the anemia."
+      },
+      {
+        "text": "Mumps would not account for persistent infiltrates.",
+        "category": "causal",
+        "rationale": "This states a causal exclusion between mumps and the lung findings."
+      },
+      {
+        "text": "Mumps would not account for high EBV load.",
+        "category": "causal",
+        "rationale": "This states a causal exclusion between mumps and EBV viremia."
+      },
+      {
+        "text": "She did not meet 5 of 8 HLH criteria.",
+        "category": "statistical",
+        "rationale": "This is a numerical criterion-based claim."
+      },
+      {
+        "text": "Frank HLH is not the primary diagnosis.",
+        "category": "factual",
+        "rationale": "This states a diagnostic conclusion."
+      },
+      {
+        "text": "EBV-driven immune dysregulation raises concern for progression.",
+        "category": "causal",
+        "rationale": "This links EBV-driven dysregulation to risk of worsening disease."
+      },
+      {
+        "text": "The immunoglobulin pattern is not classic for X-linked hyper-IgM syndrome.",
+        "category": "factual",
+        "rationale": "This states a diagnostic pattern assessment."
+      },
+      {
+        "text": "IgG is elevated rather than low.",
+        "category": "factual",
+        "rationale": "This states a laboratory comparison."
+      },
+      {
+        "text": "IgA is elevated rather than low.",
+        "category": "factual",
+        "rationale": "This states a laboratory comparison."
+      },
+      {
+        "text": "Activated PI3K delta syndrome fits very well.",
+        "category": "factual",
+        "rationale": "This states a diagnostic impression."
+      },
+      {
+        "text": "APDS commonly presents in early childhood.",
+        "category": "factual",
+        "rationale": "This is a general clinical characteristic of the disorder."
+      },
+      {
+        "text": "APDS commonly presents with recurrent sinopulmonary or ear infections.",
+        "category": "factual",
+        "rationale": "This is a general clinical characteristic of the disorder."
+      },
+      {
+        "text": "APDS commonly presents with herpesvirus susceptibility, especially EBV.",
+        "category": "factual",
+        "rationale": "This is a general clinical characteristic of the disorder."
+      },
+      {
+        "text": "APDS commonly presents with lymphadenopathy and hepatosplenomegaly.",
+        "category": "factual",
+        "rationale": "This is a general clinical characteristic of the disorder."
+      },
+      {
+        "text": "APDS commonly presents with autoimmune cytopenias.",
+        "category": "factual",
+        "rationale": "This is a general clinical characteristic of the disorder."
+      },
+      {
+        "text": "APDS commonly presents with eczema.",
+        "category": "factual",
+        "rationale": "This is a general clinical characteristic of the disorder."
+      },
+      {
+        "text": "APDS commonly presents with elevated IgM with variable elevations in other immunoglobulins.",
+        "category": "factual",
+        "rationale": "This is a general clinical characteristic of the disorder."
+      },
+      {
+        "text": "APDS commonly presents with reduced naive lymphocytes or lymphopenia.",
+        "category": "factual",
+        "rationale": "This is a general clinical characteristic of the disorder."
+      },
+      {
+        "text": "APDS commonly presents with impaired T-cell proliferation.",
+        "category": "factual",
+        "rationale": "This is a general clinical characteristic of the disorder."
+      },
+      {
+        "text": "APDS commonly presents with nodular or interstitial lung disease or persistent infiltrates.",
+        "category": "factual",
+        "rationale": "This is a general clinical characteristic of the disorder."
+      },
+      {
+        "text": "The combination of EBV viremia, autoimmune hemolytic anemia, hepatosplenomegaly, recurrent otitis, eczema, and abnormal lymphocyte subsets and proliferation is highly characteristic of APDS.",
+        "category": "causal",
+        "rationale": "This links the constellation of findings to a specific diagnosis."
+      },
+      {
+        "text": "Autoimmune lymphoproliferative syndrome is plausible.",
+        "category": "factual",
+        "rationale": "This states a diagnostic possibility."
+      },
+      {
+        "text": "ALPS is plausible because of autoimmune hemolytic anemia, lymphadenopathy, hepatosplenomegaly, and elevated soluble IL-2 receptor.",
+        "category": "causal",
+        "rationale": "This gives reasons supporting the diagnostic possibility."
+      },
+      {
+        "text": "ALPS more typically features chronic nonmalignant lymphoproliferation with elevated double-negative T cells.",
+        "category": "factual",
+        "rationale": "This states a general characteristic of ALPS."
+      },
+      {
+        "text": "ALPS usually has normal or increased lymphocyte counts rather than reduced B, T, and NK cells.",
+        "category": "factual",
+        "rationale": "This states a general characteristic of ALPS."
+      },
+      {
+        "text": "Severe EBV susceptibility is less typical of ALPS.",
+        "category": "factual",
+        "rationale": "This states a comparative diagnostic feature."
+      },
+      {
+        "text": "Poor PHA response is less typical of ALPS.",
+        "category": "factual",
+        "rationale": "This states a comparative diagnostic feature."
+      },
+      {
+        "text": "X-linked lymphoproliferative disease or EBV-driven immune dysregulation could be considered.",
+        "category": "recommendation",
+        "rationale": "This suggests diagnostic considerations to pursue."
+      },
+      {
+        "text": "This consideration is based on significant EBV infection, cytopenias, and concern for HLH-like features.",
+        "category": "causal",
+        "rationale": "This explains why the consideration is being made."
+      },
+      {
+        "text": "The patient is female.",
+        "category": "factual",
+        "rationale": "This states a patient attribute."
+      },
+      {
+        "text": "Rare female presentations can occur in X-linked lymphoproliferative disease.",
+        "category": "factual",
+        "rationale": "This states a general clinical possibility."
+      },
+      {
+        "text": "X-linked lymphoproliferative disease is less likely.",
+        "category": "factual",
+        "rationale": "This states a diagnostic assessment."
+      },
+      {
+        "text": "Recurrent otitis is less classic for X-linked lymphoproliferative disease.",
+        "category": "factual",
+        "rationale": "This compares the symptom pattern with the disorder."
+      },
+      {
+        "text": "Eczema is less classic for X-linked lymphoproliferative disease.",
+        "category": "factual",
+        "rationale": "This compares the symptom pattern with the disorder."
+      },
+      {
+        "text": "The broader immunophenotype is less classic for X-linked lymphoproliferative disease.",
+        "category": "factual",
+        "rationale": "This compares the immune findings with the disorder."
+      },
+      {
+        "text": "Combined immunodeficiency or a CVID-like disorder could explain recurrent infections, poor mitogen response, lymphopenia, autoimmunity, and lung disease.",
+        "category": "causal",
+        "rationale": "This proposes a mechanism linking the findings to alternative diagnoses."
+      },
+      {
+        "text": "Among named entities, APDS better integrates the elevated IgM and EBV-associated lymphoproliferation.",
+        "category": "causal",
+        "rationale": "This compares diagnoses based on how well they explain the findings."
+      },
+      {
+        "text": "The single best diagnosis is activated PI3K delta syndrome.",
+        "category": "factual",
+        "rationale": "This states the final diagnostic conclusion."
+      },
+      {
+        "text": "APDS is a primary combined immunodeficiency with immune dysregulation.",
+        "category": "factual",
+        "rationale": "This states a defining disease description."
+      },
+      {
+        "text": "APDS parsimoniously explains the recurrent ear infections.",
+        "category": "causal",
+        "rationale": "This links the diagnosis to the symptom pattern."
+      },
+      {
+        "text": "APDS parsimoniously explains the eczema.",
+        "category": "causal",
+        "rationale": "This links the diagnosis to the symptom pattern."
+      },
+      {
+        "text": "APDS parsimoniously explains the elevated immunoglobulins including IgM.",
+        "category": "causal",
+        "rationale": "This links the diagnosis to the laboratory findings."
+      },
+      {
+        "text": "APDS parsimoniously explains the EBV viremia.",
+        "category": "causal",
+        "rationale": "This links the diagnosis to the virologic finding."
+      },
+      {
+        "text": "APDS parsimoniously explains the hepatosplenomegaly and adenopathy.",
+        "category": "causal",
+        "rationale": "This links the diagnosis to the organ enlargement and nodes."
+      },
+      {
+        "text": "APDS parsimoniously explains the autoimmune hemolytic anemia.",
+        "category": "causal",
+        "rationale": "This links the diagnosis to the autoimmune cytopenia."
+      },
+      {
+        "text": "APDS parsimoniously explains the lymphopenia affecting B, T, and NK cells.",
+        "category": "causal",
+        "rationale": "This links the diagnosis to the immune cell abnormalities."
+      },
+      {
+        "text": "APDS parsimoniously explains the impaired PHA response.",
+        "category": "causal",
+        "rationale": "This links the diagnosis to the functional immune defect."
+      },
+      {
+        "text": "APDS parsimoniously explains the persistent pulmonary infiltrates.",
+        "category": "causal",
+        "rationale": "This links the diagnosis to the lung findings."
+      },
+      {
+        "text": "Activated PI3K delta syndrome is the final diagnosis.",
+        "category": "factual",
+        "rationale": "This states the concluding diagnosis."
+      }
+    ]
+  }
+}

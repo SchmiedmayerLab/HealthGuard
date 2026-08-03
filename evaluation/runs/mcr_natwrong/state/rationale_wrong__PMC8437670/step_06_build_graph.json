@@ -1,0 +1,1157 @@
+{
+  "name": "build_graph",
+  "passed": false,
+  "score": 0.8176,
+  "reasoning": "Graph built with 74 node(s) and 32 edge(s). 27 disconnected node(s): n10, n11, n16, n17, n18, n19, n20, n21, n22, n23, n24, n25, n26, n27, n28, n29, n30, n31, n36, n43, n47, n5, n51, n53, n61, n66, n69. The graph centers on an initial DVT concern that is weakened by negative Doppler and strengthened alternative imaging showing a pelvic retroperitoneal mass compressing the iliac vein. That mass effect best explains the unilateral leg edema and shifts the diagnosis toward retroperitoneal sarcoma, while lymphoma and ovarian neoplasm remain secondary differentials and DVT becomes low likelihood.",
+  "data": {
+    "nodes": [
+      {
+        "id": "n1",
+        "text": "The chief complaint is a two-week history of unilateral left lower extremity swelling and pain.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Matches the presentation: two-week history of left lower extremity swelling and pain.",
+        "cluster_idx": 0,
+        "cluster_label": "history_taking"
+      },
+      {
+        "id": "n2",
+        "text": "The patient’s immediate concern is likely a vascular cause such as deep venous thrombosis.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "DVT is a reasonable immediate concern given unilateral painful leg swelling, though not stated verbatim.",
+        "cluster_idx": 0,
+        "cluster_label": "history_taking"
+      },
+      {
+        "id": "n3",
+        "text": "The case data quickly redirect away from primary venous thrombosis and toward a pelvic obstructive process.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Supported by negative Doppler and CTA showing a pelvic mass compressing/occluding the iliac vein.",
+        "cluster_idx": 0,
+        "cluster_label": "history_taking"
+      },
+      {
+        "id": "n4",
+        "text": "Salient positive findings include unilateral left leg pitting edema and pain.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Reference data explicitly notes left lower extremity pitting edema and pain.",
+        "cluster_idx": 0,
+        "cluster_label": "history_taking"
+      },
+      {
+        "id": "n5",
+        "text": "Salient positive findings include slight improvement with elevation and NSAIDs.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Presentation states symptoms improved slightly with leg elevation and NSAIDs.",
+        "cluster_idx": 0,
+        "cluster_label": "history_taking"
+      },
+      {
+        "id": "n6",
+        "text": "Salient positive findings include a Doppler ultrasound negative for DVT.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Doppler ultrasound of the left leg was negative for DVT.",
+        "cluster_idx": 0,
+        "cluster_label": "history_taking"
+      },
+      {
+        "id": "n7",
+        "text": "Salient positive findings include CTA showing a large heterogeneous left pelvic retroperitoneal mass centered at the left iliac chain measuring 8.7 × 6.9 × 8.5 cm.",
+        "category": "statistical",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "CTA showed a large heterogeneous left pelvic retroperitoneal mass centered at the left iliac chain measuring 8.7 × 6.9 × 8.5 cm.",
+        "cluster_idx": 0,
+        "cluster_label": "history_taking"
+      },
+      {
+        "id": "n8",
+        "text": "Salient positive findings include probable compression or occlusion of the adjacent iliac vein.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "CTA reported probable compression or occlusion of the adjacent iliac vein.",
+        "cluster_idx": 0,
+        "cluster_label": "history_taking"
+      },
+      {
+        "id": "n9",
+        "text": "She has elevated inflammatory markers.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "ESR 35 mm/hr and CRP 30.1 mg/L are elevated inflammatory markers.",
+        "cluster_idx": 0,
+        "cluster_label": "history_taking"
+      },
+      {
+        "id": "n10",
+        "text": "Her ESR is 35 mm/hr.",
+        "category": "statistical",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "ESR is explicitly 35 mm/hr.",
+        "cluster_idx": 0,
+        "cluster_label": "history_taking"
+      },
+      {
+        "id": "n11",
+        "text": "Her CRP is 30.1 mg/L.",
+        "category": "statistical",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "CRP is explicitly 30.1 mg/L.",
+        "cluster_idx": 0,
+        "cluster_label": "history_taking"
+      },
+      {
+        "id": "n12",
+        "text": "Her age is 65 years.",
+        "category": "statistical",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Patient is 65 years old.",
+        "cluster_idx": 0,
+        "cluster_label": "history_taking"
+      },
+      {
+        "id": "n13",
+        "text": "Her age raises concern for malignancy.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Older age reasonably raises concern for malignancy, though this is an inference rather than a stated fact.",
+        "cluster_idx": 0,
+        "cluster_label": "history_taking"
+      },
+      {
+        "id": "n14",
+        "text": "She is immunomodulated with methotrexate and adalimumab for inflammatory polyarthritis.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "History lists inflammatory polyarthritis treated with methotrexate and adalimumab.",
+        "cluster_idx": 0,
+        "cluster_label": "history_taking"
+      },
+      {
+        "id": "n15",
+        "text": "This immunomodulatory therapy broadens concern for lymphoproliferative disease.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Immunomodulatory therapy can increase concern for lymphoproliferative disease; this is a standard clinical inference.",
+        "cluster_idx": 0,
+        "cluster_label": "history_taking"
+      },
+      {
+        "id": "n16",
+        "text": "The diagnosis must rest on the presented findings.",
+        "category": "factual",
+        "verified": true,
+        "score": 0.6,
+        "reasoning": "This is a reasoning statement about diagnostic approach, not directly checkable from the case data.",
+        "cluster_idx": 1,
+        "cluster_label": "examination"
+      },
+      {
+        "id": "n17",
+        "text": "Strong peripheral pulses argue against arterial insufficiency as the cause of leg symptoms.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Strong pulses make arterial insufficiency less likely as the cause of leg symptoms.",
+        "cluster_idx": 1,
+        "cluster_label": "examination"
+      },
+      {
+        "id": "n18",
+        "text": "The abdomen being soft and nondistended does not exclude a retroperitoneal pelvic mass.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "A soft, nondistended abdomen does not exclude a retroperitoneal pelvic mass; this is a sound clinical inference.",
+        "cluster_idx": 1,
+        "cluster_label": "examination"
+      },
+      {
+        "id": "n19",
+        "text": "There is no shortness of breath.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "She denied shortness of breath.",
+        "cluster_idx": 1,
+        "cluster_label": "examination"
+      },
+      {
+        "id": "n20",
+        "text": "There is no chest pain.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "She denied chest pain.",
+        "cluster_idx": 1,
+        "cluster_label": "examination"
+      },
+      {
+        "id": "n21",
+        "text": "The absence of shortness of breath and chest pain makes pulmonary embolism less likely as the explanation for symptoms.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Absence of SOB/chest pain makes PE less likely as the explanation, though not impossible.",
+        "cluster_idx": 1,
+        "cluster_label": "examination"
+      },
+      {
+        "id": "n22",
+        "text": "There is no recent trauma.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "She denied recent trauma.",
+        "cluster_idx": 1,
+        "cluster_label": "examination"
+      },
+      {
+        "id": "n23",
+        "text": "The absence of recent trauma argues against hematoma from injury.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "No trauma reasonably argues against traumatic hematoma.",
+        "cluster_idx": 1,
+        "cluster_label": "examination"
+      },
+      {
+        "id": "n24",
+        "text": "There is no fever.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "She denied fever.",
+        "cluster_idx": 1,
+        "cluster_label": "examination"
+      },
+      {
+        "id": "n25",
+        "text": "The absence of fever makes abscess or infectious adenitis less likely.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "No fever makes abscess or infectious adenitis less likely.",
+        "cluster_idx": 1,
+        "cluster_label": "examination"
+      },
+      {
+        "id": "n26",
+        "text": "There is no unexplained weight loss.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "She denied unexplained weight loss.",
+        "cluster_idx": 1,
+        "cluster_label": "examination"
+      },
+      {
+        "id": "n27",
+        "text": "The absence of unexplained weight loss does not exclude malignancy.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Absence of weight loss does not rule out malignancy.",
+        "cluster_idx": 1,
+        "cluster_label": "examination"
+      },
+      {
+        "id": "n28",
+        "text": "She is on therapeutic warfarin.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "She was on warfarin with therapeutic INR.",
+        "cluster_idx": 1,
+        "cluster_label": "examination"
+      },
+      {
+        "id": "n29",
+        "text": "Therapeutic warfarin with a negative Doppler makes standard lower-extremity DVT less likely as the primary diagnosis.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Therapeutic warfarin plus negative Doppler makes standard lower-extremity DVT less likely as the primary diagnosis.",
+        "cluster_idx": 1,
+        "cluster_label": "examination"
+      },
+      {
+        "id": "n30",
+        "text": "The smoking history is minimal and remote.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Smoking history was three pack-years, quitting 40 years prior, which is minimal and remote.",
+        "cluster_idx": 1,
+        "cluster_label": "examination"
+      },
+      {
+        "id": "n31",
+        "text": "The smoking history does not strongly point toward a smoking-related metastatic malignancy.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Minimal remote smoking history does not strongly suggest a smoking-related metastatic malignancy.",
+        "cluster_idx": 1,
+        "cluster_label": "examination"
+      },
+      {
+        "id": "n32",
+        "text": "The first differential is deep venous thrombosis.",
+        "category": "factual",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "DVT is an appropriate initial differential for unilateral painful leg swelling, but not explicitly stated in the reference data.",
+        "cluster_idx": 2,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n33",
+        "text": "Deep venous thrombosis fits unilateral leg swelling and pain.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Unilateral leg swelling and pain are classic for DVT.",
+        "cluster_idx": 2,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n34",
+        "text": "Deep venous thrombosis is undermined by a negative Doppler ultrasound.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "A negative Doppler undermines DVT as the diagnosis.",
+        "cluster_idx": 2,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n35",
+        "text": "Deep venous thrombosis is undermined by the discovery of a large pelvic mass directly compressing or occluding the iliac vein.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "CTA showing iliac vein compression/occlusion by a pelvic mass directly weakens DVT as the primary explanation.",
+        "cluster_idx": 2,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n36",
+        "text": "Deep venous thrombosis could still coexist proximally.",
+        "category": "factual",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Proximal DVT can coexist despite a negative leg Doppler; this is a plausible clinical caveat.",
+        "cluster_idx": 2,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n37",
+        "text": "The imaging provides a more direct explanation than deep venous thrombosis.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "The pelvic mass with iliac vein compression provides a more direct explanation for the symptoms than DVT.",
+        "cluster_idx": 2,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n38",
+        "text": "The next differential is lymphoma.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Lymphoma is explicitly listed in the imaging differential.",
+        "cluster_idx": 2,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n39",
+        "text": "Lymphoma is plausible because the mass is centered at the left iliac chain, where bulky nodal disease can occur.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "A mass centered at the iliac chain could represent bulky nodal disease, making lymphoma plausible.",
+        "cluster_idx": 2,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n40",
+        "text": "Lymphoma is plausible because inflammatory markers are elevated.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Elevated inflammatory markers can be seen with lymphoma, so this is a reasonable supporting inference.",
+        "cluster_idx": 2,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n41",
+        "text": "Immunosuppressive therapy makes lymphoproliferative disease a reasonable consideration.",
+        "category": "causal",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Reference data states she is on methotrexate and adalimumab for inflammatory polyarthritis, which reasonably raises concern for lymphoproliferative disease.",
+        "cluster_idx": 2,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n42",
+        "text": "The imaging description emphasizes a large heterogeneous retroperitoneal pelvic mass rather than clearly nodal conglomerates.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "CTA described a large heterogeneous left pelvic retroperitoneal mass centered at the left iliac chain, not a clearly nodal conglomerate.",
+        "cluster_idx": 2,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n43",
+        "text": "There are no B symptoms reported.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "The case denies shortness of breath, chest pain, fever, and unexplained weight loss; no B symptoms are reported.",
+        "cluster_idx": 2,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n44",
+        "text": "Retroperitoneal sarcoma is another strong candidate.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "The trace explicitly states retroperitoneal sarcoma is another strong candidate.",
+        "cluster_idx": 2,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n45",
+        "text": "Retroperitoneal sarcoma fits an older adult with a large heterogeneous retroperitoneal mass causing mass effect on the iliac vein and resulting unilateral leg edema.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "This is a clinically sound synthesis of the age, mass characteristics, iliac vein compression, and unilateral edema.",
+        "cluster_idx": 2,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n46",
+        "text": "Sarcomas commonly present as large masses due to the expansile capacity of the retroperitoneum.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "General oncologic knowledge: retroperitoneal sarcomas often become large before detection because the retroperitoneum can accommodate expansion.",
+        "cluster_idx": 2,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n47",
+        "text": "Sarcomas may lack systemic symptoms early.",
+        "category": "factual",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "This is a standard clinical generalization about sarcomas and is consistent with the case, though not directly stated in the data.",
+        "cluster_idx": 2,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n48",
+        "text": "Ovarian neoplasm is also considered.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Ovarian neoplasm is explicitly listed in the imaging differential.",
+        "cluster_idx": 2,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n49",
+        "text": "A pelvic mass in a woman can arise from adnexal structures and cause venous compression.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "A pelvic mass in a woman can arise from adnexal structures and compress veins; this is a reasonable differential inference.",
+        "cluster_idx": 2,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n50",
+        "text": "The lesion is described as retroperitoneal and centered at the left iliac chain rather than clearly adnexal.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "The CTA described the lesion as a retroperitoneal mass centered at the left iliac chain rather than a clearly adnexal lesion.",
+        "cluster_idx": 2,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n51",
+        "text": "There are no gynecologic or abdominal symptoms provided.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "The presentation mentions no gynecologic symptoms and no abdominal symptoms beyond a soft, nondistended abdomen.",
+        "cluster_idx": 2,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n52",
+        "text": "Germ cell tumor is much less likely in a 65-year-old woman.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Given the patient's age and the imaging differential, germ cell tumor is appropriately considered much less likely.",
+        "cluster_idx": 2,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n53",
+        "text": "Germ cell tumor was included in the imaging differential.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Germ cell tumor is explicitly included in the imaging differential.",
+        "cluster_idx": 2,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n54",
+        "text": "The age and location make germ cell tumor less favored.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "This follows from the patient's age and the lesion location; it is a reasonable pruning statement, not a direct factual claim.",
+        "cluster_idx": 2,
+        "cluster_label": "differential_generation"
+      },
+      {
+        "id": "n55",
+        "text": "The patient’s leg swelling is best explained by iliac vein compression from a pelvic retroperitoneal mass.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "The CTA showed probable iliac vein compression/occlusion, which plausibly explains the unilateral leg swelling.",
+        "cluster_idx": 3,
+        "cluster_label": "final_decision"
+      },
+      {
+        "id": "n56",
+        "text": "Among the candidate etiologies listed, the imaging description of a large heterogeneous retroperitoneal mass in an older adult most strongly favors retroperitoneal sarcoma over lymphoma or ovarian neoplasm.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "This is a reasoned prioritization of the differential based on imaging and age, not a directly stated fact.",
+        "cluster_idx": 3,
+        "cluster_label": "final_decision"
+      },
+      {
+        "id": "n57",
+        "text": "The most likely diagnosis is retroperitoneal sarcoma presenting with left iliac vein compression and unilateral leg edema.",
+        "category": "factual",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "This is the trace's final diagnostic conclusion, which legitimately follows from the data.",
+        "cluster_idx": 3,
+        "cluster_label": "final_decision"
+      },
+      {
+        "id": "n58",
+        "text": "The differential diagnosis includes retroperitoneal sarcoma with high likelihood.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Retroperitoneal sarcoma is listed in the differential with high likelihood.",
+        "cluster_idx": 3,
+        "cluster_label": "final_decision"
+      },
+      {
+        "id": "n59",
+        "text": "Retroperitoneal sarcoma is supported by a large heterogeneous left pelvic retroperitoneal mass measuring 8.7 × 6.9 × 8.5 cm in a 65-year-old.",
+        "category": "statistical",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "The mass measured 8.7 × 6.9 × 8.5 cm and the patient is 65 years old, matching the statement.",
+        "cluster_idx": 3,
+        "cluster_label": "final_decision"
+      },
+      {
+        "id": "n60",
+        "text": "Retroperitoneal sarcoma is supported by probable iliac vein compression or occlusion and unilateral leg edema.",
+        "category": "causal",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "CTA reported probable compression or occlusion of the adjacent iliac vein, with unilateral leg edema present.",
+        "cluster_idx": 3,
+        "cluster_label": "final_decision"
+      },
+      {
+        "id": "n61",
+        "text": "Retroperitoneal sarcomas often present as bulky masses with mass effect.",
+        "category": "factual",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "This is standard medical knowledge about retroperitoneal sarcomas and is consistent with the case.",
+        "cluster_idx": 3,
+        "cluster_label": "final_decision"
+      },
+      {
+        "id": "n62",
+        "text": "The differential diagnosis includes lymphoma with medium likelihood.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Lymphoma is explicitly listed in the differential with medium likelihood.",
+        "cluster_idx": 3,
+        "cluster_label": "final_decision"
+      },
+      {
+        "id": "n63",
+        "text": "Lymphoma is supported by a mass centered at the left iliac chain.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "A mass centered at the left iliac chain can represent bulky nodal disease, making lymphoma a reasonable inference.",
+        "cluster_idx": 3,
+        "cluster_label": "final_decision"
+      },
+      {
+        "id": "n64",
+        "text": "Lymphoma is supported by elevated ESR and CRP.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Elevated ESR and CRP are nonspecific but can support lymphoma as part of the differential; this is an inference, not a direct proof.",
+        "cluster_idx": 3,
+        "cluster_label": "final_decision"
+      },
+      {
+        "id": "n65",
+        "text": "Immunomodulatory therapy may increase concern for lymphoproliferative disease.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "Methotrexate and adalimumab are immunomodulatory therapies, so increased concern for lymphoproliferative disease is a reasonable inference.",
+        "cluster_idx": 3,
+        "cluster_label": "final_decision"
+      },
+      {
+        "id": "n66",
+        "text": "No B symptoms are reported.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "The case reports no fever, chest pain, shortness of breath, trauma, or weight loss; no B symptoms are reported.",
+        "cluster_idx": 3,
+        "cluster_label": "final_decision"
+      },
+      {
+        "id": "n67",
+        "text": "The differential diagnosis includes ovarian neoplasm with low likelihood.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Ovarian neoplasm is explicitly listed in the differential with low likelihood.",
+        "cluster_idx": 3,
+        "cluster_label": "final_decision"
+      },
+      {
+        "id": "n68",
+        "text": "A pelvic mass in an older woman could be adnexal and cause venous compression.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "A pelvic mass in an older woman can be adnexal and compress veins; this is a standard differential consideration.",
+        "cluster_idx": 3,
+        "cluster_label": "final_decision"
+      },
+      {
+        "id": "n69",
+        "text": "The imaging describes a retroperitoneal mass centered at the iliac chain rather than a clearly ovarian lesion.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "The imaging described a retroperitoneal mass centered at the iliac chain rather than a clearly ovarian lesion.",
+        "cluster_idx": 3,
+        "cluster_label": "final_decision"
+      },
+      {
+        "id": "n70",
+        "text": "The differential diagnosis includes deep venous thrombosis with low likelihood.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Deep venous thrombosis is explicitly listed in the differential with low likelihood.",
+        "cluster_idx": 3,
+        "cluster_label": "final_decision"
+      },
+      {
+        "id": "n71",
+        "text": "Unilateral painful pitting edema suggests DVT.",
+        "category": "causal",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Unilateral painful pitting edema is present and is a classic DVT presentation.",
+        "cluster_idx": 3,
+        "cluster_label": "final_decision"
+      },
+      {
+        "id": "n72",
+        "text": "Doppler ultrasound was negative.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "Doppler ultrasound of the left leg was negative for DVT.",
+        "cluster_idx": 3,
+        "cluster_label": "final_decision"
+      },
+      {
+        "id": "n73",
+        "text": "CTA identified a pelvic mass with probable iliac vein compression as a more direct cause.",
+        "category": "causal",
+        "verified": true,
+        "score": 0.9,
+        "reasoning": "CTA showed probable iliac vein compression/occlusion by the pelvic mass, making it a more direct cause of symptoms.",
+        "cluster_idx": 3,
+        "cluster_label": "final_decision"
+      },
+      {
+        "id": "n74",
+        "text": "The final diagnosis is retroperitoneal sarcoma.",
+        "category": "factual",
+        "verified": true,
+        "score": 1.0,
+        "reasoning": "The trace explicitly states the final diagnosis is retroperitoneal sarcoma.",
+        "cluster_idx": 3,
+        "cluster_label": "final_decision"
+      }
+    ],
+    "edges": [
+      {
+        "source": "n1",
+        "target": "n2",
+        "kind": "supports",
+        "explanation": "Two-week unilateral leg swelling and pain reasonably prompt concern for DVT."
+      },
+      {
+        "source": "n4",
+        "target": "n33",
+        "kind": "supports",
+        "explanation": "Unilateral pitting edema and pain are classic features that fit DVT."
+      },
+      {
+        "source": "n33",
+        "target": "n32",
+        "kind": "supports",
+        "explanation": "Because DVT fits the presenting leg symptoms, it becomes the first differential."
+      },
+      {
+        "source": "n6",
+        "target": "n34",
+        "kind": "supports",
+        "explanation": "A negative Doppler ultrasound undermines lower-extremity DVT."
+      },
+      {
+        "source": "n7",
+        "target": "n8",
+        "kind": "supports",
+        "explanation": "The CTA mass description directly supports adjacent iliac vein compression or occlusion."
+      },
+      {
+        "source": "n8",
+        "target": "n35",
+        "kind": "supports",
+        "explanation": "Direct iliac vein compression by the pelvic mass undermines DVT as the primary explanation."
+      },
+      {
+        "source": "n34",
+        "target": "n37",
+        "kind": "supports",
+        "explanation": "A negative Doppler makes the imaging explanation more compelling than DVT."
+      },
+      {
+        "source": "n35",
+        "target": "n37",
+        "kind": "supports",
+        "explanation": "A pelvic mass compressing the iliac vein is a more direct explanation than DVT."
+      },
+      {
+        "source": "n37",
+        "target": "n3",
+        "kind": "supports",
+        "explanation": "The more direct imaging explanation shifts the case away from primary venous thrombosis toward pelvic obstruction."
+      },
+      {
+        "source": "n12",
+        "target": "n13",
+        "kind": "supports",
+        "explanation": "Older age increases concern for malignancy."
+      },
+      {
+        "source": "n14",
+        "target": "n15",
+        "kind": "supports",
+        "explanation": "Methotrexate and adalimumab raise concern for lymphoproliferative disease."
+      },
+      {
+        "source": "n38",
+        "target": "n39",
+        "kind": "supports",
+        "explanation": "A mass at the iliac chain is compatible with bulky nodal lymphoma."
+      },
+      {
+        "source": "n9",
+        "target": "n40",
+        "kind": "supports",
+        "explanation": "Elevated inflammatory markers can support lymphoma consideration."
+      },
+      {
+        "source": "n15",
+        "target": "n41",
+        "kind": "supports",
+        "explanation": "Immunosuppressive therapy makes lymphoproliferative disease a reasonable consideration."
+      },
+      {
+        "source": "n42",
+        "target": "n56",
+        "kind": "supports",
+        "explanation": "A heterogeneous retroperitoneal mass favors sarcoma over a clearly nodal lymphoma pattern."
+      },
+      {
+        "source": "n44",
+        "target": "n45",
+        "kind": "supports",
+        "explanation": "The stated features are characteristic of retroperitoneal sarcoma."
+      },
+      {
+        "source": "n46",
+        "target": "n44",
+        "kind": "supports",
+        "explanation": "Sarcomas commonly become large retroperitoneal masses, making this diagnosis plausible."
+      },
+      {
+        "source": "n48",
+        "target": "n49",
+        "kind": "supports",
+        "explanation": "A pelvic mass in a woman can arise from adnexal structures and compress veins."
+      },
+      {
+        "source": "n50",
+        "target": "n67",
+        "kind": "supports",
+        "explanation": "A retroperitoneal, iliac-chain-centered lesion is less typical for ovarian neoplasm."
+      },
+      {
+        "source": "n52",
+        "target": "n54",
+        "kind": "supports",
+        "explanation": "Germ cell tumor is less favored because of the patient's age and lesion location."
+      },
+      {
+        "source": "n55",
+        "target": "n57",
+        "kind": "supports",
+        "explanation": "Iliac vein compression from a pelvic retroperitoneal mass explains the leg edema and matches the final diagnosis."
+      },
+      {
+        "source": "n56",
+        "target": "n57",
+        "kind": "supports",
+        "explanation": "Among the listed etiologies, sarcoma is the strongest overall fit."
+      },
+      {
+        "source": "n59",
+        "target": "n58",
+        "kind": "supports",
+        "explanation": "The large heterogeneous retroperitoneal mass in an older adult supports high likelihood of sarcoma."
+      },
+      {
+        "source": "n60",
+        "target": "n58",
+        "kind": "supports",
+        "explanation": "Iliac vein compression with unilateral edema supports retroperitoneal sarcoma as the cause."
+      },
+      {
+        "source": "n63",
+        "target": "n62",
+        "kind": "supports",
+        "explanation": "A mass at the iliac chain supports lymphoma as a differential consideration."
+      },
+      {
+        "source": "n64",
+        "target": "n62",
+        "kind": "supports",
+        "explanation": "Elevated ESR and CRP support lymphoma as a medium-likelihood differential."
+      },
+      {
+        "source": "n65",
+        "target": "n62",
+        "kind": "supports",
+        "explanation": "Immunomodulatory therapy increases concern for lymphoma."
+      },
+      {
+        "source": "n68",
+        "target": "n67",
+        "kind": "supports",
+        "explanation": "A pelvic mass in an older woman could be adnexal and cause venous compression, supporting ovarian neoplasm as a low-likelihood differential."
+      },
+      {
+        "source": "n71",
+        "target": "n70",
+        "kind": "supports",
+        "explanation": "Unilateral painful pitting edema is compatible with DVT."
+      },
+      {
+        "source": "n72",
+        "target": "n70",
+        "kind": "supports",
+        "explanation": "A negative Doppler lowers the likelihood of DVT."
+      },
+      {
+        "source": "n73",
+        "target": "n70",
+        "kind": "supports",
+        "explanation": "CTA showing a pelvic mass with iliac vein compression provides a more direct alternative explanation than DVT."
+      },
+      {
+        "source": "n74",
+        "target": "n57",
+        "kind": "supports",
+        "explanation": "The final diagnosis statement is consistent with retroperitoneal sarcoma causing iliac vein compression and unilateral edema."
+      }
+    ],
+    "disconnected": [
+      "n10",
+      "n11",
+      "n16",
+      "n17",
+      "n18",
+      "n19",
+      "n20",
+      "n21",
+      "n22",
+      "n23",
+      "n24",
+      "n25",
+      "n26",
+      "n27",
+      "n28",
+      "n29",
+      "n30",
+      "n31",
+      "n36",
+      "n43",
+      "n47",
+      "n5",
+      "n51",
+      "n53",
+      "n61",
+      "n66",
+      "n69"
+    ],
+    "clusters": [
+      {
+        "cluster_id": "c1",
+        "label": "history_taking",
+        "statement_indices": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15
+        ],
+        "summary": "Initial presentation, key imaging/lab findings, and background risk factors establish concern for a pelvic obstructive mass rather than primary DVT.",
+        "salience": 0.95
+      },
+      {
+        "cluster_id": "c2",
+        "label": "examination",
+        "statement_indices": [
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31
+        ],
+        "summary": "Additional clinical context and negatives narrow the differential by arguing against PE, trauma, infection, and straightforward DVT.",
+        "salience": 0.7
+      },
+      {
+        "cluster_id": "c3",
+        "label": "differential_generation",
+        "statement_indices": [
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40,
+          41,
+          42,
+          43,
+          44,
+          45,
+          46,
+          47,
+          48,
+          49,
+          50,
+          51,
+          52,
+          53,
+          54
+        ],
+        "summary": "Differential diagnosis is developed, weighing DVT, lymphoma, retroperitoneal sarcoma, ovarian neoplasm, and germ cell tumor against the imaging and clinical pattern.",
+        "salience": 0.9
+      },
+      {
+        "cluster_id": "c4",
+        "label": "final_decision",
+        "statement_indices": [
+          55,
+          56,
+          57,
+          58,
+          59,
+          60,
+          61,
+          62,
+          63,
+          64,
+          65,
+          66,
+          67,
+          68,
+          69,
+          70,
+          71,
+          72,
+          73,
+          74
+        ],
+        "summary": "The reasoning converges on retroperitoneal sarcoma as the best explanation for iliac vein compression and unilateral leg edema, with the final diagnosis stated explicitly.",
+        "salience": 0.98
+      }
+    ],
+    "node_ranks": {
+      "n1": 0.4,
+      "n2": 0.475,
+      "n3": 0.475,
+      "n4": 0.325,
+      "n5": 0.325,
+      "n6": 0.25,
+      "n7": 0.175,
+      "n8": 0.25,
+      "n9": 0.4,
+      "n10": 0.325,
+      "n11": 0.325,
+      "n12": 0.4,
+      "n13": 0.475,
+      "n14": 0.325,
+      "n15": 0.4,
+      "n16": 0.5,
+      "n17": 0.5,
+      "n18": 0.5,
+      "n19": 0.5,
+      "n20": 0.5,
+      "n21": 0.5,
+      "n22": 0.5,
+      "n23": 0.5,
+      "n24": 0.5,
+      "n25": 0.5,
+      "n26": 0.5,
+      "n27": 0.5,
+      "n28": 0.5,
+      "n29": 0.5,
+      "n30": 0.5,
+      "n31": 0.5,
+      "n32": 0.825,
+      "n33": 0.75,
+      "n34": 0.675,
+      "n35": 0.675,
+      "n36": 0.675,
+      "n37": 0.75,
+      "n38": 0.75,
+      "n39": 0.825,
+      "n40": 0.825,
+      "n41": 0.825,
+      "n42": 0.675,
+      "n43": 0.675,
+      "n44": 0.75,
+      "n45": 0.825,
+      "n46": 0.675,
+      "n47": 0.675,
+      "n48": 0.75,
+      "n49": 0.825,
+      "n50": 0.75,
+      "n51": 0.675,
+      "n52": 0.75,
+      "n53": 0.675,
+      "n54": 0.825,
+      "n55": 0.925,
+      "n56": 0.925,
+      "n57": 1.0,
+      "n58": 1.0,
+      "n59": 0.925,
+      "n60": 0.925,
+      "n61": 0.85,
+      "n62": 1.0,
+      "n63": 0.925,
+      "n64": 0.925,
+      "n65": 0.925,
+      "n66": 0.85,
+      "n67": 1.0,
+      "n68": 0.925,
+      "n69": 0.85,
+      "n70": 1.0,
+      "n71": 0.925,
+      "n72": 0.925,
+      "n73": 0.925,
+      "n74": 0.925
+    }
+  }
+}

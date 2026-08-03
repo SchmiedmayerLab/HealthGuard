@@ -1,0 +1,10 @@
+{
+  "name": "chain_verify",
+  "passed": true,
+  "score": 1.0,
+  "reasoning": "All logical chains are internally consistent. The statements form a coherent diagnostic chain: symptoms and exam localize to the jugular foramen/CPA region, imaging features support a hypervascular jugular foramen mass, and the differential comparisons appropriately argue against alternative diagnoses. The final conclusion that glomus jugulare paraganglioma is most likely is logically supported by the preceding statements.",
+  "data": {
+    "has_chain_dependencies": true,
+    "issues": []
+  }
+}

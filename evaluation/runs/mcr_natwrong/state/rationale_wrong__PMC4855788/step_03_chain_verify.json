@@ -1,0 +1,10 @@
+{
+  "name": "chain_verify",
+  "passed": true,
+  "score": 1.0,
+  "reasoning": "All logical chains are internally consistent. The statements form a coherent diagnostic chain: the clinical presentation and imaging/lab findings are used to narrow the differential, and the cited features consistently support Rathke cleft cyst over craniopharyngioma, cystic pituitary adenoma, or arachnoid cyst. No statement pair appears logically incompatible or unsupported by the preceding statements.",
+  "data": {
+    "has_chain_dependencies": true,
+    "issues": []
+  }
+}
