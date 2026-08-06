@@ -1,3 +1,7 @@
+> [!IMPORTANT]
+> **This repository is archived.** Work on HealthGuard continues at
+> [github.com/SchmiedmayerLab/HealthGuard](https://github.com/SchmiedmayerLab/HealthGuard).
+
 # HealthGuard
 
 HealthGuard is a ground-truth-free agentic verifier for clinical language models. Given a
@@ -9,7 +13,7 @@ complete and safer, or a set of flags (unsound or unsafe claims and coverage gap
 case to a clinician, or both.
 
 This repository contains the verifier itself, the evaluation harness used in the accompanying (wip) paper,
-the figure-generation code, and the clinician rating form. The run artifacts behind the results are included under `evaluation/runs/`; the source benchmark corpora are not redistributed and can be obtained from their original sources (see Datasets).
+the figure-generation code, and the clinician rating form. The run artifacts behind the results are not included in this archived repository; the source benchmark corpora are not redistributed and can be obtained from their original sources (see Datasets).
 
 ## Repository layout
 
